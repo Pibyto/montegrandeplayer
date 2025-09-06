@@ -861,7 +861,8 @@ https://www.youtube.com/watch?v=AYuYukZDtcE
 ######################################
 
 
-
+#EXTINF:-1 tvg-logo="https://i.ibb.co/gMqCmMzS/Nuevo-2.png"group-title="ARGENTINA",MG RADIO 24/7
+http://radios.yanapak.org:8000/montegranderadio
 
 #EXTINF:-1 tvg-logo="https://i.ibb.co/bQMdXs3/Screenshot-20241226-095234-XPlayer-Video-Player-removebg-preview.png"group-title="ARGENTINA",EL TRECE  33.1
 https://livetrx01.vodgc.net:443/eltrecetv/tracks-v2a1/mono.m3u8
