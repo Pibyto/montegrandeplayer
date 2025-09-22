@@ -496,7 +496,7 @@
     </button>
 
     <audio id="audio" preload="none">
-        <source src="https://uk14freenew.listen2myradio.com/live.mp3?typeportmount=s1_29586_stream" type="audio/mpeg">
+        <source src="https://radios.yanapak.org/montegranderadio" type="audio/mpeg">
     </audio>
 
     <script>
@@ -669,7 +669,7 @@
         function startCasting() {
             if (!castSession) return;
             
-            const mediaInfo = new chrome.cast.media.MediaInfo('https://uk14freenew.listen2myradio.com/live.mp3?typeportmount=s1_29586_stream', 'audio/mpeg');
+            const mediaInfo = new chrome.cast.media.MediaInfo('https://radios.yanapak.org/montegranderadio', 'audio/mpeg');
             mediaInfo.metadata = new chrome.cast.media.MusicTrackMediaMetadata();
             mediaInfo.metadata.title = 'MG RADIO - La que te conecta con Dios';
             mediaInfo.metadata.artist = 'Monte Grande Radio';
@@ -694,7 +694,7 @@
         function updateCastMetadata() {
             if (!castSession || !currentMedia) return;
             
-            const mediaInfo = new chrome.cast.media.MediaInfo('https://uk14freenew.listen2myradio.com/live.mp3?typeportmount=s1_29586_stream', 'audio/mpeg');
+            const mediaInfo = new chrome.cast.media.MediaInfo('https://radios.yanapak.org/montegranderadio', 'audio/mpeg');
             mediaInfo.metadata = new chrome.cast.media.MusicTrackMediaMetadata();
             mediaInfo.metadata.title = 'MG RADIO - La que te conecta con Dios';
             mediaInfo.metadata.artist = 'Monte Grande Radio';
