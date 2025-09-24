@@ -898,6 +898,10 @@ https://vs20.live.opencaster.com/montetv_49c0778f/index.m3u8
 https://live20.bozztv.com/giatvplayout7/giatv-208138/playlist.m3u8
 
 
+#EXTINF:-1 tvg-logo="https://i.ibb.co/bMQmspRM/Photoroom-20250718-231530.png"group-title="ARGENTINA",MONTEGRANDETV IBLUPS
+https://live-stream.iblups.com/video/6ba210fe0b86a6b194986ca160890e7670c0c3ca.m3u8
+
+
 #EXTINF:-1 tvg-logo="https://imagizer.imageshack.com/v2/320xq70/r/922/j2Xtla.png"group-title="ARGENTINA",MONTEGRANDE TV MI ESPERANZA 
 https://live20.bozztv.com/giatvplayout7/giatv-209909/tracks-v1a1/mono.ts.m3u8
 
