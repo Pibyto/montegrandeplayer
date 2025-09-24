@@ -2421,6 +2421,10 @@ https://stream-us-east-1.getpublica.com/playlist.m3u8?cb=[CACHEBUSTER]&network_i
 
 
 
+#EXTINF:-1 tvg-logo="https://tinyurl.com/mvfbubn9"group-title="GUATEMALA",MARANATHA TV
+https://live20.bozztv.com/akamaissh101/ssh101/maranathatv/playlist.m3u8
+
+
 #EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQrsl46SBPeskcXcgCtW-YSq9VWZs2TxGorzI9OQpOu4ZnftCQBWmFqLVxKMABA7indPfU&usqp=CAU"group-title="GUATEMALA",BARBE TV
 https://cdn.streamhispanatv.net:3549/live/barbetvlive.m3u8
 
