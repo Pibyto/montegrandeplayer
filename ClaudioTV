@@ -493,10 +493,6 @@ https://a-cdn.klowdtv.com:443/live1/cine_720p/chunks.m3u8
 
 
 #EXTINF:-1 tvg-logo="https://i.ibb.co/QKzjwmk/Untitled-removebg-preview.png"group-title="CINE PREMIUM",PLAY TV MONTE GRANDE
-https://daa1.vdcast.live/pTlNLR2akJGlFfzWYVrlSQ/1759045130/323830303a3831303a3432653a396662393a643036393a633137393a376538373a66363538/ff426/playlist.m3u8?b=1
-
-
-
 https://live20.bozztv.com/giatvplayout7/giatv-208817/tracks-v1a1/mono.ts.m3u8
 
 
@@ -887,7 +883,10 @@ https://live20.bozztv.com/akamaissh101/ssh101/mgradiotv/playlist.m3u8
 
 
 #EXTINF:-1 tvg-logo="https://i.ibb.co/RT1Z7khz/Photoroom-20250728-112633.png"group-title="ARGENTINA",MONTE GRANDE TV OKRU
-https://vsd147.okcdn.ru/hls/8435042486882.m3u8/sig/rn-2dn0wwew/expires/1758773616737/srcIp/181.46.68.191/urls/185.226.55.83/clientType/1/srcAg/UNKNOWN_ANDROID/mid/9225153158754/8435042486882_high/index.m3u8
+https://vsd147.okcdn.ru/hls/8435042486882.m3u8/sig/yO9r0YZmVaw/expires/1759113445735/srcIp/181.46.68.191/urls/185.226.52.87/clientType/1/srcAg/UNKNOWN_ANDROID/mid/9225153158754/8435042486882_high/index.m3u8
+
+
+
 
 
 
