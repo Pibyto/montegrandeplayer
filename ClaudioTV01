@@ -1,4 +1,4 @@
-⁸#EXTM3U
+#EXTM3U
 
 
 
@@ -1023,8 +1023,8 @@ https://livetrx01.vodgc.net:443/eltrecetv/tracks-v2a1/mono.m3u8
 https://live20.bozztv.com/akamaissh101/ssh101/montegrandetv/playlist.m3u8
 
 
-#EXTINF:-1 tvg-logo="https://i.ibb.co/RT1Z7khz/Photoroom-20250728-112633.png"group-title="ARGENTINA",MONTE GRANDE TV  LIVE
-https://micanal.ovh/livestreams/127.QAX0OUHEMVST.m3u8
+#EXTINF:-1 tvg-logo="https://i.ibb.co/RT1Z7khz/Photoroom-20250728-112633.png"group-title="ARGENTINA",MONTE GRANDE TV
+
 
 
 #EXTINF:-1 tvg-logo="https://static.wikia.nocookie.net/doblaje/images/a/a8/Ciudadmagazine-logonuevo.png/revision/latest?cb=20200203001356&path-prefix=es"group-title="ARGENTINA",MAGAZINE
