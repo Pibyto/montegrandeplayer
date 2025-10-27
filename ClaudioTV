@@ -1049,12 +1049,14 @@ https://videostream.shockmedia.com.ar:19360/neotvdigital/neotvdigital.m3u8
 
 
 #EXTINF:-1 tvg-logo="https://i.ibb.co/4mWFFQX/Screenshot-20241226-092057-XPlayer-Video-Player-removebg-preview.png"group-title="ARGENTINA",GENTV HD  17.3
-https://live20.bozztv.com:443/akamaissh101/ssh101/gentv/chunks.m3u8
+https://srv3.zcast.com.br/gentv/gentv/playlist.m3u8
 
 
 
 #EXTINF:-1 tvg-logo="https://i.ibb.co/tPwvdjB/images-removebg-preview.png"group-title="ARGENTINA",BAYRES TV HD
-https://streaming02.gbasat.com.ar:19360/bayrestv/bayrestv.m3u8?PlaylistM3UCL
+https://streaming01.mikrolive.tv/bayrestv/live/chunklist_w963757112.m3u8
+
+
 
 
 #EXTINF:-1 tvg-logo="https://i.ibb.co/F4fKrVzq/Photoroom-20250627-221728.png"group-title="ARGENTINA",CANAL 21 HD
