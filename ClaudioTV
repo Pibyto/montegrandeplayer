@@ -861,38 +861,41 @@ https://www.youtube.com/watch?v=AYuYukZDtcE
 ######################################
 
 
+
+
+
+
+
 #EXTINF:-1 tvg-logo="https://tinyurl.com/35wbxzfc"group-title="ARGENTINA",MG RADIO 24/7
 https://radios.yanapak.org/montegranderadio
+
+
 
 
 https://uk14freenew.listen2myradio.com/live.mp3?typeportmount=s1_29586_stream_470604945
 
 
-http://radios.yanapak.org:8000/montegranderadio
+
+
 
 #EXTINF:-1 tvg-logo="https://i.ibb.co/bQMdXs3/Screenshot-20241226-095234-XPlayer-Video-Player-removebg-preview.png"group-title="ARGENTINA",EL TRECE  33.1
 https://livetrx01.vodgc.net:443/eltrecetv/tracks-v2a1/mono.m3u8
 
 
-#EXTINF:-1 tvg-logo="https://i.ibb.co/bMQmspRM/Photoroom-20250718-231530.png"group-title="ARGENTINA",MONTE GRANDE TV  LIVE SSH
+#EXTINF:-1 tvg-logo="https://i.ibb.co/bMQmspRM/Photoroom-20250718-231530.png"group-title="ARGENTINA",MONTEGRANDETV SSH
 https://live20.bozztv.com/akamaissh101/ssh101/montegrandetv/playlist.m3u8
 
 
-#EXTINF:-1 tvg-logo="https://tinyurl.com/35wbxzfc"group-title="ARGENTINA",MONTEGRANDE RADIO
+#EXTINF:-1 tvg-logo="https://tinyurl.com/35wbxzfc"group-title="ARGENTINA",MONTEGRANDE RADIOTV
 https://live20.bozztv.com/akamaissh101/ssh101/mgradiotv/playlist.m3u8
 
 
-#EXTINF:-1 tvg-logo="https://i.ibb.co/RT1Z7khz/Photoroom-20250728-112633.png"group-title="ARGENTINA",MONTE GRANDE TV OKRU
-https://vsd147.okcdn.ru/hls/8435042486882.m3u8/sig/yO9r0YZmVaw/expires/1759113445735/srcIp/181.46.68.191/urls/185.226.52.87/clientType/1/srcAg/UNKNOWN_ANDROID/mid/9225153158754/8435042486882_high/index.m3u8
+#EXTINF:-1 tvg-logo="https://i.ibb.co/RT1Z7khz/Photoroom-20250728-112633.png"group-title="ARGENTINA",MONTE GRANDE TV ANIMAL
+https://stmv6.voxtvhd.com.br/xtremaanimal/xtremaanimal/playlist.m3u8
 
 
 
-
-
-
-
-
-
+ 
 
 https://vs20.live.opencaster.com/montetv_49c0778f/index.m3u8
 
@@ -905,7 +908,7 @@ https://live20.bozztv.com/giatvplayout7/giatv-208138/playlist.m3u8
 https://live-stream.iblups.com/video/6ba210fe0b86a6b194986ca160890e7670c0c3ca.m3u8
 
 
-#EXTINF:-1 tvg-logo="https://imagizer.imageshack.com/v2/320xq70/r/922/j2Xtla.png"group-title="ARGENTINA",MONTEGRANDE TV MI ESPERANZA 
+#EXTINF:-1 tvg-logo="https://imagizer.imageshack.com/v2/320xq70/r/922/j2Xtla.png"group-title="ARGENTINA",MONTEGRANDETV MI ESPERANZA 
 https://live20.bozztv.com/giatvplayout7/giatv-209909/tracks-v1a1/mono.ts.m3u8
 
 
