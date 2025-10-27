@@ -951,12 +951,19 @@ https://redirector.rudo.video/hls-video/c54ac2799874375c81c1672abb700870537c5223
 
 
 
+https://redirector.rudo.video/hls-video/c54ac2799874375c81c1672abb700870537c5223/bravo/bravo.smil/playlist.m3u8
+
+
+
 #EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Net_TV_logo.png/800px-Net_TV_logo.png"group-title="ARGENTINA", NET TV HD  27.2
 https://unlimited1-us.dps.live/nettv/nettv.smil/playlist.m3u8
 
 
+
+
 #EXTINF:-1 tvg-logo="https://directostv.teleame.com/wp-content/uploads/2018/06/Canal-9-Multivision-en-vivo-Online.png"group-title="ARGENTINA",MULTIVISION HD
 https://panel.host-live.com:19360/8250/8250.m3u8
+
 
 
 
@@ -991,7 +998,8 @@ https://5cd577a3dd8ec.streamlock.net/CANAL4/CANAL4.smil/chunklist_w69344434_b309
 
 
 #EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/Canal_26_logo_%282022%29.svg/1200px-Canal_26_logo_%282022%29.svg.png"group-title="ARGENTINA",CANAL 26  24.2
-http://tvpremiund.ddns.me:2082/91781252/271222zero/1891
+https://stream-gtlc.telecentro.net.ar/hls/canal26hls/0/playlist.m3u8
+
 
 
 #EXTINF:-1 tvg-logo="http://2.bp.blogspot.com/-Yr9u8FmG-kU/VmX4oB2uwJI/AAAAAAAAARM/QQa-xTVDKgk/s1600/America%2BHD%2B1.png"group-title="ARGENTINA", AMÉRICA  36.1
