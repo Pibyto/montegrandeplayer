@@ -588,6 +588,24 @@ https://d3d85c7qkywguj.cloudfront.net/scheduler/scheduleMaster/263/variant/22099
 
 
 
+
+
+#EXTINF:-1 tvg-logo=""group-title="CINE PREMIUM",SPACE
+http://tv.zapping.life:8080/live/ELVISAN25/1206831c5339/9717.m3u8
+
+#EXTINF:-1 tvg-logo=""group-title="CINE PREMIUM", WARNER CHANNEL
+http://tv.zapping.life:8080/live/ELVISAN25/1206831c5339/9776.m3u8
+
+
+#EXTINF:-1 tvg-logo=""group-title="CINE PREMIUM", PARAMOUNT NETWORK 
+http://tv.zapping.life:8080/live/ELVISAN25/1206831c5339/9708.m3u8
+
+
+
+#EXTINF:-1 tvg-logo=""group-title="CINE PREMIUM",TNT
+http://tv.zapping.life:8080/live/ELVISAN25/1206831c5339/9743.m3u8
+
+
 #EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTOspY0DemQf4NaEMxXnKQQKCpDwOfVCdtnZg&usqp=CAU"group-title="CINE PREMIUM",CINE SONY
 https://a-cdn.klowdtv.com:443/live1/cine_720p/chunks.m3u8
 
@@ -623,7 +641,9 @@ https://stmv6.voxtvhd.com.br/xtremacartoons/xtremacartoons/playlist.m3u8
 
 
 #EXTINF:-1 tvg-logo=""group-title="CINE PREMIUM",SONY CHANNEL
-https://fl3.moveonjoy.com/Sony_Movie_Channel/tracks-v1a1/mono.ts.m3u8
+http://tv.zapping.life:8080/live/ELVISAN25/1206831c5339/9712.m3u8
+
+
 
 
 #EXTINF:-1 tvg-logo=""group-title="CINE PREMIUM",CINESONY
@@ -648,19 +668,30 @@ https://live20.bozztv.com:443/akamaissh101/ssh101/megayurimaguas/chunks.m3u8
 
 
 #EXTINF:-1 tvg-logo=""group-title="CINE PREMIUM",CINECANAL
-https://cors-proxy.cooks.fyi/https://streamer1.nexgen.bz/CINECANAL/index.m3u8
+http://tv.zapping.life:8080/live/ELVISAN25/1206831c5339/9629.m3u8
+
+
+
 
 
 #EXTINF:-1 tvg-logo=""group-title="CINE PREMIUM",A&E
+http://tv.zapping.life:8080/live/ELVISAN25/1206831c5339/9614.m3u8
+
+
 http://tvpremiund.ddns.me:2082/Diegoarias/Octu7102023/2667
 
 
 
 #EXTINF:-1 tvg-logo=""group-title="CINE PREMIUM",AMC
-http://tvpremiund.ddns.me:2082/Diegoarias/Octu7102023/2668
+http://tv.zapping.life:8080/live/ELVISAN25/1206831c5339/9620.m3u8
+
+
 
 
 #EXTINF:-1 tvg-logo=""group-title="CINE PREMIUM",AXN
+http://tv.zapping.life:8080/live/ELVISAN25/1206831c5339/9623.m3u8
+
+
 http://tvpremiund.ddns.me:2082/Diegoarias/Octu7102023/2669
 
 
@@ -709,7 +740,9 @@ https://service-stitcher.clusters.pluto.tv/stitch/hls/channel/5dcdde78f080d90009
 
 
 #EXTINF:-1 tvg-logo=""group-title="CINE PREMIUM",DHE
-http://tvpremiund.ddns.me:2082/Diegoarias/Octu7102023/79927
+http://tv.zapping.life:8080/live/ELVISAN25/1206831c5339/9643.m3u8
+
+
 
 
 
@@ -736,16 +769,25 @@ https://tv.arkeo.cl:19360/8128/8128.m3u8?PlaylistM3UCL
 
 
 #EXTINF:-1 tvg-logo=""group-title="CINE PREMIUM",HBO
+http://tv.zapping.life:8080/live/ELVISAN25/1206831c5339/9666.m3u8
+
+
 http://tvpremiund.ddns.me:2082/Diegoarias/Octu7102023/7010
 
 
 
 #EXTINF:-1 tvg-logo=""group-title="CINE PREMIUM",HBO 2
+http://tv.zapping.life:8080/live/ELVISAN25/1206831c5339/9673.m3u8
+
+
 http://tvpremiund.ddns.me:2082/Diegoarias/Octu7102023/2677
 
 
 
 #EXTINF:-1 tvg-logo=""group-title="CINE PREMIUM",HBO +
+http://tv.zapping.life:8080/live/ELVISAN25/1206831c5339/9685.m3u8
+
+
 http://tvpremiund.ddns.me:2082/Diegoarias/Octu7102023/2678
 
 
@@ -1088,6 +1130,9 @@ http://tvpremiund.ddns.me:2082/91781252/271222zero/1891
 
 
 #EXTINF:-1 tvg-logo="http://2.bp.blogspot.com/-Yr9u8FmG-kU/VmX4oB2uwJI/AAAAAAAAARM/QQa-xTVDKgk/s1600/America%2BHD%2B1.png"group-title="ARGENTINA", AMÉRICA  36.1
+http://tv.zapping.life:8080/live/ELVISAN25/1206831c5339/7928.m3u8
+
+
 http://1tvnow.icu:8080/A0t5Ax/625375/164881
 
 
