@@ -4,8 +4,6 @@
 
 
 
-#EXTINF:-1 tvg-logo=""group-title="MOVIE",BAD BOYS FOREVER
-http://1tvnow.icu:8080/movie/A0t5Ax/625375/202302.mp4
 
 #EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ3f_CEtKzWkAEwHaM9HOwwBgmCYWta2Xmwn1ItUOaCbMcTbmytjpjgJ-kOYPyoknVCIUs&usqp=CAU"group-title="MOVIE",CORAZ0N DELAT0R
 https://live20.bozztv.com/giatvplayout/giatvvod/giatv/movies/playlist/208730/Coraz__n_delator__2025____PELISPEDIA.mp4/playlist.m3u8
@@ -190,14 +188,10 @@ https://videos.gia.tv/giatv/movies/playlist/208538/0_2_THE_OUTPOST.mp4
 https://videos.gia.tv/giatv/movies/playlist/208538/0_7_ACCION.mp4
 
 
-#EXTINF:-1 tvg-logo=""group-title="MOVIE", PROYECTO ADAM
-http://1tvnow.icu:8080/movie/A0t5Ax/625375/202596.mkv
 
 
 
 
-#EXTINF:-1 tvg-logo=""group-title="MOVIE",BEATS
-http://1tvnow.icu:8080/movie/A0t5Ax/625375/202319.mp4
 
 
 
@@ -209,8 +203,6 @@ https://videos.gia.tv/giatv/movies/playlist/208538/AAPLAAY_TV_INTRO.mp4
 #EXTINF:-1 tvg-logo=""group-title="MOVIE",ACCION
 https://videos.gia.tv/giatv/movies/playlist/208538/ACCION.mp4
 
-#EXTINF:-1 tvg-logo=""group-title="MOVIE", MANHATTAN SIN SALIDA 
-http://1tvnow.icu:8080/movie/A0t5Ax/625375/202906.mp4
 
 
 #EXTINF:-1 tvg-logo="https://m.media-amazon.com/images/M/MV5BZDNhY2IzMzEtNGFmZS00OTQxLWEzYzctZDMyOTUyNmY5MGRkXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg"group-title="MOVIE",DOG: UN VIAJE SALVAJE
