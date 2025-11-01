@@ -526,8 +526,17 @@ http://tvpremiund.ddns.me:2082/Diegoarias/Octu7102023/51154
 http://tvpremiund.ddns.me:2082/91781252/271222zero/55037
 
 
-#EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQxyt-S0R1ZqxiAS3wgpKaJM_zH8yjhg4JegMVu-oJWMA&s=10"group-title="DEPORTES,TyC SPORTS
+#EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQxyt-S0R1ZqxiAS3wgpKaJM_zH8yjhg4JegMVu-oJWMA&s=10"group-title="DEPORTES",TyC SPORTS
 http://tv.zapping.life:8080/live/ELVISAN25/1206831c5339/7956.m3u8
+
+
+#EXTINF:-1 tvg-logo=""group-title="DEPORTES",FOX SPORTS
+http://nxt.plus:8080/live/bernardocas/bernardo2023/29781.ts
+
+
+
+#EXTINF:-1 tvg-logo=""group-title="DEPORTES",FOX SPORTS 2
+http://nxt.plus:8080/live/bernardocas/bernardo2023/81341.ts
 
 
 #EXTINF:-1 tvg-logo="https://media.bss-prd.directvgo.com/media/catalog/product/cache/aa8f9b57193b88823014d01a51fb5400/d/t/dtv_sports_cyan.png"group-title="DEPORTES",DIRECTV 1
@@ -538,6 +547,7 @@ http://tvpremiund.ddns.me:2082/Diegoarias/Octu7102023/47580
 https://bein-esp-xumo.amagi.tv/playlistR1080p.m3u8
 
 #EXTINF:-1 tvg-logo="https://static.wikia.nocookie.net/logopedia/images/1/1f/DSports_2_2022.png/revision/latest?cb=20221115002249&path-prefix=es"group-title="DEPORTES",DIRECTV 2
+http://nxt.plus:8080/live/bernardocas/bernardo2023/244287.ts
 
 
 
@@ -1048,7 +1058,8 @@ https://telefe.com/Api/Videos/GetSourceUrl/694564/0/HLS?.m3u8
 http://1tvnow.icu:8080/A0t5Ax/625375/164870
 
 #EXTINF:-1 tvg-logo="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiJLTMCR-pFAQzKyjoDvCFm2LfbO9ppIEtbDUr4ZtDshQfnGGlwBemRdqIEQJxYWg77PqZPIvnxLaDMcN8ER0ef6r5Ro5iVapq-VGw23x4btvF0KgrztmSmEgE69oxqE4cqSZ_4fFeLBKXOEGrFAOxR5QmaSlRDHwbLzV-PWfifzTZAW99WO0W1-E28/s1313/CANAL9-2017.PNG"group-title="ARGENTINA",EL NUEVE
-http://tv.zapping.life:8080/live/ELVISAN25/1206831c5339/7936.m3u8
+http://nxt.plus:8080/live/bernardocas/bernardo2023/1632.ts
+
 
 
 
@@ -1097,7 +1108,10 @@ http://1tvnow.icu:8080/A0t5Ax/625375/164873
 http://tvpremiund.ddns.me:2082/91781252/271222zero/72756
 
 
-#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/3/36/A24-logo.svg/1200px-A24-logo.svg.png"group-title="ARGENTINA",A24 HD
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/3/36/A24-logo.svg/1200px-A24-logo.svg.png"group-title="ARGENTINA",A2 HD
+http://nxt.plus:8080/live/bernardocas/bernardo2023/225205.ts
+
+
 http://tvpremiund.ddns.me:2082/Diegoarias/Octu7102023/66132
 
 
@@ -1477,7 +1491,9 @@ https://vivo.solumedia.com:19360/uniteve/uniteve.m3u8?PlaylistM3UCL
 
 
 #EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS2h10YYLlxQLHJuQ52hKufJS--nnd0X1RfWg&s"group-title="CHILE",TVN
-http://tvpremiund.ddns.me:2082/Diegoarias/Octu7102023/2359
+http://nxt.plus:8080/live/bernardocas/bernardo2023/2.ts
+
+
 
 
 #EXTINF:-1 tvg-logo="https://cdn.m3u.cl/logo/1485_Primicia_Vida_Television.png"group-title="CHILE",PRIMICIA VIDA
@@ -1486,7 +1502,8 @@ https://stmv5.voxtvhd.com.br:443/primiciavida/primiciavida/chunklist_w1226243709
 
 
 #EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8c/Chilevisi%C3%B3n_%282018-%29.png/1200px-Chilevisi%C3%B3n_%282018-%29.png"group-title="CHILE",CHV
-http://tvpremiund.ddns.me:2082/Diegoarias/Octu7102023/37973
+http://nxt.plus:8080/live/bernardocas/bernardo2023/169434.ts
+
 
 
 #EXTINF:-1 tvg-logo="https://www.graciatv.com/wp-content/uploads/2024/01/LOGO-FINAL.png"group-title="CHILE", GRACIA TV
@@ -1503,7 +1520,8 @@ http://tvpremiund.ddns.me:2082/Diegoarias/Octu7102023/30823
 
 
 #EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/d/d4/Mega_Chile_2020.png"group-title="CHILE",MEGA HD
-http://tvpremiund.ddns.me:2082/Diegoarias/Octu7102023/14090
+http://nxt.plus:8080/live/bernardocas/bernardo2023/192623.ts
+
 
 
 
