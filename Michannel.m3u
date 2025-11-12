@@ -5,6 +5,28 @@
 https://live20.bozztv.com/akamaissh101/ssh101/montegrandetv/playlist.m3u8
 
 
+#EXTINF:-1 tvg-logo="https://micanal.ovh/images/11253292546802528ad6c15.png"group-title="MICANAL",LN+
+https://www.youtube.com/watch?v=KP5OFHf4Dag
+
+
+#EXTINF:-1 tvg-logo="https://micanal.ovh/images/11253292546802528ad6c15.png"group-title="MICANAL",A24
+https://www.youtube.com/watch?v=ArKbAx1K-2U
+
+
+#EXTINF:-1 tvg-logo="https://micanal.ovh/images/11253292546802528ad6c15.png"group-title="MICANAL",TN
+https://www.youtube.com/watch?v=cb12KmMMDJA
+
+
+#EXTINF:-1 tvg-logo="https://micanal.ovh/images/11253292546802528ad6c15.png"group-title="MICANAL",Canal 26
+https://www.youtube.com/watch?v=N0u5NOL9w-A
+
+
+#EXTINF:-1 tvg-logo="https://micanal.ovh/images/11253292546802528ad6c15.png"group-title="MICANAL", CRÓNICA TV
+https://www.youtube.com/watch?v=avly0uwZzOE
+
+
+
+
 #EXTINF:-1 tvg-logo="https://i.ibb.co/gZvpC8b6/Photoroom-20250719-000750.png"group-title="MICANAL",GENTV
 https://srv3.zcast.com.br/gentv/gentv/playlist.m3u8
 
@@ -278,7 +300,7 @@ https://micanal.ovh/livestreams/89.0WWM5NZ7JVZQ.m3u8
 #EXTINF:-1 tvg-logo="https://micanal.ovh/images/11253292546802528ad6c15.png"group-title="MICANAL",VJlobo
 
 
-#EXTINF:-1 tvg-logo="https://micanal.ovh/images/11253292546802528ad6c15.png"group-title="MICANAL",BRAVIA TV
+
 
 
 
@@ -311,7 +333,7 @@ https://micanal.ovh/livestreams/142.RZYR3NWFIHKH.m3u8
 https://micanal.ovh/livestreams/87.UXLVBUB5X0BX.m3u8
 
 
-#EXTINF:-1 tvg-logo="https://micanal.ovh/images/11253292546802528ad6c15.png"group-title="MICANAL",CITYCLICK STREAM
+
 
 
 
