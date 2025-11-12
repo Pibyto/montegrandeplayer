@@ -5,6 +5,11 @@
 https://live20.bozztv.com/akamaissh101/ssh101/montegrandetv/playlist.m3u8
 
 
+
+#EXTINF:-1 tvg-logo="https://micanal.ovh/images/11253292546802528ad6c15.png"group-title="MICANAL",TELEFE
+https://www.youtube.com/watch?v=KKOIEKnun_0
+
+
 #EXTINF:-1 tvg-logo="https://micanal.ovh/images/11253292546802528ad6c15.png"group-title="MICANAL",LN+
 https://www.youtube.com/watch?v=KP5OFHf4Dag
 
@@ -25,6 +30,8 @@ https://www.youtube.com/watch?v=N0u5NOL9w-A
 https://www.youtube.com/watch?v=avly0uwZzOE
 
 
+#EXTINF:-1 tvg-logo="https://micanal.ovh/images/11253292546802528ad6c15.png"group-title="MICANAL",EL SIETE
+https://www.youtube.com/watch?v=Vh8xmLBJtR8
 
 
 #EXTINF:-1 tvg-logo="https://i.ibb.co/gZvpC8b6/Photoroom-20250719-000750.png"group-title="MICANAL",GENTV
