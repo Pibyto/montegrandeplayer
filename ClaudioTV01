@@ -315,6 +315,106 @@ https://livetrx01.vodgc.net/live-01-07-ciudad.vodgc.net/tracks-v3a1/mono.m3u8
 https://telefe.com/Api/Videos/GetSourceUrl/694564/0/HLS?.m3u8
 
 
+#EXTINF:-1 tvg-logo="https://micanal.ovh/images/11253292546802528ad6c15.png"group-title="ARGENTINA", CASADOS CON HIJOS 24/7
+https://www.youtube.com/watch?v=_DszmX2YJtg
+
+
+#EXTINF:-1 tvg-logo="https://micanal.ovh/images/11253292546802528ad6c15.png"group-title="ARGENTINA",TELEFE
+https://www.youtube.com/watch?v=XhAYcYpPzTc
+
+
+#EXTINF:-1 tvg-logo="https://micanal.ovh/images/11253292546802528ad6c15.png"group-title="ARGENTINA",EL NUEVE
+https://www.twitch.tv/elnueveenvivo
+
+
+#EXTINF:-1 tvg-logo="https://micanal.ovh/images/11253292546802528ad6c15.png"group-title="ARGENTINA",TV PUBLICA
+https://www.youtube.com/watch?v=M8RU0tWhPnw
+
+
+#EXTINF:-1 tvg-logo="https://micanal.ovh/images/11253292546802528ad6c15.png"group-title="ARGENTINA",EL 6 ENTRE RIOS
+https://www.twitch.tv/canal6entreriostv
+
+
+#EXTINF:-1 tvg-logo="https://micanal.ovh/images/11253292546802528ad6c15.png"group-title="ARGENTINA",OLGA
+https://www.twitch.tv/olgaenvivo
+
+
+
+
+#EXTINF:-1 tvg-logo="https://micanal.ovh/images/11253292546802528ad6c15.png"group-title="ARGENTINA",LN+
+https://www.youtube.com/watch?v=KP5OFHf4Dag
+
+
+#EXTINF:-1 tvg-logo="https://micanal.ovh/images/11253292546802528ad6c15.png"group-title="ARGENTINA",A24
+https://www.youtube.com/watch?v=ArKbAx1K-2U
+
+
+#EXTINF:-1 tvg-logo="https://micanal.ovh/images/11253292546802528ad6c15.png"group-title="ARGENTINA",TN
+https://www.youtube.com/watch?v=cb12KmMMDJA
+
+
+#EXTINF:-1 tvg-logo="https://micanal.ovh/images/11253292546802528ad6c15.png"group-title="ARGENTINA",3 ROSARIO 
+https://www.youtube.com/watch?v=XRLVgG24ax8
+
+
+#EXTINF:-1 tvg-logo="https://micanal.ovh/images/11253292546802528ad6c15.png"group-title="ARGENTINA",Canal 26
+https://www.youtube.com/watch?v=N0u5NOL9w-A
+
+
+#EXTINF:-1 tvg-logo="https://micanal.ovh/images/11253292546802528ad6c15.png"group-title="ARGENTINA", CRÓNICA TV
+https://www.youtube.com/watch?v=avly0uwZzOE
+
+
+#EXTINF:-1 tvg-logo="https://micanal.ovh/images/11253292546802528ad6c15.png"group-title="ARGENTINA",LOVE NATURE
+https://www.youtube.com/watch?v=mkJHnno0gdk
+
+
+#EXTINF:-1 tvg-logo="https://micanal.ovh/images/11253292546802528ad6c15.png"group-title="ARGENTINA",C5N
+https://www.youtube.com/watch?v=Uo-ziJhrTvI
+
+#EXTINF:-1 tvg-logo="https://micanal.ovh/images/11253292546802528ad6c15.png"group-title="ARGENTINA",FRANCE 24
+https://www.youtube.com/watch?v=Y-IlMeCCtIg
+
+#EXTINF:-1 tvg-logo="https://micanal.ovh/images/11253292546802528ad6c15.png"group-title="ARGENTINA",DW ESPAÑOL 
+https://www.youtube.com/watch?v=jRnqxURJ120
+
+
+#EXTINF:-1 tvg-logo="https://i.ibb.co/gZvpC8b6/Photoroom-20250719-000750.png"group-title="ARGENTINA",GENTV
+https://srv3.zcast.com.br/gentv/gentv/playlist.m3u8
+
+
+#EXTINF:-1 tvg-logo="https://micanal.ovh/images/11253292546802528ad6c15.png"group-title="ARGENTINA",MGTV
+http://ok.ru/video/9225153158754
+
+
+
+#EXTINF:-1 tvg-logo="https://micanal.ovh/images/11253292546802528ad6c15.png"group-title="ARGENTINA", TELEMUNDO 
+https://ok.ru/video/10504925617911
+
+
+#EXTINF:-1 tvg-logo="https://micanal.ovh/images/11253292546802528ad6c15.png"group-title="ARGENTINA", PROYECTA TV
+https://ok.ru/video/4987110825518
+
+
+
+#EXTINF:-1 tvg-logo="https://micanal.ovh/images/11253292546802528ad6c15.png"group-title="ARGENTINA",FOX KIDS
+https://ok.ru/video/8967999463166
+
+
+
+#EXTINF:-1 tvg-logo="https://micanal.ovh/images/11253292546802528ad6c15.png"group-title="ARGENTINA",LA NUEVA REPÚBLICA 
+https://ok.ru/video/9214622441180
+
+
+
+
+#EXTINF:-1 tvg-logo="https://micanal.ovh/images/11253292546802528ad6c15.png"group-title="ARGENTINA",TVS
+https://vcp10.myplaytv.com/tvs/tvs/chunklist_w989702023.m3u8
+
+
+
+
+
 
 #EXTINF:-1 tvg-logo="https://i.ibb.co/yyHXtGG/Screenshot-20241226-095830-XPlayer-Video-Player-removebg-previe⁷w.png"group-title="ARGENTINA",TELEFE INTER
 http://1tvnow.icu:8080/A0t5Ax/625375/164870
