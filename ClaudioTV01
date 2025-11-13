@@ -65,6 +65,11 @@ https://live20.bozztv.com/akamaissh101/ssh101/codificador8/chunks.m3u8
 https://micanal.ovh/livestreams/82.Y5V0JHNSYGDA.m3u8
 
 
+#EXTINF:-1 tvg-logo=""group-title="CINE PREMIUM",TELEMAX
+https://vdo2.streamgato.us:3673/live/telemaxlive.m3u8
+
+
+
 #EXTINF:-1 tvg-logo=""group-title="CINE PREMIUM",XTREMA ACCION
 https://stmv6.voxtvhd.com.br/cineaccion/cineaccion/playlist.m3u8
 
@@ -83,6 +88,7 @@ https://service-stitcher.clusters.pluto.tv/stitch/hls/channel/604928d54a4f730007
 
 #EXTIENF:-1 tvg-logo=""group-title="CINE PREMIUM",CINE HOLLMARK
 https://service-stitcher.clusters.pluto.tv/stitch/hls/channel/6532e7b290a74c00084a3bb6/master.m3u8?deviceId=0&deviceVersion=0&appVersion=0&deviceType=0&deviceMake=0&sid=258112e0-4102-90b6-df5f-ffddad0ace20&deviceDNT=0&deviceModel=0
+
 
 
 #EXTIENF:-1 tvg-logo=""group-title="CINE PREMIUM",CINE SUSPENSO
@@ -120,6 +126,8 @@ https://service-stitcher.clusters.pluto.tv/stitch/hls/channel/5d8d164d92e97a5e10
 #EXTINF:-1 tvg-logo="https://i.ibb.co/yhYvwzD/Screenshot-20250111-080920-XPlayer-Video-Player-removebg-preview.png"group-title="CINE PREMIUM",CINE ESTELAR
 https://service-stitcher.clusters.pluto.tv/stitch/hls/channel/5dcde437229eff00091b6c30/master.m3u8?advertisingId=&appName=web&appVersion=5.14.0-0f5ca04c21649b8c8aad4e56266a23b96d73b83a&app_name=web&clientDeviceType=0&clientID=6fbead95-26b1-415d-998f-1bdef62d10be&clientModelNumber=na&deviceDNT=false&deviceId=6fbead95-26b1-415d-998f-1bdef62d10be&deviceLat=19.4358&deviceLon=-99.1441&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=88.0.4324.150&marketingRegion=VE&serverSideAds=false&sessionID=b8e5a857-714a-11eb-b532-0242ac110002&sid=b8e5a857-714a-11eb-b532-0242ac110002&userId=
 
+
+
 #EXTINF:-1 tvg-logo="https://i.ibb.co/xmPdFc6/2q-Ed-Tbpni-Pos-Vcic3q-RYf9v-Ck-UJ-2q-Ed-Xur-VXia-Uw2cu-EJs-FUQGC0e-G-2q-Ed-YZNNlw-Yh7-S5ls-Mya2v-Zs.png"group-title="CINE PREMIUM",9 DE ABRIL TV MONTE GRANDE
 https://live20.bozztv.com:443/giatvplayout7/giatv-208730/tracks-v1a1/mono.ts.m3u8
 
@@ -141,7 +149,6 @@ http://cfd-v4-service-channel-stitcher-use1-1.prd.pluto.tv/stitch/hls/channel/60
 #EXTINF:-1 tvg-logo="https://i.ibb.co/sJ3SWKcb/Photoroom-20250630-000757.png"group-title="CINE PREMIUM",MEGA TV
 
 
-#EXTINF:-1 tvg-logo=""group-title="CINE PREMIUM",CINECANAL
 
 
 #EXTINF:-1 tvg-logo=""group-title="CINE PREMIUM",CINE ESTRELLA
@@ -407,7 +414,15 @@ https://ok.ru/video/9214622441180
 https://vcp10.myplaytv.com/tvs/tvs/chunklist_w989702023.m3u8
 
 
+#EXTINF:-1 tvg-logo="https://micanal.ovh/images/11253292546802528ad6c15.png"group-title="ARGENTINA",BIG TV
+https://live20.bozztv.com/giatv/giatv-bigtv/bigtv/chunks.m3u8
 
+
+#EXTINF:-1 tvg-logo="https://micanal.ovh/images/11253292546802528ad6c15.png"group-title="ARGENTINA",CANAL 3 PINAMAR 
+https://intelincloud01.com.ar/hls/cn3/index.m3u8
+
+
+#EXTINF:-1 tvg-logo="https://micanal.ovh/images/11253292546802528ad6c15.png"group-title="ARGENTINA",
 
 
 
@@ -469,7 +484,7 @@ http://1tvnow.icu:8080/A0t5Ax/625375/164873
 http://tvpremiund.ddns.me:2082/91781252/271222zero/72756
 
 
-#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/3/36/A24-logo.svg/1200px-A24-logo.svg.png"group-title="ARGENTINA",A2 HD
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/3/36/A24-logo.svg/1200px-A24-logo.svg.png"group-title="ARGENTINA",A24 HD
 http://nxt.plus:8080/live/bernardocas/bernardo2023/225205.ts
 
 
@@ -479,8 +494,10 @@ http://nxt.plus:8080/live/bernardocas/bernardo2023/225205.ts
 https://live20.bozztv.com:443/giatvplayout7/giatv-208744/tracks-v1a1/mono.ts.m3u8
 
 
-#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/a/a4/CINEARLogo.png"group-title="ARGENTINA",CINEAR
-http://tvpremiund.ddns.me:2082/56958629057vecino/010320iptv/2349
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/a/a4/CINEARLogo.png"group-title="ARGENTINA",TUCINE
+https://live20.bozztv.com/akamaissh101/ssh101/xiomoz/chunks.m3u8
+
+
 
 
 
@@ -917,7 +934,9 @@ https://tls-cl.cdnz.cl/canal21tv/live/chunklist_w1400287147.m3u8
 
 
 
-#EXTINF:-1 tvg-logo="https://cdn.m3u.cl/logo/1485_Primicia_Vida_Television.png"group-title="CHILE",PRIMICIA VIDA
+#EXTINF:-1 tvg-logo=""group-title="CHILE",PRIDE TV
+
+
 
 
 
@@ -1117,88 +1136,102 @@ https://xui-backend.energeek.cl/live/13/playlist.m3u8
 
 
 
-#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/6/6a/SNT_2013_logotype.png"group-title="PARAGUAY", SNT 
-http://tvpremiund.ddns.me:2082/Diegoarias/Octu7102023/1890
-
-
-
-#EXTINF:-1 tvg-logo="https://cdn.storage.foromedios.com/monthly_2023_10/large_ltl.png.857947af5074cc4faa0573b58439da3d.png"group-title="PARAGUAY",LATELE
-http://tvpremiund.ddns.me:2082/Diegoarias/Octu7102023/2390
-
-
-
-
-#EXTINF:-1 tvg-logo="https://static.wikia.nocookie.net/logopedia/images/5/55/Paravisi%C3%B3nfirstlogo.png/revision/latest?cb=20210512145847&path-prefix=es"group-title="PARAGUAY",PARAVISION
-http://tvpremiund.ddns.me:2082/Diegoarias/Octu7102023/2392
-
-
-
-#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/4/46/LogoTFFlat.png"group-title="PARAGUAY",TELEFUTURO
-http://tvpremiund.ddns.me:2082/Diegoarias/Octu7102023/2396
-
-
-
-#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/d/d9/Sur_TV_Itap%C3%BAa_logo_2022.png"group-title="PARAGUAY",SUR TV
-http://tvpremiund.ddns.me:2082/Diegoarias/Octu7102023/2395
-
-
-
-#EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRfybQiHr-D5sXytj0xKi61AOiIK-NuwjdvPQ&s"group-title="PARAGUAY",GEN
-http://tvpremiund.ddns.me:2082/Diegoarias/Octu7102023/14812
-
-
-
-
-#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/6/60/NPY_%28Noticias_Paraguay%29.png/1200px-NPY_%28Noticias_Paraguay%29.png"group-title="PARAGUAY",NOTICIAS PY
-http://tvpremiund.ddns.me:2082/Diegoarias/Octu7102023/14807
-
-
-
-
-#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/9/90/LOGO_C9N_2022.png/1200px-LOGO_C9N_2022.png"group-title="PARAGUAY",C9N 
-https://alba-py-c9n-c9n.stream.mediatiquestream.com/index.m3u8 
-
-
-#EXTINF:-1 tvg-logo="https://blogger.googleusercontent.com/img/a/AVvXsEg7zrIkar6b9ZRlhqCsmyk8FTM_0btWRdYLnk1HvIkYP5gNc48D1JpHUyQeBeZJv7BO2T4bXI0Nki2iAk6fMNWRRE1fhraPfARYtpOBsGnE7oNHxLqSO1RMf-4WEDwej9Hk1xhbhyEnM8AuIpSm8UXwFB1nArjVA_oBBrEzVObfEcOuVEoSLoZVe5GSrI7w=s850"group-title="PARAGUAY",NEXT TV
-https://live.enhdtv.com:19360/nexthd/nexthd.m3u8
-
-
-
-#EXTINF:-1 tvg-logo="https://goradio.com.py/wp-content/uploads/2020/06/Logo_blanco.png"group-title="PARAGUAY",GO tv
-https://rds3.desdeparaguay.net/gotv/gotv/chunklist_w1251228071.m3u8
-
-
-
-
-#EXTINF:-1 tvg-logo="https://serenotv.com/wp-content/uploads/2024/07/IMG_20240626_194907_706-400x267.jpg"group-title="PARAGUAY",INVASIVA TV
-https://mitv.zplay.cl/Invasiva/tracks-v1a1/mono.m3u8
-
-
-#EXTINF:-1 tvg-logo="https://media.trece.com.py/sites/2/2022/06/logo-300x136-1.jpg"group-title="PARAGUAY",TRECE
-https://live2.eu-north-1a.cf.dmcdn.net/sec2(oCSyx29rbRSEAsyCsmI4ypEmgsTA1Os6KWPNI--mTncy-rqq6o459WTD9fFhA2pC22nbP8myfSWtXrw37fn21uWifh2L9ndiQVrYsUSfWp33l4v_Vp0yOuxPpepcTJQj)/cloud/3/x9ksaba/d/live-720.m3u8
-
-
-
-#EXTINF:-1 tvg-logo="https://television.com.py/wp-content/uploads/2017/03/UnicanalHDtvpy.jpg"group-title="PARAGUAY",UNICANAL
-https://live2.eu-north-1b.cf.dmcdn.net/sec2(Kh-DhbedgRk7x_EJ9TFGK7QsS14EvdXadaO6Gg8lczJ8sFZmtvuJv0I5h3Bi6FXcsWP7gphopX8852zz8x72fxw9_biiTLJggfTQRSNNWjvLxF9jwWUxX_yP_Z4gdJ5S)/cloud/3/x9ko9z8/d/live-720.m3u8
-
-
-
-#EXTINF:-1 tvg-logo="https://directostv.teleame.com/wp-content/uploads/2019/11/Venus-Media-TV-Paraguay-en-vivo-Online.png"group-title="PARAGUAY",VNUS
-https://copaco.desdeparaguay.net:443/venusmedia/venusmedia/chunklist_w2091978855.m3u8
 
 
 #EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTDdcNNZLYq5iXNBDx7tyDMC0kJeZZjyVeHlg&s"group-title="PARAGUAY",RTV REPUBLICA
 https://rds3.desdeparaguay.net/republicatv/republicatv/chunklist_w1489871788.m3u8
 
 
+#EXTINF:-1 tvg-logo="https://blogger.googleusercontent.com/img/a/AVvXsEg7zrIkar6b9ZRlhqCsmyk8FTM_0btWRdYLnk1HvIkYP5gNc48D1JpHUyQeBeZJv7BO2T4bXI0Nki2iAk6fMNWRRE1fhraPfARYtpOBsGnE7oNHxLqSO1RMf-4WEDwej9Hk1xhbhyEnM8AuIpSm8UXwFB1nArjVA_oBBrEzVObfEcOuVEoSLoZVe5GSrI7w=s850"group-title="PARAGUAY",NEXT TV
+https://live.enhdtv.com:19360/nexthd/nexthd.m3u8
+
+
+#EXTINF:-1 tvg-logo="https://goradio.com.py/wp-content/uploads/2020/06/Logo_blanco.png"group-title="PARAGUAY",GO tv
+https://rds3.desdeparaguay.net/gotv/gotv/chunklist_w1251228071.m3u8
+
+
+#EXTINF:-1 tvg-logo=""group-title="PARAGUAY",MI TV
+https://rds3.desdeparaguay.net/mitv/mitv/chunklist_w757160878.m3u8
+
+
+#EXTINF:-1 tvg-logo="https://directostv.teleame.com/wp-content/uploads/2019/11/Venus-Media-TV-Paraguay-en-vivo-Online.png"group-title="PARAGUAY",VNUS
+https://copaco.desdeparaguay.net:443/venusmedia/venusmedia/chunklist_w2091978855.m3u8
+
+
+
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/6/6a/SNT_2013_logotype.png"group-title="PARAGUAY", SNT 
+
+
+
+
+#EXTINF:-1 tvg-logo="https://cdn.storage.foromedios.com/monthly_2023_10/large_ltl.png.857947af5074cc4faa0573b58439da3d.png"group-title="PARAGUAY",LATELE
+
+
+
+
+
+#EXTINF:-1 tvg-logo="https://static.wikia.nocookie.net/logopedia/images/5/55/Paravisi%C3%B3nfirstlogo.png/revision/latest?cb=20210512145847&path-prefix=es"group-title="PARAGUAY",PARAVISION
+
+
+
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/4/46/LogoTFFlat.png"group-title="PARAGUAY",TELEFUTURO
+
+
+
+
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/d/d9/Sur_TV_Itap%C3%BAa_logo_2022.png"group-title="PARAGUAY",SUR TV
+
+
+
+#EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRfybQiHr-D5sXytj0xKi61AOiIK-NuwjdvPQ&s"group-title="PARAGUAY",GEN
+
+
+
+
+
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/6/60/NPY_%28Noticias_Paraguay%29.png/1200px-NPY_%28Noticias_Paraguay%29.png"group-title="PARAGUAY",NOTICIAS PY
+
+
+
+
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/9/90/LOGO_C9N_2022.png/1200px-LOGO_C9N_2022.png"group-title="PARAGUAY",C9N 
+ 
+
+
+
+
+
+
+
+
+
+
+
+#EXTINF:-1 tvg-logo="https://serenotv.com/wp-content/uploads/2024/07/IMG_20240626_194907_706-400x267.jpg"group-title="PARAGUAY",INVASIVA TV
+
+
+#EXTINF:-1 tvg-logo="https://media.trece.com.py/sites/2/2022/06/logo-300x136-1.jpg"group-title="PARAGUAY",TRECE
+
+
+
+
+#EXTINF:-1 tvg-logo="https://television.com.py/wp-content/uploads/2017/03/UnicanalHDtvpy.jpg"group-title="PARAGUAY",UNICANAL
+
+
+
+
+
+
+
+
+
+
 
 #EXTINF:-1 tvg-logo=""group-title="PARAGUAY",CAMBYRETA TV
-https://live20.bozztv.com:443/akamaissh101/ssh101/cambyretatv/chunks.m3u8
+
 
 
 #EXTINF:-1 tvg-logo=""group-title="PARAGUAY",SAN ROQUE TV
-https://live20.bozztv.com:443/akamaissh101/ssh101/sanroquearegua/chunks.m3u8
 
 
 
