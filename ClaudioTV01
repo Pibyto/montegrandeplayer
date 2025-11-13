@@ -488,11 +488,15 @@ https://tdcserver.com:19360/tdconlione-2/tdconlione-2.m3u8
 
 
 #EXTINF:-1 tvg-logo="https://www.elcuatro.com/public/img/marcas/marcas_canal4_297.png"group-title="ARGENTINA",CANAL 4 HD
-https://5cd577a3dd8ec.streamlock.net/CANAL4/CANAL4.smil/chunklist_w69344434_b3096000.m3u8
+https://5cd577a3dd8ec.streamlock.net/CANAL4/smil:CANAL4.smil/chunklist_w1929733198_b4128000.m3u8
+
+
 
 
 #EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/Canal_26_logo_%282022%29.svg/1200px-Canal_26_logo_%282022%29.svg.png"group-title="ARGENTINA",CANAL 26  24.2
-http://1tvnow.icu:8080/A0t5Ax/625375/164875
+https://stream-gtlc.telecentro.net.ar/hls/canal26hls/0/playlist.m3u8
+
+
 
 
 
