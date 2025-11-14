@@ -219,6 +219,9 @@ https://live20.bozztv.com/akamaissh101/ssh101/montegrandetv/playlist.m3u8
 https://livetrx01.vodgc.net/live-01-07-ciudad.vodgc.net/tracks-v3a1/mono.m3u8
 
 
+#EXTINF:-1 tvg-logo="https://static.wikia.nocookie.net/logopedia/images/1/1d/Canal_9_Televida_%28Logo_1995%29.png/revision/latest?cb=20221210150018"group-title="ARGENTINA",TELEVIDA
+https://unlimited1-saopaulo.dps.live/televidaar/televidaar.smil/televidaar/livestream1/chunks.m3u8
+
 #EXTINF:-1 tvg-logo="https://i.ibb.co/yyHXtGG/Screenshot-20241226-095830-XPlayer-Video-Player-removebg-previe⁷w.png"group-title="ARGENTINA", COPA POTRERO
 https://www.youtube.com/watch?v=z4d0yeqL1ig
 
@@ -249,8 +252,6 @@ https://www.twitch.tv/olgaenvivo
 
 
 
-#EXTINF:-1 tvg-logo="https://micanal.ovh/images/11253292546802528ad6c15.png"group-title="ARGENTINA", BIBLIA ABIERTA 
-https://s.emisoras.tv:8081/penielbibliaabierta/index.m3u8
 
 
 
@@ -331,6 +332,10 @@ https://live20.bozztv.com/giatv/giatv-bigtv/bigtv/chunks.m3u8
 
 #EXTINF:-1 tvg-logo="https://micanal.ovh/images/11253292546802528ad6c15.png"group-title="ARGENTINA",CANAL 3 PINAMAR 
 https://intelincloud01.com.ar/hls/cn3/index.m3u8
+
+
+#EXTINF:-1 tvg-logo="https://micanal.ovh/images/11253292546802528ad6c15.png"group-title="ARGENTINA", BIBLIA ABIERTA 
+https://s.emisoras.tv:8081/penielbibliaabierta/index.m3u8
 
 
 #EXTINF:-1 tvg-logo="https://micanal.ovh/images/11253292546802528ad6c15.png"group-title="ARGENTINA",
@@ -447,8 +452,7 @@ http://tvpremiund.ddns.me:2082/Diegoarias/Octu7102023/2342
 
 
 
-#EXTINF:-1 tvg-logo="https://static.wikia.nocookie.net/logopedia/images/1/1d/Canal_9_Televida_%28Logo_1995%29.png/revision/latest?cb=20221210150018"group-title="ARGENTINA",TELEVIDA
-https://unlimited1-saopaulo.dps.live/televidaar/televidaar.smil/televidaar/livestream1/chunks.m3u8
+
 
 
 
