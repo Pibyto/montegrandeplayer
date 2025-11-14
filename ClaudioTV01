@@ -142,107 +142,17 @@ http://cfd-v4-service-channel-stitcher-use1-1.prd.pluto.tv/stitch/hls/channel/60
 
 
 
-#EXTINF:-1 tvg-logo="https://contenidostv.es/images/bomCine512.png"group-title="CINE PREMIUM",BOM CINE
 
 
 
-#EXTINF:-1 tvg-logo="https://i.ibb.co/sJ3SWKcb/Photoroom-20250630-000757.png"group-title="CINE PREMIUM",MEGA TV
 
 
 
 
-#EXTINF:-1 tvg-logo=""group-title="CINE PREMIUM",CINE ESTRELLA
 
 
 
 
-
-
-#EXTINF:-1 tvg-logo=""group-title="CINE PREMIUM",SONY CHANNEL
-
-
-
-#EXTINF:-1 tvg-logo=""group-title="CINE PREMIUM",A&E
-
-
-
-
-
-#EXTINF:-1 tvg-logo=""group-title="CINE PREMIUM",AMC
-
-
-
-
-#EXTINF:-1 tvg-logo=""group-title="CINE PREMIUM",AXN
-
-
-
-
-
-
-
-#EXTINF:-1 tvg-logo=""group-title="CINE PREMIUM",CINEMAX
-
-
-
-
-
-
-#EXTINF:-1 tvg-logo=""group-title="CINE PREMIUM",CINE FAMILIAR
-
-
-
-
-
-
-
-
-#EXTINF:-1 tvg-logo=""group-title="CINE PREMIUM",DHE
-
-
-
-
-#EXTINF:-1 tvg-logo=""group-title="CINE PREMIUM",GOLDEN PLUS
-
-
-
-#EXTINF:-1 tvg-logo=""group-title="CINE PREMIUM",GOLDEN
-
-
-
-
-
-#EXTINF:-1 tvg-logo="https://i.ibb.co/Q3YLnTSm/Screenshot-20250302-214108-XPlayer-Video-Player-removebg-preview.png"group-title="CINE PREMIUM",CINE CLASS
-
-
-
-
-
-#EXTINF:-1 tvg-logo=""group-title="CINE PREMIUM",HBO
-
-
-
-
-
-
-
-#EXTINF:-1 tvg-logo=""group-title="CINE PREMIUM",HBO 2
-
-
-
-
-
-
-#EXTINF:-1 tvg-logo=""group-title="CINE PREMIUM",HBO +
-
-
-
-
-
-
-
-
-#EXTINF:-1 tvg-logo="https://i.ibb.co/M5Z2R3gy/Photoroom-20250622-234004.png"group-title="CINE PREMIUM",DIGI TV
 
 
 
@@ -309,14 +219,12 @@ https://live20.bozztv.com/akamaissh101/ssh101/montegrandetv/playlist.m3u8
 https://livetrx01.vodgc.net/live-01-07-ciudad.vodgc.net/tracks-v3a1/mono.m3u8
 
 
-#EXTINF:-1 tvg-logo="https://i.ibb.co/yyHXtGG/Screenshot-20241226-095830-XPlayer-Video-Player-removebg-previe⁷w.png"group-title="ARGENTINA",TELEFE
-https://www.youtube.com/watch?v=
-XhAYcYpPzTc
+#EXTINF:-1 tvg-logo="https://i.ibb.co/yyHXtGG/Screenshot-20241226-095830-XPlayer-Video-Player-removebg-previe⁷w.png"group-title="ARGENTINA", COPA POTRERO
+https://www.youtube.com/watch?v=z4d0yeqL1ig
 
 
 #EXTINF:-1 tvg-logo="https://micanal.ovh/images/11253292546802528ad6c15.png"group-title="ARGENTINA",AR 12
-https://www.youtube.com/watch?v
-ECFbTfcv_yE
+https://www.youtube.com/watch?v=ECFbTfcv_yE
 
 
 
