@@ -47,6 +47,9 @@ https://vcp10.myplaytv.com/tvs/tvs/chunklist_w989702023.m3u8
 https://video.ejeserver.com/live/mcitelevision.m3u8
 
 
+#EXTINF:-1 tvg-logo=""group-title="CINE PREMIUM",Rumtime
+https://run-rt-uh-roku.otteravision.com/run/rt_uh/rt_uh_720.m3u8
+
 #EXTINF:-1 tvg-logo=""group-title="CINE PREMIUM", ROKUTEN DRAMA 
 https://a7089c89d85f453d850c4a1518b43076.mediatailor.eu-west-1.amazonaws.com/v1/manifest/0547f18649bd788bec7b67b746e47670f558b6b2/production-LiveChannel-6092/1288575f-cf5b-4b94-81b2-841c7d942f64/4.m3u8
 
@@ -62,6 +65,9 @@ https://livetrx01.vodgc.net/live-01-07-ciudad.vodgc.net/tracks-v3a1/mono.m3u8
 #EXTINF:-1 tvg-logo="https://i.ibb.co/2cN6Fn9/Screenshot-20250101-192206-Chrome-removebg-preview.png"group-title="CINE PREMIUM",WOW MOVIES
 https://live20.bozztv.com/giatv/giatv-wowmovies/wowmovies/chunks.m3u8
 
+
+#EXTINF:-1 tvg-logo=""group-title="CINE PREMIUM",TELECLASSICA
+https://live20.bozztv.com/akamaissh101/ssh101/teleclasik/chunks.m3u8
 
 #EXTINF:-1 tvg-logo="https://i.ibb.co/7NB0xRSs/Photoroom-20250622-235111.png"group-title="CINE PREMIUM",OPINION SUR CINE
 https://live20.bozztv.com/giatv/giatv-opinionsurc/opinionsurc/chunks.m3u8
