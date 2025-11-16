@@ -31,6 +31,11 @@ https://cors-proxy.cooks.fyi/https://streamer1.nexgen.bz/CINECANAL/index.m3u8
 #EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTOspY0DemQf4NaEMxXnKQQKCpDwOfVCdtnZg&usqp=CAU"group-title="CINE PREMIUM",CINE SONY
 https://a-cdn.klowdtv.com:443/live1/cine_720p/chunks.m3u8
 
+
+#EXTINF:-1 tvg-logo="https://i.ibb.co/2cN6Fn9/Screenshot-20250101-192206-Chrome-removebg-preview.png"group-title="CINE PREMIUM",WOW MOVIES
+https://live20.bozztv.com/giatv/giatv-wowmovies/wowmovies/chunks.m3u8
+
+
 #EXTINF:-1 tvg-logo=""group-title="CINE PREMIUM",TVOASIS
 https://live20.bozztv.com/akamaissh101/ssh101/oasistv123/playlist.m3u8
 
@@ -79,8 +84,7 @@ https://a-cdn.klowdtv.com/live1/cine_720p/chunks.m3u8
 https://livetrx01.vodgc.net/live-01-07-ciudad.vodgc.net/tracks-v3a1/mono.m3u8
 
 
-#EXTINF:-1 tvg-logo="https://i.ibb.co/2cN6Fn9/Screenshot-20250101-192206-Chrome-removebg-preview.png"group-title="CINE PREMIUM",WOW MOVIES
-https://live20.bozztv.com/giatv/giatv-wowmovies/wowmovies/chunks.m3u8
+
 
 
 #EXTINF:-1 tvg-logo=""group-title="CINE PREMIUM",TELECLASSICA
