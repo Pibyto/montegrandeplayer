@@ -31,6 +31,18 @@ https://cors-proxy.cooks.fyi/https://streamer1.nexgen.bz/CINECANAL/index.m3u8
 #EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTOspY0DemQf4NaEMxXnKQQKCpDwOfVCdtnZg&usqp=CAU"group-title="CINE PREMIUM",CINE SONY
 https://a-cdn.klowdtv.com:443/live1/cine_720p/chunks.m3u8
 
+#EXTINF:-1 tvg-logo=""group-title="CINE PREMIUM",TVOASIS
+https://live20.bozztv.com/akamaissh101/ssh101/oasistv123/playlist.m3u8
+
+
+#EXTINF:-1 tvg-logo=""group-title="CINE PREMIUM",TB
+https://live20.bozztv.com/akamaissh101/ssh101/telebolivar/chunks.m3u8
+
+
+
+#EXTINF:-1 tvg-logo=""group-title="CINE PREMIUM", PUNTO TV
+https://live20.bozztv.com/akamaissh101/ssh101/tv2024/chunks.m3u8
+
 
 #EXTINF:-1 tvg-logo="https://brandemia.org/wp-content/uploads/2013/02/logo_telemundo_principal.jpg"group-title="CINE PREMIUM",TELEMUNDO ACCION
 https://xumo-drct-ch835-ekq0p.fast.nbcuni.com/live/master_5.m3u8
@@ -1283,6 +1295,12 @@ https://live20.bozztv.com:443/akamaissh101/ssh101/vnl2025live/chunks.m3u8
 
 
 
+
+
+
+
+#EXTINF:-1 tvg-logo=""group-title="VENEZUELA",TELEBOLIVAR
+https://live20.bozztv.com/akamaissh101/ssh101/telebolivar/chunks.m3u8
 
 #EXTINF:-1 tvg-logo="https://static.wikia.nocookie.net/logopedia/images/0/07/Telesur_HD_%282017%29.png/revision/latest/scale-to-width-down/250?cb=20220719221045"group-title="VENEZUELA",TELESUR HD
 https://mblesmain01.telesur.ultrabase.net/mbliveMain/480p/playlist.m3u8
