@@ -40,11 +40,12 @@ https://live20.bozztv.com/giatv/giatv-wowmovies/wowmovies/chunks.m3u8
 https://live20.bozztv.com/akamaissh101/ssh101/xiomoz/chunks.m3u8
 
 
+#EXTINF:-1 tvg-logo=""group-title="CINE PREMIUM",PERCIANA LATINO
+https://latinohls.persiana.live/hls/stream.m3u8
+
 
 #EXTINF:-1 tvg-logo=""group-title="CINE PREMIUM",TVOASIS
 https://live20.bozztv.com/akamaissh101/ssh101/oasistv123/playlist.m3u8
-
-
 
 
 #EXTINF:-1 tvg-logo=""group-title="CINE PREMIUM", PUNTO TV
@@ -125,7 +126,7 @@ https://live20.bozztv.com/giatvplayout7/giatv-208817/tracks-v1a1/mono.ts.m3u8
 
 
 #EXTIENF:-1 tvg-logo=""group-title="CINE PREMIUM",SCI
-https://service-stitcher.clusters.pluto.tv/stitch/hls/channel/604928d54a4f730007ff76bc/master.m3u8?deviceId=0&deviceVersion=0&appVersion=0&deviceType=0&deviceMake=0&sid=41182975-ed0e-0236-f436-c4c0f6e7364e&deviceDNT=0&deviceModel=0
+https://service-stitcher.clusters.pluto.tv/stitch/hls/channel/604928d54a4f730007ff76bc/master.m3u8?deviceId=0&deviceVersion=0&appVersion=0&deviceType=0&deviceMake=0&sid=41182975-ed0e-0236-f436-c4c0f6e7364e&deviceDNT=0&deviceModel=0.m3u
 
 
 #EXTIENF:-1 tvg-logo=""group-title="CINE PREMIUM",CINE HOLLMARK
