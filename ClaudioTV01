@@ -17,8 +17,34 @@
 
 
 
+#EXTINF:-1 tvg-logo=""group-title="CINE PREMIUM",CINEMAX
+http://tv.diablotv.net:8080/jasminarenas1/qz7cnRtCsG/9633
+
+#EXTINF:-1 tvg-logo=""group-title="CINE PREMIUM",AMC
+http://tv.diablotv.net:8080/jasminarenas1/qz7cnRtCsG/9619
+
+#EXTINF:-1 tvg-logo=""group-title="CINE PREMIUM",TNT
+http://tv.diablotv.net:8080/jasminarenas1/qz7cnRtCsG/9743
+
+#EXTINF:-1 tvg-logo=""group-title="CINE PREMIUM",SPACE
+http://tv.diablotv.net:8080/jasminarenas1/qz7cnRtCsG/9717
 
 
+#EXTINF:-1 tvg-logo=""group-title="CINE PREMIUM",STAR
+http://tv.diablotv.net:8080/jasminarenas1/qz7cnRtCsG/9720
+
+#EXTINF:-1 tvg-logo=""group-title="CINE PREMIUM",DHE
+http://tv.diablotv.net:8080/jasminarenas1/qz7cnRtCsG/9643
+
+#EXTINF:-1 tvg-logo=""group-title="CINE PREMIUM", XTREME 
+http://tv.diablotv.net:8080/jasminarenas1/qz7cnRtCsG/9698
+
+
+#EXTINF:-1 tvg-logo=""group-title="CINE PREMIUM",CINEMA
+http://tv.diablotv.net:8080/jasminarenas1/qz7cnRtCsG/9757
+
+#EXTINF:-1 tvg-logo=""group-title="CINE PREMIUM",HBO+
+http://tv.diablotv.net:8080/jasminarenas1/qz7cnRtCsG/9685
 
 
 #EXTINF:-1 tvg-logo=""group-title="CINE PREMIUM",Rumtime
