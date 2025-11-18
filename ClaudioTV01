@@ -36,7 +36,7 @@ https://live20.bozztv.com/giatv/giatv-wowmovies/wowmovies/chunks.m3u8
 
 
 #EXTINF:-1 tvg-logo="https://i.ibb.co/yhYvwzD/Screenshot-20250111-080920-XPlayer-Video-Player-removebg-preview.png"group-title="CINE PREMIUM",CINE ACCION
-https://service-stitcher.clusters.pluto.tv/stitch/hls/channel/5d8d164d92e97a5e107638d2/master.m3u8?advertisingId=&appName=web&appStoreUrl=&appVersion=DNT&app_name=&architecture=&buildVersion=&deviceDNT=0&deviceId=5d8d164d92e97a5e107638d2&deviceLat=&deviceLon=&deviceMake=web&deviceModel=web&deviceType=web&deviceVersion=DNT&includeExtendedEvents=false&marketingRegion=US&serverSideAds=false&sid=904&terminate=false&userId=.m3u8
+https://service-stitcher.clusters.pluto.tv/stitch/hls/channel/5d8d164d92e97a5e107638d2/master.m3u8?advertisingId=&appName=web&appStoreUrl=&appVersion=DNT&app_name=&architecture=&buildVersion=&deviceDNT=0&deviceId=5d8d164d92e97a5e107638d2&deviceLat=&deviceLon=&deviceMake=web&deviceModel=web&deviceType=web&deviceVersion=DNT&includeExtendedEvents=false&marketingRegion=US&serverSideAds=false&sid=904&terminate=false&userId=
 
 
 #EXTINF:-1 tvg-logo="https://i.ibb.co/Ldfbk6rC/Photoroom-20250629-132738.png"group-title="CINE PREMIUM",TVS
@@ -48,7 +48,7 @@ https://vdo2.streamgato.us:3673/live/telemaxlive.m3u8
 
 
 #EXTIENF:-1 tvg-logo=""group-title="CINE PREMIUM",CINE HOLLMARK
-https://service-stitcher.clusters.pluto.tv/stitch/hls/channel/6532e7b290a74c00084a3bb6/master.m3u8?deviceId=0&deviceVersion=0&appVersion=0&deviceType=0&deviceMake=0&sid=258112e0-4102-90b6-df5f-ffddad0ace20&deviceDNT=0&deviceModel=0.m3u8
+https://service-stitcher.clusters.pluto.tv/stitch/hls/channel/6532e7b290a74c00084a3bb6/master.m3u8?deviceId=0&deviceVersion=0&appVersion=0&deviceType=0&deviceMake=0&sid=258112e0-4102-90b6-df5f-ffddad0ace20&deviceDNT=0&deviceModel=0
 
 
 #EXTINF:-1 tvg-logo=""group-title="CINE PREMIUM",MCI
@@ -130,27 +130,27 @@ https://live20.bozztv.com/giatvplayout7/giatv-208817/tracks-v1a1/mono.ts.m3u8
 
 
 #EXTIENF:-1 tvg-logo=""group-title="CINE PREMIUM",SCI
-https://service-stitcher.clusters.pluto.tv/stitch/hls/channel/604928d54a4f730007ff76bc/master.m3u8?deviceId=0&deviceVersion=0&appVersion=0&deviceType=0&deviceMake=0&sid=41182975-ed0e-0236-f436-c4c0f6e7364e&deviceDNT=0&deviceModel=0.m3u8
+https://service-stitcher.clusters.pluto.tv/stitch/hls/channel/604928d54a4f730007ff76bc/master.m3u8?deviceId=0&deviceVersion=0&appVersion=0&deviceType=0&deviceMake=0&sid=41182975-ed0e-0236-f436-c4c0f6e7364e&deviceDNT=0&deviceModel=0
 
 
 #EXTIENF:-1 tvg-logo=""group-title="CINE PREMIUM",CINE SUSPENSO
-https://service-stitcher.clusters.pluto.tv/stitch/hls/channel/5ddc4e8bcbb9010009b4e84f/master.m3u8?deviceId=0&deviceVersion=0&appVersion=0&deviceType=0&deviceMake=0&sid=d3baf284-e3ec-de3c-5c07-f047397dc93f&deviceDNT=0&deviceModel=0.m3u8
+https://service-stitcher.clusters.pluto.tv/stitch/hls/channel/5ddc4e8bcbb9010009b4e84f/master.m3u8?deviceId=0&deviceVersion=0&appVersion=0&deviceType=0&deviceMake=0&sid=d3baf284-e3ec-de3c-5c07-f047397dc93f&deviceDNT=0&deviceModel=0
 
 
 #EXTIENF:-1 tvg-logo=""group-title="CINE PREMIUM",CINE TERROR 1
-https://service-stitcher.clusters.pluto.tv/stitch/hls/channel/5d8d180092e97a5e107638d3/master.m3u8?deviceId=0&deviceVersion=0&appVersion=0&deviceType=0&deviceMake=0&sid=a0c565a1-a49d-3820-e2f5-ef649c652777&deviceDNT=0&deviceModel=0.m3u8
+https://service-stitcher.clusters.pluto.tv/stitch/hls/channel/5d8d180092e97a5e107638d3/master.m3u8?deviceId=0&deviceVersion=0&appVersion=0&deviceType=0&deviceMake=0&sid=a0c565a1-a49d-3820-e2f5-ef649c652777&deviceDNT=0&deviceModel=0
 
 
 #EXTIENF:-1 tvg-logo=""group-title="CINE PREMIUM",CINE TEROR 2
-https://service-stitcher.clusters.pluto.tv/stitch/hls/channel/5dcddf1ed95e740009fef7ab/master.m3u8?deviceId=0&deviceVersion=0&appVersion=0&deviceType=0&deviceMake=0&sid=0a70d431-b637-18e9-be44-026530440915&deviceDNT=0&deviceModel=0.m3u8
+https://service-stitcher.clusters.pluto.tv/stitch/hls/channel/5dcddf1ed95e740009fef7ab/master.m3u8?deviceId=0&deviceVersion=0&appVersion=0&deviceType=0&deviceMake=0&sid=0a70d431-b637-18e9-be44-026530440915&deviceDNT=0&deviceModel=0
 
 
 #EXTIENF:-1 tvg-logo=""group-title="CINE PREMIUM",CINE PREMIERE
-https://service-stitcher.clusters.pluto.tv/stitch/hls/channel/5cf968040ab7d8f181e6a68b/master.m3u8?deviceId=0&deviceVersion=0&appVersion=0&deviceType=0&deviceMake=0&sid=3ef5fe1c-1d93-ac26-25d9-3b7b61b73484&deviceDNT=0&deviceModel=0.m3u8
+https://service-stitcher.clusters.pluto.tv/stitch/hls/channel/5cf968040ab7d8f181e6a68b/master.m3u8?deviceId=0&deviceVersion=0&appVersion=0&deviceType=0&deviceMake=0&sid=3ef5fe1c-1d93-ac26-25d9-3b7b61b73484&deviceDNT=0&deviceModel=0
 
 
 #EXTIENF:-1 tvg-logo=""group-title="CINE PREMIUM",CINE COMEDIA
-https://service-stitcher.clusters.pluto.tv/stitch/hls/channel/5dcdde78f080d900098550e4/master.m3u8?deviceId=0&deviceVersion=0&appVersion=0&deviceType=0&deviceMake=0&sid=1b49c5cf-235b-f6a9-bc95-f8d07b86a39a&deviceDNT=0&deviceModel=0.m3u8
+https://service-stitcher.clusters.pluto.tv/stitch/hls/channel/5dcdde78f080d900098550e4/master.m3u8?deviceId=0&deviceVersion=0&appVersion=0&deviceType=0&deviceMake=0&sid=1b49c5cf-235b-f6a9-bc95-f8d07b86a39a&deviceDNT=0&deviceModel=0
 
 
 #EXTINF:-1 tvg-logo="https://i.ibb.co/GvQ2p3t/2q-Jl-Tsa3-KTA70-Th-K4-UAz-H66-J0-MF-2q-Jl-Tp-WH0-K294c6-VTx-Tftt1-GXDk-2q-Jl-URfo-XMh-Jz-NZy799-Hr.png"group-title="CINE PREMIUM",RESTELLI TV CANAL 5 MG
@@ -167,7 +167,7 @@ https://appletree-mytime-samsungmexico.amagi.tv/playlist.m3u8
 
 
 #EXTINF:-1 tvg-logo="https://i.ibb.co/yhYvwzD/Screenshot-20250111-080920-XPlayer-Video-Player-removebg-preview.png"group-title="CINE PREMIUM",CINE ESTELAR
-https://service-stitcher.clusters.pluto.tv/stitch/hls/channel/5dcde437229eff00091b6c30/master.m3u8?advertisingId=&appName=web&appVersion=5.14.0-0f5ca04c21649b8c8aad4e56266a23b96d73b83a&app_name=web&clientDeviceType=0&clientID=6fbead95-26b1-415d-998f-1bdef62d10be&clientModelNumber=na&deviceDNT=false&deviceId=6fbead95-26b1-415d-998f-1bdef62d10be&deviceLat=19.4358&deviceLon=-99.1441&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=88.0.4324.150&marketingRegion=VE&serverSideAds=false&sessionID=b8e5a857-714a-11eb-b532-0242ac110002&sid=b8e5a857-714a-11eb-b532-0242ac110002&userId=.m3u8
+https://service-stitcher.clusters.pluto.tv/stitch/hls/channel/5dcde437229eff00091b6c30/master.m3u8?advertisingId=&appName=web&appVersion=5.14.0-0f5ca04c21649b8c8aad4e56266a23b96d73b83a&app_name=web&clientDeviceType=0&clientID=6fbead95-26b1-415d-998f-1bdef62d10be&clientModelNumber=na&deviceDNT=false&deviceId=6fbead95-26b1-415d-998f-1bdef62d10be&deviceLat=19.4358&deviceLon=-99.1441&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=88.0.4324.150&marketingRegion=VE&serverSideAds=false&sessionID=b8e5a857-714a-11eb-b532-0242ac110002&sid=b8e5a857-714a-11eb-b532-0242ac110002&userId=0
 
 
 
@@ -176,12 +176,11 @@ https://live20.bozztv.com:443/giatvplayout7/giatv-208730/tracks-v1a1/mono.ts.m3u
 
 
 #EXTINF:-1 tvg-logo="https://i.ibb.co/yhYvwzD/Screenshot-20250111-080920-XPlayer-Video-Player-removebg-preview.png"group-title="CINE PREMIUM",P. ACCION
-http://cfd-v4-service-channel-stitcher-use1-1.prd.pluto.tv/stitch/hls/channel/561d7d484dc7c8770484914a/master.m3u8?appName=web&appVersion=unknown&clientTime=0&deviceDNT=0&deviceId=6c2ac632-30d3-11ef-9cf5-e9ddff8ff496&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=unknown&includeExtendedEvents=false&serverSideAds=false&sid=9bd2e9c0-393b-484b-b5bc-b1869a276513.m3u8
+http://cfd-v4-service-channel-stitcher-use1-1.prd.pluto.tv/stitch/hls/channel/561d7d484dc7c8770484914a/master.m3u8?appName=web&appVersion=unknown&clientTime=0&deviceDNT=0&deviceId=6c2ac632-30d3-11ef-9cf5-e9ddff8ff496&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=unknown&includeExtendedEvents=false&serverSideAds=false&sid=9bd2e9c0-393b-484b-b5bc-b1869a276513
 
 
 #EXTINF:-1 tvg-logo="https://i.ibb.co/0jWLjWRT/Screenshot-20250224-143627-Web-Video-Caster.jpg"group-title="CINE PREMIUM",PELIS POPCORN
-http://cfd-v4-service-channel-stitcher-use1-1.prd.pluto.tv/stitch/hls/channel/60fb2f47c133270007327375/master.m3u8?appName=web&appVersion=unknown&clientTime=0&deviceDNT=0&deviceId=6c2a9f24-30d3-11ef-9cf5-e9ddff8ff496&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=unknown&includeExtendedEvents=false&serverSideAds=false&sid=8f7b47b7-a2d8-4c61-847a-02818046001b.m3u8
-
+http://cfd-v4-service-channel-stitcher-use1-1.prd.pluto.tv/stitch/hls/channel/60fb2f47c133270007327375/master.m3u8?appName=web&appVersion=unknown&clientTime=0&deviceDNT=0&deviceId=6c2a9f24-30d3-11ef-9cf5-e9ddff8ff496&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=unknown&includeExtendedEvents=false&serverSideAds=false&sid=8f7b47b7-a2d8-4c61-847a-02818046001b
 
 
 
