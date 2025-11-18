@@ -17,34 +17,6 @@
 
 
 
-#EXTINF:-1 tvg-logo=""group-title="CINE PREMIUM",CINEMAX
-http://tv.diablotv.net:8080/jasminarenas1/qz7cnRtCsG/9633
-
-#EXTINF:-1 tvg-logo=""group-title="CINE PREMIUM",AMC
-http://tv.diablotv.net:8080/jasminarenas1/qz7cnRtCsG/9619
-
-#EXTINF:-1 tvg-logo=""group-title="CINE PREMIUM",TNT
-http://tv.diablotv.net:8080/jasminarenas1/qz7cnRtCsG/9743
-
-#EXTINF:-1 tvg-logo=""group-title="CINE PREMIUM",SPACE
-http://tv.diablotv.net:8080/jasminarenas1/qz7cnRtCsG/9717
-
-
-#EXTINF:-1 tvg-logo=""group-title="CINE PREMIUM",STAR
-http://tv.diablotv.net:8080/jasminarenas1/qz7cnRtCsG/9720
-
-#EXTINF:-1 tvg-logo=""group-title="CINE PREMIUM",DHE
-http://tv.diablotv.net:8080/jasminarenas1/qz7cnRtCsG/9643
-
-#EXTINF:-1 tvg-logo=""group-title="CINE PREMIUM", XTREME 
-http://tv.diablotv.net:8080/jasminarenas1/qz7cnRtCsG/9698
-
-
-#EXTINF:-1 tvg-logo=""group-title="CINE PREMIUM",CINEMA
-http://tv.diablotv.net:8080/jasminarenas1/qz7cnRtCsG/9757
-
-#EXTINF:-1 tvg-logo=""group-title="CINE PREMIUM",HBO+
-http://tv.diablotv.net:8080/jasminarenas1/qz7cnRtCsG/9685
 
 
 #EXTINF:-1 tvg-logo=""group-title="CINE PREMIUM",Rumtime
@@ -63,6 +35,10 @@ https://a-cdn.klowdtv.com:443/live1/cine_720p/chunks.m3u8
 https://live20.bozztv.com/giatv/giatv-wowmovies/wowmovies/chunks.m3u8
 
 
+#EXTINF:-1 tvg-logo="https://i.ibb.co/yhYvwzD/Screenshot-20250111-080920-XPlayer-Video-Player-removebg-preview.png"group-title="CINE PREMIUM",CINE ACCION
+https://service-stitcher.clusters.pluto.tv/stitch/hls/channel/5d8d164d92e97a5e107638d2/master.m3u8?advertisingId=&appName=web&appStoreUrl=&appVersion=DNT&app_name=&architecture=&buildVersion=&deviceDNT=0&deviceId=5d8d164d92e97a5e107638d2&deviceLat=&deviceLon=&deviceMake=web&deviceModel=web&deviceType=web&deviceVersion=DNT&includeExtendedEvents=false&marketingRegion=US&serverSideAds=false&sid=904&terminate=false&userId=.m3u8
+
+
 #EXTINF:-1 tvg-logo="https://i.ibb.co/Ldfbk6rC/Photoroom-20250629-132738.png"group-title="CINE PREMIUM",TVS
 https://vcp10.myplaytv.com/tvs/tvs/chunklist_w989702023.m3u8
 
@@ -71,14 +47,12 @@ https://vcp10.myplaytv.com/tvs/tvs/chunklist_w989702023.m3u8
 https://vdo2.streamgato.us:3673/live/telemaxlive.m3u8
 
 
+#EXTIENF:-1 tvg-logo=""group-title="CINE PREMIUM",CINE HOLLMARK
+https://service-stitcher.clusters.pluto.tv/stitch/hls/channel/6532e7b290a74c00084a3bb6/master.m3u8?deviceId=0&deviceVersion=0&appVersion=0&deviceType=0&deviceMake=0&sid=258112e0-4102-90b6-df5f-ffddad0ace20&deviceDNT=0&deviceModel=0.m3u8
+
 
 #EXTINF:-1 tvg-logo=""group-title="CINE PREMIUM",MCI
 https://video.ejeserver.com/live/mcitelevision.m3u8
-
-
-
-#EXTINF:-1 tvg-logo=""group-title="CINE PREMIUM",NEXTV
-https://live20.bozztv.com/akamaissh101/ssh101/vnl2025live/chunks.m3u8
 
 
 #EXTINF:-1 tvg-logo="https://i.ibb.co/VYQ6QnPK/Photoroom-20250604-000131.png"group-title="CINE PREMIUM",CN53 PELICULAS
@@ -87,7 +61,6 @@ https://live20.bozztv.com/akamaissh101/ssh101/codificador8/chunks.m3u8
 
 #EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/a/a4/CINEARLogo.png"group-title="CINE PREMIUM",TUCINE
 https://live20.bozztv.com/akamaissh101/ssh101/xiomoz/chunks.m3u8
-
 
 
 #EXTINF:-1 tvg-logo=""group-title="CINE PREMIUM",PERCIANA LATINO
@@ -160,11 +133,6 @@ https://live20.bozztv.com/giatvplayout7/giatv-208817/tracks-v1a1/mono.ts.m3u8
 https://service-stitcher.clusters.pluto.tv/stitch/hls/channel/604928d54a4f730007ff76bc/master.m3u8?deviceId=0&deviceVersion=0&appVersion=0&deviceType=0&deviceMake=0&sid=41182975-ed0e-0236-f436-c4c0f6e7364e&deviceDNT=0&deviceModel=0.m3u8
 
 
-#EXTIENF:-1 tvg-logo=""group-title="CINE PREMIUM",CINE HOLLMARK
-https://service-stitcher.clusters.pluto.tv/stitch/hls/channel/6532e7b290a74c00084a3bb6/master.m3u8?deviceId=0&deviceVersion=0&appVersion=0&deviceType=0&deviceMake=0&sid=258112e0-4102-90b6-df5f-ffddad0ace20&deviceDNT=0&deviceModel=0.m3u8
-
-
-
 #EXTIENF:-1 tvg-logo=""group-title="CINE PREMIUM",CINE SUSPENSO
 https://service-stitcher.clusters.pluto.tv/stitch/hls/channel/5ddc4e8bcbb9010009b4e84f/master.m3u8?deviceId=0&deviceVersion=0&appVersion=0&deviceType=0&deviceMake=0&sid=d3baf284-e3ec-de3c-5c07-f047397dc93f&deviceDNT=0&deviceModel=0.m3u8
 
@@ -194,8 +162,7 @@ https://live20.bozztv.com:443/giatvplayout7/giatv-208770/tracks-v1a1/mono.ts.m3u
 https://appletree-mytime-samsungmexico.amagi.tv/playlist.m3u8
 
 
-#EXTINF:-1 tvg-logo="https://i.ibb.co/yhYvwzD/Screenshot-20250111-080920-XPlayer-Video-Player-removebg-preview.png"group-title="CINE PREMIUM",CINE ACCION
-https://service-stitcher.clusters.pluto.tv/stitch/hls/channel/5d8d164d92e97a5e107638d2/master.m3u8?advertisingId=&appName=web&appStoreUrl=&appVersion=DNT&app_name=&architecture=&buildVersion=&deviceDNT=0&deviceId=5d8d164d92e97a5e107638d2&deviceLat=&deviceLon=&deviceMake=web&deviceModel=web&deviceType=web&deviceVersion=DNT&includeExtendedEvents=false&marketingRegion=US&serverSideAds=false&sid=904&terminate=false&userId=.m3u8
+
 
 
 
