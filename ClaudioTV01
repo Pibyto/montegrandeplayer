@@ -23,6 +23,11 @@
 https://run-rt-uh-roku.otteravision.com/run/rt_uh/rt_uh_720.m3u8
 
 
+
+#EXTINF:-1 tvg-logo=""group-title="CINE PREMIUM",GLOBAL TV
+https://streamtv.intervenhosting.net:3179/live/globaltvlive.m3u8
+
+
 #EXTINF:-1 tvg-logo=""group-title="CINE PREMIUM", CINECANAL 
 https://cors-proxy.cooks.fyi/https://streamer1.nexgen.bz/CINECANAL/index.m3u8
 
@@ -35,6 +40,11 @@ https://a-cdn.klowdtv.com:443/live1/cine_720p/chunks.m3u8
 https://live20.bozztv.com/giatv/giatv-wowmovies/wowmovies/chunks.m3u8
 
 
+#EXTINF:-1 tvg-logo=""group-title="CINE PREMIUM",PORTU TV
+https://streamtv.intervenhosting.net:3789/live/portutvlive.m3u8
+
+
+
 #EXTINF:-1 tvg-logo="https://i.ibb.co/yhYvwzD/Screenshot-20250111-080920-XPlayer-Video-Player-removebg-preview.png"group-title="CINE PREMIUM",CINE ACCION
 https://service-stitcher.clusters.pluto.tv/stitch/hls/channel/5d8d164d92e97a5e107638d2/master.m3u8?advertisingId=&appName=web&appStoreUrl=&appVersion=DNT&app_name=&architecture=&buildVersion=&deviceDNT=0&deviceId=5d8d164d92e97a5e107638d2&deviceLat=&deviceLon=&deviceMake=web&deviceModel=web&deviceType=web&deviceVersion=DNT&includeExtendedEvents=false&marketingRegion=US&serverSideAds=false&sid=904&terminate=false&userId=
 
@@ -45,6 +55,11 @@ https://vcp10.myplaytv.com/tvs/tvs/chunklist_w989702023.m3u8
 
 #EXTINF:-1 tvg-logo=""group-title="CINE PREMIUM",TELEMAX
 https://vdo2.streamgato.us:3673/live/telemaxlive.m3u8
+
+
+#EXTINF:-1 tvg-logo=""group-title="CINE PREMIUM",TVM+
+https://streamtv.intervenhosting.net:3529/live/tvmparatilive.m3u8
+
 
 
 #EXTIENF:-1 tvg-logo=""group-title="CINE PREMIUM",CINE HOLLMARK
