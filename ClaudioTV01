@@ -315,6 +315,9 @@ http://nxt.plus:8080/live/bernardocas/bernardo2023/1632.ts
 https://panel.host-live.com:19360/8250/8250.m3u8
 
 
+#EXTINF:-1 tvg-logo=""group-title="ARGENTINA",11 DIGITAL 
+https://live20.bozztv.com/giatv/giatv-ojodigital/ojodigital/chunks.m3u8
+
 #EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/f/f4/Logo_13max_HD.png"group-title="ARGENTINA",13 MAX DIGITAL HD  31.1 
 http://coninfo.net:1935/13maxhd/live13maxtvnuevo/chunklist_w1508784090.m3u8
 
