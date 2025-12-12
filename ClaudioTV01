@@ -28,7 +28,10 @@
 https://live.enhdtv.com:8081/8150/tracks-v1a1/mono.m3u8
 
 
-#EXTINF:-1 tvg-logo=""group-title="CINE PREMIUM",CINE PLUS
+#EXTINF:-1 tvg-logo=""group-title="CINE PREMIUM",MONI TV
+http://190.102.242.130:25461/monitvpo/monitvpo/1
+
+
 https://acceso.radiosportstv.online:3259/live/retroxtvlive.m3u8
 
 
