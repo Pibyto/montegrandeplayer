@@ -49,7 +49,7 @@ https://live21.bozztv.com/akamaissh101/ssh101/canalcdr/chunks.m3u8
 
 
 
-#EXTINF:-1 tvg-logo=""group-title="CINE PREMIUM",+CINE CLASSIC
+#EXTINF:-1 tvg-logo="https://i.ibb.co/mVVm3Pn2/Screenshot-20251215-063007.png"group-title="CINE PREMIUM",+CINE CLASSIC
 http://190.102.242.130:25461/cineclasiipowe/1234/143
 
 
