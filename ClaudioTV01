@@ -28,7 +28,7 @@
 http://190.102.242.130:25461/tpowercine/123456/31
 
 
-#EXTINF:-1 tvg-logo=""group-title="CINE PREMIUM",+CINE FAMILY
+#EXTINF:-1 tvg-logo="https://tinyurl.com/2wc4khr4"group-title="CINE PREMIUM",+CINE FAMILY
 http://190.102.242.130:25461/familypower/1234/149
 
 
@@ -48,7 +48,7 @@ https://live21.bozztv.com/akamaissh101/ssh101/montegrandetv/chunks.m3u8
 https://live21.bozztv.com/akamaissh101/ssh101/canalcdr/chunks.m3u8
 
 
-#EXTINF:-1 tvg-logo=""group-title="CINE PREMIUM",+CINE TERROR
+#EXTINF:-1 tvg-logo="https://tinyurl.com/3cjkb7h8"group-title="CINE PREMIUM",+CINE TERROR
 http://190.102.242.130:25461/terrorpower/1234/99
 
 
