@@ -61,8 +61,8 @@ http://190.102.242.130:25461/cineclasiipowe/1234/143
 #EXTINF:-1 tvg-logo=""group-title="CINE PREMIUM",Rumtime
 https://run-rt-uh-roku.otteravision.com/run/rt_uh/rt_uh_720.m3u8
 
-#EXTINF:-1 tvg-logo=""group-title="CINE PREMIUM",RF TV
-https://acceso.radiosportstv.online:3417/live/360rftvcrlive.m3u8
+#EXTINF:-1 tvg-logo=""group-title="CINE PREMIUM", FABIÁN VISION TV
+https://live21.bozztv.com/akamaissh101/ssh101/fabiantv182/chunks.m3u8
 
 
 #EXTINF:-1 tvg-logo=""group-title="CINE PREMIUM",ANTENA SEIS
@@ -92,8 +92,11 @@ https://a-cdn.klowdtv.com:443/live1/cine_720p/chunks.m3u8
 https://live20.bozztv.com/giatv/giatv-wowmovies/wowmovies/chunks.m3u8
 
 
-#EXTINF:-1 tvg-logo=""group-title="CINE PREMIUM",PORTU TV
-https://streamtv.intervenhosting.net:3789/live/portutvlive.m3u8
+#EXTINF:-1 tvg-logo=""group-title="CINE PREMIUM",CINE35 
+https://live21.bozztv.com/akamaissh101/ssh101/bigchannel/chunks.m3u8
+
+
+
 
 
 
@@ -130,16 +133,16 @@ https://live20.bozztv.com/akamaissh101/ssh101/codificador8/chunks.m3u8
 https://live20.bozztv.com/akamaissh101/ssh101/xiomoz/chunks.m3u8
 
 
-#EXTINF:-1 tvg-logo=""group-title="CINE PREMIUM",PERCIANA LATINO
-https://latinohls.persiana.live/hls/stream.m3u8
+#EXTINF:-1 tvg-logo=""group-title="CINE PREMIUM",RETROX PLUS
+https://live21.bozztv.com/akamaissh101/ssh101/retroxcrtv/chunks.m3u8
 
 
 #EXTINF:-1 tvg-logo=""group-title="CINE PREMIUM",TVOASIS
 https://live20.bozztv.com/akamaissh101/ssh101/oasistv123/playlist.m3u8
 
 
-#EXTINF:-1 tvg-logo=""group-title="CINE PREMIUM",PUNTO TV
-https://live20.bozztv.com/akamaissh101/ssh101/tv2024/chunks.m3u8
+#EXTINF:-1 tvg-logo=""group-title="CINE PREMIUM",SPARKX TV
+https://live21.bozztv.com/akamaissh101/ssh101/sparkx/chunks.m3u8
 
 
 #EXTINF:-1 tvg-logo="https://brandemia.org/wp-content/uploads/2013/02/logo_telemundo_principal.jpg"group-title="CINE PREMIUM",TELEMUNDO ACCION
