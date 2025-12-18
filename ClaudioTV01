@@ -71,8 +71,8 @@ https://run-rt-uh-roku.otteravision.com/run/rt_uh/rt_uh_720.m3u8
 https://live21.bozztv.com/akamaissh101/ssh101/fabiantv182/chunks.m3u8
 
 
-#EXTINF:-1 tvg-logo=""group-title="CINE PREMIUM",ANTENA SEIS
-https://video1.azulstream.com:8081/antenaseistv/tracks-v1a1/mono.m3u8
+#EXTINF:-1 tvg-logo=""group-title="CINE PREMIUM",CASMA TV
+https://micanal.ovh/livestreams/349.MH2YEGDCHBVR.m3u8
 
 
 #EXTINF:-1 tvg-logo=""group-title="CINE PREMIUM",GLOBAL TV
@@ -124,8 +124,8 @@ https://streamtv.intervenhosting.net:3529/live/tvmparatilive.m3u8
 https://service-stitcher.clusters.pluto.tv/stitch/hls/channel/6532e7b290a74c00084a3bb6/master.m3u8?deviceId=0&deviceVersion=0&appVersion=0&deviceType=0&deviceMake=0&sid=258112e0-4102-90b6-df5f-ffddad0ace20&deviceDNT=0&deviceModel=0
 
 
-#EXTINF:-1 tvg-logo=""group-title="CINE PREMIUM",TEVE GLOBO
-https://giatv.bozztv.com/giatv/giatv-tevegloboxela/tevegloboxela/chunks.m3u8
+#EXTINF:-1 tvg-logo=""group-title="CINE PREMIUM",ATV
+https://micanal.ovh/livestreams/142.RZYR3NWFIHKH.m3u8
 
 
 #EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/a/a4/CINEARLogo.png"group-title="CINE PREMIUM",TUCINE
