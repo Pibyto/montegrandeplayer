@@ -93,6 +93,9 @@ https://cors-proxy.cooks.fyi/https://streamer1.nexgen.bz/CINECANAL/index.m3u8
 https://live20.bozztv.com/giatv/giatv-mylamil35tv/mylamil35tv/chunks.m3u8
 
 
+#EXTINF:-1 tvg-logo="https://i.ibb.co/dLWwdLK/3dgifmaker66066.gif"group-title="CINE PREMIUM",COSMOS TV HD
+https://canaletaplus.com:3922/live/adminlive.m3u8
+
 
 #EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTOspY0DemQf4NaEMxXnKQQKCpDwOfVCdtnZg&usqp=CAU"group-title="CINE PREMIUM",CINE SONY
 https://a-cdn.klowdtv.com:443/live1/cine_720p/chunks.m3u8
@@ -469,7 +472,8 @@ https://www.youtube.com/watch?v=jRnqxURJ120
 
 
 #EXTINF:-1 tvg-logo="https://i.ibb.co/dLWwdLK/3dgifmaker66066.gif"group-title="ARGENTINA",COSMOS TV HD
-https://tv.mediacp.eu:19360/cosmos/cosmos.m3u8
+https://canaletaplus.com:3922/live/adminlive.m3u8
+
 
 
 #EXTINF:-1 tvg-logo="https://i.ibb.co/gZvpC8b6/Photoroom-20250719-000750.png"group-title="ARGENTINA",GENTV
