@@ -687,177 +687,6 @@ http://cfd-v4-service-channel-stitcher-use1-1.prd.pluto.tv/stitch/hls/channel/60
 
 
 
-
-
-
-
-
-
-
-
-
-
-#############( VLC PLAYER )###########
-######################################
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-#EXTINF:-1  tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/TVP_-_Televisi%C3%B3n_P%C3%BAblica_%282021%29.svg/800px-TVP_-_Televisi%C3%B3n_P%C3%BAblica_%282021%29.svg.png"group-title="VLC PLAYER",TVP
-https://www.youtube.com/watch?v=egoYYMggbo4
-
-
-
-
-#EXTINF:-1  tvg-logo="https://media.minutouno.com/p/97848ad6986b07ac9e2c012d93629aa6/adjuntos/150/imagenes/041/362/0041362586/c5n-logo.jpg"group-title="VLC PLAYER",C5N
-https://www.youtube.com/watch?v=jTDk5CswBVk
-
-
-
-#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/Canal_26_logo_%282022%29.svg/2048px-Canal_26_logo_%282022%29.svg.png" group-title="VLC PLAYER",CANAL 26
-https://www.youtube.com/watch?v=BTaSHvWJW5A
-
-
-#EXTINF:-1  tvg-logo="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh4DC0-vjxdknUnvyD_wtUZ3iAacVmZqmj7_O6aRYYGT30zyv7Up4KWSamHZ_eZ3H84uhvmrXs-XiVCG2KX_xVteVyguWXrPr1D_MNiBJT6ckBDA_-5Gx-FTnaXA0EXGl4o2i91qFqnI0Z5P9N45IKO5TX3bDdWMmqTXzua5KV5YRDJAJnkNPN0hx9h/s558/CRONICATV.png"group-title="VLC PLAYER",CRONICA TV
-https://www.youtube.com/watch?v=avly0uwZzOE
-
-
-#EXTINF:-1  tvg-logo="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEin4_EDrIzSRgg1JztU3NtSO59enD3wh7b3LHdcSSCkoaLJbVOs_s90X7g-of6P_XtjRtuEAL3TQA8A-Tmg_OJqefs-Ol9Lb28kQhziiYXW4XA0b7blqj6q_ViyndF9grjoTA8e84hrXh_Q7pIf1aUzzH_yRkjC58fsclM_Vnz26GIibOfnFgAmmiulKNc/s280/a24-2025.png"group-title="VLC PLAYER",A24
-https://www.youtube.com/watch?v=ArKbAx1K-2U
-
-#EXTINF:-1  tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4f/TN_todo_noticias_logo.svg/1200px-TN_todo_noticias_logo.svg.png"group-title="VLC PLAYER",TN
-https://www.youtube.com/watch?v=cb12KmMMDJA
-
-#EXTINF:-1  tvg-logo="https://upload.wikimedia.org/wikipedia/commons/8/81/LN%2B.png"group-title="VLC PLAYER",LA NACION
-https://www.youtube.com/watch?v=OR9MH16MKrg
-
-#EXTINF:-1  tvg-logo="https://fotos.perfil.com/2025/06/20/0/900/telefe-noticias-2046729.jpg?webp"group-title="VLC PLAYER",TELEFE NOTICIAS 24HS
-https://www.youtube.com/watch?v=bwjx7rN4kr4
-
-
-#EXTINF:-1  tvg-logo="https://upload.wikimedia.org/wikipedia/commons/9/94/El_doce_tv_cba_logo.png"group-title="VLC PLAYER",EL DOCE
-https://www.youtube.com/watch?v=nndzeKDSjuc
-
-
-#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/2/22/Eltres_RGB-grad_%28positivo%29.png/1200px-Eltres_RGB-grad_%28positivo%29.png"group-title="VLC PLAYER",ELTRES
-https://www.youtube.com/watch?v=F5Rt9bFAt-0
-
-
-#EXTINF:-1  tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9b/Elonce_TV_Salta.png/1873px-Elonce_TV_Salta.png"group-title="VLC PLAYER",EL ONCE
-https://www.youtube.com/watch?v=kdNY-T2iCvE
-
-#EXTINF:-1  tvg-logo="https://static.wikia.nocookie.net/logopedia/images/5/56/Canal_6_ERTV_2020.png/revision/latest?cb=20230723173913&path-prefix=es"group-title="VLC PLAYER",EL 6 CRESPO
-https://www.youtube.com/watch?v=RSi65gTVLB0
-
-#EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT1aftnnEZGd9y8LpNFkLBxpZZl4ADbSx2rzA&s"group-title="VLC PLAYER",PICADOTV
-https://www.youtube.com/watch?v=DItkbz-xyqE
-
-#EXTINF:-1  tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTU3Bd-bWyhF4m3PzGf1IacEA5X9NF8yw17Qg&s"group-title="VLC PLAYER",EL SIETE
-https://www.youtube.com/watch?v=Vh8xmLBJtR8
-
-
-#EXTINF:-1  tvg-logo="https://upload.wikimedia.org/wikipedia/commons/4/45/Eltrece_logotipo_2018.png"group-title="VLC PLAYER",EL TRECE
-https://www.youtube.com/watch?v=nyxikjwP_eo
-
-
-#EXTINF:-1  tvg-logo="https://upload.wikimedia.org/wikipedia/commons/3/39/Euronews._2016_alternative_logo.png"group-title="VLC PLAYER",EURONEWS
-https://www.youtube.com/watch?v=O9mOtdZ-nSk
-
-#EXTINF:-1  tvg-logo="https://cdn.storage.foromedios.com/monthly_2024_02/large.DWDeutscheWelleenespaol.png.b5cc19d4d75f3c0803ad79adb29c07ab.png"group-title="VLC PLAYER",DW
-https://www.youtube.com/watch?v=g3vbKsbx87I
-
-
-
-#EXTINF:-1  tvg-logo="https://upload.wikimedia.org/wikipedia/commons/8/8a/France24.png"group-title="VLC PLAYER",FRANCE 24
-https://www.youtube.com/watch?v=Y-IlMeCCtIg
-
-
-#EXTINF:-1  tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2b/Logo_Canal_24_horas.svg/2399px-Logo_Canal_24_horas.svg.png"group-title="VLC PLAYER",24 hs
-https://www.youtube.com/watch?v=7_srED6k0bE
-
-#EXTINF:-1 tvg-logo="https://media-cldnry.s-nbcnews.com/image/upload/rockcms/2024-04/NTASLATE-b832f3.png"group-title="VLC PLAYER"NOTICIAS TELEMUNDO
-https://www.youtube.com/watch?v=0zMi6kHo19o
-
-#EXTINF:-1  tvg-logo="https://imagenes.eleconomista.com.mx/files/image_768_768/uploads/2022/03/29/66e45255018a1.png"group-title="VLC PLAYER",N+
-https://www.youtube.com/watch?v=p2AzyIEuFak
-
-
-#EXTINF:-1  tvg-logo="https://corporate.televisaunivision.com/wp-content/uploads/sites/5/2025/04/newsroom-thumbnails_UNInoticias.png?w=300"group-title="VLC PLAYER",UNIVISSION NOTICIAS
-https://www.youtube.com/watch?v=V4C7VNfRATA
-
-#EXTINF:-1  tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fc/Multimedios_Canal_Seis_Logo.svg/1144px-Multimedios_Canal_Seis_Logo.svg.png"group-title="VLC PLAYER",6 CDMX
-https://www.youtube.com/watch?v=7l2lnaBprkk
-
-#EXTINF:-1 tvg-logo="https://static.wikia.nocookie.net/logofan/images/1/1d/Love_Nature_TV.png/revision/latest?cb=20240618191853&path-prefix=es"group-title="VLC PLAYER",LOVE NATURE
-https://www.youtube.com/watch?v=mkJHnno0gdk
-
-#EXTINF:-1 tvg-logo="https://logosenvector.com/logo/img/latina-37237.png"group-title="VLC PLAYER",LATINA
-https://www.youtube.com/live/DhWVrsc0RuQ
-
-#EXTINF:-1 tvg-logo="https://static.wikia.nocookie.net/logopedia/images/e/ea/Am%C3%A9rica_Televisi%C3%B3n_logo_con_fondo_naranja_-_entretenimiento_2016-.svg/revision/latest/scale-to-width-down/250?cb=20240207233426&path-prefix=es"group-title="VLC PLAYER",AMERICA
-https://www.youtube.com/watch?v=guxV6fDafpg
-
-
-#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/1/1a/T13_En_Vivo_2023.png"group-title="VLC PLAYER",TELE13
-https://www.youtube.com/watch?v=R_V7FhsCPwM
-
-#EXTINF:-1 tvg-logo="https://www.tysol.pl/imgcache/750x530/c/uploads/news/98669/16751616958f3a839bfd71939dabff82.png"group-title="VLC PLAYER",24 TVN
-https://www.youtube.com/watch?v=XZAfU-X9Euk
-
-
-
-#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8c/Chilevisi%C3%B3n_%282018-%29.png/1200px-Chilevisi%C3%B3n_%282018-%29.png"group-title="VLC PLAYER",CLV
-https://www.youtube.com/watch?v=hOybDTGiso8
-
-
-#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/b/be/Meganoticias2019-title="VLC PLAYER",MEGA NOTICIAS
-https://www.youtube.com/watch?v=Heuj9aax0-o
-
-#EXTINF:-1 tvg-logo="https://i.ytimg.com/vi/XZAfU-X9Euk/maxresdefault.jpg"group-title="VLC PLAYER",TVN NOTICIAS
-https://www.youtube.com/watch?v=d2qf09q-8ns
-
-#EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTo-MQWRK-i-4XNvH-vJnGHXKZX8u52rygZJA&s"group-title="VLC PLAYER",TELEVISA PUEBLA
-https://www.youtube.com/watch?v=0psOGZ6ypa0
-
-
-#EXTINF:-1 tvg-logo="https://play-lh.googleusercontent.com/nA83fu06qqqksTIRVZxvqmpqlbtVXMmaFHEzl4LFA2fUk6pWT3nG5vUtuj8RYuRp6M8"group-title="VLC PLAYER",AZTECA NOTICIAS
-https://www.youtube.com/watch?v=0oFWDh_rqqc
-
-#EXTINF:-1 tvg-logo="https://i.ytimg.com/vi/-PCcFqLD_ls/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLAN7lqC71Hj7WZcD2FKr20Vwp_E2w"group-title="VLC PLAYER",ENLACE
-https://www.youtube.com/watch?v=inH3Qxuy_BE
-
-
-#EXTINF:-1 tvg-logo="https://i.ytimg.com/vi/JYgz4YjJBdg/hq720.jpg?v=6851cb5f&sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLA_O2fOAh9rf16wkbgSQbKKcMIkZQ"group-title="VLC PLAYER",DR  CHARLES STANLEY
-https://www.youtube.com/watch?v=Bk1PlGDZrZo
-
-
-#EXTINF:-1 tvg-logo="https://www.semana.com/resizer/v2/ZDGNP2JEAVE2ZEYA63KM4G7HK4.png?auth=1d02b91acc8d57ba6dfc840bad8ab80c40b46f4ad68f89485b3f1b2b7e40b3f6&smart=true&quality=75&width=1280&height=720"group-title="VLC PLAYER",PELICULAS,SERIES CARACOL
-https://www.youtube.com/watch?v=iEkG3UDyZqw
-
-
-#EXTINF:-1 tvg-logo="https://image.roku.com/developer_channels/prod/9a1ff7f4a35dfcb8cfa73b4b6f0572e05133abe6cec00b5615f0f4052cdd65db.png"group-title="VLC PLAYER",PELICULAS DE SUSPENSO
-https://www.youtube.com/watch?v=AYuYukZDtcE
-
-
-
-
-
-
-
-
-
-
-
 #############( ARGENTINA )##################################################
 ######################################
 
@@ -869,13 +698,6 @@ https://www.youtube.com/watch?v=AYuYukZDtcE
 
 #EXTINF:-1 tvg-logo="https://tinyurl.com/35wbxzfc"group-title="ARGENTINA",MG RADIO 24/7
 https://radios.yanapak.org/montegranderadio
-
-
-
-
-https://uk14freenew.listen2myradio.com/live.mp3?typeportmount=s1_29586_stream_470604945
-
-
 
 
 
@@ -906,25 +728,16 @@ https://live20.bozztv.com/giatvplayout7/giatv-208138/playlist.m3u8
 https://live20.bozztv.com/giatvplayout7/giatv-209909/tracks-v1a1/mono.ts.m3u8
 
 
-#EXTINF:-1 tvg-logo="https://static.wikia.nocookie.net/doblaje/images/a/a8/Ciudadmagazine-logonuevo.png/revision/latest?cb=20200203001356&path-prefix=es"group-title="ARGENTINA",MAGAZINE
-https://livetrx01.vodgc.net/live-01-07-ciudad.vodgc.net/tracks-v3a1/mono.m3u8
-
-
-
 #EXTINF:-1 tvg-logo="https://i.ibb.co/yyHXtGG/Screenshot-20241226-095830-XPlayer-Video-Player-removebg-previe⁷w.png"group-title="ARGENTINA",TELEFE
 https://telefe.com/Api/Videos/GetSourceUrl/694564/0/HLS?.m3u8
 
-
-
-
-#EXTINF:-1 tvg-logo="https://i.ibb.co/yyHXtGG/Screenshot-20241226-095830-XPlayer-Video-Player-removebg-preview.png"group-title="ARGENTINA",TELEFE
 
 
 #EXTINF:-1 tvg-logo="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiJLTMCR-pFAQzKyjoDvCFm2LfbO9ppIEtbDUr4ZtDshQfnGGlwBemRdqIEQJxYWg77PqZPIvnxLaDMcN8ER0ef6r5Ro5iVapq-VGw23x4btvF0KgrztmSmEgE69oxqE4cqSZ_4fFeLBKXOEGrFAOxR5QmaSlRDHwbLzV-PWfifzTZAW99WO0W1-E28/s1313/CANAL9-2017.PNG"group-title="ARGENTINA",EL NUEVE
 
 
 #EXTINF:-1 tvg-logo="https://static.wikia.nocookie.net/logopedia/images/4/41/Televisi%C3%B3n_P%C3%BAblica_%28Argentina_2021%29.svg/revision/latest/scale-to-width-down/284?cb=20210102135802&path-prefix=es"group-title="ARGENTINA",TV PUBLICA   23.2
-http://tvpremiund.ddns.me:2082/Diegoarias/Octu7102023/167
+
 
 
 #EXTINF:-1 tvg-logo="https://i.ibb.co/9wvLNrg/2r-Bs-Skv-IGMpj-DKk-H5-O1y-Nv-AIaf-F-2r-Bsbz-Rpn2a-KGv-I32-Dot-O10-Lsv-V-2r-Bscftp-AXm-It-HOVGJa-MG1.png"group-title="ARGENTINA",MONTE GRANDE TV HD CANAL 12
@@ -990,8 +803,6 @@ https://tdcserver.com:19360/tdconlione-2/tdconlione-2.m3u8
 
 
 
-
-
 #EXTINF:-1 tvg-logo="https://www.elcuatro.com/public/img/marcas/marcas_canal4_297.png"group-title="ARGENTINA",CANAL 4 HD
 https://5cd577a3dd8ec.streamlock.net/CANAL4/CANAL4.smil/chunklist_w69344434_b3096000.m3u8
 
@@ -1022,8 +833,6 @@ https://unlimited1-saopaulo.dps.live/televidaar/televidaar.smil/televidaar/lives
 
 #EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Logotipo_de_CNN_en_Espa%C3%B1ol_%281997-2010%29.png/1200px-Logotipo_de_CNN_en_Espa%C3%B1ol_%281997-2010%29.png"group-title="ARGENTINA",CNN SPAÑOL
 http://vocotv.pro:80/bruce111/bruce111/3263
-
-
 
 
 #EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/2/21/RT_America_Logo.png/644px-RT_America_Logo.png"group-title="ARGENTINA",RT HD   25.5
