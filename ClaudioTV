@@ -717,7 +717,6 @@ https://videostream.shockmedia.com.ar:19360/neotvdigital/neotvdigital.m3u8
 
 
 #EXTINF:-1 tvg-logo="https://i.ibb.co/bQMdXs3/Screenshot-20241226-095234-XPlayer-Video-Player-removebg-preview.png"group-title="ARGENTINA",EL TRECE  33.1
-https://livetrx01.vodgc.net:443/eltrecetv/tracks-v2a1/mono.m3u8
 
 
 
@@ -1015,9 +1014,7 @@ https://inliveserver.com:1936/12000/12000/playlist.m3u8
 https://nd106.republicaservers.com:4433/hls/canal2misioness/1_0/index.m3u8
 
 
-#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/f/f4/Logo_13max_HD.png"group-title="ARGENTINA",13 MAX DIGITAL HD  31.1 
-http://coninfo.net:1935/13maxhd/live13maxtvnuevo/chunklist_w1508784090.m3u8
-
+#
 
 
 #EXTINF:-1 tvg-logo="https://1.bp.blogspot.com/-QLn_jBSxI4E/WDyHzgW7Y6I/AAAAAAAABOc/BWV3OWHz-rEQTz7Issy8_ftOVG7Wf3qjACLcB/s1600/canal13-larioja.png"group-title="ARGENTINA",CANAL 13 HD LA RIOJA
@@ -1039,8 +1036,6 @@ http://iptv.ixfo.com.ar:8081/live/C4POS/playlist.m3u8
 
 
 
-#EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcThV0kvzHJ8DoW6sXxXPciGn2n-6ocAb6celQ&s"group-title="ARGENTINA",CANAL 3 HD  3.0  PINAMAR
-https://intelincloud01.com.ar/hls/cn3/index.m3u8
 
 
 
