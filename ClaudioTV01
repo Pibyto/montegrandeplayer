@@ -293,11 +293,11 @@ http://cfd-v4-service-channel-stitcher-use1-1.prd.pluto.tv/stitch/hls/channel/60
 
 
 
-#EXTINF:-1 tvg-logo="https://tinyurl.com/3xe8wn2y"group-title="ARGENTINA",MONTEGRANDE RADIOTV
+#EXTINF:-1 tvg-logo=""group-title="ARGENTINA",MONTEGRANDE RADIOTV
 https://live20.bozztv.com/akamaissh101/ssh101/mgradiotv/playlist.m3u8
 
 
-#EXTINF:-1 tvg-logo="https://tinyurl.com/yps82snm"group-title="ARGENTINA",MONTE GRANDE TV SSH
+#EXTINF:-1 tvg-logo="https://tinyurl.com/268uh4kw"group-title="ARGENTINA", MONTEGRANDETV 
 https://live20.bozztv.com/akamaissh101/ssh101/montegrandetv/playlist.m3u8
 
 
@@ -305,13 +305,12 @@ https://live20.bozztv.com/akamaissh101/ssh101/montegrandetv/playlist.m3u8
 https://streaming01.mikrolive.tv/bayrestv/live/chunklist_w963757112.m3u8
 
 
-#EXTINF:-1 tvg-logo="https://i.ibb.co/gZvpC8b6/Photoroom-20250719-000750.png"group-title="ARGENTINA",GENTV
+#EXTINF:-1 tvg-logo="https://tinyurl.com/3stzk2kw"group-title="ARGENTINA",GENTV
 https://srv3.zcast.com.br/gentv/gentv/playlist.m3u8
 
 
 
 #EXTINF:-1 tvg-logo="https://i.ibb.co/bQMdXs3/Screenshot-20241226-095234-XPlayer-Video-Player-removebg-preview.png"group-title="ARGENTINA",EL TRECE  33.1
-https://livetrx01.vodgc.net:443/eltrecetv/tracks-v2a1/mono.m3u8
 
 
 #EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Net_TV_logo.png/800px-Net_TV_logo.png"group-title="ARGENTINA", NET TV HD  27.2
@@ -340,7 +339,7 @@ https://panel.host-live.com:19360/8250/8250.m3u8
 
 
 #EXTINF:-1 tvg-logo=""group-title="ARGENTINA",11 DIGITAL 
-https://live20.bozztv.com/giatv/giatv-ojodigital/ojodigital/chunks.m3u8
+
 
 
 
@@ -418,7 +417,7 @@ https://videostream.shockmedia.com.ar:19360/cincotv/cincotv.m3u8
 
 
 
-#EXTINF:-1 tvg-logo="https://neotv.cl/assets/img/channels/neotv-digital.png"group-title="ARGENTINA",NEO TV DIGITAL HD. 16.1 
+#EXTINF:-1 tvg-logo="https://tinyurl.com/34ta2yrm"group-title="ARGENTINA",NEO TV DIGITAL HD. 16.1 
 https://videostream.shockmedia.com.ar:19360/neotvdigital/neotvdigital.m3u8
 
 
@@ -449,7 +448,7 @@ https://nd106.republicaservers.com:443/hls/diegologonitv/0_1/index.m3u8?sessId=3
 https://live20.bozztv.com/giatv/giatv-bigtv/bigtv/chunks.m3u8
 
 
-#EXTINF:-1 tvg-logo="https://micanal.ovh/images/11253292546802528ad6c15.png"group-title="ARGENTINA",CANAL 3 PINAMAR 
+#EXTINF:-1 tvg-logo="https://tinyurl.com/mvu6sede"group-title="ARGENTINA",CANAL 3 PINAMAR 
 https://intelincloud01.com.ar/hls/cn3/index.m3u8
 
 #EXTINF:-1 tvg-logo="https://i.ibb.co/f0YPh6h/images-removebg-preview-2.png"group-title="ARGENTINA",TELE CINCO
