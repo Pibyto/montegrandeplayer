@@ -330,13 +330,10 @@ https://live20.bozztv.com/akamaissh101/ssh101/montegrandetv/playlist.m3u8
 https://livetrx01.vodgc.net:443/eltrecetv/tracks-v2a1/mono.m3u8
 
 
-#EXTINF:-1 tvg-logo="https://tinyurl.com/5be3pzt7"ARGENTINA", MGTV-PLAYTV OPCIÓN 2
-https://micanal.ovh/livestreams/127.QAX0OUHEMVST.m3u8
-
 
 
 #EXTINF:-1 tvg-logo="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiJLTMCR-pFAQzKyjoDvCFm2LfbO9ppIEtbDUr4ZtDshQfnGGlwBemRdqIEQJxYWg77PqZPIvnxLaDMcN8ER0ef6r5Ro5iVapq-VGw23x4btvF0KgrztmSmEgE69oxqE4cqSZ_4fFeLBKXOEGrFAOxR5QmaSlRDHwbLzV-PWfifzTZAW99WO0W1-E28/s1313/CANAL9-2017.PNG"group-title="ARGENTINA",EL NUEVE
-http://nxt.plus:8080/live/bernardocas/bernardo2023/1632.ts
+
 
 
 #EXTINF:-1 tvg-logo="https://directostv.teleame.com/wp-content/uploads/2018/06/Canal-9-Multivision-en-vivo-Online.png"group-title="ARGENTINA",MULTIVISION HD
@@ -346,8 +343,6 @@ https://panel.host-live.com:19360/8250/8250.m3u8
 #EXTINF:-1 tvg-logo=""group-title="ARGENTINA",11 DIGITAL 
 https://live20.bozztv.com/giatv/giatv-ojodigital/ojodigital/chunks.m3u8
 
-#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/f/f4/Logo_13max_HD.png"group-title="ARGENTINA",13 MAX DIGITAL HD  31.1 
-http://coninfo.net:1935/13maxhd/live13maxtvnuevo/chunklist_w1508784090.m3u8
 
 
 #EXTINF:-1 tvg-logo="https://i.ibb.co/8LJJwFVZ/large-643551553-Bravo-TV-png-57a91952c5e4e5fd1a66c5b047909fb4.png"group-title="ARGENTINA",BRAVO TV
@@ -371,7 +366,6 @@ https://5cd577a3dd8ec.streamlock.net/CANAL4/smil:CANAL4.smil/chunklist_w19297331
 
 
 #EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/3/36/A24-logo.svg/1200px-A24-logo.svg.png"group-title="ARGENTINA",A24 HD
-http://nxt.plus:8080/live/bernardocas/bernardo2023/225205.ts
 
 
 #EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/d/d4/Canal_Siete_Jujuy.png"group-title="ARGENTINA",7JUJUY
@@ -397,8 +391,6 @@ https://streamlov.alsolnet.com:443/canal4sanjuan/live/chunklist_w1498414588.m3u8
 https://cnnsanjuan.com:9999/live/telesol/chunks.m3u8
 
 
-#EXTINF:-1 tvg-logo="https://static.wikia.nocookie.net/doblaje/images/a/a8/Ciudadmagazine-logonuevo.png/revision/latest?cb=20200203001356&path-prefix=es"group-title="ARGENTINA",MAGAZINE
-https://livetrx01.vodgc.net/live-01-07-ciudad.vodgc.net/tracks-v3a1/mono.m3u8
 
 
 #EXTINF:-1 tvg-logo="https://static.wikia.nocookie.net/logopedia/images/1/1d/Canal_9_Televida_%28Logo_1995%29.png/revision/latest?cb=20221210150018"group-title="ARGENTINA",TELEVIDA
@@ -407,73 +399,8 @@ https://unlimited1-saopaulo.dps.live/televidaar/televidaar.smil/televidaar/lives
 #EXTINF:-1 tvg-logo="https://i.ibb.co/yyHXtGG/Screenshot-20241226-095830-XPlayer-Video-Player-removebg-previe⁷w.png"group-title="ARGENTINA", CIUDAD MAGICA TV
 https://live20.bozztv.com/akamaissh101/ssh101/verycoolfgr/chunks.m3u8
 
-
-
-
-
-#EXTINF:-1 tvg-logo="https://micanal.ovh/images/11253292546802528ad6c15.png"group-title="ARGENTINA",AR 12
-https://www.youtube.com/watch?v=ECFbTfcv_yE
-
-
-
-#EXTINF:-1 tvg-logo="https://micanal.ovh/images/11253292546802528ad6c15.png"group-title="ARGENTINA",TELEFE
-https://www.youtube.com/watch?v=XhAYcYpPzTc
-
-
-#EXTINF:-1 tvg-logo="https://micanal.ovh/images/11253292546802528ad6c15.png"group-title="ARGENTINA",EL NUEVE
-https://www.twitch.tv/elnueveenvivo
-
-
-#EXTINF:-1 tvg-logo="https://micanal.ovh/images/11253292546802528ad6c15.png"group-title="ARGENTINA",TV PUBLICA
-https://www.youtube.com/watch?v=M8RU0tWhPnw
-
-
-#EXTINF:-1 tvg-logo="https://micanal.ovh/images/11253292546802528ad6c15.png"group-title="ARGENTINA",EL 6 ENTRE RIOS
-https://www.twitch.tv/canal6entreriostv
-
-
-#EXTINF:-1 tvg-logo="https://micanal.ovh/images/11253292546802528ad6c15.png"group-title="ARGENTINA",LN+
-https://www.youtube.com/watch?v=Hb0GIEL8nWc
-
-
-#EXTINF:-1 tvg-logo="https://micanal.ovh/images/11253292546802528ad6c15.png"group-title="ARGENTINA",A24
-https://www.youtube.com/watch?v=ArKbAx1K-2U
-
-
-#EXTINF:-1 tvg-logo="https://micanal.ovh/images/11253292546802528ad6c15.png"group-title="ARGENTINA",TN
-https://www.youtube.com/watch?v=cb12KmMMDJA
-
-
-#EXTINF:-1 tvg-logo="https://micanal.ovh/images/11253292546802528ad6c15.png"group-title="ARGENTINA",3 ROSARIO 
-
-
-
-#EXTINF:-1 tvg-logo="https://micanal.ovh/images/11253292546802528ad6c15.png"group-title="ARGENTINA",Canal 26
-https://www.youtube.com/watch?v=N0u5NOL9w-A
-
-
-#EXTINF:-1 tvg-logo="https://micanal.ovh/images/11253292546802528ad6c15.png"group-title="ARGENTINA", CRÓNICA TV
-https://www.youtube.com/watch?v=avly0uwZzOE
-
-
-#EXTINF:-1 tvg-logo="https://micanal.ovh/images/11253292546802528ad6c15.png"group-title="ARGENTINA",LOVE NATURE
-https://www.youtube.com/watch?v=mkJHnno0gdk
-
-
-#EXTINF:-1 tvg-logo="https://micanal.ovh/images/11253292546802528ad6c15.png"group-title="ARGENTINA",C5N
-https://www.youtube.com/watch?v=Uo-ziJhrTvI
-
-#EXTINF:-1 tvg-logo="https://micanal.ovh/images/11253292546802528ad6c15.png"group-title="ARGENTINA", FRANCE 24
-https://www.youtube.com/watch?v=Y-IlMeCCtIg
-
-#EXTINF:-1 tvg-logo="https://micanal.ovh/images/11253292546802528ad6c15.png"group-title="ARGENTINA",DW ESPAÑOL 
-https://www.youtube.com/watch?v=jRnqxURJ120
-
-
-
 #EXTINF:-1 tvg-logo="https://i.ibb.co/dLWwdLK/3dgifmaker66066.gif"group-title="ARGENTINA",COSMOS TV HD
 https://canaletaplus.com:3922/live/adminlive.m3u8
-
 
 
 #EXTINF:-1 tvg-logo="https://i.ibb.co/gZvpC8b6/Photoroom-20250719-000750.png"group-title="ARGENTINA",GENTV
@@ -516,31 +443,6 @@ https://tv.streamcasthd.com:3076/live/sonicaargentinalive.m3u8
 
 #EXTINF:-1 tvg-logo="https://sicarditv.com.ar/static/custom/logo.png?t=2023-01-03+18%3A02%3A18.705308"group-title="ARGENTINA",SICARDITV HD  18.2
 https://vivo.solumedia.com:19360/sicarditv/sicarditv.m3u8
-
-
-#EXTINF:-1 tvg-logo="https://micanal.ovh/images/11253292546802528ad6c15.png"group-title="ARGENTINA",MonteGrandeTV
-http://ok.ru/video/9225153158754
-
-
-
-#EXTINF:-1 tvg-logo="https://micanal.ovh/images/11253292546802528ad6c15.png"group-title="ARGENTINA", TELEMUNDO 
-https://ok.ru/video/10504925617911
-
-
-#EXTINF:-1 tvg-logo="https://micanal.ovh/images/11253292546802528ad6c15.png"group-title="ARGENTINA", PROYECTA TV
-https://ok.ru/video/4987110825518
-
-
-
-#EXTINF:-1 tvg-logo="https://micanal.ovh/images/11253292546802528ad6c15.png"group-title="ARGENTINA",FOX KIDS
-https://ok.ru/video/8967999463166
-
-
-
-#EXTINF:-1 tvg-logo="https://micanal.ovh/images/11253292546802528ad6c15.png"group-title="ARGENTINA",LA NUEVA REPÚBLICA 
-https://ok.ru/video/9214622441180
-
-
 
 
 #EXTINF:-1 tvg-logo="https://tvmas.com.ar/wp-content/uploads/2019/02/logo-tvmas-1.png"group-title="ARGENTINA",TV+
