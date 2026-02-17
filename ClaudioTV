@@ -687,7 +687,7 @@ http://cfd-v4-service-channel-stitcher-use1-1.prd.pluto.tv/stitch/hls/channel/60
 
 
 
-#EXTINF:-1 tvg-logo="https://tinyurl.com/ba96ebvh"group-title="ARGENTINA",MONTEGRANDETV SSH
+#EXTINF:-1 tvg-logo="https://tinyurl.com/ba96ebvh"group-title="ARGENTINA",MONTEGRANDETV
 https://live20.bozztv.com/akamaissh101/ssh101/montegrandetv/playlist.m3u8
 
 
@@ -1014,8 +1014,6 @@ https://inliveserver.com:1936/12000/12000/playlist.m3u8
 https://nd106.republicaservers.com:4433/hls/canal2misioness/1_0/index.m3u8
 
 
-#
-
 
 #EXTINF:-1 tvg-logo="https://1.bp.blogspot.com/-QLn_jBSxI4E/WDyHzgW7Y6I/AAAAAAAABOc/BWV3OWHz-rEQTz7Issy8_ftOVG7Wf3qjACLcB/s1600/canal13-larioja.png"group-title="ARGENTINA",CANAL 13 HD LA RIOJA
 http://arcast.net:1935/mp/mp/playlist.m3u8
@@ -1060,12 +1058,8 @@ https://canalsj.kozow.com/canal40/index.m3u8
 https://videostream.shockmedia.com.ar:19360/telejunin/telejunin.m3u8
 
 
-#EXTINF:-1 tvg-logo="https://play-lh.googleusercontent.com/zPf1nSQE3SLWV91l-HOivc-qDcpy2EGxGMDEtfrlhyorpIgZnGsF12ypnO06tDiqXC4"group-title="ARGENTINA",VIVE TV
-https://vivo.solumedia.com:19360/vivetv/vivetv.m3u8
 
 
-#EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRTvp7vcgSE_ltQwvscYTnsIuqtle66wsDocfnE4YEO2A&s"group-title="ARGENTINA",UNITEVE
-https://vivo.solumedia.com:19360/uniteve/uniteve.m3u8?PlaylistM3UCL
 
 
 
