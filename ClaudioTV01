@@ -45,8 +45,6 @@ http://190.102.242.130:25461/familypower/1234/149
 http://190.102.242.130:25461/monitvpo/monitvpo/1
 
 
-#EXTINF:-1 tvg-logo="https://i.ibb.co/hbqk8hQ/Screenshot-20251214-221136.png"group-title="CINE PREMIUM",CANALCDR
-https://live21.bozztv.com/akamaissh101/ssh101/canalcdr/chunks.m3u8
 
 
 #EXTINF:-1 tvg-logo="https://tinyurl.com/3cjkb7h8"group-title="CINE PREMIUM",+CINE TERROR
@@ -73,9 +71,6 @@ https://run-rt-uh-roku.otteravision.com/run/rt_uh/rt_uh_720.m3u8
 #EXTINF:-1 tvg-logo=""group-title="CINE PREMIUM", FABIÁN VISION TV
 https://live21.bozztv.com/akamaissh101/ssh101/fabiantv182/chunks.m3u8
 
-
-#EXTINF:-1 tvg-logo=""group-title="CINE PREMIUM",CASMA TV
-https://micanal.ovh/livestreams/349.MH2YEGDCHBVR.m3u8
 
 
 #EXTINF:-1 tvg-logo=""group-title="CINE PREMIUM",GLOBAL TV
@@ -130,24 +125,12 @@ https://streamtv.intervenhosting.net:3529/live/tvmparatilive.m3u8
 https://service-stitcher.clusters.pluto.tv/stitch/hls/channel/6532e7b290a74c00084a3bb6/master.m3u8?deviceId=0&deviceVersion=0&appVersion=0&deviceType=0&deviceMake=0&sid=258112e0-4102-90b6-df5f-ffddad0ace20&deviceDNT=0&deviceModel=0
 
 
-#EXTINF:-1 tvg-logo=""group-title="CINE PREMIUM",ATV
-https://micanal.ovh/livestreams/142.RZYR3NWFIHKH.m3u8
 
 
 #EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/a/a4/CINEARLogo.png"group-title="CINE PREMIUM",TUCINE
 https://live20.bozztv.com/akamaissh101/ssh101/xiomoz/chunks.m3u8
 
 
-#EXTINF:-1 tvg-logo=""group-title="CINE PREMIUM",RETROX PLUS
-https://live21.bozztv.com/akamaissh101/ssh101/retroxcrtv/chunks.m3u8
-
-
-#EXTINF:-1 tvg-logo=""group-title="CINE PREMIUM",TVOASIS
-https://live20.bozztv.com/akamaissh101/ssh101/oasistv123/playlist.m3u8
-
-
-#EXTINF:-1 tvg-logo=""group-title="CINE PREMIUM",SPARKX TV
-https://live21.bozztv.com/akamaissh101/ssh101/sparkx/chunks.m3u8
 
 
 #EXTINF:-1 tvg-logo="https://brandemia.org/wp-content/uploads/2013/02/logo_telemundo_principal.jpg"group-title="CINE PREMIUM",TELEMUNDO ACCION
@@ -172,9 +155,6 @@ https://livetrx01.vodgc.net/live-01-07-ciudad.vodgc.net/tracks-v3a1/mono.m3u8
 
 
 
-#EXTINF:-1 tvg-logo=""group-title="CINE PREMIUM",TELECLASSICA
-https://live20.bozztv.com/akamaissh101/ssh101/teleclasik/chunks.m3u8
-
 
 
 #EXTINF:-1 tvg-logo="https://i.ibb.co/7NB0xRSs/Photoroom-20250622-235111.png"group-title="CINE PREMIUM",OPINION SUR CINE
@@ -184,11 +164,6 @@ https://live20.bozztv.com/giatv/giatv-opinionsurc/opinionsurc/chunks.m3u8
 
 #EXTINF:-1 tvg-logo=""group-title="CINE PREMIUM",UVA TV
 https://live21.bozztv.com/akamaissh101/ssh101/uvastv/chunks.m3u8
-
-
-
-#EXTINF:-1 tvg-logo="https://i.ibb.co/Y4W6fbxW/Photoroom-20250622-233001.png"group-title="CINE PREMIUM",ULTRA TV
-https://micanal.ovh/livestreams/82.Y5V0JHNSYGDA.m3u8
 
 
 
@@ -326,9 +301,33 @@ https://live20.bozztv.com/akamaissh101/ssh101/mgradiotv/playlist.m3u8
 https://live20.bozztv.com/akamaissh101/ssh101/montegrandetv/playlist.m3u8
 
 
+#EXTINF:-1 tvg-logo="https://i.ibb.co/tPwvdjB/images-removebg-preview.png"group-title="ARGENTINA",BAYRES TV HD
+https://streaming01.mikrolive.tv/bayrestv/live/chunklist_w963757112.m3u8
+
+
+#EXTINF:-1 tvg-logo="https://i.ibb.co/gZvpC8b6/Photoroom-20250719-000750.png"group-title="ARGENTINA",GENTV
+https://srv3.zcast.com.br/gentv/gentv/playlist.m3u8
+
+
+
 #EXTINF:-1 tvg-logo="https://i.ibb.co/bQMdXs3/Screenshot-20241226-095234-XPlayer-Video-Player-removebg-preview.png"group-title="ARGENTINA",EL TRECE  33.1
 https://livetrx01.vodgc.net:443/eltrecetv/tracks-v2a1/mono.m3u8
 
+
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Net_TV_logo.png/800px-Net_TV_logo.png"group-title="ARGENTINA", NET TV HD  27.2
+https://unlimited1-us.dps.live/nettv/nettv.smil/playlist.m3u8
+
+
+#EXTINF:-1 tvg-logo="https://static.wikia.nocookie.net/logopedia/images/1/1d/Canal_9_Televida_%28Logo_1995%29.png/revision/latest?cb=20221210150018"group-title="ARGENTINA",TELEVIDA
+https://unlimited1-saopaulo.dps.live/televidaar/televidaar.smil/televidaar/livestream1/chunks.m3u8
+
+#EXTINF:-1 tvg-logo="https://directostv.teleame.com/wp-content/uploads/2020/09/Canal-Nueve-Norte-Misionero-en-vivo-Online.png"group-title="ARGENTINA", CANAL 9 HD MISIONES
+https://panel.host-live.com:19360/8076/8076.m3u8
+
+
+
+#EXTINF:-1 tvg-logo="https://i.ibb.co/8rdFqzB/Screenshot-20241226-094215-XPlayer-Video-Player-removebg-preview.png"group-title="ARGENTINA",METRO TV HD  18.1 TUCUMÁN
+https://streamtv12.ddns.net:5443/LiveApp/streams/193945633734205616732920.m3u8
 
 
 
@@ -357,8 +356,6 @@ https://stream-gtlc.telecentro.net.ar/hls/telemaxhls/0/playlist.m3u8
 
 
 
-#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Net_TV_logo.png/800px-Net_TV_logo.png"group-title="ARGENTINA", NET TV HD  27.2
-https://unlimited1-us.dps.live/nettv/nettv.smil/playlist.m3u8
 
 
 #EXTINF:-1 tvg-logo="https://www.elcuatro.com/public/img/marcas/marcas_canal4_297.png"group-title="ARGENTINA",CANAL 4 HD
@@ -393,8 +390,7 @@ https://cnnsanjuan.com:9999/live/telesol/chunks.m3u8
 
 
 
-#EXTINF:-1 tvg-logo="https://static.wikia.nocookie.net/logopedia/images/1/1d/Canal_9_Televida_%28Logo_1995%29.png/revision/latest?cb=20221210150018"group-title="ARGENTINA",TELEVIDA
-https://unlimited1-saopaulo.dps.live/televidaar/televidaar.smil/televidaar/livestream1/chunks.m3u8
+
 
 #EXTINF:-1 tvg-logo="https://i.ibb.co/yyHXtGG/Screenshot-20241226-095830-XPlayer-Video-Player-removebg-previe⁷w.png"group-title="ARGENTINA", CIUDAD MAGICA TV
 https://live20.bozztv.com/akamaissh101/ssh101/verycoolfgr/chunks.m3u8
@@ -403,16 +399,10 @@ https://live20.bozztv.com/akamaissh101/ssh101/verycoolfgr/chunks.m3u8
 https://canaletaplus.com:3922/live/adminlive.m3u8
 
 
-#EXTINF:-1 tvg-logo="https://i.ibb.co/gZvpC8b6/Photoroom-20250719-000750.png"group-title="ARGENTINA",GENTV
-https://srv3.zcast.com.br/gentv/gentv/playlist.m3u8
 
 
-#EXTINF:-1 tvg-logo="https://i.ibb.co/8rdFqzB/Screenshot-20241226-094215-XPlayer-Video-Player-removebg-preview.png"group-title="ARGENTINA",METRO TV HD  18.1 TUCUMÁN
-https://streamtv12.ddns.net:5443/LiveApp/streams/193945633734205616732920.m3u8
 
 
-#EXTINF:-1 tvg-logo="https://i.ibb.co/tPwvdjB/images-removebg-preview.png"group-title="ARGENTINA",BAYRES TV HD
-https://streaming01.mikrolive.tv/bayrestv/live/chunklist_w963757112.m3u8
 
 
 #EXTINF:-1 tvg-logo="https://i.ibb.co/VNYSy9z/descarga-removebg-preview.png"group-title="ARGENTINA", CANAL 34 HD
@@ -478,14 +468,6 @@ https://s.emisoras.tv:8081/penielbibliaabierta/index.m3u8
 
 
 
-
-#EXTINF:-1 tvg-logo="https://i.ibb.co/yyHXtGG/Screenshot-20241226-095830-XPlayer-Video-Player-removebg-previe⁷w.png"group-title="ARGENTINA",TELEFE INTER
-https://www.youtube.com/watch?v=XhAYcYpPzTc
-
-
-
-#EXTINF:-1 tvg-logo="https://static.wikia.nocookie.net/logopedia/images/4/41/Televisi%C3%B3n_P%C3%BAblica_%28Argentina_2021%29.svg/revision/latest/scale-to-width-down/284?cb=20210102135802&path-prefix=es"group-title="ARGENTINA",TV PUBLICA   23.2
-https://www.youtube.com/watch?v=M8RU0tWhPnw
 
 
 
@@ -598,8 +580,6 @@ https://nd106.republicaservers.com:4433/hls/canal2misioness/1_0/index.m3u8
 http://arcast.net:1935/mp/mp/playlist.m3u8
 
 
-#EXTINF:-1 tvg-logo="https://directostv.teleame.com/wp-content/uploads/2020/09/Canal-Nueve-Norte-Misionero-en-vivo-Online.png"group-title="ARGENTINA", CANAL 9 HD MISIONES
-https://panel.host-live.com:19360/8076/8076.m3u8
 
 
 
