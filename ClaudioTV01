@@ -22,15 +22,13 @@
 
 
 #EXTINF:-1 tvg-logo="https://tinyurl.com/5be3pzt7"group-title="CINE PREMIUM",MGTV-PLAYTV
-https://live21.bozztv.com/akamaissh101/ssh101/montegrandetv/chunks.m3u8
+https://live20.bozztv.com/akamaissh101/ssh101/montegrandetv/chunks.m3u8
 
 
 #EXTINF:-1 tvg-logo="https://i.ibb.co/gLXYm0Zm/Screenshot-20251215-064220.png"group-title="CINE PREMIUM",+CINE
 http://190.102.242.130:25461/tpowercine/123456/31
 
 
-#EXTINF:-1 tvg-logo="https://tinyurl.com/5be3pzt7"CINE PREMIUM", MGTV-PLAYTV OPCIÓN 2
-https://micanal.ovh/livestreams/127.QAX0OUHEMVST.m3u8
 
 #EXTINF:-1 tvg-logo="https://orbittv.net/images/logotv.png"group-title="CINE PREMIUM",ORBIT TV
 https://cnn.hostlagarto.com/orbittv/tracks-v1a1/index.m3u8
@@ -69,7 +67,7 @@ https://live20.bozztv.com/giatv/giatv-cnal70tv/cnal70tv/chunks.m3u8
 https://run-rt-uh-roku.otteravision.com/run/rt_uh/rt_uh_720.m3u8
 
 #EXTINF:-1 tvg-logo=""group-title="CINE PREMIUM", FABIÁN VISION TV
-https://live21.bozztv.com/akamaissh101/ssh101/fabiantv182/chunks.m3u8
+https://live20.bozztv.com/akamaissh101/ssh101/fabiantv182/chunks.m3u8
 
 
 
@@ -101,7 +99,7 @@ https://live20.bozztv.com/giatv/giatv-wowmovies/wowmovies/chunks.m3u8
 
 
 #EXTINF:-1 tvg-logo=""group-title="CINE PREMIUM",CINE35 
-https://live21.bozztv.com/akamaissh101/ssh101/bigchannel/chunks.m3u8
+https://live20.bozztv.com/akamaissh101/ssh101/bigchannel/chunks.m3u8
 
 
 #EXTINF:-1 tvg-logo="https://i.ibb.co/yhYvwzD/Screenshot-20250111-080920-XPlayer-Video-Player-removebg-preview.png"group-title="CINE PREMIUM",CINE ACCION
@@ -163,7 +161,7 @@ https://live20.bozztv.com/giatv/giatv-opinionsurc/opinionsurc/chunks.m3u8
 
 
 #EXTINF:-1 tvg-logo=""group-title="CINE PREMIUM",UVA TV
-https://live21.bozztv.com/akamaissh101/ssh101/uvastv/chunks.m3u8
+https://live20.bozztv.com/akamaissh101/ssh101/uvastv/chunks.m3u8
 
 
 
