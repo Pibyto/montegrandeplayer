@@ -309,6 +309,8 @@ https://streaming01.mikrolive.tv/bayrestv/live/chunklist_w963757112.m3u8
 https://srv3.zcast.com.br/gentv/gentv/playlist.m3u8
 
 
+#EXTINF:-1 tvg-logo="https://i.ibb.co/TxGXSw5h/Screenshot-20260220-221938.png"group-title="ARGENTINA" , LA PODEROSA TV
+https://video.conweb.com.ar:3869/live/poderosalive.m3u8
 
 #EXTINF:-1 tvg-logo="https://i.ibb.co/bQMdXs3/Screenshot-20241226-095234-XPlayer-Video-Player-removebg-preview.png"group-title="ARGENTINA",EL TRECE  33.1
 
