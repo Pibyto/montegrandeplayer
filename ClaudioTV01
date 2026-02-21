@@ -81,7 +81,7 @@ http://190.102.242.130:25461/cineclasiipowe/1234/143
 
 
 #EXTINF:-1 tvg-logo=""group-title="CINE PREMIUM",CANAL 70
-https://live20.bozztv.com/giatv/giatv-cnal70tv/cnal70tv/chunks.m3u8
+https://live21.bozztv.com/giatv/giatv-cnal70tv/cnal70tv/chunks.m3u8
 
 
 
@@ -90,7 +90,7 @@ https://live20.bozztv.com/giatv/giatv-cnal70tv/cnal70tv/chunks.m3u8
 https://run-rt-uh-roku.otteravision.com/run/rt_uh/rt_uh_720.m3u8
 
 #EXTINF:-1 tvg-logo=""group-title="CINE PREMIUM", FABIÁN VISION TV
-https://live20.bozztv.com/akamaissh101/ssh101/fabiantv182/chunks.m3u8
+https://live21.bozztv.com/akamaissh101/ssh101/fabiantv182/chunks.m3u8
 
 
 
@@ -109,7 +109,8 @@ http://sdmx.vip/live/AngelicaAntonietaTellez/A4Pnrrfhw4FJ/2092595.ts
 
 
 #EXTINF:-1 tvg-logo="https://i.ibb.co/dLWwdLK/3dgifmaker66066.gif"group-title="CINE PREMIUM",COSMOS TV HD
-https://canaletaplus.com:3922/live/adminlive.m3u8
+https://tv.mediacp.eu:19360/cosmos/cosmos.m3u8
+
 
 
 #EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTOspY0DemQf4NaEMxXnKQQKCpDwOfVCdtnZg&usqp=CAU"group-title="CINE PREMIUM",CINE SONY
@@ -417,7 +418,8 @@ https://cnnsanjuan.com:9999/live/telesol/chunks.m3u8
 https://live20.bozztv.com/akamaissh101/ssh101/verycoolfgr/chunks.m3u8
 
 #EXTINF:-1 tvg-logo="https://i.ibb.co/dLWwdLK/3dgifmaker66066.gif"group-title="ARGENTINA",COSMOS TV HD
-https://canaletaplus.com:3922/live/adminlive.m3u8
+https://tv.mediacp.eu:19360/cosmos/cosmos.m3u8
+
 
 
 
