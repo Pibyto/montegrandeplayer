@@ -699,6 +699,9 @@ https://srv3.zcast.com.br/gentv/gentv/playlist.m3u8
 https://streaming01.mikrolive.tv/bayrestv/live/chunklist_w963757112.m3u8
 
 
+#EXTINF:-1 tvg-logo="https://i.ibb.co/TxGXSw5h/Screenshot-20260220-221938.png"group-title="ARGENTINA" , LA PODEROSA TV
+https://video.conweb.com.ar:3869/live/poderosalive.m3u8
+
 #EXTINF:-1 tvg-logo="https://i.ibb.co/VNYSy9z/descarga-removebg-preview.png"group-title="ARGENTINA", CANAL 34 HD
 https://streamyes.alsolnet.com:443/canal34hd/live/chunklist_w1539060189.m3u8
 
