@@ -506,7 +506,8 @@ https://xumo-drct-ch835-ekq0p.fast.nbcuni.com/live/master_5.m3u8
 
 
 #EXTINF:-1 tvg-logo="https://i.ibb.co/dLWwdLK/3dgifmaker66066.gif"group-title="CINE PREMIUM",COSMOS TV HD
-https://canaletaplus.com:3922/live/adminlive.m3u8
+https://tv.mediacp.eu:19360/cosmos/cosmos.m3u8
+
 
 
 #EXTINF:-1 tvg-logo=""group-title="CINE PREMIUM",CINE ESTRELLA
@@ -906,6 +907,8 @@ https://tv.streamcasthd.com:3450/live/tvmaslive.m3u8
 
 
 #EXTINF:-1 tvg-logo="https://i.ibb.co/dLWwdLK/3dgifmaker66066.gif"group-title="ARGENTINA",COSMOS TV HD
+https://tv.mediacp.eu:19360/cosmos/cosmos.m3u8
+
 
 
 
