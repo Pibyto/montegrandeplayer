@@ -293,7 +293,7 @@ https://video.conweb.com.ar:3869/live/poderosalive.m3u8
 https://unlimited1-us.dps.live/nettv/nettv.smil/playlist.m3u8
 
 
-#EXTINF:-1 tvg-logo="https://static.wikia.nocookie.net/logopedia/images/1/1d/Canal_9_Televida_%28Logo_1995%29.png/revision/latest?cb=20221210150018"group-title="ARGENTINA",TELEVIDA
+#EXTINF:-1 tvg-logo="https://i.ibb.co/h1sG4f7H/1771796497512.png"group-title="ARGENTINA",TELEVIDA
 https://unlimited1-saopaulo.dps.live/televidaar/televidaar.smil/televidaar/livestream1/chunks.m3u8
 
 #EXTINF:-1 tvg-logo="https://directostv.teleame.com/wp-content/uploads/2020/09/Canal-Nueve-Norte-Misionero-en-vivo-Online.png"group-title="ARGENTINA", CANAL 9 HD MISIONES
@@ -362,8 +362,6 @@ https://tdcserver.com:19360/tdconlione-2/tdconlione-2.m3u8
 http://coninfo.net:1935/9linklivert/smil:9linkmultibr.smil/chunklist_w1546314826_b2044100_sleng.m3u8
 
 
-#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/5/5d/Channel_4_logo_%28San_Juan%2C_Argentina%29_.png"group-title="ARGENTINA",CANAL 4 HD 
-https://streamlov.alsolnet.com:443/canal4sanjuan/live/chunklist_w1498414588.m3u8
 
 
 #EXTINF:-1 tvg-logo="https://i.ibb.co/TqK1XG5W/1771782074351.png"group-title="ARGENTINA",TLS HD
