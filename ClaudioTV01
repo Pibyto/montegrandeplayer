@@ -411,8 +411,9 @@ http://coninfo.net:1935/9linklivert/smil:9linkmultibr.smil/chunklist_w1546314826
 https://streamlov.alsolnet.com:443/canal4sanjuan/live/chunklist_w1498414588.m3u8
 
 
-#EXTINF:-1 tvg-logo="https://static.wikia.nocookie.net/logopedia/images/e/ee/Canal5telesol2016logo.png/revision/latest/scale-to-width-down/170?cb=20210525135451&path-prefix=es"group-title="ARGENTINA",TLS HD
-https://cdn1.tvlin.net/open/telesol/chunks.m3u
+#EXTINF:-1 tvg-logo="https://i.ibb.co/TqK1XG5W/1771782074351.png"group-title="ARGENTINA",TLS HD
+https://cdn1.tvlin.net/open/telesol/chunks.m3u8?nimblesessionid=993803
+
 
 
 
