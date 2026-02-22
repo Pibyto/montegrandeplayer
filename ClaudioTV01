@@ -45,11 +45,11 @@ http://sdmx.vip/live/AngelicaAntonietaTellez/A4Pnrrfhw4FJ/2092595.ts
 http://sdmx.vip/live/AngelicaAntonietaTellez/A4Pnrrfhw4FJ/2092589.ts
 
 
-#EXTINF:-1 tvg-logo="https://i.ibb.co/DDTQr8c4/LOGO-BOMBI-TV-HORIZONTAL-V2-1-scaled.png"group-title="CINE PREMIUM" ,BOMBI TV
+#EXTINF:-1 tvg-logo="https://i.ibb.co/DDTQr8c4/LOGO-BOMBI-TV-HORIZONTAL-V2-1-scaled.png"group-title="CINE PREMIUM",BOMBI TV
 https://tv.arkeo.cl:1936/bombitv/bombitv/chunklist_w1423969722.m3u8
 
 
-#EXTINF:-1 tvg-logo="https://i.ibb.co/TxGXSw5h/Screenshot-20260220-221938.png"group-title="CINE PREMIUM" , LA PODEROSA TV
+#EXTINF:-1 tvg-logo="https://i.ibb.co/TxGXSw5h/Screenshot-20260220-221938.png"group-title="CINE PREMIUM", LA PODEROSA TV
 https://video.conweb.com.ar:3869/live/poderosalive.m3u8
 
 
@@ -90,7 +90,7 @@ https://live21.bozztv.com/giatv/giatv-cnal70tv/cnal70tv/chunks.m3u8
 https://run-rt-uh-roku.otteravision.com/run/rt_uh/rt_uh_720.m3u8
 
 #EXTINF:-1 tvg-logo=""group-title="CINE PREMIUM", FABIÁN VISION TV
-https://live21.bozztv.com/akamaissh101/ssh101/fabiantv182/chunks.m3u8
+https://live20.bozztv.com/akamaissh101/ssh101/fabiantv182/chunks.m3u8
 
 
 
@@ -314,8 +314,6 @@ http://cfd-v4-service-channel-stitcher-use1-1.prd.pluto.tv/stitch/hls/channel/60
 
 
 
-#EXTINF:-1 tvg-logo=""group-title="ARGENTINA",MONTEGRANDE RADIOTV
-https://live20.bozztv.com/akamaissh101/ssh101/mgradiotv/playlist.m3u8
 
 
 #EXTINF:-1 tvg-logo="https://tinyurl.com/268uh4kw"group-title="ARGENTINA", MONTEGRANDETV 
@@ -382,6 +380,8 @@ https://stream-gtlc.telecentro.net.ar/hls/canal26hls/0/playlist.m3u8
 https://stream-gtlc.telecentro.net.ar/hls/telemaxhls/0/playlist.m3u8
 
 
+#EXTINF:-1 tvg-logo=""group-title="ARGENTINA",MONTEGRANDE RADIOTV
+https://live20.bozztv.com/akamaissh101/ssh101/mgradiotv/playlist.m3u8
 
 
 
