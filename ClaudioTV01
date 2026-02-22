@@ -289,7 +289,7 @@ https://video.conweb.com.ar:3869/live/poderosalive.m3u8
 #EXTINF:-1 tvg-logo="https://i.ibb.co/bQMdXs3/Screenshot-20241226-095234-XPlayer-Video-Player-removebg-preview.png"group-title="ARGENTINA",EL TRECE  33.1
 
 
-#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Net_TV_logo.png/800px-Net_TV_logo.png"group-title="ARGENTINA", NET TV HD  27.2
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/a/a5/Net_TV_logo.png"group-title="ARGENTINA", NET TV HD  27.2
 https://unlimited1-us.dps.live/nettv/nettv.smil/playlist.m3u8
 
 
