@@ -77,7 +77,17 @@ http://190.102.242.130:25461/terrorpower/1234/99
 http://190.102.242.130:25461/cineclasiipowe/1234/143
 
 
+#EXTINF:-1 tvg-logo="https://images.pluto.tv/channels/5d8d164d92e97a5e107638d2/colorLogoPNG.png" group-title="CINE PREMIUM", CINE ADRENALINA
+http://service-stitcher.clusters.pluto.tv/stitch/hls/channel/5d8d164d92e97a5e107638d2/master.m3u8?advertisingId=&appName=web&appVersion=unknown&appStoreUrl=&architecture=&buildVersion=&clientTime=0&deviceDNT=0&deviceId=1c804192-7089-11eb-842e-ed7bad763363&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=unknown&includeExtendedEvents=false&sid=d0b46a48-3e72-4c90-a658-826f98daa8a9&userId=&serverSideAds=true
 
+#EXTINF:-1 tvg-logo="https://images.pluto.tv/channels/5dcddfcb229eff00091b6bdf/colorLogoPNG.png" group-title="CINE PREMIUM", CINE DRAMA
+http://service-stitcher.clusters.pluto.tv/stitch/hls/channel/5dcddfcb229eff00091b6bdf/master.m3u8?advertisingId=&appName=web&appVersion=unknown&appStoreUrl=&architecture=&buildVersion=&clientTime=0&deviceDNT=0&deviceId=bff00072-6307-11eb-b3fa-019cb96f121b&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=unknown&includeExtendedEvents=false&sid=6e24734a-39dc-48e4-8068-40d233385993&userId=&serverSideAds=true
+
+#EXTINF:-1 tvg-logo="https://images.pluto.tv/channels/5cf96b1c4f1ca3f0629f4bf0/colorLogoPNG.png" group-title="CINE PREMIUM", SEPTIMO ARTE
+http://service-stitcher.clusters.pluto.tv/stitch/hls/channel/5cf96b1c4f1ca3f0629f4bf0/master.m3u8?advertisingId=&appName=web&appVersion=unknown&appStoreUrl=&architecture=&buildVersion=&clientTime=0&deviceDNT=0&deviceId=1c7df7a1-7089-11eb-842e-ed7bad763363&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=unknown&includeExtendedEvents=false&sid=3548ea01-ec9a-4077-95c1-67068b0dfecd&userId=&serverSideAds=true
+
+#EXTINF:-1 tvg-logo="https://images.pluto.tv/channels/5dcde437229eff00091b6c30/colorLogoPNG.png" group-title="CINE PREMIUM", CINE ESTELAR
+http://service-stitcher.clusters.pluto.tv/stitch/hls/channel/5dcde437229eff00091b6c30/master.m3u8?advertisingId=&appName=web&appVersion=unknown&appStoreUrl=&architecture=&buildVersion=&clientTime=0&deviceDNT=0&deviceId=bff0c3c1-6307-11eb-b3fa-019cb96f121b&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=unknown&includeExtendedEvents=false&sid=20f53e04-9cb8-454e-ad8b-838686c353e7&userId=&serverSideAds=true
 
 
 #EXTINF:-1 tvg-logo=""group-title="CINE PREMIUM",CANAL 70
