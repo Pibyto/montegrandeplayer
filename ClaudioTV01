@@ -90,18 +90,9 @@ http://service-stitcher.clusters.pluto.tv/stitch/hls/channel/5cf96b1c4f1ca3f0629
 http://service-stitcher.clusters.pluto.tv/stitch/hls/channel/5dcde437229eff00091b6c30/master.m3u8?advertisingId=&appName=web&appVersion=unknown&appStoreUrl=&architecture=&buildVersion=&clientTime=0&deviceDNT=0&deviceId=bff0c3c1-6307-11eb-b3fa-019cb96f121b&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=unknown&includeExtendedEvents=false&sid=20f53e04-9cb8-454e-ad8b-838686c353e7&userId=&serverSideAds=true
 
 
-#EXTINF:-1 tvg-logo=""group-title="CINE PREMIUM",CANAL 70
-https://live21.bozztv.com/giatv/giatv-cnal70tv/cnal70tv/chunks.m3u8
 
-
-
-
-#EXTINF:-1 tvg-logo=""group-title="CINE PREMIUM",Rumtime
+#EXTINF:-1 tvg-logo="https://www.runtime.tv/themes/custom/run/runtime/logo.png"group-title="CINE PREMIUM",Rumtime
 https://run-rt-uh-roku.otteravision.com/run/rt_uh/rt_uh_720.m3u8
-
-#EXTINF:-1 tvg-logo=""group-title="CINE PREMIUM", FABIÁN VISION TV
-https://live20.bozztv.com/akamaissh101/ssh101/fabiantv182/chunks.m3u8
-
 
 
 #EXTINF:-1 tvg-logo=""group-title="CINE PREMIUM",GLOBAL TV
@@ -135,7 +126,7 @@ https://live20.bozztv.com/giatv/giatv-wowmovies/wowmovies/chunks.m3u8
 https://live20.bozztv.com/akamaissh101/ssh101/bigchannel/chunks.m3u8
 
 
-#EXTINF:-1 tvg-logo="https://i.ibb.co/yhYvwzD/Screenshot-20250111-080920-XPlayer-Video-Player-removebg-preview.png"group-title="CINE PREMIUM",CINE ACCION
+#EXTINF:-1 tvg-logo=""group-title="CINE PREMIUM",CINE ACCION
 https://service-stitcher.clusters.pluto.tv/stitch/hls/channel/5d8d164d92e97a5e107638d2/master.m3u8?advertisingId=&appName=web&appStoreUrl=&appVersion=DNT&app_name=&architecture=&buildVersion=&deviceDNT=0&deviceId=5d8d164d92e97a5e107638d2&deviceLat=&deviceLon=&deviceMake=web&deviceModel=web&deviceType=web&deviceVersion=DNT&includeExtendedEvents=false&marketingRegion=US&serverSideAds=false&sid=904&terminate=false&userId=
 
 
@@ -158,23 +149,12 @@ https://service-stitcher.clusters.pluto.tv/stitch/hls/channel/6532e7b290a74c0008
 
 
 
-#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/a/a4/CINEARLogo.png"group-title="CINE PREMIUM",TUCINE
-https://live20.bozztv.com/akamaissh101/ssh101/xiomoz/chunks.m3u8
-
 
 
 
 #EXTINF:-1 tvg-logo="https://brandemia.org/wp-content/uploads/2013/02/logo_telemundo_principal.jpg"group-title="CINE PREMIUM",TELEMUNDO ACCION
 https://xumo-drct-ch835-ekq0p.fast.nbcuni.com/live/master_5.m3u8
 
-
-
-#EXTINF:-1 tvg-logo=""group-title="CINE PREMIUM",ROKUTEN ACCIÓN 
-https://a9c57ec7ec5e4b7daeacc6316a0bb404.mediatailor.eu-west-1.amazonaws.com/v1/manifest/0547f18649bd788bec7b67b746e47670f558b6b2/production-LiveChannel-6069/43b2cbfb-73b4-4a0d-b655-8da0bcf1800d/4.m3u8
-
-
-#EXTINF:-1 tvg-logo=""group-title="CINE PREMIUM", ROKUTEN DRAMA 
-https://a7089c89d85f453d850c4a1518b43076.mediatailor.eu-west-1.amazonaws.com/v1/manifest/0547f18649bd788bec7b67b746e47670f558b6b2/production-LiveChannel-6092/1288575f-cf5b-4b94-81b2-841c7d942f64/4.m3u8
 
 
 #EXTINF:-1 tvg-logo=""group-title="CINE PREMIUM",CINESONY
