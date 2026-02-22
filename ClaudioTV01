@@ -142,11 +142,6 @@ https://a-cdn.klowdtv.com:443/live1/cine_720p/chunks.m3u8
 https://live20.bozztv.com/giatv/giatv-wowmovies/wowmovies/chunks.m3u8
 
 
-#EXTINF:-1 tvg-logo=""group-title="CINE PREMIUM",CINE35 
-https://live20.bozztv.com/akamaissh101/ssh101/bigchannel/chunks.m3u8
-
-
-#
 
 #EXTINF:-1 tvg-logo="https://i.ibb.co/Ldfbk6rC/Photoroom-20250629-132738.png"group-title="CINE PREMIUM",TVS
 https://vcp10.myplaytv.com/tvs/tvs/chunklist_w989702023.m3u8
@@ -162,9 +157,6 @@ https://streamtv.intervenhosting.net:3529/live/tvmparatilive.m3u8
 
 
 
-
-
-
 #EXTINF:-1 tvg-logo="https://brandemia.org/wp-content/uploads/2013/02/logo_telemundo_principal.jpg"group-title="CINE PREMIUM",TELEMUNDO ACCION
 https://xumo-drct-ch835-ekq0p.fast.nbcuni.com/live/master_5.m3u8
 
@@ -176,13 +168,6 @@ https://a-cdn.klowdtv.com/live1/cine_720p/chunks.m3u8
 
 #EXTINF:-1 tvg-logo="https://static.wikia.nocookie.net/doblaje/images/a/a8/Ciudadmagazine-logonuevo.png/revision/latest?cb=20200203001356&path-prefix=es"group-title="CINE PREMIUM",MAGAZINE
 https://livetrx01.vodgc.net/live-01-07-ciudad.vodgc.net/tracks-v3a1/mono.m3u8
-
-
-
-
-
-#EXTINF:-1 tvg-logo="https://i.ibb.co/7NB0xRSs/Photoroom-20250622-235111.png"group-title="CINE PREMIUM",OPINION SUR CINE
-https://live20.bozztv.com/giatv/giatv-opinionsurc/opinionsurc/chunks.m3u8
 
 
 
@@ -211,14 +196,6 @@ https://live20.bozztv.com:443/giatvplayout7/giatv-208770/tracks-v1a1/mono.ts.m3u
 
 #EXTINF:-1 tvg-logo="https://mytimemovienetwork.com/wp-content/uploads/elementor/thumbs/logo-white-ovbvbhqmsdprb6sqz8bdil61k1zcy8bv2whim3g1os.png"group-title="CINE PREMIUM",MY TIME
 https://appletree-mytime-samsungmexico.amagi.tv/playlist.m3u8
-
-
-
-
-
-
-#EXTINF:-1 tvg-logo="https://i.ibb.co/yhYvwzD/Screenshot-20250111-080920-XPlayer-Video-Player-removebg-preview.png"group-title="CINE PREMIUM",CINE ESTELAR
-https://service-stitcher.clusters.pluto.tv/stitch/hls/channel/5dcde437229eff00091b6c30/master.m3u8?advertisingId=&appName=web&appVersion=5.14.0-0f5ca04c21649b8c8aad4e56266a23b96d73b83a&app_name=web&clientDeviceType=0&clientID=6fbead95-26b1-415d-998f-1bdef62d10be&clientModelNumber=na&deviceDNT=false&deviceId=6fbead95-26b1-415d-998f-1bdef62d10be&deviceLat=19.4358&deviceLon=-99.1441&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=88.0.4324.150&marketingRegion=VE&serverSideAds=false&sessionID=b8e5a857-714a-11eb-b532-0242ac110002&sid=b8e5a857-714a-11eb-b532-0242ac110002&userId=
 
 
 
@@ -293,7 +270,7 @@ http://cfd-v4-service-channel-stitcher-use1-1.prd.pluto.tv/stitch/hls/channel/60
 
 
 
-#EXTINF:-1 tvg-logo="https://tinyurl.com/ba96ebvh"group-title="ARGENTINA", MONTEGRANDETV 
+#EXTINF:-1 tvg-logo="https://tinyurl.com/268uh4kw"group-title="ARGENTINA", MONTEGRANDETV 
 https://live20.bozztv.com/akamaissh101/ssh101/montegrandetv/playlist.m3u8
 
 
