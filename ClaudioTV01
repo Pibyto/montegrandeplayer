@@ -283,7 +283,7 @@ https://streaming01.mikrolive.tv/bayrestv/live/chunklist_w963757112.m3u8
 https://srv3.zcast.com.br/gentv/gentv/playlist.m3u8
 
 
-#EXTINF:-1 tvg-logo="https://i.ibb.co/TxGXSw5h/Screenshot-20260220-221938.png"group-title="ARGENTINA" , LA PODEROSA TV
+#EXTINF:-1 tvg-logo="https://i.ibb.co/TxGXSw5h/Screenshot-20260220-221938.png"group-title="ARGENTINA", LA PODEROSA TV
 https://video.conweb.com.ar:3869/live/poderosalive.m3u8
 
 #EXTINF:-1 tvg-logo="https://i.ibb.co/bQMdXs3/Screenshot-20241226-095234-XPlayer-Video-Player-removebg-preview.png"group-title="ARGENTINA",EL TRECE  33.1
@@ -306,10 +306,6 @@ https://streamtv12.ddns.net:5443/LiveApp/streams/193945633734205616732920.m3u8
 
 
 
-#EXTINF:-1 tvg-logo="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiJLTMCR-pFAQzKyjoDvCFm2LfbO9ppIEtbDUr4ZtDshQfnGGlwBemRdqIEQJxYWg77PqZPIvnxLaDMcN8ER0ef6r5Ro5iVapq-VGw23x4btvF0KgrztmSmEgE69oxqE4cqSZ_4fFeLBKXOEGrFAOxR5QmaSlRDHwbLzV-PWfifzTZAW99WO0W1-E28/s1313/CANAL9-2017.PNG"group-title="ARGENTINA",EL NUEVE
-
-
-
 #EXTINF:-1 tvg-logo="https://directostv.teleame.com/wp-content/uploads/2018/06/Canal-9-Multivision-en-vivo-Online.png"group-title="ARGENTINA",MULTIVISION HD
 https://panel.host-live.com:19360/8250/8250.m3u8
 
@@ -321,7 +317,7 @@ https://live20.bozztv.com/giatv/giatv-ojodigital/ojodigital/playlist.m3u8
 #EXTINF:-1 tvg-logo="https://i.ibb.co/VcS4Jq1D/UNIFE.png"group-title="ARGENTINA" ,UNIFE TV
 https://5dcabf026b188.streamlock.net/StreamUnife/livestream/chunklist_w1022993106.m3u8
 
-#EXTINF:-1 tvg-logo="https://static.wikia.nocookie.net/logopedia/images/8/8c/Televisi%C3%B3n_P%C3%BAblica_Pampeana_%28Logo_2022_-_2%29.png/revision/latest?cb=20230328012949"group-title="ARGENTINA" , TELEVISIÓN PÚBLICA 
+#EXTINF:-1 tvg-logo="https://static.wikia.nocookie.net/logopedia/images/8/8c/Televisi%C3%B3n_P%C3%BAblica_Pampeana_%28Logo_2022_-_2%29.png/revision/latest?cb=20230328012949"group-title="ARGENTINA", TELEVISIÓN PÚBLICA 
 https://stream.arcast.com.ar/c3lapampa/ngrp:c3lapampa_all/playlist.m3u8
 
 #EXTINF:-1 tvg-logo="https://i.ibb.co/8LJJwFVZ/large-643551553-Bravo-TV-png-57a91952c5e4e5fd1a66c5b047909fb4.png"group-title="ARGENTINA",BRAVO TV
@@ -343,8 +339,6 @@ https://live20.bozztv.com/akamaissh101/ssh101/mgradiotv/playlist.m3u8
 #EXTINF:-1 tvg-logo="https://www.elcuatro.com/public/img/marcas/marcas_canal4_297.png"group-title="ARGENTINA",CANAL 4 HD
 https://5cd577a3dd8ec.streamlock.net/CANAL4/smil:CANAL4.smil/chunklist_w1929733198_b4128000.m3u8
 
-
-#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/3/36/A24-logo.svg/1200px-A24-logo.svg.png"group-title="ARGENTINA",A24 HD
 
 
 #EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/d/d4/Canal_Siete_Jujuy.png"group-title="ARGENTINA",7JUJUY
@@ -400,9 +394,6 @@ https://live20.bozztv.com/akamaissh101/ssh101/elmagotv2/chunks.m3u8
 
 
 
-#EXTINF:-1 tvg-logo="https://i.ibb.co/Z1x6nW2m/Photoroom-20250616-235155.png"group-title="ARGENTINA",NEOX TV
-https://tv.streamcasthd.com:3076/live/sonicaargentinalive.m3u8
-
 
 #EXTINF:-1 tvg-logo="https://sicarditv.com.ar/static/custom/logo.png?t=2023-01-03+18%3A02%3A18.705308"group-title="ARGENTINA",SICARDITV HD  18.2
 https://vivo.solumedia.com:19360/sicarditv/sicarditv.m3u8
@@ -422,7 +413,7 @@ https://nd106.republicaservers.com:443/hls/diegologonitv/0_1/index.m3u8?sessId=3
 https://live20.bozztv.com/giatv/giatv-bigtv/bigtv/chunks.m3u8
 
 
-#EXTINF:-1 tvg-logo="https://tinyurl.com/mvu6sede"group-title="ARGENTINA",CANAL 3 PINAMAR 
+#EXTINF:-1 tvg-logo="https://i.ibb.co/vxc15245/Screenshot-20260222-193603.png"group-title="ARGENTINA",CANAL 3 PINAMAR 
 https://intelincloud01.com.ar/hls/cn3/index.m3u8
 
 #EXTINF:-1 tvg-logo="https://i.ibb.co/f0YPh6h/images-removebg-preview-2.png"group-title="ARGENTINA",TELE CINCO
@@ -566,17 +557,6 @@ http://iptv.ixfo.com.ar:8081/live/C4POS/playlist.m3u8
 
 #EXTINF:-1 tvg-logo="https://telejunin.com/static/images/logo/teleJunin.png"group-title="ARGENTINA",TELEJUNIN
 https://videostream.shockmedia.com.ar:19360/telejunin/telejunin.m3u8
-
-
-#EXTINF:-1 tvg-logo="https://play-lh.googleusercontent.com/zPf1nSQE3SLWV91l-HOivc-qDcpy2EGxGMDEtfrlhyorpIgZnGsF12ypnO06tDiqXC4"group-title="ARGENTINA",VIVE TV
-https://vivo.solumedia.com:19360/vivetv/vivetv.m3u8
-
-
-#EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRTvp7vcgSE_ltQwvscYTnsIuqtle66wsDocfnE4YEO2A&s"group-title="ARGENTINA",UNITEVE
-https://vivo.solumedia.com:19360/uniteve/uniteve.m3u8?PlaylistM3UCL
-
-
-
 
 
 
