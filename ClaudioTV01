@@ -286,7 +286,8 @@ https://srv3.zcast.com.br/gentv/gentv/playlist.m3u8
 #EXTINF:-1 tvg-logo="https://i.ibb.co/TxGXSw5h/Screenshot-20260220-221938.png"group-title="ARGENTINA", LA PODEROSA TV
 https://video.conweb.com.ar:3869/live/poderosalive.m3u8
 
-#EXTINF:-1 tvg-logo="https://i.ibb.co/bQMdXs3/Screenshot-20241226-095234-XPlayer-Video-Player-removebg-preview.png"group-title="ARGENTINA",EL TRECE  33.1
+#EXTINF:-1 tvg-logo="https://i.ibb.co/67gVZZkc/1771818461979.png"group-title="ARGENTINA",EL 4 SAN JUAN 
+https://streamlov.alsolnet.com/canal4sanjuan/live/chunklist_w318490892.m3u8
 
 
 #EXTINF:-1 tvg-logo="https://i.ibb.co/1tT57T0M/1771817633406.png"group-title="ARGENTINA",8 MDP
