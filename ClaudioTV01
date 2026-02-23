@@ -409,8 +409,11 @@ https://nd106.republicaservers.com:443/hls/diegologonitv/0_1/index.m3u8?sessId=3
 
 
 
-#EXTINF:-1 tvg-logo="https://i.ibb.co/QFkG0FcV/1771806042340.png"group-title="ARGENTINA",CINE35
+#EXTINF:-1 tvg-logo="https://i.ibb.co/qMPnsdYs/1771806869677.png"group-title="ARGENTINA"BIG TV
 https://live20.bozztv.com/giatv/giatv-bigtv/bigtv/chunks.m3u8
+
+
+#EXTINF:-1 tvg-logo="https://i.ibb.co/QFkG0FcV/1771806042340.png"group-title="ARGENTINA",CINE35
 
 
 #EXTINF:-1 tvg-logo="https://i.ibb.co/vxc15245/Screenshot-20260222-193603.png"group-title="ARGENTINA",CANAL 3 PINAMAR 
