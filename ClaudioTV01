@@ -436,7 +436,7 @@ https://panel.host-live.com:19360/20004/20004.m3u8
 https://live20.bozztv.com/giatv/giatv-telemixenvivo/telemixenvivo/chunks.m3u8
 
 
-#EXTINF:-1 tvg-logo="https://micanal.ovh/images/11253292546802528ad6c15.png"group-title="ARGENTINA", BIBLIA ABIERTA 
+#EXTINF:-1 tvg-logo=""group-title="ARGENTINA", BIBLIA ABIERTA 
 https://s.emisoras.tv:8081/penielbibliaabierta/index.m3u8
 
 
@@ -536,7 +536,6 @@ https://stream.radiosmundiales.com:19360/sanluismas/sanluismas.m3u8
 
 
 #EXTINF:-1 tvg-logo="https://www.canal4eldorado.com/wp-content/uploads/2016/10/canal4-330x250.png"group-title="ARGENTINA",CANAL 4 EL DORADO
-https://stream.arcast.com.ar:443/canal4eldorado/canal4eldorado/chunklist_w2053050464.m3u8
 
 
 #EXTINF:-1 tvg-logo="https://canal2gualeguay.com.ar/wp-content/uploads/2020/08/logoc2gualeguay-x1.png"group-title="ARGENTINA",CANAL 2 GUALEGUAY
@@ -560,7 +559,7 @@ http://arcast.net:1935/mp/mp/playlist.m3u8
 https://stream.arcast.live:443/ahora/ahora/chunklist_w1967933953.m3u8
 
 
-#EXTINF:-1 tvg-logo="https://1.bp.blogspot.com/-zRsbCQ057WQ/XsSJeLXVw5I/AAAAAAAAv24/FcMy1_I8EVcTB6PkfCz7BuAfWZcJZfo-ACNcBGAsYHQ/s1600/LOGO%2BCANAL%2B4%2BDEGRADE_OK%25282%2529.png"group-title="ARGENTINA", CANAL 4 HD  POSADAS
+#EXTINF:-1 tvg-logo="https://i.ibb.co/jkxg8pLK/images-3.png"group-title="ARGENTINA", CANAL 4 HD  POSADAS
 http://iptv.ixfo.com.ar:8081/live/C4POS/playlist.m3u8
 
 
