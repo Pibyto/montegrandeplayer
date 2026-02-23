@@ -289,6 +289,10 @@ https://video.conweb.com.ar:3869/live/poderosalive.m3u8
 #EXTINF:-1 tvg-logo="https://i.ibb.co/bQMdXs3/Screenshot-20241226-095234-XPlayer-Video-Player-removebg-preview.png"group-title="ARGENTINA",EL TRECE  33.1
 
 
+#EXTINF:-1 tvg-logo="https://i.ibb.co/1tT57T0M/1771817633406.png"group-title="ARGENTINA",8 MDP
+https://stream.arcast.ar/canal8mdp/ngrp:canal8mdp_all/chunklist_w44684725_b1463840_tkd293emF0b2tlbmVuZHRpbWU9MTc3MTgxNzQ5MiZ3b3d6YXRva2Vuc3RhcnR0aW1lPTAmd293emF0b2tlbmhhc2g9Z0tJYmRSQlNxWTJPbDYtdXdCT0N0eTZEVURJTFdqZFZMbEJHYmhFNTRQRT0=.m3u8
+
+
 #EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/a/a5/Net_TV_logo.png"group-title="ARGENTINA", NET TV HD  27.2
 https://unlimited1-us.dps.live/nettv/nettv.smil/playlist.m3u8
 
