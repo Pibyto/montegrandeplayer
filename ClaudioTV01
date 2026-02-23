@@ -409,7 +409,7 @@ https://nd106.republicaservers.com:443/hls/diegologonitv/0_1/index.m3u8?sessId=3
 
 
 
-#EXTINF:-1 tvg-logo="https://micanal.ovh/images/11253292546802528ad6c15.png"group-title="ARGENTINA",BIG TV
+#EXTINF:-1 tvg-logo=""group-title="ARGENTINA",BIG TV
 https://live20.bozztv.com/giatv/giatv-bigtv/bigtv/chunks.m3u8
 
 
@@ -419,7 +419,7 @@ https://intelincloud01.com.ar/hls/cn3/index.m3u8
 #EXTINF:-1 tvg-logo="https://i.ibb.co/f0YPh6h/images-removebg-preview-2.png"group-title="ARGENTINA",TELE CINCO
 https://videohd.live:19360/8016/8016.m3u8
 
-#EXTINF:-1 tvg-logo="https://panctv.tucuman.stream/wp-content/uploads/sites/2/2022/08/cropped-logo-panc-tv.png"group-title="ARGENTINA",PANC TV HD 15.1
+#EXTINF:-1 tvg-logo="https://i.ibb.co/dsMCCvK9/panc-tv-hd-800x450.png"group-title="ARGENTINA",PANC TV HD 15.1
 https://panel.host-live.com:19360/20004/20004.m3u8
 
 
