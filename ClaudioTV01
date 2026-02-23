@@ -314,7 +314,7 @@ https://panel.host-live.com:19360/8250/8250.m3u8
 https://live20.bozztv.com/giatv/giatv-ojodigital/ojodigital/playlist.m3u8
 
 
-#EXTINF:-1 tvg-logo="https://i.ibb.co/VcS4Jq1D/UNIFE.png"group-title="ARGENTINA" ,UNIFE TV
+#EXTINF:-1 tvg-logo="https://i.ibb.co/VcS4Jq1D/UNIFE.png"group-title="ARGENTINA",UNIFE TV
 https://5dcabf026b188.streamlock.net/StreamUnife/livestream/chunklist_w1022993106.m3u8
 
 #EXTINF:-1 tvg-logo="https://static.wikia.nocookie.net/logopedia/images/8/8c/Televisi%C3%B3n_P%C3%BAblica_Pampeana_%28Logo_2022_-_2%29.png/revision/latest?cb=20230328012949"group-title="ARGENTINA", TELEVISIÓN PÚBLICA 
@@ -409,7 +409,7 @@ https://nd106.republicaservers.com:443/hls/diegologonitv/0_1/index.m3u8?sessId=3
 
 
 
-#EXTINF:-1 tvg-logo=""group-title="ARGENTINA",BIG TV
+#EXTINF:-1 tvg-logo="https://i.ibb.co/QFkG0FcV/1771806042340.png"group-title="ARGENTINA",CINE35
 https://live20.bozztv.com/giatv/giatv-bigtv/bigtv/chunks.m3u8
 
 
