@@ -302,14 +302,14 @@ https://streamlov.alsolnet.com/canal4sanjuan/live/chunklist_w318490892.m3u8
 https://stream-gtlc.telecentro.net.ar/hls/tierramiahls/0/playlist.m3u8
 
 
-#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/a/a5/Net_TV_logo.png"group-title="ARGENTINA", NET TV HD  27.2
+#EXTINF:-1 tvg-logo="https://tinyurl.com/6nruejr3"group-title="ARGENTINA", NET TV HD  27.2
 https://unlimited1-us.dps.live/nettv/nettv.smil/playlist.m3u8
 
 
 #EXTINF:-1 tvg-logo="https://tinyurl.com/4zexfb74"group-title="ARGENTINA",TELEVIDA
 https://unlimited1-saopaulo.dps.live/televidaar/televidaar.smil/televidaar/livestream1/chunks.m3u8
 
-#EXTINF:-1 tvg-logo="https://directostv.teleame.com/wp-content/uploads/2020/09/Canal-Nueve-Norte-Misionero-en-vivo-Online.png"group-title="ARGENTINA", CANAL 9 HD MISIONES
+#EXTINF:-1 tvg-logo="https://tinyurl.com/7ama65js"group-title="ARGENTINA", CANAL 9 HD MISIONES
 https://panel.host-live.com:19360/8076/8076.m3u8
 
 
@@ -319,7 +319,7 @@ https://streamtv12.ddns.net:5443/LiveApp/streams/193945633734205616732920.m3u8
 
 
 
-#EXTINF:-1 tvg-logo="https://directostv.teleame.com/wp-content/uploads/2018/06/Canal-9-Multivision-en-vivo-Online.png"group-title="ARGENTINA",MULTIVISION HD
+#EXTINF:-1 tvg-logo="https://tinyurl.com/3xxchupk"group-title="ARGENTINA",MULTIVISION HD
 https://panel.host-live.com:19360/8250/8250.m3u8
 
 
@@ -333,7 +333,7 @@ https://5dcabf026b188.streamlock.net/StreamUnife/livestream/chunklist_w102299310
 #EXTINF:-1 tvg-logo="https://static.wikia.nocookie.net/logopedia/images/8/8c/Televisi%C3%B3n_P%C3%BAblica_Pampeana_%28Logo_2022_-_2%29.png/revision/latest?cb=20230328012949"group-title="ARGENTINA", TELEVISIÓN PÚBLICA 
 https://stream.arcast.com.ar/c3lapampa/ngrp:c3lapampa_all/playlist.m3u8
 
-#EXTINF:-1 tvg-logo="https://i.ibb.co/8LJJwFVZ/large-643551553-Bravo-TV-png-57a91952c5e4e5fd1a66c5b047909fb4.png"group-title="ARGENTINA",BRAVO TV
+#EXTINF:-1 tvg-logo="https://tinyurl.com/cauy9zzh"group-title="ARGENTINA",BRAVO TV
 https://redirector.rudo.video/hls-video/c54ac2799874375c81c1672abb700870537c5223/bravo/bravo.smil/playlist.m3u8
 
 
@@ -363,7 +363,7 @@ https://tdcserver.com:19360/tdconlione-2/tdconlione-2.m3u8
 
 
 
-#EXTINF:-1 tvg-logo="https://static.wikia.nocookie.net/logopedia/images/1/19/ElTreceInternacional2017.png/revision/latest?cb=20171001002322"group-title="ARGENTINA",EL 9 
+#EXTINF:-1 tvg-logo="https://tinyurl.com/4wr9fnx2"group-title="ARGENTINA",EL 9 
 http://coninfo.net:1935/9linklivert/smil:9linkmultibr.smil/chunklist_w1546314826_b2044100_sleng.m3u8
 
 
@@ -477,7 +477,7 @@ https://live20.bozztv.com:443/giatvplayout7/giatv-208744/tracks-v1a1/mono.ts.m3u
 https://rt-esp.rttv.com:443/live/rtesp/playlist_4500Kb.m3u8
 
 
-#EXTINF:-1 tvg-logo="https://www.freeetv.com/images/02_logo/hispantv_spain.jpg"group-title="ARGENTINA",HISPANTV
+#EXTINF:-1 tvg-logo="https://tinyurl.com/4sjnsae9"group-title="ARGENTINA",HISPANTV
 https://live.presstv.ir/hls/hispantv.m3u8
 
 
@@ -492,7 +492,7 @@ https://live20.bozztv.com/giatvplayout7/giatv-209909/tracks-v1a1/mono.ts.m3u8
 
 
 
-#EXTINF:-1 tvg-logo="https://i.ibb.co/F4fKrVzq/Photoroom-20250627-221728.png"group-title="ARGENTINA",CANAL 21 HD
+#EXTINF:-1 tvg-logo="https://tinyurl.com/bdhcvzpj"group-title="ARGENTINA",CANAL 21 HD
 https://iptv.ixfo.com.ar:30443/c21tv/hd/c21tv/chunks.m3u8?MonteGrandePlay
 
 
@@ -549,7 +549,7 @@ https://stream.arcast.net:4443/gualeguay/gualeguay/chunklist_w1039971660.m3u8
 
 
 
-#EXTINF:-1 tvg-logo="https://dto7y5p0mql2j.cloudfront.net/1660769433762.logoc2.png"group-title="ARGENTINA", CANAL 2 HD MISIONES
+#EXTINF:-1 tvg-logo="https://tinyurl.com/2etwuj6h"group-title="ARGENTINA", CANAL 2 HD MISIONES
 https://nd106.republicaservers.com:4433/hls/canal2misioness/1_0/index.m3u8
 
 
@@ -561,7 +561,7 @@ http://arcast.net:1935/mp/mp/playlist.m3u8
 
 
 
-#EXTINF:-1 tvg-logo="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgyJVKGWk0vHNvIEhxrvdteHT1LsKMdFrizb9J_zuVItmyaeei-QbzqE0XKfZXEZjAyoLweXecjnSu6eYtEwuI5W_S-MKyxDGFnfXT1gxPM3thM7W9krwJLUro07Rj3NR9hjHBKtjHW5ajR4I7npNYTyTvPYrnATMgagbbGFL3Qc9_LNPfmGJhzwgt9/s200/canal9-litoral.png"group-title="ARGENTINA", CANAL 9 HD LITORAL
+#EXTINF:-1 tvg-logo="https://tinyurl.com/3b5a5c2f"group-title="ARGENTINA", CANAL 9 HD LITORAL
 https://stream.arcast.live:443/ahora/ahora/chunklist_w1967933953.m3u8
 
 
