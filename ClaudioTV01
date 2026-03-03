@@ -314,7 +314,7 @@ https://panel.host-live.com:19360/8076/8076.m3u8
 
 
 
-#EXTINF:-1 tvg-logo="https://i.ibb.co/8rdFqzB/Screenshot-20241226-094215-XPlayer-Video-Player-removebg-preview.png"group-title="ARGENTINA",METRO TV HD  18.1 TUCUMÁN
+#EXTINF:-1 tvg-logo="https://tinyurl.com/3bhvy78h"group-title="ARGENTINA",METRO TV HD  18.1 TUCUMÁN
 https://streamtv12.ddns.net:5443/LiveApp/streams/193945633734205616732920.m3u8
 
 
@@ -327,7 +327,7 @@ https://panel.host-live.com:19360/8250/8250.m3u8
 https://live20.bozztv.com/giatv/giatv-ojodigital/ojodigital/playlist.m3u8
 
 
-#EXTINF:-1 tvg-logo="https://i.ibb.co/VcS4Jq1D/UNIFE.png"group-title="ARGENTINA",UNIFE TV
+#EXTINF:-1 tvg-logo="https://tinyurl.com/4tkac7dz"group-title="ARGENTINA",UNIFE TV
 https://5dcabf026b188.streamlock.net/StreamUnife/livestream/chunklist_w1022993106.m3u8
 
 #EXTINF:-1 tvg-logo="https://static.wikia.nocookie.net/logopedia/images/8/8c/Televisi%C3%B3n_P%C3%BAblica_Pampeana_%28Logo_2022_-_2%29.png/revision/latest?cb=20230328012949"group-title="ARGENTINA", TELEVISIÓN PÚBLICA 
@@ -393,7 +393,7 @@ https://streamyes.alsolnet.com:443/canal34hd/live/chunklist_w1539060189.m3u8
 https://panel.host-live.com:19360/8012/8012.m3u8
 
 
-#EXTINF:-1 tvg-logo="https://cincotv.com.ar/wp-content/uploads/2022/05/LOGO-SOLO.png"group-title="ARGENTINA",CINCO TV HD  TIGRE
+#EXTINF:-1 tvg-logo="https://tinyurl.com/3vzrwff3"group-title="ARGENTINA",CINCO TV HD  TIGRE
 https://videostream.shockmedia.com.ar:19360/cincotv/cincotv.m3u8
 
 
@@ -502,11 +502,11 @@ https://live20.bozztv.com/giatvplayout7/giatv-209163/tracks-v1a1/mono.ts.m3u8
 
 
 
-#EXTINF:-1 tvg-logo="https://corrientes.tv/wp-content/uploads/2024/04/Corrientes-TV.webp"group-title="ARGENTINA",CORRIENTES TV HD
+#EXTINF:-1 tvg-logo="https://tinyurl.com/mr4ntrjp"group-title="ARGENTINA",CORRIENTES TV HD
 https://vivo.solumedia.com:19360/telemedia/telemedia.m3u8
 
 
-#EXTINF:-1 tvg-logo="https://canalluz.org/assets/images/canalluz-303x103.png"group-title="ARGENTINA",CANAL LUZ HD
+#EXTINF:-1 tvg-logo="https://tinyurl.com/4xw67je6"group-title="ARGENTINA",CANAL LUZ HD
 https://g2.vxral-slo.transport.edge-access.net:443/a11/ngrp:canal_luz01-100009_all/canal_luz01-100009_1080p/index.m3u8
 
 
@@ -525,7 +525,7 @@ https://canadaremar2.todostreaming.es/live/solidariatv-webhd.m3u8
 
 
 
-#EXTINF:-1 tvg-logo="https://directostv.teleame.com/wp-content/uploads/2018/06/Canal-7-Salta-en-vivo-Online.png"group-title="ARGENTINA",CANAL 7 SALTA
+#EXTINF:-1 tvg-logo="https://tinyurl.com/4hzz7tsn"group-title="ARGENTINA",CANAL 7 SALTA
 https://vivo.solumedia.com:19360/cooperativa/cooperativa.m3u8
 
 
