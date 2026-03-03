@@ -422,7 +422,7 @@ https://nd106.republicaservers.com:443/hls/diegologonitv/0_1/index.m3u8?sessId=3
 
 
 
-#EXTINF:-1 tvg-logo="https://i.ibb.co/qMPnsdYs/1771806869677.png"group-title="ARGENTINA"BIG TV
+#EXTINF:-1 tvg-logo="https://i.ibb.co/qMPnsdYs/1771806869677.png"group-title="ARGENTINA",BIG TV
 https://live20.bozztv.com/giatv/giatv-bigtv/bigtv/chunks.m3u8
 
 
@@ -473,7 +473,7 @@ https://live20.bozztv.com:443/giatvplayout7/giatv-208744/tracks-v1a1/mono.ts.m3u
 
 
 
-#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/2/21/RT_America_Logo.png/644px-RT_America_Logo.png"group-title="ARGENTINA",RT HD   25.5
+#EXTINF:-1 tvg-logo="https://tinyurl.com/jmw6z889"group-title="ARGENTINA",RT HD   25.5
 https://rt-esp.rttv.com:443/live/rtesp/playlist_4500Kb.m3u8
 
 
