@@ -330,7 +330,7 @@ https://live20.bozztv.com/giatv/giatv-ojodigital/ojodigital/playlist.m3u8
 #EXTINF:-1 tvg-logo="https://tinyurl.com/4tkac7dz"group-title="ARGENTINA",UNIFE TV
 https://5dcabf026b188.streamlock.net/StreamUnife/livestream/chunklist_w1022993106.m3u8
 
-#EXTINF:-1 tvg-logo="https://static.wikia.nocookie.net/logopedia/images/8/8c/Televisi%C3%B3n_P%C3%BAblica_Pampeana_%28Logo_2022_-_2%29.png/revision/latest?cb=20230328012949"group-title="ARGENTINA", TELEVISIÓN PÚBLICA 
+#EXTINF:-1 tvg-logo="https://tinyurl.com/yccuefd4"group-title="ARGENTINA", TELEVISIÓN PÚBLICA 
 https://stream.arcast.com.ar/c3lapampa/ngrp:c3lapampa_all/playlist.m3u8
 
 #EXTINF:-1 tvg-logo="https://tinyurl.com/cauy9zzh"group-title="ARGENTINA",BRAVO TV
@@ -352,13 +352,13 @@ https://5cd577a3dd8ec.streamlock.net/CANAL4/smil:CANAL4.smil/chunklist_w19297331
 
 
 
-#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/d/d4/Canal_Siete_Jujuy.png"group-title="ARGENTINA",7JUJUY
+#EXTINF:-1 tvg-logo="https://tinyurl.com/54ybehp4"group-title="ARGENTINA",7JUJUY
 https://stream.arcast.live:443/canal7jujuy/ngrp:canal7jujuy_all/chunklist_w906685609_b1146880.m3u8
 
 
 
 
-#EXTINF:-1 tvg-logo="https://i.ibb.co/20z9H2pX/Photoroom-20250616-001644.png"group-title="ARGENTINA",TDC
+#EXTINF:-1 tvg-logo="https://tinyurl.com/5fz65n24"group-title="ARGENTINA",TDC
 https://tdcserver.com:19360/tdconlione-2/tdconlione-2.m3u8
 
 
