@@ -288,11 +288,6 @@ http://190.108.89.228:8000/play/a05w/index.m3u8
 http://cinemagold.club:80/live/ximuser713v2/rch716vmgt2/81254.m3u8
 
 
-#EXTINF:-1 tvg-logo="https://images.squarespace-cdn.com/content/v1/5d5d8e84f6e1930001a385a2/1567211811238-JA37GLRTW5TYW8J71PK0/ESPN-logo-black-locker-room-agency.png"group-title="ARGENTINA",ESPN
-http://cinemagold.club:80/live/ximuser713v2/rch716vmgt2/81262.m3u8
-
-
-
 #EXTINF:-1 tvg-logo="https://tinyurl.com/3jmf3kej"group-title="ARGENTINA",TNT SPORTS PREMIUM
 http://cinemagold.club:80/live/ximuser713v2/rch716vmgt2/81251.m3u8
 
@@ -302,6 +297,10 @@ http://cinemagold.club:80/live/ximuser713v2/rch716vmgt2/81252.m3u8
 
 #EXTINF:-1 tvg-logo="https://r2.thesportsdb.com/images/media/channel/logo/8wjzn31605555626.png"group-title="ARGENTINA",TyC inter 
 http://cinemagold.club:80/live/ximuser713v2/rch716vmgt2/81538.m3u8
+
+
+#EXTINF:-1 tvg-logo="https://images.squarespace-cdn.com/content/v1/5d5d8e84f6e1930001a385a2/1567211811238-JA37GLRTW5TYW8J71PK0/ESPN-logo-black-locker-room-agency.png"group-title="ARGENTINA",ESPN
+http://cinemagold.club:80/live/ximuser713v2/rch716vmgt2/81262.m3u8
 
 #EXTINF:-1 tvg-logo="https://tinyurl.com/3v2v88jk"group-title="ARGENTINA",BAYRES TV HD
 https://streaming01.mikrolive.tv/bayrestv/live/chunklist_w963757112.m3u8
