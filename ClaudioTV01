@@ -283,6 +283,11 @@ https://stream-gtlc.telecentro.net.ar/hls/canal26hls/0/playlist.m3u8
 #EXTINF:-1 tvg-logo="https://tinyurl.com/yskma4tf"group-title="ARGENTINA",D SPORTS
 http://190.108.89.228:8000/play/a05w/index.m3u8
 
+
+#EXTINF:-1 tvg-logo="https://tinyurl.com/y7pwu9bv"group-title="ARGENTINA",ESPN PREMIUM
+http://cinemagold.club:80/live/ximuser713v2/rch716vmgt2/81254.m3u8
+
+
 #EXTINF:-1 tvg-logo="https://tinyurl.com/3v2v88jk"group-title="ARGENTINA",BAYRES TV HD
 https://streaming01.mikrolive.tv/bayrestv/live/chunklist_w963757112.m3u8
 
