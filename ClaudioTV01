@@ -66,7 +66,8 @@ http://190.102.242.130:25461/familypower/1234/149
 http://190.102.242.130:25461/monitvpo/monitvpo/1
 
 
-
+#EXTINF:-1 tvg-logo="https://www.larivision.com/web/wp-content/uploads/2025/07/cropped-Logo-5.png"group-title="CINE PREMIUM",LARIVISION
+https://cloud2.streaminglivehd.com:1936/8074/8074/chunklist_w1767367436.m3u8
 
 #EXTINF:-1 tvg-logo="https://tinyurl.com/3cjkb7h8"group-title="CINE PREMIUM",+CINE TERROR
 http://190.102.242.130:25461/terrorpower/1234/99
