@@ -279,6 +279,26 @@ https://live20.bozztv.com/akamaissh101/ssh101/montegrandetv/playlist.m3u8
 #EXTINF:-1 tvg-logo="https://tinyurl.com/47mb7xf9"group-title="ARGENTINA",CANAL 26  24.2
 https://stream-gtlc.telecentro.net.ar/hls/canal26hls/0/playlist.m3u8
 
+#EXTINF:-1 tvg-logo=""group-title="ARGENTINA",EL NUEVE
+http://axiontv.fun:8080/live/eCxUasFHDfEF/5RTcF967FT8a/396870.ts
+
+
+#EXTINF:-1 tvg-logo=""group-title="ARGENTINA",EL TRECE
+http://axiontv.fun:8080/live/eCxUasFHDfEF/5RTcF967FT8a/396873.ts
+
+
+
+#EXTINF:-1 tvg-logo=""group-title="ARGENTINA",TELEFE
+http://axiontv.fun:8080/live/eCxUasFHDfEF/5RTcF967FT8a/396876.ts
+
+
+#EXTINF:-1 tvg-logo=""group-title="ARGENTINA",LN+
+http://axiontv.fun:8080/live/eCxUasFHDfEF/5RTcF967FT8a/396893.ts
+
+
+
+#EXTINF:-1 tvg-logo=""group-title="ARGENTINA", CRÓNICA TV
+http://axiontv.fun:8080/live/eCxUasFHDfEF/5RTcF967FT8a/396889.ts
 
 
 #EXTINF:-1 tvg-logo="https://tinyurl.com/yskma4tf"group-title="ARGENTINA",D SPORTS
