@@ -7,44 +7,6 @@
 
 
 
-######(REPRODUCTOR VLC)###################################################
-
-
-#EXTINF:-1 tvg-logo="https://tinyurl.com/3p6wurbc"group-title="VLC",EL NUEVE
-https://youtu.be/63FF72LFxAw
-
-
-
-
-
-
-#EXTINF:-1 tvg-logo="https://tinyurl.com/3p6wurbc"group-title="VLC",LN+
-https://www.youtube.com/watch?v=DVZ2rJQb_0g
-
-
-
-#EXTINF:-1 tvg-logo="https://tinyurl.com/3p6wurbc"group-title="VLC",TN
-https://www.youtube.com/watch?v=cb12KmMMDJA
-
-
-#EXTINF:-1 tvg-logo="https://tinyurl.com/3p6wurbc"group-title="VLC", CANAL 26 4K
-https://www.youtube.com/watch?v=nSFsHB_b0Ck
-
-
-
-#EXTINF:-1 tvg-logo="https://tinyurl.com/3p6wurbc"group-title="VLC",A24
-https://www.youtube.com/watch?v=ArKbAx1K-2U
-
-
-#EXTINF:-1 tvg-logo="https://tinyurl.com/3p6wurbc"group-title="VLC", CRÓNICA TV 
-https://www.youtube.com/watch?v=JC7f3EUDaqw
-
-#EXTINF:-1 tvg-logo="https://tinyurl.com/3p6wurbc"group-title="VLC",TV PUBLICA 
-https://www.youtube.com/watch?v=zpxyq7MTbMU
-
-
-#EXTINF:-1 tvg-logo="https://tinyurl.com/3p6wurbc"group-title="VLC",CANAL 26 HD
-https://www.youtube.com/watch?v=v-ZtN9sHFDo
 
 
 
@@ -401,7 +363,8 @@ https://streamtv12.ddns.net:5443/LiveApp/streams/193945633734205616732920.m3u8
 
 
 #EXTINF:-1 tvg-logo="https://tinyurl.com/3xxchupk"group-title="ARGENTINA",MULTIVISION HD
-https://panel.host-live.com:19360/8250/8250.m3u8
+https://videostream.shockmedia.com.ar:19360/multivisionfederal/multivisionfederal.m3u8
+
 
 
 #EXTINF:-1 tvg-logo="https://tinyurl.com/yvn4ry2x"group-title="ARGENTINA",11 DIGITAL 
