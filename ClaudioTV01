@@ -109,7 +109,7 @@ http://sdmx.vip/live/AngelicaAntonietaTellez/A4Pnrrfhw4FJ/2092595.ts
 
 
 #EXTINF:-1 tvg-logo="https://i.ibb.co/dLWwdLK/3dgifmaker66066.gif"group-title="CINE PREMIUM",COSMOS TV HD
-https://tv.mediacp.eu:19360/cosmos/cosmos.m3u8
+https://canaletaplus.com:3922/live/cosmoslive.m3u8
 
 
 
@@ -400,7 +400,10 @@ https://live20.bozztv.com/giatv/giatv-telemixenvivo/telemixenvivo/chunks.m3u8
 https://live20.bozztv.com/akamaissh101/ssh101/verycoolfgr/chunks.m3u8
 
 #EXTINF:-1 tvg-logo="https://tinyurl.com/2ev34nje"group-title="ARGENTINA",COSMOS TV HD
-https://tv.mediacp.eu:19360/cosmos/cosmos.m3u8
+https://canaletaplus.com:3922/live/cosmoslive.m3u8
+
+
+
 
 
 #EXTINF:-1 tvg-logo="https://tinyurl.com/4tw8635w"group-title="ARGENTINA", CANAL 34 HD
