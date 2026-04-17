@@ -262,18 +262,19 @@ https://live20.bozztv.com/akamaissh101/ssh101/montegrandetv/playlist.m3u8
 
 
 
-#EXTINF:-1 tvg-logo="https://tinyurl.com/yskma4tf"group-title="ARGENTINA",D SPORTS
+#EXTINF:-1 tvg-logo="https://tinyurl.com/yskma4tf"group-title="ARGENTINA",FOX SPORTS
+http://201.217.246.42:44310/Live/b10474c9b1ba4a0986b574d1211c065b/local-91.playlist.m3u8
 
 
-
-#EXTINF:-1 tvg-logo="https://tinyurl.com/y7pwu9bv"group-title="ARGENTINA",ESPN PREMIUM
+#EXTINF:-1 tvg-logo="https://tinyurl.com/y7pwu9bv"group-title="ARGENTINA",
 
 
 
 #EXTINF:-1 tvg-logo="https://tinyurl.com/3jmf3kej"group-title="ARGENTINA",TNT SPORTS PREMIUM
 
 
-#EXTINF:-1 tvg-logo="https://r2.thesportsdb.com/images/media/channel/logo/8wjzn31605555626.png"group-title="ARGENTINA",TyC 
+#EXTINF:-1 tvg-logo="https://r2.thesportsdb.com/images/media/channel/logo/8wjzn31605555626.png"group-title="ARGENTINA",TyC
+https://live-04-11-tyc24.vodgc.net/tyc24/index_tyc24_1080.m3u8
 
 
 
