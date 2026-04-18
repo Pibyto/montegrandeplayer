@@ -1155,7 +1155,8 @@ https://rtp.noxun.net/hls/stream.m3u8
  
 
 
-#EXTINF:-1 tvg-logo="https://sucremantatv.com/wp-content/uploads/2022/10/sucremantatvhd.png"group-title="BOLIVIA",
+#EXTINF:-1 tvg-logo="https://sucremantatv.com/wp-content/uploads/2022/10/sucremantatvhd.png"group-title="BOLIVIA",RED NACIONAL 
+https://streaming.ctvbolivia.com/hlsweb/ctv.m3u8
 
 
 #EXTINF:-1 tvg-logo=""group-title="BOLIVIA",
@@ -1175,15 +1176,11 @@ https://live.enhdtv.com:8081/8190/tracks-v1a1/mono.m3u8
 
 
 
-#EXTINF:-1 tvg-logo="https://i.ibb.co/ZR5fXSd6/Photoroom-20250625-151459.png"group-title="BOLIVIA", PUNTO TV
+#EXTINF:-1 tvg-logo=""group-title="BOLIVIA", PUNTO TV
+https://live20.bozztv.com/akamaissh101/ssh101/tv2024/chunks.m3u8
 
-
-#EXTINF:-1 tvg-logo="https://i.ibb.co/xSQLJchN/Photoroom-20250629-171551.png"group-title="BOLIVIA",INTV
-
-
-
-
-
+#EXTINF:-1 tvg-logo=""group-title="BOLIVIA",GIGAVISION
+https://tv.bitstreaming.net:3348/live/gigavisionlive.m3u8
 
 
 
@@ -1218,8 +1215,8 @@ https://live2.eu-north-1b.cf.dmcdn.net/sec2(thoNufyaQu28FofcrglToiHQiSjlUAg8vYd1
 https://play.agenciastreaming.com:19360/8160/8160.m3u8
 
 
-#EXTINF:-1 tvg-logo="https://image.roku.com/developer_channels/prod/e80007a44529795a52e1e4287b0091ff1c405fe9a17455cfce9c8f280bb4d0cd.png"group-title="BOLIVIA",NEXTV
-https://live20.bozztv.com:443/akamaissh101/ssh101/vnl2025live/chunks.m3u8
+#EXTINF:-1 tvg-logo=""group-title="BOLIVIA",NEXTV
+
 
 
 
