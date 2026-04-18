@@ -28,23 +28,51 @@
 https://live20.bozztv.com/akamaissh101/ssh101/montegrandetv/chunks.m3u8
 
 
-#EXTINF:-1 tvg-logo="https://i.ibb.co/gLXYm0Zm/Screenshot-20251215-064220.png"group-title="CINE PREMIUM",+CINE
-http://190.102.242.130:25461/tpowercine/123456/31
+#EXTINF:-1 tvg-logo="https://i.ibb.co/dLWwdLK/3dgifmaker66066.gif"group-title="CINE PREMIUM",COSMOS TV HD
+https://canaletaplus.com:3922/live/cosmoslive.m3u8
 
+
+#EXTINF:-1 tvg-logo="https://i.ibb.co/gLXYm0Zm/Screenshot-20251215-064220.png"group-title="CINE PREMIUM",+CINE WAR
+http://190.102.242.130:25461/live/cinrwarpower/1234567/190.m3u8
+
+#EXTINF:-1 tvg-logo=""group-title="CINE PREMIUM",CINESONY
+https://a-cdn.klowdtv.com/live1/cine_720p/chunks.m3u8
+
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/e/e6/CinecanalLA.png"group-title="CINE PREMIUM",CINECANAL 
+http://sdmx.vip/live/AngelicaAntonietaTellez/A4Pnrrfhw4FJ/2092595.ts
+
+#EXTINF:-1 tvg-logo=""group-title="CINE PREMIUM",AMC
+http://201.217.246.42:44310/Live/3fcb6e26785fd8d415571b26dc3cf5d3/local-76_720.m3u8
+
+#EXTINF:-1 tvg-logo=""group-title="CINE PREMIUM",BBC SERIES 
+https://amg00793-amg00793c40-rakuten-es-5444.playouts.now.amagi.tv/1080p/index.m3u8
+
+
+#EXTINF:-1 tvg-logo="https://brandemia.org/wp-content/uploads/2013/02/logo_telemundo_principal.jpg"group-title="CINE PREMIUM",TELEMUNDO ACCION
+https://xumo-drct-ch835-ekq0p.fast.nbcuni.com/live/master_5.m3u8
+
+
+#EXTINF:-1 tvg-logo="https://www.runtime.tv/themes/custom/run/runtime/logo.png"group-title="CINE PREMIUM",Rumtime
+https://run-rt-uh-roku.otteravision.com/run/rt_uh/rt_uh_720.m3u8
+
+#EXTINF:-1 tvg-logo=""group-title="CINE PREMIUM",TVM+
+https://streamtv.intervenhosting.net:3529/live/tvmparatilive.m3u8
+
+#EXTINF:-1 tvg-logo="https://mytimemovienetwork.com/wp-content/uploads/elementor/thumbs/logo-white-ovbvbhqmsdprb6sqz8bdil61k1zcy8bv2whim3g1os.png"group-title="CINE PREMIUM",MY TIME
+https://appletree-mytime-samsungmexico.amagi.tv/playlist.m3u8
 
 
 #EXTINF:-1 tvg-logo="https://orbittv.net/images/logotv.png"group-title="CINE PREMIUM",ORBIT TV
 https://cnn.hostlagarto.com/orbittv/tracks-v1a1/index.m3u8
 
 
+#EXTINF:-1 tvg-logo="https://neotv.cl/assets/img/channels/monitv.png"group-title="CINE PREMIUM",MONI TV
+https://live20.bozztv.com:443/akamaissh101/ssh101/monitvhd/chunks.m3u8
+
 #EXTINF:-1 tvg-logo=""group-title="CINE PREMIUM",ETN FAMILY 
 https://cdn.global.elektamedia.com/live/c7eds/ENT_Family/SA_LIVE_hls_enc/tracks-v1a1/mono.ts.m3u8
 
 
-
-
-#EXTINF:-1 tvg-logo=""group-title="CINE PREMIUM",AMC
-http://201.217.246.42:44310/Live/3fcb6e26785fd8d415571b26dc3cf5d3/local-76_720.m3u8
 
 #EXTINF:-1 tvg-logo=""group-title="CINE PREMIUM",AXN
 http://201.217.246.42:44310/Live/3fcb6e26785fd8d415571b26dc3cf5d3/local-77_480.m3u8
@@ -54,14 +82,17 @@ http://201.217.246.42:44310/Live/3fcb6e26785fd8d415571b26dc3cf5d3/local-77_480.m
 #EXTINF:-1 tvg-logo="https://i.ibb.co/DDTQr8c4/LOGO-BOMBI-TV-HORIZONTAL-V2-1-scaled.png"group-title="CINE PREMIUM",BOMBI TV
 https://tv.arkeo.cl:1936/bombitv/bombitv/chunklist_w1423969722.m3u8
 
-
-#EXTINF:-1 tvg-logo=""group-title="CINE PREMIUM",BBC SERIES 
-https://amg00793-amg00793c40-rakuten-es-5444.playouts.now.amagi.tv/1080p/index.m3u8
-
+#EXTINF:-1 tvg-logo=""group-title="CINE PREMIUM",XTREMA ACCION
+https://stmv6.voxtvhd.com.br/cineaccion/cineaccion/playlist.m3u8
 
 
-#EXTINF:-1 tvg-logo="https://i.ibb.co/gLXYm0Zm/Screenshot-20251215-064220.png"group-title="CINE PREMIUM",+CINE WAR
-http://190.102.242.130:25461/live/cinrwarpower/1234567/190.m3u8
+#EXTINF:-1 tvg-logo=""group-title="CINE PREMIUM",XTREMA DIBUJOS ANIMADOS
+https://stmv6.voxtvhd.com.br/xtremacartoons/xtremacartoons/playlist.m3u8
+
+
+
+
+
 
 
 
@@ -70,8 +101,7 @@ http://190.102.242.130:25461/live/cinrwarpower/1234567/190.m3u8
 http://190.102.242.130:25461/familypower/1234/149
 
 
-#EXTINF:-1 tvg-logo="https://neotv.cl/assets/img/channels/monitv.png"group-title="CINE PREMIUM",MONI TV
-https://live20.bozztv.com:443/akamaissh101/ssh101/monitvhd/chunks.m3u8
+
 
 
 
@@ -83,6 +113,8 @@ https://cloud2.streaminglivehd.com:1936/8074/8074/chunklist_w1767367436.m3u8
 http://190.102.242.130:25461/terrorpower/123456/99
 
 
+#EXTINF:-1 tvg-logo="https://i.ibb.co/gLXYm0Zm/Screenshot-20251215-064220.png"group-title="CINE PREMIUM",+CINE
+http://190.102.242.130:25461/tpowercine/123456/31
 
 
 #EXTINF:-1 tvg-logo="https://i.ibb.co/mVVm3Pn2/Screenshot-20251215-063007.png"group-title="CINE PREMIUM",+CINE CLASSIC
@@ -90,27 +122,21 @@ http://190.102.242.130:25461/cineclasiipowe/1234/143
 
 
 
-#EXTINF:-1 tvg-logo="https://www.runtime.tv/themes/custom/run/runtime/logo.png"group-title="CINE PREMIUM",Rumtime
-https://run-rt-uh-roku.otteravision.com/run/rt_uh/rt_uh_720.m3u8
-
-
-#EXTINF:-1 tvg-logo=""group-title="CINE PREMIUM",GLOBAL TV
-https://streamtv.intervenhosting.net:3179/live/globaltvlive.m3u8
-
-
-#EXTINF:-1 tvg-logo="https://i.ibb.co/RTyN6dV4/1771870911133.png"group-title="CINE PREMIUM",WTV
-https://cootv.cootel.com.ni:8095/Canal40_WTV/playlist.m3u8
 
 
 
-#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/e/e6/CinecanalLA.png"group-title="CINE PREMIUM",CINECANAL 
-http://sdmx.vip/live/AngelicaAntonietaTellez/A4Pnrrfhw4FJ/2092595.ts
+#EXTINF:-1 tvg-logo=""group-title="CINE PREMIUM",
+
+
+
+#EXTINF:-1 tvg-logo=""group-title="CINE PREMIUM"
 
 
 
 
-#EXTINF:-1 tvg-logo="https://i.ibb.co/dLWwdLK/3dgifmaker66066.gif"group-title="CINE PREMIUM",COSMOS TV HD
-https://canaletaplus.com:3922/live/cosmoslive.m3u8
+
+
+
 
 
 
@@ -124,50 +150,33 @@ https://vcp10.myplaytv.com/tvs/tvs/chunklist_w989702023.m3u8
 
 
 #EXTINF:-1 tvg-logo=""group-title="CINE PREMIUM",TELEMAX
-https://vdo2.streamgato.us:3673/live/telemaxlive.m3u8
-
-
-#EXTINF:-1 tvg-logo=""group-title="CINE PREMIUM",TVM+
-https://streamtv.intervenhosting.net:3529/live/tvmparatilive.m3u8
 
 
 
 
-#EXTINF:-1 tvg-logo="https://brandemia.org/wp-content/uploads/2013/02/logo_telemundo_principal.jpg"group-title="CINE PREMIUM",TELEMUNDO ACCION
-https://xumo-drct-ch835-ekq0p.fast.nbcuni.com/live/master_5.m3u8
 
 
 
-#EXTINF:-1 tvg-logo=""group-title="CINE PREMIUM",CINESONY
-https://a-cdn.klowdtv.com/live1/cine_720p/chunks.m3u8
 
 
 
-#EXTINF:-1 tvg-logo=""group-title="CINE PREMIUM",XTREMA ACCION
-https://stmv6.voxtvhd.com.br/cineaccion/cineaccion/playlist.m3u8
-
-
-#EXTINF:-1 tvg-logo=""group-title="CINE PREMIUM",XTREMA DIBUJOS ANIMADOS
-https://stmv6.voxtvhd.com.br/xtremacartoons/xtremacartoons/playlist.m3u8
-
-
-#EXTINF:-1 tvg-logo="https://i.ibb.co/QKzjwmk/Untitled-removebg-preview.png"group-title="CINE PREMIUM",PLAY TV MONTE GRANDE
-https://live20.bozztv.com/giatvplayout7/giatv-208817/tracks-v1a1/mono.ts.m3u8
 
 
 
-#EXTINF:-1 tvg-logo="https://i.ibb.co/GvQ2p3t/2q-Jl-Tsa3-KTA70-Th-K4-UAz-H66-J0-MF-2q-Jl-Tp-WH0-K294c6-VTx-Tftt1-GXDk-2q-Jl-URfo-XMh-Jz-NZy799-Hr.png"group-title="CINE PREMIUM",RESTELLI TV CANAL 5 MG
-https://live20.bozztv.com:443/giatvplayout7/giatv-208770/tracks-v1a1/mono.ts.m3u8
 
 
 
-#EXTINF:-1 tvg-logo="https://mytimemovienetwork.com/wp-content/uploads/elementor/thumbs/logo-white-ovbvbhqmsdprb6sqz8bdil61k1zcy8bv2whim3g1os.png"group-title="CINE PREMIUM",MY TIME
-https://appletree-mytime-samsungmexico.amagi.tv/playlist.m3u8
 
 
 
-#EXTINF:-1 tvg-logo="https://i.ibb.co/xmPdFc6/2q-Ed-Tbpni-Pos-Vcic3q-RYf9v-Ck-UJ-2q-Ed-Xur-VXia-Uw2cu-EJs-FUQGC0e-G-2q-Ed-YZNNlw-Yh7-S5ls-Mya2v-Zs.png"group-title="CINE PREMIUM",9 DE ABRIL TV MONTE GRANDE
-https://live20.bozztv.com:443/giatvplayout7/giatv-208730/tracks-v1a1/mono.ts.m3u8
+
+
+
+
+
+
+
+
 
 
 
