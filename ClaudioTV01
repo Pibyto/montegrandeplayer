@@ -1146,7 +1146,10 @@ https://tvstream.upea.bo/hls/oSs0jSWumTFIIVY97559.m3u8
 https://alba-bo-bolivision-bolivision.stream.mediatiquestream.com/original.m3u8 
 
 
-#EXTINF:-1 tvg-logo="https://i.ibb.co/1YbQnGdd/Screenshot-20250622-235903-XPlayer-Video-Player.jpg"group-title="BOLIVIA",MIX TV
+#EXTINF:-1 tvg-logo="https://i.ibb.co/1YbQnGdd/Screenshot-20250622-235903-XPlayer-Video-Player.jpg"group-title="BOLIVIA"SEO TV
+https://seo.tv.bo/hls/SEOTVHD.m3u8
+
+
 https://live20.bozztv.com:443/akamaissh101/ssh101/mixboliviatvhd/chunks.m3u8
 
 
@@ -1156,8 +1159,19 @@ https://rtp.noxun.net/hls/stream.m3u8
  
 
 
-#EXTINF:-1 tvg-logo="https://sucremantatv.com/wp-content/uploads/2022/10/sucremantatvhd.png"group-title="BOLIVIA",SUCREMANTA TV
-https://micanal.ovh/livestreams/165.J7EMP5DQSY6H.m3u8
+#EXTINF:-1 tvg-logo="https://sucremantatv.com/wp-content/uploads/2022/10/sucremantatvhd.png"group-title="BOLIVIA",SEO TV KIDS
+https://seo.tv.bo/hls/SEOTVKIDS.m3u8
+
+
+#EXTINF:-1 tvg-logo=""group-title="BOLIVIA",SEO TV PELÍCULAS 
+https://seo.tv.bo/hls/SEO-TV4.m3u8
+
+
+#EXTINF:-1 tvg-logo=""group-title="BOLIVIA",SEO TV DEPORTES
+https://seo.tv.bo/hls/SEOTVDEPORTES.m3u8
+
+#EXTINF:-1 tvg-logo=""group-title="BOLIVIA",ABYA YALA TV
+https://seo.tv.bo/hls/AbyaYala.m3u8
 
 
 #EXTINF:-1 tvg-logo="https://static.wikia.nocookie.net/logopedia/images/d/d9/TV6_logo_2010.svg/revision/latest/scale-to-width-down/200?cb=20100528185020"group-title="BOLIVIA",TELE6
