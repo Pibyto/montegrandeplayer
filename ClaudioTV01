@@ -120,6 +120,13 @@ https://amg00793-amg00793c40-rakuten-es-5444.playouts.now.amagi.tv/1080p/index.m
 #EXTINF:-1 tvg-logo=""group-title="CINE PREMIUM",WOW MOVIES
 https://live20.bozztv.com/giatv/giatv-wowmovies/wowmovies/chunks.m3u8
 
+#EXTINF:-1 tvg-logo="https://neotv.cl/assets/img/channels/monitv.png"group-title="CINE PREMIUM",MONI TV
+http://190.102.242.130:25461/monitvpo/monitvpow/1
+
+
+
+#EXTINF:-1 tvg-logo=""group-title="CINE PREMIUM",ETN FAMILY 
+https://cdn.global.elektamedia.com/live/c7eds/ENT_Family/SA_LIVE_hls_enc/tracks-v1a1/mono.ts.m3u8
 
 
 #EXTINF:-1 tvg-logo=""group-title="CINE PREMIUM",SONY ACTION
@@ -150,20 +157,19 @@ https://d1wuti7vf6eqt9.cloudfront.net/playlist_7.m3u8
 #EXTINF:-1 tvg-logo=""group-title="CINE PREMIUM",TVM+
 https://streamtv.intervenhosting.net:3529/live/tvmparatilive.m3u8
 
-
+#EXTINF:-1 tvg-logo=""group-title="CINE PREMIUM",BARBETV
+https://cdn.streamhispanatv.net:3549/live/barbetvlive.m3u8
 
 
 #EXTINF:-1 tvg-logo="https://orbittv.net/images/logotv.png"group-title="CINE PREMIUM",ORBIT TV
 https://cnn.hostlagarto.com/orbittv/tracks-v1a1/index.m3u8
 
+#EXTINF:-1 tvg-logo=""group-title="CINE PREMIUM",MAXIVISION
+https://video03.logicahost.com.br/maxivisiontv/maxivisiontv/chunklist_w1433315337.m3u8
 
-#EXTINF:-1 tvg-logo="https://neotv.cl/assets/img/channels/monitv.png"group-title="CINE PREMIUM",MONI TV
-http://190.102.242.130:25461/monitvpo/monitvpow/1
+#EXTINF:-1 tvg-logo=""group-title="CINE PREMIUM",CANAL 13
+https://tv91.hostingnuclear.com:19360/intercable/intercable.m3u8
 
-
-
-#EXTINF:-1 tvg-logo=""group-title="CINE PREMIUM",ETN FAMILY 
-https://cdn.global.elektamedia.com/live/c7eds/ENT_Family/SA_LIVE_hls_enc/tracks-v1a1/mono.ts.m3u8
 
 
 
@@ -203,15 +209,18 @@ https://cloud2.streaminglivehd.com:1936/8074/8074/chunklist_w1767367436.m3u8
 
 
 
+
+
+
+
+
+
+
+
 #EXTINF:-1 tvg-logo=""group-title="CINE PREMIUM",
 
 
-
 #EXTINF:-1 tvg-logo=""group-title="CINE PREMIUM",
-
-
-
-
 
 
 
