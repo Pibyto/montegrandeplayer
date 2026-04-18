@@ -193,7 +193,10 @@ https://stmv6.voxtvhd.com.br/xtremacartoons/xtremacartoons/playlist.m3u8
 
 
 #EXTINF:-1 tvg-logo="https://www.larivision.com/web/wp-content/uploads/2025/07/cropped-Logo-5.png"group-title="CINE PREMIUM",LARIVISION
-https://cloud2.streaminglivehd.com:1936/8074/8074/chunklist_w1767367436.m3u8
+https://live.larimartv.net/livelan/stream.m3u8
+
+
+
 
 
 
@@ -2098,9 +2101,12 @@ https://live20.bozztv.com:443/akamaissh101/ssh101/codificador7/chunks.m3u8
 
 
 
-#EXTINF:-1 tvg-logo="https://telemaxrd.com.do/wp-content/uploads/2021/12/04.png"group-title="R.DOMINICANA",TELEMAX RD HD
-https://vdo2.streamgato.us:3673/live/telemaxlive.m3u8
+#EXTINF:-1 tvg-logo="https://telemaxrd.com.do/wp-content/uploads/2021/12/04.png"group-title="R.DOMINICANA",BELLAVISION RD HD
+https://fox.hostlagarto.com:8081/bellavision8hd/tracks-v1a1/mono.m3u8
 
+
+#EXTINF:-1 tvg-logo=""group-title="R.DOMINICANA",CANAL DEL SOL
+https://stream.canaldelsol.com/sol26/live_1080.m3u8
 
 #EXTINF:-1 tvg-logo=""group-title="R.DOMINICANA",CASCARA TV
 https://ss2.tvrdomi.com:1936/cascaratv/cascaratv/chunklist_w961062293.m3u8?MonteGrandePlay
