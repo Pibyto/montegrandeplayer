@@ -318,6 +318,9 @@ https://redirector.rudo.video/hls-video/c54ac2799874375c81c1672abb700870537c5223
 #EXTINF:-1 tvg-logo="https://tinyurl.com/6nruejr3"group-title="ARGENTINA", NET TV HD  27.2
 https://unlimited1-us.dps.live/nettv/nettv.smil/playlist.m3u8
 
+#EXTINF:-1 tvg-logo="https://tinyurl.com/4tkac7dz"group-title="ARGENTINA",UNIFE TV
+https://cdn.mycloudstream.io/hls/live/broadcast/pgv5kerk/mono.m3u8
+
 
 #EXTINF:-1 tvg-logo="https://tinyurl.com/4zexfb74"group-title="ARGENTINA",TELEVIDA
 https://unlimited1-saopaulo.dps.live/televidaar/televidaar.smil/televidaar/livestream1/chunks.m3u8
@@ -332,24 +335,28 @@ https://live20.bozztv.com/akamaissh101/ssh101/verycoolfgr/chunks.m3u8
 
 
 
-#EXTINF:-1 tvg-logo=""group-title="ARGENTINA",
+#EXTINF:-1 tvg-logo=""group-title="ARGENTINA",5 EL PUEBLO 
+https://stmv4.voxtvhd.com.br/canal5pueblo/canal5pueblo/playlist.m3u8
 
 
-#EXTINF:-1 tvg-logo=""group-title="ARGENTINA",
-
-
-
-#EXTINF:-1 tvg-logo=""group-title="ARGENTINA",
-
+#EXTINF:-1 tvg-logo=""group-title="ARGENTINA",ENT CHAN EL
+https://cdn.global.elektamedia.com/live/c7eds/ENT_Channel/SA_LIVE_hls_enc/tracks-v1a1/mono.ts.m3u8
 
 
 
-#EXTINF:-1 tvg-logo=""group-title="ARGENTINA",
+#EXTINF:-1 tvg-logo=""group-title="ARGENTINA",CINE PREMIER 
+https://jmp2.uk/plu-5cf968040ab7d8f181e6a68b.m3u8
 
 
 
-#EXTINF:-1 tvg-logo=""group-title="ARGENTINA",
 
+#EXTINF:-1 tvg-logo=""group-title="ARGENTINA", A3CINE
+http://181.114.57.246:4000/play/KgkA9tT2SpLYm86J/index.m3u8
+
+
+
+#EXTINF:-1 tvg-logo=""group-title="ARGENTINA",STAR TVE
+https://rtvelivestream-rtveplayplus.rtve.es/rtvesec/int/star_main_1080.m3u8
 
 
 
@@ -398,8 +405,8 @@ https://panel.host-live.com:19360/8076/8076.m3u8
 
 
 
-#EXTINF:-1 tvg-logo="https://tinyurl.com/4tkac7dz"group-title="ARGENTINA",UNIFE TV
-https://5dcabf026b188.streamlock.net/StreamUnife/livestream/chunklist_w1022993106.m3u8
+
+
 
 #EXTINF:-1 tvg-logo="https://tinyurl.com/yccuefd4"group-title="ARGENTINA", TELEVISIÓN PÚBLICA 
 https://stream.arcast.com.ar/c3lapampa/ngrp:c3lapampa_all/playlist.m3u8
