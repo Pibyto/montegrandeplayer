@@ -682,7 +682,10 @@ https://v4.tustreaming.cl/graciatv/index.m3u8?MonteGrandePlay
 
 
 #EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/d/d4/Mega_Chile_2020.png"group-title="CHILE",MEGA HD
-http://nxt.plus:8080/live/bernardocas/bernardo2023/192623.ts
+https://unlimited1-cl-isp.dps.live/mega/mega.smil/playlist.m3u8
+
+
+
 
 
 #EXTINF:-1 tvg-logo="https://puranoticia.pnt.cl/cms/imag/v1/logos/xlogo_main_white.png.pagespeed.ic.raDmLS9R3H.png"group-title="CHILE",PURA NOTICIA TV
