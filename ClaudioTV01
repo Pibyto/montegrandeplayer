@@ -1118,15 +1118,21 @@ https://copaco.desdeparaguay.net:443/venusmedia/venusmedia/chunklist_w2091978855
 
 
 
+#EXTINF:-1 tvg-logo="https://cd1.eju.tv/wp-content/uploads/2021/07/img_60dde7e8d5c6c.png"group-title="BOLIVIA",F10
+https://tv2.bitstreaming.net:3235/multi_live/play_src.m3u8
+
+
+#EXTINF:-1 tvg-logo="https://cdn.storage.foromedios.com/gallery/category_6/large.gallery_9461_6_9491.png.f3a8db436eb7144d85fbd8f8bee26767.png"group-title="BOLIVIA"FAP TV
+https://eu1.servers10.com:8081/ceacom/tracks-v1a1/mono.m3u8
 
 
 
-#EXTINF:-1 tvg-logo="https://cdn.storage.foromedios.com/gallery/category_6/large.gallery_9461_6_9491.png.f3a8db436eb7144d85fbd8f8bee26767.png"group-title="BOLIVIA",UNITEL HD
-http://tvpremiund.ddns.me:2082/Diegoarias/Octu7102023/15596
+
+#EXTINF:-1 tvg-logo="https://img.favpng.com/9/13/17/logo-entel-tv-hd-lyngsat-bolivia-png-favpng-CQte5BV55AJj8a1s9cJsEb81Q.jpg"group-title="BOLIVIA"FTV
+https://master.tucableip.com/ftvhd/tracks-v1a1/mono.ts.m3u8
 
 
-#EXTINF:-1 tvg-logo="https://img.favpng.com/9/13/17/logo-entel-tv-hd-lyngsat-bolivia-png-favpng-CQte5BV55AJj8a1s9cJsEb81Q.jpg"group-title="BOLIVIA",ENTEL TV
-http://tvpremiund.ddns.me:2082/Diegoarias/Octu7102023/81522
+
 
 
 #EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/9/92/Uno_logo.svg/1200px-Uno_logo.svg.png"group-title="BOLIVIA",RED UNO
@@ -1143,7 +1149,8 @@ https://live20.bozztv.com:443/akamaissh101/ssh101/mixboliviatvhd/chunks.m3u8
 
 
 #EXTINF:-1tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/1/14/Rtpbolivia2021.png/250px-Rtpbolivia2021.png"group-title="BOLIVIA",RTP
- https://rtp.noxun.net/hls/stream.m3u8 
+https://rtp.noxun.net/hls/stream.m3u8
+ 
 
 
 #EXTINF:-1 tvg-logo="https://sucremantatv.com/wp-content/uploads/2022/10/sucremantatvhd.png"group-title="BOLIVIA",SUCREMANTA TV
@@ -1155,7 +1162,7 @@ https://envivo.bolivia-link.com:3337/live/tele6live.m3u8
 
 
 #EXTINF:-1 tvg-logo="https://www.uajms.edu.bo/canal9tvu/wp-content/uploads/sites/70/2021/11/LOGOTVU.png"group-title="BOLIVIA",TVU
-https://s1.tvdatta.com:3557/live/tvulive.m3u8
+https://live.enhdtv.com:8081/8190/tracks-v1a1/mono.m3u8
 
 
 
@@ -1188,8 +1195,10 @@ https://video01.kshost.com.br:4443/juan6318/juan6318/chunklist_w1803867423.m3u8
 
 
 
-#EXTINF:-1 tvg-logo="https://cd1.eju.tv/wp-content/uploads/2021/07/img_60dde7e8d5c6c.png"group-title="BOLIVIA",F10
-https://tv2.bitstreaming.net:3235/multi_live/play_720.m3u8
+
+
+
+
 
 
 #EXTINF:-1 tvg-logo="https://canal29tva.com.bo/wp-content/uploads/2023/10/cropped-LOGO-TVA-2018-A2.png"group-title="BOLIVIA",TVA
