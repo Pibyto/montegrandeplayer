@@ -31,6 +31,19 @@ https://live20.bozztv.com/akamaissh101/ssh101/montegrandetv/chunks.m3u8
 #EXTINF:-1 tvg-logo="https://i.ibb.co/dLWwdLK/3dgifmaker66066.gif"group-title="CINE PREMIUM",COSMOS TV HD
 https://canaletaplus.com:3922/live/cosmoslive.m3u8
 
+#EXTINF:-1 tvg-logo="https://tinyurl.com/2wc4khr4"group-title="CINE PREMIUM",+CINE FAMILY
+http://190.102.242.130:25461/familypower/1234/149
+
+#EXTINF:-1 tvg-logo="https://tinyurl.com/3cjkb7h8"group-title="CINE PREMIUM",+CINE TERROR
+http://190.102.242.130:25461/terrorpower/123456/99
+
+
+#EXTINF:-1 tvg-logo="https://i.ibb.co/gLXYm0Zm/Screenshot-20251215-064220.png"group-title="CINE PREMIUM",+CINE
+http://190.102.242.130:25461/tpowercine/123456/31
+
+
+#EXTINF:-1 tvg-logo="https://i.ibb.co/mVVm3Pn2/Screenshot-20251215-063007.png"group-title="CINE PREMIUM",+CINE CLASSIC
+http://190.102.242.130:25461/cineclasiipowe/1234/143
 
 #EXTINF:-1 tvg-logo=""group-title="CINE PREMIUM",MEGAHITS HD
 https://video20.klm99.com:3395/live/meganethitslive.m3u8
@@ -89,8 +102,7 @@ https://d1wuti7vf6eqt9.cloudfront.net/playlist_7.m3u8
 #EXTINF:-1 tvg-logo=""group-title="CINE PREMIUM",TVM+
 https://streamtv.intervenhosting.net:3529/live/tvmparatilive.m3u8
 
-#EXTINF:-1 tvg-logo="https://mytimemovienetwork.com/wp-content/uploads/elementor/thumbs/logo-white-ovbvbhqmsdprb6sqz8bdil61k1zcy8bv2whim3g1os.png"group-title="CINE PREMIUM",MY TIME
-https://appletree-mytime-samsungmexico.amagi.tv/playlist.m3u8
+
 
 
 #EXTINF:-1 tvg-logo="https://orbittv.net/images/logotv.png"group-title="CINE PREMIUM",ORBIT TV
@@ -121,23 +133,13 @@ https://stmv6.voxtvhd.com.br/cineaccion/cineaccion/playlist.m3u8
 https://stmv6.voxtvhd.com.br/xtremacartoons/xtremacartoons/playlist.m3u8
 
 
-#EXTINF:-1 tvg-logo="https://tinyurl.com/2wc4khr4"group-title="CINE PREMIUM",+CINE FAMILY
-http://190.102.242.130:25461/familypower/1234/149
+
 
 
 #EXTINF:-1 tvg-logo="https://www.larivision.com/web/wp-content/uploads/2025/07/cropped-Logo-5.png"group-title="CINE PREMIUM",LARIVISION
 https://cloud2.streaminglivehd.com:1936/8074/8074/chunklist_w1767367436.m3u8
 
-#EXTINF:-1 tvg-logo="https://tinyurl.com/3cjkb7h8"group-title="CINE PREMIUM",+CINE TERROR
-http://190.102.242.130:25461/terrorpower/123456/99
 
-
-#EXTINF:-1 tvg-logo="https://i.ibb.co/gLXYm0Zm/Screenshot-20251215-064220.png"group-title="CINE PREMIUM",+CINE
-http://190.102.242.130:25461/tpowercine/123456/31
-
-
-#EXTINF:-1 tvg-logo="https://i.ibb.co/mVVm3Pn2/Screenshot-20251215-063007.png"group-title="CINE PREMIUM",+CINE CLASSIC
-http://190.102.242.130:25461/cineclasiipowe/1234/143
 
 
 
