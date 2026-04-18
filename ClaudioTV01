@@ -1116,7 +1116,8 @@ https://copaco.desdeparaguay.net:443/venusmedia/venusmedia/chunklist_w2091978855
 
 
 
-
+#EXTINF:-1 tvg-logo="https://i0.wp.com/univalletelevision.com/wp-content/uploads/2022/05/LOGO_UNIVALLE_TV_sinfondo-1-e1654152218733.png?fit=200%2C200&ssl=1"group-title="BOLIVIA",UNIVALLE
+https://master.tucableip.com/univalletv/tracks-v1a1/mono.ts.m3u8
 
 #EXTINF:-1 tvg-logo="https://cd1.eju.tv/wp-content/uploads/2021/07/img_60dde7e8d5c6c.png"group-title="BOLIVIA",F10
 https://tv2.bitstreaming.net:3235/multi_live/play_src.m3u8
@@ -1135,8 +1136,10 @@ https://master.tucableip.com/ftvhd/tracks-v1a1/mono.ts.m3u8
 
 
 
-#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/9/92/Uno_logo.svg/1200px-Uno_logo.svg.png"group-title="BOLIVIA",RED UNO
-http://tvpremiund.ddns.me:2082/Diegoarias/Octu7102023/76492
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/9/92/Uno_logo.svg/1200px-Uno_logo.svg.png"group-title="BOLIVIA",UPEATV
+https://tvstream.upea.bo/hls/oSs0jSWumTFIIVY97559.m3u8
+
+
 
 
 #EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/b/b2/Bolivision.png"group-title="BOLIVIA",BOLIVISION 
@@ -1173,8 +1176,10 @@ https://cloud5.streaminglivehd.com:3819/hybrid/play.m3u8
 https://envivo.bolivia-link.com:3580/live/intvlive.m3u8
 
 
-#EXTINF:-1 tvg-logo="https://i0.wp.com/univalletelevision.com/wp-content/uploads/2022/05/LOGO_UNIVALLE_TV_sinfondo-1-e1654152218733.png?fit=200%2C200&ssl=1"group-title="BOLIVIA",UNIVALLE 
-https://master.tucableip.com/univalletv/tracks-v1a1/mono.ts.m3u8
+
+
+
+
 
 
 #EXTINF:-1 tvg-logo="https://i.ibb.co/0VY7Nz7L/Photoroom-20250629-171623.png"group-title="BOLIVIA",CCTV
