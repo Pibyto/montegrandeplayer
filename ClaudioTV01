@@ -32,6 +32,14 @@ https://live20.bozztv.com/akamaissh101/ssh101/montegrandetv/chunks.m3u8
 https://canaletaplus.com:3922/live/cosmoslive.m3u8
 
 
+#EXTINF:-1 tvg-logo=""group-title="CINE PREMIUM",MEGAHITS HD
+https://video20.klm99.com:3395/live/meganethitslive.m3u8
+
+
+#EXTINF:-1 tvg-logo=""group-title="CINE PREMIUM", CHINOLATV 
+https://tv.wracanal10.com:3300/live/chinolatvlive.m3u8
+
+
 #EXTINF:-1 tvg-logo="https://i.ibb.co/gLXYm0Zm/Screenshot-20251215-064220.png"group-title="CINE PREMIUM",+CINE WAR
 http://190.102.242.130:25461/live/cinrwarpower/1234567/190.m3u8
 
@@ -47,13 +55,36 @@ http://201.217.246.42:44310/Live/3fcb6e26785fd8d415571b26dc3cf5d3/local-76_720.m
 #EXTINF:-1 tvg-logo=""group-title="CINE PREMIUM",BBC SERIES 
 https://amg00793-amg00793c40-rakuten-es-5444.playouts.now.amagi.tv/1080p/index.m3u8
 
+#EXTINF:-1 tvg-logo=""group-title="CINE PREMIUM",WOW MOVIES
+https://live20.bozztv.com/giatv/giatv-wowmovies/wowmovies/chunks.m3u8
+
+
+
+#EXTINF:-1 tvg-logo=""group-title="CINE PREMIUM",SONY ACTION
+https://de9yx47crxs6l.cloudfront.net/playlist.m3u8
+
 
 #EXTINF:-1 tvg-logo="https://brandemia.org/wp-content/uploads/2013/02/logo_telemundo_principal.jpg"group-title="CINE PREMIUM",TELEMUNDO ACCION
 https://xumo-drct-ch835-ekq0p.fast.nbcuni.com/live/master_5.m3u8
 
+#EXTINF:-1 tvg-logo=""group-title="CINE PREMIUM",SONY COMEDIA
+https://d3m8rnla2v9m5d.cloudfront.net/playlist.m3u8
+
+
+
+#EXTINF:-1 tvg-logo=""group-title="CINE PREMIUM",FREE TV ACCIÓN 
+https://amg01024-olympusat-topcinelatam-ono-ad-99.amagi.tv/ts-us-w2-n1/playlist/amg01024-olympusat-topcinelatam-ono/cb543d167d6c678c84c83a65cef047a9f93b3dda0f74907570ae4a9677df1f4b91bbf397be43ee3d0a821c8f320e70505c31ca04d72e53c7c373f954667511229ccde62f8ffb823888fc3791ed684b34638f6c07e9541175dce70e018b3cc7016f71db281e98b610df7390150d80c4529b0e74deef84326857726776c5c5d0827fd0aea3011a9b7cc2f1491fc4650fbedc1bdbf224086b356abc72f45ccd66d8c7aed49000f3dfd336ea4d845e6d097a2ccbd22dfba32cd9b14faf208b50883f55c3111e60d1639ccc396251fdedc2bc64b032dc8e208f743eb501d76d91358464b93686e85ca5be81ac282c36afcc4f7537efb1eedba97b63cf0681c2e3bf212b7997b8afac660b48621c414d0137e9ed680d9326084252/27/1920x1080_6046040/index.m3u8
+
 
 #EXTINF:-1 tvg-logo="https://www.runtime.tv/themes/custom/run/runtime/logo.png"group-title="CINE PREMIUM",Rumtime
 https://run-rt-uh-roku.otteravision.com/run/rt_uh/rt_uh_720.m3u8
+
+#EXTINF:-1 tvg-logo=""group-title="CINE PREMIUM",TELEBRUNCA
+https://59ef525c24caa.streamlock.net/telebrunca/telebrunca/chunklist_w413125513.m3u8
+
+
+#EXTINF:-1 tvg-logo=""group-title="CINE PREMIUM",SONY THILLER
+https://d1wuti7vf6eqt9.cloudfront.net/playlist_7.m3u8
 
 #EXTINF:-1 tvg-logo=""group-title="CINE PREMIUM",TVM+
 https://streamtv.intervenhosting.net:3529/live/tvmparatilive.m3u8
@@ -90,20 +121,8 @@ https://stmv6.voxtvhd.com.br/cineaccion/cineaccion/playlist.m3u8
 https://stmv6.voxtvhd.com.br/xtremacartoons/xtremacartoons/playlist.m3u8
 
 
-
-
-
-
-
-
-
 #EXTINF:-1 tvg-logo="https://tinyurl.com/2wc4khr4"group-title="CINE PREMIUM",+CINE FAMILY
 http://190.102.242.130:25461/familypower/1234/149
-
-
-
-
-
 
 
 #EXTINF:-1 tvg-logo="https://www.larivision.com/web/wp-content/uploads/2025/07/cropped-Logo-5.png"group-title="CINE PREMIUM",LARIVISION
@@ -129,8 +148,14 @@ http://190.102.242.130:25461/cineclasiipowe/1234/143
 
 
 
-#EXTINF:-1 tvg-logo=""group-title="CINE PREMIUM"
+#EXTINF:-1 tvg-logo=""group-title="CINE PREMIUM",
 
+
+#EXTINF:-1 tvg-logo=""group-title="CINE PREMIUM",
+
+
+
+#EXTINF:-1 tvg-logo=""group-title="CINE PREMIUM",
 
 
 
