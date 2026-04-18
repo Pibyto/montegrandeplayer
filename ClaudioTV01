@@ -273,54 +273,6 @@ https://vcp10.myplaytv.com/tvs/tvs/chunklist_w989702023.m3u8
 #EXTINF:-1 tvg-logo="https://tinyurl.com/3p6wurbc"group-title="ARGENTINA", MONTEGRANDETV 
 https://live20.bozztv.com/akamaissh101/ssh101/montegrandetv/playlist.m3u8
 
-
-#EXTINF:-1 tvg-logo="https://tinyurl.com/47mb7xf9"group-title="ARGENTINA",CANAL 26  24.2
-
-
-#EXTINF:-1 tvg-logo=""group-title="ARGENTINA",EL NUEVE
-
-
-
-#EXTINF:-1 tvg-logo=""group-title="ARGENTINA",EL TRECE
-
-
-
-
-#EXTINF:-1 tvg-logo=""group-title="ARGENTINA",TELEFE
-
-
-
-#EXTINF:-1 tvg-logo=""group-title="ARGENTINA",LN+
-
-
-
-
-#EXTINF:-1 tvg-logo=""group-title="ARGENTINA", CRÓNICA TV
-
-
-
-#EXTINF:-1 tvg-logo="https://tinyurl.com/yskma4tf"group-title="ARGENTINA",FOX SPORTS
-http://201.217.246.42:44310/Live/b10474c9b1ba4a0986b574d1211c065b/local-91.playlist.m3u8
-
-
-#EXTINF:-1 tvg-logo="https://tinyurl.com/y7pwu9bv"group-title="ARGENTINA",
-
-
-
-#EXTINF:-1 tvg-logo="https://tinyurl.com/3jmf3kej"group-title="ARGENTINA",TNT SPORTS PREMIUM
-
-
-#EXTINF:-1 tvg-logo="https://r2.thesportsdb.com/images/media/channel/logo/8wjzn31605555626.png"group-title="ARGENTINA",TyC
-https://live-04-11-tyc24.vodgc.net/tyc24/index_tyc24_1080.m3u8
-
-
-
-
-
-
-#EXTINF:-1 tvg-logo="https://images.squarespace-cdn.com/content/v1/5d5d8e84f6e1930001a385a2/1567211811238-JA37GLRTW5TYW8J71PK0/ESPN-logo-black-locker-room-agency.png"group-title="ARGENTINA",ESPN
-
-
 #EXTINF:-1 tvg-logo="https://tinyurl.com/3v2v88jk"group-title="ARGENTINA",BAYRES TV HD
 https://streaming01.mikrolive.tv/bayrestv/live/chunklist_w963757112.m3u8
 
@@ -328,8 +280,108 @@ https://streaming01.mikrolive.tv/bayrestv/live/chunklist_w963757112.m3u8
 #EXTINF:-1 tvg-logo="https://tinyurl.com/mw22ukre"group-title="ARGENTINA",GENTV
 https://srv3.zcast.com.br/gentv/gentv/playlist.m3u8
 
+#EXTINF:-1 tvg-logo="https://tinyurl.com/3vzrwff3"group-title="ARGENTINA",CINCO TV HD  TIGRE
+https://videostream.shockmedia.com.ar:19360/cincotv/cincotv.m3u8
 
-#EXTINF:-1 tvg-logo="https://tinyurl.com/j8f35j6m"group-title="ARGENTINA", LA PODEROSA TV
+#EXTINF:-1 tvg-logo="https://tinyurl.com/y4bbwcyh"group-title="ARGENTINA",CANAL 3 PINAMAR 
+https://intelincloud01.com.ar/hls/cn3/index.m3u8
+
+#EXTINF:-1 tvg-logo="https://tinyurl.com/bdesbdzn"group-title="ARGENTINA",NEO TV DIGITAL HD. 16.1 
+https://videostream.shockmedia.com.ar:19360/neotvdigital/neotvdigital.m3u8
+
+
+#EXTINF:-1 tvg-logo="https://tinyurl.com/mub2ewfd"group-title="ARGENTINA",TELECREATIVA HD
+https://panel.host-live.com:19360/8012/8012.m3u8
+
+#EXTINF:-1 tvg-logo="https://tinyurl.com/2ev34nje"group-title="ARGENTINA",COSMOS TV HD
+https://canaletaplus.com:3922/live/cosmoslive.m3u8
+
+#EXTINF:-1 tvg-logo="https://tinyurl.com/mvyyr7y6"group-title="ARGENTINA",TELEMIX HD
+https://live20.bozztv.com/giatv/giatv-telemixenvivo/telemixenvivo/chunks.m3u8
+
+#EXTINF:-1 tvg-logo="https://tinyurl.com/y5cz72tm"group-title="ARGENTINA",EL MAGO TV
+https://live20.bozztv.com/akamaissh101/ssh101/elmagotv2/chunks.m3u8
+
+#EXTINF:-1 tvg-logo="https://tinyurl.com/yvn4ry2x"group-title="ARGENTINA",11 DIGITAL 
+https://live20.bozztv.com/giatv/giatv-ojodigital/ojodigital/playlist.m3u8
+
+#EXTINF:-1 tvg-logo="https://tinyurl.com/3bhvy78h"group-title="ARGENTINA",METRO TV HD  18.1 TUCUMÁN
+https://streamtv12.ddns.net:5443/LiveApp/streams/193945633734205616732920.m3u8
+
+#EXTINF:-1 tvg-logo="https://tinyurl.com/4tw8635w"group-title="ARGENTINA", CANAL 34 HD
+https://streamyes.alsolnet.com:443/canal34hd/live/chunklist_w1539060189.m3u8
+
+
+#EXTINF:-1 tvg-logo="https://tinyurl.com/cauy9zzh"group-title="ARGENTINA",BRAVO TV
+https://redirector.rudo.video/hls-video/c54ac2799874375c81c1672abb700870537c5223/bravo/bravo.smil/playlist.m3u8
+
+#EXTINF:-1 tvg-logo="https://tinyurl.com/6nruejr3"group-title="ARGENTINA", NET TV HD  27.2
+https://unlimited1-us.dps.live/nettv/nettv.smil/playlist.m3u8
+
+
+#EXTINF:-1 tvg-logo="https://tinyurl.com/4zexfb74"group-title="ARGENTINA",TELEVIDA
+https://unlimited1-saopaulo.dps.live/televidaar/televidaar.smil/televidaar/livestream1/chunks.m3u8
+
+#EXTINF:-1 tvg-logo="https://tinyurl.com/3xxchupk"group-title="ARGENTINA",MULTIVISION HD
+https://videostream.shockmedia.com.ar:19360/multivisionfederal/multivisionfederal.m3u8
+
+#EXTINF:-1 tvg-logo="https://i.ibb.co/wNccDZ4V/1771797530813.png"group-title="ARGENTINA", CIUDAD MAGICA TV
+https://live20.bozztv.com/akamaissh101/ssh101/verycoolfgr/chunks.m3u8
+
+
+
+
+
+#EXTINF:-1 tvg-logo=""group-title="ARGENTINA",
+
+
+#EXTINF:-1 tvg-logo=""group-title="ARGENTINA",
+
+
+
+#EXTINF:-1 tvg-logo=""group-title="ARGENTINA",
+
+
+
+
+#EXTINF:-1 tvg-logo=""group-title="ARGENTINA",
+
+
+
+#EXTINF:-1 tvg-logo=""group-title="ARGENTINA",
+
+
+
+
+#EXTINF:-1 tvg-logo=""group-title="ARGENTINA",
+
+
+
+#EXTINF:-1 tvg-logo=""group-title="ARGENTINA",
+
+
+
+#EXTINF:-1 tvg-logo=""group-title="ARGENTINA",
+
+
+
+#EXTINF:-1 tvg-logo=""group-title="ARGENTINA",
+
+
+#EXTINF:-1 tvg-logo=""group-title="ARGENTINA",TyC
+https://live-04-11-tyc24.vodgc.net/tyc24/index_tyc24_1080.m3u8
+
+
+
+
+
+
+
+
+
+
+
+#EXTINF:-1 tvg-logo=""group-title="ARGENTINA",
 
 
 #EXTINF:-1 tvg-logo="https://tinyurl.com/ykpzu6fs"group-title="ARGENTINA",EL 4 SAN JUAN 
@@ -339,30 +391,11 @@ https://streamlov.alsolnet.com/canal4sanjuan/live/chunklist_w318490892.m3u8
 
 
 
-#EXTINF:-1 tvg-logo="https://tinyurl.com/6nruejr3"group-title="ARGENTINA", NET TV HD  27.2
-https://unlimited1-us.dps.live/nettv/nettv.smil/playlist.m3u8
 
-
-#EXTINF:-1 tvg-logo="https://tinyurl.com/4zexfb74"group-title="ARGENTINA",TELEVIDA
-https://unlimited1-saopaulo.dps.live/televidaar/televidaar.smil/televidaar/livestream1/chunks.m3u8
 
 #EXTINF:-1 tvg-logo="https://tinyurl.com/7ama65js"group-title="ARGENTINA", CANAL 9 HD MISIONES
 https://panel.host-live.com:19360/8076/8076.m3u8
 
-
-
-#EXTINF:-1 tvg-logo="https://tinyurl.com/3bhvy78h"group-title="ARGENTINA",METRO TV HD  18.1 TUCUMÁN
-https://streamtv12.ddns.net:5443/LiveApp/streams/193945633734205616732920.m3u8
-
-
-
-#EXTINF:-1 tvg-logo="https://tinyurl.com/3xxchupk"group-title="ARGENTINA",MULTIVISION HD
-https://videostream.shockmedia.com.ar:19360/multivisionfederal/multivisionfederal.m3u8
-
-
-
-#EXTINF:-1 tvg-logo="https://tinyurl.com/yvn4ry2x"group-title="ARGENTINA",11 DIGITAL 
-https://live20.bozztv.com/giatv/giatv-ojodigital/ojodigital/playlist.m3u8
 
 
 #EXTINF:-1 tvg-logo="https://tinyurl.com/4tkac7dz"group-title="ARGENTINA",UNIFE TV
@@ -370,9 +403,6 @@ https://5dcabf026b188.streamlock.net/StreamUnife/livestream/chunklist_w102299310
 
 #EXTINF:-1 tvg-logo="https://tinyurl.com/yccuefd4"group-title="ARGENTINA", TELEVISIÓN PÚBLICA 
 https://stream.arcast.com.ar/c3lapampa/ngrp:c3lapampa_all/playlist.m3u8
-
-#EXTINF:-1 tvg-logo="https://tinyurl.com/cauy9zzh"group-title="ARGENTINA",BRAVO TV
-https://redirector.rudo.video/hls-video/c54ac2799874375c81c1672abb700870537c5223/bravo/bravo.smil/playlist.m3u8
 
 
 
@@ -405,43 +435,6 @@ https://tdcserver.com:19360/tdconlione-2/tdconlione-2.m3u8
 http://coninfo.net:1935/9linklivert/smil:9linkmultibr.smil/chunklist_w1546314826_b2044100_sleng.m3u8
 
 
-
-#EXTINF:-1 tvg-logo="https://tinyurl.com/mvyyr7y6"group-title="ARGENTINA",TELEMIX HD
-https://live20.bozztv.com/giatv/giatv-telemixenvivo/telemixenvivo/chunks.m3u8
-
-
-
-#EXTINF:-1 tvg-logo="https://i.ibb.co/wNccDZ4V/1771797530813.png"group-title="ARGENTINA", CIUDAD MAGICA TV
-https://live20.bozztv.com/akamaissh101/ssh101/verycoolfgr/chunks.m3u8
-
-#EXTINF:-1 tvg-logo="https://tinyurl.com/2ev34nje"group-title="ARGENTINA",COSMOS TV HD
-https://canaletaplus.com:3922/live/cosmoslive.m3u8
-
-
-
-#EXTINF:-1 tvg-logo="https://tinyurl.com/4tw8635w"group-title="ARGENTINA", CANAL 34 HD
-https://streamyes.alsolnet.com:443/canal34hd/live/chunklist_w1539060189.m3u8
-
-
-#EXTINF:-1 tvg-logo="https://tinyurl.com/mub2ewfd"group-title="ARGENTINA",TELECREATIVA HD
-https://panel.host-live.com:19360/8012/8012.m3u8
-
-
-#EXTINF:-1 tvg-logo="https://tinyurl.com/3vzrwff3"group-title="ARGENTINA",CINCO TV HD  TIGRE
-https://videostream.shockmedia.com.ar:19360/cincotv/cincotv.m3u8
-
-
-
-#EXTINF:-1 tvg-logo="https://tinyurl.com/bdesbdzn"group-title="ARGENTINA",NEO TV DIGITAL HD. 16.1 
-https://videostream.shockmedia.com.ar:19360/neotvdigital/neotvdigital.m3u8
-
-
-#EXTINF:-1 tvg-logo="https://tinyurl.com/y5cz72tm"group-title="ARGENTINA",EL MAGO TV
-https://live20.bozztv.com/akamaissh101/ssh101/elmagotv2/chunks.m3u8
-
-
-
-
 #EXTINF:-1 tvg-logo="https://tinyurl.com/3scrjhyx"group-title="ARGENTINA",SICARDITV HD  18.2
 https://vivo.solumedia.com:19360/sicarditv/sicarditv.m3u8
 
@@ -464,8 +457,7 @@ https://live20.bozztv.com/giatv/giatv-bigtv/bigtv/chunks.m3u8
 
 
 
-#EXTINF:-1 tvg-logo="https://tinyurl.com/y4bbwcyh"group-title="ARGENTINA",CANAL 3 PINAMAR 
-https://intelincloud01.com.ar/hls/cn3/index.m3u8
+
 
 #EXTINF:-1 tvg-logo="https://i.ibb.co/f0YPh6h/images-removebg-preview-2.png"group-title="ARGENTINA",TELE CINCO
 https://videohd.live:19360/8016/8016.m3u8
