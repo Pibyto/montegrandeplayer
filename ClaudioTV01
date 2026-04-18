@@ -1123,13 +1123,13 @@ https://master.tucableip.com/univalletv/tracks-v1a1/mono.ts.m3u8
 https://tv2.bitstreaming.net:3235/multi_live/play_src.m3u8
 
 
-#EXTINF:-1 tvg-logo="https://cdn.storage.foromedios.com/gallery/category_6/large.gallery_9461_6_9491.png.f3a8db436eb7144d85fbd8f8bee26767.png"group-title="BOLIVIA"FAP TV
+#EXTINF:-1 tvg-logo="https://cdn.storage.foromedios.com/gallery/category_6/large.gallery_9461_6_9491.png.f3a8db436eb7144d85fbd8f8bee26767.png"group-title="BOLIVIA",FAP TV
 https://eu1.servers10.com:8081/ceacom/tracks-v1a1/mono.m3u8
 
 
 
 
-#EXTINF:-1 tvg-logo="https://img.favpng.com/9/13/17/logo-entel-tv-hd-lyngsat-bolivia-png-favpng-CQte5BV55AJj8a1s9cJsEb81Q.jpg"group-title="BOLIVIA"FTV
+#EXTINF:-1 tvg-logo="https://img.favpng.com/9/13/17/logo-entel-tv-hd-lyngsat-bolivia-png-favpng-CQte5BV55AJj8a1s9cJsEb81Q.jpg"group-title="BOLIVIA",FTV
 https://master.tucableip.com/ftvhd/tracks-v1a1/mono.ts.m3u8
 
 
@@ -1146,7 +1146,7 @@ https://tvstream.upea.bo/hls/oSs0jSWumTFIIVY97559.m3u8
 https://alba-bo-bolivision-bolivision.stream.mediatiquestream.com/original.m3u8 
 
 
-#EXTINF:-1 tvg-logo="https://i.ibb.co/1YbQnGdd/Screenshot-20250622-235903-XPlayer-Video-Player.jpg"group-title="BOLIVIA"SEO TV
+#EXTINF:-1 tvg-logo="https://i.ibb.co/1YbQnGdd/Screenshot-20250622-235903-XPlayer-Video-Player.jpg"group-title="BOLIVIA",SEO TV
 https://seo.tv.bo/hls/SEOTVHD.m3u8
 
 
@@ -1208,8 +1208,11 @@ https://tv.bitstreaming.net:3234/live/palenquetvlive.m3u8
 https://tv.mediacp.eu:8081/coraltv/tracks-v1a1/mono.m3u8
 
 
-#EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcReSi50vbaP1UjmTO0ad3tD5GYD3il7t8M_lw&s"group-title="BOLIVIA",TDT MULTIMEDIA
-https://video01.kshost.com.br:4443/juan6318/juan6318/chunklist_w1803867423.m3u8
+#EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcReSi50vbaP1UjmTO0ad3tD5GYD3il7t8M_lw&s"group-title="BOLIVIA",BTV
+https://live2.eu-north-1b.cf.dmcdn.net/sec2(thoNufyaQu28FofcrglToiHQiSjlUAg8vYd1pk0Oo_eP95f-KHQw-XGTJG2XMgPYw4fNXwvugDG7Und-ci6q8XBpp8mcx2emsoxMFpV4nE1YN1bSDoOGlL0-4Ju59fpX)/cloud/3/x9nzqpo/d/live-1080.m3u8#cell=lcf2-eu-north-1b
+
+
+
 
 
 
