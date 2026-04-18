@@ -1003,12 +1003,48 @@ https://xui-backend.energeek.cl/live/13/playlist.m3u8
 
 
 
+
+
+
+#EXTINF:-1 tvg-logo=""group-title="PARAGUAY",ALMAYA TV 
+https://video.hostingcaaguazu.com:19360/almayatv/almayatv.m3u8
+
+
+#EXTINF:-1 tvg-logo=""group-title="PARAGUAY",DEL REY TV
+https://video.hostingcaaguazu.com:19360/delreytv/delreytv.m3u8
+
+#EXTINF:-1 tvg-logo=""group-title="PARAGUAY",GENTV
+https://gentvpeer.desdeparaguay.net/gentvpeer/gentv_py_alta/master.m3u8
+
+#EXTINF:-1 tvg-logo=""group-title="PARAGUAY",LA TELE
+
+
+#EXTINF:-1 tvg-logo=""group-title="PARAGUAY",RCC
+https://copacoradios.desdeparaguay.net/rcctv/rcctv/chunklist_w1584412149.m3u8?admin=nacion
+
+
+#EXTINF:-1 tvg-logo=""group-title="PARAGUAY",RED DIGITAL 
+https://video.hostingcaaguazu.com:19360/reddigitalsanpedro/reddigitalsanpedro.m3u8
+
+
+#EXTINF:-1 tvg-logo=""group-title="PARAGUAY",SUSESO TV
+https://edge.enhdtv.com/8060/tracks-v1a1/mono.m3u8
+
+
+
+#EXTINF:-1 tvg-logo=""group-title="PARAGUAY",
+
+#EXTINF:-1 tvg-logo=""group-title="PARAGUAY",
+
+
+
 #EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTDdcNNZLYq5iXNBDx7tyDMC0kJeZZjyVeHlg&s"group-title="PARAGUAY",RTV REPUBLICA
 https://rds3.desdeparaguay.net/republicatv/republicatv/chunklist_w1489871788.m3u8
 
 
-#EXTINF:-1 tvg-logo="https://blogger.googleusercontent.com/img/a/AVvXsEg7zrIkar6b9ZRlhqCsmyk8FTM_0btWRdYLnk1HvIkYP5gNc48D1JpHUyQeBeZJv7BO2T4bXI0Nki2iAk6fMNWRRE1fhraPfARYtpOBsGnE7oNHxLqSO1RMf-4WEDwej9Hk1xhbhyEnM8AuIpSm8UXwFB1nArjVA_oBBrEzVObfEcOuVEoSLoZVe5GSrI7w=s850"group-title="PARAGUAY",NEXT TV
-https://live.enhdtv.com:19360/nexthd/nexthd.m3u8
+#EXTINF:-1 tvg-logo="https://blogger.googleusercontent.com/img/a/AVvXsEg7zrIkar6b9ZRlhqCsmyk8FTM_0btWRdYLnk1HvIkYP5gNc48D1JpHUyQeBeZJv7BO2T4bXI0Nki2iAk6fMNWRRE1fhraPfARYtpOBsGnE7oNHxLqSO1RMf-4WEDwej9Hk1xhbhyEnM8AuIpSm8UXwFB1nArjVA_oBBrEzVObfEcOuVEoSLoZVe5GSrI7w=s850"group-title="PARAGUAY",NPY TV
+https://copacogen.desdeparaguay.net/npy/npy_py_alta/chunklist_w665042620.m3u8?admin=tvaccion
+
 
 
 #EXTINF:-1 tvg-logo="https://goradio.com.py/wp-content/uploads/2020/06/Logo_blanco.png"group-title="PARAGUAY",GO tv
@@ -1024,12 +1060,12 @@ https://copaco.desdeparaguay.net:443/venusmedia/venusmedia/chunklist_w2091978855
 
 
 
-#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/6/6a/SNT_2013_logotype.png"group-title="PARAGUAY", SNT 
 
 
 
 
 #EXTINF:-1 tvg-logo="https://cdn.storage.foromedios.com/monthly_2023_10/large_ltl.png.857947af5074cc4faa0573b58439da3d.png"group-title="PARAGUAY",LATELE
+https://copacotf.desdeparaguay.net/latele/latele_py_alta/chunklist_w721683875.m3u8?admin=tvaccion
 
 
 
@@ -1040,6 +1076,7 @@ https://copaco.desdeparaguay.net:443/venusmedia/venusmedia/chunklist_w2091978855
 
 
 #EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/4/46/LogoTFFlat.png"group-title="PARAGUAY",TELEFUTURO
+https://copacogen.desdeparaguay.net/telefuturo/telefuturo_py_alta/chunklist_w98992505.m3u8?admin=tvaccion
 
 
 
