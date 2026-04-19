@@ -137,13 +137,13 @@ http://201.217.246.42:44310/Live/3fcb6e26785fd8d415571b26dc3cf5d3/local-76_720.m
 http://201.217.246.42:44310/Live/3fcb6e26785fd8d415571b26dc3cf5d3/local-77_480.m3u8
 
 
-#EXTINF:-1 tvg-logo=""group-title="CINE PREMIUM",ROKUTEN MOVIES
+#EXTINF:-1 tvg-logo="https://i.ibb.co/s96DTswF/images-8-1.png"group-title="CINE PREMIUM",ROKUTEN MOVIES
 https://a9c57ec7ec5e4b7daeacc6316a0bb404.mediatailor.eu-west-1.amazonaws.com/v1/manifest/0547f18649bd788bec7b67b746e47670f558b6b2/production-LiveChannel-6069/463d2706-5ed3-4741-a70a-e91a84dd5f79/4.m3u8
 
-#EXTINF:-1 tvg-logo=""group-title="CINE PREMIUM",ROKUTEN FAMILY
+#EXTINF:-1 tvg-logo="https://i.ibb.co/s96DTswF/images-8-1.png"group-title="CINE PREMIUM",ROKUTEN FAMILY
 https://b0d59c8c98974e708e5ccb9a27cdfdfc.mediatailor.eu-west-1.amazonaws.com/v1/manifest/0547f18649bd788bec7b67b746e47670f558b6b2/production-LiveChannel-6205/6e7d243c-2d43-4474-bffa-a0e6f8be4b26/4.m3u8
 
-#EXTINF:-1 tvg-logo=""group-title="CINE PREMIUM",SONY ACTION
+#EXTINF:-1 tvg-logo="https://i.ibb.co/gb1X2r6W/37-s.png"group-title="CINE PREMIUM",SONY ACTION
 https://de9yx47crxs6l.cloudfront.net/playlist.m3u8
 
 
