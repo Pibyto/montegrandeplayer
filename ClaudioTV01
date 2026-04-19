@@ -228,7 +228,8 @@ https://vcp10.myplaytv.com/tvs/tvs/chunklist_w989702023.m3u8
 
 
 
-#EXTINF:-1 tvg-logo=""group-title="CINE PREMIUM",
+#EXTINF:-1 tvg-logo=""group-title="CINE PREMIUM", STUDIO UNIVERSAL 
+http://201.217.246.42:44310/Live/3fcb6e26785fd8d415571b26dc3cf5d3/local-67_720.m3u8
 
 
 #EXTINF:-1 tvg-logo=""group-title="CINE PREMIUM",
@@ -325,7 +326,7 @@ https://live20.bozztv.com/akamaissh101/ssh101/montegrandetv/playlist.m3u8
 
 
 #EXTINF:-1 tvg-logo=""group-title="ARGENTINA",TELEFE
-http://201.217.246.42:44310/Live/3fcb6e26785fd8d415571b26dc3cf5d3/tvpublica_720.m3u8
+http://201.217.246.42:44310/Live/3fcb6e26785fd8d415571b26dc3cf5d3/telefe.playlist.m3u8
 
 
 #EXTINF:-1 tvg-logo=""group-title="ARGENTINA",VOLVER
@@ -333,7 +334,8 @@ http://201.217.246.42:44310/Live/3fcb6e26785fd8d415571b26dc3cf5d3/local-74_480.m
 
 
 #EXTINF:-1 tvg-logo=""group-title="ARGENTINA",CANAL21
-https://iptv.ixfo.com.ar:30443/c21tv/hd/c21tv/chunks.m3u8?nimblesessionid=104473183
+https://iptv.ixfo.com.ar:30443/c21tv/hd/c21tv/chunks.m3u8
+
 
 #EXTINF:-1 tvg-logo="https://tinyurl.com/3v2v88jk"group-title="ARGENTINA",BAYRES TV HD
 https://streaming01.mikrolive.tv/bayrestv/live/chunklist_w963757112.m3u8
@@ -404,7 +406,7 @@ https://live20.bozztv.com/akamaissh101/ssh101/verycoolfgr/chunks.m3u8
 https://stmv4.voxtvhd.com.br/canal5pueblo/canal5pueblo/playlist.m3u8
 
 
-#EXTINF:-1 tvg-logo=""group-title="ARGENTINA",ENT CHAN EL
+#EXTINF:-1 tvg-logo=""group-title="ARGENTINA",ENT CHANEL
 https://cdn.global.elektamedia.com/live/c7eds/ENT_Channel/SA_LIVE_hls_enc/tracks-v1a1/mono.ts.m3u8
 
 
@@ -415,7 +417,7 @@ https://jmp2.uk/plu-5cf968040ab7d8f181e6a68b.m3u8
 
 
 
-#EXTINF:-1 tvg-logo=""group-title="ARGENTINA", A3CINE
+#EXTINF:-1 tvg-logo=""group-title="ARGENTINA",A3CINE
 http://181.114.57.246:4000/play/KgkA9tT2SpLYm86J/index.m3u8
 
 
@@ -426,15 +428,12 @@ https://rtvelivestream-rtveplayplus.rtve.es/rtvesec/int/star_main_1080.m3u8
 
 
 
-
-
-
 #EXTINF:-1 tvg-logo=""group-title="ARGENTINA",CANAL 8 ROSARIO
 https://stmv4.voxtvhd.com.br/canal8ros/canal8ros/playlist.m3u8
 
 
 
-#EXTINF:-1 tvg-logo=""group-title="ARGENTINA", CANAL 26
+#EXTINF:-1 tvg-logo=""group-title="ARGENTINA",CANAL 26
 https://stream-gtlc.telecentro.net.ar/hls/canal26hls/0/playlist.m3u8?uid=d1ab8e18c3a4e4fdc5b8b00e287498d9
 
 #EXTINF:-1 tvg-logo=""group-title="ARGENTINA", CRÓNICA TV
@@ -459,6 +458,7 @@ http://201.217.246.42:44310/Live/3fcb6e26785fd8d415571b26dc3cf5d3/tvpublica_720.
 
 
 #EXTINF:-1 tvg-logo=""group-title="ARGENTINA",
+
 
 #EXTINF:-1 tvg-logo=""group-title="ARGENTINA",
 
