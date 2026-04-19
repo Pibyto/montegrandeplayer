@@ -344,18 +344,18 @@ http://201.217.246.42:44310/Live/3fcb6e26785fd8d415571b26dc3cf5d3/local-16_720.m
 #EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/Canal_26_logo_%282022%29.svg/3840px-Canal_26_logo_%282022%29.svg.png"group-title="ARGENTINA",CANAL 26
 https://stream-gtlc.telecentro.net.ar/hls/canal26hls/0/playlist.m3u8?uid=d1ab8e18c3a4e4fdc5b8b00e287498d9
 
-#EXTINF:-1 tvg-logo="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh4DC0-vjxdknUnvyD_wtUZ3iAacVmZqmj7_O6aRYYGT30zyv7Up4KWSamHZ_eZ3H84uhvmrXs-XiVCG2KX_xVteVyguWXrPr1D_MNiBJT6ckBDA_-5Gx-FTnaXA0EXGl4o2i91qFqnI0Z5P9N45IKO5TX3bDdWMmqTXzua5KV5YRDJAJnkNPN0hx9h/s558/CRONICATV.png"group-title="ARGENTINA", CRÓNICA TV
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/f/fb/Cr%C3%B3nica_TV_logotipo_%282016%29.png"group-title="ARGENTINA", CRÓNICA TV
 http://201.217.246.42:44310/Live/3fcb6e26785fd8d415571b26dc3cf5d3/CronicaTv.playlist.m3u8
 
-#EXTINF:-1 tvg-logo=""group-title="ARGENTINA",C5N
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/2/22/Logo-c5n.svg/3840px-Logo-c5n.svg.png"group-title="ARGENTINA",C5N
 http://201.217.246.42:44310/Live/3fcb6e26785fd8d415571b26dc3cf5d3/c5n_480.m3u8
 
 
-#EXTINF:-1 tvg-logo=""group-title="ARGENTINA",LN+
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/8/81/LN%2B.png"group-title="ARGENTINA",LN+
 http://201.217.246.42:44310/Live/3fcb6e26785fd8d415571b26dc3cf5d3/lntv_720.m3u8
 
 
-#EXTINF:-1 tvg-logo=""group-title="ARGENTINA",TV PUBLICA
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/TVP_-_Televisi%C3%B3n_P%C3%BAblica_%282021%29.svg/1280px-TVP_-_Televisi%C3%B3n_P%C3%BAblica_%282021%29.svg.png"group-title="ARGENTINA",TV PUBLICA
 http://201.217.246.42:44310/Live/3fcb6e26785fd8d415571b26dc3cf5d3/tvpublica_720.m3u8
 
 
@@ -384,7 +384,7 @@ https://unlimited1-us.dps.live/nettv/nettv.smil/playlist.m3u8
 https://cdn.mycloudstream.io/hls/live/broadcast/pgv5kerk/mono.m3u8
 
 
-#EXTINF:-1 tvg-logo=""group-title="ARGENTINA",AR|12
+#EXTINF:-1 tvg-logo="https://cdn2.storage.foromedios.com/original/3X/a/7/a7a69b52617e4f5d0d927062b28dfb95532029c2.png"group-title="ARGENTINA",AR|12
 http://201.217.246.42:44310/Live/3fcb6e26785fd8d415571b26dc3cf5d3/local-21_480.m3u8
 
 
