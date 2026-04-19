@@ -225,28 +225,35 @@ https://a-cdn.klowdtv.com:443/live1/cine_720p/chunks.m3u8
 https://vcp10.myplaytv.com/tvs/tvs/chunklist_w989702023.m3u8
 
 
-
+#EXTINF:-1 tvg-logo=""group-title="CINE PREMIUM",COMEDY CENTRAL 
+http://201.217.246.42:44310/Live/3fcb6e26785fd8d415571b26dc3cf5d3/local-60_720.m3u8
 
 
 #EXTINF:-1 tvg-logo=""group-title="CINE PREMIUM", STUDIO UNIVERSAL 
 http://201.217.246.42:44310/Live/3fcb6e26785fd8d415571b26dc3cf5d3/local-67_720.m3u8
 
 
-#EXTINF:-1 tvg-logo=""group-title="CINE PREMIUM",
+#EXTINF:-1 tvg-logo=""group-title="CINE PREMIUM",DISNEY JR
+http://201.217.246.42:44310/Live/3fcb6e26785fd8d415571b26dc3cf5d3/local-35.playlist.m3u8
+
+
+#EXTINF:-1 tvg-logo=""group-title="CINE PREMIUM", DISNEY CHANNEL 
+http://201.217.246.42:44310/Live/3fcb6e26785fd8d415571b26dc3cf5d3/local-32_720.m3u8
+
+
+#EXTINF:-1 tvg-logo=""group-title="CINE PREMIUM",E!
+http://201.217.246.42:44310/Live/3fcb6e26785fd8d415571b26dc3cf5d3/local-14_720.m3u8
+
+
+#EXTINF:-1 tvg-logo=""group-title="CINE PREMIUM",EL GOURMET
+http://201.217.246.42:44310/Live/3fcb6e26785fd8d415571b26dc3cf5d3/local-25_720.m3u8
 
 
 #EXTINF:-1 tvg-logo=""group-title="CINE PREMIUM",
 
 
 
-
-
-
-
-
-
-
-
+#EXTINF:-1 tvg-logo=""group-title="CINE PREMIUM",
 
 
 
