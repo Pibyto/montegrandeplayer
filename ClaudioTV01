@@ -334,14 +334,17 @@ http://201.217.246.42:44310/Live/3fcb6e26785fd8d415571b26dc3cf5d3/local-19_480.m
 https://live20.bozztv.com/akamaissh101/ssh101/montegrandetv/playlist.m3u8
 
 
-#EXTINF:-1 tvg-logo=""group-title="ARGENTINA",TELEFE
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/c/cc/Telefe_%28nuevo_logo%29.png"group-title="ARGENTINA",TELEFE
 http://201.217.246.42:44310/Live/3fcb6e26785fd8d415571b26dc3cf5d3/telefe.playlist.m3u8
 
 
-#EXTINF:-1 tvg-logo=""group-title="ARGENTINA",CANAL 26
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/3/3a/Canal_9_2015.png"group-title="ARGENTINA",EL NUEVE
+http://201.217.246.42:44310/Live/3fcb6e26785fd8d415571b26dc3cf5d3/local-16_720.m3u8
+
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/Canal_26_logo_%282022%29.svg/3840px-Canal_26_logo_%282022%29.svg.png"group-title="ARGENTINA",CANAL 26
 https://stream-gtlc.telecentro.net.ar/hls/canal26hls/0/playlist.m3u8?uid=d1ab8e18c3a4e4fdc5b8b00e287498d9
 
-#EXTINF:-1 tvg-logo=""group-title="ARGENTINA", CRÓNICA TV
+#EXTINF:-1 tvg-logo="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh4DC0-vjxdknUnvyD_wtUZ3iAacVmZqmj7_O6aRYYGT30zyv7Up4KWSamHZ_eZ3H84uhvmrXs-XiVCG2KX_xVteVyguWXrPr1D_MNiBJT6ckBDA_-5Gx-FTnaXA0EXGl4o2i91qFqnI0Z5P9N45IKO5TX3bDdWMmqTXzua5KV5YRDJAJnkNPN0hx9h/s558/CRONICATV.png"group-title="ARGENTINA", CRÓNICA TV
 http://201.217.246.42:44310/Live/3fcb6e26785fd8d415571b26dc3cf5d3/CronicaTv.playlist.m3u8
 
 #EXTINF:-1 tvg-logo=""group-title="ARGENTINA",C5N
