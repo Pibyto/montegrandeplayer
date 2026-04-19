@@ -76,8 +76,13 @@ https://run-rt-uh-roku.otteravision.com/run/rt_uh/rt_uh_720.m3u8
 #EXTINF:-1 tvg-logo=""group-title="CINE PREMIUM",TVM+
 https://streamtv.intervenhosting.net:3529/live/tvmparatilive.m3u8
 
+#EXTINF:-1 tvg-logo=""group-title="CINE PREMIUM",CINEACCION
+https://stmv6.voxtvhd.com.br/cineaccion/cineaccion/playlist.m3u8
+
 #EXTINF:-1 tvg-logo="https://i.ibb.co/dLWwdLK/3dgifmaker66066.gif"group-title="CINE PREMIUM",COSMOS TV HD
 https://canaletaplus.com:3922/live/cosmoslive.m3u8
+
+
 
 #EXTINF:-1 tvg-logo="https://tinyurl.com/2wc4khr4"group-title="CINE PREMIUM",+CINE FAMILY
 http://190.102.242.130:25461/familypower/1234/149
@@ -213,36 +218,6 @@ https://stmv6.voxtvhd.com.br/xtremacartoons/xtremacartoons/playlist.m3u8
 https://live.larimartv.net/livelan/stream.m3u8
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 #EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTOspY0DemQf4NaEMxXnKQQKCpDwOfVCdtnZg&usqp=CAU"group-title="CINE PREMIUM",CINE SONY
 https://a-cdn.klowdtv.com:443/live1/cine_720p/chunks.m3u8
 
@@ -252,17 +227,16 @@ https://a-cdn.klowdtv.com:443/live1/cine_720p/chunks.m3u8
 https://vcp10.myplaytv.com/tvs/tvs/chunklist_w989702023.m3u8
 
 
-#EXTINF:-1 tvg-logo=""group-title="CINE PREMIUM",TELEMAX
 
 
 
+#EXTINF:-1 tvg-logo=""group-title="CINE PREMIUM",
 
 
+#EXTINF:-1 tvg-logo=""group-title="CINE PREMIUM",
 
 
-
-
-
+#EXTINF:-1 tvg-logo=""group-title="CINE PREMIUM",
 
 
 
@@ -445,8 +419,12 @@ https://rtvelivestream-rtveplayplus.rtve.es/rtvesec/int/star_main_1080.m3u8
 
 
 
-#EXTINF:-1 tvg-logo=""group-title="ARGENTINA",
+#EXTINF:-1 tvg-logo=""group-title="ARGENTINA",CANAL 8 ROSARIO
+https://stmv4.voxtvhd.com.br/canal8ros/canal8ros/playlist.m3u8
 
+
+
+#EXTINF:-1 tvg-logo=""group-title="ARGENTINA",
 
 
 #EXTINF:-1 tvg-logo=""group-title="ARGENTINA",
