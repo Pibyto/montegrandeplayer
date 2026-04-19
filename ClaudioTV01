@@ -448,7 +448,9 @@ https://live20.bozztv.com/giatv/giatv-ojodigital/ojodigital/playlist.m3u8
 https://streamtv12.ddns.net:5443/LiveApp/streams/193945633734205616732920.m3u8
 
 #EXTINF:-1 tvg-logo="https://tinyurl.com/4tw8635w"group-title="ARGENTINA", CANAL 34 HD
-https://streamyes.alsolnet.com:443/canal34hd/live/chunklist_w1539060189.m3u8
+https://streamyes.alsolnet.com/canal34hd/live/playlist.m3u8
+
+
 
 #EXTINF:-1 tvg-logo=""group-title="ARGENTINA",CANAL 8 ROSARIO
 https://stmv4.voxtvhd.com.br/canal8ros/canal8ros/playlist.m3u8
