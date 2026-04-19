@@ -178,10 +178,8 @@ https://amg01024-olympusat-topcinelatam-ono-ad-99.amagi.tv/ts-us-w2-n1/playlist/
 https://59ef525c24caa.streamlock.net/telebrunca/telebrunca/chunklist_w413125513.m3u8
 
 
-
-
-#EXTINF:-1 tvg-logo=""group-title="CINE PREMIUM",
-
+#EXTINF:-1 tvg-logo=""group-title="CINE PREMIUM", BENDICIÓN CHANNEL 
+https://s.emisoras.tv:8081/bendicionchannel/tracks-v1a1/mono.ts.m3u8
 
 
 #EXTINF:-1 tvg-logo="https://orbittv.net/images/logotv.png"group-title="CINE PREMIUM",ORBIT TV
