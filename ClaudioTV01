@@ -325,8 +325,15 @@ https://live20.bozztv.com/akamaissh101/ssh101/montegrandetv/playlist.m3u8
 
 
 #EXTINF:-1 tvg-logo=""group-title="ARGENTINA",TELEFE
-https://chromecast.cvattv.com.ar/live/c6eds/TelefeHD/SA_Live_dash_enc_C/TelefeHD.mpd
+http://201.217.246.42:44310/Live/3fcb6e26785fd8d415571b26dc3cf5d3/tvpublica_720.m3u8
 
+
+#EXTINF:-1 tvg-logo=""group-title="ARGENTINA",VOLVER
+http://201.217.246.42:44310/Live/3fcb6e26785fd8d415571b26dc3cf5d3/local-74_480.m3u8
+
+
+#EXTINF:-1 tvg-logo=""group-title="ARGENTINA",CANAL21
+https://iptv.ixfo.com.ar:30443/c21tv/hd/c21tv/chunks.m3u8?nimblesessionid=104473183
 
 #EXTINF:-1 tvg-logo="https://tinyurl.com/3v2v88jk"group-title="ARGENTINA",BAYRES TV HD
 https://streaming01.mikrolive.tv/bayrestv/live/chunklist_w963757112.m3u8
@@ -427,15 +434,36 @@ https://stmv4.voxtvhd.com.br/canal8ros/canal8ros/playlist.m3u8
 
 
 
-#EXTINF:-1 tvg-logo=""group-title="ARGENTINA",
+#EXTINF:-1 tvg-logo=""group-title="ARGENTINA", CANAL 26
+https://stream-gtlc.telecentro.net.ar/hls/canal26hls/0/playlist.m3u8?uid=d1ab8e18c3a4e4fdc5b8b00e287498d9
+
+#EXTINF:-1 tvg-logo=""group-title="ARGENTINA", CRÓNICA TV
+http://201.217.246.42:44310/Live/3fcb6e26785fd8d415571b26dc3cf5d3/CronicaTv.playlist.m3u8
+
+
+
+#EXTINF:-1 tvg-logo=""group-title="ARGENTINA",AR|12
+http://201.217.246.42:44310/Live/3fcb6e26785fd8d415571b26dc3cf5d3/local-21_480.m3u8
+
+
+#EXTINF:-1 tvg-logo=""group-title="ARGENTINA",C5N
+http://201.217.246.42:44310/Live/3fcb6e26785fd8d415571b26dc3cf5d3/c5n_480.m3u8
+
+
+#EXTINF:-1 tvg-logo=""group-title="ARGENTINA",LN+
+http://201.217.246.42:44310/Live/3fcb6e26785fd8d415571b26dc3cf5d3/lntv_720.m3u8
+
+
+#EXTINF:-1 tvg-logo=""group-title="ARGENTINA",TV PUBLICA
+http://201.217.246.42:44310/Live/3fcb6e26785fd8d415571b26dc3cf5d3/tvpublica_720.m3u8
 
 
 #EXTINF:-1 tvg-logo=""group-title="ARGENTINA",
 
+#EXTINF:-1 tvg-logo=""group-title="ARGENTINA",
 
 
 #EXTINF:-1 tvg-logo=""group-title="ARGENTINA",
-
 
 #EXTINF:-1 tvg-logo=""group-title="ARGENTINA",TyC
 https://live-04-11-tyc24.vodgc.net/tyc24/index_tyc24_1080.m3u8
