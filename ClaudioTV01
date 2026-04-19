@@ -147,21 +147,21 @@ https://b0d59c8c98974e708e5ccb9a27cdfdfc.mediatailor.eu-west-1.amazonaws.com/v1/
 https://de9yx47crxs6l.cloudfront.net/playlist.m3u8
 
 
-#EXTINF:-1 tvg-logo=""group-title="CINE PREMIUM",SONY THILLER
+#EXTINF:-1 tvg-logo="https://i.ibb.co/rRKQJNpp/28-s.png"group-title="CINE PREMIUM",SONY THILLER
 https://d1wuti7vf6eqt9.cloudfront.net/playlist_7.m3u8
 
-#EXTINF:-1 tvg-logo=""group-title="CINE PREMIUM",BBC SERIES 
+#EXTINF:-1 tvg-logo="https://i.ibb.co/q3gS3KkN/1776260489472.png"group-title="CINE PREMIUM",BBC SERIES 
 https://amg00793-amg00793c40-rakuten-es-5444.playouts.now.amagi.tv/1080p/index.m3u8
 
 
-#EXTINF:-1 tvg-logo=""group-title="CINE PREMIUM",SONY COMEDIA
+#EXTINF:-1 tvg-logo="https://i.ibb.co/XZ4LBFKH/images-21-1.png"group-title="CINE PREMIUM",SONY COMEDIA
 https://d3m8rnla2v9m5d.cloudfront.net/playlist.m3u8
 
-#EXTINF:-1 tvg-logo=""group-title="CINE PREMIUM",STAR TVE
+#EXTINF:-1 tvg-logo="https://i.ibb.co/F4BRB4fM/Screenshot-20260415-095829.png"group-title="CINE PREMIUM",STAR TVE
 https://rtvelivestream-rtveplayplus.rtve.es/rtvesec/int/star_main_1080.m3u8
 
 
-#EXTINF:-1 tvg-logo=""group-title="CINE PREMIUM",A3CINE
+#EXTINF:-1 tvg-logo="https://i.ibb.co/svsxwKjH/maxresdefault-1.png"group-title="CINE PREMIUM",A3CINE
 http://181.114.57.246:4000/play/KgkA9tT2SpLYm86J/index.m3u8 
 
 
