@@ -323,6 +323,11 @@ https://vcp10.myplaytv.com/tvs/tvs/chunklist_w989702023.m3u8
 #EXTINF:-1 tvg-logo="https://tinyurl.com/3p6wurbc"group-title="ARGENTINA", MONTEGRANDETV 
 https://live20.bozztv.com/akamaissh101/ssh101/montegrandetv/playlist.m3u8
 
+
+#EXTINF:-1 tvg-logo=""group-title="ARGENTINA",TELEFE
+https://chromecast.cvattv.com.ar/live/c6eds/TelefeHD/SA_Live_dash_enc_C/TelefeHD.mpd
+
+
 #EXTINF:-1 tvg-logo="https://tinyurl.com/3v2v88jk"group-title="ARGENTINA",BAYRES TV HD
 https://streaming01.mikrolive.tv/bayrestv/live/chunklist_w963757112.m3u8
 
