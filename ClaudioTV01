@@ -361,7 +361,8 @@ https://videostream.shockmedia.com.ar:19360/multivisionfederal/multivisionfedera
 https://panel.host-live.com:19360/8076/8076.m3u8
 
 
-#EXTINF:-1 tvg-logo="https://www.canal4eldorado.com/wp-content/uploads/2016/10/canal4-330x250.png"group-title="ARGENTINA",CANAL 4 EL DORADO
+#EXTINF:-1 tvg-logo="https://tinyurl.com/3amrdykz"group-title="ARGENTINA", CANAL 4 HD  POSADAS
+http://iptv.ixfo.com.ar:8081/live/C4POS/playlist.m3u8
 
 
 #EXTINF:-1 tvg-logo="https://tinyurl.com/6nruejr3"group-title="ARGENTINA", NET TV HD  27.2
@@ -425,6 +426,9 @@ https://canaletaplus.com:3922/live/cosmoslive.m3u8
 #EXTINF:-1 tvg-logo="https://tinyurl.com/mvyyr7y6"group-title="ARGENTINA",TELEMIX HD
 https://live20.bozztv.com/giatv/giatv-telemixenvivo/telemixenvivo/chunks.m3u8
 
+#EXTINF:-1 tvg-logo="https://tvmas.com.ar/wp-content/uploads/2019/02/logo-tvmas-1.png"group-title="ARGENTINA",TV+
+https://tv.streamcasthd.com:3450/live/tvmaslive.m3u8
+
 #EXTINF:-1 tvg-logo="https://tinyurl.com/y5cz72tm"group-title="ARGENTINA",EL MAGO TV
 https://live20.bozztv.com/akamaissh101/ssh101/elmagotv2/chunks.m3u8
 
@@ -437,6 +441,8 @@ https://streamtv12.ddns.net:5443/LiveApp/streams/193945633734205616732920.m3u8
 #EXTINF:-1 tvg-logo="https://tinyurl.com/4tw8635w"group-title="ARGENTINA", CANAL 34 HD
 https://streamyes.alsolnet.com:443/canal34hd/live/chunklist_w1539060189.m3u8
 
+#EXTINF:-1 tvg-logo=""group-title="ARGENTINA",CANAL 8 ROSARIO
+https://stmv4.voxtvhd.com.br/canal8ros/canal8ros/playlist.m3u8
 
 
 #EXTINF:-1 tvg-logo="https://i.ibb.co/wNccDZ4V/1771797530813.png"group-title="ARGENTINA", CIUDAD MAGICA TV
@@ -445,16 +451,6 @@ https://live20.bozztv.com/akamaissh101/ssh101/verycoolfgr/chunks.m3u8
 
 #EXTINF:-1 tvg-logo=""group-title="ARGENTINA",5 EL PUEBLO 
 https://stmv4.voxtvhd.com.br/canal5pueblo/canal5pueblo/playlist.m3u8
-
-
-#EXTINF:-1 tvg-logo=""group-title="ARGENTINA",ENT CHANEL
-https://cdn.global.elektamedia.com/live/c7eds/ENT_Channel/SA_LIVE_hls_enc/tracks-v1a1/mono.ts.m3u8
-
-
-
-#EXTINF:-1 tvg-logo=""group-title="ARGENTINA",CINE PREMIER 
-https://jmp2.uk/plu-5cf968040ab7d8f181e6a68b.m3u8
-
 
 
 
@@ -468,9 +464,6 @@ https://rtvelivestream-rtveplayplus.rtve.es/rtvesec/int/star_main_1080.m3u8
 
 
 
-
-#EXTINF:-1 tvg-logo=""group-title="ARGENTINA",CANAL 8 ROSARIO
-https://stmv4.voxtvhd.com.br/canal8ros/canal8ros/playlist.m3u8
 
 
 
@@ -541,8 +534,7 @@ http://coninfo.net:1935/9linklivert/smil:9linkmultibr.smil/chunklist_w1546314826
 https://vivo.solumedia.com:19360/sicarditv/sicarditv.m3u8
 
 
-#EXTINF:-1 tvg-logo="https://tvmas.com.ar/wp-content/uploads/2019/02/logo-tvmas-1.png"group-title="ARGENTINA",TV+
-https://tv.streamcasthd.com:3450/live/tvmaslive.m3u8
+
 
 
 
@@ -553,10 +545,6 @@ https://nd106.republicaservers.com:443/hls/diegologonitv/0_1/index.m3u8?sessId=3
 
 #EXTINF:-1 tvg-logo="https://i.ibb.co/qMPnsdYs/1771806869677.png"group-title="ARGENTINA",BIG TV
 https://live20.bozztv.com/giatv/giatv-bigtv/bigtv/chunks.m3u8
-
-
-#EXTINF:-1 tvg-logo="https://tinyurl.com/5n7x6kzf"group-title="ARGENTINA",CINE35
-
 
 
 
@@ -571,12 +559,7 @@ https://videohd.live:19360/8016/8016.m3u8
 https://s.emisoras.tv:8081/penielbibliaabierta/index.m3u8
 
 
-#EXTINF:-1 tvg-logo="https://tinyurl.com/3dde92vu"group-title="ARGENTINA",MGTV WORSHIP & PRAISE
-https://live20.bozztv.com/giatvplayout7/giatv-208138/playlist.m3u8
 
-
-#EXTINF:-1 tvg-logo="https://i.ibb.co/xmPdFc6/2q-Ed-Tbpni-Pos-Vcic3q-RYf9v-Ck-UJ-2q-Ed-Xur-VXia-Uw2cu-EJs-FUQGC0e-G-2q-Ed-YZNNlw-Yh7-S5ls-Mya2v-Zs.png"group-title="ARGENTINA",9 DE ABRIL TV MONTE GRANDE
-https://live20.bozztv.com:443/giatvplayout7/giatv-208730/tracks-v1a1/mono.ts.m3u8
 
 
 
@@ -585,26 +568,6 @@ https://live20.bozztv.com/akamaissh101/ssh101/buenostv25/playlist.m3u8
 
 
 
-#EXTINF:-1 tvg-logo="https://i.ibb.co/9W0Tt88/2q-Guv-Jh-J44-Sgmfl9l-VKQd-XCw-JId-2q-Guv-D3-Ad-CZDI5-Tr-Zs-Jh-OIGvcx-E-2q-Guw-BBKVO3-EWq-Ej0-KPFI0y.png"group-title="ARGENTINA",NUESTRAS MALVINAS TV MONTE GRANDE
-https://live20.bozztv.com:443/giatvplayout7/giatv-208744/tracks-v1a1/mono.ts.m3u8
-
-
-
-
-
-
-#EXTINF:-1 tvg-logo="https://imagizer.imageshack.com/v2/320xq70/r/922/j2Xtla.png"group-title="ARGENTINA",MONTEGRANDETV MI ESPERANZA 
-https://live20.bozztv.com/giatvplayout7/giatv-209909/tracks-v1a1/mono.ts.m3u8
-
-
-
-#EXTINF:-1 tvg-logo="https://tinyurl.com/bdhcvzpj"group-title="ARGENTINA",CANAL 21 HD
-https://iptv.ixfo.com.ar:30443/c21tv/hd/c21tv/chunks.m3u8?MonteGrandePlay
-
-
-
-#EXTINF:-1 tvg-logo="https://i.ibb.co/TDZR48TN/Photoroom-20250322-185831.png"group-title="ARGENTINA",YESHÙA TV
-https://live20.bozztv.com/giatvplayout7/giatv-209163/tracks-v1a1/mono.ts.m3u8
 
 
 
@@ -670,8 +633,6 @@ http://arcast.net:1935/mp/mp/playlist.m3u8
 https://stream.arcast.live:443/ahora/ahora/chunklist_w1967933953.m3u8
 
 
-#EXTINF:-1 tvg-logo="https://tinyurl.com/3amrdykz"group-title="ARGENTINA", CANAL 4 HD  POSADAS
-http://iptv.ixfo.com.ar:8081/live/C4POS/playlist.m3u8
 
 
 #EXTINF:-1 tvg-logo="https://telejunin.com/static/images/logo/teleJunin.png"group-title="ARGENTINA",TELEJUNIN
