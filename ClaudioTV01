@@ -56,7 +56,7 @@ https://run-rt-uh-roku.otteravision.com/run/rt_uh/rt_uh_720.m3u8
 #EXTINF:-1 tvg-logo="https://i.ibb.co/Pv1MqPm0/1776362866128.png"group-title="CINE PREMIUM",+CINE WAR
 http://190.102.242.130:25461/live/cinrwarpower/1234567/190.m3u8
 
-#EXTINF:-1 tvg-logo=""group-title="CINE PREMIUM",CINESONY
+#EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTOspY0DemQf4NaEMxXnKQQKCpDwOfVCdtnZg&usqp=CAU"group-title="CINE PREMIUM",CINESONY
 https://a-cdn.klowdtv.com/live1/cine_720p/chunks.m3u8
 
 #EXTINF:-1 tvg-logo="https://brandemia.org/wp-content/uploads/2013/02/logo_telemundo_principal.jpg"group-title="CINE PREMIUM",TELEMUNDO ACCION
@@ -147,17 +147,17 @@ https://streamtv.intervenhosting.net:3529/live/tvmparatilive.m3u8
 
 
 
-#EXTINF:-1 tvg-logo=""group-title="CINE PREMIUM",FREE TV ACCIÓN 
+#EXTINF:-1 tvg-logo="https://mbanetworks.tv/wp-content/uploads/2025/09/FAST_CHANNELS_FreeTVAccion_logo_2000x2000.webp"group-title="CINE PREMIUM",FREE TV ACCIÓN 
 https://amg01024-olympusat-topcinelatam-ono-ad-99.amagi.tv/ts-us-w2-n1/playlist/amg01024-olympusat-topcinelatam-ono/cb543d167d6c678c84c83a65cef047a9f93b3dda0f74907570ae4a9677df1f4b91bbf397be43ee3d0a821c8f320e70505c31ca04d72e53c7c373f954667511229ccde62f8ffb823888fc3791ed684b34638f6c07e9541175dce70e018b3cc7016f71db281e98b610df7390150d80c4529b0e74deef84326857726776c5c5d0827fd0aea3011a9b7cc2f1491fc4650fbedc1bdbf224086b356abc72f45ccd66d8c7aed49000f3dfd336ea4d845e6d097a2ccbd22dfba32cd9b14faf208b50883f55c3111e60d1639ccc396251fdedc2bc64b032dc8e208f743eb501d76d91358464b93686e85ca5be81ac282c36afcc4f7537efb1eedba97b63cf0681c2e3bf212b7997b8afac660b48621c414d0137e9ed680d9326084252/27/1920x1080_6046040/index.m3u8
 
 
 
 
-#EXTINF:-1 tvg-logo=""group-title="CINE PREMIUM",TELEBRUNCA
+#EXTINF:-1 tvg-logo="https://i.ibb.co/2YFPyYR8/cb20a7cb94abfe34e8aec64a16664d6ea8330cec1c1bddcfe23f139e5b274d4f.png"group-title="CINE PREMIUM",TELEBRUNCA
 https://59ef525c24caa.streamlock.net/telebrunca/telebrunca/chunklist_w413125513.m3u8
 
 
-#EXTINF:-1 tvg-logo=""group-title="CINE PREMIUM", BENDICIÓN CHANNEL 
+#EXTINF:-1 tvg-logo="https://i.ibb.co/ch1kPKYT/images-15-2.png"group-title="CINE PREMIUM", BENDICIÓN CHANNEL 
 https://s.emisoras.tv:8081/bendicionchannel/tracks-v1a1/mono.ts.m3u8
 
 
