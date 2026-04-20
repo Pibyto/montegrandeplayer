@@ -7,42 +7,6 @@
 
 
 
-###########( PELÍCULAS )############################################
-
-
-#EXTINF:-1 tvg-logo=""group-title="PELÍCULAS",JOHN WICK
-http://ia801303.us.archive.org/24/items/000_20191216/5.mp4
-
-
-#EXTINF:-1 tvg-logo=""group-title="PELÍCULAS",ENEMIGO PÚBLICO 
-http://ia801303.us.archive.org/24/items/20230409_20230409_0139/3.n.3.m.1.g.0%20P.6.b.l.1.c.0%20%281998%29.mp4
-
-#EXTINF:-1 tvg-logo=""group-title="PELÍCULAS",RAMBO
-http://ia801303.us.archive.org/24/items/0000_20200103/1.mp4
-
-#EXTINF:-1 tvg-logo=""group-title="PELÍCULAS",CASINO ROYALE 007
-http://ia800100.us.archive.org/14/items/001_20240809/001.mp4
-
-#EXTINF:-1 tvg-logo=""group-title="PELÍCULAS",DESTINO FINAL 5
-http://ia801303.us.archive.org/24/items/K9M4ZP3P/DFLZDS25.mkv
-
-
-#EXTINF:-1 tvg-logo=""group-title="PELÍCULAS",HEROE EN EL CENTRO COMERCIAL 1 
-http://ia903100.us.archive.org/20/items/vodaya19/Sub1d0_p4r4_5tr34ming_A85_V4R145_91/1.mkv
-
-#EXTINF:-1 tvg-logo=""group-title="PELÍCULAS",HEROE EN EL CENTRO COMERCIAL 2
-http://ia903109.us.archive.org/3/items/vodaya2/Sub1d0_p4r4_5tr34ming_A85_V4R145_9/3.mkv
-
-
-#EXTINF:-1 tvg-logo=""group-title="PELÍCULAS",AMENAZA EN LO PROFUNDO 
-http://ia801303.us.archive.org/24/items/000_20200402/07.mp4
-
-#EXTINF:-1 tvg-logo=""group-title="PELÍCULAS",INTELIGENCIA ARTIFICIAL 
-http://ia801303.us.archive.org/24/items/202209_20220918_1346/Inteligencia%20artificial.mp4
-
-
-
-
 
 
 
@@ -338,33 +302,15 @@ http://201.217.246.42:44310/Live/3fcb6e26785fd8d415571b26dc3cf5d3/local-19_480.m
 https://live20.bozztv.com/akamaissh101/ssh101/montegrandetv/playlist.m3u8
 
 
-#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/c/cc/Telefe_%28nuevo_logo%29.png"group-title="ARGENTINA",TELEFE
-http://201.217.246.42:44310/Live/3fcb6e26785fd8d415571b26dc3cf5d3/telefe.playlist.m3u8
-
-
-#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/3/3a/Canal_9_2015.png"group-title="ARGENTINA",EL NUEVE
-http://201.217.246.42:44310/Live/3fcb6e26785fd8d415571b26dc3cf5d3/local-16_720.m3u8
+#EXTINF:-1 tvg-logo="https://tinyurl.com/cauy9zzh"group-title="ARGENTINA",BRAVO TV
+https://redirector.rudo.video/hls-video/c54ac2799874375c81c1672abb700870537c5223/bravo/bravo.smil/playlist.m3u8
 
 #EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/Canal_26_logo_%282022%29.svg/3840px-Canal_26_logo_%282022%29.svg.png"group-title="ARGENTINA",CANAL 26
 https://stream-gtlc.telecentro.net.ar/hls/canal26hls/0/playlist.m3u8?uid=d1ab8e18c3a4e4fdc5b8b00e287498d9
 
-#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/f/fb/Cr%C3%B3nica_TV_logotipo_%282016%29.png"group-title="ARGENTINA", CRÓNICA TV
-http://201.217.246.42:44310/Live/3fcb6e26785fd8d415571b26dc3cf5d3/CronicaTv.playlist.m3u8
+#EXTINF:-1 tvg-logo="https://tinyurl.com/6nruejr3"group-title="ARGENTINA", NET TV HD  27.2
+https://unlimited1-us.dps.live/nettv/nettv.smil/playlist.m3u8
 
-#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/2/22/Logo-c5n.svg/3840px-Logo-c5n.svg.png"group-title="ARGENTINA",C5N
-http://201.217.246.42:44310/Live/3fcb6e26785fd8d415571b26dc3cf5d3/c5n_480.m3u8
-
-
-#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/8/81/LN%2B.png"group-title="ARGENTINA",LN+
-http://201.217.246.42:44310/Live/3fcb6e26785fd8d415571b26dc3cf5d3/lntv_720.m3u8
-
-
-#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/TVP_-_Televisi%C3%B3n_P%C3%BAblica_%282021%29.svg/1280px-TVP_-_Televisi%C3%B3n_P%C3%BAblica_%282021%29.svg.png"group-title="ARGENTINA",TV PUBLICA
-http://201.217.246.42:44310/Live/3fcb6e26785fd8d415571b26dc3cf5d3/tvpublica_720.m3u8
-
-
-#EXTINF:-1 tvg-logo="https://tinyurl.com/cauy9zzh"group-title="ARGENTINA",BRAVO TV
-https://redirector.rudo.video/hls-video/c54ac2799874375c81c1672abb700870537c5223/bravo/bravo.smil/playlist.m3u8
 
 
 #EXTINF:-1 tvg-logo="https://tinyurl.com/4zexfb74"group-title="ARGENTINA",TELEVIDA
@@ -372,45 +318,6 @@ https://unlimited1-saopaulo.dps.live/televidaar/televidaar.smil/televidaar/lives
 
 #EXTINF:-1 tvg-logo="https://tinyurl.com/3xxchupk"group-title="ARGENTINA",MULTIVISION HD
 https://videostream.shockmedia.com.ar:19360/multivisionfederal/multivisionfederal.m3u8
-
-#EXTINF:-1 tvg-logo="https://tinyurl.com/7ama65js"group-title="ARGENTINA", CANAL 9 HD MISIONES
-https://panel.host-live.com:19360/8076/8076.m3u8
-
-
-#EXTINF:-1 tvg-logo="https://tinyurl.com/3amrdykz"group-title="ARGENTINA", CANAL 4 HD  POSADAS
-http://iptv.ixfo.com.ar:8081/live/C4POS/playlist.m3u8
-
-
-#EXTINF:-1 tvg-logo="https://tinyurl.com/6nruejr3"group-title="ARGENTINA", NET TV HD  27.2
-https://unlimited1-us.dps.live/nettv/nettv.smil/playlist.m3u8
-
-#EXTINF:-1 tvg-logo="https://tinyurl.com/4tkac7dz"group-title="ARGENTINA",UNIFE TV
-https://cdn.mycloudstream.io/hls/live/broadcast/pgv5kerk/mono.m3u8
-
-
-#EXTINF:-1 tvg-logo="https://cdn2.storage.foromedios.com/original/3X/a/7/a7a69b52617e4f5d0d927062b28dfb95532029c2.png"group-title="ARGENTINA",AR|12
-http://201.217.246.42:44310/Live/3fcb6e26785fd8d415571b26dc3cf5d3/local-21_480.m3u8
-
-
-#EXTINF:-1 tvg-logo="https://tinyurl.com/jmw6z889"group-title="ARGENTINA",RT HD   25.5
-https://rt-esp.rttv.com:443/live/rtesp/playlist_4500Kb.m3u8
-
-
-#EXTINF:-1 tvg-logo="https://tinyurl.com/4sjnsae9"group-title="ARGENTINA",HISPANTV
-https://live.presstv.ir/hls/hispantv.m3u8
-
-
-
-#EXTINF:-1 tvg-logo="https://assets-global.website-files.com/605a3cacba514a77ca2e6ab5/6065f6834c6c7c875c2c1c16_dwe.png"group-title="ARGENTINA",DW ESPAÑOL HD
-https://dwamdstream104.akamaized.net/hls/live/2015530/dwstream104/stream04/streamPlaylist.m3u8
-
-
-#EXTINF:-1 tvg-logo=""group-title="ARGENTINA",VOLVER
-http://201.217.246.42:44310/Live/3fcb6e26785fd8d415571b26dc3cf5d3/local-74_480.m3u8
-
-
-#EXTINF:-1 tvg-logo=""group-title="ARGENTINA",CANAL21
-https://iptv.ixfo.com.ar:30443/c21tv/hd/c21tv/chunks.m3u8
 
 
 #EXTINF:-1 tvg-logo="https://tinyurl.com/3v2v88jk"group-title="ARGENTINA",BAYRES TV HD
@@ -469,6 +376,74 @@ https://live20.bozztv.com/akamaissh101/ssh101/verycoolfgr/chunks.m3u8
 
 #EXTINF:-1 tvg-logo=""group-title="ARGENTINA",5 EL PUEBLO 
 https://stmv4.voxtvhd.com.br/canal5pueblo/canal5pueblo/playlist.m3u8
+
+#EXTINF:-1 tvg-logo="https://tinyurl.com/3amrdykz"group-title="ARGENTINA", CANAL 4 HD  POSADAS
+http://iptv.ixfo.com.ar:8081/live/C4POS/playlist.m3u8
+
+#EXTINF:-1 tvg-logo="https://tinyurl.com/7ama65js"group-title="ARGENTINA", CANAL 9 HD MISIONES
+https://panel.host-live.com:19360/8076/8076.m3u8
+
+
+#EXTINF:-1 tvg-logo="https://tinyurl.com/4tkac7dz"group-title="ARGENTINA",UNIFE TV
+https://cdn.mycloudstream.io/hls/live/broadcast/pgv5kerk/mono.m3u8
+
+
+#EXTINF:-1 tvg-logo="https://tinyurl.com/jmw6z889"group-title="ARGENTINA",RT HD   25.5
+https://rt-esp.rttv.com:443/live/rtesp/playlist_4500Kb.m3u8
+
+
+#EXTINF:-1 tvg-logo="https://tinyurl.com/4sjnsae9"group-title="ARGENTINA",HISPANTV
+https://live.presstv.ir/hls/hispantv.m3u8
+
+
+
+#EXTINF:-1 tvg-logo="https://assets-global.website-files.com/605a3cacba514a77ca2e6ab5/6065f6834c6c7c875c2c1c16_dwe.png"group-title="ARGENTINA",DW ESPAÑOL HD
+https://dwamdstream104.akamaized.net/hls/live/2015530/dwstream104/stream04/streamPlaylist.m3u8
+
+
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/3/3a/Canal_9_2015.png"group-title="ARGENTINA",EL NUEVE
+http://201.217.246.42:44310/Live/3fcb6e26785fd8d415571b26dc3cf5d3/local-16_720.m3u8
+
+
+
+
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/c/cc/Telefe_%28nuevo_logo%29.png"group-title="ARGENTINA",TELEFE
+http://201.217.246.42:44310/Live/3fcb6e26785fd8d415571b26dc3cf5d3/telefe.playlist.m3u8
+
+
+
+
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/f/fb/Cr%C3%B3nica_TV_logotipo_%282016%29.png"group-title="ARGENTINA", CRÓNICA TV
+http://201.217.246.42:44310/Live/3fcb6e26785fd8d415571b26dc3cf5d3/CronicaTv.playlist.m3u8
+
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/2/22/Logo-c5n.svg/3840px-Logo-c5n.svg.png"group-title="ARGENTINA",C5N
+http://201.217.246.42:44310/Live/3fcb6e26785fd8d415571b26dc3cf5d3/c5n_480.m3u8
+
+
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/8/81/LN%2B.png"group-title="ARGENTINA",LN+
+http://201.217.246.42:44310/Live/3fcb6e26785fd8d415571b26dc3cf5d3/lntv_720.m3u8
+
+
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/TVP_-_Televisi%C3%B3n_P%C3%BAblica_%282021%29.svg/1280px-TVP_-_Televisi%C3%B3n_P%C3%BAblica_%282021%29.svg.png"group-title="ARGENTINA",TV PUBLICA
+http://201.217.246.42:44310/Live/3fcb6e26785fd8d415571b26dc3cf5d3/tvpublica_720.m3u8
+
+
+#EXTINF:-1 tvg-logo="https://cdn2.storage.foromedios.com/original/3X/a/7/a7a69b52617e4f5d0d927062b28dfb95532029c2.png"group-title="ARGENTINA",AR|12
+http://201.217.246.42:44310/Live/3fcb6e26785fd8d415571b26dc3cf5d3/local-21_480.m3u8
+
+
+
+
+
+#EXTINF:-1 tvg-logo=""group-title="ARGENTINA",VOLVER
+http://201.217.246.42:44310/Live/3fcb6e26785fd8d415571b26dc3cf5d3/local-74_480.m3u8
+
+
+#EXTINF:-1 tvg-logo=""group-title="ARGENTINA",CANAL21
+https://iptv.ixfo.com.ar:30443/c21tv/hd/c21tv/chunks.m3u8
+
+
+
 
 
 
@@ -677,6 +652,42 @@ https://videostream.shockmedia.com.ar:19360/telejunin/telejunin.m3u8
 
 
 
+
+
+
+
+###########( PELÍCULAS )############################################
+
+
+#EXTINF:-1 tvg-logo=""group-title="PELÍCULAS",JOHN WICK
+http://ia801303.us.archive.org/24/items/000_20191216/5.mp4
+
+
+#EXTINF:-1 tvg-logo=""group-title="PELÍCULAS",ENEMIGO PÚBLICO 
+http://ia801303.us.archive.org/24/items/20230409_20230409_0139/3.n.3.m.1.g.0%20P.6.b.l.1.c.0%20%281998%29.mp4
+
+#EXTINF:-1 tvg-logo=""group-title="PELÍCULAS",RAMBO
+http://ia801303.us.archive.org/24/items/0000_20200103/1.mp4
+
+#EXTINF:-1 tvg-logo=""group-title="PELÍCULAS",CASINO ROYALE 007
+http://ia800100.us.archive.org/14/items/001_20240809/001.mp4
+
+#EXTINF:-1 tvg-logo=""group-title="PELÍCULAS",DESTINO FINAL 5
+http://ia801303.us.archive.org/24/items/K9M4ZP3P/DFLZDS25.mkv
+
+
+#EXTINF:-1 tvg-logo=""group-title="PELÍCULAS",HEROE EN EL CENTRO COMERCIAL 1 
+http://ia903100.us.archive.org/20/items/vodaya19/Sub1d0_p4r4_5tr34ming_A85_V4R145_91/1.mkv
+
+#EXTINF:-1 tvg-logo=""group-title="PELÍCULAS",HEROE EN EL CENTRO COMERCIAL 2
+http://ia903109.us.archive.org/3/items/vodaya2/Sub1d0_p4r4_5tr34ming_A85_V4R145_9/3.mkv
+
+
+#EXTINF:-1 tvg-logo=""group-title="PELÍCULAS",AMENAZA EN LO PROFUNDO 
+http://ia801303.us.archive.org/24/items/000_20200402/07.mp4
+
+#EXTINF:-1 tvg-logo=""group-title="PELÍCULAS",INTELIGENCIA ARTIFICIAL 
+http://ia801303.us.archive.org/24/items/202209_20220918_1346/Inteligencia%20artificial.mp4
 
 
 
