@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="es">
 <head>
@@ -19,6 +18,10 @@
       color: #eee;
       min-height: 100vh;
       padding: 15px;
+    }
+    /* Eliminar cualquier borde/foco amarillo */
+    :focus {
+      outline: none !important;
     }
     /* Barra de herramientas compacta */
     .toolbar {
@@ -46,7 +49,7 @@
       transition: 0.1s;
       backdrop-filter: blur(4px);
     }
-    .tool-btn:hover {
+    .tool-btn:hover, .tool-btn:focus {
       background: rgba(255,255,255,0.2);
     }
     /* Contenedor principal */
@@ -126,6 +129,9 @@
       font-size: 0.7rem;
       cursor: pointer;
     }
+    .fav-chip:focus, .fav-chip:hover {
+      background: rgba(255,255,255,0.2);
+    }
     /* Estilos de menús (transparentes, sin colores fuertes) */
     .menu-list {
       display: flex;
@@ -144,7 +150,8 @@
       width: 100%;
       transition: 0.1s;
     }
-    .menu-btn:hover, .cat-btn:hover, .channel-menu-btn:hover {
+    .menu-btn:hover, .cat-btn:hover, .channel-menu-btn:hover,
+    .menu-btn:focus, .cat-btn:focus, .channel-menu-btn:focus {
       background: rgba(255,255,255,0.15);
       color: #ffdd99;
     }
@@ -165,7 +172,7 @@
       cursor: pointer;
       transition: 0.1s;
     }
-    .channel-item:hover {
+    .channel-item:hover, .channel-item:focus {
       background: rgba(255,255,255,0.1);
     }
     .channel-logo {
@@ -192,7 +199,7 @@
     .fav-star.active {
       color: #ffcc88;
     }
-    /* Ocultar el botón VLC de cada canal (el usuario pidió eliminar molesto) */
+    /* Ocultar botón VLC (no pedido) */
     .vlc-link {
       display: none;
     }
@@ -238,11 +245,10 @@
     <div class="player-container">
       <video id="videoPlayer" autoplay playsinline poster=""></video>
     </div>
-    <!-- Botón de VLC eliminado (ya no está) -->
     <div class="fav-bar" id="favBar"></div>
   </div>
   <div class="right-panel" id="rightPanel">
-    <!-- Aquí se mostrarán TODOS los canales (sin categorías) -->
+    <!-- Aquí se mostrarán TODOS los canales (orden original, primer canal arriba) -->
   </div>
 </div>
 
@@ -250,7 +256,7 @@
   // ==================== CONFIGURACIÓN ====================
   const M3U_URL = "https://tinyurl.com/2n2etx65";
   let categorias = {};        // { categoria: [canales] }
-  let todosCanales = [];      // Array plano con TODOS los canales (para panel derecho)
+  let todosCanales = [];      // Array plano con TODOS los canales (para panel derecho y cambio de canal en fullscreen)
   let favoritos = JSON.parse(localStorage.getItem("klautv_favs")) || [];
   let nivel = "principal";     // principal, categorias, canales (para el menú izquierdo)
   let canalesActuales = [];    // canales de la categoría seleccionada (para reproducción y menú izquierdo)
@@ -270,7 +276,6 @@
 
   // ========== VLC RÁPIDO (intent corregido) ==========
   function openInVLC(url) {
-    // Formato correcto para Android TV / Google TV
     const intentUrl = `intent://${url.replace(/^https?:\/\//, '')}#Intent;package=org.videolan.vlc;scheme=http;end;`;
     window.location.href = intentUrl;
   }
@@ -335,6 +340,7 @@
     favoritos.forEach(fav => {
       const chip = document.createElement("div");
       chip.className = "fav-chip";
+      chip.tabIndex = 0;
       chip.onclick = () => playUrl(fav.url);
       if (fav.logo) {
         const img = document.createElement("img");
@@ -359,6 +365,7 @@
       const btn = document.createElement("button");
       btn.className = "menu-btn";
       btn.innerText = opt;
+      btn.tabIndex = 0;
       btn.onclick = () => {
         if (opt === "TV") {
           if (Object.keys(categorias).length) renderCategorias();
@@ -369,6 +376,8 @@
       };
       menuContainer.appendChild(btn);
     });
+    // Enfocar el primer botón para navegación con control remoto
+    if (menuContainer.firstChild) menuContainer.firstChild.focus();
   }
 
   function renderCategorias() {
@@ -378,6 +387,7 @@
     const backBtn = document.createElement("button");
     backBtn.className = "menu-btn back-btn";
     backBtn.innerText = "← Volver";
+    backBtn.tabIndex = 0;
     backBtn.onclick = () => renderPrincipal();
     menuContainer.appendChild(backBtn);
     if (!cats.length) {
@@ -391,6 +401,7 @@
       const btn = document.createElement("button");
       btn.className = "cat-btn";
       btn.innerText = cat;
+      btn.tabIndex = 0;
       btn.onclick = () => {
         canalesActuales = categorias[cat] || [];
         nivel = "canales";
@@ -400,6 +411,10 @@
       };
       menuContainer.appendChild(btn);
     });
+    // Enfocar el primer elemento después del back
+    const firstCat = menuContainer.querySelector('.cat-btn');
+    if (firstCat) firstCat.focus();
+    else if (backBtn) backBtn.focus();
   }
 
   function renderCanalesEnMenu() {
@@ -407,11 +422,13 @@
     const backBtn = document.createElement("button");
     backBtn.className = "menu-btn back-btn";
     backBtn.innerText = "← Volver";
+    backBtn.tabIndex = 0;
     backBtn.onclick = () => renderCategorias();
     menuContainer.appendChild(backBtn);
     canalesActuales.forEach(canal => {
       const btn = document.createElement("button");
       btn.className = "channel-menu-btn";
+      btn.tabIndex = 0;
       if (canal.logo) {
         const img = document.createElement("img");
         img.src = canal.logo;
@@ -426,18 +443,23 @@
       btn.onclick = () => playUrl(canal.url);
       menuContainer.appendChild(btn);
     });
+    const firstChan = menuContainer.querySelector('.channel-menu-btn');
+    if (firstChan) firstChan.focus();
+    else if (backBtn) backBtn.focus();
   }
 
-  // ========== PANEL DERECHO: TODOS LOS CANALES (SIN CATEGORÍAS) ==========
+  // ========== PANEL DERECHO: TODOS LOS CANALES (EN ORDEN ORIGINAL, PRIMERO ARRIBA) ==========
   function renderRightPanel() {
     rightPanel.innerHTML = "";
     if (!todosCanales.length) {
       rightPanel.innerHTML = "<div class='empty-msg'>Cargando canales...</div>";
       return;
     }
-    todosCanales.forEach(canal => {
+    // Mostrar en el orden original (sin invertir)
+    todosCanales.forEach((canal, idx) => {
       const item = document.createElement("div");
       item.className = "channel-item";
+      item.tabIndex = 0;
       if (canal.logo) {
         const img = document.createElement("img");
         img.className = "channel-logo";
@@ -460,15 +482,18 @@
       favBtn.className = "fav-star";
       favBtn.innerText = favoritos.some(f => f.url === canal.url) ? "★" : "☆";
       if (favoritos.some(f => f.url === canal.url)) favBtn.classList.add("active");
+      favBtn.tabIndex = 0;
       favBtn.onclick = (e) => {
         e.stopPropagation();
         toggleFav(canal);
       };
       item.appendChild(favBtn);
-      // Botón VLC eliminado (ya no se muestra)
       item.onclick = () => playUrl(canal.url);
       rightPanel.appendChild(item);
     });
+    // Enfocar el primer canal del panel derecho (el primer elemento de la lista)
+    const firstChannel = rightPanel.querySelector('.channel-item');
+    if (firstChannel) firstChannel.focus();
   }
 
   // ========== CARGA DE LISTA M3U ==========
@@ -497,13 +522,13 @@
             const canal = { nombre: currentName, url: line, logo: currentLogo };
             if (!categorias[currentGroup]) categorias[currentGroup] = [];
             categorias[currentGroup].push(canal);
-            todosCanales.push(canal);  // lista completa
+            todosCanales.push(canal);  // lista completa (orden original)
           }
         }
         if (Object.keys(categorias).length === 0) throw new Error("No canales");
         renderPrincipal();
         renderFavBar();
-        renderRightPanel();   // muestra todos los canales
+        renderRightPanel();   // muestra todos los canales en orden original
         // Seleccionar primera categoría y primer canal para reproducción automática
         const primeras = Object.keys(categorias);
         if (primeras.length) {
@@ -663,3 +688,5 @@
 </script>
 </body>
 </html>
+ 
+    
