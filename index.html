@@ -1,10 +1,9 @@
-
 <!DOCTYPE html>
 <html lang="es">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
-  <title>KlauTV - Web con controles</title>
+  <title>KlauTV - VLC Rápido</title>
   <script src="https://cdn.jsdelivr.net/npm/hls.js@latest"></script>
   <script src="https://cdn.jsdelivr.net/npm/mpegts.js@latest"></script>
   <style>
@@ -278,13 +277,17 @@
   const fullscreenBtn = document.getElementById("fullscreenBtn");
   const openInVlcBtn = document.getElementById("openInVlcBtn");
 
+  // ========== FUNCIÓN MEJORADA PARA ABRIR EN VLC ==========
+  function openInVLC(url) {
+    // Crear un Intent URI que apunta directamente a la actividad de reproducción de VLC
+    const intentUri = `intent://${url.replace(/^https?:\/\//, '')}#Intent;action=android.intent.action.VIEW;package=org.videolan.vlc;component=org.videolan.vlc/org.videolan.vlc.gui.video.VideoPlayerActivity;end`;
+    window.location.href = intentUri;
+  }
+
   // ========== REPRODUCCIÓN ==========
   function destroyPlayers() {
     if (currentHls) { currentHls.destroy(); currentHls = null; }
     if (currentMpegts) { currentMpegts.destroy(); currentMpegts = null; }
-  }
-  function openInVLC(url) {
-    window.location.href = "intent://" + url.replace(/^https?:\/\//, '') + "#Intent;scheme=http;package=org.videolan.vlc;end";
   }
   function playUrl(url) {
     if (/\.(mkv|avi|mov|wmv|flv|webm)$/i.test(url)) {
@@ -608,17 +611,14 @@
   // Navegación por teclado
   document.addEventListener("keydown", (e) => {
     const key = e.key;
-    // Pantalla completa: flechas arriba/abajo cambian canal
     if (fullscreenActive) {
       if (key === "ArrowUp") { e.preventDefault(); cambiarCanal(-1); return; }
       if (key === "ArrowDown") { e.preventDefault(); cambiarCanal(1); return; }
     }
-    // Fuera de fullscreen: flechas izquierda/derecha para paneles
     if (!fullscreenActive) {
       if (key === "ArrowLeft") { e.preventDefault(); toggleLeft(); return; }
       if (key === "ArrowRight") { e.preventDefault(); toggleRight(); return; }
     }
-    // Tecla Atrás (Backspace) para retroceder en el menú
     if (key === "Escape" || key === "Backspace") {
       e.preventDefault();
       if (fullscreenActive) toggleFullscreen();
@@ -629,7 +629,6 @@
       }
       return;
     }
-    // Doble clic en Enter para fullscreen
     if (key === "Enter") {
       if (doubleClickTimer === null) {
         doubleClickTimer = setTimeout(() => {
@@ -645,24 +644,37 @@
       }
       return;
     }
-  });
-
-  // Rueda del ratón para cambiar canal (útil en escritorio)
-  document.addEventListener("wheel", (e) => {
-    if (fullscreenActive) {
-      e.preventDefault();
-      if (e.deltaY < 0) cambiarCanal(-1);
-      else if (e.deltaY > 0) cambiarCanal(1);
+    if (!fullscreenActive) {
+      const focusable = document.querySelectorAll('[tabindex="0"], .menu-btn, .cat-btn, .channel-menu-btn, .channel-item, .fav-chip');
+      let current = document.activeElement;
+      if (key === "ArrowDown") {
+        e.preventDefault();
+        let next = null;
+        for (let i = 0; i < focusable.length; i++) {
+          if (focusable[i] === current && focusable[i+1]) {
+            next = focusable[i+1];
+            break;
+          }
+        }
+        if (next) next.focus();
+        else if (focusable.length) focusable[0].focus();
+      }
+      if (key === "ArrowUp") {
+        e.preventDefault();
+        let prev = null;
+        for (let i = 0; i < focusable.length; i++) {
+          if (focusable[i] === current && i > 0) {
+            prev = focusable[i-1];
+            break;
+          }
+        }
+        if (prev) prev.focus();
+        else if (focusable.length) focusable[focusable.length-1].focus();
+      }
     }
   });
 
-  // Iniciar
   cargarLista();
 </script>
 </body>
 </html>
-
-
-
-
-
