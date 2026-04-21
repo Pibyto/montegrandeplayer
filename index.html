@@ -4,7 +4,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
-  <title>KlauTV - Multiplataforma</title>
+  <title>KlauTV - TV y Web</title>
   <script src="https://cdn.jsdelivr.net/npm/hls.js@latest"></script>
   <script src="https://cdn.jsdelivr.net/npm/mpegts.js@latest"></script>
   <style>
@@ -20,30 +20,34 @@
       min-height: 100vh;
       padding: 15px;
     }
-    /* Barra de herramientas */
+    /* Barra de herramientas compacta */
     .toolbar {
       display: flex;
       flex-wrap: wrap;
-      gap: 10px;
+      gap: 8px;
       justify-content: flex-end;
-      margin-bottom: 15px;
+      margin-bottom: 12px;
       max-width: 1400px;
       margin-left: auto;
       margin-right: auto;
     }
     .tool-btn {
-      background: rgba(0,0,0,0.6);
-      border: 1px solid rgba(255,255,255,0.2);
+      background: rgba(0,0,0,0.5);
+      border: none;
       color: white;
-      padding: 6px 12px;
-      border-radius: 30px;
+      width: 40px;
+      height: 40px;
+      border-radius: 40px;
       cursor: pointer;
-      font-size: 0.8rem;
+      font-size: 1.2rem;
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
       transition: 0.1s;
+      backdrop-filter: blur(4px);
     }
     .tool-btn:hover {
-      background: #ffcc88;
-      color: #000;
+      background: rgba(255,255,255,0.2);
     }
     /* Contenedor principal */
     .app {
@@ -53,15 +57,15 @@
       max-width: 1400px;
       margin: 0 auto;
     }
-    /* Paneles laterales */
+    /* Paneles laterales con transparencia */
     .left-panel, .right-panel {
-      background: rgba(0,0,0,0.7);
+      background: rgba(0,0,0,0.5);
       backdrop-filter: blur(8px);
       border-radius: 20px;
       padding: 15px 10px;
       height: calc(100vh - 100px);
       overflow-y: auto;
-      border: 1px solid rgba(255,255,255,0.1);
+      border: none;
       transition: all 0.2s;
     }
     .left-panel {
@@ -74,7 +78,6 @@
       flex: 0 0 0;
       padding: 0;
       overflow: hidden;
-      border: none;
     }
     /* Área central */
     .center-panel {
@@ -102,80 +105,65 @@
     video::-webkit-media-controls {
       display: none !important;
     }
-    .video-controls {
-      display: flex;
-      justify-content: center;
-      gap: 10px;
-      margin-top: 5px;
-    }
-    .vid-btn {
-      background: #2a2a35;
-      border: none;
-      color: white;
-      padding: 5px 12px;
-      border-radius: 30px;
-      cursor: pointer;
-      font-size: 0.8rem;
-    }
+    /* Barra de favoritos */
     .fav-bar {
-      background: rgba(0,0,0,0.5);
+      background: rgba(0,0,0,0.4);
       backdrop-filter: blur(8px);
-      padding: 8px 12px;
+      padding: 6px 10px;
       border-radius: 40px;
       display: flex;
-      gap: 10px;
+      gap: 8px;
       overflow-x: auto;
       white-space: nowrap;
-      border: 1px solid rgba(255,255,255,0.1);
     }
     .fav-chip {
-      background: #2a2a35;
+      background: rgba(255,255,255,0.1);
       padding: 4px 12px;
       border-radius: 30px;
       display: inline-flex;
       align-items: center;
       gap: 6px;
-      font-size: 0.75rem;
+      font-size: 0.7rem;
       cursor: pointer;
     }
-    .fav-chip:hover {
-      background: #4a4a55;
-    }
-    /* Menús */
+    /* Estilos de menús (transparentes, sin colores fuertes) */
     .menu-list {
       display: flex;
       flex-direction: column;
       gap: 6px;
     }
     .menu-btn, .cat-btn, .channel-menu-btn {
-      background: rgba(30,30,40,0.8);
+      background: rgba(30,30,40,0.5);
       border: none;
       color: #ccc;
-      font-size: 0.9rem;
-      padding: 10px 12px;
+      font-size: 0.85rem;
+      padding: 8px 12px;
       border-radius: 14px;
       text-align: left;
       cursor: pointer;
       width: 100%;
+      transition: 0.1s;
     }
     .menu-btn:hover, .cat-btn:hover, .channel-menu-btn:hover {
       background: rgba(255,255,255,0.15);
       color: #ffdd99;
     }
     .back-btn {
-      background: rgba(50,50,60,0.9);
+      background: rgba(50,50,60,0.6);
       color: #ffdd99;
       margin-bottom: 10px;
     }
+    /* Panel derecho: lista completa de canales (todos) */
     .channel-item {
       display: flex;
       align-items: center;
       gap: 10px;
-      background: rgba(25,25,35,0.7);
+      background: rgba(25,25,35,0.5);
       margin-bottom: 6px;
-      padding: 8px 10px;
+      padding: 6px 8px;
       border-radius: 14px;
       cursor: pointer;
+      transition: 0.1s;
     }
     .channel-item:hover {
       background: rgba(255,255,255,0.1);
@@ -188,7 +176,7 @@
     }
     .channel-name {
       flex: 1;
-      font-size: 0.8rem;
+      font-size: 0.75rem;
       white-space: nowrap;
       overflow: hidden;
       text-overflow: ellipsis;
@@ -197,21 +185,18 @@
       background: none;
       border: none;
       color: #aaa;
-      font-size: 1.1rem;
+      font-size: 1rem;
       cursor: pointer;
       width: 24px;
     }
     .fav-star.active {
       color: #ffcc88;
     }
+    /* Ocultar el botón VLC de cada canal (el usuario pidió eliminar molesto) */
     .vlc-link {
-      background: none;
-      border: none;
-      color: #88ccff;
-      font-size: 0.8rem;
-      cursor: pointer;
-      margin-left: 5px;
+      display: none;
     }
+    /* Scroll fino */
     ::-webkit-scrollbar {
       width: 4px;
     }
@@ -232,21 +217,20 @@
     @media (max-width: 900px) {
       body { padding: 8px; }
       .left-panel, .right-panel { flex-basis: 100%; height: auto; max-height: 35vh; }
-      .tool-btn { padding: 4px 10px; font-size: 0.7rem; }
-      .channel-name { font-size: 0.7rem; }
+      .tool-btn { width: 36px; height: 36px; font-size: 1rem; }
     }
   </style>
 </head>
 <body>
 <div class="toolbar">
-  <button class="tool-btn" id="toggleLeftBtn">◀ Menú</button>
-  <button class="tool-btn" id="toggleRightBtn">Canales ▶</button>
-  <button class="tool-btn" id="fullscreenBtn">⛶ Pantalla completa</button>
+  <button class="tool-btn" id="toggleLeftBtn" title="Menú categorías">☰</button>
+  <button class="tool-btn" id="toggleRightBtn" title="Lista canales">▶</button>
+  <button class="tool-btn" id="fullscreenBtn" title="Pantalla completa">⛶</button>
 </div>
 <div class="app">
   <div class="left-panel" id="leftPanel">
     <div class="logo" style="text-align:center; margin-bottom:15px;">
-      <img src="https://cdn.phototourl.com/free/2026-04-21-4a8d26b0-4efb-4851-b8b9-016c8c390024.png" alt="KlauTV" style="width:80px;">
+      <img src="https://cdn.phototourl.com/free/2026-04-21-4a8d26b0-4efb-4851-b8b9-016c8c390024.png" alt="KlauTV" style="width:70px; opacity:0.8;">
     </div>
     <div id="menuContainer" class="menu-list"></div>
   </div>
@@ -254,21 +238,22 @@
     <div class="player-container">
       <video id="videoPlayer" autoplay playsinline poster=""></video>
     </div>
-    <div class="video-controls">
-      <button class="vid-btn" id="openInVlcBtn">📺 Abrir en VLC</button>
-    </div>
+    <!-- Botón de VLC eliminado (ya no está) -->
     <div class="fav-bar" id="favBar"></div>
   </div>
-  <div class="right-panel" id="rightPanel"></div>
+  <div class="right-panel" id="rightPanel">
+    <!-- Aquí se mostrarán TODOS los canales (sin categorías) -->
+  </div>
 </div>
 
 <script>
   // ==================== CONFIGURACIÓN ====================
   const M3U_URL = "https://tinyurl.com/2n2etx65";
-  let categorias = {};
+  let categorias = {};        // { categoria: [canales] }
+  let todosCanales = [];      // Array plano con TODOS los canales (para panel derecho)
   let favoritos = JSON.parse(localStorage.getItem("klautv_favs")) || [];
-  let nivel = "principal";
-  let canalesActuales = [];
+  let nivel = "principal";     // principal, categorias, canales (para el menú izquierdo)
+  let canalesActuales = [];    // canales de la categoría seleccionada (para reproducción y menú izquierdo)
   let currentHls = null, currentMpegts = null;
   let fullscreenActive = false;
   let doubleClickTimer = null;
@@ -282,12 +267,12 @@
   const toggleLeftBtn = document.getElementById("toggleLeftBtn");
   const toggleRightBtn = document.getElementById("toggleRightBtn");
   const fullscreenBtn = document.getElementById("fullscreenBtn");
-  const openInVlcBtn = document.getElementById("openInVlcBtn");
 
-  // ========== VLC RÁPIDO (intent directo) ==========
+  // ========== VLC RÁPIDO (intent corregido) ==========
   function openInVLC(url) {
-    const intentUri = `intent://${url.replace(/^https?:\/\//, '')}#Intent;action=android.intent.action.VIEW;package=org.videolan.vlc;component=org.videolan.vlc/org.videolan.vlc.gui.video.VideoPlayerActivity;end`;
-    window.location.href = intentUri;
+    // Formato correcto para Android TV / Google TV
+    const intentUrl = `intent://${url.replace(/^https?:\/\//, '')}#Intent;package=org.videolan.vlc;scheme=http;end;`;
+    window.location.href = intentUrl;
   }
 
   // ========== REPRODUCCIÓN ==========
@@ -333,7 +318,7 @@
   function saveFavs() {
     localStorage.setItem("klautv_favs", JSON.stringify(favoritos));
     renderFavBar();
-    if (nivel === "canales") renderRightPanel();
+    renderRightPanel(); // refrescar panel derecho para actualizar estrellas
   }
   function toggleFav(canal) {
     const exists = favoritos.some(f => f.url === canal.url);
@@ -344,7 +329,7 @@
   function renderFavBar() {
     favBar.innerHTML = "";
     if (favoritos.length === 0) {
-      favBar.innerHTML = "<span style='opacity:0.6;'>⭐ Favoritos vacíos</span>";
+      favBar.innerHTML = "<span style='opacity:0.6; font-size:0.7rem;'>⭐ Favoritos vacíos</span>";
       return;
     }
     favoritos.forEach(fav => {
@@ -354,6 +339,8 @@
       if (fav.logo) {
         const img = document.createElement("img");
         img.src = fav.logo;
+        img.style.width = "20px";
+        img.style.height = "20px";
         chip.appendChild(img);
       } else {
         chip.innerHTML += "⭐ ";
@@ -363,7 +350,7 @@
     });
   }
 
-  // ========== RENDER DE MENÚS ==========
+  // ========== RENDER DE MENÚ IZQUIERDO (CATEGORÍAS) ==========
   function renderPrincipal() {
     nivel = "principal";
     menuContainer.innerHTML = "";
@@ -375,7 +362,7 @@
       btn.onclick = () => {
         if (opt === "TV") {
           if (Object.keys(categorias).length) renderCategorias();
-          else mostrarError("Cargando...", false);
+          else mostrarMensaje("Cargando categorías...");
         } else {
           mostrarMensaje("Próximamente");
         }
@@ -407,8 +394,8 @@
       btn.onclick = () => {
         canalesActuales = categorias[cat] || [];
         nivel = "canales";
-        renderRightPanel();
-        renderCanalesEnMenu();
+        renderCanalesEnMenu();   // actualiza menú izquierdo con los canales de esa categoría
+        // No se modifica el panel derecho (siempre muestra TODOS los canales)
         if (canalesActuales.length) playUrl(canalesActuales[0].url);
       };
       menuContainer.appendChild(btn);
@@ -441,13 +428,14 @@
     });
   }
 
+  // ========== PANEL DERECHO: TODOS LOS CANALES (SIN CATEGORÍAS) ==========
   function renderRightPanel() {
     rightPanel.innerHTML = "";
-    if (!canalesActuales.length) {
-      rightPanel.innerHTML = "<div class='empty-msg'>Selecciona una categoría</div>";
+    if (!todosCanales.length) {
+      rightPanel.innerHTML = "<div class='empty-msg'>Cargando canales...</div>";
       return;
     }
-    canalesActuales.forEach(canal => {
+    todosCanales.forEach(canal => {
       const item = document.createElement("div");
       item.className = "channel-item";
       if (canal.logo) {
@@ -477,43 +465,10 @@
         toggleFav(canal);
       };
       item.appendChild(favBtn);
-      const vlcBtn = document.createElement("button");
-      vlcBtn.className = "vlc-link";
-      vlcBtn.innerHTML = "VLC";
-      vlcBtn.onclick = (e) => {
-        e.stopPropagation();
-        openInVLC(canal.url);
-      };
-      item.appendChild(vlcBtn);
+      // Botón VLC eliminado (ya no se muestra)
       item.onclick = () => playUrl(canal.url);
       rightPanel.appendChild(item);
     });
-  }
-
-  function mostrarError(msg, recargar = true) {
-    menuContainer.innerHTML = `<div class="empty-msg">${msg}</div>`;
-    if (recargar) {
-      const retry = document.createElement("button");
-      retry.className = "menu-btn";
-      retry.innerText = "Reintentar";
-      retry.onclick = () => cargarLista();
-      menuContainer.appendChild(retry);
-    }
-  }
-  function mostrarMensaje(msg) {
-    const div = document.createElement("div");
-    div.style.position = "fixed";
-    div.style.bottom = "20px";
-    div.style.left = "50%";
-    div.style.transform = "translateX(-50%)";
-    div.style.background = "#222";
-    div.style.padding = "6px 15px";
-    div.style.borderRadius = "30px";
-    div.style.fontSize = "0.8rem";
-    div.style.zIndex = "1000";
-    div.innerText = msg;
-    document.body.appendChild(div);
-    setTimeout(() => div.remove(), 2000);
   }
 
   // ========== CARGA DE LISTA M3U ==========
@@ -526,6 +481,7 @@
       })
       .then(data => {
         categorias = {};
+        todosCanales = [];
         const lines = data.split("\n");
         let currentName = "", currentGroup = "Otros", currentLogo = null;
         for (let i = 0; i < lines.length; i++) {
@@ -541,21 +497,24 @@
             const canal = { nombre: currentName, url: line, logo: currentLogo };
             if (!categorias[currentGroup]) categorias[currentGroup] = [];
             categorias[currentGroup].push(canal);
+            todosCanales.push(canal);  // lista completa
           }
         }
         if (Object.keys(categorias).length === 0) throw new Error("No canales");
         renderPrincipal();
         renderFavBar();
+        renderRightPanel();   // muestra todos los canales
+        // Seleccionar primera categoría y primer canal para reproducción automática
         const primeras = Object.keys(categorias);
         if (primeras.length) {
           const primeraCat = primeras[0];
           canalesActuales = categorias[primeraCat] || [];
-          renderRightPanel();
           if (canalesActuales.length) playUrl(canalesActuales[0].url);
         }
       })
       .catch(err => {
         console.error(err);
+        // Datos de ejemplo para que no quede vacío
         categorias = {
           "CINE PREMIUM": [
             { nombre: "Demo 1", url: "https://sample-videos.com/video123/mp4/720/big_buck_bunny_720p_1mb.mp4", logo: null },
@@ -565,30 +524,46 @@
             { nombre: "Canal Arg", url: "https://sample-videos.com/video123/mp4/720/big_buck_bunny_720p_1mb.mp4", logo: null }
           ]
         };
+        todosCanales = [];
+        Object.values(categorias).forEach(arr => todosCanales.push(...arr));
         renderPrincipal();
         renderFavBar();
+        renderRightPanel();
         const primeras = Object.keys(categorias);
         if (primeras.length) {
           canalesActuales = categorias[primeras[0]];
-          renderRightPanel();
           if (canalesActuales.length) playUrl(canalesActuales[0].url);
         }
-        mostrarError("Usando canales de ejemplo (sin conexión remota)", false);
+        mostrarMensaje("Usando canales de ejemplo (sin conexión remota)");
       });
   }
 
-  // ========== CONTROLES ==========
+  function mostrarMensaje(msg) {
+    const div = document.createElement("div");
+    div.style.position = "fixed";
+    div.style.bottom = "20px";
+    div.style.left = "50%";
+    div.style.transform = "translateX(-50%)";
+    div.style.background = "rgba(0,0,0,0.7)";
+    div.style.padding = "6px 15px";
+    div.style.borderRadius = "30px";
+    div.style.fontSize = "0.7rem";
+    div.style.zIndex = "1000";
+    div.innerText = msg;
+    document.body.appendChild(div);
+    setTimeout(() => div.remove(), 2000);
+  }
+
+  // ========== CONTROL DE PANELES Y FULLSCREEN ==========
   function toggleLeft() {
     leftPanel.classList.toggle("oculto");
-    toggleLeftBtn.innerText = leftPanel.classList.contains("oculto") ? "◀ Mostrar" : "◀ Menú";
   }
   function toggleRight() {
     rightPanel.classList.toggle("oculto");
-    toggleRightBtn.innerText = rightPanel.classList.contains("oculto") ? "Mostrar ▶" : "Canales ▶";
   }
   function toggleFullscreen() {
     if (!fullscreenActive) {
-      document.documentElement.requestFullscreen();
+      document.documentElement.requestFullscreen().catch(e=>console.log);
       fullscreenActive = true;
     } else {
       document.exitFullscreen();
@@ -599,31 +574,33 @@
   toggleLeftBtn.onclick = toggleLeft;
   toggleRightBtn.onclick = toggleRight;
   fullscreenBtn.onclick = toggleFullscreen;
-  openInVlcBtn.onclick = () => { if (video.src) openInVLC(video.src); };
 
-  // Cambiar canal
+  // Cambiar canal (anterior/siguiente) usando la lista completa de todos los canales
   function cambiarCanal(delta) {
-    if (!canalesActuales.length) return;
+    if (!todosCanales.length) return;
     let currentUrl = video.src;
-    let idx = canalesActuales.findIndex(c => c.url === currentUrl);
+    let idx = todosCanales.findIndex(c => c.url === currentUrl);
     if (idx === -1) idx = 0;
     let newIdx = idx + delta;
-    if (newIdx < 0) newIdx = canalesActuales.length - 1;
-    if (newIdx >= canalesActuales.length) newIdx = 0;
-    playUrl(canalesActuales[newIdx].url);
+    if (newIdx < 0) newIdx = todosCanales.length - 1;
+    if (newIdx >= todosCanales.length) newIdx = 0;
+    playUrl(todosCanales[newIdx].url);
   }
 
-  // Teclado
+  // ========== TECLADO / CONTROL REMOTO ==========
   document.addEventListener("keydown", (e) => {
     const key = e.key;
+    // En pantalla completa: flechas arriba/abajo cambian canal
     if (fullscreenActive) {
       if (key === "ArrowUp") { e.preventDefault(); cambiarCanal(-1); return; }
       if (key === "ArrowDown") { e.preventDefault(); cambiarCanal(1); return; }
     }
+    // Fuera de fullscreen: flechas izquierda/derecha para paneles
     if (!fullscreenActive) {
       if (key === "ArrowLeft") { e.preventDefault(); toggleLeft(); return; }
       if (key === "ArrowRight") { e.preventDefault(); toggleRight(); return; }
     }
+    // Tecla Atrás (Backspace) para retroceder en el menú o salir de fullscreen
     if (key === "Escape" || key === "Backspace") {
       e.preventDefault();
       if (fullscreenActive) toggleFullscreen();
@@ -634,6 +611,7 @@
       }
       return;
     }
+    // Doble clic en Enter para fullscreen
     if (key === "Enter") {
       if (doubleClickTimer === null) {
         doubleClickTimer = setTimeout(() => {
@@ -649,6 +627,7 @@
       }
       return;
     }
+    // Navegación por flechas arriba/abajo entre elementos (cuando no fullscreen)
     if (!fullscreenActive) {
       const focusable = document.querySelectorAll('[tabindex="0"], .menu-btn, .cat-btn, .channel-menu-btn, .channel-item, .fav-chip');
       let current = document.activeElement;
@@ -679,19 +658,8 @@
     }
   });
 
+  // Iniciar
   cargarLista();
 </script>
 </body>
 </html>
-
-
-
-
-
-
-
-
-
-
-
-
