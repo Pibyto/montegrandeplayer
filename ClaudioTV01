@@ -30,6 +30,10 @@
 
 
 
+#EXTINF:-1 tvg-logo="https://tinyurl.com/2hy6uu5x"group-title="CINE PREMIUM",MONTE GRANDE TV
+https://live20.bozztv.com/akamaissh101/ssh101/montegrandetv/chunks.m3u8
+
+
 #EXTINF:-1 tvg-logo="https://cdn.phototourl.com/free/2026-04-19-5fe2ce6c-9242-4b39-b719-547e682cd68c.png"group-title="CINE PREMIUM",+CINE
 http://190.102.242.130:25461/tpowercine/123456/31
 
@@ -37,9 +41,6 @@ http://190.102.242.130:25461/tpowercine/123456/31
 #EXTINF:-1 tvg-logo="https://cdn.phototourl.com/free/2026-04-19-220156c8-2e18-4706-a57b-3b8d691d71d4.png"group-title="CINE PREMIUM",+CINE CLASSIC
 http://190.102.242.130:25461/cineclasiipowe/1234/143
 
-
-#EXTINF:-1 tvg-logo="https://tinyurl.com/2hy6uu5x"group-title="CINE PREMIUM",MONTEGRANDETV
-https://live20.bozztv.com/akamaissh101/ssh101/montegrandetv/chunks.m3u8
 
 
 #EXTINF:-1 tvg-logo="https://cdn.phototourl.com/free/2026-04-19-1558b1a7-6e3f-40b1-ada0-f106ff98c48b.png"group-title="CINE PREMIUM",+CINE FAMILY
