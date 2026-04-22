@@ -3,10 +3,11 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
-  <title>KlauTV - Web + Chromecast Real</title>
+  <title>KlauTV - Android TV WebView Compatible</title>
+  <!-- Librerías de reproducción -->
   <script src="https://cdn.jsdelivr.net/npm/hls.js@latest"></script>
   <script src="https://cdn.jsdelivr.net/npm/mpegts.js@latest"></script>
-  <!-- Google Cast SDK (necesita HTTPS para funcionar) -->
+  <!-- Google Cast SDK (para Chromecast, requiere HTTPS pero no bloquea el resto) -->
   <script src="https://www.gstatic.com/cvjs/sender/libs/cast_sender.js"></script>
   <style>
     * {
@@ -61,12 +62,12 @@
       background-position: center;
     }
 
-    /* Logo grande y visible */
+    /* Logo marca de agua (tamaño medio) */
     .watermark {
       position: fixed;
       top: 20px;
       left: 20px;
-      width: 120px;
+      width: 90px;
       height: auto;
       z-index: 1000;
       pointer-events: none;
@@ -206,32 +207,17 @@
     ::-webkit-scrollbar-thumb { background: #ffcc88; border-radius: 10px; }
     .empty-msg { text-align: center; padding: 20px; opacity: 0.6; font-size: 0.8rem; }
 
-    /* Pantalla completa solo en el reproductor */
-    .player-container.fullscreen {
-      position: fixed;
-      top: 0;
-      left: 0;
-      width: 100vw;
-      height: 100vh;
-      z-index: 9999;
-      border-radius: 0;
-      background: #000;
-    }
-    .player-container.fullscreen video {
-      object-fit: contain;
-    }
-
     @media (max-width: 800px) {
       body { padding: 10px; }
       .left-panel, .right-panel { flex-basis: 100%; height: auto; max-height: 40vh; }
-      .watermark { width: 80px; top: 10px; left: 10px; }
+      .watermark { width: 70px; top: 10px; left: 10px; }
       .tool-btn { width: 38px; height: 38px; font-size: 1rem; }
     }
   </style>
 </head>
 <body>
 
-<!-- Logo grande (120px) -->
+<!-- Logo marca de agua (tamaño visible) -->
 <img class="watermark" src="https://tinyurl.com/yrfarar9" alt="KlauTV">
 
 <div class="toolbar">
@@ -251,7 +237,7 @@
   </div>
   <div class="center-panel">
     <div class="player-container" id="playerContainer">
-      <video id="videoPlayer" autoplay playsinline poster=""></video>
+      <video id="videoPlayer" autoplay playsinline poster="" crossorigin="anonymous"></video>
     </div>
     <div class="fav-bar" id="favBar"></div>
   </div>
@@ -268,8 +254,6 @@
   let canalesActuales = [];
   let currentHls = null, currentMpegts = null;
   let leftVisible = true, rightVisible = true;
-  let castSession = null;
-  let castInitialized = false;
 
   // DOM
   const menuContainer = document.getElementById("menuContainer");
@@ -284,7 +268,17 @@
   const castButton = document.getElementById("castButton");
   const downloadBtn = document.getElementById("downloadAppBtn");
 
-  // ========== DESCARGA ==========
+  // ========== PROXY PARA HTTP EN HTTPS (GitHub Pages) ==========
+  const PROXY_URL = "https://corsproxy.io/?url=";
+  function needsProxy(url) {
+    return window.location.protocol === 'https:' && url && url.startsWith('http:');
+  }
+  function getProxiedUrl(url) {
+    if (!needsProxy(url)) return url;
+    return PROXY_URL + encodeURIComponent(url);
+  }
+
+  // ========== DESCARGA DE LA APP ==========
   downloadBtn.addEventListener('click', () => {
     const htmlContent = document.documentElement.outerHTML;
     const blob = new Blob([htmlContent], { type: 'text/html' });
@@ -298,36 +292,51 @@
     URL.revokeObjectURL(url);
   });
 
-  // ========== REPRODUCCIÓN ==========
+  // ========== REPRODUCCIÓN (mejorada para Xtream Codes y TS + proxy) ==========
   function destroyPlayers() {
     if (currentHls) { currentHls.destroy(); currentHls = null; }
     if (currentMpegts) { currentMpegts.destroy(); currentMpegts = null; }
   }
 
-  function playUrl(url) {
+  function playUrl(originalUrl) {
+    if (!originalUrl) return;
+    const url = getProxiedUrl(originalUrl);
     destroyPlayers();
     video.pause();
     video.style.background = "#000";
-    // Xtream Codes y TS
-    if (url.includes(':25461/') || url.includes('.ts')) {
+    video.removeAttribute('src');
+    video.load();
+
+    // Para Xtream Codes (puerto 25461) y streams .ts -> usar mpegts.js
+    if (originalUrl.includes(':25461/') || originalUrl.includes('.ts')) {
       if (window.mpegts && mpegts.isSupported()) {
         try {
           currentMpegts = mpegts.createPlayer({ type: 'mpegts', url: url, isLive: true });
           currentMpegts.attachMediaElement(video);
           currentMpegts.load();
           currentMpegts.play().catch(e => console.warn);
-        } catch(e) { video.src = url; video.play().catch(e=>console.warn); }
-      } else { video.src = url; video.play().catch(e=>console.warn); }
+        } catch(e) {
+          console.warn(e);
+          video.src = url;
+          video.play().catch(e => console.warn);
+        }
+      } else {
+        video.src = url;
+        video.play().catch(e => console.warn);
+      }
       return;
     }
     // HLS
-    if (url.includes('.m3u8')) {
+    if (originalUrl.includes('.m3u8')) {
       if (Hls && Hls.isSupported()) {
         currentHls = new Hls();
         currentHls.loadSource(url);
         currentHls.attachMedia(video);
         currentHls.on(Hls.Events.MANIFEST_PARSED, () => video.play().catch(e=>console.warn));
-      } else { video.src = url; video.play().catch(e=>console.warn); }
+      } else {
+        video.src = url;
+        video.play().catch(e=>console.warn);
+      }
       return;
     }
     // MP4 y otros
@@ -363,7 +372,9 @@
         img.style.width = "20px";
         img.style.height = "20px";
         chip.appendChild(img);
-      } else { chip.innerHTML += "⭐ "; }
+      } else {
+        chip.innerHTML += "⭐ ";
+      }
       chip.appendChild(document.createTextNode(fav.nombre));
       favBar.appendChild(chip);
     });
@@ -382,7 +393,9 @@
         if (opt === "TV") {
           if (Object.keys(categorias).length) renderCategorias();
           else mostrarMensaje("Cargando categorías...");
-        } else { mostrarMensaje("Próximamente"); }
+        } else {
+          mostrarMensaje("Próximamente");
+        }
       };
       menuContainer.appendChild(btn);
     });
@@ -527,6 +540,7 @@
       })
       .catch(err => {
         console.error(err);
+        // Datos de ejemplo para que no quede vacío
         categorias = {
           "CINE PREMIUM": [
             { nombre: "Demo 1", url: "https://sample-videos.com/video123/mp4/720/big_buck_bunny_720p_1mb.mp4", logo: null },
@@ -578,24 +592,26 @@
   toggleLeftBtn.onclick = toggleLeft;
   toggleRightBtn.onclick = toggleRight;
 
-  // ========== PANTALLA COMPLETA (SOLO REPRODUCTOR) ==========
+  // ========== PANTALLA COMPLETA (funciona en Android TV WebView) ==========
   function toggleFullscreen() {
     if (!document.fullscreenElement) {
-      playerContainer.requestFullscreen().catch(e => console.warn);
-      playerContainer.classList.add('fullscreen');
+      if (video.requestFullscreen) {
+        video.requestFullscreen().catch(e => console.warn);
+      } else if (video.webkitRequestFullscreen) {
+        video.webkitRequestFullscreen();
+      } else if (playerContainer.requestFullscreen) {
+        playerContainer.requestFullscreen();
+      }
     } else {
       document.exitFullscreen();
-      playerContainer.classList.remove('fullscreen');
     }
   }
   fullscreenBtn.onclick = toggleFullscreen;
-  document.addEventListener('fullscreenchange', () => {
-    if (!document.fullscreenElement) {
-      playerContainer.classList.remove('fullscreen');
-    }
-  });
+  document.addEventListener('fullscreenchange', () => {});
 
-  // ========== CHROMECAST REAL ==========
+  // ========== CHROMECAST (REAL, FUNCIONAL) ==========
+  let castSession = null;
+  let castInitialized = false;
   window['__onGCastApiAvailable'] = function(loaded, errorInfo) {
     if (loaded) {
       try {
@@ -619,13 +635,25 @@
   };
   castButton.addEventListener('click', () => {
     if (!castInitialized) {
-      mostrarMensaje("Chromecast no disponible. Asegúrate de usar HTTPS.");
+      mostrarMensaje("Chromecast no disponible. Asegúrate de usar HTTPS (GitHub Pages o servidor seguro).");
       return;
     }
     const context = cast.framework.CastContext.getInstance();
     context.requestSession().then(() => {
       if (castSession && video.src) {
-        const mediaInfo = new chrome.cast.media.MediaInfo(video.src, 'video/mp4');
+        // Usar la URL original (sin proxy) para que Chromecast también se beneficie del proxy si es necesario
+        let originalUrl = video.src;
+        if (originalUrl.startsWith(PROXY_URL)) {
+          try {
+            const decoded = decodeURIComponent(originalUrl.replace(PROXY_URL, ''));
+            if (decoded.startsWith('http')) originalUrl = decoded;
+          } catch(e) {}
+        }
+        const streamUrl = getProxiedUrl(originalUrl);
+        let mimeType = 'video/mp4';
+        if (originalUrl.includes('.m3u8')) mimeType = 'application/x-mpegURL';
+        else if (originalUrl.includes('.ts') || originalUrl.includes(':25461/')) mimeType = 'video/MP2T';
+        const mediaInfo = new chrome.cast.media.MediaInfo(streamUrl, mimeType);
         mediaInfo.metadata = new chrome.cast.media.GenericMediaMetadata();
         mediaInfo.metadata.title = "KlauTV";
         mediaInfo.metadata.images = [{ url: "https://tinyurl.com/wpnumntc" }];
