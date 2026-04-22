@@ -3,80 +3,168 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
-  <title>KlauTV - TV y Web</title>
+  <title>KlauTV - Android TV</title>
   <script src="https://cdn.jsdelivr.net/npm/hls.js@latest"></script>
   <script src="https://cdn.jsdelivr.net/npm/mpegts.js@latest"></script>
   <style>
-    * { margin: 0; padding: 0; box-sizing: border-box; }
-    body { background: #0a0a0f; font-family: 'Segoe UI', system-ui; color: #eee; min-height: 100vh; padding: 15px; }
-    :focus { outline: none !important; }
-    /* Barra de herramientas */
+    * { margin: 0; padding: 0; box-sizing: border-box; user-select: none; }
+    body {
+      background: #0a0a0f;
+      font-family: 'Segoe UI', system-ui;
+      color: #eee;
+      min-height: 100vh;
+      padding: 15px;
+    }
+    :focus { outline: none; }
+    /* Barra de herramientas minimalista */
     .toolbar {
-      display: flex; flex-wrap: wrap; gap: 8px; justify-content: flex-end;
-      margin-bottom: 12px; max-width: 1400px; margin-left: auto; margin-right: auto;
+      display: flex;
+      gap: 10px;
+      justify-content: flex-end;
+      margin-bottom: 12px;
+      max-width: 1400px;
+      margin-left: auto;
+      margin-right: auto;
     }
     .tool-btn {
-      background: rgba(0,0,0,0.5); border: none; color: white; width: 40px; height: 40px;
-      border-radius: 40px; cursor: pointer; font-size: 1.2rem; display: inline-flex;
-      align-items: center; justify-content: center; transition: 0.1s; backdrop-filter: blur(4px);
+      background: rgba(0,0,0,0.5);
+      border: none;
+      color: white;
+      width: 42px;
+      height: 42px;
+      border-radius: 42px;
+      font-size: 1.3rem;
+      cursor: pointer;
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      backdrop-filter: blur(4px);
     }
-    .tool-btn:hover, .tool-btn:focus { background: rgba(255,255,255,0.2); }
-    /* Contenedor principal */
-    .app { display: flex; flex-wrap: wrap; gap: 12px; max-width: 1400px; margin: 0 auto; }
+    .tool-btn:focus { background: rgba(255,255,255,0.3); }
+    /* Layout principal */
+    .app {
+      display: flex;
+      gap: 12px;
+      max-width: 1400px;
+      margin: 0 auto;
+    }
     /* Paneles laterales */
     .left-panel, .right-panel {
-      background: rgba(0,0,0,0.5); backdrop-filter: blur(8px); border-radius: 20px;
-      padding: 15px 10px; height: calc(100vh - 100px); overflow-y: auto;
-      border: none; transition: all 0.2s;
+      background: rgba(0,0,0,0.5);
+      backdrop-filter: blur(8px);
+      border-radius: 20px;
+      padding: 15px 10px;
+      height: calc(100vh - 100px);
+      overflow-y: auto;
+      transition: all 0.2s;
     }
     .left-panel { flex: 0 0 240px; }
     .right-panel { flex: 0 0 280px; }
-    .left-panel.oculto, .right-panel.oculto { flex: 0 0 0; padding: 0; overflow: hidden; }
+    .left-panel.oculto, .right-panel.oculto {
+      flex: 0 0 0;
+      padding: 0;
+      overflow: hidden;
+    }
     /* Área central */
-    .center-panel { flex: 1; min-width: 260px; display: flex; flex-direction: column; gap: 12px; }
-    .player-container { background: #000; border-radius: 20px; overflow: hidden; aspect-ratio: 16 / 9; width: 100%; box-shadow: 0 5px 20px rgba(0,0,0,0.5); }
-    video { width: 100%; height: 100%; object-fit: contain; background: #000; }
+    .center-panel {
+      flex: 1;
+      min-width: 260px;
+      display: flex;
+      flex-direction: column;
+      gap: 12px;
+    }
+    .player-container {
+      background: #000;
+      border-radius: 20px;
+      overflow: hidden;
+      aspect-ratio: 16 / 9;
+      width: 100%;
+      box-shadow: 0 5px 20px rgba(0,0,0,0.5);
+    }
+    video {
+      width: 100%;
+      height: 100%;
+      object-fit: contain;
+      background: #000;
+    }
     video::-webkit-media-controls { display: none !important; }
-    /* Favoritos */
+    /* Barra de favoritos */
     .fav-bar {
-      background: rgba(0,0,0,0.4); backdrop-filter: blur(8px); padding: 6px 10px;
-      border-radius: 40px; display: flex; gap: 8px; overflow-x: auto; white-space: nowrap;
+      background: rgba(0,0,0,0.4);
+      backdrop-filter: blur(8px);
+      padding: 6px 10px;
+      border-radius: 40px;
+      display: flex;
+      gap: 8px;
+      overflow-x: auto;
     }
     .fav-chip {
-      background: rgba(255,255,255,0.1); padding: 4px 12px; border-radius: 30px;
-      display: inline-flex; align-items: center; gap: 6px; font-size: 0.7rem; cursor: pointer;
+      background: rgba(255,255,255,0.1);
+      padding: 4px 12px;
+      border-radius: 30px;
+      font-size: 0.7rem;
+      cursor: pointer;
+      white-space: nowrap;
     }
-    /* Menús izquierdo */
+    /* Menú izquierdo */
     .menu-list { display: flex; flex-direction: column; gap: 6px; }
     .menu-btn, .cat-btn, .channel-menu-btn {
-      background: rgba(30,30,40,0.5); border: none; color: #ccc; font-size: 0.85rem;
-      padding: 8px 12px; border-radius: 14px; text-align: left; cursor: pointer;
-      width: 100%; transition: 0.1s;
+      background: rgba(30,30,40,0.5);
+      border: none;
+      color: #ccc;
+      font-size: 0.85rem;
+      padding: 8px 12px;
+      border-radius: 14px;
+      text-align: left;
+      cursor: pointer;
+      width: 100%;
+      transition: 0.1s;
     }
-    .menu-btn:hover, .cat-btn:hover, .channel-menu-btn:hover,
     .menu-btn:focus, .cat-btn:focus, .channel-menu-btn:focus {
-      background: rgba(255,255,255,0.15); color: #ffdd99;
+      background: rgba(255,255,255,0.2);
+      color: #ffdd99;
     }
-    .back-btn { background: rgba(50,50,60,0.6); color: #ffdd99; margin-bottom: 10px; }
-    /* Panel derecho: canales */
+    .back-btn {
+      background: rgba(50,50,60,0.6);
+      color: #ffdd99;
+      margin-bottom: 10px;
+    }
+    /* Panel derecho (todos los canales) */
     .channel-item {
-      display: flex; align-items: center; gap: 10px;
-      background: rgba(25,25,35,0.5); margin-bottom: 6px; padding: 6px 8px;
-      border-radius: 14px; cursor: pointer; transition: 0.1s;
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      background: rgba(25,25,35,0.5);
+      margin-bottom: 6px;
+      padding: 6px 8px;
+      border-radius: 14px;
+      cursor: pointer;
     }
-    .channel-item:hover, .channel-item:focus { background: rgba(255,255,255,0.1); }
-    .channel-logo { width: 32px; height: 32px; object-fit: contain; border-radius: 6px; }
-    .channel-name { flex: 1; font-size: 0.75rem; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+    .channel-item:focus {
+      background: rgba(255,255,255,0.15);
+    }
+    .channel-logo {
+      width: 32px;
+      height: 32px;
+      object-fit: contain;
+      border-radius: 6px;
+    }
+    .channel-name {
+      flex: 1;
+      font-size: 0.75rem;
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
+    }
     .fav-star {
-      background: none; border: none; color: #aaa; font-size: 1rem; cursor: pointer; width: 24px;
+      background: none;
+      border: none;
+      color: #aaa;
+      font-size: 1rem;
+      cursor: pointer;
+      width: 24px;
     }
     .fav-star.active { color: #ffcc88; }
-    /* Botón VLC al lado del canal */
-    .vlc-channel {
-      background: none; border: none; color: #88ccff; font-size: 0.7rem;
-      cursor: pointer; margin-left: 4px; padding: 2px 6px; border-radius: 20px;
-    }
-    .vlc-channel:hover, .vlc-channel:focus { background: rgba(255,255,255,0.2); }
     /* Scroll */
     ::-webkit-scrollbar { width: 4px; }
     ::-webkit-scrollbar-track { background: #1e1e2a; }
@@ -92,7 +180,7 @@
 <body>
 <div class="toolbar">
   <button class="tool-btn" id="toggleLeftBtn" title="Menú categorías">☰</button>
-  <button class="tool-btn" id="toggleRightBtn" title="Lista canales">▶</button>
+  <button class="tool-btn" id="toggleRightBtn" title="Todos los canales">▶</button>
   <button class="tool-btn" id="fullscreenBtn" title="Pantalla completa">⛶</button>
 </div>
 <div class="app">
@@ -112,16 +200,18 @@
 </div>
 
 <script>
+  // ==================== CONFIGURACIÓN ====================
   const M3U_URL = "https://tinyurl.com/2n2etx65";
   let categorias = {};
-  let todosCanales = [];
+  let todosCanales = [];         // lista plana (orden original)
   let favoritos = JSON.parse(localStorage.getItem("klautv_favs")) || [];
-  let nivel = "principal";     // principal, categorias, canales
-  let canalesActuales = [];
+  let nivel = "principal";       // principal, categorias, canales
+  let canalesActuales = [];      // canales de la categoría seleccionada
   let currentHls = null, currentMpegts = null;
   let fullscreenActive = false;
   let doubleClickTimer = null;
 
+  // Elementos DOM
   const menuContainer = document.getElementById("menuContainer");
   const rightPanel = document.getElementById("rightPanel");
   const leftPanel = document.getElementById("leftPanel");
@@ -131,64 +221,52 @@
   const toggleRightBtn = document.getElementById("toggleRightBtn");
   const fullscreenBtn = document.getElementById("fullscreenBtn");
 
-  // ========== VLC RÁPIDO (intent directo para Xtream Codes y otros) ==========
-  function openInVLC(url) {
-    // Para Android TV, este intent funciona instantáneamente si VLC está instalado
-    const intentUrl = `intent://${url.replace(/^https?:\/\//, '')}#Intent;package=org.videolan.vlc;scheme=http;end;`;
-    window.location.href = intentUrl;
-  }
-
-  // ========== REPRODUCCIÓN (con detección de Xtream Codes y fallback a VLC) ==========
+  // ========== REPRODUCCIÓN OPTIMIZADA (soporta Xtream Codes sin VLC) ==========
   function destroyPlayers() {
     if (currentHls) { currentHls.destroy(); currentHls = null; }
     if (currentMpegts) { currentMpegts.destroy(); currentMpegts = null; }
   }
 
   function playUrl(url) {
-    // Para formatos MKV/AVI directo a VLC
-    if (/\.(mkv|avi|mov|wmv|flv|webm)$/i.test(url)) {
-      openInVLC(url);
-      return;
-    }
-    // Para Xtream Codes o URLs sin extensión que el navegador no soporta -> VLC
-    if (url.includes(':25461/') || (!url.includes('.m3u8') && !url.includes('.ts') && !url.includes('.mp4'))) {
-      openInVLC(url);
-      return;
-    }
     destroyPlayers();
     video.pause();
     video.style.background = "#000";
+    // 1. Para Xtream Codes (puerto 25461) o streams .ts -> usar mpegts.js
+    if (url.includes(':25461/') || url.includes('.ts')) {
+      if (window.mpegts && mpegts.isSupported()) {
+        currentMpegts = mpegts.createPlayer({ type: 'mpegts', url: url, isLive: true });
+        currentMpegts.attachMediaElement(video);
+        currentMpegts.load();
+        currentMpegts.play().catch(e => console.warn);
+      } else {
+        video.src = url;
+        video.play().catch(e => console.warn);
+      }
+      return;
+    }
+    // 2. HLS
     if (url.includes('.m3u8')) {
       if (Hls && Hls.isSupported()) {
         currentHls = new Hls();
         currentHls.loadSource(url);
         currentHls.attachMedia(video);
-        currentHls.on(Hls.Events.MANIFEST_PARSED, () => video.play().catch(e=>console.log));
+        currentHls.on(Hls.Events.MANIFEST_PARSED, () => video.play().catch(e=>console.warn));
       } else {
         video.src = url;
-        video.play().catch(e=>console.log);
+        video.play().catch(e=>console.warn);
       }
-    } else if (url.includes('.ts') || url.includes(':25461/')) {
-      if (window.mpegts && mpegts.isSupported()) {
-        currentMpegts = mpegts.createPlayer({ type: 'mpegts', url: url, isLive: true });
-        currentMpegts.attachMediaElement(video);
-        currentMpegts.load();
-        currentMpegts.play().catch(e=>console.log);
-      } else {
-        video.src = url;
-        video.play().catch(e=>console.log);
-      }
-    } else {
-      video.src = url;
-      video.play().catch(e=>console.log);
+      return;
     }
+    // 3. MP4 y otros nativos
+    video.src = url;
+    video.play().catch(e => console.warn);
   }
 
   // ========== FAVORITOS ==========
   function saveFavs() {
     localStorage.setItem("klautv_favs", JSON.stringify(favoritos));
     renderFavBar();
-    renderRightPanel();
+    renderRightPanel();  // actualiza estrellas
   }
   function toggleFav(canal) {
     const exists = favoritos.some(f => f.url === canal.url);
@@ -241,6 +319,7 @@
       };
       menuContainer.appendChild(btn);
     });
+    // Enfocar el primer botón para que el control remoto pueda navegar
     if (menuContainer.firstChild) menuContainer.firstChild.focus();
   }
 
@@ -254,7 +333,7 @@
     backBtn.tabIndex = 0;
     backBtn.onclick = () => renderPrincipal();
     menuContainer.appendChild(backBtn);
-    if (!cats.length) {
+    if (cats.length === 0) {
       const msg = document.createElement("div");
       msg.className = "empty-msg";
       msg.innerText = "No hay categorías";
@@ -269,11 +348,12 @@
       btn.onclick = () => {
         canalesActuales = categorias[cat] || [];
         nivel = "canales";
-        renderCanalesEnMenu();
+        renderCanalesEnMenu();   // actualiza menú izquierdo con los canales de esa categoría
         if (canalesActuales.length) playUrl(canalesActuales[0].url);
       };
       menuContainer.appendChild(btn);
     });
+    // Enfocar la primera categoría
     const firstCat = menuContainer.querySelector('.cat-btn');
     if (firstCat) firstCat.focus();
     else if (backBtn) backBtn.focus();
@@ -310,7 +390,7 @@
     else if (backBtn) backBtn.focus();
   }
 
-  // ========== PANEL DERECHO: TODOS LOS CANALES (ORDEN ORIGINAL) CON BOTÓN VLC ==========
+  // ========== PANEL DERECHO: TODOS LOS CANALES (ORDEN ORIGINAL, SIN BOTONES VLC) ==========
   function renderRightPanel() {
     rightPanel.innerHTML = "";
     if (!todosCanales.length) {
@@ -349,19 +429,10 @@
         toggleFav(canal);
       };
       item.appendChild(favBtn);
-      // Botón VLC junto a cada canal (solo para abrir en VLC)
-      const vlcBtn = document.createElement("button");
-      vlcBtn.className = "vlc-channel";
-      vlcBtn.innerHTML = "VLC";
-      vlcBtn.tabIndex = 0;
-      vlcBtn.onclick = (e) => {
-        e.stopPropagation();
-        openInVLC(canal.url);
-      };
-      item.appendChild(vlcBtn);
       item.onclick = () => playUrl(canal.url);
       rightPanel.appendChild(item);
     });
+    // Enfocar el primer canal para facilitar navegación con flechas
     const firstChannel = rightPanel.querySelector('.channel-item');
     if (firstChannel) firstChannel.focus();
   }
@@ -408,6 +479,7 @@
       })
       .catch(err => {
         console.error(err);
+        // Fallback de ejemplo
         categorias = {
           "CINE PREMIUM": [
             { nombre: "Demo 1", url: "https://sample-videos.com/video123/mp4/720/big_buck_bunny_720p_1mb.mp4", logo: null },
@@ -447,7 +519,7 @@
     setTimeout(() => div.remove(), 2000);
   }
 
-  // ========== CONTROLES DE PANEL Y FULLSCREEN ==========
+  // ========== CONTROL DE PANELES Y FULLSCREEN ==========
   function toggleLeft() { leftPanel.classList.toggle("oculto"); }
   function toggleRight() { rightPanel.classList.toggle("oculto"); }
   function toggleFullscreen() {
@@ -464,6 +536,7 @@
   toggleRightBtn.onclick = toggleRight;
   fullscreenBtn.onclick = toggleFullscreen;
 
+  // Cambio de canal (siguiente/anterior) usando TODOS los canales (lista plana)
   function cambiarCanal(delta) {
     if (!todosCanales.length) return;
     let currentUrl = video.src;
@@ -475,17 +548,20 @@
     playUrl(todosCanales[newIdx].url);
   }
 
-  // ========== CONTROL REMOTO COMPLETO ==========
+  // ========== CONTROL REMOTO OPTIMIZADO PARA ANDROID TV ==========
   document.addEventListener("keydown", (e) => {
     const key = e.key;
+    // En pantalla completa: flechas arriba/abajo cambian canal (inmediato, sin doble clic)
     if (fullscreenActive) {
       if (key === "ArrowUp") { e.preventDefault(); cambiarCanal(-1); return; }
       if (key === "ArrowDown") { e.preventDefault(); cambiarCanal(1); return; }
     }
+    // Fuera de pantalla completa: flechas izquierda/derecha para paneles
     if (!fullscreenActive) {
       if (key === "ArrowLeft") { e.preventDefault(); toggleLeft(); return; }
       if (key === "ArrowRight") { e.preventDefault(); toggleRight(); return; }
     }
+    // Tecla Atrás (Backspace) para retroceder en el menú o salir de fullscreen
     if (key === "Escape" || key === "Backspace") {
       e.preventDefault();
       if (fullscreenActive) toggleFullscreen();
@@ -496,6 +572,7 @@
       }
       return;
     }
+    // Doble clic en Enter para activar/desactivar pantalla completa
     if (key === "Enter") {
       if (doubleClickTimer === null) {
         doubleClickTimer = setTimeout(() => {
@@ -511,6 +588,7 @@
       }
       return;
     }
+    // Navegación por flechas arriba/abajo entre elementos enfocables (cuando no fullscreen)
     if (!fullscreenActive) {
       const focusable = document.querySelectorAll('[tabindex="0"], .menu-btn, .cat-btn, .channel-menu-btn, .channel-item, .fav-chip');
       let current = document.activeElement;
@@ -541,6 +619,7 @@
     }
   });
 
+  // Inicializar
   cargarLista();
 </script>
 </body>
