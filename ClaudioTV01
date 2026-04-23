@@ -599,14 +599,12 @@ http://201.217.246.42:44310/Live/3fcb6e26785fd8d415571b26dc3cf5d3/local-40_480.m
 http://201.217.246.42:44310/Live/3fcb6e26785fd8d415571b26dc3cf5d3/local-46_720.m3u8
 
 
-#EXTINF:-1 tvg-logo=""group-title="CINE PREMIUM",PAKAPAKA
-http://201.217.246.42:44310/Live/3fcb6e26785fd8d415571b26dc3cf5d3/local-36_400.m3u8
-
-#EXTINF:-1 tvg-logo=""group-title="CINE PREMIUM",ENCUENTRO 
-http://201.217.246.42:44310/Live/3fcb6e26785fd8d415571b26dc3cf5d3/local-19_480.m3u8
+#EXTINF:-1 tvg-logo=""group-title="CINE PREMIUM",NEXTV
+https://edge.enhdtv.com/nexthd/tracks-v1a1/mono.m3u8
 
 
-
+#EXTINF:-1 tvg-logo=""group-title="CINE PREMIUM",OPINIÓNSUR PELÍCULAS 
+https://live20.bozztv.com/giatv/giatv-opinionsurc/opinionsurc/chunks.m3u8
 
 
 
