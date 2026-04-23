@@ -3,159 +3,403 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
-  <title>KlaudTV - Android TV</title>
+  <title>KlauTV - Android TV WebView Compatible</title>
+  <!-- Librerías de reproducción -->
   <script src="https://cdn.jsdelivr.net/npm/hls.js@latest"></script>
   <script src="https://cdn.jsdelivr.net/npm/mpegts.js@latest"></script>
+  <!-- Google Cast SDK (para Chromecast) -->
+  <script src="https://www.gstatic.com/cvjs/sender/libs/cast_sender.js"></script>
   <style>
-    *{margin:0;padding:0;box-sizing:border-box;}
-    body{background:#0a0a0f;font-family:'Segoe UI',sans-serif;color:#eee;min-height:100vh;padding:15px;}
-    .toolbar{display:flex;gap:12px;justify-content:flex-end;margin-bottom:15px;max-width:1400px;margin:0 auto 15px auto;}
-    .tool-btn{background:rgba(0,0,0,0.6);border:none;color:white;width:44px;height:44px;border-radius:44px;font-size:1.2rem;cursor:pointer;display:inline-flex;align-items:center;justify-content:center;transition:0.1s;}
-    .tool-btn:hover{background:rgba(255,255,255,0.2);}
-    .download-btn{background-image:url('https://tinyurl.com/4jkaxshw');background-size:60%;background-repeat:no-repeat;background-position:center;}
-    .watermark{position:fixed;top:20px;left:20px;width:90px;height:auto;z-index:1000;pointer-events:none;opacity:0.9;}
-    .app{display:flex;flex-wrap:wrap;gap:15px;max-width:1400px;margin:0 auto;}
-    .left-panel,.right-panel{background:rgba(0,0,0,0.5);backdrop-filter:blur(8px);border-radius:20px;padding:15px 10px;height:calc(100vh - 100px);overflow-y:auto;}
-    .left-panel{flex:0 0 240px;}
-    .right-panel{flex:0 0 280px;}
-    .center-panel{flex:1;min-width:260px;display:flex;flex-direction:column;gap:15px;}
-    .player-container{background:#000;border-radius:20px;overflow:hidden;aspect-ratio:16/9;width:100%;box-shadow:0 5px 20px rgba(0,0,0,0.5);position:relative;}
-    video{width:100%;height:100%;object-fit:contain;background:#000;}
-    video::-webkit-media-controls{display:none !important;}
-    .fav-bar{background:rgba(0,0,0,0.4);backdrop-filter:blur(8px);padding:8px 12px;border-radius:40px;display:flex;gap:10px;overflow-x:auto;white-space:nowrap;}
-    .fav-chip{background:rgba(255,255,255,0.1);padding:5px 14px;border-radius:30px;font-size:0.75rem;cursor:pointer;display:inline-flex;align-items:center;gap:6px;}
-    .fav-chip:hover{background:rgba(255,255,255,0.2);}
-    .menu-list{display:flex;flex-direction:column;gap:6px;}
-    .menu-btn,.cat-btn,.channel-menu-btn{background:rgba(30,30,40,0.6);border:none;color:#ccc;font-size:0.85rem;padding:10px 12px;border-radius:14px;text-align:left;cursor:pointer;width:100%;}
-    .menu-btn:hover,.cat-btn:hover,.channel-menu-btn:hover{background:rgba(255,255,255,0.15);color:#ffdd99;}
-    .back-btn{background:rgba(50,50,60,0.7);color:#ffdd99;margin-bottom:10px;}
-    .channel-item{display:flex;align-items:center;gap:10px;background:rgba(25,25,35,0.5);margin-bottom:6px;padding:8px 10px;border-radius:14px;cursor:pointer;}
-    .channel-item:hover{background:rgba(255,255,255,0.1);}
-    .channel-logo{width:32px;height:32px;object-fit:contain;border-radius:6px;}
-    .channel-name{flex:1;font-size:0.75rem;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;}
-    .fav-star{background:none;border:none;color:#aaa;font-size:1rem;cursor:pointer;width:28px;}
-    .fav-star.active{color:#ffcc88;}
-    ::-webkit-scrollbar{width:4px;}
-    ::-webkit-scrollbar-track{background:#1e1e2a;}
-    ::-webkit-scrollbar-thumb{background:#ffcc88;border-radius:10px;}
-    .empty-msg{text-align:center;padding:20px;opacity:0.6;font-size:0.8rem;}
-    @media (max-width:800px){body{padding:10px;}.left-panel,.right-panel{flex-basis:100%;height:auto;max-height:40vh;}.watermark{width:70px;top:10px;left:10px;}.tool-btn{width:38px;height:38px;font-size:1rem;}}
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    body {
+      background: #0a0a0f;
+      font-family: 'Segoe UI', system-ui, sans-serif;
+      color: #eee;
+      min-height: 100vh;
+      padding: 15px;
+    }
+    /* Barra de herramientas */
+    .toolbar {
+      display: flex;
+      gap: 12px;
+      justify-content: flex-end;
+      margin-bottom: 15px;
+      max-width: 1400px;
+      margin-left: auto;
+      margin-right: auto;
+    }
+    .tool-btn {
+      background: rgba(0,0,0,0.6);
+      border: none;
+      color: white;
+      width: 44px;
+      height: 44px;
+      border-radius: 44px;
+      font-size: 1.2rem;
+      cursor: pointer;
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      transition: 0.1s;
+    }
+    .tool-btn:hover {
+      background: rgba(255,255,255,0.2);
+    }
+    .download-btn {
+      background-image: url('https://tinyurl.com/4jkaxshw');
+      background-size: 60%;
+      background-repeat: no-repeat;
+      background-position: center;
+    }
+    .cast-btn {
+      background-image: url('https://tinyurl.com/3sv2wy92');
+      background-size: 60%;
+      background-repeat: no-repeat;
+      background-position: center;
+    }
+
+    /* Logo marca de agua */
+    .watermark {
+      position: fixed;
+      top: 20px;
+      left: 20px;
+      width: 90px;
+      height: auto;
+      z-index: 1000;
+      pointer-events: none;
+      opacity: 0.9;
+    }
+
+    /* Contenedor principal */
+    .app {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 15px;
+      max-width: 1400px;
+      margin: 0 auto;
+    }
+    .left-panel, .right-panel {
+      background: rgba(0,0,0,0.5);
+      backdrop-filter: blur(8px);
+      border-radius: 20px;
+      padding: 15px 10px;
+      height: calc(100vh - 100px);
+      overflow-y: auto;
+    }
+    .left-panel { flex: 0 0 240px; }
+    .right-panel { flex: 0 0 280px; }
+    .center-panel {
+      flex: 1;
+      min-width: 260px;
+      display: flex;
+      flex-direction: column;
+      gap: 15px;
+    }
+    .player-container {
+      background: #000;
+      border-radius: 20px;
+      overflow: hidden;
+      aspect-ratio: 16 / 9;
+      width: 100%;
+      box-shadow: 0 5px 20px rgba(0,0,0,0.5);
+      position: relative;
+      display: none; /* Oculto por defecto, se muestra solo en TV */
+    }
+    .player-container.visible {
+      display: block;
+    }
+    video {
+      width: 100%;
+      height: 100%;
+      object-fit: contain;
+      background: #000;
+    }
+    video::-webkit-media-controls { display: none !important; }
+
+    /* Grid de películas */
+    .movies-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(140px, 1fr));
+      gap: 16px;
+      padding: 10px;
+      background: rgba(0,0,0,0.3);
+      border-radius: 20px;
+      max-height: calc(100vh - 100px);
+      overflow-y: auto;
+    }
+    .movie-card {
+      background: rgba(20,20,30,0.8);
+      border-radius: 16px;
+      overflow: hidden;
+      cursor: pointer;
+      transition: transform 0.2s, box-shadow 0.2s;
+      text-align: center;
+      padding-bottom: 8px;
+    }
+    .movie-card:hover {
+      transform: scale(1.02);
+      box-shadow: 0 8px 20px rgba(0,0,0,0.4);
+      background: rgba(40,40,55,0.9);
+    }
+    .movie-poster {
+      width: 100%;
+      aspect-ratio: 2 / 3;
+      object-fit: cover;
+      background: #1a1a2a;
+    }
+    .movie-title {
+      font-size: 0.7rem;
+      padding: 6px 4px;
+      font-weight: 500;
+      color: #eee;
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
+    }
+    .empty-movies {
+      text-align: center;
+      padding: 40px;
+      color: #aaa;
+    }
+
+    .fav-bar {
+      background: rgba(0,0,0,0.4);
+      backdrop-filter: blur(8px);
+      padding: 8px 12px;
+      border-radius: 40px;
+      display: flex;
+      gap: 10px;
+      overflow-x: auto;
+      white-space: nowrap;
+    }
+    .fav-chip {
+      background: rgba(255,255,255,0.1);
+      padding: 5px 14px;
+      border-radius: 30px;
+      font-size: 0.75rem;
+      cursor: pointer;
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+    }
+    .fav-chip:hover {
+      background: rgba(255,255,255,0.2);
+    }
+
+    .menu-list {
+      display: flex;
+      flex-direction: column;
+      gap: 6px;
+    }
+    .menu-btn, .cat-btn, .channel-menu-btn {
+      background: rgba(30,30,40,0.6);
+      border: none;
+      color: #ccc;
+      font-size: 0.85rem;
+      padding: 10px 12px;
+      border-radius: 14px;
+      text-align: left;
+      cursor: pointer;
+      width: 100%;
+    }
+    .menu-btn:hover, .cat-btn:hover, .channel-menu-btn:hover {
+      background: rgba(255,255,255,0.15);
+      color: #ffdd99;
+    }
+    .back-btn {
+      background: rgba(50,50,60,0.7);
+      color: #ffdd99;
+      margin-bottom: 10px;
+    }
+
+    .channel-item {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      background: rgba(25,25,35,0.5);
+      margin-bottom: 6px;
+      padding: 8px 10px;
+      border-radius: 14px;
+      cursor: pointer;
+    }
+    .channel-item:hover {
+      background: rgba(255,255,255,0.1);
+    }
+    .channel-logo {
+      width: 32px;
+      height: 32px;
+      object-fit: contain;
+      border-radius: 6px;
+    }
+    .channel-name {
+      flex: 1;
+      font-size: 0.75rem;
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
+    }
+    .fav-star {
+      background: none;
+      border: none;
+      color: #aaa;
+      font-size: 1rem;
+      cursor: pointer;
+      width: 28px;
+    }
+    .fav-star.active { color: #ffcc88; }
+
+    ::-webkit-scrollbar { width: 4px; }
+    ::-webkit-scrollbar-track { background: #1e1e2a; }
+    ::-webkit-scrollbar-thumb { background: #ffcc88; border-radius: 10px; }
+    .empty-msg { text-align: center; padding: 20px; opacity: 0.6; font-size: 0.8rem; }
+
+    @media (max-width: 800px) {
+      body { padding: 10px; }
+      .left-panel, .right-panel { flex-basis: 100%; height: auto; max-height: 40vh; }
+      .watermark { width: 70px; top: 10px; left: 10px; }
+      .tool-btn { width: 38px; height: 38px; font-size: 1rem; }
+      .movies-grid {
+        grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
+        gap: 10px;
+      }
+      .movie-title { font-size: 0.6rem; }
+    }
   </style>
 </head>
 <body>
+
 <img class="watermark" src="https://tinyurl.com/yrfarar9" alt="KlauTV">
+
 <div class="toolbar">
-  <button class="tool-btn" id="toggleLeftBtn">☰</button>
-  <button class="tool-btn" id="toggleRightBtn">▶</button>
-  <button class="tool-btn" id="fullscreenBtn">⛶</button>
-  <button class="tool-btn download-btn" id="downloadAppBtn"></button>
+  <button class="tool-btn" id="toggleLeftBtn" title="Mostrar/ocultar categorías">☰</button>
+  <button class="tool-btn" id="toggleRightBtn" title="Mostrar/ocultar canales">▶</button>
+  <button class="tool-btn" id="fullscreenBtn" title="Pantalla completa">⛶</button>
+  <button class="tool-btn cast-btn" id="castButton" title="Enviar a Chromecast"></button>
+  <button class="tool-btn download-btn" id="downloadAppBtn" title="Descargar aplicación"></button>
 </div>
+
 <div class="app">
   <div class="left-panel" id="leftPanel">
-    <div style="text-align:center; margin-bottom:15px;"><img src="https://cdn.phototourl.com/free/2026-04-21-4a8d26b0-4efb-4851-b8b9-016c8c390024.png" alt="KlauTV" style="width:70px; opacity:0.8;"></div>
+    <div style="text-align:center; margin-bottom:15px;">
+      <img src="https://cdn.phototourl.com/free/2026-04-21-4a8d26b0-4efb-4851-b8b9-016c8c390024.png" alt="KlauTV" style="width:70px; opacity:0.8;">
+    </div>
     <div id="menuContainer" class="menu-list"></div>
   </div>
   <div class="center-panel">
-    <div class="player-container" id="playerContainer"><video id="videoPlayer" autoplay playsinline poster="" crossorigin="anonymous"></video></div>
+    <div class="player-container" id="playerContainer">
+      <video id="videoPlayer" autoplay playsinline poster="" crossorigin="anonymous"></video>
+    </div>
+    <div id="moviesGridContainer" class="movies-grid" style="display: none;"></div>
     <div class="fav-bar" id="favBar"></div>
   </div>
   <div class="right-panel" id="rightPanel"></div>
 </div>
+
 <script>
   // ==================== CONFIGURACIÓN ====================
-  const M3U_URL = "https://tinyurl.com/2n2etx65";
-  let categorias = {}, todosCanales = [], favoritos = JSON.parse(localStorage.getItem("klautv_favs")) || [];
-  let nivel = "principal", canalesActuales = [], currentHls = null, currentMpegts = null, leftVisible = true, rightVisible = true;
-  const menuContainer = document.getElementById("menuContainer"), rightPanel = document.getElementById("rightPanel"), leftPanel = document.getElementById("leftPanel");
-  const video = document.getElementById("videoPlayer"), favBar = document.getElementById("favBar"), playerContainer = document.getElementById("playerContainer");
-  const toggleLeftBtn = document.getElementById("toggleLeftBtn"), toggleRightBtn = document.getElementById("toggleRightBtn"), fullscreenBtn = document.getElementById("fullscreenBtn"), downloadBtn = document.getElementById("downloadAppBtn");
+  const TV_M3U_URL = "https://tinyurl.com/2n2etx65";
+  const MOVIES_M3U_URL = "https://tinyurl.com/2vz6vphp";
+  
+  let categorias = {};
+  let todosCanales = [];
+  let favoritos = JSON.parse(localStorage.getItem("klautv_favs")) || [];
+  let nivel = "principal";
+  let canalesActuales = [];
+  let currentHls = null, currentMpegts = null;
+  let leftVisible = true, rightVisible = true;
+  let peliculasList = []; // Array de {nombre, url, logo}
+  let modoPeliculas = false; // Para saber si estamos en modo películas
 
-  // ========== PROXY DOBLE PARA MP4 (CON FALLBACK) ==========
-  const PROXY1 = "https://corsproxy.io/?url=";
-  const PROXY2 = "https://api.allorigins.win/raw?url=";
-  function needsProxy(url) { return window.location.protocol === 'https:' && url && url.startsWith('http:'); }
-  function getProxiedUrl(url, proxyIndex = 1) { 
+  // DOM
+  const menuContainer = document.getElementById("menuContainer");
+  const rightPanel = document.getElementById("rightPanel");
+  const leftPanel = document.getElementById("leftPanel");
+  const video = document.getElementById("videoPlayer");
+  const favBar = document.getElementById("favBar");
+  const playerContainer = document.getElementById("playerContainer");
+  const moviesGridContainer = document.getElementById("moviesGridContainer");
+  const toggleLeftBtn = document.getElementById("toggleLeftBtn");
+  const toggleRightBtn = document.getElementById("toggleRightBtn");
+  const fullscreenBtn = document.getElementById("fullscreenBtn");
+  const castButton = document.getElementById("castButton");
+  const downloadBtn = document.getElementById("downloadAppBtn");
+
+  // ========== PROXY PARA MIXED CONTENT ==========
+  const PROXY_URL = "https://corsproxy.io/?url=";
+  function needsProxy(url) {
+    return window.location.protocol === 'https:' && url && url.startsWith('http:');
+  }
+  function getProxiedUrl(url) {
     if (!needsProxy(url)) return url;
-    return proxyIndex === 1 ? PROXY1 + encodeURIComponent(url) : PROXY2 + encodeURIComponent(url);
+    return PROXY_URL + encodeURIComponent(url);
   }
 
-  // ========== DESCARGA APP ==========
-  downloadBtn.onclick = () => {
-    const html = document.documentElement.outerHTML;
-    const blob = new Blob([html], { type: 'text/html' });
+  // ========== DETECCIÓN DE FORMATOS PARA VLC ==========
+  function esVideoParaVLC(url) {
+    const ext = url.split('?')[0].split('#')[0].substring(url.lastIndexOf('.')).toLowerCase();
+    const formatosVLC = ['.mp4', '.mkv', '.avi', '.mov', '.wmv', '.flv', '.mpg', '.mpeg', '.vob', '.m2ts', '.3gp', '.webm', '.ogg'];
+    return formatosVLC.includes(ext);
+  }
+
+  function abrirEnVLC(url) {
+    const intentUrl = `intent://${url.replace(/^https?:\/\//, '')}#Intent;package=org.videolan.vlc;scheme=vlc;end;`;
+    window.location.href = intentUrl;
+  }
+
+  // ========== DESCARGA DE LA APP ==========
+  downloadBtn.addEventListener('click', () => {
+    const htmlContent = document.documentElement.outerHTML;
+    const blob = new Blob([htmlContent], { type: 'text/html' });
     const url = URL.createObjectURL(blob);
     const a = document.createElement('a');
     a.href = url;
     a.download = 'KlauTV.html';
+    document.body.appendChild(a);
     a.click();
+    document.body.removeChild(a);
     URL.revokeObjectURL(url);
-  };
+  });
 
-  // ========== DETECCIÓN DE FORMATOS ==========
-  function getExtension(url) { return url.split('?')[0].split('#')[0].substring(url.lastIndexOf('.')).toLowerCase(); }
-  const intExt = ['.mp4', '.webm', '.ogg', '.ogv', '.3gp'];
-  const extExt = ['.mkv', '.avi', '.mov', '.wmv', '.flv', '.mpg', '.mpeg', '.vob', '.m2ts'];
-  function isInternal(url) { return intExt.includes(getExtension(url)); }
-  function isExternal(url) { return extExt.includes(getExtension(url)); }
-  function openVLC(url) { window.location.href = `intent://${url.replace(/^https?:\/\//, '')}#Intent;package=org.videolan.vlc;scheme=vlc;end;`; }
-  function destroyPlayers() { if (currentHls) { currentHls.destroy(); currentHls = null; } if (currentMpegts) { currentMpegts.destroy(); currentMpegts = null; } }
-
-  // ========== REPRODUCCIÓN DE MP4 CON INTENTO MÚLTIPLE ==========
-  function playMp4(originalUrl) {
-    const urlWithProxy1 = getProxiedUrl(originalUrl, 1);
-    const urlWithProxy2 = getProxiedUrl(originalUrl, 2);
-    let attempts = 0;
-
-    function tryPlay(proxyUrl) {
-      destroyPlayers();
-      video.pause();
-      video.removeAttribute('src');
-      video.load();
-      video.src = proxyUrl;
-      let timeout = setTimeout(() => {
-        if (video.readyState === 0) {
-          // No cargó en 5 segundos, falló
-          attempts++;
-          if (attempts === 1) {
-            tryPlay(urlWithProxy2);
-          } else if (attempts === 2) {
-            // Fallaron ambos proxies, abrir en VLC
-            openVLC(originalUrl);
-          }
-        }
-      }, 5000);
-      video.play().catch(() => {
-        clearTimeout(timeout);
-        attempts++;
-        if (attempts === 1) tryPlay(urlWithProxy2);
-        else if (attempts === 2) openVLC(originalUrl);
-      });
-      video.oncanplay = () => clearTimeout(timeout);
-    }
-
-    tryPlay(urlWithProxy1);
+  // ========== REPRODUCCIÓN (solo para TV) ==========
+  function destroyPlayers() {
+    if (currentHls) { currentHls.destroy(); currentHls = null; }
+    if (currentMpegts) { currentMpegts.destroy(); currentMpegts = null; }
   }
 
-  // ========== REPRODUCCIÓN PRINCIPAL ==========
   function playUrl(originalUrl) {
     if (!originalUrl) return;
-    if (isExternal(originalUrl)) { openVLC(originalUrl); return; }
-    if (isInternal(originalUrl)) { playMp4(originalUrl); return; }
-    // HLS, TS, Xtream Codes
-    const url = needsProxy(originalUrl) ? PROXY1 + encodeURIComponent(originalUrl) : originalUrl;
+    
+    if (esVideoParaVLC(originalUrl)) {
+      abrirEnVLC(originalUrl);
+      return;
+    }
+
+    const url = getProxiedUrl(originalUrl);
     destroyPlayers();
     video.pause();
+    video.style.background = "#000";
     video.removeAttribute('src');
     video.load();
+
     if (originalUrl.includes(':25461/') || originalUrl.includes('.ts')) {
       if (window.mpegts && mpegts.isSupported()) {
         try {
-          currentMpegts = mpegts.createPlayer({ type: 'mpegts', url, isLive: true });
+          currentMpegts = mpegts.createPlayer({ type: 'mpegts', url: url, isLive: true });
           currentMpegts.attachMediaElement(video);
           currentMpegts.load();
-          currentMpegts.play().catch(() => {});
-        } catch (e) { video.src = url; video.play().catch(() => {}); }
-      } else { video.src = url; video.play().catch(() => {}); }
+          currentMpegts.play().catch(e => console.warn);
+        } catch(e) {
+          video.src = url;
+          video.play().catch(e => console.warn);
+        }
+      } else {
+        video.src = url;
+        video.play().catch(e => console.warn);
+      }
       return;
     }
     if (originalUrl.includes('.m3u8')) {
@@ -163,94 +407,467 @@
         currentHls = new Hls();
         currentHls.loadSource(url);
         currentHls.attachMedia(video);
-        currentHls.on(Hls.Events.MANIFEST_PARSED, () => video.play().catch(() => {}));
-      } else { video.src = url; video.play().catch(() => {}); }
+        currentHls.on(Hls.Events.MANIFEST_PARSED, () => video.play().catch(e=>console.warn));
+      } else {
+        video.src = url;
+        video.play().catch(e=>console.warn);
+      }
       return;
     }
     video.src = url;
-    video.play().catch(() => {});
+    video.play().catch(e => console.warn);
   }
 
-  // ========== FAVORITOS Y MENÚS (SIN CAMBIOS) ==========
-  function saveFavs() { localStorage.setItem("klautv_favs", JSON.stringify(favoritos)); renderFavBar(); renderRightPanel(); }
-  function toggleFav(canal) { favoritos.some(f => f.url === canal.url) ? favoritos = favoritos.filter(f => f.url !== canal.url) : favoritos.push(canal); saveFavs(); }
+  // ========== FAVORITOS (solo canales TV) ==========
+  function saveFavs() {
+    localStorage.setItem("klautv_favs", JSON.stringify(favoritos));
+    renderFavBar();
+    renderRightPanel();
+  }
+  function toggleFav(canal) {
+    const exists = favoritos.some(f => f.url === canal.url);
+    if (exists) favoritos = favoritos.filter(f => f.url !== canal.url);
+    else favoritos.push(canal);
+    saveFavs();
+  }
   function renderFavBar() {
     favBar.innerHTML = "";
-    if (favoritos.length === 0) { favBar.innerHTML = "<span style='opacity:0.6; font-size:0.7rem;'>⭐ Favoritos vacíos</span>"; return; }
-    favoritos.forEach(fav => { let chip = document.createElement("div"); chip.className = "fav-chip"; chip.onclick = () => playUrl(fav.url); if (fav.logo) { let img = document.createElement("img"); img.src = fav.logo; img.style.width = "20px"; img.style.height = "20px"; chip.appendChild(img); } else { chip.innerHTML += "⭐ "; } chip.appendChild(document.createTextNode(fav.nombre)); favBar.appendChild(chip); });
+    if (favoritos.length === 0) {
+      favBar.innerHTML = "<span style='opacity:0.6; font-size:0.7rem;'>⭐ Favoritos vacíos</span>";
+      return;
+    }
+    favoritos.forEach(fav => {
+      const chip = document.createElement("div");
+      chip.className = "fav-chip";
+      chip.onclick = () => {
+        if (modoPeliculas) salirModoPeliculas();
+        playUrl(fav.url);
+      };
+      if (fav.logo) {
+        const img = document.createElement("img");
+        img.src = fav.logo;
+        img.style.width = "20px";
+        img.style.height = "20px";
+        chip.appendChild(img);
+      } else {
+        chip.innerHTML += "⭐ ";
+      }
+      chip.appendChild(document.createTextNode(fav.nombre));
+      favBar.appendChild(chip);
+    });
   }
+
+  // ========== MODO PELÍCULAS ==========
+  function entrarModoPeliculas() {
+    modoPeliculas = true;
+    // Ocultar reproductor y mostrar grid
+    playerContainer.classList.remove("visible");
+    playerContainer.style.display = "none";
+    moviesGridContainer.style.display = "grid";
+    // Limpiar reproducción actual
+    destroyPlayers();
+    video.pause();
+    video.removeAttribute('src');
+    // Renderizar grid si ya tenemos películas
+    renderMoviesGrid();
+  }
+  
+  function salirModoPeliculas() {
+    modoPeliculas = false;
+    moviesGridContainer.style.display = "none";
+    playerContainer.style.display = "block";
+    playerContainer.classList.add("visible");
+  }
+  
+  function renderMoviesGrid() {
+    if (!moviesGridContainer) return;
+    moviesGridContainer.innerHTML = "";
+    if (peliculasList.length === 0) {
+      moviesGridContainer.innerHTML = "<div class='empty-movies'>🎬 Cargando películas...</div>";
+      return;
+    }
+    peliculasList.forEach(peli => {
+      const card = document.createElement("div");
+      card.className = "movie-card";
+      card.onclick = () => {
+        // Al hacer clic, abrir directamente en VLC
+        if (peli.url) {
+          abrirEnVLC(peli.url);
+        }
+      };
+      const poster = document.createElement("img");
+      poster.className = "movie-poster";
+      poster.src = peli.logo && peli.logo !== "http://127.0.0.1/" ? peli.logo : "https://placehold.co/300x450/1a1a2a/888?text=Sin+Poster";
+      poster.onerror = () => { poster.src = "https://placehold.co/300x450/1a1a2a/888?text=Sin+Poster"; };
+      poster.alt = peli.nombre;
+      const title = document.createElement("div");
+      title.className = "movie-title";
+      title.innerText = peli.nombre;
+      card.appendChild(poster);
+      card.appendChild(title);
+      moviesGridContainer.appendChild(card);
+    });
+  }
+  
+  // Cargar lista de películas desde M3U (oculto, sin mensajes)
+  function cargarPeliculas() {
+    fetch(MOVIES_M3U_URL + "?t=" + Date.now(), { cache: "no-store" })
+      .then(r => {
+        if (!r.ok) throw new Error();
+        return r.text();
+      })
+      .then(data => {
+        const nuevasPelis = [];
+        const lines = data.split("\n");
+        let currentName = "", currentLogo = "", currentUrl = "";
+        for (let i = 0; i < lines.length; i++) {
+          let line = lines[i].trim();
+          if (line.startsWith("#EXTINF")) {
+            const nameMatch = line.match(/,([^,]+)$/);
+            currentName = nameMatch ? nameMatch[1].trim() : "Película";
+            const logoMatch = line.match(/tvg-logo="([^"]*)"/);
+            currentLogo = logoMatch ? logoMatch[1] : "";
+          } else if (line.startsWith("http")) {
+            currentUrl = line;
+            if (currentName && currentUrl) {
+              nuevasPelis.push({
+                nombre: currentName,
+                url: currentUrl,
+                logo: currentLogo && currentLogo !== "http://127.0.0.1/" ? currentLogo : null
+              });
+            }
+            currentName = "";
+            currentLogo = "";
+            currentUrl = "";
+          }
+        }
+        if (nuevasPelis.length) {
+          peliculasList = nuevasPelis;
+          if (modoPeliculas) renderMoviesGrid();
+        }
+      })
+      .catch(err => console.error("Error cargando películas:", err));
+  }
+
+  // ========== MENÚ PRINCIPAL ==========
   function renderPrincipal() {
-    nivel = "principal"; menuContainer.innerHTML = "";
-    ["TV", "PELÍCULAS", "SERIES", "KIDS"].forEach(opt => {
-      let btn = document.createElement("button"); btn.className = "menu-btn"; btn.innerText = opt;
-      btn.onclick = () => { if (opt === "TV" && Object.keys(categorias).length) renderCategorias(); };
+    nivel = "principal";
+    menuContainer.innerHTML = "";
+    const opciones = ["TV", "PELÍCULAS", "SERIES", "KIDS"];
+    opciones.forEach(opt => {
+      const btn = document.createElement("button");
+      btn.className = "menu-btn";
+      btn.innerText = opt;
+      btn.onclick = () => {
+        if (opt === "TV") {
+          salirModoPeliculas();
+          if (Object.keys(categorias).length) {
+            renderCategorias();
+          } else {
+            // Si no hay categorías, esperar que se carguen
+            setTimeout(() => {
+              if (Object.keys(categorias).length) renderCategorias();
+            }, 500);
+          }
+        } else if (opt === "PELÍCULAS") {
+          entrarModoPeliculas();
+          renderMenuPeliculasBack();
+        } else {
+          salirModoPeliculas();
+          mostrarMensaje("Próximamente");
+        }
+      };
       menuContainer.appendChild(btn);
     });
   }
+  
+  function renderMenuPeliculasBack() {
+    menuContainer.innerHTML = "";
+    const backBtn = document.createElement("button");
+    backBtn.className = "menu-btn back-btn";
+    backBtn.innerText = "← Volver";
+    backBtn.onclick = () => {
+      salirModoPeliculas();
+      renderPrincipal();
+    };
+    menuContainer.appendChild(backBtn);
+    const infoBtn = document.createElement("button");
+    infoBtn.className = "menu-btn";
+    infoBtn.innerText = "🎬 PELÍCULAS DISPONIBLES";
+    infoBtn.style.opacity = "0.8";
+    infoBtn.style.cursor = "default";
+    menuContainer.appendChild(infoBtn);
+  }
+
+  // ========== CATEGORÍAS TV ==========
   function renderCategorias() {
-    nivel = "categorias"; let cats = Object.keys(categorias).filter(c => c !== "Otros" && c.trim());
-    menuContainer.innerHTML = ""; let back = document.createElement("button"); back.className = "menu-btn back-btn"; back.innerText = "← Volver"; back.onclick = () => renderPrincipal(); menuContainer.appendChild(back);
-    if (!cats.length) { let msg = document.createElement("div"); msg.className = "empty-msg"; msg.innerText = "No hay categorías"; menuContainer.appendChild(msg); return; }
+    nivel = "categorias";
+    const cats = Object.keys(categorias).filter(c => c !== "Otros" && c.trim());
+    menuContainer.innerHTML = "";
+    const backBtn = document.createElement("button");
+    backBtn.className = "menu-btn back-btn";
+    backBtn.innerText = "← Volver";
+    backBtn.onclick = () => renderPrincipal();
+    menuContainer.appendChild(backBtn);
+    if (!cats.length) {
+      const msg = document.createElement("div");
+      msg.className = "empty-msg";
+      msg.innerText = "No hay categorías";
+      menuContainer.appendChild(msg);
+      return;
+    }
     cats.forEach(cat => {
-      let btn = document.createElement("button"); btn.className = "cat-btn"; btn.innerText = cat;
-      btn.onclick = () => { canalesActuales = categorias[cat] || []; nivel = "canales"; renderCanalesEnMenu(); if (canalesActuales.length) playUrl(canalesActuales[0].url); };
+      const btn = document.createElement("button");
+      btn.className = "cat-btn";
+      btn.innerText = cat;
+      btn.onclick = () => {
+        canalesActuales = categorias[cat] || [];
+        nivel = "canales";
+        renderCanalesEnMenu();
+        if (canalesActuales.length && !esVideoParaVLC(canalesActuales[0].url)) {
+          playUrl(canalesActuales[0].url);
+        }
+      };
       menuContainer.appendChild(btn);
     });
   }
+
   function renderCanalesEnMenu() {
-    menuContainer.innerHTML = ""; let back = document.createElement("button"); back.className = "menu-btn back-btn"; back.innerText = "← Volver"; back.onclick = () => renderCategorias(); menuContainer.appendChild(back);
+    menuContainer.innerHTML = "";
+    const backBtn = document.createElement("button");
+    backBtn.className = "menu-btn back-btn";
+    backBtn.innerText = "← Volver";
+    backBtn.onclick = () => renderCategorias();
+    menuContainer.appendChild(backBtn);
     canalesActuales.forEach(canal => {
-      let btn = document.createElement("button"); btn.className = "channel-menu-btn";
-      if (canal.logo) { let img = document.createElement("img"); img.src = canal.logo; img.style.width = "24px"; img.style.height = "24px"; img.style.marginRight = "8px"; btn.appendChild(img); }
-      let span = document.createElement("span"); span.innerText = canal.nombre; btn.appendChild(span);
-      btn.onclick = () => playUrl(canal.url); menuContainer.appendChild(btn);
+      const btn = document.createElement("button");
+      btn.className = "channel-menu-btn";
+      if (canal.logo) {
+        const img = document.createElement("img");
+        img.src = canal.logo;
+        img.style.width = "24px";
+        img.style.height = "24px";
+        img.style.marginRight = "8px";
+        btn.appendChild(img);
+      }
+      const span = document.createElement("span");
+      span.innerText = canal.nombre;
+      btn.appendChild(span);
+      btn.onclick = () => playUrl(canal.url);
+      menuContainer.appendChild(btn);
     });
   }
+
   function renderRightPanel() {
     rightPanel.innerHTML = "";
-    if (!todosCanales.length) { rightPanel.innerHTML = "<div class='empty-msg'>Cargando canales...</div>"; return; }
+    if (!todosCanales.length) {
+      rightPanel.innerHTML = "<div class='empty-msg'>Cargando canales...</div>";
+      return;
+    }
     todosCanales.forEach(canal => {
-      let item = document.createElement("div"); item.className = "channel-item";
-      if (canal.logo) { let img = document.createElement("img"); img.className = "channel-logo"; img.src = canal.logo; img.onerror = () => img.style.display = "none"; item.appendChild(img); }
-      else { let ph = document.createElement("div"); ph.style.width = "32px"; ph.style.height = "32px"; ph.style.background = "#222"; ph.style.borderRadius = "6px"; item.appendChild(ph); }
-      let nameSpan = document.createElement("span"); nameSpan.className = "channel-name"; nameSpan.innerText = canal.nombre; item.appendChild(nameSpan);
-      let favBtn = document.createElement("button"); favBtn.className = "fav-star"; favBtn.innerText = favoritos.some(f => f.url === canal.url) ? "★" : "☆";
-      if (favoritos.some(f => f.url === canal.url)) favBtn.classList.add("active");
-      favBtn.onclick = (e) => { e.stopPropagation(); toggleFav(canal); }; item.appendChild(favBtn);
-      item.onclick = () => playUrl(canal.url); rightPanel.appendChild(item);
-    });
-  }
-  function cargarLista() {
-    fetch(M3U_URL + "?t=" + Date.now(), { cache: "no-store" }).then(r => r.ok ? r.text() : Promise.reject()).then(data => {
-      categorias = {}; todosCanales = []; let lines = data.split("\n"); let currentName = "", currentGroup = "Otros", currentLogo = null;
-      for (let i = 0; i < lines.length; i++) {
-        let line = lines[i].trim();
-        if (line.startsWith("#EXTINF")) {
-          let nameMatch = line.match(/,([^,]+)$/); currentName = nameMatch ? nameMatch[1] : "Canal";
-          let groupMatch = line.match(/group-title="([^"]*)"/); currentGroup = groupMatch ? groupMatch[1] : "Otros";
-          let logoMatch = line.match(/tvg-logo="([^"]*)"/); currentLogo = logoMatch ? logoMatch[1] : null;
-        } else if (line.startsWith("http")) {
-          let canal = { nombre: currentName, url: line, logo: currentLogo };
-          if (!categorias[currentGroup]) categorias[currentGroup] = [];
-          categorias[currentGroup].push(canal); todosCanales.push(canal);
-        }
+      const item = document.createElement("div");
+      item.className = "channel-item";
+      if (canal.logo) {
+        const img = document.createElement("img");
+        img.className = "channel-logo";
+        img.src = canal.logo;
+        img.onerror = () => img.style.display = "none";
+        item.appendChild(img);
+      } else {
+        const placeholder = document.createElement("div");
+        placeholder.style.width = "32px";
+        placeholder.style.height = "32px";
+        placeholder.style.background = "#222";
+        placeholder.style.borderRadius = "6px";
+        item.appendChild(placeholder);
       }
-      if (Object.keys(categorias).length === 0) throw new Error();
-      renderPrincipal(); renderFavBar(); renderRightPanel();
-      let primeras = Object.keys(categorias); if (primeras.length) { canalesActuales = categorias[primeras[0]] || []; if (canalesActuales.length) playUrl(canalesActuales[0].url); }
-    }).catch(() => {
-      categorias = { "CINE PREMIUM": [{ nombre: "Demo MP4", url: "https://sample-videos.com/video123/mp4/720/big_buck_bunny_720p_1mb.mp4", logo: null }, { nombre: "Demo MKV", url: "https://sample-videos.com/video123/mkv/720/big_buck_bunny_720p_1mb.mkv", logo: null }] };
-      todosCanales = []; Object.values(categorias).forEach(arr => todosCanales.push(...arr));
-      renderPrincipal(); renderFavBar(); renderRightPanel();
-      let primeras = Object.keys(categorias); if (primeras.length) { canalesActuales = categorias[primeras[0]]; if (canalesActuales.length) playUrl(canalesActuales[0].url); }
+      const nameSpan = document.createElement("span");
+      nameSpan.className = "channel-name";
+      nameSpan.innerText = canal.nombre;
+      item.appendChild(nameSpan);
+      const favBtn = document.createElement("button");
+      favBtn.className = "fav-star";
+      favBtn.innerText = favoritos.some(f => f.url === canal.url) ? "★" : "☆";
+      if (favoritos.some(f => f.url === canal.url)) favBtn.classList.add("active");
+      favBtn.onclick = (e) => {
+        e.stopPropagation();
+        toggleFav(canal);
+      };
+      item.appendChild(favBtn);
+      item.onclick = () => {
+        if (modoPeliculas) salirModoPeliculas();
+        playUrl(canal.url);
+      };
+      rightPanel.appendChild(item);
     });
   }
-  function toggleLeft() { leftVisible = !leftVisible; leftPanel.style.display = leftVisible ? "flex" : "none"; }
-  function toggleRight() { rightVisible = !rightVisible; rightPanel.style.display = rightVisible ? "block" : "none"; }
-  toggleLeftBtn.onclick = toggleLeft; toggleRightBtn.onclick = toggleRight;
-  function toggleFullscreen() { if (!document.fullscreenElement) { if (video.requestFullscreen) video.requestFullscreen(); else if (video.webkitRequestFullscreen) video.webkitRequestFullscreen(); else if (playerContainer.requestFullscreen) playerContainer.requestFullscreen(); } else { document.exitFullscreen(); } }
+
+  // ========== CARGA DE LISTA TV ==========
+  function cargarListaTV() {
+    fetch(TV_M3U_URL + "?t=" + Date.now(), { cache: "no-store" })
+      .then(r => {
+        if (!r.ok) throw new Error("HTTP " + r.status);
+        return r.text();
+      })
+      .then(data => {
+        categorias = {};
+        todosCanales = [];
+        const lines = data.split("\n");
+        let currentName = "", currentGroup = "Otros", currentLogo = null;
+        for (let i = 0; i < lines.length; i++) {
+          let line = lines[i].trim();
+          if (line.startsWith("#EXTINF")) {
+            const nameMatch = line.match(/,([^,]+)$/);
+            currentName = nameMatch ? nameMatch[1] : "Canal";
+            const groupMatch = line.match(/group-title="([^"]*)"/);
+            currentGroup = groupMatch ? groupMatch[1] : "Otros";
+            const logoMatch = line.match(/tvg-logo="([^"]*)"/);
+            currentLogo = logoMatch ? logoMatch[1] : null;
+          } else if (line.startsWith("http")) {
+            const canal = { nombre: currentName, url: line, logo: currentLogo };
+            if (!categorias[currentGroup]) categorias[currentGroup] = [];
+            categorias[currentGroup].push(canal);
+            todosCanales.push(canal);
+          }
+        }
+        if (Object.keys(categorias).length === 0) throw new Error("No canales");
+        renderPrincipal();
+        renderFavBar();
+        renderRightPanel();
+        const primeras = Object.keys(categorias);
+        if (primeras.length) {
+          const primeraCat = primeras[0];
+          canalesActuales = categorias[primeraCat] || [];
+          if (canalesActuales.length && !esVideoParaVLC(canalesActuales[0].url)) {
+            playUrl(canalesActuales[0].url);
+          }
+        }
+      })
+      .catch(err => {
+        console.error(err);
+        categorias = {
+          "CINE PREMIUM": [
+            { nombre: "Demo MP4 (abre VLC)", url: "https://sample-videos.com/video123/mp4/720/big_buck_bunny_720p_1mb.mp4", logo: null },
+            { nombre: "Demo MKV (abre VLC)", url: "https://sample-videos.com/video123/mkv/720/big_buck_bunny_720p_1mb.mkv", logo: null }
+          ],
+          "ARGENTINA": [
+            { nombre: "Canal Arg", url: "https://sample-videos.com/video123/mp4/720/big_buck_bunny_720p_1mb.mp4", logo: null }
+          ]
+        };
+        todosCanales = [];
+        Object.values(categorias).forEach(arr => todosCanales.push(...arr));
+        renderPrincipal();
+        renderFavBar();
+        renderRightPanel();
+      });
+  }
+
+  function mostrarMensaje(msg) {
+    const div = document.createElement("div");
+    div.style.position = "fixed";
+    div.style.bottom = "80px";
+    div.style.left = "50%";
+    div.style.transform = "translateX(-50%)";
+    div.style.background = "rgba(0,0,0,0.7)";
+    div.style.padding = "6px 15px";
+    div.style.borderRadius = "30px";
+    div.style.fontSize = "0.7rem";
+    div.style.zIndex = "1000";
+    div.innerText = msg;
+    document.body.appendChild(div);
+    setTimeout(() => div.remove(), 2000);
+  }
+
+  // ========== PANELES ==========
+  function toggleLeft() {
+    leftVisible = !leftVisible;
+    leftPanel.style.display = leftVisible ? "flex" : "none";
+  }
+  function toggleRight() {
+    rightVisible = !rightVisible;
+    rightPanel.style.display = rightVisible ? "block" : "none";
+  }
+  toggleLeftBtn.onclick = toggleLeft;
+  toggleRightBtn.onclick = toggleRight;
+
+  // ========== FULLSCREEN ==========
+  function toggleFullscreen() {
+    if (!document.fullscreenElement) {
+      if (video.requestFullscreen) {
+        video.requestFullscreen().catch(e => console.warn);
+      } else if (video.webkitRequestFullscreen) {
+        video.webkitRequestFullscreen();
+      } else if (playerContainer.requestFullscreen) {
+        playerContainer.requestFullscreen();
+      }
+    } else {
+      document.exitFullscreen();
+    }
+  }
   fullscreenBtn.onclick = toggleFullscreen;
-  cargarLista();
+
+  // ========== CHROMECAST (se mantiene igual, funcionalidad anterior) ==========
+  let castSession = null;
+  let castContext = null;
+  let castInitialized = false;
+  let currentVideoUrl = null;
+
+  function initChromecast() {
+    if (castInitialized) return;
+    if (!chrome.cast || !chrome.cast.isAvailable) {
+      setTimeout(initChromecast, 500);
+      return;
+    }
+    try {
+      castContext = cast.framework.CastContext.getInstance();
+      castContext.setOptions({
+        receiverApplicationId: chrome.cast.media.DEFAULT_MEDIA_RECEIVER_APP_ID,
+        autoJoinPolicy: chrome.cast.AutoJoinPolicy.ORIGIN_SCOPED
+      });
+      castContext.addEventListener(cast.framework.CastContextEventType.SESSION_STATE_CHANGED, (event) => {
+        if (event.sessionState === cast.framework.SessionState.SESSION_STARTED) {
+          castSession = castContext.getCurrentSession();
+          mostrarMensaje("Chromecast conectado");
+          if (currentVideoUrl && !esVideoParaVLC(currentVideoUrl)) {
+            sendToCast();
+          }
+        } else if (event.sessionState === cast.framework.SessionState.SESSION_ENDED) {
+          castSession = null;
+          mostrarMensaje("Chromecast desconectado");
+        }
+      });
+      castInitialized = true;
+    } catch(e) { console.error(e); }
+  }
+  
+  function sendToCast() {
+    if (!castSession) { mostrarMensaje("Conecta Chromecast"); return; }
+    if (!currentVideoUrl || esVideoParaVLC(currentVideoUrl)) { return; }
+    let mimeType = 'video/mp4';
+    if (currentVideoUrl.includes('.m3u8')) mimeType = 'application/x-mpegURL';
+    else if (currentVideoUrl.includes('.ts') || currentVideoUrl.includes(':25461/')) mimeType = 'video/MP2T';
+    const mediaInfo = new chrome.cast.media.MediaInfo(currentVideoUrl, mimeType);
+    mediaInfo.metadata = new chrome.cast.media.GenericMediaMetadata();
+    mediaInfo.metadata.title = "KlauTV";
+    const request = new chrome.cast.media.LoadRequest(mediaInfo);
+    castSession.loadMedia(request).then(() => mostrarMensaje("Enviado a la TV")).catch(e => console.warn);
+  }
+  
+  window['__onGCastApiAvailable'] = function(loaded) { if (loaded) initChromecast(); };
+  
+  castButton.addEventListener('click', () => {
+    if (!castInitialized) { mostrarMensaje("Iniciando..."); setTimeout(() => { if(castContext) castContext.requestSession(); }, 1000); return; }
+    castContext.requestSession();
+  });
+
+  // ========== INICIALIZACIÓN ==========
+  function inicializarTodo() {
+    cargarListaTV();      // Carga canales TV al inicio
+    cargarPeliculas();    // Carga películas en segundo plano (sin molestar)
+  }
+  
+  // Iniciar
+  inicializarTodo();
 </script>
 </body>
 </html>
