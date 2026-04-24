@@ -31,6 +31,10 @@
 https://live20.bozztv.com/akamaissh101/ssh101/montegrandetv/playlist.m3u8
 
 
+#EXTINF:-1 tvg-logo="https://tinyurl.com/yrfarar9"group-title="ARGENTINA",ClauuTV
+https://live20.bozztv.com/akamaissh101/ssh101/plaaytv/chunks.m3u8
+
+
 #EXTINF:-1 tvg-logo="https://tinyurl.com/cauy9zzh"group-title="ARGENTINA",BRAVO TV
 https://redirector.rudo.video/hls-video/c54ac2799874375c81c1672abb700870537c5223/bravo/bravo.smil/playlist.m3u8
 
@@ -241,7 +245,7 @@ https://rtvelivestream-rtveplayplus.rtve.es/rtvesec/int/star_main_1080.m3u8
 
 
 
-#EXTINF:-1 tvg-logo=""group-title="ARGENTINA",
+
 
 #EXTINF:-1 tvg-logo=""group-title="ARGENTINA",TyC
 https://live-04-11-tyc24.vodgc.net/tyc24/index_tyc24_1080.m3u8
