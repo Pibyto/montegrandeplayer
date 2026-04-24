@@ -94,7 +94,7 @@ https://srv3.zcast.com.br/gentv/gentv/playlist.m3u8
 #EXTINF:-1 tvg-logo="https://tinyurl.com/3vzrwff3"group-title="ARGENTINA",CINCO TV HD  TIGRE
 https://videostream.shockmedia.com.ar:19360/cincotv/cincotv.m3u8
 
-#EXTINF:-1 tvg-logo="https://tinyurl.com/2p9jn39n"group-title="ARGENTINA", TELE POSADAS
+#EXTINF:-1 tvg-logo="https://tinyurl.com/52wdw45b"group-title="ARGENTINA", TELE POSADAS
 https://live20.bozztv.com/giatv/giatv-teleposadaso01/teleposadaso01/playlist.m3u8
 
 #EXTINF:-1 tvg-logo="https://tinyurl.com/y5cz72tm"group-title="ARGENTINA",EL MAGO TV
@@ -454,10 +454,10 @@ http://201.217.246.42:44310/Live/3fcb6e26785fd8d415571b26dc3cf5d3/local-77_480.m
 https://a-cdn.klowdtv.com:443/live1/cine_720p/chunks.m3u8
 
 
-#EXTINF:-1 tvg-logo="https://neotv.cl/assets/img/channels/monitv.png"group-title="CINE PREMIUM",MONI TV
+#EXTINF:-1 tvg-logo="https://tinyurl.com/3buy42kt"group-title="CINE PREMIUM",MONI TV 1
 https://live20.bozztv.com:443/akamaissh101/ssh101/monitvhd/chunks.m3u8
 
-
+#EXTINF:-1 tvg-logo="https://tinyurl.com/3buy42kt"group-title="CINE PREMIUM",MONI TV 2
 http://190.102.242.130:25461/monitvpo/monitvpow/1
 
 
