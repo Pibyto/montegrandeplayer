@@ -40,12 +40,15 @@ https://stream-gtlc.telecentro.net.ar/hls/canal26hls/0/playlist.m3u8?uid=d1ab8e1
 #EXTINF:-1 tvg-logo="https://tinyurl.com/6nruejr3"group-title="ARGENTINA", NET TV HD  27.2
 https://unlimited1-us.dps.live/nettv/nettv.smil/playlist.m3u8
 
-#EXTINF:-1 tvg-logo="https://tinyurl.com/myr3uy8b"group-title="ARGENTINA",EL CHAVO
-https://live20.bozztv.com/giatvplayout7/giatv-211465/tracks-v1a1/mono.ts.m3u8
+
 
 
 #EXTINF:-1 tvg-logo="https://tinyurl.com/4xw67je6"group-title="ARGENTINA",CANAL LUZ HD
 https://g2.vxral-slo.transport.edge-access.net:443/a11/ngrp:canal_luz01-100009_all/canal_luz01-100009_1080p/index.m3u8
+
+#EXTINF:-1 tvg-logo="https://tinyurl.com/myr3uy8b"group-title="ARGENTINA", , EL CHAVO
+https://live20.bozztv.com/giatvplayout7/giatv-211465/tracks-v1a1/mono.ts.m3u8
+
 
 #EXTINF:-1 tvg-logo="https://tinyurl.com/yccuefd4"group-title="ARGENTINA", TELEVISIÓN PÚBLICA 
 https://stream.arcast.com.ar/c3lapampa/ngrp:c3lapampa_all/playlist.m3u8
@@ -244,7 +247,7 @@ https://rtvelivestream-rtveplayplus.rtve.es/rtvesec/int/star_main_1080.m3u8
 https://live-04-11-tyc24.vodgc.net/tyc24/index_tyc24_1080.m3u8
 
 
-
+#EXTINF:-1 tvg-logo=""group-title="ARGENTINA",
 
 
 
@@ -415,6 +418,14 @@ https://run-rt-uh-roku.otteravision.com/run/rt_uh/rt_uh_720.m3u8
 
 #EXTINF:-1 tvg-logo="https://i.ibb.co/Pv1MqPm0/1776362866128.png"group-title="CINE PREMIUM",+CINE WAR
 http://190.102.242.130:25461/live/cinrwarpower/1234567/190
+
+
+#EXTINF:-1 tvg-logo="https://cdn.phototourl.com/free/2026-04-23-46a57bc9-db26-4e62-93c2-c327b7ffe948.png"group-title="CINE PREMIUM",NEXTV
+https://edge.enhdtv.com/nexthd/tracks-v1a1/mono.m3u8
+
+
+#EXTINF:-1 tvg-logo="https://cdn.phototourl.com/free/2026-04-24-822146fa-0f59-49bd-90bf-5f5be42b2e9f.png"group-title="CINE PREMIUM",OPINIÓNSUR CINE
+https://live20.bozztv.com/giatv/giatv-opinionsurc/opinionsurc/chunks.m3u8
 
 #EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTOspY0DemQf4NaEMxXnKQQKCpDwOfVCdtnZg&usqp=CAU"group-title="CINE PREMIUM",CINESONY
 https://a-cdn.klowdtv.com/live1/cine_720p/chunks.m3u8
