@@ -27,18 +27,18 @@
 
 
 
-#EXTINF:-1 tvg-logo="https://tinyurl.com/yebtu9bw"group-title="ARGENTINA", MONTE GRANDE TV 
+#EXTINF:-1 tvg-logo="https://tinyurl.com/mwms2c4p"group-title="ARGENTINA", MONTE GRANDE TV 
 https://live20.bozztv.com/akamaissh101/ssh101/montegrandetv/playlist.m3u8
 
 
-#EXTINF:-1 tvg-logo="https://tinyurl.com/yrfarar9"group-title="ARGENTINA",ClauuTV
+#EXTINF:-1 tvg-logo="https://tinyurl.com/yrfarar9"group-title="ARGENTINA",CLAUTV
 https://live20.bozztv.com/akamaissh101/ssh101/plaaytv/chunks.m3u8
 
 
 #EXTINF:-1 tvg-logo="https://tinyurl.com/cauy9zzh"group-title="ARGENTINA",BRAVO TV
 https://redirector.rudo.video/hls-video/c54ac2799874375c81c1672abb700870537c5223/bravo/bravo.smil/playlist.m3u8
 
-#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/Canal_26_logo_%282022%29.svg/3840px-Canal_26_logo_%282022%29.svg.png"group-title="ARGENTINA",CANAL 26
+#EXTINF:-1 tvg-logo="https://tinyurl.com/47mb7xf9"group-title="ARGENTINA",CANAL 26
 https://stream-gtlc.telecentro.net.ar/hls/canal26hls/0/playlist.m3u8?uid=d1ab8e18c3a4e4fdc5b8b00e287498d9
 
 #EXTINF:-1 tvg-logo="https://tinyurl.com/6nruejr3"group-title="ARGENTINA", NET TV HD  27.2
