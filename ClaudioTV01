@@ -94,7 +94,7 @@ https://srv3.zcast.com.br/gentv/gentv/playlist.m3u8
 #EXTINF:-1 tvg-logo="https://tinyurl.com/3vzrwff3"group-title="ARGENTINA",CINCO TV HD  TIGRE
 https://videostream.shockmedia.com.ar:19360/cincotv/cincotv.m3u8
 
-#EXTINF:-1 tvg-logo="https://tinyurl.com/2p9jn39n"group-title="ARGENTINA",TELEPOSADAS
+#EXTINF:-1 tvg-logo="https://tinyurl.com/2p9jn39n"group-title="ARGENTINA", TELE POSADAS
 https://live20.bozztv.com/giatv/giatv-teleposadaso01/teleposadaso01/playlist.m3u8
 
 #EXTINF:-1 tvg-logo="https://tinyurl.com/y5cz72tm"group-title="ARGENTINA",EL MAGO TV
