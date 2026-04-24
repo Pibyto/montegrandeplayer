@@ -94,6 +94,10 @@ https://srv3.zcast.com.br/gentv/gentv/playlist.m3u8
 #EXTINF:-1 tvg-logo="https://tinyurl.com/3vzrwff3"group-title="ARGENTINA",CINCO TV HD  TIGRE
 https://videostream.shockmedia.com.ar:19360/cincotv/cincotv.m3u8
 
+#EXTINF:-1 tvg-logo="https://tinyurl.com/2p9jn39n"group-title="ARGENTINA",
+TELEPOSADAS
+https://live20.bozztv.com/giatv/giatv-teleposadaso01/teleposadaso01/playlist.m3u8
+
 #EXTINF:-1 tvg-logo="https://tinyurl.com/y5cz72tm"group-title="ARGENTINA",EL MAGO TV
 https://live20.bozztv.com/akamaissh101/ssh101/elmagotv2/chunks.m3u8
 
@@ -260,7 +264,6 @@ https://live-04-11-tyc24.vodgc.net/tyc24/index_tyc24_1080.m3u8
 
 
 
-#EXTINF:-1 tvg-logo=""group-title="ARGENTINA",
 
 
 #EXTINF:-1 tvg-logo="https://tinyurl.com/ykpzu6fs"group-title="ARGENTINA",EL 4 SAN JUAN 
