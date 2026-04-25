@@ -31,7 +31,7 @@
 https://live20.bozztv.com/akamaissh101/ssh101/montegrandetv/playlist.m3u8
 
 
-#EXTINF:-1 tvg-logo="https://tinyurl.com/3f42vdpw"group-title="ARGENTINA",PLAY TV
+#EXTINF:-1 tvg-logo="https://tinyurl.com/4rn3p6he"group-title="ARGENTINA",PLAYTV CINE
 https://live20.bozztv.com/akamaissh101/ssh101/plaaytv/chunks.m3u8
 
 
@@ -402,7 +402,7 @@ https://videostream.shockmedia.com.ar:19360/telejunin/telejunin.m3u8
 https://live20.bozztv.com/akamaissh101/ssh101/montegrandetv/chunks.m3u8
 
 
-#EXTINF:-1 tvg-logo="https://tinyurl.com/5buze9dj"group-title="CINE PREMIUM",PLAY TV
+#EXTINF:-1 tvg-logo="https://tinyurl.com/4rn3p6he"group-title="CINE PREMIUM",PLAY TV CINE 
 https://live20.bozztv.com/akamaissh101/ssh101/plaaytv/chunks.m3u8
 
 #EXTINF:-1 tvg-logo="https://cdn.phototourl.com/free/2026-04-19-5fe2ce6c-9242-4b39-b719-547e682cd68c.png"group-title="CINE PREMIUM",+CINE
