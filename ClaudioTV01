@@ -401,12 +401,15 @@ https://videostream.shockmedia.com.ar:19360/telejunin/telejunin.m3u8
 
 
 
-#EXTINF:-1 tvg-logo="https://tinyurl.com/2hy6uu5x"group-title="CINE PREMIUM",MONTE GRANDE TV
-https://live20.bozztv.com/akamaissh101/ssh101/montegrandetv/chunks.m3u8
+
 
 
 #EXTINF:-1 tvg-logo="https://tinyurl.com/4rn3p6he"group-title="CINE PREMIUM",PLAY TV CINE 
 https://live20.bozztv.com/akamaissh101/ssh101/plaaytv/chunks.m3u8
+
+#EXTINF:-1 tvg-logo="https://tinyurl.com/2hy6uu5x"group-title="CINE PREMIUM",MONTE GRANDE TV
+https://live20.bozztv.com/akamaissh101/ssh101/montegrandetv/chunks.m3u8
+
 
 #EXTINF:-1 tvg-logo="https://cdn.phototourl.com/free/2026-04-19-5fe2ce6c-9242-4b39-b719-547e682cd68c.png"group-title="CINE PREMIUM",+CINE
 http://190.102.242.130:25461/tpowercine/123456/31
@@ -430,6 +433,10 @@ https://run-rt-uh-roku.otteravision.com/run/rt_uh/rt_uh_720.m3u8
 
 #EXTINF:-1 tvg-logo="https://i.ibb.co/Pv1MqPm0/1776362866128.png"group-title="CINE PREMIUM",+CINE WAR
 http://190.102.242.130:25461/live/cinrwarpower/1234567/190
+
+#EXTINF:-1 tvg-logo="https://orbittv.net/images/logotv.png"group-title="CINE PREMIUM",ORBIT TV
+https://cnn.hostlagarto.com/orbittv/tracks-v1a1/index.m3u8
+
 
 
 #EXTINF:-1 tvg-logo="https://cdn.phototourl.com/free/2026-04-23-46a57bc9-db26-4e62-93c2-c327b7ffe948.png"group-title="CINE PREMIUM",NEXTV
@@ -460,7 +467,7 @@ http://201.217.246.42:44310/Live/3fcb6e26785fd8d415571b26dc3cf5d3/local-77_480.m
 https://a-cdn.klowdtv.com:443/live1/cine_720p/chunks.m3u8
 
 
-#EXTINF:-1 tvg-logo="https://tinyurl.com/3buy42kt"group-title="CINE PREMIUM",MONI TV 1
+#EXTINF:-1 tvg-logo=""group-title="CINE PREMIUM",MONI TV
 https://live20.bozztv.com:443/akamaissh101/ssh101/monitvhd/chunks.m3u8
 
 #EXTINF:-1 tvg-logo="https://tinyurl.com/3buy42kt"group-title="CINE PREMIUM",MONI TV 2
@@ -517,11 +524,11 @@ https://video20.klm99.com:3395/live/meganethitslive.m3u8
 
 
 #EXTINF:-1 tvg-logo="https://cdn.phototourl.com/free/2026-04-19-c98a4dda-105a-438f-9ea2-ec59000de62d.png"group-title="CINE PREMIUM",ENT CHANNEL
-https://cdn.global.elektamedia.com/live/c7eds/ENT_Channel/SA_LIVE_hls_enc/tracks-v1a1/mono.ts.m3u8
+https://cdn.global.elektamedia.com/live/c7eds/ENT_Channel/SA_LIVE_hls_enc/tracks-v1a1/mono.m3u8
 
 
 #EXTINF:-1 tvg-logo="https://cdn.phototourl.com/free/2026-04-19-6f57f921-9009-4f58-a0a5-d3ab6f07b80d.png"group-title="CINE PREMIUM",ENT FAMILY
-https://cdn.global.elektamedia.com/live/c7eds/ENT_Family/SA_LIVE_hls_enc/tracks-v1a1/mono.ts.m3u8
+https://cdn.global.elektamedia.com/live/c7eds/ENT_Family/SA_LIVE_hls_enc/tracks-v1a1/mono.m3u8
 
 
 #EXTINF:-1 tvg-logo="https://cdn.phototourl.com/free/2026-04-19-a10b079b-1f69-4336-9484-318d950b25ac.png"group-title="CINE PREMIUM",WOW MOVIES
@@ -547,8 +554,6 @@ https://59ef525c24caa.streamlock.net/telebrunca/telebrunca/chunklist_w413125513.
 https://s.emisoras.tv:8081/bendicionchannel/tracks-v1a1/mono.ts.m3u8
 
 
-#EXTINF:-1 tvg-logo="https://orbittv.net/images/logotv.png"group-title="CINE PREMIUM",ORBIT TV
-https://cnn.hostlagarto.com/orbittv/tracks-v1a1/index.m3u8
 
 #EXTINF:-1 tvg-logo=""group-title="CINE PREMIUM",MAXIVISION
 https://video03.logicahost.com.br/maxivisiontv/maxivisiontv/chunklist_w1433315337.m3u8
