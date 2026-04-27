@@ -100,6 +100,10 @@ https://videostream.shockmedia.com.ar:19360/cincotv/cincotv.m3u8
 #EXTINF:-1 tvg-logo="https://tinyurl.com/mde3me8x"group-title="ARGENTINA", TELE POSADAS
 https://live20.bozztv.com/giatv/giatv-teleposadaso01/teleposadaso01/playlist.m3u8
 
+#EXTINF:-1 tvg-logo="https://tinyurl.com/4j9nba94"group-title="ARGENTINA", CANAL 34 HD
+https://streamyes.alsolnet.com/canal34hd/live/playlist.m3u8
+
+
 #EXTINF:-1 tvg-logo="https://tinyurl.com/y5cz72tm"group-title="ARGENTINA",EL MAGO TV
 https://live20.bozztv.com/akamaissh101/ssh101/elmagotv2/chunks.m3u8
 
@@ -148,8 +152,6 @@ https://live20.bozztv.com/giatv/giatv-ojodigital/ojodigital/playlist.m3u8
 #EXTINF:-1 tvg-logo="https://tinyurl.com/3bhvy78h"group-title="ARGENTINA",METRO TV HD  18.1 TUCUMÁN
 https://streamtv12.ddns.net:5443/LiveApp/streams/193945633734205616732920.m3u8
 
-#EXTINF:-1 tvg-logo="https://tinyurl.com/4tw8635w"group-title="ARGENTINA", CANAL 34 HD
-https://streamyes.alsolnet.com/canal34hd/live/playlist.m3u8
 
 
 
@@ -435,6 +437,10 @@ http://190.102.242.130:25461/monitvpo/monitvpow/1
 
 #EXTINF:-1 tvg-logo="https://i.ibb.co/G34c3GqN/1200x630wa.png"group-title="CINE PREMIUM",TUCINE
 https://live20.bozztv.com/akamaissh101/ssh101/xiomoz/chunks.m3u8
+
+#EXTINF:-1 tvg-logo="https://tinyurl.com/75sw9wx7"group-title="CINE PREMIUM",CINE TERROR
+https://jmp2.uk/plu-5d8d180092e97a5e107638d3.m3u8
+
 
 
 #EXTINF:-1 tvg-logo="https://cdn.phototourl.com/free/2026-04-19-5fe2ce6c-9242-4b39-b719-547e682cd68c.png"group-title="CINE PREMIUM",+CINE
