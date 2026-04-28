@@ -3,6 +3,12 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+  <meta name="theme-color" content="#0a0a0f">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <meta name="apple-mobile-web-app-title" content="KlauTV">
+  <link rel="manifest" href="manifest.json">
+  <link rel="icon" type="image/png" href="https://tinyurl.com/yrfarar9">
   <title>KlauTV - Android TV</title>
   <script src="https://cdn.jsdelivr.net/npm/hls.js@latest"></script>
   <script src="https://cdn.jsdelivr.net/npm/mpegts.js@latest"></script>
@@ -83,6 +89,11 @@
 </div>
 
 <script>
+  // Service Worker para PWA
+  if ('serviceWorker' in navigator) {
+    navigator.serviceWorker.register('/sw.js').catch(err => console.log('SW error:', err));
+  }
+
   const TV_M3U_URL = "https://tinyurl.com/2n2etx65";
   const MOVIES_M3U_URL = "https://tinyurl.com/2vz6vphp";
   
@@ -122,19 +133,26 @@
   }
 
   downloadBtn.onclick = () => {
-    const blob = new Blob([document.documentElement.outerHTML], { type: 'text/html' });
-    const url = URL.createObjectURL(blob);
-    const a = document.createElement('a');
-    a.href = url; a.download = 'KlauTV.html'; a.click();
-    URL.revokeObjectURL(url);
+    // Instalar PWA en lugar de descargar HTML
+    if (deferredPrompt) {
+      deferredPrompt.prompt();
+      deferredPrompt.userChoice.then(() => { deferredPrompt = null; });
+    } else {
+      mostrarMensaje("Usa 'Agregar a pantalla de inicio' en el menú del navegador");
+    }
   };
+
+  let deferredPrompt = null;
+  window.addEventListener('beforeinstallprompt', (e) => {
+    e.preventDefault();
+    deferredPrompt = e;
+  });
 
   function destroyPlayers() {
     if (currentHls) { currentHls.destroy(); currentHls = null; }
     if (currentMpegts) { currentMpegts.destroy(); currentMpegts = null; }
   }
 
-  // REPRODUCCIÓN - IGUAL A LA VERSIÓN QUE FUNCIONA
   function playUrl(originalUrl) {
     if (!originalUrl) return;
     currentPlayingUrl = originalUrl;
@@ -152,7 +170,6 @@
     video.removeAttribute('src');
     video.load();
 
-    // XTREAM CODES - DIRECTO SIN PROXY
     if (originalUrl.includes(':25461/') || originalUrl.includes('.ts')) {
       if (window.mpegts && mpegts.isSupported()) {
         try {
@@ -438,7 +455,7 @@
 
   function cargarListaTV() {
     fetch(TV_M3U_URL + "?t=" + Date.now(), { cache: "no-store" })
-      .then(r => r.ok ? r.text() : Promise.reject())
+     .then(r => r.ok ? r.text() : Promise.reject())
       .then(data => {
         categorias = {}; todosCanales = [];
         const lines = data.split("\n");
@@ -507,7 +524,7 @@
   }
   fullscreenBtn.onclick = toggleFullscreen;
 
-  // NAVEGACIÓN CON CONTROL REMOTO - IGUAL A VERSIÓN FUNCIONAL
+  // NAVEGACIÓN CON CONTROL REMOTO
   function getFocusableElements() {
     let elements = [];
     if (leftVisible && leftPanel.style.display !== "none") {
@@ -544,19 +561,90 @@
     }
   });
 
+  // CHROMECAST - CORREGIDO
   let castContext = null;
+  let castSession = null;
+
+  function initializeCast() {
+    if (!chrome.cast || !chrome.cast.isAvailable) {
+      setTimeout(initializeCast, 1000);
+      return;
+    }
+    
+    try {
+      castContext = cast.framework.CastContext.getInstance();
+      castContext.setOptions({
+        receiverApplicationId: chrome.cast.media.DEFAULT_MEDIA_RECEIVER_APP_ID,
+        autoJoinPolicy: chrome.cast.AutoJoinPolicy.ORIGIN_SCOPED
+      });
+      
+      castContext.addEventListener(cast.framework.CastContextEventType.SESSION_STATE_CHANGED, (event) => {
+        castSession = event.sessionState === cast.framework.SessionState.SESSION_STARTED ? castContext.getCurrentSession() : null;
+      });
+      
+      console.log("Chromecast inicializado correctamente");
+    } catch(e) {
+      console.error("Error al inicializar Chromecast:", e);
+    }
+  }
+
   window['__onGCastApiAvailable'] = (loaded) => {
-    if (loaded && chrome.cast && chrome.cast.isAvailable) {
-      try {
-        castContext = cast.framework.CastContext.getInstance();
-        castContext.setOptions({ receiverApplicationId: chrome.cast.media.DEFAULT_MEDIA_RECEIVER_APP_ID, autoJoinPolicy: chrome.cast.AutoJoinPolicy.ORIGIN_SCOPED });
-      } catch(e) {}
+    if (loaded) {
+      initializeCast();
     }
   };
-  castButton.onclick = () => { if(castContext) castContext.requestSession(); else mostrarMensaje("Chromecast no disponible"); };
+
+  castButton.onclick = () => {
+    if (castContext) {
+      castContext.requestSession().then(() => {
+        if (castSession && currentPlayingUrl) {
+          const mediaInfo = new chrome.cast.media.MediaInfo(currentPlayingUrl, 'video/mp4');
+          const request = new chrome.cast.media.LoadRequest(mediaInfo);
+          castSession.loadMedia(request).catch(e => console.log);
+        }
+      }).catch(err => {
+        console.error("Error al iniciar sesión de Cast:", err);
+        mostrarMensaje("No se pudo conectar con Chromecast");
+      });
+    } else {
+      mostrarMensaje("Chromecast no disponible en esta página");
+    }
+  };
 
   cargarListaTV();
   cargarPeliculas();
+</script>
+
+<script>
+  // Generar manifest.json y service worker
+  (function() {
+    const manifest = {
+      name: "KlauTV",
+      short_name: "KlauTV",
+      start_url: ".",
+      display: "standalone",
+      theme_color: "#0a0a0f",
+      background_color: "#0a0a0f",
+      icons: [{ src: "https://tinyurl.com/yrfarar9", sizes: "192x192", type: "image/png" }]
+    };
+    if (!document.querySelector('link[rel="manifest"]')) {
+      const blob = new Blob([JSON.stringify(manifest)], {type: "application/json"});
+      const url = URL.createObjectURL(blob);
+      const link = document.createElement('link');
+      link.rel = 'manifest';
+      link.href = url;
+      document.head.appendChild(link);
+    }
+    
+    const swCode = `self.addEventListener('install', e => e.waitUntil(self.skipWaiting()));
+self.addEventListener('activate', e => e.waitUntil(self.clients.claim()));
+self.addEventListener('fetch', e => e.respondWith(fetch(e.request).catch(() => caches.match(e.request))));`;
+    const blobSW = new Blob([swCode], {type: "application/javascript"});
+    const swURL = URL.createObjectURL(blobSW);
+    if ('serviceWorker' in navigator) {
+      navigator.serviceWorker.register(swURL).catch(console.log);
+    }
+  })();
 </script>
 </body>
 </html>
