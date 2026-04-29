@@ -153,13 +153,16 @@ https://live20.bozztv.com/giatvplayout/giatvvod/giatv/movies/playlist/208538/0_2
 #EXTINF:-1 tvg-logo="https://media.themoviedb.org/t/p/w220_and_h330_face/vq3E4dNnDIoCMjPim2XfWwEuRlX.jpg"group-title="PELÍCULAS",MATAR O MORIR 
 https://live20.bozztv.com/giatvplayout/giatvvod/giatv/movies/playlist/208538/0_1_ACCION.mp4/chunk.m3u8
 
-#EXTINF:-1 tvg-logo=""group-title="PELÍCULAS",
+#EXTINF:-1 tvg-logo="https://media.themoviedb.org/t/p/w220_and_h330_face/bGoMKWmNI5pEPj1Xx2Erf2vqgTe.jpg"group-title="PELÍCULAS",UN DÍA PARA SOBREVIVIR 
+https://videos.gia.tv/giatv/movies/playlist/208538/Un_D__a_Para_Sobrevivir__2011_____Pel__culas_En_Espa__ol_720P_HD_.mp4
 
 
-#EXTINF:-1 tvg-logo=""group-title="PELÍCULAS",
+#EXTINF:-1 tvg-logo="https://media.themoviedb.org/t/p/w220_and_h330_face/dUbv0BuEHrDDvvoQ14OaBeBrpXu.jpg"group-title="PELÍCULAS",UN OSO ROJO
+https://videos.gia.tv/giatv/movies/playlist/208538/Un_oso_rojo___Argentina__2002__1080P_HD_.mp4
 
 
-#EXTINF:-1 tvg-logo=""group-title="PELÍCULAS",
+#EXTINF:-1 tvg-logo="https://media.themoviedb.org/t/p/w220_and_h330_face/uNmhgNiUzZAknt4sjY1id8nbFCG.jpg"group-title="PELÍCULAS",TROPA DE ELITE 
+https://videos.gia.tv/giatv/movies/playlist/208538/Tropa_de___lite__2007_.mp4
 
 
 #EXTINF:-1 tvg-logo="https://univideo01.akamaized.net/cdn/asset/images/hotspot-mobile-SiI4z.jpg"group-title="PELÍCULAS",NOE LA PELÍCULA (GÉNESIS-NOVELA)
