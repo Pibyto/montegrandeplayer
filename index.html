@@ -3,13 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
-  <meta name="theme-color" content="#0a0a0f">
-  <meta name="apple-mobile-web-app-capable" content="yes">
-  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
-  <meta name="apple-mobile-web-app-title" content="KlauTV">
-  <link rel="manifest" href="manifest.json">
-  <link rel="icon" type="image/png" href="https://tinyurl.com/yrfarar9">
-  <title>KlauTV - Android TV</title>
+  <title>KlauTV - Web</title>
   <script src="https://cdn.jsdelivr.net/npm/hls.js@latest"></script>
   <script src="https://cdn.jsdelivr.net/npm/mpegts.js@latest"></script>
   <script src="https://www.gstatic.com/cvjs/sender/libs/cast_sender.js"></script>
@@ -26,14 +20,13 @@
     .left-panel { flex: 0 0 250px; }
     .right-panel { flex: 0 0 280px; }
     .center-panel { flex: 1; min-width: 260px; display: flex; flex-direction: column; gap: 15px; }
-    .player-container { background: #000; border-radius: 20px; overflow: hidden; aspect-ratio: 16 / 9; width: 100%; box-shadow: 0 5px 20px rgba(0,0,0,0.5); position: relative; display: none; }
-    .player-container.visible { display: block; }
+    .player-container { background: #000; border-radius: 20px; overflow: hidden; aspect-ratio: 16 / 9; width: 100%; box-shadow: 0 5px 20px rgba(0,0,0,0.5); position: relative; display: block; }
     video { width: 100%; height: 100%; object-fit: contain; background: #000; }
     video::-webkit-media-controls { display: none !important; }
     #black-overlay { position: absolute; top: 0; left: 0; width: 100%; height: 100%; background: #000; z-index: 10; pointer-events: none; display: none; }
     .movies-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(140px, 1fr)); gap: 16px; padding: 10px; background: rgba(0,0,0,0.3); border-radius: 20px; max-height: calc(100vh - 100px); overflow-y: auto; }
     .movie-card { background: rgba(20,20,30,0.8); border-radius: 16px; overflow: hidden; cursor: pointer; text-align: center; padding-bottom: 8px; }
-    .movie-poster { width: 100%; aspect-ratio: 2 / 3; object-fit: cover; background: #1a1a2a; }
+    .movie-poster { width: 100%; height: auto; display: block; background: #1a1a2a; }
     .movie-title { font-size: 0.7rem; padding: 6px 4px; color: #eee; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
     .fav-bar { background: rgba(0,0,0,0.4); backdrop-filter: blur(8px); padding: 8px 12px; border-radius: 40px; display: flex; gap: 10px; overflow-x: auto; white-space: nowrap; }
     .fav-chip { background: rgba(255,255,255,0.1); padding: 5px 14px; border-radius: 30px; font-size: 0.75rem; cursor: pointer; display: inline-flex; align-items: center; gap: 6px; }
@@ -49,12 +42,37 @@
     ::-webkit-scrollbar-track { background: #1e1e2a; }
     ::-webkit-scrollbar-thumb { background: #ffcc88; border-radius: 10px; }
     .empty-msg { text-align: center; padding: 20px; opacity: 0.6; font-size: 0.8rem; }
+    
+    .reproducir-info {
+      background: rgba(0,0,0,0.5);
+      border-radius: 40px;
+      padding: 8px 16px;
+      margin-bottom: 10px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 12px;
+      flex-wrap: wrap;
+    }
+    .reproducir-info span {
+      font-size: 0.75rem;
+      color: rgba(255,255,255,0.7);
+      letter-spacing: 1px;
+    }
+    .reproducir-info img {
+      width: 28px;
+      height: 28px;
+      object-fit: contain;
+    }
+    
     @media (max-width: 800px) {
       body { padding: 10px; }
       .left-panel, .right-panel { flex-basis: 100%; height: auto; max-height: 40vh; }
       .watermark { width: 70px; top: 10px; left: 10px; }
       .tool-btn { width: 38px; height: 38px; font-size: 1rem; }
       .movies-grid { grid-template-columns: repeat(auto-fill, minmax(100px, 1fr)); gap: 10px; }
+      .reproducir-info span { font-size: 0.65rem; }
+      .reproducir-info img { width: 22px; height: 22px; }
     }
   </style>
 </head>
@@ -82,18 +100,20 @@
       <video id="videoPlayer" autoplay playsinline poster="" crossorigin="anonymous"></video>
       <div id="blackOverlay" style="position:absolute; top:0; left:0; width:100%; height:100%; background:#000; z-index:10; pointer-events:none; display:none;"></div>
     </div>
-    <div id="moviesGridContainer" class="movies-grid" style="display: none;"></div>
+    <div id="moviesArea" style="display: none;">
+      <div class="reproducir-info">
+        <span>REPRODUCIR PELÍCULAS</span>
+        <img src="https://cdn.iconscout.com/icon/free/png-256/free-reproductor-vlc-icon-svg-download-png-722651.png?f=webp" alt="VLC">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/0/0f/MX_Player_Logo.png" alt="MXPlayer">
+      </div>
+      <div id="moviesGridContainer" class="movies-grid"></div>
+    </div>
     <div class="fav-bar" id="favBar"></div>
   </div>
   <div class="right-panel" id="rightPanel"></div>
 </div>
 
 <script>
-  // Service Worker para PWA
-  if ('serviceWorker' in navigator) {
-    navigator.serviceWorker.register('/sw.js').catch(err => console.log('SW error:', err));
-  }
-
   const TV_M3U_URL = "https://tinyurl.com/2n2etx65";
   const MOVIES_M3U_URL = "https://tinyurl.com/2vz6vphp";
   
@@ -114,6 +134,7 @@
   const video = document.getElementById("videoPlayer");
   const favBar = document.getElementById("favBar");
   const playerContainer = document.getElementById("playerContainer");
+  const moviesArea = document.getElementById("moviesArea");
   const moviesGridContainer = document.getElementById("moviesGridContainer");
   const blackOverlay = document.getElementById("blackOverlay");
   const toggleLeftBtn = document.getElementById("toggleLeftBtn");
@@ -132,78 +153,98 @@
     window.location.href = `intent://${url.replace(/^https?:\/\//, '')}#Intent;package=org.videolan.vlc;scheme=vlc;end;`;
   }
 
-  downloadBtn.onclick = () => {
-    // Instalar PWA en lugar de descargar HTML
-    if (deferredPrompt) {
-      deferredPrompt.prompt();
-      deferredPrompt.userChoice.then(() => { deferredPrompt = null; });
-    } else {
-      mostrarMensaje("Usa 'Agregar a pantalla de inicio' en el menú del navegador");
-    }
-  };
-
-  let deferredPrompt = null;
-  window.addEventListener('beforeinstallprompt', (e) => {
-    e.preventDefault();
-    deferredPrompt = e;
-  });
-
-  function destroyPlayers() {
-    if (currentHls) { currentHls.destroy(); currentHls = null; }
-    if (currentMpegts) { currentMpegts.destroy(); currentMpegts = null; }
+  function abrirEnMXPlayer(url) {
+    window.location.href = `intent://${url.replace(/^https?:\/\//, '')}#Intent;package=com.mxtech.videoplayer.ad;scheme=https;end;`;
   }
 
-  function playUrl(originalUrl) {
-    if (!originalUrl) return;
-    currentPlayingUrl = originalUrl;
+  // LOGO DENTRO DEL VIDEO - DEFINITIVO
+  function mostrarLogoMalvinas(url) {
+    const logoExistente = document.getElementById('logoMalvinas');
+    const esMalvinas = url === "https://live20.bozztv.com/giatvplayout7/giatv-208744/tracks-v1a1/mono.m3u8";
+    
+    if (logoExistente && !esMalvinas) {
+      logoExistente.remove();
+      return;
+    }
+    
+    if (esMalvinas && !logoExistente) {
+      const img = document.createElement('img');
+      img.id = 'logoMalvinas';
+      img.src = 'https://tinyurl.com/mvy7vk8a';
+      img.style.position = 'absolute';
+      img.style.top = '20px';
+      img.style.right = '50px';
+      img.style.width = '90px';
+      img.style.height = 'auto';
+      img.style.zIndex = '99999';
+      img.style.pointerEvents = 'none';
+      playerContainer.appendChild(img);
+    }
+  }
+
+  function playTv(url) {
+    if (!url) return;
+    currentPlayingUrl = url;
+    
+    // Asegurar que el contenedor de video esté visible
+    playerContainer.style.display = 'block';
+    moviesArea.style.display = 'none';
+    modoPeliculas = false;
+    
+    mostrarLogoMalvinas(url);
     
     showBlackOverlay();
     setTimeout(hideBlackOverlay, 2000);
     
-    if (/\.(mp4|mkv|avi|mov|wmv|flv|webm|ogg)$/i.test(originalUrl)) {
-      abrirEnVLC(originalUrl);
-      return;
-    }
-
-    destroyPlayers();
+    if (currentHls) { currentHls.destroy(); currentHls = null; }
+    if (currentMpegts) { currentMpegts.destroy(); currentMpegts = null; }
+    
     video.pause();
     video.removeAttribute('src');
     video.load();
 
-    if (originalUrl.includes(':25461/') || originalUrl.includes('.ts')) {
+    if (url.includes(':25461/') || url.includes('.ts')) {
       if (window.mpegts && mpegts.isSupported()) {
         try {
-          currentMpegts = mpegts.createPlayer({ type: 'mpegts', url: originalUrl, isLive: true });
+          currentMpegts = mpegts.createPlayer({ type: 'mpegts', url: url, isLive: true });
           currentMpegts.attachMediaElement(video);
           currentMpegts.load();
           currentMpegts.play().catch(e => console.warn);
         } catch(e) {
-          video.src = originalUrl;
+          video.src = url;
           video.play().catch(e => console.warn);
         }
       } else {
-        video.src = originalUrl;
+        video.src = url;
         video.play().catch(e => console.warn);
       }
       return;
     }
     
-    if (originalUrl.includes('.m3u8')) {
+    if (url.includes('.m3u8')) {
       if (Hls && Hls.isSupported()) {
         currentHls = new Hls();
-        currentHls.loadSource(originalUrl);
+        currentHls.loadSource(url);
         currentHls.attachMedia(video);
         currentHls.on(Hls.Events.MANIFEST_PARSED, () => video.play().catch(e=>console.warn));
       } else if (video.canPlayType('application/vnd.apple.mpegurl')) {
-        video.src = originalUrl;
+        video.src = url;
         video.play().catch(e=>console.warn);
       }
       return;
     }
     
-    video.src = originalUrl;
+    video.src = url;
     video.play().catch(e => console.warn);
   }
+
+  downloadBtn.onclick = () => {
+    const blob = new Blob([document.documentElement.outerHTML], { type: 'text/html' });
+    const url = URL.createObjectURL(blob);
+    const a = document.createElement('a');
+    a.href = url; a.download = 'KlauTV.html'; a.click();
+    URL.revokeObjectURL(url);
+  };
 
   function saveFavs() {
     localStorage.setItem("klautv_favs", JSON.stringify(favoritos));
@@ -231,7 +272,7 @@
       chip.setAttribute("tabindex", "0");
       chip.onclick = () => {
         if (modoPeliculas) salirModoPeliculas();
-        playUrl(fav.url);
+        playTv(fav.url);
       };
       chip.onkeydown = (e) => { if (e.key === 'Enter' || e.key === ' ') chip.click(); };
       if (fav.logo) {
@@ -250,10 +291,13 @@
 
   function entrarModoPeliculas() {
     modoPeliculas = true;
-    playerContainer.classList.remove("visible");
-    playerContainer.style.display = "none";
-    moviesGridContainer.style.display = "grid";
-    destroyPlayers();
+    // Ocultar el logo de Malvinas si estaba visible
+    const logo = document.getElementById('logoMalvinas');
+    if (logo) logo.remove();
+    playerContainer.style.display = 'none';
+    moviesArea.style.display = 'block';
+    if (currentHls) { currentHls.destroy(); currentHls = null; }
+    if (currentMpegts) { currentMpegts.destroy(); currentMpegts = null; }
     video.pause();
     video.removeAttribute('src');
     renderMoviesGrid();
@@ -261,9 +305,8 @@
   
   function salirModoPeliculas() {
     modoPeliculas = false;
-    moviesGridContainer.style.display = "none";
-    playerContainer.style.display = "block";
-    playerContainer.classList.add("visible");
+    moviesArea.style.display = 'none';
+    playerContainer.style.display = 'block';
   }
   
   function renderMoviesGrid() {
@@ -276,7 +319,9 @@
       const card = document.createElement("div");
       card.className = "movie-card";
       card.setAttribute("tabindex", "0");
-      card.onclick = () => { if(peli.url) abrirEnVLC(peli.url); };
+      card.onclick = () => {
+        if(peli.url) abrirEnVLC(peli.url);
+      };
       card.onkeydown = (e) => { if(e.key === 'Enter' || e.key === ' ') card.click(); };
       const poster = document.createElement("img");
       poster.className = "movie-poster";
@@ -337,7 +382,6 @@
           renderMenuPeliculasBack();
         } else {
           salirModoPeliculas();
-          mostrarMensaje("Próximamente");
         }
       };
       btn.onkeydown = (e) => { if(e.key === 'Enter' || e.key === ' ') btn.click(); };
@@ -377,7 +421,7 @@
         canalesActuales = categorias[cat] || [];
         nivel = "canales";
         renderCanalesEnMenu();
-        if (canalesActuales.length) playUrl(canalesActuales[0].url);
+        if (canalesActuales.length) playTv(canalesActuales[0].url);
       };
       btn.onkeydown = (e) => { if(e.key === 'Enter' || e.key === ' ') btn.click(); };
       menuContainer.appendChild(btn);
@@ -408,8 +452,8 @@
       const span = document.createElement("span");
       span.innerText = canal.nombre;
       btn.appendChild(span);
-      btn.onclick = () => playUrl(canal.url);
-      btn.onkeydown = (e) => { if(e.key === 'Enter' || e.key === ' ') playUrl(canal.url); };
+      btn.onclick = () => playTv(canal.url);
+      btn.onkeydown = (e) => { if(e.key === 'Enter' || e.key === ' ') playTv(canal.url); };
       menuContainer.appendChild(btn);
     });
   }
@@ -447,7 +491,7 @@
       favBtn.onclick = (e) => { e.stopPropagation(); toggleFav(canal, e); };
       favBtn.onkeydown = (e) => { if(e.key === 'Enter' || e.key === ' ') { e.stopPropagation(); toggleFav(canal, e); } };
       item.appendChild(favBtn);
-      item.onclick = () => { if (modoPeliculas) salirModoPeliculas(); playUrl(canal.url); };
+      item.onclick = () => { if (modoPeliculas) salirModoPeliculas(); playTv(canal.url); };
       item.onkeydown = (e) => { if(e.key === 'Enter' || e.key === ' ') item.click(); };
       rightPanel.appendChild(item);
     });
@@ -455,7 +499,7 @@
 
   function cargarListaTV() {
     fetch(TV_M3U_URL + "?t=" + Date.now(), { cache: "no-store" })
-     .then(r => r.ok ? r.text() : Promise.reject())
+      .then(r => r.ok ? r.text() : Promise.reject())
       .then(data => {
         categorias = {}; todosCanales = [];
         const lines = data.split("\n");
@@ -482,29 +526,13 @@
         if (primeras.length) {
           const primeraCat = primeras[0];
           canalesActuales = categorias[primeraCat] || [];
-          if (canalesActuales.length) playUrl(canalesActuales[0].url);
+          if (canalesActuales.length) playTv(canalesActuales[0].url);
         }
       }).catch(() => {
         categorias = { "PRINCIPAL": [{ nombre: "Demo", url: "https://sample-videos.com/video123/mp4/720/big_buck_bunny_720p_1mb.mp4", logo: null }] };
         todosCanales = categorias.PRINCIPAL;
         renderPrincipal(); renderFavBar(); renderRightPanel();
       });
-  }
-
-  function mostrarMensaje(msg) {
-    const div = document.createElement("div");
-    div.style.position = "fixed";
-    div.style.bottom = "80px";
-    div.style.left = "50%";
-    div.style.transform = "translateX(-50%)";
-    div.style.background = "rgba(0,0,0,0.7)";
-    div.style.padding = "6px 15px";
-    div.style.borderRadius = "30px";
-    div.style.fontSize = "0.7rem";
-    div.style.zIndex = "1000";
-    div.innerText = msg;
-    document.body.appendChild(div);
-    setTimeout(() => div.remove(), 2000);
   }
 
   function toggleLeft() { leftVisible = !leftVisible; leftPanel.style.display = leftVisible ? "block" : "none"; }
@@ -524,7 +552,6 @@
   }
   fullscreenBtn.onclick = toggleFullscreen;
 
-  // NAVEGACIÓN CON CONTROL REMOTO
   function getFocusableElements() {
     let elements = [];
     if (leftVisible && leftPanel.style.display !== "none") {
@@ -561,90 +588,19 @@
     }
   });
 
-  // CHROMECAST - CORREGIDO
   let castContext = null;
-  let castSession = null;
-
-  function initializeCast() {
-    if (!chrome.cast || !chrome.cast.isAvailable) {
-      setTimeout(initializeCast, 1000);
-      return;
-    }
-    
-    try {
-      castContext = cast.framework.CastContext.getInstance();
-      castContext.setOptions({
-        receiverApplicationId: chrome.cast.media.DEFAULT_MEDIA_RECEIVER_APP_ID,
-        autoJoinPolicy: chrome.cast.AutoJoinPolicy.ORIGIN_SCOPED
-      });
-      
-      castContext.addEventListener(cast.framework.CastContextEventType.SESSION_STATE_CHANGED, (event) => {
-        castSession = event.sessionState === cast.framework.SessionState.SESSION_STARTED ? castContext.getCurrentSession() : null;
-      });
-      
-      console.log("Chromecast inicializado correctamente");
-    } catch(e) {
-      console.error("Error al inicializar Chromecast:", e);
-    }
-  }
-
   window['__onGCastApiAvailable'] = (loaded) => {
-    if (loaded) {
-      initializeCast();
+    if (loaded && chrome.cast && chrome.cast.isAvailable) {
+      try {
+        castContext = cast.framework.CastContext.getInstance();
+        castContext.setOptions({ receiverApplicationId: chrome.cast.media.DEFAULT_MEDIA_RECEIVER_APP_ID, autoJoinPolicy: chrome.cast.AutoJoinPolicy.ORIGIN_SCOPED });
+      } catch(e) {}
     }
   };
-
-  castButton.onclick = () => {
-    if (castContext) {
-      castContext.requestSession().then(() => {
-        if (castSession && currentPlayingUrl) {
-          const mediaInfo = new chrome.cast.media.MediaInfo(currentPlayingUrl, 'video/mp4');
-          const request = new chrome.cast.media.LoadRequest(mediaInfo);
-          castSession.loadMedia(request).catch(e => console.log);
-        }
-      }).catch(err => {
-        console.error("Error al iniciar sesión de Cast:", err);
-        mostrarMensaje("No se pudo conectar con Chromecast");
-      });
-    } else {
-      mostrarMensaje("Chromecast no disponible en esta página");
-    }
-  };
+  castButton.onclick = () => { if(castContext) castContext.requestSession(); };
 
   cargarListaTV();
   cargarPeliculas();
-</script>
-
-<script>
-  // Generar manifest.json y service worker
-  (function() {
-    const manifest = {
-      name: "KlauTV",
-      short_name: "KlauTV",
-      start_url: ".",
-      display: "standalone",
-      theme_color: "#0a0a0f",
-      background_color: "#0a0a0f",
-      icons: [{ src: "https://tinyurl.com/yrfarar9", sizes: "192x192", type: "image/png" }]
-    };
-    if (!document.querySelector('link[rel="manifest"]')) {
-      const blob = new Blob([JSON.stringify(manifest)], {type: "application/json"});
-      const url = URL.createObjectURL(blob);
-      const link = document.createElement('link');
-      link.rel = 'manifest';
-      link.href = url;
-      document.head.appendChild(link);
-    }
-    
-    const swCode = `self.addEventListener('install', e => e.waitUntil(self.skipWaiting()));
-self.addEventListener('activate', e => e.waitUntil(self.clients.claim()));
-self.addEventListener('fetch', e => e.respondWith(fetch(e.request).catch(() => caches.match(e.request))));`;
-    const blobSW = new Blob([swCode], {type: "application/javascript"});
-    const swURL = URL.createObjectURL(blobSW);
-    if ('serviceWorker' in navigator) {
-      navigator.serviceWorker.register(swURL).catch(console.log);
-    }
-  })();
 </script>
 </body>
 </html>
