@@ -7,6 +7,15 @@
   <script src="https://cdn.jsdelivr.net/npm/hls.js@latest"></script>
   <script src="https://cdn.jsdelivr.net/npm/mpegts.js@latest"></script>
   <script src="https://www.gstatic.com/cvjs/sender/libs/cast_sender.js"></script>
+  
+  <!-- PWA Manifest -->
+  <link rel="manifest" href="manifest.json">
+  <meta name="theme-color" content="#0a0a0f">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <meta name="apple-mobile-web-app-title" content="KlauTV">
+  <link rel="apple-touch-icon" href="https://tinyurl.com/yrfarar9">
+  
   <style>
     * { margin: 0; padding: 0; box-sizing: border-box; }
     body { background: #0a0a0f; font-family: 'Segoe UI', system-ui, sans-serif; color: #eee; min-height: 100vh; padding: 15px; }
@@ -20,7 +29,8 @@
     .left-panel { flex: 0 0 250px; }
     .right-panel { flex: 0 0 280px; }
     .center-panel { flex: 1; min-width: 260px; display: flex; flex-direction: column; gap: 15px; }
-    .player-container { background: #000; border-radius: 20px; overflow: hidden; aspect-ratio: 16 / 9; width: 100%; box-shadow: 0 5px 20px rgba(0,0,0,0.5); position: relative; display: block; }
+    .player-container { background: #000; border-radius: 20px; overflow: hidden; aspect-ratio: 16 / 9; width: 100%; box-shadow: 0 5px 20px rgba(0,0,0,0.5); position: relative; display: none; }
+    .player-container.visible { display: block; }
     video { width: 100%; height: 100%; object-fit: contain; background: #000; }
     video::-webkit-media-controls { display: none !important; }
     #black-overlay { position: absolute; top: 0; left: 0; width: 100%; height: 100%; background: #000; z-index: 10; pointer-events: none; display: none; }
@@ -85,7 +95,7 @@
   <button class="tool-btn" id="toggleRightBtn">▶</button>
   <button class="tool-btn" id="fullscreenBtn">⛶</button>
   <button class="tool-btn cast-btn" id="castButton"></button>
-  <button class="tool-btn download-btn" id="downloadAppBtn"></button>
+  <button class="tool-btn download-btn" id="installPwaBtn" style="background:#ffcc88; background-image:none; color:#000; font-weight:bold; font-size:0.75rem; width:auto; padding:0 16px;">📲 INSTALAR</button>
 </div>
 
 <div class="app">
@@ -141,23 +151,19 @@
   const toggleRightBtn = document.getElementById("toggleRightBtn");
   const fullscreenBtn = document.getElementById("fullscreenBtn");
   const castButton = document.getElementById("castButton");
-  const downloadBtn = document.getElementById("downloadAppBtn");
+  const installPwaBtn = document.getElementById("installPwaBtn");
 
-  function showBlackOverlay() { if (blackOverlay) blackOverlay.style.display = "block"; }
-  function hideBlackOverlay() { if (blackOverlay) blackOverlay.style.display = "none"; }
-  
-  video.addEventListener('playing', hideBlackOverlay);
-  video.addEventListener('waiting', showBlackOverlay);
-
-  function abrirEnVLC(url) {
-    window.location.href = `intent://${url.replace(/^https?:\/\//, '')}#Intent;package=org.videolan.vlc;scheme=vlc;end;`;
+  // ========== LOGO MALVINAS TV (RECUPERADO) ==========
+  function ajustarTamañoLogoMalvinas() {
+    const logo = document.getElementById('logoMalvinas');
+    if (!logo) return;
+    if (document.fullscreenElement) {
+      logo.style.width = '180px';
+    } else {
+      logo.style.width = '90px';
+    }
   }
 
-  function abrirEnMXPlayer(url) {
-    window.location.href = `intent://${url.replace(/^https?:\/\//, '')}#Intent;package=com.mxtech.videoplayer.ad;scheme=https;end;`;
-  }
-
-  // LOGO DENTRO DEL VIDEO - DEFINITIVO
   function mostrarLogoMalvinas(url) {
     const logoExistente = document.getElementById('logoMalvinas');
     const esMalvinas = url === "https://live20.bozztv.com/giatvplayout7/giatv-208744/tracks-v1a1/mono.m3u8";
@@ -179,17 +185,31 @@
       img.style.zIndex = '99999';
       img.style.pointerEvents = 'none';
       playerContainer.appendChild(img);
+      setTimeout(ajustarTamañoLogoMalvinas, 100);
     }
+  }
+
+  document.addEventListener('fullscreenchange', () => {
+    ajustarTamañoLogoMalvinas();
+  });
+
+  function showBlackOverlay() { if (blackOverlay) blackOverlay.style.display = "block"; }
+  function hideBlackOverlay() { if (blackOverlay) blackOverlay.style.display = "none"; }
+  
+  video.addEventListener('playing', hideBlackOverlay);
+  video.addEventListener('waiting', showBlackOverlay);
+
+  function abrirEnVLC(url) {
+    window.location.href = `intent://${url.replace(/^https?:\/\//, '')}#Intent;package=org.videolan.vlc;scheme=vlc;end;`;
+  }
+
+  function abrirEnMXPlayer(url) {
+    window.location.href = `intent://${url.replace(/^https?:\/\//, '')}#Intent;package=com.mxtech.videoplayer.ad;scheme=https;end;`;
   }
 
   function playTv(url) {
     if (!url) return;
     currentPlayingUrl = url;
-    
-    // Asegurar que el contenedor de video esté visible
-    playerContainer.style.display = 'block';
-    moviesArea.style.display = 'none';
-    modoPeliculas = false;
     
     mostrarLogoMalvinas(url);
     
@@ -238,12 +258,20 @@
     video.play().catch(e => console.warn);
   }
 
-  downloadBtn.onclick = () => {
-    const blob = new Blob([document.documentElement.outerHTML], { type: 'text/html' });
-    const url = URL.createObjectURL(blob);
-    const a = document.createElement('a');
-    a.href = url; a.download = 'KlauTV.html'; a.click();
-    URL.revokeObjectURL(url);
+  // ========== PWA INSTALL ==========
+  let deferredPrompt = null;
+  window.addEventListener('beforeinstallprompt', (e) => {
+    e.preventDefault();
+    deferredPrompt = e;
+    installPwaBtn.style.display = 'inline-flex';
+  });
+  installPwaBtn.onclick = () => {
+    if (deferredPrompt) {
+      deferredPrompt.prompt();
+      deferredPrompt.userChoice.then(() => { deferredPrompt = null; });
+    } else {
+      alert("Para instalar la app, usa el navegador Chrome, Edge o Samsung Internet");
+    }
   };
 
   function saveFavs() {
@@ -291,11 +319,11 @@
 
   function entrarModoPeliculas() {
     modoPeliculas = true;
-    // Ocultar el logo de Malvinas si estaba visible
     const logo = document.getElementById('logoMalvinas');
     if (logo) logo.remove();
-    playerContainer.style.display = 'none';
-    moviesArea.style.display = 'block';
+    playerContainer.classList.remove("visible");
+    playerContainer.style.display = "none";
+    moviesArea.style.display = "block";
     if (currentHls) { currentHls.destroy(); currentHls = null; }
     if (currentMpegts) { currentMpegts.destroy(); currentMpegts = null; }
     video.pause();
@@ -305,8 +333,9 @@
   
   function salirModoPeliculas() {
     modoPeliculas = false;
-    moviesArea.style.display = 'none';
-    playerContainer.style.display = 'block';
+    moviesArea.style.display = "none";
+    playerContainer.style.display = "block";
+    playerContainer.classList.add("visible");
   }
   
   function renderMoviesGrid() {
@@ -539,9 +568,11 @@
   function toggleRight() { rightVisible = !rightVisible; rightPanel.style.display = rightVisible ? "block" : "none"; }
   toggleLeftBtn.onclick = toggleLeft;
   toggleRightBtn.onclick = toggleRight;
-  [toggleLeftBtn, toggleRightBtn, fullscreenBtn, castButton, downloadBtn].forEach(btn => {
-    btn.setAttribute("tabindex", "0");
-    btn.onkeydown = (e) => { if (e.key === 'Enter' || e.key === ' ') btn.click(); };
+  [toggleLeftBtn, toggleRightBtn, fullscreenBtn, castButton, installPwaBtn].forEach(btn => {
+    if (btn) {
+      btn.setAttribute("tabindex", "0");
+      btn.onkeydown = (e) => { if (e.key === 'Enter' || e.key === ' ') btn.click(); };
+    }
   });
 
   function toggleFullscreen() {
@@ -597,10 +628,15 @@
       } catch(e) {}
     }
   };
-  castButton.onclick = () => { if(castContext) castContext.requestSession(); };
+  if (castButton) castButton.onclick = () => { if(castContext) castContext.requestSession(); };
 
   cargarListaTV();
   cargarPeliculas();
+
+  // Service Worker para PWA
+  if ('serviceWorker' in navigator) {
+    navigator.serviceWorker.register('sw.js').catch(e => console.log("SW error:", e));
+  }
 </script>
 </body>
 </html>
