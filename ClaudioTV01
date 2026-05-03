@@ -38,6 +38,22 @@ https://live20.bozztv.com/akamaissh101/ssh101/plaaytv/chunks.m3u8
 https://live20.bozztv.com/akamaissh101/ssh101/montegrandetv/playlist.m3u8
 
 
+#EXTINF:-1 tvg-logo="https://tinyurl.com/2s3eucvy"group-title="ARGENTINA",ALTAR TV HD
+https://vidartv2.todostreaming.es/live/radiovida-altar724.m3u8
+
+
+#EXTINF:-1 tvg-logo="https://tinyurl.com/4xw67je6"group-title="ARGENTINA",CANAL LUZ HD
+https://g2.vxral-slo.transport.edge-access.net:443/a11/ngrp:canal_luz01-100009_all/canal_luz01-100009_1080p/index.m3u8
+
+
+#EXTINF:-1 tvg-logo="https://tinyurl.com/mr4ntrjp"group-title="ARGENTINA",CORRIENTES TV HD
+https://vivo.solumedia.com:19360/telemedia/telemedia.m3u8
+
+
+#EXTINF:-1 tvg-logo="https://tinyurl.com/myr3uy8b"group-title="ARGENTINA", ,CHAVO
+https://live20.bozztv.com/giatvplayout7/giatv-211465/tracks-v1a1/mono.m3u8
+
+
 #EXTINF:-1 tvg-logo="https://tinyurl.com/cauy9zzh"group-title="ARGENTINA",BRAVO TV
 https://redirector.rudo.video/hls-video/c54ac2799874375c81c1672abb700870537c5223/bravo/bravo.smil/playlist.m3u8
 
@@ -50,11 +66,9 @@ https://unlimited1-us.dps.live/nettv/nettv.smil/playlist.m3u8
 
 
 
-#EXTINF:-1 tvg-logo="https://tinyurl.com/4xw67je6"group-title="ARGENTINA",CANAL LUZ HD
-https://g2.vxral-slo.transport.edge-access.net:443/a11/ngrp:canal_luz01-100009_all/canal_luz01-100009_1080p/index.m3u8
 
-#EXTINF:-1 tvg-logo="https://tinyurl.com/myr3uy8b"group-title="ARGENTINA", ,CHAVO
-https://live20.bozztv.com/giatvplayout7/giatv-211465/tracks-v1a1/mono.m3u8
+
+
 
 
 #EXTINF:-1 tvg-logo="https://tinyurl.com/yccuefd4"group-title="ARGENTINA", TELEVISIÓN PÚBLICA 
@@ -68,8 +82,7 @@ https://stream-gtlc.telecentro.net.ar/hls/telemaxhls/main.m3u8
 https://stream-gtlc.telecentro.net.ar/hls/tierramiahls/0/playlist.m3u8?uid=3602db85b7b057add1eaede96802d569
 
 
-#EXTINF:-1 tvg-logo="https://tinyurl.com/2s3eucvy"group-title="ARGENTINA",ALTAR TV HD
-https://vidartv2.todostreaming.es/live/radiovida-altar724.m3u8
+
 
 
 #EXTINF:-1 tvg-logo="https://tinyurl.com/4tkac7dz"group-title="ARGENTINA",UNIFE TV
@@ -321,16 +334,6 @@ https://s.emisoras.tv:8081/penielbibliaabierta/index.m3u8
 
 #EXTINF:-1 tvg-logo=""group-title="ARGENTINA",BA TV
 https://live20.bozztv.com/akamaissh101/ssh101/buenostv25/playlist.m3u8
-
-
-
-
-
-
-#EXTINF:-1 tvg-logo="https://tinyurl.com/mr4ntrjp"group-title="ARGENTINA",CORRIENTES TV HD
-https://vivo.solumedia.com:19360/telemedia/telemedia.m3u8
-
-
 
 
 
