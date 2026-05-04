@@ -7,21 +7,11 @@
   <script src="https://cdn.jsdelivr.net/npm/hls.js@latest"></script>
   <script src="https://cdn.jsdelivr.net/npm/mpegts.js@latest"></script>
   <script src="https://www.gstatic.com/cvjs/sender/libs/cast_sender.js"></script>
-  
-  <!-- PWA Manifest -->
-  <link rel="manifest" href="manifest.json">
-  <meta name="theme-color" content="#0a0a0f">
-  <meta name="apple-mobile-web-app-capable" content="yes">
-  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
-  <meta name="apple-mobile-web-app-title" content="KlauTV">
-  <link rel="apple-touch-icon" href="https://tinyurl.com/yrfarar9">
-  
   <style>
     * { margin: 0; padding: 0; box-sizing: border-box; }
     body { background: #0a0a0f; font-family: 'Segoe UI', system-ui, sans-serif; color: #eee; min-height: 100vh; padding: 15px; }
     .toolbar { display: flex; gap: 12px; justify-content: flex-end; margin-bottom: 15px; max-width: 1400px; margin-left: auto; margin-right: auto; }
     .tool-btn { background: rgba(0,0,0,0.6); border: none; color: white; width: 44px; height: 44px; border-radius: 44px; font-size: 1.2rem; cursor: pointer; display: inline-flex; align-items: center; justify-content: center; }
-    .download-btn { background-image: url('https://tinyurl.com/4jkaxshw'); background-size: 60%; background-repeat: no-repeat; background-position: center; }
     .cast-btn { background-image: url('https://tinyurl.com/3sv2wy92'); background-size: 60%; background-repeat: no-repeat; background-position: center; }
     .watermark { position: fixed; top: 20px; left: 20px; width: 90px; height: auto; z-index: 1000; pointer-events: none; opacity: 0.9; }
     .app { display: flex; flex-wrap: wrap; gap: 15px; max-width: 1400px; margin: 0 auto; }
@@ -95,7 +85,6 @@
   <button class="tool-btn" id="toggleRightBtn">▶</button>
   <button class="tool-btn" id="fullscreenBtn">⛶</button>
   <button class="tool-btn cast-btn" id="castButton"></button>
-  <button class="tool-btn download-btn" id="installPwaBtn" style="background:#ffcc88; background-image:none; color:#000; font-weight:bold; font-size:0.75rem; width:auto; padding:0 16px;">📲 INSTALAR</button>
 </div>
 
 <div class="app">
@@ -151,47 +140,6 @@
   const toggleRightBtn = document.getElementById("toggleRightBtn");
   const fullscreenBtn = document.getElementById("fullscreenBtn");
   const castButton = document.getElementById("castButton");
-  const installPwaBtn = document.getElementById("installPwaBtn");
-
-  // ========== LOGO MALVINAS TV (RECUPERADO) ==========
-  function ajustarTamañoLogoMalvinas() {
-    const logo = document.getElementById('logoMalvinas');
-    if (!logo) return;
-    if (document.fullscreenElement) {
-      logo.style.width = '100px';
-    } else {
-      logo.style.width = '40px';
-    }
-  }
-
-  function mostrarLogoMalvinas(url) {
-    const logoExistente = document.getElementById('logoMalvinas');
-    const esMalvinas = url === "https://live20.bozztv.com/giatvplayout7/giatv-208744/tracks-v1a1/mono.m3u8";
-    
-    if (logoExistente && !esMalvinas) {
-      logoExistente.remove();
-      return;
-    }
-    
-    if (esMalvinas && !logoExistente) {
-      const img = document.createElement('img');
-      img.id = 'logoMalvinas';
-      img.src = 'https://tinyurl.com/mvy7vk8a';
-      img.style.position = 'absolute';
-      img.style.top = '10px';
-      img.style.right = '30px';
-      img.style.width = '80px';
-      img.style.height = 'auto';
-      img.style.zIndex = '99999';
-      img.style.pointerEvents = 'none';
-      playerContainer.appendChild(img);
-      setTimeout(ajustarTamañoLogoMalvinas, 100);
-    }
-  }
-
-  document.addEventListener('fullscreenchange', () => {
-    ajustarTamañoLogoMalvinas();
-  });
 
   function showBlackOverlay() { if (blackOverlay) blackOverlay.style.display = "block"; }
   function hideBlackOverlay() { if (blackOverlay) blackOverlay.style.display = "none"; }
@@ -207,11 +155,60 @@
     window.location.href = `intent://${url.replace(/^https?:\/\//, '')}#Intent;package=com.mxtech.videoplayer.ad;scheme=https;end;`;
   }
 
+  // ========== LOGOS PERSONALIZADOS ==========
+  let logoActual = null;
+
+  function ajustarTamañoLogo() {
+    if (!logoActual) return;
+    if (document.fullscreenElement) {
+      logoActual.style.width = '180px';
+    } else {
+      logoActual.style.width = '90px';
+    }
+  }
+
+  function mostrarLogo(canalUrl) {
+    // Eliminar logo anterior si existe
+    if (logoActual) {
+      logoActual.remove();
+      logoActual = null;
+    }
+    
+    // Determinar qué logo mostrar según la URL
+    let logoUrl = null;
+    if (canalUrl === "https://live20.bozztv.com/giatvplayout7/giatv-208744/tracks-v1a1/mono.m3u8") {
+      logoUrl = 'https://tinyurl.com/mvy7vk8a';
+    } else if (canalUrl === "https://live20.bozztv.com/giatvplayout7/giatv-208138/tracks-v1a1/mono.m3u8") {
+      logoUrl = 'https://tinyurl.com/k4huuhe4';
+    }
+    
+    if (logoUrl) {
+      const img = document.createElement('img');
+      img.id = 'logoPersonalizado';
+      img.src = logoUrl;
+      img.style.position = 'absolute';
+      img.style.top = '20px';
+      img.style.right = '70px';
+      img.style.width = '90px';
+      img.style.height = 'auto';
+      img.style.zIndex = '99999';
+      img.style.pointerEvents = 'none';
+      playerContainer.appendChild(img);
+      logoActual = img;
+      setTimeout(ajustarTamañoLogo, 100);
+    }
+  }
+
+  document.addEventListener('fullscreenchange', () => {
+    ajustarTamañoLogo();
+  });
+
   function playTv(url) {
     if (!url) return;
     currentPlayingUrl = url;
     
-    mostrarLogoMalvinas(url);
+    // Mostrar el logo correspondiente al canal
+    mostrarLogo(url);
     
     showBlackOverlay();
     setTimeout(hideBlackOverlay, 2000);
@@ -258,22 +255,6 @@
     video.play().catch(e => console.warn);
   }
 
-  // ========== PWA INSTALL ==========
-  let deferredPrompt = null;
-  window.addEventListener('beforeinstallprompt', (e) => {
-    e.preventDefault();
-    deferredPrompt = e;
-    installPwaBtn.style.display = 'inline-flex';
-  });
-  installPwaBtn.onclick = () => {
-    if (deferredPrompt) {
-      deferredPrompt.prompt();
-      deferredPrompt.userChoice.then(() => { deferredPrompt = null; });
-    } else {
-      alert("Para instalar la app, usa el navegador Chrome, Edge o Samsung Internet");
-    }
-  };
-
   function saveFavs() {
     localStorage.setItem("klautv_favs", JSON.stringify(favoritos));
     renderFavBar();
@@ -319,8 +300,11 @@
 
   function entrarModoPeliculas() {
     modoPeliculas = true;
-    const logo = document.getElementById('logoMalvinas');
-    if (logo) logo.remove();
+    // Eliminar logo al entrar a películas
+    if (logoActual) {
+      logoActual.remove();
+      logoActual = null;
+    }
     playerContainer.classList.remove("visible");
     playerContainer.style.display = "none";
     moviesArea.style.display = "block";
@@ -568,11 +552,9 @@
   function toggleRight() { rightVisible = !rightVisible; rightPanel.style.display = rightVisible ? "block" : "none"; }
   toggleLeftBtn.onclick = toggleLeft;
   toggleRightBtn.onclick = toggleRight;
-  [toggleLeftBtn, toggleRightBtn, fullscreenBtn, castButton, installPwaBtn].forEach(btn => {
-    if (btn) {
-      btn.setAttribute("tabindex", "0");
-      btn.onkeydown = (e) => { if (e.key === 'Enter' || e.key === ' ') btn.click(); };
-    }
+  [toggleLeftBtn, toggleRightBtn, fullscreenBtn, castButton].forEach(btn => {
+    btn.setAttribute("tabindex", "0");
+    btn.onkeydown = (e) => { if (e.key === 'Enter' || e.key === ' ') btn.click(); };
   });
 
   function toggleFullscreen() {
@@ -628,15 +610,10 @@
       } catch(e) {}
     }
   };
-  if (castButton) castButton.onclick = () => { if(castContext) castContext.requestSession(); };
+  castButton.onclick = () => { if(castContext) castContext.requestSession(); };
 
   cargarListaTV();
   cargarPeliculas();
-
-  // Service Worker para PWA
-  if ('serviceWorker' in navigator) {
-    navigator.serviceWorker.register('sw.js').catch(e => console.log("SW error:", e));
-  }
 </script>
 </body>
 </html>
