@@ -1,442 +1,651 @@
-#MONTE GRANDE TV MIX
 
 
+###########( DIA CERO )###########
 
 
 
-#EXTINF:-1 tvg-logo="https://i.ibb.co/gMqCmMzS/Nuevo-2.png"group-title="TDA BS.AS",MG RADIO 24/7
-http://radios.yanapak.org:8000/montegranderadio
+#EXTINF:-1 tvg-logo=""group-title="SERIES",
 
 
-#EXTINF:-1 tvg-logo="https://i.ibb.co/9wvLNrg/2r-Bs-Skv-IGMpj-DKk-H5-O1y-Nv-AIaf-F-2r-Bsbz-Rpn2a-KGv-I32-Dot-O10-Lsv-V-2r-Bscftp-AXm-It-HOVGJa-MG1.png"group-title="TDA BS.AS",MONTE GRANDE TV  LIVE
-https://micanal.ovh/livestreams/127.QAX0OUHEMVST.m3u8
 
+#EXTINF:-1 tvg-logo=""group-title="SERIES",
 
 
 
-#EXTINF:-1 tvg-logo="https://i.ibb.co/9wvLNrg/2r-Bs-Skv-IGMpj-DKk-H5-O1y-Nv-AIaf-F-2r-Bsbz-Rpn2a-KGv-I32-Dot-O10-Lsv-V-2r-Bscftp-AXm-It-HOVGJa-MG1.png"group-title="TDA BS.AS",MGTV FEDERAL 
-https://live20.bozztv.com/giatvplayout7/giatv-209909/tracks-v1a1/mono.ts.m3u8
+#EXTINF:-1 tvg-logo=""group-title="SERIES",
 
 
-#EXTINF:-1 tvg-logo="https://i.ibb.co/9wvLNrg/2r-Bs-Skv-IGMpj-DKk-H5-O1y-Nv-AIaf-F-2r-Bsbz-Rpn2a-KGv-I32-Dot-O10-Lsv-V-2r-Bscftp-AXm-It-HOVGJa-MG1.png"group-title="TDA BS.AS",MONTE GRANDE TV HD CANAL 12
-https://live20.bozztv.com/giatvplayout7/giatv-209181/tracks-v1a1/mono.ts.m3u8
 
+#EXTINF;-1 tvg-logo=""group-title="SERIES",
 
 
-#EXTINF:-1 tvg-logo="https://i.ibb.co/ZzSdCS5Z/ezgif-com-effects.png"group-title="TDA BS.AS",YESHÙA TV - EL 🕊 ESPIRITU Y LA NOVIA DICEN VEN
-https://live20.bozztv.com/giatvplayout7/giatv-209163/tracks-v1a1/mono.ts.m3u8
 
+#EXTINF:-1 tvg-logo=""group-title="SERIES",
 
 
 
+#EXTINF:-1 tvg-logo=""group-title="SERIES",
 
-#EXTINF:-1 tvg-logo="https://i.ibb.co/QKzjwmk/Untitled-removebg-preview.png"group-title="TDA BS.AS",PLAY TV
-https://live20.bozztv.com/giatvplayout7/giatv-208817/tracks-v1a1/mono.ts.m3u8
 
 
 
+#EXTINF:-1 tvg-logo=""group-title="SERIES",
 
-#EXTINF:-1 tvg-logo="https://i.ibb.co/MDL0D1km/3dgifmaker15059.gif"group-title="TDA BS.AS",MONTE GRANDE TV WORSHIP and PRAISE
-https://live20.bozztv.com/giatvplayout7/giatv-208138/playlist.m3u8
 
 
+#EXTINF:-1 tvg-logo=""group-title="SERIES",
 
 
 
-#EXTINF:-1 tvg-logo="https://i.ibb.co/8L79pbv0/Photoroom-20250510-195832.png"group-title="TDA BS.AS",LA RADIO DE LA BENDICION MG RADIO
-https://xhateaec.com:8800/hls/Klau77/Klau77/85220021490ee6b84f66b12353608b42/index.m3u8
 
 
 
 
-#EXTINF:-1 tvg-logo="https://img1.wsimg.com/isteam/ip/75380f17-280f-498d-bd00-2b95796dbc8f/logo%20extrema%20tv%20png-0001.png/:/rs=h:99,cg:true,m/qt=q:100/ll"group-title="TDA BS.AS",EXTREMA TV HD
-https://627bb251f23c7.streamlock.net:444/ExtremaTV/ExtremaTV/chunklist_w309182400.m3u8
 
 
-#EXTINF:-1 tvg-logo="https://directostv.teleame.com/wp-content/uploads/2018/06/Canal-9-Multivision-en-vivo-Online.png"group-title="TDA BS.AS",MULTIVISION HD
-https://panel.host-live.com:19360/8250/8250.m3u8
+########( AGENTE NOCTURNO )#######
 
 
 
-#EXTINF:-1 tvg-logo="https://i.ibb.co/yhYvwzD/Screenshot-20250111-080920-XPlayer-Video-Player-removebg-preview.png"group-title="TDA BS.AS",STAR CHANNEL
-https://streamer1.nexgen.bz:443/STAR/tracks-v1a1/mono.m3u8
 
+#EXTINF:-1 tvg-logo=""group-title="SERIES",
 
-#EXTINF:-1 tvg-logo="https://static.wikia.nocookie.net/doblaje/images/a/a8/Ciudadmagazine-logonuevo.png/revision/latest?cb=20200203001356&path-prefix=es"group-title="TDA BS.AS",MAGAZINE
-https://livetrx01.vodgc.net/live-01-07-ciudad.vodgc.net/tracks-v3a1/mono.m3u8
 
 
-#EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTOspY0DemQf4NaEMxXnKQQKCpDwOfVCdtnZg&usqp=CAU"group-title="TDA BS.AS",CINE SONY
-https://a-cdn.klowdtv.com:443/live1/cine_720p/chunks.m3u8
+#EXTINF;-1 tvg-logo=""group-title="SERIES",
 
 
 
-#EXTINF:-1 tvg-logo="https://i.ibb.co/2cN6Fn9/Screenshot-20250101-192206-Chrome-removebg-preview.png"group-title="TDA BS.AS",WOW MOVIES
-https://live20.bozztv.com/giatv/giatv-wowmovies/wowmovies/chunks.m3u8
+#EXTINF:-1 tvg-logo=""group-title="SERIES",
 
 
 
+#EXTINF:-1 tvg-logo=""group-title="SERIES",
 
 
-#EXTINF:-1 tvg-logo="https://i.ibb.co/yB4ptnKZ/Screenshot-20250224-145743-XPlayer-Video-Player-removebg-preview.png"group-title="TDA BS.AS",MULTIVISIÓN 
-https://fl1002.bozztv.com/ssh101/canalmulti24/index.m3u8
 
+#EXTINF:-1 tvg-logo=""group-title="SERIES",
 
-#EXTINF:-1 tvg-logo="https://i.ibb.co/0jWLjWRT/Screenshot-20250224-143627-Web-Video-Caster.jpg"group-title="TDA BS.AS",PELIS POPCORN
-POPCORN
-http://cfd-v4-service-channel-stitcher-use1-1.prd.pluto.tv/stitch/hls/channel/60fb2f47c133270007327375/master.m3u8?appName=web&appVersion=unknown&clientTime=0&deviceDNT=0&deviceId=6c2a9f24-30d3-11ef-9cf5-e9ddff8ff496&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=unknown&includeExtendedEvents=false&serverSideAds=false&sid=8f7b47b7-a2d8-4c61-847a-02818046001b
 
 
+#EXTINF:-1 tvg-logo=""group-title="SERIES",
 
 
-#EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSvdRFMDQnm4T6y5KPATMxrog3iAZy0VpCCKg&usqp=CAU"group-title="TDA BS.AS",SPTV HD
-https://srv2.zcast.com.br/sptv32/sptv32/playlist.m3u8
 
+#EXTINF:-1 tvg-logo=""group-title="SERIES",
 
-#EXTINF:-1 tvg-logo="https://zenoimages.s3.us-west-001.backblazeb2.com/be08dcc3-df96-4c40-8eef-488bc5eb4fe5/images/logo?keep=w&resize=350x350"group-title="TDA BS.AS",DIGI TV
-https://live20.bozztv.com/giatv/giatv-digitv/digitv/chunks.m3u8
 
 
-#EXTINF:-1 tvg-logo="https://i.ibb.co/drPPYJg/images-removebg-preview.png"group-title="TDA BS.AS",TELEMIX HD
-https://live20.bozztv.com/giatv/giatv-telemixenvivo/telemixenvivo/chunks.m3u8
+#EXTINF;-1 tvg-logo=""group-title="SERIES",
 
 
 
+#EXTINF:-1 tvg-logo=""group-title="SERIES",
 
-#EXTINF:-1 tvg-logo="https://primary.jwwb.nl/public/h/j/f/temp-fyamuijlknxszsquqljq/logo-blu-hd-horizontal-negro-high.png?enable-io=true&enable=upscale&crop=1914%2C378%2Cx3%2Cy0%2Csafe&width=800&height=158"group-title="TDA BS.AS",BLU HD
-https://vivo.solumedia.com:19360/blumedios/blumedios.m3u8
 
 
+#EXTINF:-1 tvg-logo=""group-title="SERIES",
 
-#EXTINF:-1 tvg-logo="https://i.ibb.co/YRPvqLf/16f8ed90cfdce23eb93131280ab06426-removebg-preview-1.png"group-title="TDA BS.AS",E. ACCION
-https://stmv6.voxtvhd.com.br:443/cineaccion/cineaccion/chunklist_w241460843.m3u8
 
 
+#EXTINF:-1 tvg-logo=""group-title="SERIES",
 
-#EXTINF:-1 tvg-logo="https://i.ibb.co/phb1xJK/images-1-removebg-preview.png"group-title="TDA BS.AS",TALTAL TV
-https://giatv.bozztv.com:443/giatv/giatv-TALTALTVANIMACION/TALTALTVANIMACION/chunks.m3u8
 
 
+#EXTINF:-1 tvg-logo=""group-title="SERIES",
 
 
 
-#EXTINF:-1 tvg-logo="https://canalluz.org/assets/images/canalluz-303x103.png"group-title="TDA BS.AS",CANAL LUZ HD
-https://g2.vxral-slo.transport.edge-access.net:443/a11/ngrp:canal_luz01-100009_all/canal_luz01-100009_1080p/index.m3u8
+#EXTINF:-1 tvg-logo=""group-title="SERIES",
 
 
-#EXTINF:-1 tvg-logo="https://i.ibb.co/bQMdXs3/Screenshot-20241226-095234-XPlayer-Video-Player-removebg-preview.png"group-title="TDA BS.AS",EL TRECE  33.1
-https://livetrx01.vodgc.net:443/eltrecetv/tracks-v2a1/mono.m3u8
 
-#EXTINF:-1 tvg-logo="https://i.ibb.co/4mWFFQX/Screenshot-20241226-092057-XPlayer-Video-Player-removebg-preview.png"group-title="TDA BS.AS",GENTV HD  17.3
-https://live-stream.iblups.com/video/742d100014934e52c9797c38412ff2bb6b079d31.m3u8
+#EXTINF;-1 tvg-logo=""group-title="SERIES",
 
 
 
+#EXTINF:-1 tvg-logo=""group-title="SERIES",
 
 
-#EXTINF:-1 tvg-logo="https://i.ibb.co/yyHXtGG/Screenshot-20241226-095830-XPlayer-Video-Player-removebg-preview.png"group-title="TDA BS.AS", TELEFE  34
 
+#EXTINF:-1 tvg-logo=""group-title="SERIES",
 
-#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/d/d4/Canal_Siete_Jujuy.png"group-title="TDA BS.AS",7
-https://stream.arcast.live:443/canal7jujuy/ngrp:canal7jujuy_all/chunklist_w906685609_b1146880.m3u8
 
 
 
-#EXTINF:-1 tvg-logo="https://i.ibb.co/GvQ2p3t/2q-Jl-Tsa3-KTA70-Th-K4-UAz-H66-J0-MF-2q-Jl-Tp-WH0-K294c6-VTx-Tftt1-GXDk-2q-Jl-URfo-XMh-Jz-NZy799-Hr.png"group-title="TDA BS.AS",RESTELLI TV CANAL 5
-https://live20.bozztv.com:443/giatvplayout7/giatv-208770/tracks-v1a1/mono.ts.m3u8
+#EXTINF:-1 tvg-logo=""group-title="SERIES",
 
 
 
+#EXTINF:-1 tvg-logo=""group-title="SERIES",
 
-#EXTINF:-1 tvg-logo="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiJLTMCR-pFAQzKyjoDvCFm2LfbO9ppIEtbDUr4ZtDshQfnGGlwBemRdqIEQJxYWg77PqZPIvnxLaDMcN8ER0ef6r5Ro5iVapq-VGw23x4btvF0KgrztmSmEgE69oxqE4cqSZ_4fFeLBKXOEGrFAOxR5QmaSlRDHwbLzV-PWfifzTZAW99WO0W1-E28/s1313/CANAL9-2017.PNG"group-title="TDA BS.AS",EL NUEVE
 
 
+#EXTINF:-1 tvg-logo=""group-title="SERIES",
 
-#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/8/84/Telemundo-nuevo-logo.png"group-title="TDA BS.AS",TELEMUNDO
 
 
-#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Net_TV_logo.png/800px-Net_TV_logo.png"group-title="TDA BS.AS", NET TV HD  27.2
-https://unlimited1-buenosaires.dps.live/nettv/nettv.smil/playlist.m3u8
+#EXTINF;-1 tvg-logo=""group-title="SERIES",
 
 
-#EXTINF:-1 tvg-logo="https://kanalddrama.com/fav.png"group-title="TDA BS.AS",KANAL D
-https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg01602-themahqfrance-vivekanald-samsungspain/playlist.m3u8
 
+#EXTINF:-1 tvg-logo=""group-title="SERIES",
 
-#EXTINF:-1 tvg-logo="https://static.wikia.nocookie.net/logopedia/images/4/41/Televisi%C3%B3n_P%C3%BAblica_%28Argentina_2021%29.svg/revision/latest/scale-to-width-down/284?cb=20210102135802&path-prefix=es"group-title="TDA BS.AS",TV PUBLICA   23.2
-https://g2.proy-slo.transport.edge-access.net:443/b16/ngrp:c7_vivo01_dai_source-20001_all/c7_vivo01_dai_source-20001_1080p.m3u8
 
 
-#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/Canal_26_logo_%282022%29.svg/1200px-Canal_26_logo_%282022%29.svg.png"group-title="TDA BS.AS",CANAL 26  24.2
-http://daleplay.club:8080/Stalin8932Mo17M/UunzKQWJFmQk/81310
+#EXTINF:-1 tvg-logo=""group-title="SERIES",
 
 
 
+#EXTINF:-1 tvg-logo=""group-title="SERIES",
 
-#EXTINF:-1 tvg-logo="http://2.bp.blogspot.com/-Yr9u8FmG-kU/VmX4oB2uwJI/AAAAAAAAARM/QQa-xTVDKgk/s1600/America%2BHD%2B1.png"group-title="TDA BS.AS", AMÉRICA  36.1
-https://g1.proy-slo.transport.edge-access.net:443/a07/ngrp:americahls-100056_all/playlist_720p.m3u8
 
 
-#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/8/81/LN%2B.png"group-title="TDA BS.AS",LA NACION+ HD
+#EXTINF:-1 tvg-logo=""group-title="SERIES",
 
 
 
-#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2a/Paka-paka.svg/1200px-Paka-paka.svg.png"group-title="TDA BS.AS",PAKA PAKA HD   22.2
+#EXTINF:-1 tvg-logo=""group-title="SERIES",
 
 
 
+#EXTINF;-1 tvg-logo=""group-title="SERIES",
 
-#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/1/13/Telemax_Argentina_%282018%29.png"group-title="TDA BS.AS",TELEMAX HD  26.3
-https://stream-gtlc.telecentro.net.ar/hls/telemaxhls/0/playlist.m3u8
 
 
-#EXTINF:-1 tvg-logo="https://argentina.mom-gmr.org/uploads/tx_lfrogmom/media/16017-1639_import.png"group-title="TDA BS.AS", CRÓNICA TV HD 24.4
+#EXTINF:-1 tvg-logo=""group-title="SERIES",
 
 
-#EXTINF:-1 tvg-logo="https://argentina.mom-gmr.org/uploads/tx_lfrogmom/media/16017-1639_import.png"group-title="TDA BS.AS", CRÓNICA TV HD 24.4 op 2
-https://g3.vxral-hor.transport.edge-access.net:443/a14/ngrp:cronicatv_video1-100044_all/cronicatv_video1-100044_720p.m3u8
 
+#EXTINF:-1 tvg-logo=""group-title="SERIES",
 
-#EXTINF:-1 tvg-logo="https://neotv.cl/assets/img/channels/neotv-digital.png"group-title="TDA BS.AS",NEO TV DIGITAL HD. 16.1 
-https://videostream.shockmedia.com.ar:19360/neotvdigital/neotvdigital.m3u8
 
 
+#EXTINF:-1 tvg-logo=""group-title="SERIES",
 
-#EXTINF:-1 tvg-logo="https://i.ibb.co/xmPdFc6/2q-Ed-Tbpni-Pos-Vcic3q-RYf9v-Ck-UJ-2q-Ed-Xur-VXia-Uw2cu-EJs-FUQGC0e-G-2q-Ed-YZNNlw-Yh7-S5ls-Mya2v-Zs.png"group-title="TDA BS.AS",9 DE ABRILTV MG
-https://live20.bozztv.com:443/giatvplayout7/giatv-208730/tracks-v1a1/mono.ts.m3u8
 
 
-#EXTINF:-1 tvg-logo="https://i.ibb.co/VNYSy9z/descarga-removebg-preview.png"group-title="TDA BS.AS", CANAL 34 HD  
-http://streamyes.alsolnet.com/canal34hd/live/playlist.m3u8?PlaylistM3UCL
+#EXTINF:-1 tvg-logo=""group-title="SERIES",
 
-#EXTINF:-1 tvg-logo="https://i.ibb.co/8rdFqzB/Screenshot-20241226-094215-XPlayer-Video-Player-removebg-preview.png"group-title="TDA BS.AS",METRO TV HD  18.1 TUCUMÁN
-https://streamtv12.ddns.net:5443/LiveApp/streams/193945633734205616732920.m3u8
 
 
-#EXTINF:-1 tvg-logo="https://i.ibb.co/dLWwdLK/3dgifmaker66066.gif"group-title="TDA BS.AS",COSMOS TV HD
-https://tv.mediacp.eu:19360/cosmos/cosmos.m3u8
+#EXTINF:-1 tvg-logo=""group-title="SERIES",
 
 
-#EXTINF:-1 tvg-logo="https://i.ibb.co/9W0Tt88/2q-Guv-Jh-J44-Sgmfl9l-VKQd-XCw-JId-2q-Guv-D3-Ad-CZDI5-Tr-Zs-Jh-OIGvcx-E-2q-Guw-BBKVO3-EWq-Ej0-KPFI0y.png"group-title="TDA BS.AS", MALVINAS TV MG
-https://live20.bozztv.com:443/giatvplayout7/giatv-208744/tracks-v1a1/mono.ts.m3u8
 
+#EXTINF;-1 tvg-logo=""group-title="SERIES",
 
 
 
-#EXTINF:-1 tvg-logo="https://static.wikia.nocookie.net/logopedia/images/5/57/San_Luis_%2B_%28Logo_2024%29.png/revision/latest?cb=20240519200301"group-title="TDA BS.AS",SAN LUIS ÷
-https://stream.radiosmundiales.com:19360/sanluismas/sanluismas.m3u8
+#EXTINF:-1 tvg-logo=""group-title="SERIES",
 
-#EXTINF:-1 tvg-logo="https://static.wikia.nocookie.net/logopedia/images/e/e7/Canal_7_Neuqu%C3%A9n_logo_nuevo_2023.png/revision/latest/scale-to-width-down/178?cb=20240606194433&path-prefix=es"group-title="TDA BS.AS",CANAL 7 NEUQUEN
-https://stream.arcast.com.ar:443/c7nq/ngrp:c7nq_all/chunklist_w1216841866_b1699840.m3u8
 
 
-#EXTINF:-1 tvg-logo="https://i.ibb.co/tPwvdjB/images-removebg-preview.png"group-title="TDA BS.AS",BAYRES TV HD
-https://streaming02.gbasat.com.ar:19360/bayrestv/bayrestv.m3u8?PlaylistM3UCL
+#EXTINF:-1 tvg-logo=""group-title="SERIES",
 
 
-#EXTINF:-1 tvg-logo="https://www.canal3pinamar.com/webapp/imagenes/mosca.gif"group-title="TDA BS.AS",CANAL 3 HD 
-https://intelincloud01.com.ar/hls/cn3/index.m3u8
 
 
+#EXTINF:-1 tvg-logo=""group-title="SERIES",
 
-#EXTINF:-1 tvg-logo="https://i.ibb.co/BtbzpsN/canal-5-arg.png"group-title="TDA BS.AS",canal 5
-https://stmv4.voxtvhd.com.br:443/canal5pueblo/canal5pueblo/chunklist_w855762317.m3u8
 
 
+#EXTINF:-1 tvg-logo=""group-title="SERIES",
 
-#EXTINF:-1 tvg-logo="https://cincotv.com.ar/wp-content/uploads/2022/05/LOGO-SOLO.png"group-title="TDA BS.AS",CINCO TV HD  TIGRE
-https://videostream.shockmedia.com.ar:19360/cincotv/cincotv.m3u8?PlaylistM3UCL
 
-#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/2/21/RT_America_Logo.png/644px-RT_America_Logo.png"group-title="TDA BS.AS",RT HD   25.5
-https://rt-esp.rttv.com:443/live/rtesp/playlist_4500Kb.m3u8
 
+#EXTINF:-1 tvg-logo=""group-title="SERIES",
 
 
-#EXTINF:-1 tvg-logo="https://assets-global.website-files.com/605a3cacba514a77ca2e6ab5/6065f6834c6c7c875c2c1c16_dwe.png"group-title="TDA BS.AS",DW ESPAÑOL HD
-https://dwamdstream104.akamaized.net/hls/live/2015530/dwstream104/stream04/streamPlaylist.m3u8
 
+#EXTINF;-1 tvg-logo=""group-title="SERIES",
 
 
 
+#EXTINF:-1 tvg-logo=""group-title="SERIES",
 
 
 
+#EXTINF:-1 tvg-logo=""group-title="SERIES",
 
 
 
+#EXTINF:-1 tvg-logo=""group-title="SERIES",
 
 
-#####################################################( MOVIE )##############
 
+#EXTINF:-1 tvg-logo=""group-title="SERIES",
 
 
 
+#EXTINF:-1 tvg-logo=""group-title="SERIES",
 
 
 
+#EXTINF;-1 tvg-logo=""group-title="SERIES",
 
-#EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ3f_CEtKzWkAEwHaM9HOwwBgmCYWta2Xmwn1ItUOaCbMcTbmytjpjgJ-kOYPyoknVCIUs&usqp=CAU"group-title="MOVIE",CORAZ0N DELAT0R
-https://live20.bozztv.com:443/giatvplayout/giatvvod/giatv/movies/playlist/208730/Coraz__n_delator__2025____PELISPEDIA.mp4/chunk.m3u8
 
 
+#EXTINF:-1 tvg-logo=""group-title="SERIES",
 
 
 
+#EXTINF:-1 tvg-logo=""group-title="SERIES",
 
-#EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQrSRKZWuYmVzuvtQdcYIkig7rnEn8USeXe1gLYn_mw-uVzmc-Ihnqdysc1yRCy4haVfhY&usqp=CAU"group-title="MOVIE",BALLERINA
-https://live20.bozztv.com/giatvplayout/giatvvod/giatv/movies/playlist/208730/Ballerina__del_universo_de_John_Wick__2025____PELI.mp4/playlist.m3u8
 
 
+#EXTINF:-1 tvg-logo=""group-title="SERIES",
 
 
 
-#EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRdgkSNpxpYxLB6W9bgFHo5q-8Wu-DP903kvwMe-7k2rW0LkbSTpFs-lD1C9c0eqt5IZMU&usqp=CAU"group-title="MOVIE",DIRTY ANGELS
-https://live20.bozztv.com/giatvplayout/giatvvod/giatv/movies/playlist/208730/Dirty_Angels__2024____PELISPEDIA__2_.mp4/chunk.m3u8
+#EXTINF:-1 tvg-logo=""group-title="SERIES",
 
 
 
+#EXTINF:-1 tvg-logo=""group-title="SERIES",
 
 
-#EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTqvRBuHBwpXluRXmpCvQzx0GiHxrKC6IGrpcBn4IF9BUjODpsKTYGh7CJM5Kh2fKRnz0c&usqp=CAU"group-title="MOVIE",ATTRACTION
-https://live20.bozztv.com:443/giatvplayout/giatvvod/giatv/movies/playlist/208730/Attraction_La_Guerra_ha_Comenzado__2017____PELISPE.mp4/chunk.m3u8
 
+#EXTINF;-1 tvg-logo=""group-title="SERIES",
 
 
 
+#EXTINF:-1 tvg-logo=""group-title="SERIES",
 
-#EXTINF:-1 tvg-logo="https://pics.filmaffinity.com/tropa_de_elite-710060008-large.jpg"group-title="MOVIE",TROPA DE ELITE
-https://live20.bozztv.com/giatvplayout/giatvvod/giatv/movies/playlist/208538/Tropa_de_lite2007_.mp4/chunk.m3u8
 
 
+#EXTINF:-1 tvg-logo=""group-title="SERIES",
 
 
-#EXTINF:-1 tvg-logo=""group-title="MOVIE",FREAKY tales
-https://live20.bozztv.com/giatvplayout/giatvvod/giatv/movies/playlist/208730/Freaky_Tales__2024____PELISPEDIA.mp4/playlist.m3u8
 
 
+#EXTINF:-1 tvg-logo=""group-title="SERIES",
 
 
-#EXTINF:-1 tvg-logo=""group-title="MOVIE",
 
+#EXTINF:-1 tvg-logo=""group-title="SERIES",
 
 
-#EXTINF:-1 tvg-logo=""group-title="MOVIE",
 
+#EXTINF:-1 tvg-logo=""group-title="SERIES",
 
 
 
-#EXTINF:-1 tvg-logo=""group-title="MOVIE",
+#EXTINF;-1 tvg-logo=""group-title="SERIES",
 
 
 
-#EXTINF:-1 tvg-logo=""group-title="MOVIE",
+#EXTINF:-1 tvg-logo=""group-title="SERIES",
 
 
 
+#EXTINF:-1 tvg-logo=""group-title="SERIES",
 
-#EXTINF:-1 tvg-logo="https://www.debate.com.mx/__export/1745792684756/sites/debate/img/2025/04/27/estragos_en_netflix.jpg_517129353.jpg"group-title="MOVIE",ESTRAGOS (2025)
-https://live20.bozztv.com:443/giatvplayout/giatvvod/giatv/movies/playlist/208817/Estragos__2025____PELISPEDIA_12.mp4/chunk.m3u8
 
 
+#EXTINF:-1 tvg-logo=""group-title="SERIES",
 
 
-#EXTINF:-1 tvg-logo="https://i.ytimg.com/vi/M0Zx2JHfD-I/sddefault.jpg"group-title="MOVIE",MIDWAY
-https://live20.bozztv.com/giatvplayout/giatvvod/giatv/movies/playlist/208730/Midway_Batalla_en_el_Pacifico__2019____PELISPEDIA.mp4/playlist.m3u8
 
+#EXTINF:-1 tvg-logo=""group-title="SERIES",
 
 
 
-#EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSEVKIXSk5r5u4jss0IJl6oOwPBXmomKYz8vX-kgcXtf4VwOb0nTLGxyGoQ9SEZDQkx8Ns&usqp=CAU"group-title="MOVIE",LETRAS EXPLICITAS
-https://live20.bozztv.com:443/giatvplayout/giatvvod/giatv/movies/playlist/208730/Letras_Explicitas.mp4/chunk.m3u8
+#EXTINF:-1 tvg-logo=""group-title="SERIES",
 
 
 
+#EXTINF;-1 tvg-logo=""group-title="SERIES",
 
-#EXTINF:-1 tvg-logo="https://i.pinimg.com/474x/c3/26/8b/c3268bcf0e737409afe4ed9c77d373f5.jpg"group-title="MOVIE",HASTA EL ULTIMO HOMBRE
-https://live20.bozztv.com/giatvplayout/giatvvod/giatv/movies/playlist/208730/Hasta_el___ltimo_hombre__2016____PELISPEDIA.mp4/playlist.m3u8
 
 
+#EXTINF:-1 tvg-logo=""group-title="SERIES",
 
 
 
+#EXTINF:-1 tvg-logo=""group-title="SERIES",
 
 
-#EXTINF:-1 tvg-logo="https://images.justwatch.com/poster/305326083/s718/the-mother.jpg"group-title="MOVIE",LA MADRE
-https://live20.bozztv.com/giatvplayout/giatvvod/giatv/movies/playlist/208730/La_madre__2023_.mp4/playlist.m3u8
 
+#EXTINF:-1 tvg-logo=""group-title="SERIES",
 
 
 
+#EXTINF:-1 tvg-logo=""group-title="SERIES",
 
 
 
+#EXTINF:-1 tvg-logo=""group-title="SERIES",
 
-#EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQExAP1-0f5PScK8JHo4Y_2sf-35oKulyvR0EPjfJti9ZjjHFbsOrQvkMp0lNhMOMji-aQ&usqp=CAU"group-title="MOVIE",SOCIOS POR ACCIDENTE 2
-https://live20.bozztv.com:443/giatvplayout/giatvvod/giatv/movies/playlist/208817/Socios_por_Accidente_2_720P_HD_.mp4/chunk.m3u8
 
 
+#EXTINF;-1 tvg-logo=""group-title="SERIES",
 
-#EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRl8RhWxBnq3-1Kthxs8zlCLSqF8guWy2mjZbg9bIU3HAmJhjukoSQf79Rjr3pTN-LudD8&usqp=CAU"group-title="MOVIE",CANTANTES EN GUERRA
-https://live20.bozztv.com:443/giatvplayout/giatvvod/giatv/movies/playlist/208817/Cantantes_en_guerra_480P_.mp4/chunk.m3u8
 
 
+#EXTINF:-1 tvg-logo=""group-title="SERIES",
 
-#EXTINF:-1 tvg-logo="https://cloud10.todocoleccion.online/cine-peliculas-dvd/tc/2018/11/14/12/140097977.jpg"group-title="MOVIE",EL MISMO AMOR , LA MISMA LLUVIA
-https://live20.bozztv.com:443/giatvplayout/giatvvod/giatv/movies/playlist/208817/El_romance_de_un_hombre_muy_miedoso__el__mismo_amor_la_misma_lluvia_4k__Pel__cula_Argentina_720P_HD_.mp4/chunk.m3u8
 
 
-#EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSiHBRFsac7pzsrt5spLYHFJqQn1xzvmtjZRC_cRTJalvbnVuqZWpj7vdnDMmtlzejp75c&usqp=CAU"group-title="MOVIE",ESPERANDO LA CARROZA
-https://live20.bozztv.com:443/giatvplayout/giatvvod/giatv/movies/playlist/208817/Esperando_La_Carroza_Full_HD_1080P_720P_HD_.mp4/chunk.m3u8
+#EXTINF:-1 tvg-logo=""group-title="SERIES",
 
 
-#EXTINF:-1 tvg-logo="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEikF6HCBy_aWfRdftZJvxog68mJ3KOZxVEauUzeUxjfXCLdaz8bpZb_yb4RwLbkgFi2BL3-iZMesmjkxNmFYqK2USLWwRLV2dBAIfO0pHlRwrAwBVtkaN6kI4KkPBd0obwHvm4FTLXy6-36yUkj04O24C48dqEeU7wnTn-CKso-FhfIaVJ_xLFXOzvjI9I/s1024/Dejar%20el%20mundo.jpg"group-title="MOVIE",DEJAR EL MUNDO ATRAS
-https://live20.bozztv.com/giatvplayout/giatvvod/giatv/movies/playlist/208817/0035_Dejar_el_mundo_atr__s__2023____PELISPEDIA.mp4/playlist.m3u8
 
 
+#EXTINF:-1 tvg-logo=""group-title="SERIES",
 
 
 
-#EXTINF:-1 tvg-logo="https://i.ytimg.com/vi/Re2OWSJ2ZUQ/sddefault.jpg"group-title="MOVIE",MISION IMPOSIBLE SENTENCIA FINAL
-https://live20.bozztv.com:443/giatvplayout/giatvvod/giatv/movies/playlist/208817/Misi__n_Imposible___Sentencia_final__2025____PELISP.mp4/chunk.m3u8
+#EXTINF:-1 tvg-logo=""group-title="SERIES",
 
 
 
-#EXTINF:-1 tvg-logo="https://fr.web.img2.acsta.net/pictures/17/10/12/10/09/5958933.jpg"group-title="MOVIE",GEO TORMENTA
-https://live20.bozztv.com:443/giatvplayout/giatvvod/giatv/movies/playlist/208817/Geo_Tormenta__2017____PELISPEDIA.mp4/chunk.m3u8
+#EXTINF:-1 tvg-logo=""group-title="SERIES",
 
 
 
+#EXTINF;-1 tvg-logo=""group-title="SERIES",
 
-#EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQkLL3j3SGsuhtjuJVH8P-Vswd1fgG_7PYsLQIG-Ul-JQ&s"group-title="MOVIE",EL ETERNAUTA 1X1
-https://live20.bozztv.com:443/giatvplayout/giatvvod/giatv/movies/playlist/208817/El_Eternauta__2025__1x1___PELISPEDIA.mp4/chunk.m3u8
 
 
+#EXTINF:-1 tvg-logo=""group-title="SERIES",
 
-#EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQkLL3j3SGsuhtjuJVH8P-Vswd1fgG_7PYsLQIG-Ul-JQ&s"group-title="MOVIE",EL ETRNAUTA 1X2
-https://live20.bozztv.com:443/giatvplayout/giatvvod/giatv/movies/playlist/208817/El_Eternauta__2025__1x2___PELISPEDIA.mp4/chunk.m3u8
 
 
+#EXTINF:-1 tvg-logo=""group-title="SERIES",
 
-#EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQkLL3j3SGsuhtjuJVH8P-Vswd1fgG_7PYsLQIG-Ul-JQ&s"group-title="MOVIE",EL ETERNAUTA 1X3
-https://live20.bozztv.com:443/giatvplayout/giatvvod/giatv/movies/playlist/208817/El_Eternauta__2025__1x3___PELISPEDIA.mp4/chunk.m3u8
 
 
+#EXTINF:-1 tvg-logo=""group-title="SERIES",
 
 
-#EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQkLL3j3SGsuhtjuJVH8P-Vswd1fgG_7PYsLQIG-Ul-JQ&s"group-title="MOVIE",EL ETERNAUTA 1X4
-https://live20.bozztv.com:443/giatvplayout/giatvvod/giatv/movies/playlist/208817/El_Eternauta__2025__1x4___PELISPEDIA.mp4/chunk.m3u8
 
+#EXTINF:-1 tvg-logo=""group-title="SERIES",
 
 
 
-#EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQkLL3j3SGsuhtjuJVH8P-Vswd1fgG_7PYsLQIG-Ul-JQ&s"group-title="MOVIE",EL ETERNAUTA 1X5
-https://live20.bozztv.com:443/giatvplayout/giatvvod/giatv/movies/playlist/208817/El_Eternauta__2025__1x5___PELISPEDIA.mp4/chunk.m3u8
+#EXTINF:-1 tvg-logo=""group-title="SERIES",
 
 
 
+#EXTINF;-1 tvg-logo=""group-title="SERIES",
 
-#EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQkLL3j3SGsuhtjuJVH8P-Vswd1fgG_7PYsLQIG-Ul-JQ&s"group-title="MOVIE",EL ETERNAUTA 1X6
-https://live20.bozztv.com:443/giatvplayout/giatvvod/giatv/movies/playlist/208817/El_Eternauta__2025__1x6___PELISPEDIA.mp4/chunk.m3u8
+
+
+#EXTINF:-1 tvg-logo=""group-title="SERIES",
+
+
+
+#EXTINF:-1 tvg-logo=""group-title="SERIES",
+
+
+
+#EXTINF:-1 tvg-logo=""group-title="SERIES",
+
+
+
+#EXTINF:-1 tvg-logo=""group-title="SERIES",
+
+
+
+#EXTINF:-1 tvg-logo=""group-title="SERIES",
+
+
+
+#EXTINF;-1 tvg-logo=""group-title="SERIES",
+
+
+
+#EXTINF:-1 tvg-logo=""group-title="SERIES",
+
+
+
+#EXTINF:-1 tvg-logo=""group-title="SERIES",
+
+
+
+
+#EXTINF:-1 tvg-logo=""group-title="SERIES",
+
+
+
+#EXTINF:-1 tvg-logo=""group-title="SERIES",
+
+
+
+#EXTINF:-1 tvg-logo=""group-title="SERIES",
+
+
+
+#EXTINF;-1 tvg-logo=""group-title="SERIES",
+
+
+
+#EXTINF:-1 tvg-logo=""group-title="SERIES",
+
+
+
+#EXTINF:-1 tvg-logo=""group-title="SERIES",
+
+
+
+#EXTINF:-1 tvg-logo=""group-title="SERIES",
+
+
+
+#EXTINF:-1 tvg-logo=""group-title="SERIES",
+
+
+
+#EXTINF:-1 tvg-logo=""group-title="SERIES",
+
+
+
+#EXTINF;-1 tvg-logo=""group-title="SERIES",
+
+
+
+#EXTINF:-1 tvg-logo=""group-title="SERIES",
+
+
+
+#EXTINF:-1 tvg-logo=""group-title="SERIES",
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
