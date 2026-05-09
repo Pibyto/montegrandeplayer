@@ -34,10 +34,20 @@ https://live20.bozztv.com/giatvplayout7/giatv-208744/tracks-v1a1/mono.m3u8
 https://live20.bozztv.com/giatvplayout7/giatv-208138/tracks-v1a1/mono.m3u8
 
 
+#EXTINF:-1 tvg-logo="https://tinyurl.com/48xkysmd"group-title="ARGENTINA", MONTEGRANDETV ACCIÓN
+https://live20.bozztv.com/giatvplayout7/giatv-209163/playlist.m3u8
 
 
 
+#EXTINF:-1 tvg-logo="https://tinyurl.com/4m768mja"group-title="ARGENTINA", MONTEGRANDETV FAMILY
+https://live20.bozztv.com/giatvplayout7/giatv-208817/playlist.m3u8
 
+
+#EXTINF:-1 tvg-logo="https://tinyurl.com/89bw22fh"group-title="ARGENTINA", MONTEGRANDETV KIDS
+https://live20.bozztv.com/giatvplayout7/giatv-209909/playlist.m3u8 
+
+
+ 
 #EXTINF:-1 tvg-logo="https://tinyurl.com/ms82ryuf"group-title="ARGENTINA",PLAYTV CINE
 https://live20.bozztv.com/akamaissh101/ssh101/plaaytv/chunks.m3u8
 
@@ -421,6 +431,19 @@ https://live20.bozztv.com/giatvplayout7/giatv-208744/tracks-v1a1/mono.m3u8
 #EXTINF:-1 tvg-logo="https://tinyurl.com/33yu4yzs"group-title="CINE PREMIUM",MONTEGRANDE MOVIES
 https://live20.bozztv.com/giatvplayout7/giatv-208138/tracks-v1a1/mono.m3u8
 
+
+
+#EXTINF:-1 tvg-logo="https://tinyurl.com/48xkysmd"group-title="CINE PREMIUM", MONTEGRANDETV ACCIÓN
+https://live20.bozztv.com/giatvplayout7/giatv-209163/playlist.m3u8
+
+
+
+#EXTINF:-1 tvg-logo="https://tinyurl.com/4m768mja"group-title="CINE PREMIUM", MONTEGRANDETV FAMILY
+https://live20.bozztv.com/giatvplayout7/giatv-208817/playlist.m3u8
+
+
+#EXTINF:-1 tvg-logo="https://tinyurl.com/89bw22fh"group-title="CINE PREMIUM", MONTEGRANDETV KIDS
+https://live20.bozztv.com/giatvplayout7/giatv-209909/playlist.m3u8 
 
 
 
