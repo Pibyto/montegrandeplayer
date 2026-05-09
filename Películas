@@ -166,6 +166,10 @@ http://ia801303.us.archive.org/24/items/000_20201026/00009.mp4
 http://ia801303.us.archive.org/24/items/sst_20200905/sst.mp4
 
 
+#EXTINF:-1 tvg-logo="https://media.themoviedb.org/t/p/w220_and_h330_face/dUbv0BuEHrDDvvoQ14OaBeBrpXu.jpg"group-title="PELÍCULAS",UN OSO ROJO
+https://videos.gia.tv/giatv/movies/playlist/208538/Un_oso_rojo___Argentina__2002__1080P_HD_.mp4
+
+
 
 
 
@@ -221,6 +225,16 @@ http://ia801303.us.archive.org/24/items/00copia_20191122/eg.mp4
 
 
 
+
+
+
+
+
+#EXTINF:-1 tvg-logo="https://static.wikia.nocookie.net/doblaje/images/3/3d/Y-donde-estan-las-rubias-white-chicks-shawn-wayans-vhs-5439-MLA4389453419_052013-F.jpg/revision/latest/top-crop/width/360/height/450?cb=20161018214826&path-prefix=es"group-title="PELÍCULAS",Y DONDE ESTAN LAS RUBIAS
+https://dl.dropboxusercontent.com/s/aez9sb22f2vuyve/SalynPM-Y-D.E.L.R.mp4
+
+
+
 #EXTINF:-1 tvg-logo="https://media.themoviedb.org/t/p/w220_and_h330_face/z3AGDMXtXfWextrNR9l6ajJxM4w.jpg"group-title="PELÍCULAS",PIXEL
 http://ia801005.us.archive.org/11/items/zqu21148_zoqqa_3/su1id0_p4r4_stre4ming_a85/3.mp4
 
@@ -244,11 +258,18 @@ http://ia903109.us.archive.org/3/items/vodaya2/Sub1d0_p4r4_5tr34ming_A85_V4R145_
 
 
 
-############( OTHER )############
+
+
+
+#######( CIENCIA FICCIÓN )#######
 
 
 
 
+
+
+#EXTINF:-1 tvg-logo="https://media.themoviedb.org/t/p/w220_and_h330_face/8PYqGSd8MOm5ce8io4qNSAiSExW.jpg"group-title="PELICULAS",ALIENS ROMULUS
+https://videos.gia.tv/giatv/movies/playlist/208538/Ver_Alien_Romulus__2024__online.mp4
 
 
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/original/nA1ZpbVO34BQupmLpzi0uY6x3J5.jpg"group-title="PELÍCULAS",DESTINO FINAL 5
@@ -257,6 +278,25 @@ http://ia801303.us.archive.org/24/items/K9M4ZP3P/DFLZDS25.mkv
 
 #EXTINF:-1 tvg-logo="https://mx.web.img2.acsta.net/pictures/19/08/31/22/00/3679670.jpg"group-title="PELÍCULAS",AMENAZA EN LO PROFUNDO 
 http://ia801303.us.archive.org/24/items/000_20200402/07.mp4
+
+#EXTINF:-1 tvg-logo="https://media.themoviedb.org/t/p/w220_and_h330_face/mUZh4lHJDUN8tQodoePjTn33S1H.jpg"group-title="PELICULAS",YO FRANKENSTEIN
+https://videos.gia.tv/giatv/movies/playlist/208538/Yo_Frankenstein__Espa__ol_Latino_1080P_HD_.mp4
+
+
+
+#EXTINF:-1 tvg-logo="https://media.themoviedb.org/t/p/w220_and_h330_face/ay7GJqX63hPuFJGeQq2sAuePNyK.jpg"group-title="PELICULAS", IMPACTO PROFUNDO 
+https://videos.gia.tv/giatv/movies/playlist/208538/impacto_profundo.mp4
+
+
+
+
+
+
+
+
+
+############( OTHER )############
+
 
 #EXTINF:-1 tvg-logo="https://es.web.img3.acsta.net/r_1280_720/pictures/210/106/21010605_20130606000334824.jpg"group-title="PELÍCULAS",INTELIGENCIA ARTIFICIAL 
 http://ia801303.us.archive.org/24/items/202209_20220918_1346/Inteligencia%20artificial.mp4
@@ -271,8 +311,6 @@ https://live20.bozztv.com/giatvplayout/giatvvod/giatv/movies/playlist/208538/0_5
 
 
 
-#EXTINF:-1 tvg-logo="https://media.themoviedb.org/t/p/w220_and_h330_face/dUbv0BuEHrDDvvoQ14OaBeBrpXu.jpg"group-title="PELÍCULAS",UN OSO ROJO
-https://videos.gia.tv/giatv/movies/playlist/208538/Un_oso_rojo___Argentina__2002__1080P_HD_.mp4
 
 
 #EXTINF:-1 tvg-logo="https://media.themoviedb.org/t/p/w220_and_h330_face/uNmhgNiUzZAknt4sjY1id8nbFCG.jpg"group-title="PELÍCULAS",TROPA DE ELITE 
@@ -291,8 +329,7 @@ http://cecegeek@goo.gl/3KGMLf
 https://gloria.tv/streaming/2un4HSSCCaYjD97Lqh6FYwwsA
 
 
-#EXTINF:-1 tvg-logo="https://static.wikia.nocookie.net/doblaje/images/3/3d/Y-donde-estan-las-rubias-white-chicks-shawn-wayans-vhs-5439-MLA4389453419_052013-F.jpg/revision/latest/top-crop/width/360/height/450?cb=20161018214826&path-prefix=es"group-title="PELÍCULAS",Y DONDE ESTAN LAS RUBIAS
-https://dl.dropboxusercontent.com/s/aez9sb22f2vuyve/SalynPM-Y-D.E.L.R.mp4?dl=0
+
 
 
 
@@ -384,21 +421,14 @@ https://goo.gl/KYCQoX
 
 
 
-#EXTINF:-1 tvg-logo="https://media.themoviedb.org/t/p/w220_and_h330_face/mUZh4lHJDUN8tQodoePjTn33S1H.jpg"group-title="PELICULAS",YO FRANKENSTEIN
-https://videos.gia.tv/giatv/movies/playlist/208538/Yo_Frankenstein__Espa__ol_Latino_1080P_HD_.mp4
 
-
-
-#EXTINF:-1 tvg-logo="https://media.themoviedb.org/t/p/w220_and_h330_face/ay7GJqX63hPuFJGeQq2sAuePNyK.jpg"group-title="PELICULAS", IMPACTO PROFUNDO 
-https://videos.gia.tv/giatv/movies/playlist/208538/impacto_profundo.mp4
 
 
 #EXTINF:-1 tvg-logo="https://media.themoviedb.org/t/p/w220_and_h330_face/jDNSClwYEVwmXfJgYDERvuALlXT.jpg"group-title="PELICULAS", AMOR A MEDIANOCHE
 https://videos.gia.tv/giatv/movies/playlist/208538/cancer_de_sol.mp4
 
 
-#EXTINF:-1 tvg-logo="https://media.themoviedb.org/t/p/w220_and_h330_face/8PYqGSd8MOm5ce8io4qNSAiSExW.jpg"group-title="PELICULAS",ALIENS ROMULUS
-https://videos.gia.tv/giatv/movies/playlist/208538/Ver_Alien_Romulus__2024__online.mp4
+
 
 
 #EXTINF:-1 tvg-logo="https://media.themoviedb.org/t/p/w220_and_h330_face/yNpSqsRuLyyrRltXvtrbXhZinqO.jpg"group-title="PELICULAS",DOG- UN VIAJE SALVAJE
