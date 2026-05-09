@@ -2,7 +2,7 @@
 
 
 
-
+###########( ESTRENOS )###########
 
 #EXTINF:-1 tvg-logo="https://media.themoviedb.org/t/p/w220_and_h330_face/mB3zisIw3bsQcoDSnvMPAQhjrTM.jpg"group-title="PELICULAS", MICHAEL 2026
 https://videos.gia.tv/giatv/movies/playlist/208138/Michael__2026___CAM_HDTS__864x470.mp4
@@ -22,6 +22,22 @@ https://videos.gia.tv/giatv/movies/playlist/208138/El_Guardi__n__2026__mp4.mp4
 #EXTINF:-1 tvg-logo="https://media.themoviedb.org/t/p/w220_and_h330_face/5XgEqq8KJVW0R0NhDZCdBV2Pjr0.jpg"group-title="PELICULAS", CORAZÓN DELATOR 
 https://videos.gia.tv/giatv/movies/playlist/208744/corazon_delator_mp4.mp4
 
+
+
+
+
+
+
+
+
+
+
+############( ACCION )############
+
+
+
+
+
 #EXTINF:-1 tvg-logo="https://media.themoviedb.org/t/p/w220_and_h330_face/cNu6VozUfD9jjQUjGuGBRoMlpYA.jpg"group-title="PELICULAS",EXTRACTION
 https://videos.gia.tv/giatv/movies/playlist/208744/Extraction.mp4
 
@@ -38,11 +54,9 @@ http://ia801303.us.archive.org/24/items/000_20191225/5.mp4
 #EXTINF:-1 tvg-logo="https://media.themoviedb.org/t/p/w220_and_h330_face/llpNGX1H5sQdGRHeteyFXELuoMz.jpg"group-title="PELÍCULAS",BALLERINA
 http://ia803202.us.archive.org/17/items/KGSD5USD/PLBLLN25.mkv
 
-#EXTINF:-1 tvg-logo="https://lacorriente.com/wp-content/uploads/2022/01/Victor-3.jpg"group-title="PELÍCULAS", VICTOR 
-https://videos.gia.tv/giatv/movies/playlist/208538/V__ctor_1080P_HD_.mp4
 
-#EXTINF:-1 tvg-logo="https://media.themoviedb.org/t/p/w220_and_h330_face/uy36CPy5ARuC8qrH8Esg2ndFyJ5.jpg"group-title="PELÍCULAS",WHIPLASH
-https://videos.gia.tv/giatv/movies/playlist/208538/Whiplash_2014_1080p_LATiNO_720P_HD_.mp4
+#EXTINF:-1 tvg-logo="https://i.pinimg.com/736x/c4/2e/00/c42e00bc77cefc04ae0d27db474922e5.jpg"group-title="PELÍCULAS", REDADA ASESINA
+https://archive.org/download/ReAsSRREGIO/ReAsSRREGIO.mkv
 
 
 #EXTINF:-1 tvg-logo="https://media.themoviedb.org/t/p/w220_and_h330_face/2VezrcRVvZxPjpCgSqiXB7tF5Gd.jpg"group-title="PELÍCULAS",LA COLONIA 
@@ -60,6 +74,66 @@ http://ia801303.us.archive.org/24/items/K9M4ZP3P/ECNTD225.mkv
 
 #EXTINF:-1 tvg-logo="https://media.themoviedb.org/t/p/w220_and_h330_face/n5af068Xoa2feazpY5MP3xcW5Mj.jpg"group-title="PELÍCULAS",EL DURO
 http://ia801303.us.archive.org/24/items/4621UE7C/PELEDR24V2.mkv
+
+
+#EXTINF:-1 tvg-logo="https://media.themoviedb.org/t/p/w440_and_h660_face/6K110gLF5QZHLlzvVWisQ2kHF2X.jpg"group-title="PELÍCULAS", ALERTA EXTREMA
+http://ia801303.us.archive.org/24/items/OM006VQZ/ALEXTR23.mkv
+
+
+
+#EXTINF:-1 tvg-logo="https://media.themoviedb.org/t/p/w220_and_h330_face/L56pZmao0tTUD7sYQUa6MyO67g.jpg"group-title="PELÍCULAS", MANHATTAN SIN SALIDA
+http://ia801303.us.archive.org/24/items/000_20200321_20200321/02.mp4
+
+
+#EXTINF:-1 tvg-logo="https://pics.filmaffinity.com/enemy_of_the_state-893002243-large.jpg"group-title="PELÍCULAS",ENEMIGO PÚBLICO 
+http://ia801303.us.archive.org/24/items/20230409_20230409_0139/3.n.3.m.1.g.0%20P.6.b.l.1.c.0%20%281998%29.mp4
+
+#EXTINF:-1 tvg-logo="https://i.pinimg.com/474x/ab/16/85/ab16850d88d1b93369014ad9d4cdd6af.jpg"group-title="PELÍCULAS",RAMBO 5
+http://ia801303.us.archive.org/24/items/0000_20200103/1.mp4
+
+#EXTINF:-1 tvg-logo="https://pad.mymovies.it/filmclub/2006/05/379/locandinapg8.jpg"group-title="PELÍCULAS",CASINO ROYALE 007
+http://ia800100.us.archive.org/14/items/001_20240809/001.mp4
+
+
+#EXTINF:-1 tvg-logo="https://soflete.com/cdn/shop/articles/The_Outpost-932537774-large.jpg?v=1593445646&width=2048"group-title="PELÍCULAS",THE OUTPOST
+https://live20.bozztv.com/giatvplayout/giatvvod/giatv/movies/playlist/208538/0_2_THE_OUTPOST.mp4/chunk.m3u8
+
+
+#EXTINF:-1 tvg-logo="https://media.themoviedb.org/t/p/w220_and_h330_face/vq3E4dNnDIoCMjPim2XfWwEuRlX.jpg"group-title="PELÍCULAS",MATAR O MORIR 
+https://live20.bozztv.com/giatvplayout/giatvvod/giatv/movies/playlist/208538/0_1_ACCION.mp4/chunk.m3u8
+
+#EXTINF:-1 tvg-logo="https://media.themoviedb.org/t/p/w220_and_h330_face/bGoMKWmNI5pEPj1Xx2Erf2vqgTe.jpg"group-title="PELÍCULAS",UN DÍA PARA SOBREVIVIR 
+https://videos.gia.tv/giatv/movies/playlist/208538/Un_D__a_Para_Sobrevivir__2011_____Pel__culas_En_Espa__ol_720P_HD_.mp4
+
+
+
+
+
+
+
+
+
+#########( HECHOS REALES )########
+
+
+
+
+
+
+
+
+#EXTINF:-1 tvg-logo="https://media.themoviedb.org/t/p/w220_and_h330_face/4UWDVI6IleoKl9T6wHbHcqd5zAX.jpg"group-title="PELÍCULAS",TORNADO
+https://live20.bozztv.com/giatvplayout/giatvvod/giatv/movies/playlist/208538/Tornados_2024_DVDRip_Lat.mp4/chunk.m3u8
+
+
+#EXTINF:-1 tvg-logo="https://lacorriente.com/wp-content/uploads/2022/01/Victor-3.jpg"group-title="PELÍCULAS", VICTOR 
+https://videos.gia.tv/giatv/movies/playlist/208538/V__ctor_1080P_HD_.mp4
+
+#EXTINF:-1 tvg-logo="https://media.themoviedb.org/t/p/w220_and_h330_face/uy36CPy5ARuC8qrH8Esg2ndFyJ5.jpg"group-title="PELÍCULAS",WHIPLASH
+https://videos.gia.tv/giatv/movies/playlist/208538/Whiplash_2014_1080p_LATiNO_720P_HD_.mp4
+
+
+
 
 #EXTINF:-1 tvg-logo="https://media.themoviedb.org/t/p/w220_and_h330_face/ajrtVh7xN8HwoFXHkEDRjMjye1d.jpg"group-title="PELICULAS", EXTRAORDINARIO 
 https://videos.gia.tv/giatv/movies/playlist/208538/Extraordinario_con_JULIA_ROBERTS_y_OWEN_WILSON___Pel__cula_completa_en_espa__ol___Drama___Filmelier_TV_MP4_720p.mp4
@@ -85,30 +159,35 @@ http://ia801303.us.archive.org/24/items/01_20200304/Sub1do_p4r4_Str34m_AB5/01.mp
 http://ia801303.us.archive.org/24/items/000_20201026/00009.mp4
 
 
-#EXTINF:-1 tvg-logo="https://media.themoviedb.org/t/p/w440_and_h660_face/6K110gLF5QZHLlzvVWisQ2kHF2X.jpg"group-title="PELÍCULAS", ALERTA EXTREMA
-http://ia801303.us.archive.org/24/items/OM006VQZ/ALEXTR23.mkv
 
-
-
-#EXTINF:-1 tvg-logo="https://media.themoviedb.org/t/p/w220_and_h330_face/L56pZmao0tTUD7sYQUa6MyO67g.jpg"group-title="PELÍCULAS", MANHATTAN SIN SALIDA
-http://ia801303.us.archive.org/24/items/000_20200321_20200321/02.mp4
 
 
 #EXTINF:-1 tvg-logo="https://media.themoviedb.org/t/p/w220_and_h330_face/1ry3FQiDs9X3m2I6lzJnM495qSp.jpg"group-title="PELÍCULAS",STRAIGHT OUTTA COMPTOM
 http://ia801303.us.archive.org/24/items/sst_20200905/sst.mp4
 
 
+
+
+
+
+
+
+
+
+
+
+
+############( MARVEL )############
+
+
+
+
+
+
+
+
 #EXTINF:-1 tvg-logo="https://media.themoviedb.org/t/p/w220_and_h330_face/yDWU8YyFkPnlVY627QXPvct8bz9.jpg"group-title="PELÍCULAS",Thunderbolts
 http://ia801905.us.archive.org/10/items/mcu_f453_5/05%20Thunderbolts%2A%20%28%2ALos%20Nuevos%20Vengadores%29.mp4
-
-
-#EXTINF:-1 tvg-logo="https://media.themoviedb.org/t/p/w220_and_h330_face/z3AGDMXtXfWextrNR9l6ajJxM4w.jpg"group-title="PELÍCULAS",PIXEL
-http://ia801005.us.archive.org/11/items/zqu21148_zoqqa_3/su1id0_p4r4_stre4ming_a85/3.mp4
-
-
-#EXTINF:-1 tvg-logo="https://i.pinimg.com/736x/c4/2e/00/c42e00bc77cefc04ae0d27db474922e5.jpg"group-title="PELÍCULAS", REDADA ASESINA
-https://archive.org/download/ReAsSRREGIO/ReAsSRREGIO.mkv
-
 
 
 #EXTINF:-1 tvg-logo="https://media.themoviedb.org/t/p/w220_and_h330_face/ay29o6P7HWTSMoKVVI3xgRHiRkC.jpg"group-title="PELÍCULAS", AVENGERS
@@ -131,23 +210,24 @@ http://ia801303.us.archive.org/24/items/00copia_20191122/eg.mp4
 
 
 
+
+
+
+
+
+
+############( COMEDIA )###########
+
+
+
+
+#EXTINF:-1 tvg-logo="https://media.themoviedb.org/t/p/w220_and_h330_face/z3AGDMXtXfWextrNR9l6ajJxM4w.jpg"group-title="PELÍCULAS",PIXEL
+http://ia801005.us.archive.org/11/items/zqu21148_zoqqa_3/su1id0_p4r4_stre4ming_a85/3.mp4
+
+
+
 #EXTINF:-1 tvg-logo="https://dx35vtwkllhj9.cloudfront.net/universalstudios/a-dogs-journey/images/regions/ar/onesheet.jpg"group-title="PELÍCULAS", LA RAZON DE ESTAR CONTIGO
 https://dl.dropboxusercontent.com/s/qga7cwijfr4eua2/SalynPM-SPM7s3g.mp4?dl=0
-
-
-
-
-#EXTINF:-1 tvg-logo="https://pics.filmaffinity.com/enemy_of_the_state-893002243-large.jpg"group-title="PELÍCULAS",ENEMIGO PÚBLICO 
-http://ia801303.us.archive.org/24/items/20230409_20230409_0139/3.n.3.m.1.g.0%20P.6.b.l.1.c.0%20%281998%29.mp4
-
-#EXTINF:-1 tvg-logo="https://i.pinimg.com/474x/ab/16/85/ab16850d88d1b93369014ad9d4cdd6af.jpg"group-title="PELÍCULAS",RAMBO 5
-http://ia801303.us.archive.org/24/items/0000_20200103/1.mp4
-
-#EXTINF:-1 tvg-logo="https://pad.mymovies.it/filmclub/2006/05/379/locandinapg8.jpg"group-title="PELÍCULAS",CASINO ROYALE 007
-http://ia800100.us.archive.org/14/items/001_20240809/001.mp4
-
-#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/original/nA1ZpbVO34BQupmLpzi0uY6x3J5.jpg"group-title="PELÍCULAS",DESTINO FINAL 5
-http://ia801303.us.archive.org/24/items/K9M4ZP3P/DFLZDS25.mkv
 
 
 #EXTINF:-1 tvg-logo="https://static.wikia.nocookie.net/doblaje/images/f/fb/Poster-heroe-centrocomercial-564.jpg/revision/latest?cb=20250824095211&path-prefix=es"group-title="PELÍCULAS",HEROE EN EL CENTRO COMERCIAL 1 
@@ -155,6 +235,24 @@ http://ia903100.us.archive.org/20/items/vodaya19/Sub1d0_p4r4_5tr34ming_A85_V4R14
 
 #EXTINF:-1 tvg-logo="https://m.media-amazon.com/images/M/MV5BMzJlN2IwMjItMGM3Ny00NDU4LWI3OWMtZWExNzI1ZTM0MDQxXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg"group-title="PELÍCULAS",HEROE EN EL CENTRO COMERCIAL 2
 http://ia903109.us.archive.org/3/items/vodaya2/Sub1d0_p4r4_5tr34ming_A85_V4R145_9/3.mkv
+
+
+
+
+
+
+
+
+
+############( OTHER )############
+
+
+
+
+
+
+#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/original/nA1ZpbVO34BQupmLpzi0uY6x3J5.jpg"group-title="PELÍCULAS",DESTINO FINAL 5
+http://ia801303.us.archive.org/24/items/K9M4ZP3P/DFLZDS25.mkv
 
 
 #EXTINF:-1 tvg-logo="https://mx.web.img2.acsta.net/pictures/19/08/31/22/00/3679670.jpg"group-title="PELÍCULAS",AMENAZA EN LO PROFUNDO 
@@ -171,19 +269,6 @@ https://goo.gl/SyvNCX
 https://live20.bozztv.com/giatvplayout/giatvvod/giatv/movies/playlist/208538/0_5_dibujos.mp4/chunk.m3u8
 
 
-#EXTINF:-1 tvg-logo="https://media.themoviedb.org/t/p/w220_and_h330_face/4UWDVI6IleoKl9T6wHbHcqd5zAX.jpg"group-title="PELÍCULAS",TORNADO
-https://live20.bozztv.com/giatvplayout/giatvvod/giatv/movies/playlist/208538/Tornados_2024_DVDRip_Lat.mp4/chunk.m3u8
-
-
-#EXTINF:-1 tvg-logo="https://soflete.com/cdn/shop/articles/The_Outpost-932537774-large.jpg?v=1593445646&width=2048"group-title="PELÍCULAS",THE OUTPOST
-https://live20.bozztv.com/giatvplayout/giatvvod/giatv/movies/playlist/208538/0_2_THE_OUTPOST.mp4/chunk.m3u8
-
-
-#EXTINF:-1 tvg-logo="https://media.themoviedb.org/t/p/w220_and_h330_face/vq3E4dNnDIoCMjPim2XfWwEuRlX.jpg"group-title="PELÍCULAS",MATAR O MORIR 
-https://live20.bozztv.com/giatvplayout/giatvvod/giatv/movies/playlist/208538/0_1_ACCION.mp4/chunk.m3u8
-
-#EXTINF:-1 tvg-logo="https://media.themoviedb.org/t/p/w220_and_h330_face/bGoMKWmNI5pEPj1Xx2Erf2vqgTe.jpg"group-title="PELÍCULAS",UN DÍA PARA SOBREVIVIR 
-https://videos.gia.tv/giatv/movies/playlist/208538/Un_D__a_Para_Sobrevivir__2011_____Pel__culas_En_Espa__ol_720P_HD_.mp4
 
 
 #EXTINF:-1 tvg-logo="https://media.themoviedb.org/t/p/w220_and_h330_face/dUbv0BuEHrDDvvoQ14OaBeBrpXu.jpg"group-title="PELÍCULAS",UN OSO ROJO
