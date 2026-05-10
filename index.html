@@ -119,13 +119,13 @@
 </div>
 
 <script>
-  // ========== CONFIGURACIÓN DE LOGOS (WEB) ==========
+  // ========== CONFIGURACIÓN DE LOGOS ==========
   const logosCanales = [
     { url: "https://live20.bozztv.com/giatvplayout7/giatv-208744/tracks-v1a1/mono.m3u8", logo: "https://tinyurl.com/2uysrbe7", top: "20px", right: "50px", widthNormal: "100px", widthFullscreen: "180px" },
-    { url: "https://live20.bozztv.com/giatvplayout7/giatv-208138/tracks-v1a1/mono.m3u8", logo: "https://tinyurl.com/6tptw4t2", top: "20px", right: "40px", widthNormal: "150px", widthFullscreen: "280px" },
-    { url: "https://live20.bozztv.com/giatvplayout7/giatv-209163/playlist.m3u8", logo: "https://tinyurl.com/48xkysmd", top: "20px", right: "40px", widthNormal: "150px", widthFullscreen: "280px" },
-    { url: "https://live20.bozztv.com/giatvplayout7/giatv-208817/playlist.m3u8", logo: "https://tinyurl.com/4m768mja", top: "20px", right: "40px", widthNormal: "150px", widthFullscreen: "280px" },
-    { url: "https://live20.bozztv.com/giatvplayout7/giatv-209909/playlist.m3u8", logo: "https://tinyurl.com/89bw22fh", top: "20px", right: "40px", widthNormal: "150px", widthFullscreen: "280px" }
+    { url: "https://live20.bozztv.com/giatvplayout7/giatv-208138/tracks-v1a1/mono.m3u8", logo: "https://tinyurl.com/6tptw4t2", top: "20px", right: "40px", widthNormal: "150px", widthFullscreen: "150px" },
+    { url: "https://live20.bozztv.com/giatvplayout7/giatv-209163/playlist.m3u8", logo: "https://tinyurl.com/48xkysmd", top: "20px", right: "40px", widthNormal: "150px", widthFullscreen: "150px" },
+    { url: "https://live20.bozztv.com/giatvplayout7/giatv-208817/playlist.m3u8", logo: "https://tinyurl.com/4m768mja", top: "20px", right: "40px", widthNormal: "150px", widthFullscreen: "150px" },
+    { url: "https://live20.bozztv.com/giatvplayout7/giatv-209909/playlist.m3u8", logo: "https://tinyurl.com/89bw22fh", top: "20px", right: "40px", widthNormal: "150px", widthFullscreen: "150px" }
   ];
 
   window.addEventListener('error', (e) => {
@@ -234,6 +234,7 @@
     video.removeAttribute('src');
     video.load();
 
+    // XTREAM CODES (puerto 25461) usar mpegts.js
     if (url.includes(':25461/') || url.includes('.ts')) {
       if (window.mpegts && mpegts.isSupported()) {
         try {
@@ -252,6 +253,7 @@
       return;
     }
     
+    // HLS (m3u8)
     if (url.includes('.m3u8')) {
       if (Hls && Hls.isSupported()) {
         currentHls = new Hls();
@@ -265,6 +267,7 @@
       return;
     }
     
+    // MP4 y otros formatos directos
     video.src = url;
     video.play().catch(e => console.warn);
   }
@@ -309,7 +312,7 @@
     });
   }
 
-  // ==================== PELICULAS ====================
+  // ==================== PELICULAS (usa playTv) ====================
   function renderCategoriasPeliculas() {
     dynamicGrid.className = "dynamic-grid categorias-grid";
     dynamicGrid.innerHTML = "";
@@ -360,14 +363,14 @@
       title.innerText = item.nombre;
       card.appendChild(poster);
       card.appendChild(title);
-      card.onclick = () => abrirEnVLC(item.url);
+      card.onclick = () => playTv(item.url);
       card.onkeydown = (e) => { if(e.key === 'Enter' || e.key === ' ') card.click(); };
       dynamicGrid.appendChild(card);
     });
     setTimeout(() => dynamicGrid.querySelector(".item-card")?.focus(), 100);
   }
 
-  // ==================== SERIES ====================
+  // ==================== SERIES (usa playTv) ====================
   function renderCategoriasSeries() {
     dynamicGrid.className = "dynamic-grid categorias-grid";
     dynamicGrid.innerHTML = "";
@@ -420,14 +423,14 @@
       title.className = "item-title";
       title.innerText = ep.nombre;
       card.appendChild(title);
-      card.onclick = () => abrirEnVLC(ep.url);
+      card.onclick = () => playTv(ep.url);
       card.onkeydown = (e) => { if(e.key === 'Enter' || e.key === ' ') card.click(); };
       dynamicGrid.appendChild(card);
     });
     setTimeout(() => dynamicGrid.querySelector(".item-card")?.focus(), 100);
   }
 
-  // ==================== KIDS ====================
+  // ==================== KIDS (usa playTv) ====================
   function renderKids() {
     dynamicGrid.className = "dynamic-grid";
     dynamicGrid.innerHTML = "";
@@ -453,7 +456,7 @@
       title.innerText = item.nombre;
       card.appendChild(poster);
       card.appendChild(title);
-      card.onclick = () => abrirEnVLC(item.url);
+      card.onclick = () => playTv(item.url);
       card.onkeydown = (e) => { if(e.key === 'Enter' || e.key === ' ') card.click(); };
       dynamicGrid.appendChild(card);
     });
