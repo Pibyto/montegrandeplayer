@@ -13,9 +13,25 @@
     .toolbar { display: flex; gap: 12px; justify-content: flex-end; margin-bottom: 15px; max-width: 1400px; margin-left: auto; margin-right: auto; }
     .tool-btn { background: rgba(0,0,0,0.6); border: none; color: white; width: 44px; height: 44px; border-radius: 44px; font-size: 1.2rem; cursor: pointer; display: inline-flex; align-items: center; justify-content: center; }
     .cast-btn { background-image: url('https://tinyurl.com/3sv2wy92'); background-size: 60%; background-repeat: no-repeat; background-position: center; }
-    .watermark-logo { position: fixed; top: 25px; left: 30px; width: 190px; height: auto; z-index: 99999; pointer-events: none; opacity: 0.7; }
+    
+    /* ========== LOGO PRINCIPAL CLAUTVHD ========== */
+    .logo-principal {
+      position: fixed;
+      top: 10px;
+      left: 10px;
+      width: 120px;
+      height: auto;
+      z-index: 99999;
+      pointer-events: none;
+      opacity: 0.7;
+      transition: opacity 0.2s;
+    }
+    .logo-principal.oculto {
+      display: none;
+    }
+    
     .app { display: flex; flex-wrap: wrap; gap: 15px; max-width: 1400px; margin: 0 auto; height: calc(100vh - 30px); }
-    .left-panel { background: rgba(0,0,0,0.4); backdrop-filter: blur(8px); border-radius: 20px; padding: 200px 15px 15px 15px; height: 100%; overflow-y: auto; flex: 0 0 280px; display: block; }
+    .left-panel { background: rgba(0,0,0,0.4); backdrop-filter: blur(8px); border-radius: 20px; padding: 15px 12px; height: 100%; overflow-y: auto; flex: 0 0 280px; display: block; }
     .right-panel { background: rgba(0,0,0,0.4); backdrop-filter: blur(8px); border-radius: 20px; padding: 15px 12px; height: 100%; overflow-y: auto; flex: 0 0 320px; display: block; }
     .left-panel.oculto, .right-panel.oculto { display: none; }
     .center-panel { flex: 1; min-width: 260px; display: flex; flex-direction: column; gap: 15px; }
@@ -50,21 +66,45 @@
     ::-webkit-scrollbar-track { background: #1e1e2a; }
     ::-webkit-scrollbar-thumb { background: #ffcc88; border-radius: 10px; }
     .empty-msg { text-align: center; padding: 20px; opacity: 0.6; font-size: 0.8rem; }
+    
+    /* Hora y clima */
+    .info-clima {
+      position: absolute;
+      bottom: 8px;
+      right: 40px;
+      background: transparent;
+      display: flex;
+      align-items: center;
+      gap: 6px;
+      font-family: 'Segoe UI', system-ui, monospace;
+      z-index: 99999;
+      pointer-events: none;
+      font-weight: 600;
+    }
+    .hora { font-size: 1.4rem; font-weight: 600; color: rgba(255,255,255,0.92); text-shadow: 1px 1px 2px rgba(0,0,0,0.5); }
+    .separador { font-size: 1.2rem; font-weight: 500; color: #3399ff; }
+    .clima { display: flex; align-items: center; gap: 4px; font-size: 1.4rem; font-weight: 600; color: rgba(255,255,255,0.92); text-shadow: 1px 1px 2px rgba(0,0,0,0.5); }
+    .clima-temp { font-weight: 600; }
+    
     @media (max-width: 800px) {
       body { padding: 10px; }
       .left-panel, .right-panel { flex-basis: 100%; height: auto; max-height: 40vh; }
-      .watermark-logo { width: 90px; top: 15px; left: 15px; }
+      .logo-principal { width: 80px; top: 5px; left: 5px; }
       .menu-btn { font-size: 1.2rem; }
-      .left-panel { padding: 150px 15px 15px 15px; }
       .dynamic-grid.categorias-grid { grid-template-columns: repeat(auto-fill, minmax(150px, 1fr)); }
       .reproducir-info span { font-size: 0.65rem; }
       .reproducir-info img { width: 22px; height: 22px; }
+      .info-clima { bottom: 4px; right: 20px; }
+      .hora { font-size: 1rem; }
+      .separador { font-size: 0.9rem; }
+      .clima { font-size: 1rem; }
     }
   </style>
 </head>
 <body>
 
-<img class="watermark-logo" src="https://tinyurl.com/yrfarar9" alt="KlauTV">
+<!-- LOGO PRINCIPAL CLAUTVHD (solo visible en menú principal) -->
+<img class="logo-principal" id="logoPrincipal" src="https://tinyurl.com/yrfarar9" alt="ClauTVHD">
 
 <div class="toolbar">
   <button class="tool-btn" id="toggleLeftBtn">☰</button>
@@ -75,9 +115,6 @@
 
 <div class="app">
   <div class="left-panel" id="leftPanel">
-    <div style="text-align:center; margin-bottom:15px;">
-      <img src="https://cdn.phototourl.com/free/2026-04-21-4a8d26b0-4efb-4851-b8b9-016c8c390024.png" alt="KlauTV" style="width:70px; opacity:0.8;">
-    </div>
     <div id="menuContainer" class="menu-list"></div>
   </div>
   <div class="center-panel">
@@ -98,7 +135,20 @@
 </div>
 
 <script>
-  // ========== CONFIGURACIÓN DE LOGOS ==========
+  // ========== MOSTRAR/OCULTAR LOGO PRINCIPAL ==========
+  const logoPrincipal = document.getElementById('logoPrincipal');
+  
+  function mostrarLogoPrincipal(mostrar) {
+    if (logoPrincipal) {
+      if (mostrar) {
+        logoPrincipal.classList.remove('oculto');
+      } else {
+        logoPrincipal.classList.add('oculto');
+      }
+    }
+  }
+
+  // ========== CONFIGURACIÓN DE LOGOS DE CANALES ==========
   const logosCanales = [
     { url: "https://live20.bozztv.com/giatvplayout7/giatv-208744/tracks-v1a1/mono.m3u8", logo: "https://tinyurl.com/2uysrbe7", top: "20px", right: "50px", widthNormal: "100px", widthFullscreen: "180px" },
     { url: "https://live20.bozztv.com/giatvplayout7/giatv-208138/tracks-v1a1/mono.m3u8", logo: "https://tinyurl.com/6tptw4t2", top: "20px", right: "40px", widthNormal: "100px", widthFullscreen: "110px" },
@@ -107,6 +157,86 @@
     { url: "https://live20.bozztv.com/giatvplayout7/giatv-209909/playlist.m3u8", logo: "https://tinyurl.com/89bw22fh", top: "20px", right: "40px", widthNormal: "100px", widthFullscreen: "110px" }
   ];
 
+  // ========== CANALES CON HORA Y CLIMA ==========
+  const canalesConClima = [
+    "https://live20.bozztv.com/giatvplayout7/giatv-208744/tracks-v1a1/mono.m3u8",
+    "https://live20.bozztv.com/giatvplayout7/giatv-208138/tracks-v1a1/mono.m3u8",
+    "https://live20.bozztv.com/giatvplayout7/giatv-209163/playlist.m3u8",
+    "https://live20.bozztv.com/giatvplayout7/giatv-208817/playlist.m3u8",
+    "https://live20.bozztv.com/giatvplayout7/giatv-209909/playlist.m3u8"
+  ];
+
+  // ========== CLIMA (Open-Meteo) ==========
+  let intervaloReloj = null;
+  let intervaloClima = null;
+  let climaVisible = false;
+
+  function actualizarReloj() {
+    const ahora = new Date();
+    const horas = ahora.getHours().toString().padStart(2, '0');
+    const minutos = ahora.getMinutes().toString().padStart(2, '0');
+    const relojDiv = document.getElementById('relojClima');
+    if (relojDiv) relojDiv.textContent = `${horas}:${minutos}`;
+  }
+
+  async function actualizarClima() {
+    const climaContenedor = document.getElementById('climaInfo');
+    if (!climaContenedor) return;
+    
+    try {
+      const lat = -34.8167;
+      const lon = -58.4667;
+      const respuesta = await fetch(`https://api.open-meteo.com/v1/forecast?latitude=${lat}&longitude=${lon}&current_weather=true&timezone=auto`);
+      if (!respuesta.ok) throw new Error();
+      const datos = await respuesta.json();
+      const temp = Math.round(datos.current_weather.temperature);
+      const codigoClima = datos.current_weather.weathercode;
+      
+      let icono = "🌡️";
+      if (codigoClima === 0) icono = "☀️";
+      else if (codigoClima === 1 || codigoClima === 2) icono = "⛅";
+      else if (codigoClima === 3) icono = "☁️";
+      else if (codigoClima >= 45 && codigoClima <= 48) icono = "🌫️";
+      else if ((codigoClima >= 51 && codigoClima <= 67) || (codigoClima >= 80 && codigoClima <= 82)) icono = "🌧️";
+      else if (codigoClima >= 71 && codigoClima <= 77) icono = "❄️";
+      else if (codigoClima >= 95 && codigoClima <= 99) icono = "⛈️";
+      
+      climaContenedor.innerHTML = `${temp}°C ${icono}`;
+    } catch (error) {
+      climaContenedor.innerHTML = `--°C 🌡️`;
+    }
+  }
+
+  function mostrarHoraYClima(mostrar) {
+    if (mostrar && !climaVisible) {
+      if (!document.getElementById('infoClima')) {
+        const climaDiv = document.createElement('div');
+        climaDiv.id = 'infoClima';
+        climaDiv.className = 'info-clima';
+        climaDiv.innerHTML = `
+          <div class="hora" id="relojClima">--:--</div>
+          <div class="separador">|</div>
+          <div class="clima" id="climaInfo">--°C 🌡️</div>
+        `;
+        playerContainer.appendChild(climaDiv);
+        if (intervaloReloj) clearInterval(intervaloReloj);
+        if (intervaloClima) clearInterval(intervaloClima);
+        actualizarReloj();
+        intervaloReloj = setInterval(actualizarReloj, 60000);
+        actualizarClima();
+        intervaloClima = setInterval(actualizarClima, 600000);
+      }
+      climaVisible = true;
+    } else if (!mostrar && climaVisible) {
+      const climaDiv = document.getElementById('infoClima');
+      if (climaDiv) climaDiv.remove();
+      if (intervaloReloj) { clearInterval(intervaloReloj); intervaloReloj = null; }
+      if (intervaloClima) { clearInterval(intervaloClima); intervaloClima = null; }
+      climaVisible = false;
+    }
+  }
+
+  // ========== RESTO DEL CÓDIGO ==========
   window.addEventListener('error', (e) => {
     if (e.message && (e.message.includes('Failed to fetch') || e.message.includes('NetworkError'))) {
       e.preventDefault();
@@ -190,6 +320,16 @@
     if (!url) return;
     currentPlayingUrl = url;
     mostrarLogo(url);
+    
+    // Ocultar logo principal al entrar a un canal
+    mostrarLogoPrincipal(false);
+    
+    if (canalesConClima.includes(url)) {
+      mostrarHoraYClima(true);
+    } else {
+      mostrarHoraYClima(false);
+    }
+    
     if (currentHls) { currentHls.destroy(); currentHls = null; }
     if (currentMpegts) { currentMpegts.destroy(); currentMpegts = null; }
     video.pause();
@@ -323,6 +463,9 @@
     rightVisible = true;
     nivel = "categorias";
     if (logoActual) { logoActual.remove(); logoActual = null; }
+    mostrarHoraYClima(false);
+    // Mostrar logo principal al volver al menú principal
+    mostrarLogoPrincipal(true);
     renderPrincipal();
     if (todosCanales.length > 0) playTv(todosCanales[currentChannelIndex].url);
   }
@@ -339,6 +482,8 @@
     rightPanel.classList.add("oculto");
     leftVisible = false;
     rightVisible = false;
+    // Ocultar logo principal al entrar a películas/series/kids
+    mostrarLogoPrincipal(false);
     renderCategorias();
   }
 
@@ -445,6 +590,8 @@
       btn.onkeydown = (e) => { if(e.key === 'Enter' || e.key === ' ') btn.click(); };
       menuContainer.appendChild(btn);
     });
+    // Mostrar logo principal en el menú principal
+    mostrarLogoPrincipal(true);
   }
 
   function renderCategoriasTV() {
