@@ -124,11 +124,16 @@
   let canalesActuales = [];
   let currentHls = null, currentMpegts = null;
   let leftVisible = true, rightVisible = true;
-  let peliculasList = [], seriesList = [], kidsList = [];
+  let peliculasCategorias = {};
+  let seriesCategorias = {};
+  let kidsCategorias = {};
   let modoPeliculas = false;
   let currentPlayingUrl = null;
   let currentChannelIndex = 0;
   let logoActual = null;
+  let tipoContenido = "peliculas"; // peliculas, series, kids
+  let nivel = "categorias"; // categorias, items
+  let categoriaActual = "";
 
   const menuContainer = document.getElementById("menuContainer");
   const rightPanel = document.getElementById("rightPanel");
@@ -264,11 +269,14 @@
     });
   }
 
-  let modoActual = 'peliculas';
-  
-  function renderCategoriasPeliculas() {
+  function renderCategorias() {
     dynamicGrid.className = "dynamic-grid categorias-grid";
     dynamicGrid.innerHTML = "";
+    
+    let categorias = [];
+    if (tipoContenido === "peliculas") categorias = Object.keys(peliculasCategorias).sort();
+    else if (tipoContenido === "series") categorias = Object.keys(seriesCategorias).sort();
+    else categorias = Object.keys(kidsCategorias).sort();
     
     const volverMenu = document.createElement("div");
     volverMenu.className = "item-card text-card volver-card";
@@ -278,40 +286,35 @@
     volverMenu.onkeydown = (e) => { if(e.key === 'Enter' || e.key === ' ') volverMenu.click(); };
     dynamicGrid.appendChild(volverMenu);
     
-    const items = peliculasList;
-    items.forEach(item => {
+    categorias.forEach(cat => {
       const card = document.createElement("div");
-      card.className = "item-card poster-card";
+      card.className = "item-card text-card";
       card.setAttribute("tabindex", "0");
-      const poster = document.createElement("img");
-      poster.className = "item-poster";
-      poster.src = item.logo || "https://placehold.co/300x450/1a1a2a/888?text=Sin+Poster";
-      poster.onerror = () => { poster.src = "https://placehold.co/300x450/1a1a2a/888?text=Sin+Poster"; };
-      const title = document.createElement("div");
-      title.className = "item-title";
-      title.innerText = item.nombre;
-      card.appendChild(poster);
-      card.appendChild(title);
-      card.onclick = () => intentarReproducirPelicula(item.url);
+      card.innerHTML = `<div class="item-title">${cat}</div>`;
+      card.onclick = () => { nivel = "items"; categoriaActual = cat; renderItems(); };
       card.onkeydown = (e) => { if(e.key === 'Enter' || e.key === ' ') card.click(); };
       dynamicGrid.appendChild(card);
     });
     setTimeout(() => dynamicGrid.querySelector(".item-card")?.focus(), 100);
   }
-
-  function renderCategoriasSeries() {
-    dynamicGrid.className = "dynamic-grid categorias-grid";
+  
+  function renderItems() {
+    dynamicGrid.className = "dynamic-grid";
     dynamicGrid.innerHTML = "";
     
-    const volverMenu = document.createElement("div");
-    volverMenu.className = "item-card text-card volver-card";
-    volverMenu.setAttribute("tabindex", "0");
-    volverMenu.innerHTML = `<div class="item-title">← VOLVER</div>`;
-    volverMenu.onclick = () => { salirModoPeliculas(); };
-    volverMenu.onkeydown = (e) => { if(e.key === 'Enter' || e.key === ' ') volverMenu.click(); };
-    dynamicGrid.appendChild(volverMenu);
+    const volverCard = document.createElement("div");
+    volverCard.className = "item-card text-card volver-card";
+    volverCard.setAttribute("tabindex", "0");
+    volverCard.innerHTML = `<div class="item-title">← VOLVER A CATEGORÍAS</div>`;
+    volverCard.onclick = () => { nivel = "categorias"; renderCategorias(); };
+    volverCard.onkeydown = (e) => { if(e.key === 'Enter' || e.key === ' ') volverCard.click(); };
+    dynamicGrid.appendChild(volverCard);
     
-    const items = seriesList;
+    let items = [];
+    if (tipoContenido === "peliculas") items = peliculasCategorias[categoriaActual] || [];
+    else if (tipoContenido === "series") items = seriesCategorias[categoriaActual] || [];
+    else items = kidsCategorias[categoriaActual] || [];
+    
     items.forEach(item => {
       const card = document.createElement("div");
       card.className = "item-card poster-card";
@@ -334,39 +337,6 @@
     setTimeout(() => dynamicGrid.querySelector(".item-card")?.focus(), 100);
   }
 
-  function renderKids() {
-    dynamicGrid.className = "dynamic-grid";
-    dynamicGrid.innerHTML = "";
-    
-    const volverMenu = document.createElement("div");
-    volverMenu.className = "item-card text-card volver-card";
-    volverMenu.setAttribute("tabindex", "0");
-    volverMenu.innerHTML = `<div class="item-title">← VOLVER</div>`;
-    volverMenu.onclick = () => { salirModoPeliculas(); };
-    volverMenu.onkeydown = (e) => { if(e.key === 'Enter' || e.key === ' ') volverMenu.click(); };
-    dynamicGrid.appendChild(volverMenu);
-    
-    const items = kidsList;
-    items.forEach(item => {
-      const card = document.createElement("div");
-      card.className = "item-card poster-card";
-      card.setAttribute("tabindex", "0");
-      const poster = document.createElement("img");
-      poster.className = "item-poster";
-      poster.src = item.logo || "https://placehold.co/300x450/1a1a2a/888?text=Sin+Poster";
-      poster.onerror = () => { poster.src = "https://placehold.co/300x450/1a1a2a/888?text=Sin+Poster"; };
-      const title = document.createElement("div");
-      title.className = "item-title";
-      title.innerText = item.nombre;
-      card.appendChild(poster);
-      card.appendChild(title);
-      card.onclick = () => intentarReproducirPelicula(item.url);
-      card.onkeydown = (e) => { if(e.key === 'Enter' || e.key === ' ') card.click(); };
-      dynamicGrid.appendChild(card);
-    });
-    setTimeout(() => dynamicGrid.querySelector(".item-card")?.focus(), 100);
-  }
-
   function salirModoPeliculas() {
     modoPeliculas = false;
     dynamicArea.style.display = "none";
@@ -375,14 +345,17 @@
     rightPanel.classList.remove("oculto");
     leftVisible = true;
     rightVisible = true;
+    nivel = "categorias";
     if (logoActual) { logoActual.remove(); logoActual = null; }
     renderPrincipal();
     if (todosCanales.length > 0) playTv(todosCanales[currentChannelIndex].url);
   }
 
-  function entrarModoPeliculas() {
+  function entrarModo(tipo) {
     if (modoPeliculas) salirModoPeliculas();
     modoPeliculas = true;
+    tipoContenido = tipo;
+    nivel = "categorias";
     if (logoActual) { logoActual.remove(); logoActual = null; }
     playerContainer.style.display = "none";
     dynamicArea.style.display = "flex";
@@ -390,45 +363,16 @@
     rightPanel.classList.add("oculto");
     leftVisible = false;
     rightVisible = false;
-    if (peliculasList.length === 0) dynamicGrid.innerHTML = "<div class='empty-msg'>Cargando...</div>";
-    else renderCategoriasPeliculas();
-  }
-  
-  function entrarModoSeries() {
-    if (modoPeliculas) salirModoPeliculas();
-    modoPeliculas = true;
-    if (logoActual) { logoActual.remove(); logoActual = null; }
-    playerContainer.style.display = "none";
-    dynamicArea.style.display = "flex";
-    leftPanel.classList.add("oculto");
-    rightPanel.classList.add("oculto");
-    leftVisible = false;
-    rightVisible = false;
-    if (seriesList.length === 0) dynamicGrid.innerHTML = "<div class='empty-msg'>Cargando...</div>";
-    else renderCategoriasSeries();
-  }
-  
-  function entrarModoKids() {
-    if (modoPeliculas) salirModoPeliculas();
-    modoPeliculas = true;
-    if (logoActual) { logoActual.remove(); logoActual = null; }
-    playerContainer.style.display = "none";
-    dynamicArea.style.display = "flex";
-    leftPanel.classList.add("oculto");
-    rightPanel.classList.add("oculto");
-    leftVisible = false;
-    rightVisible = false;
-    if (kidsList.length === 0) dynamicGrid.innerHTML = "<div class='empty-msg'>Cargando...</div>";
-    else renderKids();
+    renderCategorias();
   }
 
   function cargarPeliculas() {
     return fetch(MOVIES_M3U_URL + "?t=" + Date.now(), { cache: "no-store" })
       .then(r => r.ok ? r.text() : Promise.reject())
       .then(data => {
-        peliculasList = [];
+        peliculasCategorias = {};
         const lines = data.split("\n");
-        let currentName = "", currentLogo = "", currentUrl = "";
+        let currentName = "", currentLogo = "", currentUrl = "", currentGroup = "Sin categoría";
         for (let i = 0; i < lines.length; i++) {
           let line = lines[i].trim();
           if (line.startsWith("#EXTINF")) {
@@ -436,15 +380,17 @@
             currentName = nameMatch ? nameMatch[1].trim() : "Película";
             const logoMatch = line.match(/tvg-logo="([^"]*)"/);
             currentLogo = logoMatch ? logoMatch[1] : "";
+            const groupMatch = line.match(/group-title="([^"]*)"/);
+            currentGroup = groupMatch ? groupMatch[1] : "Sin categoría";
           } else if (line.startsWith("http")) {
             currentUrl = line;
             if (currentName && currentUrl) {
-              peliculasList.push({ nombre: currentName, url: currentUrl, logo: currentLogo !== "http://127.0.0.1/" ? currentLogo : null });
+              if (!peliculasCategorias[currentGroup]) peliculasCategorias[currentGroup] = [];
+              peliculasCategorias[currentGroup].push({ nombre: currentName, url: currentUrl, logo: currentLogo !== "http://127.0.0.1/" ? currentLogo : null });
             }
             currentName = ""; currentLogo = ""; currentUrl = "";
           }
         }
-        if (modoPeliculas) renderCategoriasPeliculas();
       }).catch(e => console.error("Error pelis:", e));
   }
 
@@ -452,9 +398,9 @@
     return fetch(SERIES_M3U_URL + "?t=" + Date.now(), { cache: "no-store" })
       .then(r => r.ok ? r.text() : Promise.reject())
       .then(data => {
-        seriesList = [];
+        seriesCategorias = {};
         const lines = data.split("\n");
-        let currentName = "", currentLogo = "", currentUrl = "";
+        let currentName = "", currentLogo = "", currentUrl = "", currentGroup = "Sin categoría";
         for (let i = 0; i < lines.length; i++) {
           let line = lines[i].trim();
           if (line.startsWith("#EXTINF")) {
@@ -462,15 +408,17 @@
             currentName = nameMatch ? nameMatch[1].trim() : "Episodio";
             const logoMatch = line.match(/tvg-logo="([^"]*)"/);
             currentLogo = logoMatch ? logoMatch[1] : "";
+            const groupMatch = line.match(/group-title="([^"]*)"/);
+            currentGroup = groupMatch ? groupMatch[1] : "Sin categoría";
           } else if (line.startsWith("http")) {
             currentUrl = line;
             if (currentName && currentUrl) {
-              seriesList.push({ nombre: currentName, url: currentUrl, logo: currentLogo !== "http://127.0.0.1/" ? currentLogo : null });
+              if (!seriesCategorias[currentGroup]) seriesCategorias[currentGroup] = [];
+              seriesCategorias[currentGroup].push({ nombre: currentName, url: currentUrl, logo: currentLogo !== "http://127.0.0.1/" ? currentLogo : null });
             }
             currentName = ""; currentLogo = ""; currentUrl = "";
           }
         }
-        if (modoPeliculas) renderCategoriasSeries();
       }).catch(e => console.error("Error series:", e));
   }
 
@@ -478,9 +426,9 @@
     return fetch(KIDS_M3U_URL + "?t=" + Date.now(), { cache: "no-store" })
       .then(r => r.ok ? r.text() : Promise.reject())
       .then(data => {
-        kidsList = [];
+        kidsCategorias = {};
         const lines = data.split("\n");
-        let currentName = "", currentLogo = "", currentUrl = "";
+        let currentName = "", currentLogo = "", currentUrl = "", currentGroup = "Sin categoría";
         for (let i = 0; i < lines.length; i++) {
           let line = lines[i].trim();
           if (line.startsWith("#EXTINF")) {
@@ -488,15 +436,17 @@
             currentName = nameMatch ? nameMatch[1].trim() : "Película";
             const logoMatch = line.match(/tvg-logo="([^"]*)"/);
             currentLogo = logoMatch ? logoMatch[1] : "";
+            const groupMatch = line.match(/group-title="([^"]*)"/);
+            currentGroup = groupMatch ? groupMatch[1] : "Sin categoría";
           } else if (line.startsWith("http")) {
             currentUrl = line;
             if (currentName && currentUrl) {
-              kidsList.push({ nombre: currentName, url: currentUrl, logo: currentLogo !== "http://127.0.0.1/" ? currentLogo : null });
+              if (!kidsCategorias[currentGroup]) kidsCategorias[currentGroup] = [];
+              kidsCategorias[currentGroup].push({ nombre: currentName, url: currentUrl, logo: currentLogo !== "http://127.0.0.1/" ? currentLogo : null });
             }
             currentName = ""; currentLogo = ""; currentUrl = "";
           }
         }
-        if (modoPeliculas) renderKids();
       }).catch(e => console.error("Error kids:", e));
   }
 
@@ -510,18 +460,18 @@
       btn.onclick = () => {
         if (opt === "TV") {
           if (modoPeliculas) salirModoPeliculas();
-          if (Object.keys(categoriasTV).length) renderCategorias();
-          else setTimeout(() => { if(Object.keys(categoriasTV).length) renderCategorias(); }, 500);
-        } else if (opt === "PELICULAS") entrarModoPeliculas();
-        else if (opt === "SERIES") entrarModoSeries();
-        else if (opt === "KIDS") entrarModoKids();
+          if (Object.keys(categoriasTV).length) renderCategoriasTV();
+          else setTimeout(() => { if(Object.keys(categoriasTV).length) renderCategoriasTV(); }, 500);
+        } else if (opt === "PELICULAS") entrarModo("peliculas");
+        else if (opt === "SERIES") entrarModo("series");
+        else if (opt === "KIDS") entrarModo("kids");
       };
       btn.onkeydown = (e) => { if(e.key === 'Enter' || e.key === ' ') btn.click(); };
       menuContainer.appendChild(btn);
     });
   }
 
-  function renderCategorias() {
+  function renderCategoriasTV() {
     const cats = Object.keys(categoriasTV).filter(c => c !== "Otros" && c.trim());
     menuContainer.innerHTML = "";
     const backBtn = document.createElement("button");
@@ -550,7 +500,7 @@
     const backBtn = document.createElement("button");
     backBtn.className = "cat-btn back-btn";
     backBtn.innerText = "← Volver";
-    backBtn.onclick = () => renderCategorias();
+    backBtn.onclick = () => renderCategoriasTV();
     backBtn.onkeydown = (e) => { if(e.key === 'Enter' || e.key === ' ') backBtn.click(); };
     menuContainer.appendChild(backBtn);
     canalesActuales.forEach(canal => {
@@ -703,8 +653,12 @@
     if (modoPeliculas) {
       if (key === "Backspace" || key === "Escape") {
         e.preventDefault();
-        salirModoPeliculas();
-        renderPrincipal();
+        if (nivel === "items") {
+          nivel = "categorias";
+          renderCategorias();
+        } else {
+          salirModoPeliculas();
+        }
         return;
       }
       if (key === "ArrowLeft" || key === "ArrowRight" || key === "ArrowUp" || key === "ArrowDown") {
