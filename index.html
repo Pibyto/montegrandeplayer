@@ -31,8 +31,10 @@
     .item-card.volver-card { background: #ff8800; color: #000; font-weight: bold; border: none; }
     .item-card.volver-card .item-title { color: #000; font-weight: bold; }
     .item-card:focus { background: rgba(60,60,60,0.8); transform: scale(1.02); }
+    /* ========== ARREGLO DEFINITIVO DE PORTADAS ========== */
     .item-poster { width: 100%; height: auto; display: block; background: #1a1a2a; }
     .item-title { font-size: 0.8rem; padding: 8px 6px; color: rgba(255,255,255,0.8); text-align: center; line-height: 1.3; }
+    /* ========== FIN ARREGLO ========== */
     .fav-bar { background: rgba(0,0,0,0.4); backdrop-filter: blur(8px); padding: 8px 12px; border-radius: 40px; display: flex; gap: 10px; overflow-x: auto; white-space: nowrap; }
     .fav-chip { background: rgba(255,255,255,0.1); padding: 5px 14px; border-radius: 30px; font-size: 0.75rem; cursor: pointer; display: inline-flex; align-items: center; gap: 6px; }
     .menu-list { display: flex; flex-direction: column; gap: 6px; }
@@ -99,11 +101,11 @@
 <script>
   // ========== CONFIGURACIÓN DE LOGOS ==========
   const logosCanales = [
-    { url: "https://live20.bozztv.com/giatvplayout7/giatv-208744/tracks-v1a1/mono.m3u8", logo: "https://tinyurl.com/2uysrbe7", top: "20px", right: "50px", widthNormal: "100px", widthFullscreen: "180px" },
-    { url: "https://live20.bozztv.com/giatvplayout7/giatv-208138/tracks-v1a1/mono.m3u8", logo: "https://tinyurl.com/6tptw4t2", top: "20px", right: "40px", widthNormal: "120px", widthFullscreen: "150px" },
-    { url: "https://live20.bozztv.com/giatvplayout7/giatv-209163/playlist.m3u8", logo: "https://tinyurl.com/48xkysmd", top: "20px", right: "40px", widthNormal: "120px", widthFullscreen: "150px" },
-    { url: "https://live20.bozztv.com/giatvplayout7/giatv-208817/playlist.m3u8", logo: "https://tinyurl.com/4m768mja", top: "20px", right: "40px", widthNormal: "120px", widthFullscreen: "150px" },
-    { url: "https://live20.bozztv.com/giatvplayout7/giatv-209909/playlist.m3u8", logo: "https://tinyurl.com/89bw22fh", top: "20px", right: "40px", widthNormal: "120px", widthFullscreen: "150px" }
+    { url: "https://live20.bozztv.com/giatvplayout7/giatv-208744/tracks-v1a1/mono.m3u8", logo: "https://tinyurl.com/2uysrbe7", top: "20px", right: "40px", widthNormal: "100px", widthFullscreen: "120px" },
+    { url: "https://live20.bozztv.com/giatvplayout7/giatv-208138/tracks-v1a1/mono.m3u8", logo: "https://tinyurl.com/6tptw4t2", top: "20px", right: "40px", widthNormal: "100px", widthFullscreen: "110px" },
+    { url: "https://live20.bozztv.com/giatvplayout7/giatv-209163/playlist.m3u8", logo: "https://tinyurl.com/48xkysmd", top: "20px", right: "40px", widthNormal: "100px", widthFullscreen: "110px" },
+    { url: "https://live20.bozztv.com/giatvplayout7/giatv-208817/playlist.m3u8", logo: "https://tinyurl.com/4m768mja", top: "20px", right: "40px", widthNormal: "100px", widthFullscreen: "110px" },
+    { url: "https://live20.bozztv.com/giatvplayout7/giatv-209909/playlist.m3u8", logo: "https://tinyurl.com/89bw22fh", top: "20px", right: "40px", widthNormal: "100px", widthFullscreen: "110px" }
   ];
 
   window.addEventListener('error', (e) => {
