@@ -169,7 +169,7 @@
 
   document.addEventListener('fullscreenchange', ajustarTamanoLogo);
 
-  // ========== REPRODUCTOR UNIVERSAL (NATIVO + MPEGTS PARA XTREAM) ==========
+  // ========== REPRODUCTOR UNIVERSAL ==========
   function playStream(url) {
     if (!url) return;
     currentPlayingUrl = url;
@@ -183,7 +183,7 @@
     video.removeAttribute('src');
     video.load();
 
-    // XTREAM CODES (puerto 25461) - usar mpegts.js
+    // XTREAM CODES (puerto 25461)
     if (url.includes(':25461/')) {
       if (window.mpegts && mpegts.isSupported()) {
         try {
@@ -202,7 +202,7 @@
       return;
     }
     
-    // HLS (m3u8)
+    // HLS
     if (url.includes('.m3u8')) {
       if (Hls && Hls.isSupported()) {
         currentHls = new Hls();
@@ -216,7 +216,7 @@
       return;
     }
     
-    // MP4, MKV, etc.
+    // MP4, MKV, AVI, etc.
     video.src = url;
     video.play().catch(e => console.warn);
   }
@@ -230,7 +230,7 @@
     playStream(todosCanales[currentChannelIndex].url);
   }
 
-  // ========== PELICULAS, SERIES, KIDS (todo con playStream) ==========
+  // ========== PELICULAS, SERIES, KIDS ==========
   function renderCategoriasPeliculas() {
     dynamicGrid.className = "dynamic-grid categorias-grid";
     dynamicGrid.innerHTML = "";
