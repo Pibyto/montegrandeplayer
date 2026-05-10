@@ -8,17 +8,16 @@
   <script src="https://cdn.jsdelivr.net/npm/mpegts.js@latest"></script>
   <script src="https://www.gstatic.com/cvjs/sender/libs/cast_sender.js"></script>
   <style>
-    * { margin: 0; padding: 0; box-sizing: border-box; }
-    body { background: #0a0a0f; font-family: 'Segoe UI', system-ui, sans-serif; color: #eee; min-height: 100vh; padding: 15px; overflow: hidden; }
-    .toolbar { display: flex; gap: 12px; justify-content: flex-end; margin-bottom: 15px; max-width: 1400px; margin-left: auto; margin-right: auto; }
-    .tool-btn { background: rgba(0,0,0,0.6); border: none; color: white; width: 44px; height: 44px; border-radius: 44px; font-size: 1.2rem; cursor: pointer; display: inline-flex; align-items: center; justify-content: center; }
-    .cast-btn { background-image: url('https://tinyurl.com/3sv2wy92'); background-size: 60%; background-repeat: no-repeat; background-position: center; }
-    .watermark { position: fixed; top: 20px; left: 20px; width: 90px; height: auto; z-index: 1000; pointer-events: none; opacity: 0.9; }
-    .app { display: flex; flex-wrap: wrap; gap: 15px; max-width: 1400px; margin: 0 auto; height: calc(100vh - 100px); }
-    .left-panel, .right-panel { background: rgba(0,0,0,0.4); backdrop-filter: blur(8px); border-radius: 20px; padding: 15px 12px; height: 100%; overflow-y: auto; }
-    .left-panel { flex: 0 0 250px; }
-    .right-panel { flex: 0 0 280px; }
-    .center-panel { flex: 1; min-width: 260px; display: flex; flex-direction: column; gap: 15px; height: 100%; }
+    * { margin: 0; padding: 0; box-sizing: border-box; outline: none !important; }
+    body { background: #000; font-family: 'Segoe UI', system-ui, sans-serif; color: #eee; min-height: 100vh; padding: 15px; overflow: hidden; }
+    .toolbar { display: none; }
+    .watermark-logo { position: fixed; top: 25px; left: 30px; width: 190px; height: auto; z-index: 99999; pointer-events: none; opacity: 0.7; }
+    .app { display: flex; flex-wrap: wrap; gap: 15px; max-width: 1400px; margin: 0 auto; height: calc(100vh - 30px); }
+    .left-panel { background: rgba(0,0,0,0.4); border-radius: 20px; padding: 200px 15px 15px 15px; height: 100%; overflow-y: auto; flex: 0 0 280px; display: block; }
+    .right-panel { background: rgba(0,0,0,0.4); border-radius: 20px; padding: 15px 12px; height: 100%; overflow-y: auto; flex: 0 0 320px; display: block; }
+    .left-panel.oculto { display: none; }
+    .right-panel.oculto { display: none; }
+    .center-panel { flex: 1; min-width: 260px; display: flex; flex-direction: column; gap: 15px; }
     .player-container { background: #000; border-radius: 20px; overflow: hidden; aspect-ratio: 16 / 9; width: 100%; box-shadow: 0 5px 20px rgba(0,0,0,0.5); position: relative; display: block; }
     video { width: 100%; height: 100%; object-fit: contain; background: #000; }
     video::-webkit-media-controls { display: none !important; }
@@ -31,6 +30,7 @@
     .item-card.volver-card { background: #ff8800; color: #000; font-weight: bold; border: none; }
     .item-card.volver-card .item-title { color: #000; font-weight: bold; }
     .item-card:focus { background: rgba(60,60,60,0.8); transform: scale(1.02); }
+    /* PORTADAS COMPLETAS - SIN APLASTAR */
     .item-poster { width: 100%; height: auto; display: block; background: #1a1a2a; }
     .item-title { font-size: 0.8rem; padding: 8px 6px; color: rgba(255,255,255,0.8); text-align: center; line-height: 1.3; }
     .fav-bar { background: rgba(0,0,0,0.4); backdrop-filter: blur(8px); padding: 8px 12px; border-radius: 40px; display: flex; gap: 10px; overflow-x: auto; white-space: nowrap; }
@@ -50,22 +50,12 @@
     ::-webkit-scrollbar-track { background: #1e1e2a; }
     ::-webkit-scrollbar-thumb { background: #ffcc88; border-radius: 10px; }
     .empty-msg { text-align: center; padding: 20px; opacity: 0.6; font-size: 0.8rem; }
-    
-    /* ========== MÓVIL: paneles visibles y reordenados correctamente ========== */
     @media (max-width: 800px) {
       body { padding: 10px; }
-      .left-panel, .right-panel { 
-        flex-basis: 100%; 
-        width: 100%;
-        height: auto; 
-        max-height: 40vh;
-        display: block !important;
-      }
-      .left-panel.oculto, .right-panel.oculto { 
-        display: none !important; 
-      }
-      .watermark { width: 70px; top: 10px; left: 10px; }
-      .tool-btn { width: 38px; height: 38px; font-size: 1rem; }
+      .left-panel, .right-panel { flex-basis: 100%; height: auto; max-height: 40vh; }
+      .watermark-logo { width: 90px; top: 15px; left: 15px; }
+      .menu-btn { font-size: 1.2rem; }
+      .left-panel { padding: 150px 15px 15px 15px; }
       .dynamic-grid.categorias-grid { grid-template-columns: repeat(auto-fill, minmax(150px, 1fr)); }
       .reproducir-info span { font-size: 0.65rem; }
       .reproducir-info img { width: 22px; height: 22px; }
@@ -74,13 +64,13 @@
 </head>
 <body>
 
-<img class="watermark" src="https://tinyurl.com/yrfarar9" alt="KlauTV">
+<img class="watermark-logo" src="https://tinyurl.com/yrfarar9" alt="KlauTV">
 
 <div class="toolbar">
-  <button class="tool-btn" id="toggleLeftBtn">☰</button>
-  <button class="tool-btn" id="toggleRightBtn">▶</button>
-  <button class="tool-btn" id="fullscreenBtn">⛶</button>
-  <button class="tool-btn cast-btn" id="castButton"></button>
+  <button id="toggleLeftBtn">☰</button>
+  <button id="toggleRightBtn">▶</button>
+  <button id="fullscreenBtn">⛶</button>
+  <button id="castButton" style="display:none;"></button>
 </div>
 
 <div class="app">
@@ -110,7 +100,7 @@
 <script>
   // ========== CONFIGURACIÓN DE LOGOS ==========
   const logosCanales = [
-    { url: "https://live20.bozztv.com/giatvplayout7/giatv-208744/tracks-v1a1/mono.m3u8", logo: "https://tinyurl.com/2uysrbe7", top: "20px", right: "50px", widthNormal: "100px", widthFullscreen: "140px" },
+    { url: "https://live20.bozztv.com/giatvplayout7/giatv-208744/tracks-v1a1/mono.m3u8", logo: "https://tinyurl.com/2uysrbe7", top: "20px", right: "50px", widthNormal: "100px", widthFullscreen: "180px" },
     { url: "https://live20.bozztv.com/giatvplayout7/giatv-208138/tracks-v1a1/mono.m3u8", logo: "https://tinyurl.com/6tptw4t2", top: "20px", right: "40px", widthNormal: "100px", widthFullscreen: "110px" },
     { url: "https://live20.bozztv.com/giatvplayout7/giatv-209163/playlist.m3u8", logo: "https://tinyurl.com/48xkysmd", top: "20px", right: "40px", widthNormal: "100px", widthFullscreen: "110px" },
     { url: "https://live20.bozztv.com/giatvplayout7/giatv-208817/playlist.m3u8", logo: "https://tinyurl.com/4m768mja", top: "20px", right: "40px", widthNormal: "100px", widthFullscreen: "110px" },
@@ -138,12 +128,12 @@
   let peliculasCategorias = {};
   let seriesCategorias = {};
   let kidsCategorias = {};
-  let modoPeliculas = false;
+  let modoDynamic = false; // false = TV, true = Peliculas/Series/Kids
   let currentPlayingUrl = null;
   let currentChannelIndex = 0;
   let logoActual = null;
-  let tipoContenido = "peliculas"; // peliculas, series, kids
-  let nivel = "categorias"; // categorias, items
+  let tipoContenido = "peliculas";
+  let nivel = "categorias";
   let categoriaActual = "";
 
   const menuContainer = document.getElementById("menuContainer");
@@ -195,24 +185,17 @@
     const timeout = setTimeout(() => {
       abrirEnMXPlayer(url);
     }, 1500);
-    
     abrirEnVLC(url);
-    
-    window.addEventListener('blur', () => {
-      clearTimeout(timeout);
-    }, { once: true });
+    window.addEventListener('blur', () => { clearTimeout(timeout); }, { once: true });
   }
 
-  // ========== REPRODUCCIÓN DE CANALES DE TV ==========
+  // ========== REPRODUCCIÓN DE CANALES DE TV (NATIVO) ==========
   function playTv(url) {
     if (!url) return;
     currentPlayingUrl = url;
-    
     mostrarLogo(url);
-    
     if (currentHls) { currentHls.destroy(); currentHls = null; }
     if (currentMpegts) { currentMpegts.destroy(); currentMpegts = null; }
-    
     video.pause();
     video.removeAttribute('src');
     video.load();
@@ -224,30 +207,19 @@
           currentMpegts.attachMediaElement(video);
           currentMpegts.load();
           currentMpegts.play().catch(e => console.warn);
-        } catch(e) {
-          video.src = url;
-          video.play().catch(e => console.warn);
-        }
-      } else {
-        video.src = url;
-        video.play().catch(e => console.warn);
-      }
+        } catch(e) { video.src = url; video.play().catch(e => console.warn); }
+      } else { video.src = url; video.play().catch(e => console.warn); }
       return;
     }
-    
     if (url.includes('.m3u8')) {
       if (Hls && Hls.isSupported()) {
         currentHls = new Hls();
         currentHls.loadSource(url);
         currentHls.attachMedia(video);
         currentHls.on(Hls.Events.MANIFEST_PARSED, () => video.play().catch(e=>console.warn));
-      } else if (video.canPlayType('application/vnd.apple.mpegurl')) {
-        video.src = url;
-        video.play().catch(e=>console.warn);
-      }
+      } else if (video.canPlayType('application/vnd.apple.mpegurl')) { video.src = url; video.play().catch(e=>console.warn); }
       return;
     }
-    
     video.src = url;
     video.play().catch(e => console.warn);
   }
@@ -261,7 +233,6 @@
     playTv(todosCanales[currentChannelIndex].url);
   }
 
-  // ========== FUNCIONES PARA PELÍCULAS, SERIES, KIDS ==========
   function saveFavs() { localStorage.setItem("klautv_favs", JSON.stringify(favoritos)); renderFavBar(); renderRightPanel(); }
   function toggleFav(canal, e) { e?.stopPropagation(); favoritos.some(f => f.url === canal.url) ? favoritos = favoritos.filter(f => f.url !== canal.url) : favoritos.push(canal); saveFavs(); }
   
@@ -283,7 +254,6 @@
   function renderCategorias() {
     dynamicGrid.className = "dynamic-grid categorias-grid";
     dynamicGrid.innerHTML = "";
-    
     let categorias = [];
     if (tipoContenido === "peliculas") categorias = Object.keys(peliculasCategorias).sort();
     else if (tipoContenido === "series") categorias = Object.keys(seriesCategorias).sort();
@@ -293,7 +263,7 @@
     volverMenu.className = "item-card text-card volver-card";
     volverMenu.setAttribute("tabindex", "0");
     volverMenu.innerHTML = `<div class="item-title">← VOLVER</div>`;
-    volverMenu.onclick = () => { salirModoPeliculas(); };
+    volverMenu.onclick = () => { salirModoDynamic(); };
     volverMenu.onkeydown = (e) => { if(e.key === 'Enter' || e.key === ' ') volverMenu.click(); };
     dynamicGrid.appendChild(volverMenu);
     
@@ -312,7 +282,6 @@
   function renderItems() {
     dynamicGrid.className = "dynamic-grid";
     dynamicGrid.innerHTML = "";
-    
     const volverCard = document.createElement("div");
     volverCard.className = "item-card text-card volver-card";
     volverCard.setAttribute("tabindex", "0");
@@ -348,8 +317,8 @@
     setTimeout(() => dynamicGrid.querySelector(".item-card")?.focus(), 100);
   }
 
-  function salirModoPeliculas() {
-    modoPeliculas = false;
+  function salirModoDynamic() {
+    modoDynamic = false;
     dynamicArea.style.display = "none";
     playerContainer.style.display = "block";
     leftPanel.classList.remove("oculto");
@@ -363,8 +332,8 @@
   }
 
   function entrarModo(tipo) {
-    if (modoPeliculas) salirModoPeliculas();
-    modoPeliculas = true;
+    if (modoDynamic) salirModoDynamic();
+    modoDynamic = true;
     tipoContenido = tipo;
     nivel = "categorias";
     if (logoActual) { logoActual.remove(); logoActual = null; }
@@ -470,7 +439,7 @@
       btn.setAttribute("tabindex", "0");
       btn.onclick = () => {
         if (opt === "TV") {
-          if (modoPeliculas) salirModoPeliculas();
+          if (modoDynamic) salirModoDynamic();
           if (Object.keys(categoriasTV).length) renderCategoriasTV();
           else setTimeout(() => { if(Object.keys(categoriasTV).length) renderCategoriasTV(); }, 500);
         } else if (opt === "PELICULAS") entrarModo("peliculas");
@@ -563,7 +532,7 @@
       favBtn.onclick = (e) => { e.stopPropagation(); toggleFav(canal, e); };
       favBtn.onkeydown = (e) => { if(e.key === 'Enter' || e.key === ' ') { e.stopPropagation(); toggleFav(canal, e); } };
       item.appendChild(favBtn);
-      item.onclick = () => { salirModoPeliculas(); playTv(canal.url); };
+      item.onclick = () => { if (modoDynamic) salirModoDynamic(); playTv(canal.url); };
       item.onkeydown = (e) => { if(e.key === 'Enter' || e.key === ' ') item.click(); };
       rightPanel.appendChild(item);
     });
@@ -621,14 +590,8 @@
   
   cargarDatos();
 
-  function toggleLeft() { 
-    leftVisible = !leftVisible; 
-    leftPanel.classList.toggle("oculto", !leftVisible); 
-  }
-  function toggleRight() { 
-    rightVisible = !rightVisible; 
-    rightPanel.classList.toggle("oculto", !rightVisible); 
-  }
+  function toggleLeft() { leftVisible = !leftVisible; leftPanel.classList.toggle("oculto", !leftVisible); }
+  function toggleRight() { rightVisible = !rightVisible; rightPanel.classList.toggle("oculto", !rightVisible); }
   toggleLeftBtn.onclick = toggleLeft;
   toggleRightBtn.onclick = toggleRight;
   
@@ -666,15 +629,14 @@
 
   document.addEventListener("keydown", (e) => {
     const key = e.key;
-    
-    if (modoPeliculas) {
+    if (modoDynamic) {
       if (key === "Backspace" || key === "Escape") {
         e.preventDefault();
         if (nivel === "items") {
           nivel = "categorias";
           renderCategorias();
         } else {
-          salirModoPeliculas();
+          salirModoDynamic();
         }
         return;
       }
@@ -704,7 +666,7 @@
       return;
     }
     
-    if (!modoPeliculas) {
+    if (!modoDynamic) {
       if (isFullscreen && (key === "ArrowUp" || key === "ArrowDown")) {
         e.preventDefault();
         if (key === "ArrowUp") cambiarCanal(-1);
