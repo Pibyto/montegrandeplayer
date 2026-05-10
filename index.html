@@ -3,30 +3,36 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
-  <title>KlauTV</title>
+  <title>KlauTV - Web</title>
   <script src="https://cdn.jsdelivr.net/npm/hls.js@latest"></script>
   <script src="https://cdn.jsdelivr.net/npm/mpegts.js@latest"></script>
   <script src="https://www.gstatic.com/cvjs/sender/libs/cast_sender.js"></script>
   <style>
-    * { margin: 0; padding: 0; box-sizing: border-box; outline: none !important; }
-    body { background: #000; font-family: 'Segoe UI', system-ui, sans-serif; color: #eee; min-height: 100vh; padding: 15px; overflow: hidden; }
-    .toolbar { display: none; }
-    .watermark-logo { position: fixed; top: 25px; left: 30px; width: 190px; height: auto; z-index: 99999; pointer-events: none; opacity: 0.7; }
-    .app { display: flex; flex-wrap: wrap; gap: 15px; max-width: 1400px; margin: 0 auto; height: calc(100vh - 30px); }
-    .left-panel { background: rgba(0,0,0,0.4); border-radius: 20px; padding: 200px 15px 15px 15px; height: 100%; overflow-y: auto; flex: 0 0 280px; display: block; }
-    .right-panel { background: rgba(0,0,0,0.4); border-radius: 20px; padding: 15px 12px; height: 100%; overflow-y: auto; flex: 0 0 320px; display: block; }
-    .left-panel.oculto { display: none; }
-    .right-panel.oculto { display: none; }
-    .center-panel { flex: 1; min-width: 260px; display: flex; flex-direction: column; gap: 15px; }
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body { background: #0a0a0f; font-family: 'Segoe UI', system-ui, sans-serif; color: #eee; min-height: 100vh; padding: 15px; overflow: hidden; }
+    .toolbar { display: flex; gap: 12px; justify-content: flex-end; margin-bottom: 15px; max-width: 1400px; margin-left: auto; margin-right: auto; }
+    .tool-btn { background: rgba(0,0,0,0.6); border: none; color: white; width: 44px; height: 44px; border-radius: 44px; font-size: 1.2rem; cursor: pointer; display: inline-flex; align-items: center; justify-content: center; }
+    .cast-btn { background-image: url('https://tinyurl.com/3sv2wy92'); background-size: 60%; background-repeat: no-repeat; background-position: center; }
+    .watermark { position: fixed; top: 20px; left: 20px; width: 90px; height: auto; z-index: 1000; pointer-events: none; opacity: 0.9; }
+    .app { display: flex; flex-wrap: wrap; gap: 15px; max-width: 1400px; margin: 0 auto; height: calc(100vh - 100px); }
+    .left-panel, .right-panel { background: rgba(0,0,0,0.4); backdrop-filter: blur(8px); border-radius: 20px; padding: 15px 12px; height: 100%; overflow-y: auto; }
+    .left-panel { flex: 0 0 250px; }
+    .right-panel { flex: 0 0 280px; }
+    .center-panel { flex: 1; min-width: 260px; display: flex; flex-direction: column; gap: 15px; height: 100%; }
     .player-container { background: #000; border-radius: 20px; overflow: hidden; aspect-ratio: 16 / 9; width: 100%; box-shadow: 0 5px 20px rgba(0,0,0,0.5); position: relative; display: block; }
     video { width: 100%; height: 100%; object-fit: contain; background: #000; }
     video::-webkit-media-controls { display: none !important; }
     .dynamic-area { display: none; width: 100%; height: 100%; flex-direction: column; gap: 10px; }
-    .movies-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(140px, 1fr)); gap: 16px; padding: 10px; background: rgba(0,0,0,0.7); border-radius: 20px; height: 100%; overflow-y: auto; }
-    .movie-card { background: rgba(0,0,0,0.6); border-radius: 16px; overflow: hidden; cursor: pointer; text-align: center; padding-bottom: 8px; }
-    .movie-card:focus { background: rgba(60,60,60,0.8); transform: scale(1.02); }
-    .movie-poster { width: 100%; height: auto; display: block; background-color: #0a0a0a; }
-    .movie-title { font-size: 0.7rem; padding: 6px 4px; color: rgba(255,255,255,0.7); white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+    .dynamic-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(140px, 1fr)); gap: 16px; padding: 10px; background: rgba(0,0,0,0.3); border-radius: 20px; height: 100%; overflow-y: auto; }
+    .dynamic-grid.categorias-grid { grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); }
+    .item-card { background: rgba(20,20,30,0.8); border-radius: 16px; overflow: hidden; cursor: pointer; text-align: center; transition: transform 0.1s; }
+    .item-card.poster-card { padding-bottom: 8px; }
+    .item-card.text-card { padding: 20px 10px; }
+    .item-card.volver-card { background: #ff8800; color: #000; font-weight: bold; border: none; }
+    .item-card.volver-card .item-title { color: #000; font-weight: bold; }
+    .item-card:focus { background: rgba(60,60,60,0.8); transform: scale(1.02); }
+    .item-poster { width: 100%; height: auto; display: block; background: #1a1a2a; }
+    .item-title { font-size: 0.8rem; padding: 8px 6px; color: rgba(255,255,255,0.8); text-align: center; line-height: 1.3; }
     .fav-bar { background: rgba(0,0,0,0.4); backdrop-filter: blur(8px); padding: 8px 12px; border-radius: 40px; display: flex; gap: 10px; overflow-x: auto; white-space: nowrap; }
     .fav-chip { background: rgba(255,255,255,0.1); padding: 5px 14px; border-radius: 30px; font-size: 0.75rem; cursor: pointer; display: inline-flex; align-items: center; gap: 6px; }
     .menu-list { display: flex; flex-direction: column; gap: 6px; }
@@ -40,27 +46,30 @@
     .reproducir-info { background: rgba(0,0,0,0.5); border-radius: 40px; padding: 8px 16px; display: flex; align-items: center; justify-content: center; gap: 12px; flex-wrap: wrap; }
     .reproducir-info span { font-size: 0.75rem; color: rgba(255,255,255,0.7); letter-spacing: 1px; }
     .reproducir-info img { width: 28px; height: 28px; object-fit: contain; }
-    ::-webkit-scrollbar { width: 4px; background: #1e1e2a; }
+    ::-webkit-scrollbar { width: 4px; }
+    ::-webkit-scrollbar-track { background: #1e1e2a; }
     ::-webkit-scrollbar-thumb { background: #ffcc88; border-radius: 10px; }
     .empty-msg { text-align: center; padding: 20px; opacity: 0.6; font-size: 0.8rem; }
     @media (max-width: 800px) {
       body { padding: 10px; }
       .left-panel, .right-panel { flex-basis: 100%; height: auto; max-height: 40vh; }
-      .watermark-logo { width: 90px; top: 15px; left: 15px; }
-      .menu-btn { font-size: 1.2rem; }
-      .left-panel { padding: 150px 15px 15px 15px; }
+      .watermark { width: 70px; top: 10px; left: 10px; }
+      .tool-btn { width: 38px; height: 38px; font-size: 1rem; }
+      .dynamic-grid.categorias-grid { grid-template-columns: repeat(auto-fill, minmax(150px, 1fr)); }
+      .reproducir-info span { font-size: 0.65rem; }
+      .reproducir-info img { width: 22px; height: 22px; }
     }
   </style>
 </head>
 <body>
 
-<img class="watermark-logo" src="https://tinyurl.com/yrfarar9" alt="KlauTV">
+<img class="watermark" src="https://tinyurl.com/yrfarar9" alt="KlauTV">
 
 <div class="toolbar">
-  <button id="toggleLeftBtn">☰</button>
-  <button id="toggleRightBtn">▶</button>
-  <button id="fullscreenBtn">⛶</button>
-  <button id="castButton" style="display:none;"></button>
+  <button class="tool-btn" id="toggleLeftBtn">☰</button>
+  <button class="tool-btn" id="toggleRightBtn">▶</button>
+  <button class="tool-btn" id="fullscreenBtn">⛶</button>
+  <button class="tool-btn cast-btn" id="castButton"></button>
 </div>
 
 <div class="app">
@@ -80,7 +89,7 @@
         <img src="https://cdn.iconscout.com/icon/free/png-256/free-reproductor-vlc-icon-svg-download-png-722651.png?f=webp" alt="VLC">
         <img src="https://upload.wikimedia.org/wikipedia/commons/0/0f/MX_Player_Logo.png" alt="MXPlayer">
       </div>
-      <div id="moviesGridContainer" class="movies-grid"></div>
+      <div id="dynamicGrid" class="dynamic-grid"></div>
     </div>
     <div class="fav-bar" id="favBar"></div>
   </div>
@@ -97,7 +106,6 @@
     { url: "https://live20.bozztv.com/giatvplayout7/giatv-209909/playlist.m3u8", logo: "https://tinyurl.com/89bw22fh", top: "20px", right: "40px", widthNormal: "120px", widthFullscreen: "150px" }
   ];
 
-  // ========== CONFIGURACIÓN GENERAL ==========
   window.addEventListener('error', (e) => {
     if (e.message && (e.message.includes('Failed to fetch') || e.message.includes('NetworkError'))) {
       e.preventDefault();
@@ -129,13 +137,12 @@
   const favBar = document.getElementById("favBar");
   const playerContainer = document.getElementById("playerContainer");
   const dynamicArea = document.getElementById("dynamicArea");
-  const moviesGridContainer = document.getElementById("moviesGridContainer");
+  const dynamicGrid = document.getElementById("dynamicGrid");
   const toggleLeftBtn = document.getElementById("toggleLeftBtn");
   const toggleRightBtn = document.getElementById("toggleRightBtn");
   const fullscreenBtn = document.getElementById("fullscreenBtn");
   const castButton = document.getElementById("castButton");
 
-  // ========== LOGOS ==========
   function ajustarTamanoLogo() {
     if (!logoActual || !currentPlayingUrl) return;
     const config = logosCanales.find(c => c.url === currentPlayingUrl);
@@ -155,7 +162,7 @@
       logoActual = img;
       setTimeout(ajustarTamanoLogo, 100);
     }
-  } 
+  }
 
   document.addEventListener('fullscreenchange', ajustarTamanoLogo);
 
@@ -238,7 +245,7 @@
     playTv(todosCanales[currentChannelIndex].url);
   }
 
-  // ========== SECCIONES ==========
+  // ========== FUNCIONES PARA PELÍCULAS, SERIES, KIDS ==========
   function saveFavs() { localStorage.setItem("klautv_favs", JSON.stringify(favoritos)); renderFavBar(); renderRightPanel(); }
   function toggleFav(canal, e) { e?.stopPropagation(); favoritos.some(f => f.url === canal.url) ? favoritos = favoritos.filter(f => f.url !== canal.url) : favoritos.push(canal); saveFavs(); }
   
@@ -259,24 +266,107 @@
 
   let modoActual = 'peliculas';
   
-  function entrarModoPeliculas() { modoActual = 'peliculas'; entrarModoPeliculasGen(); }
-  function entrarModoSeries() { modoActual = 'series'; entrarModoPeliculasGen(); }
-  function entrarModoKids() { modoActual = 'kids'; entrarModoPeliculasGen(); }
-  
-  function entrarModoPeliculasGen() {
-    modoPeliculas = true;
-    playerContainer.style.display = "none";
-    dynamicArea.style.display = "flex";
-    leftPanel.classList.add("oculto");
-    rightPanel.classList.add("oculto");
-    leftVisible = false;
-    rightVisible = false;
-    if (currentHls) { currentHls.destroy(); currentHls = null; }
-    if (currentMpegts) { currentMpegts.destroy(); currentMpegts = null; }
-    video.pause();
-    renderMoviesGrid();
+  function renderCategoriasPeliculas() {
+    dynamicGrid.className = "dynamic-grid categorias-grid";
+    dynamicGrid.innerHTML = "";
+    
+    const volverMenu = document.createElement("div");
+    volverMenu.className = "item-card text-card volver-card";
+    volverMenu.setAttribute("tabindex", "0");
+    volverMenu.innerHTML = `<div class="item-title">← VOLVER</div>`;
+    volverMenu.onclick = () => { salirModoPeliculas(); };
+    volverMenu.onkeydown = (e) => { if(e.key === 'Enter' || e.key === ' ') volverMenu.click(); };
+    dynamicGrid.appendChild(volverMenu);
+    
+    const items = peliculasList;
+    items.forEach(item => {
+      const card = document.createElement("div");
+      card.className = "item-card poster-card";
+      card.setAttribute("tabindex", "0");
+      const poster = document.createElement("img");
+      poster.className = "item-poster";
+      poster.src = item.logo || "https://placehold.co/300x450/1a1a2a/888?text=Sin+Poster";
+      poster.onerror = () => { poster.src = "https://placehold.co/300x450/1a1a2a/888?text=Sin+Poster"; };
+      const title = document.createElement("div");
+      title.className = "item-title";
+      title.innerText = item.nombre;
+      card.appendChild(poster);
+      card.appendChild(title);
+      card.onclick = () => intentarReproducirPelicula(item.url);
+      card.onkeydown = (e) => { if(e.key === 'Enter' || e.key === ' ') card.click(); };
+      dynamicGrid.appendChild(card);
+    });
+    setTimeout(() => dynamicGrid.querySelector(".item-card")?.focus(), 100);
   }
-  
+
+  function renderCategoriasSeries() {
+    dynamicGrid.className = "dynamic-grid categorias-grid";
+    dynamicGrid.innerHTML = "";
+    
+    const volverMenu = document.createElement("div");
+    volverMenu.className = "item-card text-card volver-card";
+    volverMenu.setAttribute("tabindex", "0");
+    volverMenu.innerHTML = `<div class="item-title">← VOLVER</div>`;
+    volverMenu.onclick = () => { salirModoPeliculas(); };
+    volverMenu.onkeydown = (e) => { if(e.key === 'Enter' || e.key === ' ') volverMenu.click(); };
+    dynamicGrid.appendChild(volverMenu);
+    
+    const items = seriesList;
+    items.forEach(item => {
+      const card = document.createElement("div");
+      card.className = "item-card poster-card";
+      card.setAttribute("tabindex", "0");
+      if (item.logo) {
+        const poster = document.createElement("img");
+        poster.className = "item-poster";
+        poster.src = item.logo;
+        poster.onerror = () => { poster.src = "https://placehold.co/300x450/1a1a2a/888?text=Sin+Poster"; };
+        card.appendChild(poster);
+      }
+      const title = document.createElement("div");
+      title.className = "item-title";
+      title.innerText = item.nombre;
+      card.appendChild(title);
+      card.onclick = () => intentarReproducirPelicula(item.url);
+      card.onkeydown = (e) => { if(e.key === 'Enter' || e.key === ' ') card.click(); };
+      dynamicGrid.appendChild(card);
+    });
+    setTimeout(() => dynamicGrid.querySelector(".item-card")?.focus(), 100);
+  }
+
+  function renderKids() {
+    dynamicGrid.className = "dynamic-grid";
+    dynamicGrid.innerHTML = "";
+    
+    const volverMenu = document.createElement("div");
+    volverMenu.className = "item-card text-card volver-card";
+    volverMenu.setAttribute("tabindex", "0");
+    volverMenu.innerHTML = `<div class="item-title">← VOLVER</div>`;
+    volverMenu.onclick = () => { salirModoPeliculas(); };
+    volverMenu.onkeydown = (e) => { if(e.key === 'Enter' || e.key === ' ') volverMenu.click(); };
+    dynamicGrid.appendChild(volverMenu);
+    
+    const items = kidsList;
+    items.forEach(item => {
+      const card = document.createElement("div");
+      card.className = "item-card poster-card";
+      card.setAttribute("tabindex", "0");
+      const poster = document.createElement("img");
+      poster.className = "item-poster";
+      poster.src = item.logo || "https://placehold.co/300x450/1a1a2a/888?text=Sin+Poster";
+      poster.onerror = () => { poster.src = "https://placehold.co/300x450/1a1a2a/888?text=Sin+Poster"; };
+      const title = document.createElement("div");
+      title.className = "item-title";
+      title.innerText = item.nombre;
+      card.appendChild(poster);
+      card.appendChild(title);
+      card.onclick = () => intentarReproducirPelicula(item.url);
+      card.onkeydown = (e) => { if(e.key === 'Enter' || e.key === ' ') card.click(); };
+      dynamicGrid.appendChild(card);
+    });
+    setTimeout(() => dynamicGrid.querySelector(".item-card")?.focus(), 100);
+  }
+
   function salirModoPeliculas() {
     modoPeliculas = false;
     dynamicArea.style.display = "none";
@@ -286,43 +376,52 @@
     leftVisible = true;
     rightVisible = true;
     if (logoActual) { logoActual.remove(); logoActual = null; }
-  }
-  
-  function renderMoviesGrid() {
-    moviesGridContainer.innerHTML = "";
-    let items = [];
-    if (modoActual === 'peliculas') items = peliculasList;
-    else if (modoActual === 'series') items = seriesList;
-    else items = kidsList;
-    
-    if (items.length === 0) {
-      moviesGridContainer.innerHTML = "<div class='empty-msg'>🎬 Cargando...</div>";
-      return;
-    }
-    
-    items.forEach(item => {
-      const card = document.createElement("div");
-      card.className = "movie-card";
-      card.setAttribute("tabindex", "0");
-      card.setAttribute("data-url", item.url);
-      card.onclick = () => intentarReproducirPelicula(item.url);
-      card.onkeydown = (e) => { if(e.key === 'Enter' || e.key === ' ') card.click(); };
-      const poster = document.createElement("img");
-      poster.className = "movie-poster";
-      poster.src = item.logo || "https://placehold.co/300x450/1a1a2a/888?text=Sin+Poster";
-      poster.onerror = () => { poster.src = "https://placehold.co/300x450/1a1a2a/888?text=Sin+Poster"; };
-      poster.loading = "lazy";
-      const title = document.createElement("div");
-      title.className = "movie-title";
-      title.innerText = item.nombre;
-      card.appendChild(poster);
-      card.appendChild(title);
-      moviesGridContainer.appendChild(card);
-    });
-    setTimeout(() => moviesGridContainer.querySelector(".movie-card")?.focus(), 100);
+    renderPrincipal();
+    if (todosCanales.length > 0) playTv(todosCanales[currentChannelIndex].url);
   }
 
-  // ========== CARGA DE DATOS ==========
+  function entrarModoPeliculas() {
+    if (modoPeliculas) salirModoPeliculas();
+    modoPeliculas = true;
+    if (logoActual) { logoActual.remove(); logoActual = null; }
+    playerContainer.style.display = "none";
+    dynamicArea.style.display = "flex";
+    leftPanel.classList.add("oculto");
+    rightPanel.classList.add("oculto");
+    leftVisible = false;
+    rightVisible = false;
+    if (peliculasList.length === 0) dynamicGrid.innerHTML = "<div class='empty-msg'>Cargando...</div>";
+    else renderCategoriasPeliculas();
+  }
+  
+  function entrarModoSeries() {
+    if (modoPeliculas) salirModoPeliculas();
+    modoPeliculas = true;
+    if (logoActual) { logoActual.remove(); logoActual = null; }
+    playerContainer.style.display = "none";
+    dynamicArea.style.display = "flex";
+    leftPanel.classList.add("oculto");
+    rightPanel.classList.add("oculto");
+    leftVisible = false;
+    rightVisible = false;
+    if (seriesList.length === 0) dynamicGrid.innerHTML = "<div class='empty-msg'>Cargando...</div>";
+    else renderCategoriasSeries();
+  }
+  
+  function entrarModoKids() {
+    if (modoPeliculas) salirModoPeliculas();
+    modoPeliculas = true;
+    if (logoActual) { logoActual.remove(); logoActual = null; }
+    playerContainer.style.display = "none";
+    dynamicArea.style.display = "flex";
+    leftPanel.classList.add("oculto");
+    rightPanel.classList.add("oculto");
+    leftVisible = false;
+    rightVisible = false;
+    if (kidsList.length === 0) dynamicGrid.innerHTML = "<div class='empty-msg'>Cargando...</div>";
+    else renderKids();
+  }
+
   function cargarPeliculas() {
     return fetch(MOVIES_M3U_URL + "?t=" + Date.now(), { cache: "no-store" })
       .then(r => r.ok ? r.text() : Promise.reject())
@@ -345,7 +444,7 @@
             currentName = ""; currentLogo = ""; currentUrl = "";
           }
         }
-        if (modoPeliculas && modoActual === 'peliculas') renderMoviesGrid();
+        if (modoPeliculas) renderCategoriasPeliculas();
       }).catch(e => console.error("Error pelis:", e));
   }
 
@@ -371,7 +470,7 @@
             currentName = ""; currentLogo = ""; currentUrl = "";
           }
         }
-        if (modoPeliculas && modoActual === 'series') renderMoviesGrid();
+        if (modoPeliculas) renderCategoriasSeries();
       }).catch(e => console.error("Error series:", e));
   }
 
@@ -397,7 +496,7 @@
             currentName = ""; currentLogo = ""; currentUrl = "";
           }
         }
-        if (modoPeliculas && modoActual === 'kids') renderMoviesGrid();
+        if (modoPeliculas) renderKids();
       }).catch(e => console.error("Error kids:", e));
   }
 
@@ -410,7 +509,7 @@
       btn.setAttribute("tabindex", "0");
       btn.onclick = () => {
         if (opt === "TV") {
-          salirModoPeliculas();
+          if (modoPeliculas) salirModoPeliculas();
           if (Object.keys(categoriasTV).length) renderCategorias();
           else setTimeout(() => { if(Object.keys(categoriasTV).length) renderCategorias(); }, 500);
         } else if (opt === "PELICULAS") entrarModoPeliculas();
@@ -561,16 +660,14 @@
   
   cargarDatos();
 
-  // ========== OCULTAR/MOSTRAR PANELES ==========
-  function toggleLeft() { leftVisible = !leftVisible; leftPanel.classList.toggle("oculto", !leftVisible); }
-  function toggleRight() { rightVisible = !rightVisible; rightPanel.classList.toggle("oculto", !rightVisible); }
+  function toggleLeft() { leftVisible = !leftVisible; leftPanel.classList.toggle("oculto", !leftVisible); if (leftVisible) leftPanel.style.display = "block"; else leftPanel.style.display = "none"; }
+  function toggleRight() { rightVisible = !rightVisible; rightPanel.classList.toggle("oculto", !rightVisible); if (rightVisible) rightPanel.style.display = "block"; else rightPanel.style.display = "none"; }
   toggleLeftBtn.onclick = toggleLeft;
   toggleRightBtn.onclick = toggleRight;
   
-  // ========== NAVEGACIÓN CON TECLADO ==========
   function getFocusableLeft() {
     let items = [];
-    if (leftVisible && !leftPanel.classList.contains("oculto")) {
+    if (leftVisible && leftPanel.style.display !== "none") {
       document.querySelectorAll("#leftPanel .menu-btn, #leftPanel .cat-btn, #leftPanel .channel-menu-btn, #leftPanel .back-btn").forEach(el => items.push(el));
     }
     return items;
@@ -578,14 +675,14 @@
 
   function getFocusableRight() {
     let items = [];
-    if (rightVisible && !rightPanel.classList.contains("oculto")) {
+    if (rightVisible && rightPanel.style.display !== "none") {
       document.querySelectorAll("#rightPanel .channel-item").forEach(el => items.push(el));
     }
     return items;
   }
 
-  function getFocusableMovies() {
-    return [...document.querySelectorAll("#moviesGridContainer .movie-card")];
+  function getFocusableDynamic() {
+    return [...document.querySelectorAll("#dynamicGrid .item-card")];
   }
 
   function toggleFullscreen() {
@@ -612,18 +709,18 @@
       }
       if (key === "ArrowLeft" || key === "ArrowRight" || key === "ArrowUp" || key === "ArrowDown") {
         e.preventDefault();
-        let items = getFocusableMovies();
+        let items = getFocusableDynamic();
         if (items.length === 0) return;
         let current = document.activeElement;
         let idx = items.indexOf(current);
         if (key === "ArrowLeft") { if (idx > 0) items[idx-1]?.focus(); }
         else if (key === "ArrowRight") { if (idx < items.length-1) items[idx+1]?.focus(); }
         else if (key === "ArrowUp") {
-          let cols = Math.floor(moviesGridContainer.clientWidth / 150) || 4;
+          let cols = Math.floor(dynamicGrid.clientWidth / 150) || 4;
           let newIdx = idx - cols;
           if (newIdx >= 0) items[newIdx]?.focus();
         } else if (key === "ArrowDown") {
-          let cols = Math.floor(moviesGridContainer.clientWidth / 150) || 4;
+          let cols = Math.floor(dynamicGrid.clientWidth / 150) || 4;
           let newIdx = idx + cols;
           if (newIdx < items.length) items[newIdx]?.focus();
         }
