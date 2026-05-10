@@ -1198,6 +1198,16 @@ https://copacogen.desdeparaguay.net/telefuturo/telefuturo_py_alta/chunklist_w989
 
 
 
+
+
+#EXTINF:-1 tvg-logo="https://tinyurl.com/2n5xj7x3"group-title="BOLIVIA", INTERACTIVO TV 1
+https://mist01.homestream.fun/hls/interactivotv/0_1/index.m3u8
+
+
+#EXTINF:-1 tvg-logo="https://tinyurl.com/2n5xj7x3"group-title="BOLIVIA",INTERACTIVO TV 2
+https://mist01.homestream.fun/hls/interactivotv2/0_1/index.m3u8
+
+
 #EXTINF:-1 tvg-logo="https://i0.wp.com/univalletelevision.com/wp-content/uploads/2022/05/LOGO_UNIVALLE_TV_sinfondo-1-e1654152218733.png?fit=200%2C200&ssl=1"group-title="BOLIVIA",UNIVALLE
 https://master.tucableip.com/univalletv/tracks-v1a1/mono.ts.m3u8
 
@@ -1241,12 +1251,9 @@ https://rtp.noxun.net/hls/stream.m3u8
 https://streaming.ctvbolivia.com/hlsweb/ctv.m3u8
 
 
-#EXTINF:-1 tvg-logo=""group-title="BOLIVIA",
 
 
 
-
-#EXTINF:-1 
 
 
 #EXTINF:-1 tvg-logo="https://static.wikia.nocookie.net/logopedia/images/d/d9/TV6_logo_2010.svg/revision/latest/scale-to-width-down/200?cb=20100528185020"group-title="BOLIVIA",TELE6
