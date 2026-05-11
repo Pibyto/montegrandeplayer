@@ -1,8 +1,30 @@
 
 
 
-#EXTINF:-1 tvg-logo="https://media.themoviedb.org/t/p/w220_and_h330_face/9BafQnaU3U0PL7pkDBaTmCA9EHE.jpg"group-title="KIDS",MARIO BROS GALAXY 2026
+
+
+
+###########( ESTRENOS )###########
+
+
+
+
+
+#EXTINF;-1 tvg-logo="https://media.themoviedb.org/t/p/w220_and_h330_face/cFMqLI43ybVFyarJTnfV9YO9KUC.jpg"group-title="ESTRENOS", INTERCAMBIADOS
+https://videos.gia.tv/giatv/movies/playlist/209909/Intercambiados_960x518.mp4
+
+
+#EXTINF:-1 tvg-logo="https://media.themoviedb.org/t/p/w220_and_h330_face/9BafQnaU3U0PL7pkDBaTmCA9EHE.jpg"group-title="ESTRENOS",MARIO BROS GALAXY 2026
 https://videos.gia.tv/giatv/movies/playlist/208138/Super_Mario_Galaxy__La_Pel__cula__2026___1080p_.mp4
+
+
+
+
+
+
+#############( KIDS )#############
+
+
 
 
 #EXTINF:-1 tvg-logo="https://media.themoviedb.org/t/p/w220_and_h330_face/h3EyFrAQQbwccSDOzZvdgUBt1wM.jpg"group-title="KIDS",GRANDES HEROES
@@ -13,27 +35,28 @@ https://videos.gia.tv/giatv/movies/playlist/208138/Grandes_h__roes_1024x576.mp4
 https://ia801603.us.archive.org/20/items/3453453453454456456456465/17052017_fseer.mp4?PelixMax1.mp4
 
 
-#EXTINF:-1 tvg-logo="https://m.media-amazon.com/images/M/MV5BMzFkMjcwZTctNjIwMi00ZmNjLThiYTgtYWU4M2IwN2ZiNzNmXkEyXkFqcGc@._V1_.jpg"group-title="KIDS", SUPER FRIENDS 
+
+#EXTINF:-1 tvg-logo="https://media.themoviedb.org/t/p/w220_and_h330_face/1BjZAcj4oGokaIGoMDWh6njWzVr.jpg"group-title="KIDS",SPACE JAM
+https://videos.gia.tv/giatv/movies/playlist/209909/5p4c3_J4m_2_mp4_896x482.mp4
 
 
 
-#EXTINF;-1 tvg-logo=""group-title="KIDS",
+#EXTINF:-1 tvg-logo="https://media.themoviedb.org/t/p/w220_and_h330_face/hApPA4YBApDjXFX8Pb15om9zD0W.jpg"group-title="KIDS",ASTRO BOY
+https://videos.gia.tv/giatv/movies/playlist/209909/Astro_Boy_MP4_720p.mp4
 
+
+
+#EXTINF:-1 tvg-logo="https://media.themoviedb.org/t/p/w220_and_h330_face/jTeyM0SIz4OtAW71icTa0GNJS0C.jpg"group-title="KIDS",TARZAN
+https://videos.gia.tv/giatv/movies/playlist/209909/Tarzan_MP4_720p.mp4
+
+
+
+#EXTINF:-1 tvg-logo="https://media.themoviedb.org/t/p/w220_and_h330_face/zYq67rMeDJDro6t0pNVAyNl3J7J.jpg"group-title="KIDS",LAS AVENTURAS DE SAMY
+https://videos.gia.tv/giatv/movies/playlist/209909/Las_Aventuras_de_Sammy__2010___1080p___Espa__ol_Lat.mp4
 
 
 #EXTINF:-1 tvg-logo=""group-title="KIDS",
 
-
-
-#EXTINF:-1 tvg-logo=""group-title="KIDS",
-
-
-
-#EXTINF:-1 tvg-logo=""group-title="KIDS",
-
-
-
-#EXTINF:-1 tvg-logo=""group-title="KIDS",
 
 
 
