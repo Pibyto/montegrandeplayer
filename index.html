@@ -141,8 +141,18 @@
     else logoPrincipal.classList.add('oculto');
   }
 
-  // ========== REPRODUCCIÓN DE PELÍCULAS: MP4 directo, MKV/AVI a VLC/MXPlayer ==========
-  function intentarReproducirPelicula(url) {
+  // Función para entrar en fullscreen automático
+  function entrarFullscreen() {
+    if (!document.fullscreenElement) {
+      const elem = playerContainer;
+      if (elem.requestFullscreen) elem.requestFullscreen();
+      else if (elem.webkitRequestFullscreen) elem.webkitRequestFullscreen();
+      else if (elem.msRequestFullscreen) elem.msRequestFullscreen();
+    }
+  }
+
+  // ========== REPRODUCCIÓN CON BLOB (oculta URL) + FULLSCREEN ==========
+  async function intentarReproducirPelicula(url) {
     if (!url) return;
     
     // Destruir reproductores de TV
@@ -169,28 +179,64 @@
     const esAVI = urlLower.endsWith('.avi') || urlLower.includes('.avi');
     
     if (esMKV || esAVI) {
-      // MKV o AVI: abrir con VLC y MXPlayer
+      // MKV/AVI: abrir con VLC/MXPlayer
       const urlSinProtocolo = url.replace(/^https?:\/\//, '');
-      // Intenta VLC
       window.location.href = `vlc://${urlSinProtocolo}`;
-      // Si no tiene VLC, intenta MXPlayer después de 1 segundo
       setTimeout(() => {
         window.location.href = `intent://${urlSinProtocolo}#Intent;package=com.mxtech.videoplayer.ad;scheme=https;end;`;
       }, 1000);
     } else {
-      // MP4 y otros: reproducir directamente en navegador
-      video.pause();
-      video.removeAttribute('src');
-      video.load();
-      video.src = url;
-      video.muted = true;
-      video.play().then(() => {
+      // MP4: cargar con fetch y blob para ocultar URL
+      try {
+        // Mostrar mensaje de carga
+        let loadingDiv = document.getElementById('cargandoMsg');
+        if (!loadingDiv) {
+          loadingDiv = document.createElement('div');
+          loadingDiv.id = 'cargandoMsg';
+          loadingDiv.style.cssText = 'position:fixed; bottom:20px; left:50%; transform:translateX(-50%); background:rgba(0,0,0,0.8); color:#ffcc88; padding:8px 20px; border-radius:30px; z-index:99999; font-size:0.8rem;';
+          document.body.appendChild(loadingDiv);
+        }
+        loadingDiv.style.display = 'block';
+        loadingDiv.innerText = '🔄 Cargando película...';
+        
+        // Descargar el archivo y crear blob
+        const response = await fetch(url);
+        const blob = await response.blob();
+        const blobUrl = URL.createObjectURL(blob);
+        
+        // Asignar al video
+        video.pause();
+        video.removeAttribute('src');
+        video.load();
+        video.src = blobUrl;
+        video.muted = true;
+        await video.play();
         video.muted = false;
-      }).catch(function(e) {
-        console.error("Error reproduciendo:", e);
-        // Si falla, abrir en nueva pestaña como respaldo
-        window.open(url, '_blank');
-      });
+        
+        // Entrar en fullscreen automáticamente
+        entrarFullscreen();
+        
+        // Limpiar mensaje
+        if (loadingDiv) loadingDiv.style.display = 'none';
+        
+        // Liberar blob cuando termine
+        video.onended = () => URL.revokeObjectURL(blobUrl);
+        
+      } catch(e) {
+        console.error("Error cargando blob:", e);
+        let loadingDiv = document.getElementById('cargandoMsg');
+        if (loadingDiv) loadingDiv.style.display = 'none';
+        // Fallback: intentar directo
+        video.pause();
+        video.removeAttribute('src');
+        video.load();
+        video.src = url;
+        video.muted = true;
+        video.play().then(() => {
+          video.muted = false;
+          entrarFullscreen();
+        }).catch(err => window.open(url, '_blank'));
+      }
     }
   }
 
