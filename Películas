@@ -138,8 +138,7 @@ https://videos.gia.tv/giatv/movies/playlist/208538/Tropa_de___lite__2007_.mp4
 https://live20.bozztv.com/giatvplayout/giatvvod/giatv/movies/playlist/208538/Tornados_2024_DVDRip_Lat.mp4/chunk.m3u8
 
 
-#EXTINF:-1 tvg-logo="https://lacorriente.com/wp-content/uploads/2022/01/Victor-3.jpg"group-title="HECHOS REALES", VICTOR 
-https://videos.gia.tv/giatv/movies/playlist/208538/V__ctor_1080P_HD_.mp4
+
 
 #EXTINF:-1 tvg-logo="https://media.themoviedb.org/t/p/w220_and_h330_face/uy36CPy5ARuC8qrH8Esg2ndFyJ5.jpg"group-title="HECHOS REALES",WHIPLASH
 https://videos.gia.tv/giatv/movies/playlist/208538/Whiplash_2014_1080p_LATiNO_720P_HD_.mp4
@@ -307,13 +306,48 @@ http://ia801303.us.archive.org/24/items/202209_20220918_1346/Inteligencia%20arti
 
 
 
+
+
+
+###########( CRISTIANO )##########
+
+
+
+
+
+
+
+
+#EXTINF:-1 tvg-logo="https://lacorriente.com/wp-content/uploads/2022/01/Victor-3.jpg"group-title="CRISTIANO", VICTOR 
+https://videos.gia.tv/giatv/movies/playlist/208538/V__ctor_1080P_HD_.mp4
+
+
+#EXTINF:-1 tvg-logo="https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p12123942_p_v8_aa.jpg"group-title="CRISTIANO",77 OPORTUNIDADES
+https://videos.gia.tv/giatv/movies/playlist/208817/77_OPORTUNIDADES_720p_mp4.mp4
+
+
+#EXTINF:-1 tvg-logo="https://univideo01.akamaized.net/cdn/asset/images/hotspot-mobile-SiI4z.jpg"group-title="CRISTIANO",NOE LA PELÍCULA (GÉNESIS-NOVELA)
+https://live20.bozztv.com/giatvplayout/giatvvod/giatv/movies/playlist/208538/Monte_Grande_TV__NOE_LA_PELICULA_DE_GENESIS_360P_.mp4/playlist.m3u8
+
+
+
+
+
+
+
+
+
+
+
+
+
 ############( OTHER )############
 
 
 
 
 #EXTINF:-1 tvg-logo="https://static.wikia.nocookie.net/doblaje/images/9/90/Horas_Contadas_.jpg/revision/latest?cb=20151228234253&path-prefix=es"group-title="OTHER", HORAS CONTADAS
-https://goo.gl/SyvNCX
+https://goo.gl/SyvNCX.mkv
 
 
 #EXTINF:-1 tvg-logo="https://media.themoviedb.org/t/p/w220_and_h330_face/xJ7MCAy4oCLerPo3JjnB8lKOhl4.jpg"group-title="OTHER",SOUL 
@@ -322,12 +356,10 @@ https://live20.bozztv.com/giatvplayout/giatvvod/giatv/movies/playlist/208538/0_5
 
 
 
-#EXTINF:-1 tvg-logo="https://univideo01.akamaized.net/cdn/asset/images/hotspot-mobile-SiI4z.jpg"group-title="OTHER",NOE LA PELÍCULA (GÉNESIS-NOVELA)
-https://live20.bozztv.com/giatvplayout/giatvvod/giatv/movies/playlist/208538/Monte_Grande_TV__NOE_LA_PELICULA_DE_GENESIS_360P_.mp4/playlist.m3u8
 
 
 #EXTINF:-1 tvg-logo="https://m.media-amazon.com/images/I/71A1ST5il9L._AC_SY679_.jpg"group-title="OTHER", ANGRY BIRDS
-http://cecegeek@goo.gl/3KGMLf
+http://cecegeek@goo.gl/3KGMLf.mkv
 
 
 #EXTINF:-1 tvg-logo="https://www.ecured.cu/images/0/02/Dios_no_esta_muerto.jpg"group-title="OTHER", DIOS NO ESTA MUERTO
@@ -340,7 +372,7 @@ https://gloria.tv/streaming/2un4HSSCCaYjD97Lqh6FYwwsA
 
 
 #EXTINF:-1 tvg-logo="https://es.web.img2.acsta.net/pictures/15/11/10/17/18/397772.jpg"group-title="OTHER",EN EL CORAZON DEL MAR
-https://goo.gl/4BqODN
+https://goo.gl/4BqODN.mkv
 
 
 
