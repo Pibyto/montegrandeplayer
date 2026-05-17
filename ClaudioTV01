@@ -782,7 +782,7 @@ https://live20.bozztv.com:443/akamaissh101/ssh101/monitvhd/chunks.m3u8
 https://v4.tustreaming.cl:443/restaurandovida/tracks-v1a1/mono.m3u8?PlaylistM3UCL
 
 #EXTINF:-1  tvg-logo="https://i.ibb.co/0RW7vLm8/IMG-20250330-WA0067.jpg"group-title="CHILE",PLENITUD TV JUVENIL HD
-https://live20.bozztv.com/giatvplayout7/giatv-209259/tracks-v1a1/mono.ts.m3u8
+https://live20.bozztv.com/giatvplayout7/giatv-209259/tracks-v1a1/mono.m3u8
 
 
 #EXTINF:-1 tvg-logo="https://www.tevevida.com/images/logo_01.png"group-title="CHILE",TEVE VIDA HD
@@ -991,7 +991,7 @@ http://sdmx.vip:80/play/1AKpyJ_pn8IcSNiQkMEAuYbFKEW7eplR40akTvOSLK4
 
 
 
-#EXTINF:-1 tvg-logo="https://redtvcomunicaciones.weebly.com/uploads/1/4/8/2/148208235/published/1723435059820-transformed-1-removebg-preview.png?1723436446"group-title="CHILE",RV TV
+#EXTINF:-1 tvg-logo="https://tinyurl.com/RedVisionTV"group-title="CHILE",RV TV
 https://tls-cl.cdnz.cl/livertv/live/chunklist_w47339175.m3u8
 
 
