@@ -789,6 +789,12 @@ https://live20.bozztv.com/giatvplayout7/giatv-209259/tracks-v1a1/mono.m3u8
 https://5bf8041cb3fed.streamlock.net/Tevevida/Tevevida/playlist.m3u8
 
 
+#EXTINF:-1 tvg-logo="https://33e1600b34.cbaul-cdnwnd.com/d7495a2b4d8a7ea80be22f304f0282e4/200000108-dc6f6dc6f9/logo-color-ok-3.png?ph=33e1600b34"group-title="CHILE", TELEVIDA HD
+https://tls-cl.cdnz.cl/televida/live/chunklist_w108038511.m3u8
+
+
+#EXTINF:-1 tvg-logo="https://tinyurl.com/RedVisionTV"group-title="CHILE",RV TV
+https://tls-cl.cdnz.cl/livertv/live/chunklist_w47339175.m3u8
 
 
 
@@ -986,16 +992,6 @@ http://sdmx.vip:80/play/1AKpyJ_pn8IcSNiQkMEAuYbFKEW7eplR40akTvOSLK4
 
 
 #EXTINF:-1 tvg-logo=""group-title="CHILE",NATIVA
-
-
-
-
-
-#EXTINF:-1 tvg-logo="https://tinyurl.com/RedVisionTV"group-title="CHILE",RV TV
-https://tls-cl.cdnz.cl/livertv/live/chunklist_w47339175.m3u8
-
-
-
 
 
 
@@ -3010,7 +3006,9 @@ https://cdn.streamhispanatv.net:3155/live/penielkidslive.m3u8
 
 
 #EXTINF:-1 tvg-logo="https://33e1600b34.cbaul-cdnwnd.com/d7495a2b4d8a7ea80be22f304f0282e4/200000108-dc6f6dc6f9/logo-color-ok-3.png?ph=33e1600b34"group-title="CRISTIANO", TELEVIDA HD
-https://tls-cl.cdnz.cl/televida/live/playlist.m3u8
+https://tls-cl.cdnz.cl/televida/live/chunklist_w108038511.m3u8
+
+
 
 #EXTINF:-1 tvg-logo="https://i0.wp.com/directostv.teleame.com/wp-content/uploads/2020/09/Canal-13-Jujuy-en-vivo-Online.png?fit=1920%2C1080&ssl=1"group-title="CRISTIANO",13 TRECE HD
 https://genexservicios.com:19360/canal13jujuy/canal13jujuy.m3u8
