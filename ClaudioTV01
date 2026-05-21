@@ -47,6 +47,8 @@ https://live20.bozztv.com/giatvplayout7/giatv-208817/playlist.m3u8
 https://live20.bozztv.com/giatvplayout7/giatv-209909/playlist.m3u8 
 
 
+#EXTINF:-1 tvg-logo="https://tinyurl.com/mgtvcomedy"group-title="ARGENTINA",MONTEGRANDETV COMEDY 
+
  
 #EXTINF:-1 tvg-logo="https://tinyurl.com/ms82ryuf"group-title="ARGENTINA",PLAYTV CINE
 https://live20.bozztv.com/akamaissh101/ssh101/plaaytv/chunks.m3u8
@@ -446,6 +448,9 @@ https://live20.bozztv.com/giatvplayout7/giatv-208817/playlist.m3u8
 
 #EXTINF:-1 tvg-logo="https://tinyurl.com/89bw22fh"group-title="CINE PREMIUM", MONTEGRANDETV KIDS
 https://live20.bozztv.com/giatvplayout7/giatv-209909/playlist.m3u8 
+
+
+#EXTINF:-1 tvg-logo="https://tinyurl.com/89bw22fh"group-title="CINE PREMIUM",MONTEGRANDETV COMEDY 
 
 
 
