@@ -14,6 +14,10 @@
 https://videos.gia.tv/giatv/movies/playlist/209909/Intercambiados_960x518.mp4
 
 
+
+#EXTINF:-1 tvg-logo="https://media.themoviedb.org/t/p/w220_and_h330_face/7NRpCaksHX0FEsXCNITOvhq7cZ3.jpg"group-title="ESTRENOS", OPCIÓN CASTOR 
+https://videos.gia.tv/giatv/movies/playlist/209909/043R___10N_C4570R_996x540.mp4
+
 #EXTINF:-1 tvg-logo="https://media.themoviedb.org/t/p/w220_and_h330_face/9BafQnaU3U0PL7pkDBaTmCA9EHE.jpg"group-title="ESTRENOS",MARIO BROS GALAXY 2026
 https://videos.gia.tv/giatv/movies/playlist/208138/Super_Mario_Galaxy__La_Pel__cula__2026___1080p_.mp4
 
@@ -75,32 +79,40 @@ https://videos.gia.tv/giatv/movies/playlist/209909/P4ND4_1.mp4
 https://videos.gia.tv/giatv/movies/playlist/209909/P4ND4_2.mp4
 
 
-#EXTINF;-1 tvg-logo=""group-title="KIDS",
+
+#EXTINF:-1 tvg-logo="https://media.themoviedb.org/t/p/w220_and_h330_face/t11f8palNbICK9Ip5QLrUfhLJYq.jpg"group-title="KIDS",KUNG FU PANDA 3
+https://videos.gia.tv/giatv/movies/playlist/209909/P4ND4_3.mp4
+
+
+#EXTINF;-1 tvg-logo="https://media.themoviedb.org/t/p/w220_and_h330_face/vSdpOU6rDK7IpmOD7iAvlZdMUCc.jpg"group-title="KIDS",UPS!
+https://videos.gia.tv/giatv/movies/playlist/209909/UP_.mp4
 
 
 
-#EXTINF:-1 tvg-logo=""group-title="KIDS",
+#EXTINF:-1 tvg-logo="https://media.themoviedb.org/t/p/w220_and_h330_face/7ml02WwUzz4jlZJdiEI4ZIYHj1J.jpg"group-title="KIDS", Villano 1
+https://videos.gia.tv/giatv/movies/playlist/209909/V__114NO_F4V0R170_1.mp4
 
 
 
-#EXTINF:-1 tvg-logo=""group-title="KIDS",
+#EXTINF:-1 tvg-logo="https://media.themoviedb.org/t/p/w220_and_h330_face/kyiEmCk6mOenJiL7s3LspVKkoZM.jpg"group-title="KIDS", ZOOTOPIA 
 
 
 
-#EXTINF:-1 tvg-logo=""group-title="KIDS",
+
+#EXTINF:-1 tvg-logo="https://media.themoviedb.org/t/p/w220_and_h330_face/7NRpCaksHX0FEsXCNITOvhq7cZ3.jpg"group-title="KIDS", OPCIÓN CASTOR 
+https://videos.gia.tv/giatv/movies/playlist/209909/043R___10N_C4570R_996x540.mp4
 
 
-
-#EXTINF:-1 tvg-logo=""group-title="KIDS",
-
-
-
-#EXTINF:-1 tvg-logo=""group-title="KIDS",
+#EXTINF:-1 tvg-logo="https://media.themoviedb.org/t/p/w220_and_h330_face/kWx3h8Bt0QVa07d1GilLjuY39lu.jpg"group-title="KIDS", TADEO JONES
+https://videos.gia.tv/giatv/movies/playlist/209909/t4d30_j0n3__1.mp4
 
 
+#EXTINF:-1 tvg-logo="https://media.themoviedb.org/t/p/w220_and_h330_face/udW5cz0HACCuTB1jISYDho37uMX.jpg"group-title="KIDS", LLUVIA DE HAMBURGUESAS 
+https://videos.gia.tv/giatv/movies/playlist/209909/11uv14_d3_h4m8ur6u3_4.mp4
 
-#EXTINF;-1 tvg-logo=""group-title="KIDS",
 
+#EXTINF;-1 tvg-logo="https://media.themoviedb.org/t/p/w220_and_h330_face/wHlxud7DzsolgvasBFt6gFHIUwP.jpg"group-title="KIDS",ANGRY BIRDS
+http://ptccloud.lsdwedsfsc.site/vod/BF8482E737F9428F8795092C8A96FDC4_media.mp4
 
 
 #EXTINF:-1 tvg-logo=""group-title="KIDS",
