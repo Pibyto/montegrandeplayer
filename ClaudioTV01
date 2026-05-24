@@ -30,25 +30,25 @@
 #EXTINF:-1 tvg-logo="https://tinyurl.com/2uysrbe7"group-title="ARGENTINA",MALVINAS TV 
 https://live20.bozztv.com/giatvplayout7/giatv-208744/tracks-v1a1/mono.m3u8
 
-#EXTINF:-1 tvg-logo="https://tinyurl.com/33yu4yzs"group-title="ARGENTINA", MONTEGRANDETV MOVIES
+#EXTINF:-1 tvg-logo="https://tinyurl.com/33yu4yzs"group-title="ARGENTINA", MGTV MOVIES
 https://live20.bozztv.com/giatvplayout7/giatv-208138/tracks-v1a1/mono.m3u8
 
 
-#EXTINF:-1 tvg-logo="https://tinyurl.com/48xkysmd"group-title="ARGENTINA", MONTEGRANDETV ACCIÓN
+#EXTINF:-1 tvg-logo="https://tinyurl.com/48xkysmd"group-title="ARGENTINA", MGTV ACCIÓN
 https://live20.bozztv.com/giatvplayout7/giatv-209163/playlist.m3u8
 
 
 
-#EXTINF:-1 tvg-logo="https://tinyurl.com/4m768mja"group-title="ARGENTINA", MONTEGRANDETV FAMILY
+#EXTINF:-1 tvg-logo="https://tinyurl.com/4m768mja"group-title="ARGENTINA", MGTV FAMILY
 https://live20.bozztv.com/giatvplayout7/giatv-208817/playlist.m3u8
 
 
-#EXTINF:-1 tvg-logo="https://tinyurl.com/89bw22fh"group-title="ARGENTINA", MONTEGRANDETV KIDS
+#EXTINF:-1 tvg-logo="https://tinyurl.com/89bw22fh"group-title="ARGENTINA", MGTV KIDS
 https://live20.bozztv.com/giatvplayout7/giatv-209909/playlist.m3u8 
 
 
 
-#EXTINF:-1 tvg-logo="https://tinyurl.com/mgtvcomedy"group-title="ARGENTINA",MONTEGRANDETV COMEDY
+#EXTINF:-1 tvg-logo="https://tinyurl.com/mgtvcomedy"group-title="ARGENTINA",MGTV COMEDY
 https://live20.bozztv.com/giatvplayout7/giatv-208730/playlist.m3u8
 
 
@@ -58,7 +58,7 @@ https://live20.bozztv.com/giatvplayout7/giatv-208730/playlist.m3u8
 https://live20.bozztv.com/akamaissh101/ssh101/plaaytv/chunks.m3u8
 
 
-#EXTINF:-1 tvg-logo="https://tinyurl.com/mvvfyhr7"group-title="ARGENTINA", MONTE GRANDE TV 
+#EXTINF:-1 tvg-logo="https://tinyurl.com/mvvfyhr7"group-title="ARGENTINA", MONTEGRANDETV 
 https://live20.bozztv.com/akamaissh101/ssh101/montegrandetv/playlist.m3u8
 
 
@@ -436,25 +436,25 @@ https://videostream.shockmedia.com.ar:19360/telejunin/telejunin.m3u8
 https://live20.bozztv.com/giatvplayout7/giatv-208744/tracks-v1a1/mono.m3u8
 
 
-#EXTINF:-1 tvg-logo="https://tinyurl.com/33yu4yzs"group-title="CINE PREMIUM", MONTEGRANDETV MOVIES
+#EXTINF:-1 tvg-logo="https://tinyurl.com/33yu4yzs"group-title="CINE PREMIUM", MGTV MOVIES
 https://live20.bozztv.com/giatvplayout7/giatv-208138/tracks-v1a1/mono.m3u8
 
 
 
-#EXTINF:-1 tvg-logo="https://tinyurl.com/48xkysmd"group-title="CINE PREMIUM", MONTEGRANDETV ACCIÓN
+#EXTINF:-1 tvg-logo="https://tinyurl.com/48xkysmd"group-title="CINE PREMIUM",MGTV ACCIÓN
 https://live20.bozztv.com/giatvplayout7/giatv-209163/playlist.m3u8
 
 
 
-#EXTINF:-1 tvg-logo="https://tinyurl.com/4m768mja"group-title="CINE PREMIUM", MONTEGRANDETV FAMILY
+#EXTINF:-1 tvg-logo="https://tinyurl.com/4m768mja"group-title="CINE PREMIUM",MGTV FAMILY
 https://live20.bozztv.com/giatvplayout7/giatv-208817/playlist.m3u8
 
 
-#EXTINF:-1 tvg-logo="https://tinyurl.com/89bw22fh"group-title="CINE PREMIUM", MONTEGRANDETV KIDS
+#EXTINF:-1 tvg-logo="https://tinyurl.com/89bw22fh"group-title="CINE PREMIUM",MGTV KIDS
 https://live20.bozztv.com/giatvplayout7/giatv-209909/playlist.m3u8 
 
 
-#EXTINF:-1 tvg-logo="https://tinyurl.com/mgtvcomedy"group-title="CINE PREMIUM",MONTEGRANDETV COMEDY
+#EXTINF:-1 tvg-logo="https://tinyurl.com/mgtvcomedy"group-title="CINE PREMIUM",MGTV COMEDY
 https://live20.bozztv.com/giatvplayout7/giatv-208730/playlist.m3u8
 
  
@@ -464,7 +464,7 @@ https://live20.bozztv.com/giatvplayout7/giatv-208730/playlist.m3u8
 #EXTINF:-1 tvg-logo="https://tinyurl.com/4rn3p6he"group-title="CINE PREMIUM",PLAY TV CINE 
 https://live20.bozztv.com/akamaissh101/ssh101/plaaytv/chunks.m3u8
 
-#EXTINF:-1 tvg-logo="https://tinyurl.com/2hy6uu5x"group-title="CINE PREMIUM",MONTE GRANDE TV
+#EXTINF:-1 tvg-logo="https://tinyurl.com/2hy6uu5x"group-title="CINE PREMIUM",MONTEGRANDETV
 https://live20.bozztv.com/akamaissh101/ssh101/montegrandetv/chunks.m3u8
 
 
