@@ -9,6 +9,15 @@
 
 
 
+
+#EXTINF:-1 tvg-logo="https://media.themoviedb.org/t/p/w220_and_h330_face/cWpvRQcppLnXD0Kno4OZUzkA05R.jpg"group-title="ESTRENOS", PROYECTO HAIL MARY
+https://videos.gia.tv/giatv/movies/playlist/208138/4r0y3ct0__ail__ary.mp4
+
+
+#EXTINF:-1 tvg-logo="https://media.themoviedb.org/t/p/w220_and_h330_face/SPGBZj12OVOCZdYJVPIJcpOYvZ.jpg"group-title="ESTRENOS", MÁQUINA DE GUERRA 
+https://videos.gia.tv/giatv/movies/playlist/209163/M4QU1N4_D3_6U3RR4.mp4
+
+
 #EXTINF:-1 tvg-logo="https://media.themoviedb.org/t/p/w220_and_h330_face/25R6U0xHikFbhDN69dUnzI4FIlz.jpg"group-title="ESTRENOS",SI SOLO PUDIERA IMAGINAR 2 
 https://videos.gia.tv/giatv/movies/playlist/208817/SI_SOLO_PUDIERA_IMAGINAR_2_864x486.mp4
 
@@ -61,6 +70,19 @@ https://videos.gia.tv/giatv/movies/playlist/208744/corazon_delator_mp4.mp4
 ############( ACCION )############
 
 
+
+
+
+
+
+
+
+#EXTINF:-1 tvg-logo="https://media.themoviedb.org/t/p/w220_and_h330_face/SPGBZj12OVOCZdYJVPIJcpOYvZ.jpg"group-title="ACCIÓN", MÁQUINA DE GUERRA 
+https://videos.gia.tv/giatv/movies/playlist/209163/M4QU1N4_D3_6U3RR4.mp4
+
+
+#EXTINF:-1 tvg-logo="https://media.themoviedb.org/t/p/w220_and_h330_face/7HN5rOyLkbeBabX4uBcbwU9K1wW.jpg"group-title="ACCIÓN",UPGRADE
+https://videos.gia.tv/giatv/movies/playlist/208138/UP6R4D3.mp4
 
 
 
@@ -262,6 +284,8 @@ http://ia801303.us.archive.org/24/items/00copia_20191122/eg.mp4
 
 
 
+#EXTINF:-1 tvg-logo="https://media.themoviedb.org/t/p/w188_and_h282_face/bwNAjGUsHt35eqT0Aj8NHU02WPl.jpg"group-title="COMEDIA", KARATE KIDS LEGENDS
+https://videos.gia.tv/giatv/movies/playlist/208817/_4R4T3_K1D__L3G3ND_.mp4
 
 
 
@@ -302,6 +326,10 @@ http://ia903109.us.archive.org/3/items/vodaya2/Sub1d0_p4r4_5tr34ming_A85_V4R145_
 
 
 
+
+
+#EXTINF:-1 tvg-logo="https://media.themoviedb.org/t/p/w220_and_h330_face/cWpvRQcppLnXD0Kno4OZUzkA05R.jpg"group-title="CIENCIA FICCIÓN", PROYECTO HAIL MARY
+https://videos.gia.tv/giatv/movies/playlist/208138/4r0y3ct0__ail__ary.mp4
 
 
 #EXTINF:-1 tvg-logo="https://media.themoviedb.org/t/p/w220_and_h330_face/8PYqGSd8MOm5ce8io4qNSAiSExW.jpg"group-title="CIENCIA FICCIÓN",ALIENS ROMULUS
