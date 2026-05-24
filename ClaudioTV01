@@ -475,8 +475,7 @@ https://live20.bozztv.com/akamaissh101/ssh101/plaaytv/chunks.m3u8
 https://live20.bozztv.com/akamaissh101/ssh101/montegrandetv/chunks.m3u8
 
 
-#EXTINF:-1 tvg-logo="https://tinyurl.com/Ipersonicatv"group-title="ARGENTINA",IPERSONICA TV
-https://lbgo.bozztv.com/ssh101/ssh101/ipersonica/playlist.m3u8
+
 
 
 #EXTINF:-1 tvg-logo="https://cdn.phototourl.com/free/2026-04-19-c98a4dda-105a-438f-9ea2-ec59000de62d.png"group-title="CINE PREMIUM",ENT CHANNEL
@@ -489,6 +488,10 @@ https://cdn.global.elektamedia.com/live/c7eds/ENT_Family/SA_LIVE_hls_enc/tracks-
 
 #EXTINF:-1 tvg-logo="https://i.ibb.co/dLWwdLK/3dgifmaker66066.gif"group-title="CINE PREMIUM",COSMOS TV HD
 https://canaletaplus.com:3922/live/cosmoslive.m3u8
+
+
+#EXTINF:-1 tvg-logo="https://tinyurl.com/Ipersonicatv"group-title="ARGENTINA",IPERSONICATV
+https://lbgo.bozztv.com/ssh101/ssh101/ipersonica/playlist.m3u8
 
 
 #EXTINF:-1 tvg-logo="https://cdn.phototourl.com/free/2026-04-19-a10b079b-1f69-4336-9484-318d950b25ac.png"group-title="CINE PREMIUM",WOW MOVIES
