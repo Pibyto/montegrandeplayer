@@ -62,6 +62,13 @@ https://live20.bozztv.com/akamaissh101/ssh101/plaaytv/chunks.m3u8
 https://live20.bozztv.com/akamaissh101/ssh101/montegrandetv/playlist.m3u8
 
 
+
+
+#EXTINF:-1 tvg-logo="https://tinyurl.com/Ipersonica"group-title="ARGENTINA", IPERSONICA TV 
+https://lbgo.bozztv.com/ssh101/ssh101/ipersonica/playlist.m3u8
+
+
+
 #EXTINF:-1 tvg-logo="https://tinyurl.com/2s3eucvy"group-title="ARGENTINA",ALTAR TV HD
 https://vidartv2.todostreaming.es/live/radiovida-altar724.m3u8
 
@@ -468,6 +475,8 @@ https://live20.bozztv.com/akamaissh101/ssh101/plaaytv/chunks.m3u8
 https://live20.bozztv.com/akamaissh101/ssh101/montegrandetv/chunks.m3u8
 
 
+#EXTINF:-1 tvg-logo="https://tinyurl.com/Ipersonicatv"group-title="ARGENTINA", IPERSONICA TV
+https://lbgo.bozztv.com/ssh101/ssh101/ipersonica/playlist.m3u8
 
 
 #EXTINF:-1 tvg-logo="https://cdn.phototourl.com/free/2026-04-19-c98a4dda-105a-438f-9ea2-ec59000de62d.png"group-title="CINE PREMIUM",ENT CHANNEL
