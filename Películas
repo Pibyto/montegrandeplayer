@@ -10,6 +10,27 @@
 
 
 
+
+#EXTINF:-1 tvg-logo="https://media.themoviedb.org/t/p/w220_and_h330_face/l9S8MLUyi2diTc2Gf3KDAOQTuVx.jpg"group-title="ESTRENOS",PEAKY BLINDERS
+https://videos.gia.tv/giatv/movies/playlist/209163/p34k1_bl1nd3r_2026.mp4
+
+
+
+
+#EXTINF:-1 tvg-logo="https://media.themoviedb.org/t/p/w220_and_h330_face/wpAt80FtHAQySEC8SwsDGhFp8MF.jpg"group-title="ESTRENOS",JUGADA MAESTRA 
+https://videos.gia.tv/giatv/movies/playlist/209163/ju64d4_m43_tr4_2026.mp4
+
+
+#EXTINF:-1 tvg-logo=""group-title="ESTRENOS",
+
+
+
+#EXTINF:-1 tvg-logo=""group-title="ESTRENOS",
+
+
+
+
+
 #EXTINF:-1 tvg-logo="https://media.themoviedb.org/t/p/w220_and_h330_face/cWpvRQcppLnXD0Kno4OZUzkA05R.jpg"group-title="ESTRENOS", PROYECTO HAIL MARY
 https://videos.gia.tv/giatv/movies/playlist/208138/4r0y3ct0__ail__ary.mp4
 
@@ -370,6 +391,10 @@ http://ia903109.us.archive.org/3/items/vodaya2/Sub1d0_p4r4_5tr34ming_A85_V4R145_
 
 #EXTINF:-1 tvg-logo="https://media.themoviedb.org/t/p/w220_and_h330_face/cWpvRQcppLnXD0Kno4OZUzkA05R.jpg"group-title="CIENCIA FICCIÓN", PROYECTO HAIL MARY
 https://videos.gia.tv/giatv/movies/playlist/208138/4r0y3ct0__ail__ary.mp4
+
+
+#EXTINF:-1 tvg-logo="https://media.themoviedb.org/t/p/w220_and_h330_face/vNjwi0STOwzmwE9laZSMYYh2JPE.jpg"group-title="CIENCIA FICCIÓN",AL FILO DEL MAÑANA 
+https://videos.gia.tv/giatv/movies/playlist/209163/4L_F1L0_D3L_M4__4N4_1468x612.mp4
 
 
 #EXTINF:-1 tvg-logo="https://media.themoviedb.org/t/p/w220_and_h330_face/wSnBSv7oHgm1kZmiM8IqithlTmJ.jpg"group-title="CIENCIA FICCIÓN",ATLAS 
