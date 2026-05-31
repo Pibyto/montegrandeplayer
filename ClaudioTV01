@@ -1057,7 +1057,8 @@ https://xui-backend.energeek.cl/live/13/playlist.m3u8
 
 
 
-
+#EXTINF:-1 tvg-logo="https://tinyurl.com/Mitvparaguayete"group-title="PARAGUAY",MI TV
+https://rds3.desdeparaguay.net/mitv/mitv/chunklist_w757160878.m3u8
 
 
 #EXTINF:-1 tvg-logo=""group-title="PARAGUAY",ALMAYA TV 
@@ -1105,8 +1106,7 @@ https://copacogen.desdeparaguay.net/npy/npy_py_alta/chunklist_w665042620.m3u8?ad
 https://rds3.desdeparaguay.net/gotv/gotv/chunklist_w1251228071.m3u8
 
 
-#EXTINF:-1 tvg-logo=""group-title="PARAGUAY",MI TV
-https://rds3.desdeparaguay.net/mitv/mitv/chunklist_w757160878.m3u8
+
 
 
 #EXTINF:-1 tvg-logo="https://directostv.teleame.com/wp-content/uploads/2019/11/Venus-Media-TV-Paraguay-en-vivo-Online.png"group-title="PARAGUAY",VNUS
