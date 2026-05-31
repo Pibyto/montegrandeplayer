@@ -11,8 +11,10 @@ https://live20.bozztv.com/akamaissh101/ssh101/plaaytv/chunks.m3u8
 https://live20.bozztv.com/akamaissh101/ssh101/montegrandetv/playlist.m3u8
 
 
-#EXTINF:-1 tvg-logo="https://tinyurl.com/3v2v88jk"group-title="BUENOS AIRES",BAYRES TV HD
-https://streaming01.mikrolive.tv/bayrestv/live/chunklist_w963757112.m3u8
+
+
+#EXTINF:-1 tvg-logo="https://nnssmadrid.files.wordpress.com/2015/09/a4-solidaria-tv.png?w=276"group-title="BUENOS AIRES",SOLIDARIA TV HD
+https://canadaremar2.todostreaming.es/live/solidariatv-webhd.m3u8
 
 
 #EXTINF:-1 tvg-logo="https://tinyurl.com/mw22ukre"group-title="BUENOS AIRES",GENTV
@@ -22,6 +24,17 @@ https://srv3.zcast.com.br/gentv/gentv/playlist.m3u8
 #EXTINF:-1 tvg-logo="https://tinyurl.com/Ipersonica"group-title="BUENOS AIRES", IPERSONICA TV 
 https://lbgo.bozztv.com/ssh101/ssh101/ipersonica/playlist.m3u8
 
+
+#EXTINF:-1 tvg-logo="https://tinyurl.com/4xw67je6"group-title="BUENOS AIRES",CANAL LUZ HD
+https://g2.vxral-slo.transport.edge-access.net:443/a11/ngrp:canal_luz01-100009_all/canal_luz01-100009_1080p/index.m3u8
+
+
+#EXTINF:-1 tvg-logo="https://tinyurl.com/3v2v88jk"group-title="BUENOS AIRES",BAYRES TV HD
+https://streaming01.mikrolive.tv/bayrestv/live/chunklist_w963757112.m3u8
+
+
+
+
 #EXTINF:-1 tvg-logo="https://tinyurl.com/bdesbdzn"group-title="BUENOS AIRES",NEO TV DIGITAL HD. 16.1 
 https://videostream.shockmedia.com.ar:19360/neotvdigital/neotvdigital.m3u8
 
@@ -30,6 +43,12 @@ https://panel.host-live.com:19360/8012/8012.m3u8
 
 #EXTINF:-1 tvg-logo="https://tinyurl.com/3vzrwff3"group-title="BUENOS AIRES",CINCO TV HD  TIGRE
 https://videostream.shockmedia.com.ar:19360/cincotv/cincotv.m3u8
+
+
+#EXTINF:-1 tvg-logo="https://tinyurl.com/y5cz72tm"group-title="BUENOS AIRES",EL MAGO TV
+https://live20.bozztv.com/akamaissh101/ssh101/elmagotv2/chunks.m3u8
+
+
 
 #EXTINF:-1 tvg-logo="https://tinyurl.com/mvyyr7y6"group-title="BUENOS AIRES",TELEMIX HD
 https://live20.bozztv.com/giatv/giatv-telemixenvivo/telemixenvivo/chunks.m3u8
@@ -42,6 +61,11 @@ https://vd01.streaminghd.net.ar:3349/live/bzuctkgnlive.m3u8
 
 #EXTINF:-1 tvg-logo="https://tinyurl.com/cauy9zzh"group-title="BUENOS AIRES",BRAVO TV
 https://redirector.rudo.video/hls-video/c54ac2799874375c81c1672abb700870537c5223/bravo/bravo.smil/playlist.m3u8
+
+#EXTINF:-1 tvg-logo="https://tinyurl.com/2s3eucvy"group-title="BUENOS AIRES",ALTAR TV HD
+https://vidartv2.todostreaming.es/live/radiovida-altar724.m3u8
+
+
 
 #EXTINF:-1 tvg-logo="https://tinyurl.com/47mb7xf9"group-title="BUENOS AIRES",CANAL 26
 https://stream-gtlc.telecentro.net.ar/hls/canal26hls/0/playlist.m3u8?uid=d1ab8e18c3a4e4fdc5b8b00e287498d9
@@ -145,6 +169,9 @@ https://unlimited1-saopaulo.dps.live/televidaar/televidaar.smil/televidaar/lives
 https://videostream.shockmedia.com.ar:19360/multivisionfederal/multivisionfederal.m3u8
 
 
+#EXTINF:-1 tvg-logo="https://tinyurl.com/5n8cdncu"group-title="ARGENTINA", TELE POSADAS
+https://live20.bozztv.com/giatv/giatv-teleposadaso01/teleposadaso01/playlist.m3u8
+
 #EXTINF:-1 tvg-logo="https://tinyurl.com/yvn4ry2x"group-title="ARGENTINA",11 DIGITAL 
 https://live20.bozztv.com/giatv/giatv-ojodigital/ojodigital/playlist.m3u8
 
@@ -154,16 +181,16 @@ https://streamtv12.ddns.net:5443/LiveApp/streams/193945633734205616732920.m3u8
 
 
 
-#EXTINF:-1 tvg-logo="https://tinyurl.com/2s3eucvy"group-title="ARGENTINA",ALTAR TV HD
-https://vidartv2.todostreaming.es/live/radiovida-altar724.m3u8
-
-
-#EXTINF:-1 tvg-logo="https://tinyurl.com/4xw67je6"group-title="ARGENTINA",CANAL LUZ HD
-https://g2.vxral-slo.transport.edge-access.net:443/a11/ngrp:canal_luz01-100009_all/canal_luz01-100009_1080p/index.m3u8
-
-
 #EXTINF:-1 tvg-logo="https://tinyurl.com/mr4ntrjp"group-title="ARGENTINA",CORRIENTES TV HD
-https://vivo.solumedia.com:19360/telemedia/telemedia.m3u8
+https://vivo.soluymedia.com:19360/telemedia/telemedia.m3u8
+
+
+#EXTINF:-1 tvg-logo="https://tinyurl.com/3amrdykz"group-title="ARGENTINA", CANAL 4 HD  POSADAS
+http://iptv.ixfo.com.ar:8081/live/C4POS/playlist.m3u8
+
+#EXTINF:-1 tvg-logo="https://tinyurl.com/7ama65js"group-title="ARGENTINA", CANAL 9 HD MISIONES
+https://panel.host-live.com:19360/8076/8076.m3u8
+
 
 
 #EXTINF:-1 tvg-logo="https://tinyurl.com/myr3uy8b"group-title="ARGENTINA", ,CHAVO
@@ -180,17 +207,10 @@ https://stream.arcast.com.ar/c3lapampa/ngrp:c3lapampa_all/playlist.m3u8
 https://tdcserver.com:19360/tdconlione-2/tdconlione-2.m3u8
 
 
-#EXTINF:-1 tvg-logo="https://tinyurl.com/5n8cdncu"group-title="ARGENTINA", TELE POSADAS
-https://live20.bozztv.com/giatv/giatv-teleposadaso01/teleposadaso01/playlist.m3u8
+
 
 #EXTINF:-1 tvg-logo="https://tinyurl.com/4j9nba94"group-title="ARGENTINA", CANAL 34 HD
 https://streamyes.alsolnet.com/canal34hd/live/playlist.m3u8
-
-
-#EXTINF:-1 tvg-logo="https://tinyurl.com/y5cz72tm"group-title="ARGENTINA",EL MAGO TV
-https://live20.bozztv.com/akamaissh101/ssh101/elmagotv2/chunks.m3u8
-
-
 
 
 
@@ -227,17 +247,6 @@ https://tv.streamcasthd.com:3450/live/tvmaslive.m3u8
 
 #EXTINF:-1 tvg-logo=""group-title="ARGENTINA",CANAL 8 ROSARIO
 https://stmv4.voxtvhd.com.br/canal8ros/canal8ros/playlist.m3u8
-
-
-
-#EXTINF:-1 tvg-logo="https://tinyurl.com/3amrdykz"group-title="ARGENTINA", CANAL 4 HD  POSADAS
-http://iptv.ixfo.com.ar:8081/live/C4POS/playlist.m3u8
-
-#EXTINF:-1 tvg-logo="https://tinyurl.com/7ama65js"group-title="ARGENTINA", CANAL 9 HD MISIONES
-https://panel.host-live.com:19360/8076/8076.m3u8
-
-
-
 
 
 
@@ -354,8 +363,6 @@ https://canal.mediaserver.com.co/live/cinedios.m3u8
 
 
 
-#EXTINF:-1 tvg-logo="https://nnssmadrid.files.wordpress.com/2015/09/a4-solidaria-tv.png?w=276"group-title="ARGENTINA",SOLIDARIA TV HD
-https://canadaremar2.todostreaming.es/live/solidariatv-webhd.m3u8
 
 
 
