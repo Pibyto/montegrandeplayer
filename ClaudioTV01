@@ -1,5 +1,118 @@
 #EXTM3U
 
+#########( BUENOS AIRES )#########
+
+ 
+#EXTINF:-1 tvg-logo="https://tinyurl.com/Plaaytv"group-title="BUENOS AIRES",PLAYTV CINE
+https://live20.bozztv.com/akamaissh101/ssh101/plaaytv/chunks.m3u8
+
+
+#EXTINF:-1 tvg-logo="https://tinyurl.com/mvvfyhr7"group-title="BUENOS AIRES", MONTEGRANDETV 
+https://live20.bozztv.com/akamaissh101/ssh101/montegrandetv/playlist.m3u8
+
+
+#EXTINF:-1 tvg-logo="https://tinyurl.com/3v2v88jk"group-title="BUENOS AIRES",BAYRES TV HD
+https://streaming01.mikrolive.tv/bayrestv/live/chunklist_w963757112.m3u8
+
+
+#EXTINF:-1 tvg-logo="https://tinyurl.com/mw22ukre"group-title="BUENOS AIRES",GENTV
+https://srv3.zcast.com.br/gentv/gentv/playlist.m3u8
+
+
+#EXTINF:-1 tvg-logo="https://tinyurl.com/Ipersonica"group-title="BUENOS AIRES", IPERSONICA TV 
+https://lbgo.bozztv.com/ssh101/ssh101/ipersonica/playlist.m3u8
+
+#EXTINF:-1 tvg-logo="https://tinyurl.com/bdesbdzn"group-title="BUENOS AIRES",NEO TV DIGITAL HD. 16.1 
+https://videostream.shockmedia.com.ar:19360/neotvdigital/neotvdigital.m3u8
+
+#EXTINF:-1 tvg-logo="https://tinyurl.com/mub2ewfd"group-title="BUENOS AIRES",TELECREATIVA HD
+https://panel.host-live.com:19360/8012/8012.m3u8
+
+#EXTINF:-1 tvg-logo="https://tinyurl.com/3vzrwff3"group-title="BUENOS AIRES",CINCO TV HD  TIGRE
+https://videostream.shockmedia.com.ar:19360/cincotv/cincotv.m3u8
+
+#EXTINF:-1 tvg-logo="https://tinyurl.com/mvyyr7y6"group-title="BUENOS AIRES",TELEMIX HD
+https://live20.bozztv.com/giatv/giatv-telemixenvivo/telemixenvivo/chunks.m3u8
+
+
+
+#EXTINF:-1 tvg-logo="https://tinyurl.com/pt6ceb8k"group-title="BUENOS AIRES",LA MIL35
+https://vd01.streaminghd.net.ar:3349/live/bzuctkgnlive.m3u8
+
+
+#EXTINF:-1 tvg-logo="https://tinyurl.com/cauy9zzh"group-title="BUENOS AIRES",BRAVO TV
+https://redirector.rudo.video/hls-video/c54ac2799874375c81c1672abb700870537c5223/bravo/bravo.smil/playlist.m3u8
+
+#EXTINF:-1 tvg-logo="https://tinyurl.com/47mb7xf9"group-title="BUENOS AIRES",CANAL 26
+https://stream-gtlc.telecentro.net.ar/hls/canal26hls/0/playlist.m3u8?uid=d1ab8e18c3a4e4fdc5b8b00e287498d9
+
+#EXTINF:-1 tvg-logo="https://tinyurl.com/6nruejr3"group-title="BUENOS AIRES", NET TV HD  27.2
+https://unlimited1-us.dps.live/nettv/nettv.smil/playlist.m3u8
+
+
+#EXTINF:-1 tvg-logo="https://tinyurl.com/jmw6z889"group-title="BUENOS AIRES",RT HD   25.5
+https://rt-esp.rttv.com:443/live/rtesp/playlist_4500Kb.m3u8
+
+
+#EXTINF:-1 tvg-logo="https://tinyurl.com/4sjnsae9"group-title="BUENOS AIRES",HISPANTV
+https://live.presstv.ir/hls/hispantv.m3u8
+
+
+
+#EXTINF:-1 tvg-logo="https://assets-global.website-files.com/605a3cacba514a77ca2e6ab5/6065f6834c6c7c875c2c1c16_dwe.png"group-title="BUENOS AIRES",DW ESPAÑOL HD
+https://dwamdstream104.akamaized.net/hls/live/2015530/dwstream104/stream04/streamPlaylist.m3u8
+
+
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/3/3a/Canal_9_2015.png"group-title="BUENOS AIRES",EL NUEVE
+http://201.217.246.42:44310/Live/3fcb6e26785fd8d415571b26dc3cf5d3/local-16_720.m3u8
+
+
+
+
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/c/cc/Telefe_%28nuevo_logo%29.png"group-title="BUENOS AIRES",TELEFE
+http://201.217.246.42:44310/Live/3fcb6e26785fd8d415571b26dc3cf5d3/telefe.playlist.m3u8
+
+
+
+
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/f/fb/Cr%C3%B3nica_TV_logotipo_%282016%29.png"group-title="BUENOS AIRES", CRÓNICA TV
+http://201.217.246.42:44310/Live/3fcb6e26785fd8d415571b26dc3cf5d3/CronicaTv.playlist.m3u8
+
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/2/22/Logo-c5n.svg/3840px-Logo-c5n.svg.png"group-title="BUENOS AIRES",C5N
+http://201.217.246.42:44310/Live/3fcb6e26785fd8d415571b26dc3cf5d3/c5n_480.m3u8
+
+
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/8/81/LN%2B.png"group-title="BUENOS AIRES",LN+
+http://201.217.246.42:44310/Live/3fcb6e26785fd8d415571b26dc3cf5d3/lntv_720.m3u8
+
+
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/TVP_-_Televisi%C3%B3n_P%C3%BAblica_%282021%29.svg/1280px-TVP_-_Televisi%C3%B3n_P%C3%BAblica_%282021%29.svg.png"group-title="BUENOS AIRES",TV PUBLICA
+http://201.217.246.42:44310/Live/3fcb6e26785fd8d415571b26dc3cf5d3/tvpublica_720.m3u8
+
+
+#EXTINF:-1 tvg-logo="https://cdn2.storage.foromedios.com/original/3X/a/7/a7a69b52617e4f5d0d927062b28dfb95532029c2.png"group-title="BUENOS AIRES",AR|12
+http://201.217.246.42:44310/Live/3fcb6e26785fd8d415571b26dc3cf5d3/local-21_480.m3u8
+
+
+
+#EXTINF:-1 tvg-logo="https://tinyurl.com/yuyatxzt"group-title="BUENOS AIRES",TELEMAX HD  26.3
+https://stream-gtlc.telecentro.net.ar/hls/telemaxhls/main.m3u8
+
+#EXTINF:-1 tvg-logo="https://tinyurl.com/yc2k7s8n"group-title="BUENOS AIRES", TIERRAMIA
+https://stream-gtlc.telecentro.net.ar/hls/tierramiahls/0/playlist.m3u8?uid=3602db85b7b057add1eaede96802d569
+
+
+#EXTINF:-1 tvg-logo="https://tinyurl.com/4tkac7dz"group-title="BUENOS AIRES",UNIFE TV
+https://cdn.mycloudstream.io/hls/live/broadcast/pgv5kerk/mono.m3u8
+
+
+
+#EXTINF:-1 tvg-logo="https://tinyurl.com/y4bbwcyh"group-title="BUENOS AIRES",CANAL 3 PINAMAR 
+https://intelincloud01.com.ar/hls/cn3/index.m3u8
+
+#EXTINF:-1 tvg-logo="https://i.ibb.co/wNccDZ4V/1771797530813.png"group-title="BUENOS AIRES", CIUDAD MAGICA TV
+https://live20.bozztv.com/akamaissh101/ssh101/verycoolfgr/chunks.m3u8
+
 
 
 
@@ -23,27 +136,21 @@
 
 
 
+#EXTINF:-1 tvg-logo="https://tinyurl.com/4zexfb74"group-title="ARGENTINA",TELEVIDA
+https://unlimited1-saopaulo.dps.live/televidaar/televidaar.smil/televidaar/livestream1/chunks.m3u8
 
 
 
+#EXTINF:-1 tvg-logo="https://tinyurl.com/3xxchupk"group-title="ARGENTINA",MULTIVISION HD
+https://videostream.shockmedia.com.ar:19360/multivisionfederal/multivisionfederal.m3u8
 
 
+#EXTINF:-1 tvg-logo="https://tinyurl.com/yvn4ry2x"group-title="ARGENTINA",11 DIGITAL 
+https://live20.bozztv.com/giatv/giatv-ojodigital/ojodigital/playlist.m3u8
 
+#EXTINF:-1 tvg-logo="https://tinyurl.com/3bhvy78h"group-title="ARGENTINA",METRO TV HD  18.1 TUCUMÁN
+https://streamtv12.ddns.net:5443/LiveApp/streams/193945633734205616732920.m3u8
 
-
- 
-#EXTINF:-1 tvg-logo="https://tinyurl.com/Plaaytv"group-title="ARGENTINA",PLAYTV CINE
-https://live20.bozztv.com/akamaissh101/ssh101/plaaytv/chunks.m3u8
-
-
-#EXTINF:-1 tvg-logo="https://tinyurl.com/mvvfyhr7"group-title="ARGENTINA", MONTEGRANDETV 
-https://live20.bozztv.com/akamaissh101/ssh101/montegrandetv/playlist.m3u8
-
-
-
-
-#EXTINF:-1 tvg-logo="https://tinyurl.com/Ipersonica"group-title="ARGENTINA", IPERSONICA TV 
-https://lbgo.bozztv.com/ssh101/ssh101/ipersonica/playlist.m3u8
 
 
 
@@ -63,61 +170,15 @@ https://vivo.solumedia.com:19360/telemedia/telemedia.m3u8
 https://live20.bozztv.com/giatvplayout7/giatv-211465/tracks-v1a1/mono.m3u8
 
 
-#EXTINF:-1 tvg-logo="https://tinyurl.com/cauy9zzh"group-title="ARGENTINA",BRAVO TV
-https://redirector.rudo.video/hls-video/c54ac2799874375c81c1672abb700870537c5223/bravo/bravo.smil/playlist.m3u8
-
-#EXTINF:-1 tvg-logo="https://tinyurl.com/47mb7xf9"group-title="ARGENTINA",CANAL 26
-https://stream-gtlc.telecentro.net.ar/hls/canal26hls/0/playlist.m3u8?uid=d1ab8e18c3a4e4fdc5b8b00e287498d9
-
-#EXTINF:-1 tvg-logo="https://tinyurl.com/6nruejr3"group-title="ARGENTINA", NET TV HD  27.2
-https://unlimited1-us.dps.live/nettv/nettv.smil/playlist.m3u8
-
-
-
-
-
-
-
-
-
 #EXTINF:-1 tvg-logo="https://tinyurl.com/yccuefd4"group-title="ARGENTINA", TELEVISIÓN PÚBLICA 
 https://stream.arcast.com.ar/c3lapampa/ngrp:c3lapampa_all/playlist.m3u8
 
 
-#EXTINF:-1 tvg-logo="https://tinyurl.com/yuyatxzt"group-title="ARGENTINA",TELEMAX HD  26.3
-https://stream-gtlc.telecentro.net.ar/hls/telemaxhls/main.m3u8
 
-#EXTINF:-1 tvg-logo="https://tinyurl.com/yc2k7s8n"group-title="ARGENTINA", TIERRAMIA
-https://stream-gtlc.telecentro.net.ar/hls/tierramiahls/0/playlist.m3u8?uid=3602db85b7b057add1eaede96802d569
-
-
-
-
-
-#EXTINF:-1 tvg-logo="https://tinyurl.com/4tkac7dz"group-title="ARGENTINA",UNIFE TV
-https://cdn.mycloudstream.io/hls/live/broadcast/pgv5kerk/mono.m3u8
-
-#EXTINF:-1 tvg-logo="https://tinyurl.com/4zexfb74"group-title="ARGENTINA",TELEVIDA
-https://unlimited1-saopaulo.dps.live/televidaar/televidaar.smil/televidaar/livestream1/chunks.m3u8
-
-
-
-#EXTINF:-1 tvg-logo="https://tinyurl.com/3xxchupk"group-title="ARGENTINA",MULTIVISION HD
-https://videostream.shockmedia.com.ar:19360/multivisionfederal/multivisionfederal.m3u8
 
 #EXTINF:-1 tvg-logo="https://tinyurl.com/5fz65n24"group-title="ARGENTINA",TDC
 https://tdcserver.com:19360/tdconlione-2/tdconlione-2.m3u8
 
-
-#EXTINF:-1 tvg-logo="https://tinyurl.com/3v2v88jk"group-title="ARGENTINA",BAYRES TV HD
-https://streaming01.mikrolive.tv/bayrestv/live/chunklist_w963757112.m3u8
-
-
-#EXTINF:-1 tvg-logo="https://tinyurl.com/mw22ukre"group-title="ARGENTINA",GENTV
-https://srv3.zcast.com.br/gentv/gentv/playlist.m3u8
-
-#EXTINF:-1 tvg-logo="https://tinyurl.com/3vzrwff3"group-title="ARGENTINA",CINCO TV HD  TIGRE
-https://videostream.shockmedia.com.ar:19360/cincotv/cincotv.m3u8
 
 #EXTINF:-1 tvg-logo="https://tinyurl.com/5n8cdncu"group-title="ARGENTINA", TELE POSADAS
 https://live20.bozztv.com/giatv/giatv-teleposadaso01/teleposadaso01/playlist.m3u8
@@ -129,11 +190,9 @@ https://streamyes.alsolnet.com/canal34hd/live/playlist.m3u8
 #EXTINF:-1 tvg-logo="https://tinyurl.com/y5cz72tm"group-title="ARGENTINA",EL MAGO TV
 https://live20.bozztv.com/akamaissh101/ssh101/elmagotv2/chunks.m3u8
 
-#EXTINF:-1 tvg-logo="https://tinyurl.com/y4bbwcyh"group-title="ARGENTINA",CANAL 3 PINAMAR 
-https://intelincloud01.com.ar/hls/cn3/index.m3u8
 
-#EXTINF:-1 tvg-logo="https://tinyurl.com/bdesbdzn"group-title="ARGENTINA",NEO TV DIGITAL HD. 16.1 
-https://videostream.shockmedia.com.ar:19360/neotvdigital/neotvdigital.m3u8
+
+
 
 #EXTINF:-1 tvg-logo="https://tinyurl.com/3b5a5c2f"group-title="ARGENTINA", CANAL 9 HD LITORAL
 https://stream.arcast.live:443/ahora/ahora/chunklist_w1967933953.m3u8
@@ -143,17 +202,12 @@ https://stream.arcast.live:443/ahora/ahora/chunklist_w1967933953.m3u8
 https://stmv4.voxtvhd.com.br/canal5pueblo/canal5pueblo/playlist.m3u8
 
 
-#EXTINF:-1 tvg-logo="https://tinyurl.com/pt6ceb8k"group-title="ARGENTINA",LA MIL35
-https://vd01.streaminghd.net.ar:3349/live/bzuctkgnlive.m3u8
 
-#EXTINF:-1 tvg-logo="https://tinyurl.com/mub2ewfd"group-title="ARGENTINA",TELECREATIVA HD
-https://panel.host-live.com:19360/8012/8012.m3u8
 
 #EXTINF:-1 tvg-logo="https://tinyurl.com/2ev34nje"group-title="ARGENTINA",COSMOS TV HD
 https://canaletaplus.com:3922/live/cosmoslive.m3u8
 
-#EXTINF:-1 tvg-logo="https://tinyurl.com/mvyyr7y6"group-title="ARGENTINA",TELEMIX HD
-https://live20.bozztv.com/giatv/giatv-telemixenvivo/telemixenvivo/chunks.m3u8
+
 
 #EXTINF:-1 tvg-logo="https://tinyurl.com/4wr9fnx2"group-title="ARGENTINA",EL 9 
 http://coninfo.net:1935/9linklivert/smil:9linkmultibr.smil/chunklist_w1546314826_b2044100_sleng.m3u8
@@ -168,22 +222,11 @@ https://tv.streamcasthd.com:3450/live/tvmaslive.m3u8
 
 
 
-#EXTINF:-1 tvg-logo="https://tinyurl.com/yvn4ry2x"group-title="ARGENTINA",11 DIGITAL 
-https://live20.bozztv.com/giatv/giatv-ojodigital/ojodigital/playlist.m3u8
-
-#EXTINF:-1 tvg-logo="https://tinyurl.com/3bhvy78h"group-title="ARGENTINA",METRO TV HD  18.1 TUCUMÁN
-https://streamtv12.ddns.net:5443/LiveApp/streams/193945633734205616732920.m3u8
-
 
 
 
 #EXTINF:-1 tvg-logo=""group-title="ARGENTINA",CANAL 8 ROSARIO
 https://stmv4.voxtvhd.com.br/canal8ros/canal8ros/playlist.m3u8
-
-
-#EXTINF:-1 tvg-logo="https://i.ibb.co/wNccDZ4V/1771797530813.png"group-title="ARGENTINA", CIUDAD MAGICA TV
-https://live20.bozztv.com/akamaissh101/ssh101/verycoolfgr/chunks.m3u8
-
 
 
 
@@ -197,48 +240,6 @@ https://panel.host-live.com:19360/8076/8076.m3u8
 
 
 
-#EXTINF:-1 tvg-logo="https://tinyurl.com/jmw6z889"group-title="ARGENTINA",RT HD   25.5
-https://rt-esp.rttv.com:443/live/rtesp/playlist_4500Kb.m3u8
-
-
-#EXTINF:-1 tvg-logo="https://tinyurl.com/4sjnsae9"group-title="ARGENTINA",HISPANTV
-https://live.presstv.ir/hls/hispantv.m3u8
-
-
-
-#EXTINF:-1 tvg-logo="https://assets-global.website-files.com/605a3cacba514a77ca2e6ab5/6065f6834c6c7c875c2c1c16_dwe.png"group-title="ARGENTINA",DW ESPAÑOL HD
-https://dwamdstream104.akamaized.net/hls/live/2015530/dwstream104/stream04/streamPlaylist.m3u8
-
-
-#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/3/3a/Canal_9_2015.png"group-title="ARGENTINA",EL NUEVE
-http://201.217.246.42:44310/Live/3fcb6e26785fd8d415571b26dc3cf5d3/local-16_720.m3u8
-
-
-
-
-#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/c/cc/Telefe_%28nuevo_logo%29.png"group-title="ARGENTINA",TELEFE
-http://201.217.246.42:44310/Live/3fcb6e26785fd8d415571b26dc3cf5d3/telefe.playlist.m3u8
-
-
-
-
-#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/f/fb/Cr%C3%B3nica_TV_logotipo_%282016%29.png"group-title="ARGENTINA", CRÓNICA TV
-http://201.217.246.42:44310/Live/3fcb6e26785fd8d415571b26dc3cf5d3/CronicaTv.playlist.m3u8
-
-#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/2/22/Logo-c5n.svg/3840px-Logo-c5n.svg.png"group-title="ARGENTINA",C5N
-http://201.217.246.42:44310/Live/3fcb6e26785fd8d415571b26dc3cf5d3/c5n_480.m3u8
-
-
-#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/8/81/LN%2B.png"group-title="ARGENTINA",LN+
-http://201.217.246.42:44310/Live/3fcb6e26785fd8d415571b26dc3cf5d3/lntv_720.m3u8
-
-
-#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/TVP_-_Televisi%C3%B3n_P%C3%BAblica_%282021%29.svg/1280px-TVP_-_Televisi%C3%B3n_P%C3%BAblica_%282021%29.svg.png"group-title="ARGENTINA",TV PUBLICA
-http://201.217.246.42:44310/Live/3fcb6e26785fd8d415571b26dc3cf5d3/tvpublica_720.m3u8
-
-
-#EXTINF:-1 tvg-logo="https://cdn2.storage.foromedios.com/original/3X/a/7/a7a69b52617e4f5d0d927062b28dfb95532029c2.png"group-title="ARGENTINA",AR|12
-http://201.217.246.42:44310/Live/3fcb6e26785fd8d415571b26dc3cf5d3/local-21_480.m3u8
 
 #EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/8/83/TNT_Sports_%282023%29.svg/3840px-TNT_Sports_%282023%29.svg.png"group-title="ARGENTINA",TNT SPORTS
 http://liketv.pro/live/diegos2024/Coly2413/291.ts
