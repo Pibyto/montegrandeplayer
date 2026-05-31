@@ -10,13 +10,6 @@ https://live20.bozztv.com/akamaissh101/ssh101/plaaytv/chunks.m3u8
 #EXTINF:-1 tvg-logo="https://tinyurl.com/mvvfyhr7"group-title="BUENOS AIRES", MONTEGRANDETV 
 https://live20.bozztv.com/akamaissh101/ssh101/montegrandetv/playlist.m3u8
 
-
-
-
-#EXTINF:-1 tvg-logo="https://nnssmadrid.files.wordpress.com/2015/09/a4-solidaria-tv.png?w=276"group-title="BUENOS AIRES",SOLIDARIA TV HD
-https://canadaremar2.todostreaming.es/live/solidariatv-webhd.m3u8
-
-
 #EXTINF:-1 tvg-logo="https://tinyurl.com/mw22ukre"group-title="BUENOS AIRES",GENTV
 https://srv3.zcast.com.br/gentv/gentv/playlist.m3u8
 
@@ -33,6 +26,8 @@ https://g2.vxral-slo.transport.edge-access.net:443/a11/ngrp:canal_luz01-100009_a
 https://streaming01.mikrolive.tv/bayrestv/live/chunklist_w963757112.m3u8
 
 
+#EXTINF:-1 tvg-logo="https://nnssmadrid.files.wordpress.com/2015/09/a4-solidaria-tv.png?w=276"group-title="BUENOS AIRES",SOLIDARIA TV HD
+https://canadaremar2.todostreaming.es/live/solidariatv-webhd.m3u8
 
 
 #EXTINF:-1 tvg-logo="https://tinyurl.com/bdesbdzn"group-title="BUENOS AIRES",NEO TV DIGITAL HD. 16.1 
