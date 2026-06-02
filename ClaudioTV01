@@ -265,6 +265,15 @@ http://liketv.pro/live/diegos2024/Coly2413/145.ts
 http://liketv.pro/live/diegos2024/Coly2413/291.ts
 
 
+#EXTINF:-1 tvg-logo=""group-title="ARGENTINA",DSport
+http://liketv.pro/live/diegos2024/Coly2413/149.ts
+
+
+#EXTINF:-1 tvg-logo=""group-title="ARGENTINA",Distrito 2
+http://liketv.pro/live/diegos2024/Coly2413/317932.ts
+
+
+
 #EXTINF:-1 tvg-logo=""group-title="ARGENTINA",VOLVER
 http://201.217.246.42:44310/Live/3fcb6e26785fd8d415571b26dc3cf5d3/local-74_480.m3u8
 
