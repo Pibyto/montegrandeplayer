@@ -191,9 +191,80 @@ https://videostream.shockmedia.com.ar:19360/telejunin/telejunin.m3u8
 
 
 
-###############(PREMIUM)####################################################
+##########(CINE PREMIUM)##########
 
 
+
+
+
+
+
+
+#EXTINF:-1 tvg-logo="https://tinyurl.com/2uysrbe7"group-title="CINE PREMIUM",MALVINAS TV 
+https://live20.bozztv.com/giatvplayout7/giatv-208744/tracks-v1a1/mono.m3u8
+
+
+#EXTINF:-1 tvg-logo="https://tinyurl.com/33yu4yzs"group-title="CINE PREMIUM", MGTV MOVIES
+https://live20.bozztv.com/giatvplayout7/giatv-208138/tracks-v1a1/mono.m3u8
+
+
+
+#EXTINF:-1 tvg-logo="https://tinyurl.com/48xkysmd"group-title="CINE PREMIUM",MGTV ACCIÓN
+https://live20.bozztv.com/giatvplayout7/giatv-209163/playlist.m3u8
+
+
+
+#EXTINF:-1 tvg-logo="https://tinyurl.com/4m768mja"group-title="CINE PREMIUM",MGTV FAMILY
+https://live20.bozztv.com/giatvplayout7/giatv-208817/playlist.m3u8
+
+
+#EXTINF:-1 tvg-logo="https://tinyurl.com/89bw22fh"group-title="CINE PREMIUM",MGTV KIDS
+https://live20.bozztv.com/giatvplayout7/giatv-209909/playlist.m3u8 
+
+
+#EXTINF:-1 tvg-logo="https://tinyurl.com/mgtvcomedy"group-title="CINE PREMIUM",MGTV COMEDY
+https://live20.bozztv.com/giatvplayout7/giatv-208730/playlist.m3u8
+
+
+
+
+
+#EXTINF:-1 tvg-logo="https://tinyurl.com/Plaaytv"group-title="CINE PREMIUM",PLAY TV CINE 
+https://live20.bozztv.com/akamaissh101/ssh101/plaaytv/chunks.m3u8
+
+#EXTINF:-1 tvg-logo="https://tinyurl.com/2hy6uu5x"group-title="CINE PREMIUM",MONTEGRANDETV
+https://live20.bozztv.com/akamaissh101/ssh101/montegrandetv/chunks.m3u8
+
+
+#EXTINF:-1 tvg-logo="https://tinyurl.com/Ipersonicatv"group-title="CINE PREMIUM",IPERSONICATV
+https://lbgo.bozztv.com/ssh101/ssh101/ipersonica/playlist.m3u8
+
+
+#EXTINF:-1 tvg-logo="https://cdn.phototourl.com/free/2026-04-19-c98a4dda-105a-438f-9ea2-ec59000de62d.png"group-title="CINE PREMIUM",ENT CHANNEL
+https://cdn.global.elektamedia.com/live/c7eds/ENT_Channel/SA_LIVE_hls_enc/tracks-v1a1/mono.m3u8
+
+
+#EXTINF:-1 tvg-logo="https://cdn.phototourl.com/free/2026-04-19-6f57f921-9009-4f58-a0a5-d3ab6f07b80d.png"group-title="CINE PREMIUM",ENT FAMILY
+https://cdn.global.elektamedia.com/live/c7eds/ENT_Family/SA_LIVE_hls_enc/tracks-v1a1/mono.m3u8
+
+
+#EXTINF:-1 tvg-logo="https://i.ibb.co/dLWwdLK/3dgifmaker66066.gif"group-title="CINE PREMIUM",COSMOS TV HD
+https://canaletaplus.com:3922/live/cosmoslive.m3u8
+
+
+
+
+
+#EXTINF:-1 tvg-logo="https://cdn.phototourl.com/free/2026-04-19-a10b079b-1f69-4336-9484-318d950b25ac.png"group-title="CINE PREMIUM",WOW MOVIES
+https://live20.bozztv.com/giatv/giatv-wowmovies/wowmovies/chunks.m3u8
+
+
+#EXTINF:-1 tvg-logo="https://tinyurl.com/3buy42kt"group-title="CINE PREMIUM",MONI TV 2
+http://190.102.242.130:25461/monitvpo/monitvpow/1
+
+
+#EXTINF:-1 tvg-logo="https://i.ibb.co/G34c3GqN/1200x630wa.png"group-title="CINE PREMIUM",TUCINE
+https://live20.bozztv.com/akamaissh101/ssh101/xiomoz/chunks.m3u8
 
 
 #EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTOspY0DemQf4NaEMxXnKQQKCpDwOfVCdtnZg&usqp=CAU"group-title="CINE PREMIUM",CINE SONY
