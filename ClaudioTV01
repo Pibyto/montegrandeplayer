@@ -33,6 +33,10 @@ https://streaming01.mikrolive.tv/bayrestv/live/chunklist_w963757112.m3u8
 https://canadaremar2.todostreaming.es/live/solidariatv-webhd.m3u8
 
 
+#EXTINF:-1 tvg-logo="https://static.wikia.nocookie.net/doblaje/images/a/a8/Ciudadmagazine-logonuevo.png/revision/latest?cb=20200203001356&path-prefix=es"group-title="BUENOS AIRES",MAGAZINE
+https://livetrx01.vodgc.net/live-01-07-ciudad.vodgc.net/tracks-v3a1/mono.m3u8
+
+
 #EXTINF:-1 tvg-logo="https://tinyurl.com/bdesbdzn"group-title="BUENOS AIRES",NEO TV DIGITAL HD. 16.1 
 https://videostream.shockmedia.com.ar:19360/neotvdigital/neotvdigital.m3u8
 
