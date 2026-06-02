@@ -1689,6 +1689,8 @@ https://samson.streamerr.co:8081/shogun/tracks-v1a1/mono.m3u8
 
 
 
+#EXTINF:-1 tvg-logo="https://tinyurl.com/Ladescargateve"group-title="PR.EE.UU",LA DESCARGA
+https://video.udwn.net:19360/ladescargatv/ladescargatv.m3u8
 
 
 #EXTINF:-1 tvg-logo="https://brandemia.org/wp-content/uploads/2013/02/logo_telemundo_principal.jpg"group-title="PR.EE.UU",TELEMUNDO  
@@ -1725,11 +1727,6 @@ https://xumo-drct-ch835-ekq0p.fast.nbcuni.com/live/master_5.m3u8
 #EXTINF:-1 tvg-logo="https://brandemia.org/wp-content/uploads/2013/02/logo_telemundo_principal.jpg"group-title="PR.EE.UU",TELEMUNDO ROMANCE
 https://xumo-drct-ch836-57aiq.fast.nbcuni.com/live/master_5.m3u8
 
-
-
-
-#EXTINF:-1 tvg-logo=""group-title="PR.EE.UU",PRITV
-https://live20.bozztv.com:443/akamaissh101/ssh101/tv1251master/chunks.m3u8
 
 
 
