@@ -291,20 +291,12 @@ https://rtvelivestream-rtveplayplus.rtve.es/rtvesec/int/star_main_1080.m3u8
 https://streamlov.alsolnet.com/canal4sanjuan/live/chunklist_w318490892.m3u8
 
 
-
-
-
-
-
-
 #EXTINF:-1 tvg-logo=""group-title="ARGENTINA",MONTEGRANDE RADIOTV
 https://live20.bozztv.com/akamaissh101/ssh101/mgradiotv/playlist.m3u8
 
 
-
 #EXTINF:-1 tvg-logo="https://www.elcuatro.com/public/img/marcas/marcas_canal4_297.png"group-title="ARGENTINA",CANAL 4 HD
 https://5cd577a3dd8ec.streamlock.net/CANAL4/smil:CANAL4.smil/chunklist_w1929733198_b4128000.m3u8
-
 
 
 #EXTINF:-1 tvg-logo="https://tinyurl.com/54ybehp4"group-title="ARGENTINA",7JUJUY
@@ -320,8 +312,6 @@ https://nd106.republicaservers.com:443/hls/diegologonitv/0_1/index.m3u8?sessId=3
 https://live20.bozztv.com/giatv/giatv-bigtv/bigtv/chunks.m3u8
 
 
-
-
 #EXTINF:-1 tvg-logo="https://i.ibb.co/f0YPh6h/images-removebg-preview-2.png"group-title="ARGENTINA",TELE CINCO
 https://videohd.live:19360/8016/8016.m3u8
 
@@ -332,10 +322,6 @@ https://videohd.live:19360/8016/8016.m3u8
 https://s.emisoras.tv:8081/penielbibliaabierta/index.m3u8
 
 
-
-
-
-
 #EXTINF:-1 tvg-logo=""group-title="ARGENTINA",BA TV
 https://live20.bozztv.com/akamaissh101/ssh101/buenostv25/playlist.m3u8
 
@@ -343,10 +329,6 @@ https://live20.bozztv.com/akamaissh101/ssh101/buenostv25/playlist.m3u8
 
 #EXTINF:-1 tvg-logo="https://i.ibb.co/x7d9FT0/images-removebg-preview.png"group-title="ARGENTINA",CINE DIOS
 https://canal.mediaserver.com.co/live/cinedios.m3u8
-
-
-
-
 
 
 #EXTINF:-1 tvg-logo="https://tinyurl.com/4hzz7tsn"group-title="ARGENTINA",CANAL 7 SALTA
