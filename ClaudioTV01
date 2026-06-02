@@ -247,6 +247,14 @@ https://tv.streamcasthd.com:3450/live/tvmaslive.m3u8
 #EXTINF:-1 tvg-logo=""group-title="ARGENTINA",CANAL 8 ROSARIO
 https://stmv4.voxtvhd.com.br/canal8ros/canal8ros/playlist.m3u8
 
+#EXTINF:-1 tvg-logo=""group-title="ARGENTINA",TyC
+https://amg26268-amg26268c14-freelivesports-emea-10267.playouts.now.amagi.tv/ts-us-e2-n2/playlist/amg26268-sportsstudio-tycsports-freelivesportsemea/playlist.m3u8
+
+
+
+#EXTINF:-1 tvg-logo="https://static.wikia.nocookie.net/logopedia/images/5/55/ESPN_Premium_blanco.png/revision/latest/scale-to-width-down/250?cb=20220501173330&path-prefix=es"group-title="ARGENTINA",ESPN PREMIUM
+http://liketv.pro/live/diegos2024/Coly2413/145.ts
+
 
 
 #EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/8/83/TNT_Sports_%282023%29.svg/3840px-TNT_Sports_%282023%29.svg.png"group-title="ARGENTINA",TNT SPORTS
@@ -272,34 +280,6 @@ http://181.114.57.246:4000/play/KgkA9tT2SpLYm86J/index.m3u8
 
 #EXTINF:-1 tvg-logo=""group-title="ARGENTINA",STAR TVE
 https://rtvelivestream-rtveplayplus.rtve.es/rtvesec/int/star_main_1080.m3u8
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-#EXTINF:-1 tvg-logo=""group-title="ARGENTINA",TyC
-https://amg26268-amg26268c14-freelivesports-emea-10267.playouts.now.amagi.tv/ts-us-e2-n2/playlist/amg26268-sportsstudio-tycsports-freelivesportsemea/playlist.m3u8
-
-
-
-
-#EXTINF:-1 tvg-logo=""group-title="ARGENTINA",
-
-
-
-
-
-
-
 
 
 
