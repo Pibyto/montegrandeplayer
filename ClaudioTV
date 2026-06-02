@@ -101,6 +101,87 @@ https://tv.streamcasthd.com:3450/live/tvmaslive.m3u8
 #EXTINF:-1 tvg-logo=""group-title="ARGENTINA",CANAL 8 ROSARIO
 https://stmv4.voxtvhd.com.br/canal8ros/canal8ros/playlist.m3u8
 
+#EXTINF:-1 tvg-logo="https://tinyurl.com/ykpzu6fs"group-title="ARGENTINA",EL 4 SAN JUAN 
+https://streamlov.alsolnet.com/canal4sanjuan/live/chunklist_w318490892.m3u8
+
+
+#EXTINF:-1 tvg-logo=""group-title="ARGENTINA",MONTEGRANDE RADIOTV
+https://live20.bozztv.com/akamaissh101/ssh101/mgradiotv/playlist.m3u8
+
+
+#EXTINF:-1 tvg-logo="https://www.elcuatro.com/public/img/marcas/marcas_canal4_297.png"group-title="ARGENTINA",CANAL 4 HD
+https://5cd577a3dd8ec.streamlock.net/CANAL4/smil:CANAL4.smil/chunklist_w1929733198_b4128000.m3u8
+
+
+#EXTINF:-1 tvg-logo="https://tinyurl.com/54ybehp4"group-title="ARGENTINA",7JUJUY
+https://stream.arcast.live:443/canal7jujuy/ngrp:canal7jujuy_all/chunklist_w906685609_b1146880.m3u8
+
+
+#EXTINF:-1 tvg-logo="https://i.ibb.co/pjV1gdBS/Photoroom-20250616-002323.png"group-title="ARGENTINA",CANAL 12 HD
+https://nd106.republicaservers.com:443/hls/diegologonitv/0_1/index.m3u8?sessId=3190510
+
+
+
+#EXTINF:-1 tvg-logo="https://i.ibb.co/qMPnsdYs/1771806869677.png"group-title="ARGENTINA",BIG TV
+https://live20.bozztv.com/giatv/giatv-bigtv/bigtv/chunks.m3u8
+
+
+#EXTINF:-1 tvg-logo="https://i.ibb.co/f0YPh6h/images-removebg-preview-2.png"group-title="ARGENTINA",TELE CINCO
+https://videohd.live:19360/8016/8016.m3u8
+
+#EXTINF:-1 tvg-logo="https://tinyurl.com/496yepmu"group-title="ARGENTINA",PANC TV HD 15.1
+
+
+#EXTINF:-1 tvg-logo=""group-title="ARGENTINA", BIBLIA ABIERTA 
+https://s.emisoras.tv:8081/penielbibliaabierta/index.m3u8
+
+
+#EXTINF:-1 tvg-logo=""group-title="ARGENTINA",BA TV
+https://live20.bozztv.com/akamaissh101/ssh101/buenostv25/playlist.m3u8
+
+
+
+#EXTINF:-1 tvg-logo="https://i.ibb.co/x7d9FT0/images-removebg-preview.png"group-title="ARGENTINA",CINE DIOS
+https://canal.mediaserver.com.co/live/cinedios.m3u8
+
+
+#EXTINF:-1 tvg-logo="https://tinyurl.com/4hzz7tsn"group-title="ARGENTINA",CANAL 7 SALTA
+https://vivo.solumedia.com:19360/cooperativa/cooperativa.m3u8
+
+
+#EXTINF:-1 tvg-logo="https://static.wikia.nocookie.net/logopedia/images/e/e9/Lapachocanal11.jpg/revision/latest?cb=20160815012802&path-prefix=es"group-title="ARGENTINA",LAPACHO TV
+https://vivo.solumedia.com:19360/lapacho/lapacho.m3u8
+
+
+#EXTINF:-1 tvg-logo="https://www.canal3lasheras.com/wp-content/uploads/2022/10/canal3logo-x1.png"group-title="ARGENTINA",3 LAS HERAS
+https://stream.arcast.com.ar/canal3/canal3/playlist.m3u8?PlaylistM3UCL
+
+
+#EXTINF:-1 tvg-logo="https://static.wikia.nocookie.net/logopedia/images/5/57/San_Luis_%2B_%28Logo_2024%29.png/revision/latest?cb=20240519200301"group-title="ARGENTINA",SAN LUIS ÷
+https://stream.radiosmundiales.com:19360/sanluismas/sanluismas.m3u8
+
+
+
+
+#EXTINF:-1 tvg-logo="https://canal2gualeguay.com.ar/wp-content/uploads/2020/08/logoc2gualeguay-x1.png"group-title="ARGENTINA",CANAL 2 GUALEGUAY
+https://stream.arcast.net:4443/gualeguay/gualeguay/chunklist_w1039971660.m3u8
+
+
+
+#EXTINF:-1 tvg-logo="https://tinyurl.com/2etwuj6h"group-title="ARGENTINA", CANAL 2 HD MISIONES
+https://nd106.republicaservers.com:4433/hls/canal2misioness/1_0/index.m3u8
+
+
+
+#EXTINF:-1 tvg-logo="https://1.bp.blogspot.com/-QLn_jBSxI4E/WDyHzgW7Y6I/AAAAAAAABOc/BWV3OWHz-rEQTz7Issy8_ftOVG7Wf3qjACLcB/s1600/canal13-larioja.png"group-title="ARGENTINA",CANAL 13 HD LA RIOJA
+http://arcast.net:1935/mp/mp/playlist.m3u8
+
+
+#EXTINF:-1 tvg-logo="https://telejunin.com/static/images/logo/teleJunin.png"group-title="ARGENTINA",TELEJUNIN
+https://videostream.shockmedia.com.ar:19360/telejunin/telejunin.m3u8
+
+
+
 
 
 
