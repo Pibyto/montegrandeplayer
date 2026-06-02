@@ -226,14 +226,14 @@ https://live20.bozztv.com/giatvplayout7/giatv-209909/playlist.m3u8
 https://live20.bozztv.com/giatvplayout7/giatv-208730/playlist.m3u8
 
 
+#EXTINF:-1 tvg-logo="https://tinyurl.com/Maaxmg"group-title="CINE PREMIUM",MAX
+https://lbgo.bozztv.com/ssh101/ssh101/max16/playlist.m3u8
 
 
 
 #EXTINF:-1 tvg-logo="https://tinyurl.com/Plaaytv"group-title="CINE PREMIUM",PLAY TV CINE 
 https://live20.bozztv.com/akamaissh101/ssh101/plaaytv/chunks.m3u8
 
-#EXTINF:-1 tvg-logo="https://tinyurl.com/2hy6uu5x"group-title="CINE PREMIUM",MONTEGRANDETV
-https://live20.bozztv.com/akamaissh101/ssh101/montegrandetv/chunks.m3u8
 
 
 #EXTINF:-1 tvg-logo="https://tinyurl.com/Ipersonicatv"group-title="CINE PREMIUM",IPERSONICATV
