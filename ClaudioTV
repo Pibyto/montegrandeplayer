@@ -24,12 +24,10 @@ https://a-cdn.klowdtv.com:443/live1/cine_720p/chunks.m3u8
 
 
 
-#EXTINF:-1 tvg-logo="https://tinyurl.com/5be3pzt7"group-title="CINE PREMIUM",PLAY TV MONTE GRANDE
-https://live20.bozztv.com/giatvplayout7/giatv-208817/tracks-v1a1/mono.ts.m3u8
+#EXTINF:-1 tvg-logo="title="CINE PREMIUM",MGTV FAMILY 
+https://live20.bozztv.com/giatvplayout7/giatv-208817/tracks-v1a1/mono.m3u8
 
 
-#EXTINF:-1 tvg-logo="https://i.ibb.co/Ldfbk6rC/Photoroom-20250629-132738.png"group-title="CINE PREMIUM",TVS
-https://vcp10.myplaytv.com/tvs/tvs/chunklist_w989702023.m3u8
 
 
 
@@ -42,16 +40,10 @@ https://tv.mediacp.eu:19360/cosmos/cosmos.m3u8
 
 
 
-#EXTINF:-1 tvg-logo=""group-title="CINE PREMIUM",CINE ESTRELLA
-https://apollo.production-public.tubi.io/live/ac-cine-estrella.m3u8
 
 
-#EXTINF:-1 tvg-logo=""group-title="CINE PREMIUM",XTREMA ACCION
-https://stmv6.voxtvhd.com.br/cineaccion/cineaccion/playlist.m3u8
 
 
-#EXTINF:-1 tvg-logo=""group-title="CINE PREMIUM",XTREMA DIBUJOS ANIMADOS
-https://stmv6.voxtvhd.com.br/xtremacartoons/xtremacartoons/playlist.m3u8
 
 
 #EXTINF:-1 tvg-logo=""group-title="CINE PREMIUM",SONY CHANNEL
@@ -62,8 +54,7 @@ https://fl3.moveonjoy.com/Sony_Movie_Channel/tracks-v1a1/mono.ts.m3u8
 https://a-cdn.klowdtv.com/live1/cine_720p/chunks.m3u8
 
 
-#EXTINF:-1 tvg-logo="https://static.wikia.nocookie.net/doblaje/images/a/a8/Ciudadmagazine-logonuevo.png/revision/latest?cb=20200203001356&path-prefix=es"group-title="CINE PREMIUM",MAGAZINE
-https://livetrx01.vodgc.net/live-01-07-ciudad.vodgc.net/tracks-v3a1/mono.m3u8
+
 
 
 #EXTINF:-1 tvg-logo="https://i.ibb.co/GvQ2p3t/2q-Jl-Tsa3-KTA70-Th-K4-UAz-H66-J0-MF-2q-Jl-Tp-WH0-K294c6-VTx-Tftt1-GXDk-2q-Jl-URfo-XMh-Jz-NZy799-Hr.png"group-title="CINE PREMIUM",RESTELLI TV CANAL 5 MG
