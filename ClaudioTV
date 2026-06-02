@@ -483,11 +483,70 @@ https://a-cdn.klowdtv.com/live1/cine_720p/chunks.m3u8
 
 
 
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/d/d4/Mega_Chile_2020.png"group-title="CHILE",MEGA HD
+https://unlimited1-cl-isp.dps.live/mega/mega.smil/playlist.m3u8
+
+#EXTINF:-1 tvg-logo="https://s3-mspro.nyc3.cdn.digitaloceanspaces.com/tenant/62ed6e625a88e7000951ac98/mediaLibrary/photo/2e324b2a-7bc2-4eee-bba3-958741c0962e-extra-large-standard-q100.png"group-title="CHILE",TV QUELLON
+https://pantera1-100gb-cl-movistar.dps.live/tvquellon/tvquellon.smil/playlist.m3u8
+
+
+#EXTINF:-1 tvg-logo="https://tinyurl.com/3y686y3p"group-title="CHILE",DOCEVISION 24/7
+https://live20.bozztv.com/giatvplayout7/giatv-208729/tracks-v1a1/mono.m3u8
+
+
+#EXTINF:-1 tvg-logo="https://tinyurl.com/ytawb6ju"group-title="CHILE",PLENITUD TV HD 24/7
+https://live20.bozztv.com/giatvplayout7/giatv-208727/tracks-v1a1/mono.m3u8
+
+#EXTINF:-1 tvg-logo="https://www.satvcordoba.org.ar/portal/wp-content/uploads/2020/05/WhatsApp-Image-2020-05-26-at-20.21.25-640x239.jpeg"group-title="CHILE",TV SALUD
+https://stmv4.voxtvhd.com.br/rodrigo9120/rodrigo9120/playlist.m3u8
+
+
+
+#EXTINF:-1 tvg-logo="https://tinyurl.com/3buy42kt"group-title="CHILE",MONITV
+https://live20.bozztv.com:443/akamaissh101/ssh101/monitvhd/chunks.m3u8
+
+
+#EXTINF:-1 tvg-logo="https://www.vivalivetv.com/public/files/shows/0/1/2943-960x540-000000.jpg"group-title="CHILE",RESTAURANDO VIDAS TV HD
+https://v4.tustreaming.cl:443/restaurandovida/tracks-v1a1/mono.m3u8?PlaylistM3UCL
+
+#EXTINF:-1  tvg-logo="https://i.ibb.co/0RW7vLm8/IMG-20250330-WA0067.jpg"group-title="CHILE",PLENITUD TV JUVENIL HD
+https://live20.bozztv.com/giatvplayout7/giatv-209259/tracks-v1a1/mono.m3u8
+
+
+#EXTINF:-1 tvg-logo="https://www.tevevida.com/images/logo_01.png"group-title="CHILE",TEVE VIDA HD
+https://5bf8041cb3fed.streamlock.net/Tevevida/Tevevida/playlist.m3u8
+
+
+#EXTINF:-1 tvg-logo="https://33e1600b34.cbaul-cdnwnd.com/d7495a2b4d8a7ea80be22f304f0282e4/200000108-dc6f6dc6f9/logo-color-ok-3.png?ph=33e1600b34"group-title="CHILE", TELEVIDA HD
+https://tls-cl.cdnz.cl/televida/live/chunklist_w108038511.m3u8
+
+
+#EXTINF:-1 tvg-logo="https://tinyurl.com/RedVisionTV"group-title="CHILE",RV TV
+https://tls-cl.cdnz.cl/livertv/live/chunklist_w47339175.m3u8
+
+
+
+#EXTINF:-1 tvg-logo="https://atacamatelevision.com/archivos/img/logo.png"group-title="CHILE",ATACAMA TV
+https://v2.tustreaming.cl/atacamatv/index.m3u8?PlaylistM3UCL
+
+
+#EXTINF:-1 tvg-logo="https://www.caracolatv.cl/wp-content/uploads/2022/11/LOGO-CARACOLA-05.png"group-title="CHILE",CARACOLA TV
+https://wifispeed.trapemn.tv:1936/comunales/caracola-tv/playlist.m3u8
+
+
+
+
+
+#EXTINF:-1 tvg-logo="https://www.graciatv.com/wp-content/uploads/2024/01/LOGO-FINAL.png"group-title="CHILE", GRACIA TV
+https://v4.tustreaming.cl/graciatv/index.m3u8?MonteGrandePlay
+
+
+
 
 
 
 #EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS2h10YYLlxQLHJuQ52hKufJS--nnd0X1RfWg&s"group-title="CHILE",TVN
-http://tvpremiund.ddns.me:2082/Diegoarias/Octu7102023/2359
+
 
 
 #EXTINF:-1 tvg-logo="https://cdn.m3u.cl/logo/1485_Primicia_Vida_Television.png"group-title="CHILE",PRIMICIA VIDA
@@ -496,15 +555,8 @@ https://stmv5.voxtvhd.com.br:443/primiciavida/primiciavida/chunklist_w1226243709
 
 
 #EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8c/Chilevisi%C3%B3n_%282018-%29.png/1200px-Chilevisi%C3%B3n_%282018-%29.png"group-title="CHILE",CHV
-http://tvpremiund.ddns.me:2082/Diegoarias/Octu7102023/37973
 
 
-#EXTINF:-1 tvg-logo="https://www.graciatv.com/wp-content/uploads/2024/01/LOGO-FINAL.png"group-title="CHILE", GRACIA TV
-https://v4.tustreaming.cl/graciatv/index.m3u8?MonteGrandePlay
-
-
-#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/7/74/Logotipo_24_Horas_%282023_-_actual%29.png"group-title="CHILE",24hs
-http://tvpremiund.ddns.me:2082/Diegoarias/Octu7102023/2360
 
 
 #EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/9/9f/Emblema_de_La_Red.png"group-title="CHILE",LA RED
@@ -513,19 +565,18 @@ http://tvpremiund.ddns.me:2082/Diegoarias/Octu7102023/30823
 
 
 #EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/d/d4/Mega_Chile_2020.png"group-title="CHILE",MEGA HD
-http://tvpremiund.ddns.me:2082/Diegoarias/Octu7102023/14090
+
 
 
 
 
 
 #EXTINF:-1 tvg-logo="https://neotv.cl/assets/img/channels/mascine.png"group-title="CHILE",+CINE
-https://tv.arkeo.cl:19360/8128/8128.m3u8?PlaylistM3UCL
+https://tv.arkeo.cl:19360/8128/8128.m3u8
 
 
 
-#EXTINF:-1 tvg-logo="https://s3-mspro.nyc3.cdn.digitaloceanspaces.com/tenant/62ed6e625a88e7000951ac98/mediaLibrary/photo/2e324b2a-7bc2-4eee-bba3-958741c0962e-extra-large-standard-q100.png"group-title="CHILE",TV QUELLON
-https://pantera1-100gb-cl-movistar.dps.live/tvquellon/tvquellon.smil/playlist.m3u8
+
 
 
 #EXTINF:-1 tvg-logo="https://neotv.cl/assets/img/channels/monitv.png"group-title="CHILE",MONITV
@@ -542,27 +593,6 @@ https://marine2.miplay.cl/tateti/playlist.m3u8
 
 
 
-#EXTINF:-1 tvg-logo="https://i.ibb.co/Ltxhb9R/3dgifmaker44420.gif"group-title="CHILE",REDTV HD 24/7
-https://live20.bozztv.com/giatvplayout7/giatv-208729/tracks-v1a1/mono.ts.m3u8
-
-
-#EXTINF:-1 tvg-logo="https://i.ibb.co/SvF8DQC/3dgifmaker23584.gif"group-title="CHILE",PLENITUD TV HD 24/7
-https://live20.bozztv.com/giatvplayout7/giatv-208727/tracks-v1a1/mono.ts.m3u8
-
-
-#EXTINF:-1 tvg-logo="https://i.ibb.co/0RW7vLm8/IMG-20250330-WA0067.jpg"group-title="CHILE",PLENITUD TV JUVENIL HD
-https://live20.bozztv.com/giatvplayout7/giatv-209259/tracks-v1a1/mono.ts.m3u8
-
-#EXTINF:-1 tvg-logo="https://i.ibb.co/SvF8DQC/3dgifmaker23584.gif"group-title="CHILE",PLENITUD TV HD SSH
-https://live20.bozztv.com/akamaissh101/ssh101/testvideo40/chunks.m3u8
-
-
-#EXTINF:-1 tvg-logo="https://i.ibb.co/Ltxhb9R/3dgifmaker44420.gif"group-title="CHILE",RED TV CHILLAN
-https://micanal.ovh/livestreams/89.0WWM5NZ7JVZQ.m3u8
-
-
-#EXTINF:-1 tvg-logo="https://i.ibb.co/Ltxhb9R/3dgifmaker44420.gif"group-title="CHILE",RED TV CHILLAN OPCIÓN 3
-https://live20.bozztv.com/akamaissh101/ssh101/testvideo50/playlist.m3u8
 
 
 #EXTINF:-1 tvg-logo="https://www.tevevida.com/images/logo_01.png"group-title="CHILE",TEVE VIDA HD
