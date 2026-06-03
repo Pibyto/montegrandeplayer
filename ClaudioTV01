@@ -494,11 +494,6 @@ https://run-rt-uh-roku.otteravision.com/run/rt_uh/rt_uh_720.m3u8
 http://190.102.242.130:25461/hls/cinrwarpower/1234567/190/078fcb23c67d19ac52fd544aeffbe26f/190_1680.ts
 
 
-
-
-
-
-
 #EXTINF:-1 tvg-logo="https://orbittv.net/images/logotv.png"group-title="CINE PREMIUM",ORBIT TV
 https://cnn.hostlagarto.com/orbittv/tracks-v1a1/index.m3u8
 
@@ -517,15 +512,46 @@ https://a-cdn.klowdtv.com/live1/cine_720p/chunks.m3u8
 #EXTINF:-1 tvg-logo="https://brandemia.org/wp-content/uploads/2013/02/logo_telemundo_principal.jpg"group-title="CINE PREMIUM",TELEMUNDO ACCION
 https://xumo-drct-ch835-ekq0p.fast.nbcuni.com/live/master_5.m3u8
 
-#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/e/e6/CinecanalLA.png"group-title="CINE PREMIUM",CINECANAL 
-http://sdmx.vip/live/AngelicaAntonietaTellez/A4Pnrrfhw4FJ/2092595.ts
+
+#EXTINF:-1 tvg-logo=""group-title="CINE PREMIUM",CINEMAX
+http://liketv.pro/live/diegos2024/Coly2413/17435.ts
+
+
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/e/e6/CinecanalLA.png"group-title="CINE PREMIUM",CINECANAL
+http://liketv.pro/live/diegos2024/Coly2413/17571.ts
+
+
+#EXTINF:-1 tvg-logo=""group-title="CINE PREMIUM",DHE
+http://liketv.pro/live/diegos2024/Coly2413/17622.ts
+
+
+#EXTINF:-1 tvg-logo=""group-title="CINE PREMIUM",HBO
+http://liketv.pro/live/diegos2024/Coly2413/17408.ts
+
+
+
+#EXTINF:-1 tvg-logo=""group-title="CINE PREMIUM",HBO2
+http://liketv.pro/live/diegos2024/Coly2413/17409.ts
+
+#EXTINF:-1 tvg-logo=""group-title="CINE PREMIUM",HBO+
+http://liketv.pro/live/diegos2024/Coly2413/17596.ts
+
+
+
+#EXTINF:-1 tvg-logo=""group-title="CINE PREMIUM",HBO XTREME 
+http://liketv.pro/live/diegos2024/Coly2413/17599.ts
+
+
+
+ 
+
 
 #EXTINF:-1 tvg-logo=""group-title="CINE PREMIUM",AMC
-http://201.217.246.42:44310/Live/3fcb6e26785fd8d415571b26dc3cf5d3/local-76_720.m3u8
+
 
 
 #EXTINF:-1 tvg-logo=""group-title="CINE PREMIUM",AXN
-http://201.217.246.42:44310/Live/3fcb6e26785fd8d415571b26dc3cf5d3/local-77_480.m3u8
+
 
 
 #EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTOspY0DemQf4NaEMxXnKQQKCpDwOfVCdtnZg&usqp=CAU"group-title="CINE PREMIUM",CINE SONY
