@@ -517,7 +517,7 @@ https://xumo-drct-ch835-ekq0p.fast.nbcuni.com/live/master_5.m3u8
 http://liketv.pro/live/diegos2024/Coly2413/17435.ts
 
 
-#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/e/e6/CinecanalLA.png"group-title="CINE PREMIUM",CINECANAL
+#EXTINF:-1 tvg-logo=""group-title="CINE PREMIUM",CINECANAL
 http://liketv.pro/live/diegos2024/Coly2413/17571.ts
 
 
@@ -549,7 +549,7 @@ http://liketv.pro/live/diegos2024/Coly2413/17637.ts
 
 
 #EXTINF:-1 tvg-logo=""group-title="CINE PREMIUM",AMC
-
+http://liketv.pro/live/diegos2024/Coly2413/8016.ts
 
 
 #EXTINF:-1 tvg-logo=""group-title="CINE PREMIUM",AXN
