@@ -17,7 +17,7 @@ https://lbgo.bozztv.com/ssh101/ssh101/max16/playlist.m3u8
 https://srv3.zcast.com.br/gentv/gentv/playlist.m3u8
 
 
-#EXTINF:-1 tvg-logo="https://tinyurl.com/Ipersonica"group-title="BUENOS AIRES", IPERSONICA TV 
+#EXTINF:-1 tvg-logo="https://tinyurl.com/Ipersonicateve"group-title="BUENOS AIRES", IPERSONICA TV 
 https://lbgo.bozztv.com/ssh101/ssh101/ipersonica/playlist.m3u8
 
 
@@ -438,7 +438,7 @@ https://live20.bozztv.com/akamaissh101/ssh101/plaaytv/chunks.m3u8
 https://live20.bozztv.com/akamaissh101/ssh101/montegrandetv/chunks.m3u8
 
 
-#EXTINF:-1 tvg-logo="https://tinyurl.com/Ipersonicatv"group-title="CINE PREMIUM",IPERSONICATV
+#EXTINF:-1 tvg-logo="https://tinyurl.com/Ipersonicateve"group-title="CINE PREMIUM",IPERSONICATV
 https://lbgo.bozztv.com/ssh101/ssh101/ipersonica/playlist.m3u8
 
 
