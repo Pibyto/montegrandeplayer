@@ -311,7 +311,8 @@ https://live20.bozztv.com/giatvplayout/giatvvod/giatv/movies/pvod/210866/El_hilo
 https://videos.gia.tv/giatv/movies/playlist/208730/3L_N0V10_DE_M4M4.mp4
 
 
-
+#EXTINF:-1 tvg-logo="https://media.themoviedb.org/t/p/w220_and_h330_face/dUbv0BuEHrDDvvoQ14OaBeBrpXu.jpg"group-title="P.ARGENTINAS",UN OSO ROJO
+https://videos.gia.tv/giatv/movies/playlist/208538/Un_oso_rojo___Argentina__2002__1080P_HD_.mp4
 
 
 
@@ -392,8 +393,7 @@ http://ia801303.us.archive.org/24/items/000_20201026/00009.mp4
 http://ia801303.us.archive.org/24/items/sst_20200905/sst.mp4
 
 
-#EXTINF:-1 tvg-logo="https://media.themoviedb.org/t/p/w220_and_h330_face/dUbv0BuEHrDDvvoQ14OaBeBrpXu.jpg"group-title="HECHOS REALES",UN OSO ROJO
-https://videos.gia.tv/giatv/movies/playlist/208538/Un_oso_rojo___Argentina__2002__1080P_HD_.mp4
+
 
 
 
