@@ -24,6 +24,9 @@ https://lbgo.bozztv.com/ssh101/ssh101/ipersonica/playlist.m3u8
 #EXTINF:-1 tvg-logo="https://tinyurl.com/Bairesteve"group-title="BUENOS AIRES",BAYRES TV HD
 https://streaming01.mikrolive.tv/bayrestv/live/chunklist_w963757112.m3u8
 
+#EXTINF:-1 tvg-logo="https://tinyurl.com/Elmagoteve"group-title="BUENOS AIRES",EL MAGO TV
+https://live20.bozztv.com/akamaissh101/ssh101/elmagotv2/chunks.m3u8
+
 
 #EXTINF:-1 tvg-logo="https://tinyurl.com/Neoteve"group-title="BUENOS AIRES",NEO TV DIGITAL HD. 16.1 
 https://videostream.shockmedia.com.ar:19360/neotvdigital/neotvdigital.m3u8
@@ -49,8 +52,7 @@ https://panel.host-live.com:19360/8012/8012.m3u8
 https://videostream.shockmedia.com.ar:19360/cincotv/cincotv.m3u8
 
 
-#EXTINF:-1 tvg-logo="https://tinyurl.com/y5cz72tm"group-title="BUENOS AIRES",EL MAGO TV
-https://live20.bozztv.com/akamaissh101/ssh101/elmagotv2/chunks.m3u8
+
 
 
 
