@@ -283,7 +283,8 @@ http://liketv.pro/live/diegos2024/Coly2413/291.ts
 http://liketv.pro/live/diegos2024/Coly2413/149.ts
 
 
-#EXTINF:-1 tvg-logo=""group-title="ARGENTINA", DSPORTS 
+#EXTINF:-1 tvg-logo=""group-title="ARGENTINA"ESPN3
+http://181.118.153.15:8000/play/lt41/index.m3u8
 
 
 
