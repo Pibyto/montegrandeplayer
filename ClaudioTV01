@@ -71,22 +71,22 @@ https://g2.vxral-slo.transport.edge-access.net:443/a11/ngrp:canal_luz01-100009_a
 
 
 #EXTINF:-1 tvg-logo="https://tinyurl.com/3vzrwff3"group-title="BUENOS AIRES",CINCO TV HD  TIGRE
-https://videostream.shockmedia.com.ar:19360/cincotv/cincotv.m3u8
 
 
 
 
-#EXTINF:-1 tvg-logo="https://tinyurl.com/cauy9zzh"group-title="BUENOS AIRES",BRAVO TV
+
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/5/5e/Bravotv.png"group-title="BUENOS AIRES",BRAVO TV
 https://redirector.rudo.video/hls-video/c54ac2799874375c81c1672abb700870537c5223/bravo/bravo.smil/playlist.m3u8
 
 
 
 
 
-#EXTINF:-1 tvg-logo="https://tinyurl.com/47mb7xf9"group-title="BUENOS AIRES",CANAL 26
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/Canal_26_logo_%282022%29.svg/330px-Canal_26_logo_%282022%29.svg.png"group-title="BUENOS AIRES",CANAL 26
 https://stream-gtlc.telecentro.net.ar/hls/canal26hls/0/playlist.m3u8?uid=d1ab8e18c3a4e4fdc5b8b00e287498d9
 
-#EXTINF:-1 tvg-logo="https://tinyurl.com/6nruejr3"group-title="BUENOS AIRES", NET TV HD  27.2
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/a/a5/Net_TV_logo.png"group-title="BUENOS AIRES", NET TV HD  27.2
 https://unlimited1-us.dps.live/nettv/nettv.smil/playlist.m3u8
 
 
