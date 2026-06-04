@@ -3,7 +3,7 @@
 #########( BUENOS AIRES )#########
 
  
-#EXTINF:-1 tvg-logo="https://tinyurl.com/Playtvfucsia"group-title="BUENOS AIRES",PLAYTV CINE
+#EXTINF:-1 tvg-logo="https://tinyurl.com/FucsiaPlay"group-title="BUENOS AIRES",PLAYTV CINE
 https://live20.bozztv.com/akamaissh101/ssh101/plaaytv/chunks.m3u8
 
 
@@ -431,7 +431,7 @@ https://live20.bozztv.com/giatvplayout7/giatv-208730/playlist.m3u8
 
 
 
-#EXTINF:-1 tvg-logo="https://tinyurl.com/Plaayteve"group-title="CINE PREMIUM",PLAY TV CINE 
+#EXTINF:-1 tvg-logo="https://tinyurl.com/YelowPlay"group-title="CINE PREMIUM",PLAY TV CINE 
 https://live20.bozztv.com/akamaissh101/ssh101/plaaytv/chunks.m3u8
 
 #EXTINF:-1 tvg-logo="https://tinyurl.com/2hy6uu5x"group-title="CINE PREMIUM",MONTEGRANDETV
