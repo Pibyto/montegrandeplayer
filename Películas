@@ -6,6 +6,8 @@
 
 
 
+#EXTINF:-1 tvg-logo="https://media.themoviedb.org/t/p/w220_and_h330_face/rmCkNtzYR2xTOO3ZXmIqB5zgYdE.jpg"group-title="ESTRENOS", OBSESIÓN
+
 
 #EXTINF:-1 tvg-logo="https://media.themoviedb.org/t/p/w220_and_h330_face/w8nrM9hCTxoeX96HmTQpC0HbkMY.jpg"group-title="ESTRENOS",BACKRROMS 2026
 https://videos.gia.tv/giatv/movies/playlist/209163/B44CK660M.mp4
@@ -162,7 +164,13 @@ https://videos.gia.tv/giatv/movies/playlist/209163/p34k1_bl1nd3r_2026.mp4
 #EXTINF:-1 tvg-logo="https://media.themoviedb.org/t/p/w220_and_h330_face/SPGBZj12OVOCZdYJVPIJcpOYvZ.jpg"group-title="ACCIÓN", MÁQUINA DE GUERRA 
 https://videos.gia.tv/giatv/movies/playlist/209163/M4QU1N4_D3_6U3RR4.mp4
 
+#EXTINF:-1 tvg-logo="https://media.themoviedb.org/t/p/w220_and_h330_face/6YbTJhN5GJQOlZ1IyRiCyhKSiJE.jpg"group-title="ACCIÓN",NOVOCAINE
+https://videos.gia.tv/giatv/movies/playlist/208138/N0V0C41N3.mp4
 
+
+
+#EXTINF:-1 tvg-logo="https://media.themoviedb.org/t/p/w220_and_h330_face/jwBcQXp7WgYgrcANpnuLCCfLpkK.jpg"group-title="ACCIÓN", AMIGOS DE ARMAS
+https://videos.gia.tv/giatv/movies/playlist/209163/AM160S_D3_4RM4S.mp4
 
 
 #EXTINF:-1 tvg-logo="https://media.themoviedb.org/t/p/w220_and_h330_face/7HN5rOyLkbeBabX4uBcbwU9K1wW.jpg"group-title="ACCIÓN",UPGRADE
