@@ -28,8 +28,9 @@ https://streaming01.mikrolive.tv/bayrestv/live/chunklist_w963757112.m3u8
 https://live20.bozztv.com/akamaissh101/ssh101/elmagotv2/chunks.m3u8
 
 
-#EXTINF:-1 tvg-logo="https://tinyurl.com/Telemixtevesp"group-title="BUENOS AIRES",TELEMIX HD
-https://live20.bozztv.com/giatv/giatv-telemixenvivo/telemixenvivo/chunks.m3u8
+#EXTINF:-1 tvg-logo="https://tinyurl.com/Telemixteve"group-title="BUENOS AIRES",TELEMIX HD
+https://live20.bozztv.com/giatv/giatv-telemixenvivo/telemixenvivo/chunks.m3u
+
 
 #EXTINF:-1 tvg-logo="https://tinyurl.com/Neoteve"group-title="BUENOS AIRES",NEO TV DIGITAL HD. 16.1 
 https://videostream.shockmedia.com.ar:19360/neotvdigital/neotvdigital.m3u8
