@@ -35,6 +35,10 @@ https://live20.bozztv.com/akamaissh101/ssh101/elmagotv2/chunks.m3u8
 https://183.bozztv.com/giatv/giatv-telemixenvivo/telemixenvivo/playlist.m3u8
 
 
+#EXTINF:-1 tvg-logo="https://tinyurl.com/Altarteve"group-title="BUENOS AIRES",ALTAR TV HD
+https://vidartv2.todostreaming.es/live/radiovida-altar724.m3u8
+
+
 #EXTINF:-1 tvg-logo="https://tinyurl.com/Lamilteve"group-title="BUENOS AIRES",LA MIL35
 https://vd01.streaminghd.net.ar:3349/live/bzuctkgnlive.m3u8
 
@@ -75,8 +79,7 @@ https://videostream.shockmedia.com.ar:19360/cincotv/cincotv.m3u8
 #EXTINF:-1 tvg-logo="https://tinyurl.com/cauy9zzh"group-title="BUENOS AIRES",BRAVO TV
 https://redirector.rudo.video/hls-video/c54ac2799874375c81c1672abb700870537c5223/bravo/bravo.smil/playlist.m3u8
 
-#EXTINF:-1 tvg-logo="https://tinyurl.com/2s3eucvy"group-title="BUENOS AIRES",ALTAR TV HD
-https://vidartv2.todostreaming.es/live/radiovida-altar724.m3u8
+
 
 
 
