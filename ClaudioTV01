@@ -58,7 +58,7 @@ https://canadaremar2.todostreaming.es/live/solidariatv-webhd.m3u8
 #EXTINF:-1 tvg-logo="https://static.wikia.nocookie.net/doblaje/images/a/a8/Ciudadmagazine-logonuevo.png/revision/latest?cb=20200203001356&path-prefix=es"group-title="BUENOS AIRES",MAGAZINE
 https://livetrx01.vodgc.net/live-01-07-ciudad.vodgc.net/tracks-v3a1/mono.m3u8
 
-#EXTINF:-1 tvg-logo="https://tinyurl.com/4xw67je6"group-title="BUENOS AIRES",CANAL LUZ HD
+#EXTINF:-1 tvg-logo="https://tinyurl.com/canalLuz"group-title="BUENOS AIRES",CANAL LUZ HD
 https://g2.vxral-slo.transport.edge-access.net:443/a11/ngrp:canal_luz01-100009_all/canal_luz01-100009_1080p/index.m3u8
 
 
