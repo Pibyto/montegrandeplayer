@@ -25,6 +25,9 @@ https://lbgo.bozztv.com/ssh101/ssh101/ipersonica/playlist.m3u8
 https://streaming01.mikrolive.tv/bayrestv/live/chunklist_w963757112.m3u8
 
 
+#EXTINF:-1 tvg-logo="https://tinyurl.com/Neoteve"group-title="BUENOS AIRES",NEO TV DIGITAL HD. 16.1 
+https://videostream.shockmedia.com.ar:19360/neotvdigital/neotvdigital.m3u8
+
 
 #EXTINF:-1 tvg-logo="https://nnssmadrid.files.wordpress.com/2015/09/a4-solidaria-tv.png?w=276"group-title="BUENOS AIRES",SOLIDARIA TV HD
 https://canadaremar2.todostreaming.es/live/solidariatv-webhd.m3u8
@@ -37,8 +40,7 @@ https://livetrx01.vodgc.net/live-01-07-ciudad.vodgc.net/tracks-v3a1/mono.m3u8
 https://g2.vxral-slo.transport.edge-access.net:443/a11/ngrp:canal_luz01-100009_all/canal_luz01-100009_1080p/index.m3u8
 
 
-#EXTINF:-1 tvg-logo="https://tinyurl.com/bdesbdzn"group-title="BUENOS AIRES",NEO TV DIGITAL HD. 16.1 
-https://videostream.shockmedia.com.ar:19360/neotvdigital/neotvdigital.m3u8
+
 
 #EXTINF:-1 tvg-logo="https://tinyurl.com/mub2ewfd"group-title="BUENOS AIRES",TELECREATIVA HD
 https://panel.host-live.com:19360/8012/8012.m3u8
