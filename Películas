@@ -16,7 +16,7 @@ https://videos.gia.tv/giatv/movies/playlist/208138/EL_3NG4__0.mp4
 
 
 
-#EXTINF:-1 tvg-logo=https://media.themoviedb.org/t/p/w220_and_h330_face/yfgquGqeT6DtdsIzPPzTLRABBy0.jpg"group-title="ESTRENOS",EN LA ZONA GRIS 2026
+#EXTINF:-1 tvg-logo="https://media.themoviedb.org/t/p/w220_and_h330_face/yfgquGqeT6DtdsIzPPzTLRABBy0.jpg"group-title="ESTRENOS",EN LA ZONA GRIS 2026
 https://videos.gia.tv/giatv/movies/playlist/209163/EN_L4_Z0N4_6R1_.mp4
 
 
@@ -151,6 +151,11 @@ https://videos.gia.tv/giatv/movies/playlist/208744/corazon_delator_mp4.mp4
 https://videos.gia.tv/giatv/movies/playlist/209163/J_4CK_RY_4N_OF_T0M_CL4_NCY.mp4
 
 
+#EXTINF:-1 tvg-logo="https://media.themoviedb.org/t/p/w220_and_h330_face/9X8EhbSpYrf6pGFGttWtVDAs9Hr.jpg"group-title="ACCIÓN", SENTENCIA DE MUERTE
+https://videos.gia.tv/giatv/movies/playlist/209163/Sentencia_de_muerte__2007____La_Movie_____Pel__culas__Series_y_Animes_Online_en_HD_Gratis.mp4
+
+
+
 #EXTINF:-1 tvg-logo="https://media.themoviedb.org/t/p/w220_and_h330_face/l9S8MLUyi2diTc2Gf3KDAOQTuVx.jpg"group-title="ACCIÓN",P34KY BL1ND3R$
 https://videos.gia.tv/giatv/movies/playlist/209163/p34k1_bl1nd3r_2026.mp4
 
@@ -201,8 +206,6 @@ https://archive.org/download/ReAsSRREGIO/ReAsSRREGIO.mkv
 https://videos.gia.tv/giatv/movies/playlist/208744/La_Colonia___Espa__ol_Latino___HD_720p.mp4
 
 
-#EXTINF:-1 tvg-logo="https://media.themoviedb.org/t/p/w220_and_h330_face/9X8EhbSpYrf6pGFGttWtVDAs9Hr.jpg"group-title="ACCIÓN", SENTENCIA DE MUERTE
-http://ia801303.us.archive.org/24/items/5R67NLJX/BKPSDM24.mkv
 
 
 
@@ -226,7 +229,7 @@ http://ia601407.us.archive.org/28/items/05e-87d-755b-52ca-68ff-753767357879d-8-3
 http://ia801303.us.archive.org/24/items/000_20200321_20200321/02.mp4
 
 
-#EXTINF:-1 tvg-logo="https://pics.filmaffinity.com/enemy_of_the_state-893002243-large.jpg"group-title="ACCIÓN",ENEMIGO PÚBLICO 
+#EXTINF:-1 tvg-logo="https://media.themoviedb.org/t/p/w220_and_h330_face/pHLraZnPPAchPFQqbdZcNcNudKz.jpg"group-title="ACCIÓN",ENEMIGO PÚBLICO 
 http://ia801303.us.archive.org/24/items/20230409_20230409_0139/3.n.3.m.1.g.0%20P.6.b.l.1.c.0%20%281998%29.mp4
 
 #EXTINF:-1 tvg-logo="https://i.pinimg.com/474x/ab/16/85/ab16850d88d1b93369014ad9d4cdd6af.jpg"group-title="ACCIÓN",RAMBO 5
@@ -240,11 +243,11 @@ http://ia800100.us.archive.org/14/items/001_20240809/001.mp4
 https://live20.bozztv.com/giatvplayout/giatvvod/giatv/movies/playlist/208538/0_2_THE_OUTPOST.mp4/chunk.m3u8
 
 
-#EXTINF:-1 tvg-logo="http://127.0.0.1/" group-title="ACCIÓN",12 HORAS PARA SOBREVIVIR
+#EXTINF:-1 tvg-logo="https://media.themoviedb.org/t/p/w220_and_h330_face/tWUUXNxyduZcKODNzCQ1UtzbedL.jpg" group-title="ACCIÓN",12 HORAS PARA SOBREVIVIR
 http://archive.org/download/0_20200403/2.mp4
 
 
-#EXTINF:-1 tvg-logo="http://127.0.0.1/" group-title="ACCIÓN",12 HORAS PARA SOBREVIVIR EL INICIO
+#EXTINF:-1 tvg-logo="https://media.themoviedb.org/t/p/w220_and_h330_face/y7RnSJw7VdUTXLNMfxZzgxpVGR9.jpg" group-title="ACCIÓN",12 HORAS PARA SOBREVIVIR EL INICIO
 http://archive.org/download/0_20200403_202004/1.mp4
 
 
