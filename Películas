@@ -6,6 +6,15 @@
 
 
 
+
+
+
+
+
+#EXTINF:-1 tvg-logo="https://media.themoviedb.org/t/p/w220_and_h330_face/v56hSpcEnS0joV9lUn9bKpPdktl.jpg"group-title="ESTRENOS",LA CASACA DE DIOS 2026
+https://videos.gia.tv/giatv/movies/playlist/208138/L4_C4S4C4_D3_D10S.mp4
+
+
 #EXTINF:-1 tvg-logo="https://media.themoviedb.org/t/p/w220_and_h330_face/rmCkNtzYR2xTOO3ZXmIqB5zgYdE.jpg"group-title="ESTRENOS", OBSESIÓN 2026
 https://videos.gia.tv/giatv/movies/playlist/208138/0BS3S1_N.mp4
 
@@ -229,15 +238,27 @@ https://pixeldrain.com/api/file/LNa6G4D8
 
 
 
-#EXTINF:-1 tvg-logo=""group-title="ACCIÓN",
+#EXTINF:-1 tvg-logo="https://media.themoviedb.org/t/p/w220_and_h330_face/mLvjQ0IIdzZfQzQXULI7sIVxd8V.jpg"group-title="ACCIÓN",INFINITE
 https://pixeldrain.com/api/file/rqQybxku
 
 
 
-#EXTINF:-1 tvg-logo=""group-title="ACCIÓN",by
+#EXTINF:-1 tvg-logo="https://media.themoviedb.org/t/p/w220_and_h330_face/ktkn6wc2sb7uQ08ZsHaKPZNRUab.jpg"group-title="ACCIÓN",LA VIEJA GUARDIA 
+https://pixeldrain.com/api/file/crPzQv3g
 
 
-y
+#EXTINF:-1 tvg-logo="https://media.themoviedb.org/t/p/w220_and_h330_face/ugO3UXyFx2fPUquxfRd7EP1bRC2.jpg"group-title="ACCIÓN", MISIÓN RESCATE 2
+https://pixeldrain.com/api/file/8MorzKUP
+
+
+
+#EXTINF:-1 tvg-logo="https://media.themoviedb.org/t/p/w220_and_h330_face/zjbNizlvp7G1fcUtmJeDzaxtIGW.jpg"group-title="ACCIÓN",MIDWAY
+https://pixeldrain.com/api/file/2KB35vQ2
+
+
+
+
+
 
 
 #EXTINF:-1 tvg-logo="https://media.themoviedb.org/t/p/w220_and_h330_face/6YbTJhN5GJQOlZ1IyRiCyhKSiJE.jpg"group-title="ACCIÓN",NOVOCAINE
