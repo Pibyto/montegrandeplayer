@@ -178,7 +178,8 @@ https://videos.gia.tv/giatv/movies/playlist/208744/corazon_delator_mp4.mp4
 
 
 
-
+#EXTINF:-1 tvg-logo="https://media.themoviedb.org/t/p/w220_and_h330_face/tbsDLmo2Ej8YFM0HKcOGfNMTlyJ.jpg"group-title="ACCIÓN",ESTRAGOS
+https://pixeldrain.com/api/file/Vo8qRL96
 
 
 #EXTINF:-1 tvg-logo="https://media.themoviedb.org/t/p/w220_and_h330_face/zSw2JeQ03GivcS4VKJmWK5sYi1F.jpg"group-title="ACCIÓN",GOSHTEADO
@@ -207,31 +208,36 @@ https://pixeldrain.com/api/file/gyPpytRy
 
 
 
-#EXTINF:-1de tvg-logo=""group-title="ACCIÓN",
+#EXTINF:-1de tvg-logo="https://media.themoviedb.org/t/p/w220_and_h330_face/ug4XukdNLwD9Ygyw4V0L5DjoNAp.jpg"group-title="ACCIÓN", ESCUADRON 6
+https://pixeldrain.com/api/file/TLJxPYho
+
+
+
+#EXTINF:-1 tvg-logo="https://media.themoviedb.org/t/p/w220_and_h330_face/wemlYqPEbPXmolbv2I9tPwIrD3C.jpg"group-title="ACCIÓN",CARACORTADA
+https://pixeldrain.com/api/file/ka41vLan
+
+
+
+#EXTINF:-1 tvg-logo="https://media.themoviedb.org/t/p/w220_and_h330_face/m3jj8IJ7uP5p4MqMzgtGW5l4ECd.jpg"group-title="ACCIÓN", HASTA EL ÚLTIMO HOMBRE 
+https://pixeldrain.com/api/file/JH6YuHBF
+
+
+
+
+#EXTINF:-1 tvg-logo="https://media.themoviedb.org/t/p/w220_and_h330_face/zhRUrqZFgau6QxSgUJXnnrYxdc9.jpg"group-title="ACCIÓN", HOMBRE EN LLAMAS
+https://pixeldrain.com/api/file/LNa6G4D8
 
 
 
 #EXTINF:-1 tvg-logo=""group-title="ACCIÓN",
+https://pixeldrain.com/api/file/rqQybxku
 
 
 
-#EXTINF:-1 tvg-logo=""group-title="ACCIÓN",
+#EXTINF:-1 tvg-logo=""group-title="ACCIÓN",by
 
 
-
-
-
-#EXTINF:-1 tvg-logo=""group-title="ACCIÓN",
-
-
-
-
-#EXTINF:-1 tvg-logo=""group-title="ACCIÓN",
-
-
-
-
-
+y
 
 
 #EXTINF:-1 tvg-logo="https://media.themoviedb.org/t/p/w220_and_h330_face/6YbTJhN5GJQOlZ1IyRiCyhKSiJE.jpg"group-title="ACCIÓN",NOVOCAINE
