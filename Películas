@@ -381,6 +381,9 @@ https://videos.gia.tv/giatv/movies/playlist/208538/Un_D__a_Para_Sobrevivir__2011
 #EXTINF:-1 tvg-logo="https://media.themoviedb.org/t/p/w220_and_h330_face/uNmhgNiUzZAknt4sjY1id8nbFCG.jpg"group-title="ACCIÓN",TROPA DE ELITE 
 https://videos.gia.tv/giatv/movies/playlist/208538/Tropa_de___lite__2007_.mp4
 
+#EXTINF:-1 tvg-logo="https://media.themoviedb.org/t/p/w220_and_h330_face/Wc4S6rFHKJ7jyghOdZVWVVC49j.jpg"group-title="ACCIÓN", BLOOD IN BLOOD OUT/ VATOS LACOS
+http://www.deadlyblogger.com/NewRelease/blood.mp4
+
 
 
 
@@ -409,7 +412,7 @@ http://ia801303.us.archive.org/24/items/K9M4ZP3P/DFLZDS25.mkv
 
 
 #EXTINF:-1 tvg-logo="https://media.themoviedb.org/t/p/w220_and_h330_facZLe/a8ogjWFd0QS6BzBkzfDMWukc26i.jpg"group-title="DRAMA-TERROR", GUERRA MUNDIAL Z
-https://pixeldrain.com/api/file/xpf76sMJ
+
 
 
 
@@ -946,11 +949,8 @@ https://archive.org/download/ThSRREGIO_201802/ThSRREGIO.mkv
 
 
 
-#EXTINF:-1 tvg-logo="https://es.web.img3.acsta.net/pictures/17/08/12/23/32/075544.jpg"group-title="PELÍCULAS", BLOOD IN BLOOD OUT/ VATOS LACOS
-http://www.deadlyblogger.com/NewRelease/blood.mp4
 
-
-#EXTINF:-1 tvg-logo="https://static.wikia.nocookie.net/doblaje/images/4/41/The_edge_of_seventeen_latam_poster.jpg/revision/latest/top-crop/width/360/height/450?cb=20170805050357&path-prefix=es"group-title="PELÍCULAS",  MI VIDA A LOS 17
+#EXTINF:-1 tvg-logo="https://static.wikia.nocookie.net/doblaje/images/4/41/The_edge_of_seventeen_latam_poster.jpg/revision/latest/top-crop/width/360/height/450?cb=20170805050357&path-prefix=es"group-title="COMEDIA", MI VIDA A LOS 17
 http://bit.ly/2v16m9z
 
 
