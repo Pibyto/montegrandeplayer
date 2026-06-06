@@ -103,8 +103,9 @@ https://live.presstv.ir/hls/hispantv.m3u8
 https://dwamdstream104.akamaized.net/hls/live/2015530/dwstream104/stream04/streamPlaylist.m3u8
 
 
-#EXTINF:-1 tvg-logo="https://static.wikia.nocookie.net/logopedia/images/a/a5/Eltreceinternacional-logo-2016.png/revision/latest?cb=20161019052654"group-title="BUENOS AIRES",EL TRECE INTERNACIONAL 
-http://45.188.229.33:8000/play/a0x2/47724674.m3u8
+#EXTINF:-1 tvg-logo="https://static.wikia.nocookie.net/logopedia/images/a/a5/Eltreceinternacional-logo-2016.png/revision/latest?cb=20161019052654"group-title="BUENOS AIRES",EL TRECE INTERNACIONAL
+http://liketv.pro/live/diegos2024/Coly2413/84.ts
+
 
 
 
