@@ -525,6 +525,13 @@ https://pixeldrain.com/api/file/B6aqi57K
 https://videos.gia.tv/giatv/movies/playlist/208730/4F_73R_.mp4
 
 
+#EXTINF:-1 tvg-logo="https://media.themoviedb.org/t/p/w220_and_h330_face/gdm8fiZ05He7OLzyr2XRwOXT2vm.jpg"group-title="ROMANCE",EL HILO ROJO
+https://live20.bozztv.com/giatvplayout/giatvvod/giatv/movies/pvod/210866/El_hilo_Rojo.mp4/chunk.m3u8
+
+
+#EXTINF:-1 tvg-logo="https://media.themoviedb.org/t/p/w220_and_h330_face/fRvAAnok5idXu42DNVAuXaNxx6x.jpg"group-title="ROMANCE", CUANDO TE ENCUENTRE
+http://ia803207.us.archive.org/12/items/43YOFN2V/CUATEN12.mkv
+
 
 
 #EXTINF:-1 tvg-logo=""group-title="ROMANCE",
@@ -811,8 +818,6 @@ https://videos.gia.tv/giatv/movies/playlist/208730/c0n_70d0__m3n0__c0n7160_2023.
 
 
 
-#EXTINF:-1 tvg-logo="https://media.themoviedb.org/t/p/w220_and_h330_face/fRvAAnok5idXu42DNVAuXaNxx6x.jpg"group-title="COMEDIA", CUANDO TE ENCUENTRE
-http://ia803207.us.archive.org/12/items/43YOFN2V/CUATEN12.mkv
 
 
 
@@ -837,7 +842,7 @@ http://ia801005.us.archive.org/11/items/zqu21148_zoqqa_3/su1id0_p4r4_stre4ming_a
 
 
 
-#EXTINF:-1 tvg-logo="https://dx35vtwkllhj9.cloudfront.net/universalstudios/a-dogs-journey/images/regions/ar/onesheet.jpg"group-title="COMEDIA", LA RAZON DE ESTAR CONTIGO
+#EXTINF:-1 tvg-logo="https://dx35vtwkllhj9.cloudfront.net/universalstudios/a-dogs-journey/images/regions/ar/onesheet.jpg"group-title="AVENTURA", LA RAZON DE ESTAR CONTIGO
 https://dl.dropboxusercontent.com/s/qga7cwijfr4eua2/SalynPM-SPM7s3g.mp4?dl=0
 
 
