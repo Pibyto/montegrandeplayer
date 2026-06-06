@@ -419,6 +419,13 @@ http://www.deadlyblogger.com/NewRelease/blood.mp4
 https://videos.gia.tv/giatv/movies/playlist/208138/0BS3S1_N.mp4
 
 
+#EXTINF:-1 tvg-logo="https://media.themoviedb.org/t/p/w220_and_h330_facZLe/a8ogjWFd0QS6BzBkzfDMWukc26i.jpg"group-title="DRAMA-TERROR",
+GUERRA MUNDIAL 
+https://pixeldrain.com/api/file/xpf76sMJ
+
+
+
+
 #EXTINF:-1 tvg-logo="https://media.themoviedb.org/t/p/w220_and_h330_face/gTixr9G9qFllyCpcON4gOV2aC2.jpg"group-title="DRAMA-TERROR",SOY LEYENDA 
 https://pixeldrain.com/api/file/KnUcdfYy
 
@@ -429,11 +436,6 @@ https://pixeldrain.com/api/file/wGZhWRr8
 
 #EXTINF:-1 tvg-logo="https://media.themoviedb.org/t/p/w220_and_h330_face/T0IGau7Alj52OLrrthzftkLMIA.jpg"group-title="DRAMA-TERROR",DESTINO FINAL 5
 http://ia801303.us.archive.org/24/items/K9M4ZP3P/DFLZDS25.mkv
-
-
-
-#EXTINF:-1 tvg-logo="https://media.themoviedb.org/t/p/w220_and_h330_facZLe/a8ogjWFd0QS6BzBkzfDMWukc26i.jpg"group-title="DRAMA-TERROR",GUERRA MUNDIAL 
-https://pixeldrain.com/api/file/xpf76sMJ
 
 
 
@@ -571,7 +573,7 @@ https://pixeldrain.com/api/file/htyXjdwE
 
 
 
-#EXTINF:-1 tvg-logo=""group-title="AVENTURA",
+#EXTINF:-1 tvg-logo="https://media.themoviedb.org/t/p/w220_and_h330_face/aBNoiJ6YOrUW2xu9dT8OKppiwdo.jpg"group-title="AVENTURA",
 EL LLAMADO SALVAJE
 https://pixeldrain.com/api/file/fCPL3axr
 
@@ -824,8 +826,8 @@ https://videos.gia.tv/giatv/movies/playlist/208730/C0NT160_3N_3L_FU7UR0.mp4
 https://videos.gia.tv/giatv/movies/playlist/208817/_4R4T3_K1D__L3G3ND_.mp4
 
 
-#EXTINF:-1 tvg-logo="https://media.themoviedb.org/t/p/w220_and_h330_face/s9EWMx96aWVDQzuCBdSwO63HDfu.jpg"group-title="COMEDIA",NO ESTAS INVITADA
-https://videos.gia.tv/giatv/movies/playlist/208138/NO_3_T4__1NV1T4D4_4_M1TZV4H.mp4
+#EXTINF:-1 tvg-logo="https://media.themovieñdb.org/t/p/w220_and_h330_face/s9EWMx96aWVDQzuCBdSwO63HDfu.jpg"group-title="COMEDIA",NO ESTAS INVITADA
+https://videos.gia.tv/giatv/movies/wplaylist/208138/NO_3_T4__1NV1T4D4_4_M1TZV4H.mp4
 
 
 
@@ -921,7 +923,12 @@ http://ia801303.us.archive.org/24/items/20230409_20230409_0252/4.X.L.%20%282018%
 
 
 
-#EXTINF:-1 tvg-logo=""group-title="CIENCIA FICCIÓN",
+#EXTINF:-1 tvg-logo="https://media.themoviedb.org/t/p/w220_and_h330_face/bQ2aNqcIGopI2AsTREc8sQlz6CN.jpg"group-title="CIENCIA FICCIÓN", ZONA DE RIESGO 
+https://pixeldrain.com/api/file/R26fFA4V
+
+
+#EXTINF:-1 tvg-logo="https://media.themoviedb.org/t/p/w220_and_h330_face/jFAi1Uv3JjNPEgjKuneG5mBlAvA.jpg"group-title="CIENCIA FICCIÓN",TENET
+https://pixeldrain.com/api/file/3kSgXutx
 
 
 
