@@ -416,6 +416,9 @@ http://www.deadlyblogger.com/NewRelease/blood.mp4
 https://videos.gia.tv/giatv/movies/playlist/208138/0BS3S1_N.mp4
 
 
+#EXTINF:-1 tvg-logo="https://media.themoviedb.org/t/p/w220_and_h330_face/gTixr9G9qFllyCpcON4gOV2aC2.jpg"group-title="DRAMA-TERROR",SOY LEYENDA 
+https://pixeldrain.com/api/file/KnUcdfYy
+
 
 #EXTINF:-1 tvg-logo="https://media.themoviedb.org/t/p/w220_and_h330_face/2gucnaxqpzEDycFmPwwqjiwvemA.jpg"group-title="DRAMA-TERROR",DOCTOR SUEÑO
 https://pixeldrain.com/api/file/wGZhWRr8
@@ -427,19 +430,25 @@ http://ia801303.us.archive.org/24/items/K9M4ZP3P/DFLZDS25.mkv
 
 
 #EXTINF:-1 tvg-logo="https://media.themoviedb.org/t/p/w220_and_h330_facZLe/a8ogjWFd0QS6BzBkzfDMWukc26i.jpg"group-title="DRAMA-TERROR", GUERRA MUNDIAL Z
+https://pixeldrain.com/api/file/xpf76sMJ
 
 
 
 
-
-#EXTINF:-1 tvg-logo=""group-title="DRAMA-TERROR",
-
-
+#EXTINF:-1 tvg-logo="https://media.themoviedb.org/t/p/w220_and_h330_face/q9caNLfcdLX0Q6HctTCEHGnWW5P.jpg"group-title="DRAMA-TERROR", ESCAPE ROOM 1
+https://pixeldrain.com/api/file/dTrvguGi
 
 
+#EXTINF:-1 tvg-logo="https://media.themoviedb.org/t/p/w220_and_h330_face/hEmpLIyeRGR683s31Q9oCwkSoCi.jpg"group-title="DRAMA-TERROR",ESCAPE ROOM 2
+https://pixeldrain.com/api/file/CA6W2p4a
 
-#EXTINF:-1 tvg-logo=""group-title="DRAMA-TERROR",
 
+#EXTINF:-1 tvg-logo="https://media.themoviedb.org/t/p/w220_and_h330_face/rZnsbdwRN5j87FS1KtgXvMiNiqa.jpg"group-title="DRAMA-TERROR", ESTACION ZOMBIE 
+https://pixeldrain.com/api/file/wXkMg5cq
+
+
+#EXTINF:-1 tvg-logo="https://media.themoviedb.org/t/p/w220_and_h330_face/kiPmIodLT3dGVdRItMBITO2c5a6.jpg"group-title="DRAMA-TERROR",EXTERMINIO 2 
+https://pixeldrain.com/api/file/uok4Bm6h
 
 
 
