@@ -542,7 +542,7 @@ http://liketv.pro/live/diegos2024/Coly2413/17435.ts
 
 
 
-#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/8/8a/Tnt_tv_romania.pngb"group-title="CINE PREMIUM",TNT
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/8/8a/Tnt_tv_romania.png"group-title="CINE PREMIUM",TNT
 http://179.60.51.134:8888/TNT/tracks-v1a1/mono.m3u8
 
 
