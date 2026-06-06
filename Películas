@@ -107,6 +107,9 @@ https://videos.gia.tv/giatv/movies/playlist/208730/_0L0_M10.mp4
 #EXTINF:-1 tvg-logo="https://media.themoviedb.org/t/p/w220_and_h330_face/jgJCp2TOtTMGWS766tQhNcuFhjs.jpg"group-title="ESTRENOS",SCREEM 7
 
 
+#EXTINF:-1 tvg-logo="https://media.themoviedb.org/t/p/w220_and_h330_face/yKIG63pXN89EfbTA7yKpwxAU1rf.jpg"group-title="ESTRENOS",F1
+https://pixeldrain.com/api/file/pcrdsJo1
+
 
 #EXTINF:-1 tvg-logo="https://media.themoviedb.org/t/p/w220_and_h330_face/sr1Yoj6XLPTWYcbDoBy67xivW4I.jpg"group-title="ESTRENOS",SOCIAS POR ACCIDENTE 
 https://videos.gia.tv/giatv/movies/playlist/208730/S0C14AS_P0R_ACCID3NT.mp4
@@ -136,7 +139,7 @@ https://videos.gia.tv/giatv/movies/playlist/208138/m1k3___n1k3___n1k3___4l1c3_20
 
 
 
-#EXTINF:-1 tvg-logo=""group-title="ESTRENOS",
+
 
 
 
@@ -525,6 +528,12 @@ https://pixeldrain.com/api/file/B6aqi57K
 https://videos.gia.tv/giatv/movies/playlist/208730/4F_73R_.mp4
 
 
+#EXTINF:-1 tvg-logo="https://media.themoviedb.org/t/p/w220_and_h330_face/jDNSClwYEVwmXfJgYDERvuALlXT.jpg"group-title="ROMANCE", AMOR A MEDIANOCHE
+https://videos.gia.tv/giatv/movies/playlist/208538/cancer_de_sol.mp4
+
+
+
+
 #EXTINF:-1 tvg-logo="https://media.themoviedb.org/t/p/w220_and_h330_face/gdm8fiZ05He7OLzyr2XRwOXT2vm.jpg"group-title="ROMANCE",EL HILO ROJO
 https://live20.bozztv.com/giatvplayout/giatvvod/giatv/movies/pvod/210866/El_hilo_Rojo.mp4/chunk.m3u8
 
@@ -534,7 +543,10 @@ http://ia803207.us.archive.org/12/items/43YOFN2V/CUATEN12.mkv
 
 
 
-#EXTINF:-1 tvg-logo=""group-title="ROMANCE",
+#EXTINF:-1 tvg-logo="https://media.themoviedb.org/t/p/w220_and_h330_face/uESOe0IyKEZaIy0D3WZA3qZRELv.jpg"group-title="ROMANCE",SE TERMINÓ EL TIEMPO
+https://pixeldrain.com/api/file/htyXjdwE
+
+
 
 
 
@@ -734,6 +746,26 @@ http://ia801303.us.archive.org/24/items/00copia_20191122/eg.mp4
 
 #EXTINF:-1 tvg-logo="https://media.themoviedb.org/t/p/w220_and_h330_face/cSrbnS7SItBFenF6jrKGhgFAiaq.jpg"group-title="COMEDIA", NOCHE DE JUEGOOS 
 https://pixeldrain.com/api/file/mprDiory
+
+
+#EXTINF:-1 tvg-logo="https://media.themoviedb.org/t/p/w220_and_h330_face/hWmdqzDuMi4zXTyeFGBwX4X5j2u.jpg"group-title="COMEDIA", TIEMPO PARA MI 
+https://pixeldrain.com/api/file/vXdcaauD
+
+
+#EXTINF:-1 tvg-logo="https://media.themoviedb.org/t/p/w220_and_h330_face/myUjOa4P3G5QLb5wrHtKbi0piD0.jpg"group-title="COMEDIA", SEXTILLIZOS
+https://pixeldrain.com/api/file/skaxnW4s
+
+
+
+
+#EXTINF:-1 tvg-logo=""group-title="COMEDIA",
+
+
+
+
+#EXTINF:-1 tvg-logo=""group-title="COMEDIA",
+
+
 
 
 #EXTINF:-1 tvg-logo="https://media.themoviedb.org/t/p/w220_and_h330_face/5h4UApKNe62K8hoUCc151kQ56Uc.jpg"group-title="COMEDIA",NO SE ACEPTAN DEVOLUCIONES 
@@ -941,7 +973,8 @@ https://videos.gia.tv/giatv/movies/playlist/208817/SI_SOLO_PUDIERA_IMAGINAR_PELI
 https://videos.gia.tv/giatv/movies/playlist/208817/SI_SOLO_PUDIERA_IMAGINAR_2_864x486.mp4
 
 
-
+#EXTINF:-1 tvg-logo="https://media.themoviedb.org/t/p/w220_and_h330_face/fNMHKpqpr5rrKLYlOhRfzZCa0wv.jpg"group-title="CRISTIANO",UN AMOR INQUEBRANTABLE 
+https://pixeldrain.com/api/file/EMJA9dGL
 
 
 #EXTINF:-1 tvg-logo="https://media.themoviedb.org/t/p/w220_and_h330_face/dgLuOQxwphFRyqn9v5uOjFmn7EA.jpg"group-title="CRISTIANO",INFLUENCIA DIVINA
@@ -1020,8 +1053,6 @@ https://videos.gia.tv/giatv/movies/playlist/208817/Encontrando_la_Fe__Pel__cula_
 https://goo.gl/SyvNCX.mkv
 
 
-#EXTINF:-1 tvg-logo="https://media.themoviedb.org/t/p/w220_and_h330_face/xJ7MCAy4oCLerPo3JjnB8lKOhl4.jpg"group-title="OTHER",SOUL 
-https://live20.bozztv.com/giatvplayout/giatvvod/giatv/movies/playlist/208538/0_5_dibujos.mp4/chunk.m3u8
 
 
 
@@ -1030,11 +1061,6 @@ https://live20.bozztv.com/giatvplayout/giatvvod/giatv/movies/playlist/208538/0_5
 
 #EXTINF:-1 tvg-logo="https://m.media-amazon.com/images/I/71A1ST5il9L._AC_SY679_.jpg"group-title="OTHER", ANGRY BIRDS
 http://cecegeek@goo.gl/3KGMLf.mkv
-
-
-#EXTINF:-1 tvg-logo="https://www.ecured.cu/images/0/02/Dios_no_esta_muerto.jpg"group-title="OTHER", DIOS NO ESTA MUERTO
-https://gloria.tv/streaming/2un4HSSCCaYjD97Lqh6FYwwsA
-
 
 
 
@@ -1057,7 +1083,7 @@ http://archive.org/download/10_20200818_20200818/10.mp4
 #EXTINF:-1 tvg-logo="http://127.0.0.1/" group-title="OTHER",16 DESEOS
 http://archive.org/download/15902128715955695074031776787353/1.mp4
 
-#EXTINF:-1 tvg-logo="http://127.0.0.1/" group-title="OTHER",17 OTRA VEZ
+#EXTINF:-1 tvg-logo="http://127.0.0.1/" group-title="COMEDIA",17 OTRA VEZ
 http://archive.org/download/PjfxjsfjddbxjJdjdjdxj/pjfxjsfjddbxj%20jdjdjdxj.mp4
 
 #EXTINF:-1 tvg-logo="http://127.0.0.1/" group-title="OTHER",1917 (AUD)
@@ -1070,7 +1096,7 @@ http://archive.org/download/1_20200418_20200418_2015/hk/1.mp4
 
 
 
-#EXTINF:-1 tvg-logo="https://cdn.cinematerial.com/p/297x/oe3nfpnx/sandy-wexler-movie-poster-md.jpg?v=1492625177"group-title="OTHER", Sandy Wexler (2017)
+#EXTINF:-1 tvg-logo="https://cdn.cinematerial.com/p/297x/oe3nfpnx/sandy-wexler-movie-poster-md.jpg?v=1492625177"group-title="COMEDIA", Sandy Wexler (2017)
 http://bit.ly/MRAQCSAND
 
 
@@ -1095,8 +1121,7 @@ https://ia601500.us.archive.org/0/items/84CK.70-3/84CK.70.FU7U93.3-ES-720.mp4
 
 
 
-#EXTINF:-1 tvg-logo="https://es.web.img2.acsta.net/pictures/18/01/09/10/10/3484018.jpg"group-title="PELÍCULAS", La Forma del Agua SUBTITULADO |
-https://archive.org/download/ThSRREGIO_201802/ThSRREGIO.mkv
+
 
 
 
@@ -1110,7 +1135,7 @@ https://goo.gl/gWJEZq
 
 
 
-#EXTINF:-1 tvg-logo="https://mx.web.img2.acsta.net/pictures/19/09/04/01/28/2348103.jpg"group-title="PELÍCULAS", MI ABUELO ES UN PELIGRO
+#EXTINF:-1 tvg-logo="https://mx.web.img2.acsta.net/pictures/19/09/04/01/28/2348103.jpg"group-title="COMEDIA", MI ABUELO ES UN PELIGRO
 https://goo.gl/KYCQoX
 
 
@@ -1121,14 +1146,12 @@ https://goo.gl/KYCQoX
 
 
 
-#EXTINF:-1 tvg-logo="https://media.themoviedb.org/t/p/w220_and_h330_face/jDNSClwYEVwmXfJgYDERvuALlXT.jpg"group-title="PELICULAS", AMOR A MEDIANOCHE
-https://videos.gia.tv/giatv/movies/playlist/208538/cancer_de_sol.mp4
 
 
 
 
 
-#EXTINF:-1 tvg-logo="https://media.themoviedb.org/t/p/w220_and_h330_face/yNpSqsRuLyyrRltXvtrbXhZinqO.jpg"group-title="PELICULAS",DOG- UN VIAJE SALVAJE
+#EXTINF:-1 tvg-logo="https://media.themoviedb.org/t/p/w220_and_h330_face/yNpSqsRuLyyrRltXvtrbXhZinqO.jpg"group-title="AVENTURA",DOG- UN VIAJE SALVAJE
 https://videos.gia.tv/giatv/movies/playlist/208538/Amigo_Perro.mp4
 
 
