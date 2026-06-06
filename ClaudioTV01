@@ -563,12 +563,12 @@ http://179.60.51.134:8888/PARAMOUNT/tracks-v1a1/mono.m3u8
 
 
 
-#EXTINF:-1v tvg-logo=""group-title="CINE PREMIUM",HBO
+#EXTINF:-1v tvg-logo="https://upload.wikimedia.org/wikipedia/commons/6/67/HBO_New_Logo.png"group-title="CINE PREMIUM",HBO
 http://liketv.pro/live/diegos2024/Coly2413/17408.ts
 
 
 
-#EXTINF:-1 tvg-logo=""group-title="CINE PREMIUM",HBO2
+#EXTINF:-1 tvg-logo="https://ia800507.us.archive.org/32/items/logo.brootv_hbo/HBO_2.png"group-title="CINE PREMIUM",HBO2
 http://liketv.pro/live/diegos2024/Coly2413/17409.ts
 
 #EXTINF:-1 tvg-logo=""group-title="CINE PREMIUM",HBO MMUNDI
