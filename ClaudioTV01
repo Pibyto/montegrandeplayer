@@ -529,12 +529,12 @@ https://xumo-drct-ch835-ekq0p.fast.nbcuni.com/live/master_5.m3u8
 
 
 
-#EXTINF:-1 tvg-logo=""group-title="CINE PREMIUM", SPACE
+#EXTINF:-1 tvg-logo="https://logos-world.net/wp-content/uploads/2023/03/Space-Logo.png"group-title="CINE PREMIUM", SPACE
 http://179.60.51.134:8888/SPACE/tracks-v1a1/mono.m3u8
 
 
 
-#EXTINF:-1 tvg-logo=""group-title="CINE PREMIUM",CINEMAX
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/1/11/Cinemax_%28Yellow%29.svg"group-title="CINE PREMIUM",CINEMAX
 http://liketv.pro/live/diegos2024/Coly2413/17435.ts
 
 
@@ -542,28 +542,28 @@ http://liketv.pro/live/diegos2024/Coly2413/17435.ts
 
 
 
-#EXTINF:-1 tvg-logo=""group-title="CINE PREMIUM",TNT
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/8/8a/Tnt_tv_romania.pngb"group-title="CINE PREMIUM",TNT
 http://179.60.51.134:8888/TNT/tracks-v1a1/mono.m3u8
 
 
 
 
-#EXTINF:-1 tvg-logo=""group-title="CINE PREMIUM", UNIVERSAL 
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/4/42/Universal_TV_logo.svg/1280px-Universal_TV_logo.svg.png"group-title="CINE PREMIUM", UNIVERSAL 
 http://179.60.51.134:8888/UNIVERSAL/tracks-v1a1/mono.m3u8
 
 
-#EXTINF:-1 tvg-logo=""group-title="CINE PREMIUM",USA
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/8/84/USA_Network_2020.svg"group-title="CINE PREMIUM",USA
 http://179.60.51.134:8888/SYFY/tracks-v1a1/mono.m3u8
 
 
-#EXTINF:-1 tvg-logo=""group-title="CINE PREMIUM",DHE
+#EXTINF:-1 tvg-logo="https://static.wikia.nocookie.net/logopedia/images/f/f9/DHE2019.png/revision/latest?cb=20210514013226&path-prefix=es"group-title="CINE PREMIUM",DHE
 http://179.60.51.134:8888/PARAMOUNT/tracks-v1a1/mono.m3u8
 
 
 
 
 
-#EXTINF:-1 tvg-logo=""group-title="CINE PREMIUM",HBO
+#EXTINF:-1v tvg-logo=""group-title="CINE PREMIUM",HBO
 http://liketv.pro/live/diegos2024/Coly2413/17408.ts
 
 
