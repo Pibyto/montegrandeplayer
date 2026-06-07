@@ -1,13 +1,7 @@
-#EXTM3U
+bb 
+http://45.188.229.33:8000/play/a0x2/47724674.m3u8
 
-#########( BUENOS AIRES )#########
-
- 
-#EXTINF:-1 tvg-logo="https://tinyurl.com/FucsiaPlay"group-title="BUENOS AIRES",PLAYTV CINE
-https://live20.bozztv.com/akamaissh101/ssh101/plaaytv/chunks.m3u8
-
-
-#EXTINF:-1 tvg-logo="https://tinyurl.com/Maaxmg"group-title="BUENOS AIRES", MAX
+h 
 https://lbgo.bozztv.com/ssh101/ssh101/max16/playlist.m3u8
 
 
@@ -113,7 +107,9 @@ http://liketv.pro/live/diegos2024/Coly2413/84.ts
 
 
 #EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/c/cc/Telefe_%28nuevo_logo%29.png"group-title="BUENOS AIRES",TELEFE
-http://45.188.229.33:8000/play/a1cl/15757361.m3u8
+http://liketv.pro/live/diegos2024/Coly2413/99.ts
+
+
 
 
 
