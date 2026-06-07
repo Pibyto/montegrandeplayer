@@ -153,6 +153,10 @@ https://videos.gia.tv/giatv/movies/playlist/208138/4r0y3ct0__ail__ary.mp4
 https://videos.gia.tv/giatv/movies/playlist/209163/M4QU1N4_D3_6U3RR4.mp4
 
 
+#EXTINF:-1 tvg-logo="https://media.themoviedb.org/t/p/w220_and_h330_face/1LKXRXycQAx7slS7AVNPUg2qvpY.jpg"group-title="ESTRENOS", EL AMATEUR
+https://pixeldrain.com/api/file/M6kQAsDk
+
+
 #EXTINF:-1 tvg-logo="https://media.themoviedb.org/t/p/w220_and_h330_face/25R6U0xHikFbhDN69dUnzI4FIlz.jpg"group-title="ESTRENOS",SI SOLO PUDIERA IMAGINAR 2 
 https://videos.gia.tv/giatv/movies/playlist/208817/SI_SOLO_PUDIERA_IMAGINAR_2_864x486.mp4
 
@@ -373,6 +377,47 @@ http://ia801303.us.archive.org/24/items/20230409_20230409_0139/3.n.3.m.1.g.0%20P
 #EXTINF:-1 tvg-logo="https://i.pinimg.com/474x/ab/16/85/ab16850d88d1b93369014ad9d4cdd6af.jpg"group-title="ACCIÓN",RAMBO 5
 http://ia801303.us.archive.org/24/items/0000_20200103/1.mp4
 
+
+#EXTINF:-1 tvg-logo="https://media.themoviedb.org/t/p/w220_and_h330_face/odBUpjZGxY3y7FBo5NBtEYGJf5r.jpg"group-title="ACCIÓN", ALERTA ROJA 
+https://pixeldrain.com/api/file/4mU1W976
+
+
+
+#EXTINF:-1 tvg-logo="https://media.themoviedb.org/t/p/w220_and_h330_face/mZxUL08hcs1tzLF7v7SA6enD118.jpg"group-title="ACCIÓN", CÓDIGO 8 1
+https://pixeldrain.com/api/file/suPBN8zG
+
+
+#EXTINF:-1 tvg-logo="https://media.themoviedb.org/t/p/w220_and_h330_face/ao4eKQf4K8qOQWACLSqkwt4y6CT.jpg"group-title="ACCIÓN", CÓDIGO 8 2
+https://pixeldrain.com/api/file/MpYMNhfD
+
+
+#EXTINF:-1 tvg-logo=""group-title="ACCIÓN", DEPREDADOR LA PRESA https://media.themoviedb.org/t/p/w220_and_h330_face/iXHihAOFX4NEHBI8p93Kz7J55eM.jpg
+https://pixeldrain.com/api/file/U3eFzkHZ
+
+
+#EXTINF:-1 tvg-logo="https://media.themoviedb.org/t/p/w220_and_h330_face/bP8N9QjHIJ6ICNnO0Y2QPPAiUT0.jpg"group-title="ACCIÓN",EL EJÉRCITO DE LADRONES
+https://pixeldrain.com/api/file/3QtNhbuU
+
+
+
+#EXTINF:-1 tvg-logo="https://media.themoviedb.org/t/p/w220_and_h330_face/4h1Uc13QPjHTTUX0bikICWUxTSV.jpg"group-title="ACCIÓN", EL EJÉRCITO DE LOS MUERTOS 
+https://pixeldrain.com/api/file/SM4p6o62
+
+
+
+
+#EXTINF:-1 tvg-logo="https://media.themoviedb.org/t/p/w220_and_h330_face/zCA0ufLA1ELOONJTEfBFOYJBTvf.jpgh y"group-title="ACCIÓN", COLOMBIANA 
+https://pixeldrain.com/api/file/1FbCWm7B
+
+
+
+#EXTINF:-1 tvg-logo=""group-title="ACCIÓN",
+
+
+
+
+
+
 #EXTINF:-1 tvg-logo="https://pad.mymovies.it/filmclub/2006/05/379/locandinapg8.jpg"group-title="ACCIÓN",CASINO ROYALE 007
 http://ia800100.us.archive.org/14/items/001_20240809/001.mp4
 
@@ -552,14 +597,22 @@ https://pixeldrain.com/api/file/htyXjdwE
 
 
 
+#EXTINF:-1 tvg-logo="https://media.themoviedb.org/t/p/w220_and_h330_face/2Thn2wpSmiZjmGKHeJdxqDYpuzX.jpg"group-title="ROMANCE", AMOR A PRIMER MENSAJE
+https://pixeldrain.com/api/file/64BpZv5i 
+
+
+
+#EXTINF:-1 tvg-logo="https://media.themoviedb.org/t/p/w220_and_h330_face/kCb3QJNLi0alrk7i5aCphkkuoFl.jpg"group-title="ROMANCE",CUMBRES BORROSCOSAS
+https://pixeldrain.com/api/file/UQVjkAnF
+
+
+ 
+
 #EXTINF:-1 tvg-logo=""group-title="ROMANCE",
 
 
 
-
-
-
- 
+#EXTINF:-1 tvg-logo=""group-title="ROMANCE",
 
 
 
@@ -582,7 +635,7 @@ https://pixeldrain.com/api/file/fCPL3axr
 http://ia801303.us.archive.org/24/items/000_20201026/00009.mp4
 
 
-
+#EXTINF:-1 tvg-logo="https://media.themoviedb.org/t/p/w220_and_h330_face/hulB3uxIRzerZfjwXdKSKVn2orV.jpg"group-title="AVENTURA",ENOLA HOLMES 2
 
 #EXTINF:-1 tvg-logo="https://media.themoviedb.org/t/p/w220_and_h330_face/2iYS1XVm8vh5vokZhO3N4dtgODn.jpg"group-title="AVENTURA",GIGANTE DE ACERO
 https://pixeldrain.com/api/file/AC4GrMdh
@@ -591,6 +644,9 @@ https://pixeldrain.com/api/file/AC4GrMdh
 #EXTINF:-1 tvg-logo="https://media.themoviedb.org/t/p/w220_and_h330_face/fdfE1EtrGgfjxOMaPZ2FBrgMIgG.jpgs"group-title="AVENTURA",READY PLAYER 
 https://pixeldrain.com/api/file/1B1crCbn
 
+
+#EXTINF:-1 tvg-logo="https://media.themoviedb.org/t/p/w220_and_h330_face/k5waciRFMN5bwudDrgFLffoAorm.jpg"group-title="AVENTURA", PROYECTO ADAM
+https://pixeldrain.com/api/file/ZasVvrbm
 
 
 #EXTINF:-1 tvg-logo="https://media.themoviedb.org/t/p/w220_and_h330_face/9jpQ6BRScQmTULj10mUkjEKelhX.jpg"group-title="AVENTURA",PI
@@ -746,8 +802,12 @@ http://ia801303.us.archive.org/24/items/00copia_20191122/eg.mp4
 
 
 
-#EXTINF:-1 tvg-logo="https://media.themoviedb.org/t/p/w220_and_h330_face/cSrbnS7SItBFenF6jrKGhgFAiaq.jpg"group-title="COMEDIA", NOCHE DE JUEGOOS 
+#EXTINF:-1 tvg-logo="https://media.themoviedb.org/t/p/w220_and_h330_face/cSrbnS7SItBFenF6jrKGhgFAiaq.jpg"group-title="COMEDIA", NOCHE DE JUEGOS 
 https://pixeldrain.com/api/file/mprDiory
+
+
+#EXTINF:-1 tvg-logo="https://media.themoviedb.org/t/p/w220_and_h330_face/yV95cXcHhmuUAW8bjAayPynf7Lf.jpg"group-title="COMEDIA", DESNUDO
+https://pixeldrain.com/api/file/r7JovQC3
 
 
 #EXTINF:-1 tvg-logo="https://media.themoviedb.org/t/p/w220_and_h330_face/hWmdqzDuMi4zXTyeFGBwX4X5j2u.jpg"group-title="COMEDIA", TIEMPO PARA MI 
