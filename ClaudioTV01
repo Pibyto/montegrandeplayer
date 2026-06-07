@@ -1,7 +1,12 @@
-bb 
-http://45.188.229.33:8000/play/a0x2/47724674.m3u8
 
-h 
+
+
+
+
+
+
+
+#EXTINF:-1 tvg-logo="https://tinyurl.com/Maaxmg"group-title="BUENOS AIRES",MAX
 https://lbgo.bozztv.com/ssh101/ssh101/max16/playlist.m3u8
 
 
