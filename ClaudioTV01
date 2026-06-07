@@ -1,10 +1,15 @@
 
+#EXTINF
 
 
 
 
 
 
+
+#EXTINF:-1 tvg-logo="https://tinyurl.com/FucsiaPlay"group-title="BUENOS AIRES", PLAY TV
+https://live20.bozztv.com/akamaissh101/ssh101/plaaytv/playlist.m3u8
+ 
 
 #EXTINF:-1 tvg-logo="https://tinyurl.com/Maaxmg"group-title="BUENOS AIRES",MAX
 https://lbgo.bozztv.com/ssh101/ssh101/max16/playlist.m3u8
