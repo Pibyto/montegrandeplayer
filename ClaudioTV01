@@ -504,6 +504,9 @@ http://190.102.242.130:25461/hls/cinrwarpower/1234567/190/078fcb23c67d19ac52fd54
 https://lbgo.bozztv.com/ssh101/ssh101/max16/playlist.m3u8
 
 
+#EXTINF:-1 tvg-logo="https://tinyurl.com/Cine35mm"group-title="CINE PREMIUM", CINE35MM
+https://micanal.ovh/livestreams/262.D9DCDM7EXNRT.m3u8
+
 
 #EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTOspY0DemQf4NaEMxXnKQQKCpDwOfVCdtnZg&usqp=CAU"group-title="CINE PREMIUM",CINESONY
 https://a-cdn.klowdtv.com/live1/cine_720p/chunks.m3u8
@@ -2239,7 +2242,8 @@ https://stream.meteorito.cloud:1947/canal6/smil:canal6.smil/chunklist_w201553397
 
 
 
-
+#EXTINF:-1 tvg-logo="https://tinyurl.com/Cine35mm"group-title="COLOMBIA", CINE35MM
+https://micanal.ovh/livestreams/262.D9DCDM7EXNRT.m3u8
 
 
 #EXTINF:-1 tvg-logo="https://canaltelefamilia.com/wp-content/uploads/2021/02/Logo-Blanco.png"group-title="COLOMBIA",TELEFAMILIA HD
