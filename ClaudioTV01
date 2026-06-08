@@ -90,11 +90,11 @@ https://stream-gtlc.telecentro.net.ar/hls/canal26hls/0/playlist.m3u8?uid=d1ab8e1
 https://unlimited1-us.dps.live/nettv/nettv.smil/playlist.m3u8
 
 
-#EXTINF:-1 tvg-logo="https://tinyurl.com/jmw6z889"group-title="BUENOS AIRES",RT HD   25.5
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/Russia-today-logo.svg/330px-Russia-today-logo.svg.png"group-title="BUENOS AIRES",RT HD   25.5
 https://rt-esp.rttv.com:443/live/rtesp/playlist_4500Kb.m3u8
 
 
-#EXTINF:-1 tvg-logo="https://tinyurl.com/4sjnsae9"group-title="BUENOS AIRES",HISPANTV
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/a/ad/HispanTv_logo.svg/3840px-HispanTv_logo.svg.png"group-title="BUENOS AIRES",HISPANTV
 https://live.presstv.ir/hls/hispantv.m3u8
 
 
