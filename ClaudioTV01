@@ -51,7 +51,7 @@ https://videostream.shockmedia.com.ar:19360/neotvdigital/neotvdigital.m3u8
 #EXTINF:-1 tvg-logo="https://tinyurl.com/Trespilar"group-title="BUENOS AIRES",CANAL 3 PINAMAR 
 https://intelincloud01.com.ar/hls/cn3/index.m3u8
 
-#EXTINF:-1 tvg-logo="https://i.ibb.co/wNccDZ4V/1771797530813.png"group-title="BUENOS AIRES", CIUDAD MAGICA TV
+#EXTINF:-1 tvg-logo="https://tinyurl.com/Magicateve"group-title="BUENOS AIRES", CIUDAD MAGICA TV
 https://live20.bozztv.com/akamaissh101/ssh101/verycoolfgr/chunks.m3u8
 
 
