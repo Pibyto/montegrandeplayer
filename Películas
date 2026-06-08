@@ -457,11 +457,17 @@ http://www.deadlyblogger.com/NewRelease/blood.mp4
 
 
 
-
+#EXTINF:-1 tvg-logo="https://media.themoviedb.org/t/p/w220_and_h330_face/dAR6MYoz8VrUhGsT0F8ZsqONtdp.jpg"group-title="DRAMA-TERROR", EL PERFUME
+https://pixeldrain.com/api/file/5P7AgrjZ
 
 
 #EXTINF:-1 tvg-logo="https://media.themoviedb.org/t/p/w220_and_h330_face/rmCkNtzYR2xTOO3ZXmIqB5zgYdE.jpg"group-title="DRAMA-TERROR", OBSESIÓN
 https://videos.gia.tv/giatv/movies/playlist/208138/0BS3S1_N.mp4
+
+
+#EXTINF:-1 tvg-logo="https://media.themoviedb.org/t/p/w220_and_h330_face/kKcsME7Bjlo9EvKp51MkgQ8tgQD.jpg"group-title="DRAMA-TERROR", TURNO DE DÍA
+https://pixeldrain.com/api/file/UK8h683C
+
 
 
 #EXTINF:-1 tvg-logo="https://media.themoviedb.org/t/p/w220_and_h330_facZLe/a8ogjWFd0QS6BzBkzfDMWukc26i.jpg"group-title="DRAMA-TERROR",
@@ -970,6 +976,13 @@ https://videos.gia.tv/giatv/movies/playlist/208138/4r0y3ct0__ail__ary.mp4
 
 #EXTINF:-1 tvg-logo="https://media.themoviedb.org/t/p/w220_and_h330_face/vNjwi0STOwzmwE9laZSMYYh2JPE.jpg"group-title="CIENCIA FICCIÓN",AL FILO DEL MAÑANA 
 https://videos.gia.tv/giatv/movies/playlist/209163/4L_F1L0_D3L_M4__4N4_1468x612.mp4
+
+#EXTINF:-1 tvg-logo="https://media.themoviedb.org/t/p/w220_and_h330_face/aNK0Pn4PegJeSkCuvBHgFdTbHlw.jpg"group-title="CIENCIA FICCIÓN",EL PRECIO DEL MAÑANA
+https://pixeldrain.com/api/file/MQGWnxUb
+
+
+#EXTINF:-1 tvg-logo="https://media.themoviedb.org/t/p/w220_and_h330_face/cOt8SQwrxpoTv9Bc3kyce3etkZX.jpg"group-title="CIENCIA FICCIÓN",BLADE RUNNER
+https://pixeldrain.com/api/file/Epe7dyxX
 
 
 #EXTINF:-1 tvg-logo="https://media.themoviedb.org/t/p/w220_and_h330_face/wSnBSv7oHgm1kZmiM8IqithlTmJ.jpg"group-title="CIENCIA FICCIÓN",ATLAS 
