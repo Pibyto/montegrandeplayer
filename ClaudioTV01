@@ -1568,11 +1568,11 @@ https://live20.bozztv.com/akamaissh101/ssh101/1234chivacoa/chunks.m3u8
 https://micanal.ovh/livestreams/82.Y5V0JHNSYGDA.m3u8
 
 
-#EXTINF:-1 tvg-logo=""group-title="PERÚ",UNITEL TV
+#EXTINF:-1 tvg-logo="https://tinyurl.com/Unitelteve"group-title="PERÚ",UNITEL TV
 https://play.agenciastreaming.com:8081/uniteltv/tracks-v1a1/mono.m3u8
 
 
-#EXTINF:-1 tvg-logo="https://cdn.m3u.cl/logo/1189_Telecolor_TV.png"group-title="PERÚ",TELECOLOR
+#EXTINF:-1 tvg-logo="https://telecolortv.pe/wp-content/uploads/2022/01/inicio_app.png"group-title="PERÚ",TELECOLOR
 https://live.obslivestream.com:443/telecolormux/tracks-v1a1/mono.m3u8
 
 
@@ -1580,7 +1580,7 @@ https://live.obslivestream.com:443/telecolormux/tracks-v1a1/mono.m3u8
 https://live.obslivestream.com:443/uraniotv/tracks-v1a1/mono.m3u8
 
 
-#EXTINF:-1 tvg-logo="https://cdn.m3u.cl/logo/1191_Via_Alto_Mayo_TV.png"group-title="PERÚ",VIA ALTO MAYO
+#EXTINF:-1 tvg-logo="https://viaaltomayotv.com/imagenes/logodefault.png"group-title="PERÚ",VIA ALTO MAYO
 https://live.obslivestream.com:443/viaaltomayomux/tracks-v1a1/mono.m3u8
 
 
