@@ -1763,6 +1763,9 @@ https://samson.streamerr.co:8081/shogun/tracks-v1a1/mono.m3u8
 
 
 
+#EXTINF:-1 tvg-logo="https://tinyurl.com/Latinateve"group-title="PR.EE.UU",LATINA RTV
+https://streaming.hostpannel.lat/hls/d13eefbcd1cfe70feb0d829daceeac0f/index.m3u8
+
 
 #EXTINF:-1 tvg-logo="https://tinyurl.com/Ladescargateve"group-title="PR.EE.UU",LA DESCARGA TV
 https://video.udwn.net:19360/ladescargatv/ladescargatv.m3u8
