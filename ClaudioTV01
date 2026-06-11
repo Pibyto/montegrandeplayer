@@ -12,11 +12,14 @@ https://lbgo.bozztv.com/ssh101/ssh101/max16/playlist.m3u8
 
 
 
-#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/e/e4/Logotipo_de_TV_Azteca.png"group-title="BUENOS AIRES",TV AZTECA 
-https://live20.bozztv.com/akamaissh101/ssh101/sportaznet/chunks.m3u8
+
 
 #EXTINF:-1 tvg-logo="https://tinyurl.com/Laaatinatve"group-title="BUENOS AIRES",LATINA TV
 https://streaming.hostpannel.lat/hls/d13eefbcd1cfe70feb0d829daceeac0f/index.m3u8
+
+
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/e/e4/Logotipo_de_TV_Azteca.png"group-title="BUENOS AIRES",TV AZTECA 
+https://live20.bozztv.com/akamaissh101/ssh101/sportaznet/chunks.m3u8
 
 
 #EXTINF:-1 tvg-logo="https://tinyurl.com/Genteve"group-title="BUENOS AIRES",GENTV
