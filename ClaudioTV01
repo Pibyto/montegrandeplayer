@@ -576,13 +576,13 @@ http://liketv.pro/live/diegos2024/Coly2413/17435.ts
 http://liketv.pro/live/diegos2024/Coly2413/126457.ts
 
 
-#EXTINF:-1 tvg-logo=""group-title="CINE PREMIER",DISNEY JR
+#EXTINF:-1 tvg-logo="https://logos-marcas.com/wp-content/uploads/2022/01/Disney-Junior-Logo.png"group-title="CINE PREMIER",DISNEY JR
 https://tr.live.clarovtrcdn.vtrplay.com/disneyjrhdchi/vxfmt=dp/playlist.m3u8?device_profile=STB_HLS_VCAS_LIVE_HD
 
 
 
 #EXTINF:-1 tvg-logo=""group-title="CINE PREMIER", CINECANAL
-http://148.222.230.197:8000/play/a0o5/202616870_da8c.ts
+
 
 
 #EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/8/8a/Tnt_tv_romania.png"group-title="CINE PREMIER",TNT
@@ -622,6 +622,11 @@ http://179.60.51.134:8888/PARAMOUNT/tracks-v1a1/mono.m3u8
 #EXTINF:-1 tvg-logo="https://ia800507.us.archive.org/32/items/logo.brootv_hbo/HBO_2.png"group-title="CINE PREMIER",HBO2
 http://liketv.pro/live/diegos2024/Coly2413/17409.ts
 
+
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f9/Logohboplus2019.svg/250px-Logohboplus2019.svg.png"group-title="CINE PREMIER",HBO+
+http://liketv.pro/live/diegos2024/Coly2413/126472.ts
+
+
 #EXTINF:-1 tvg-logo=""group-title="CINE PREMIER",HBO MMUNDI
 
 
@@ -631,11 +636,10 @@ http://liketv.pro/live/diegos2024/Coly2413/17409.ts
 
 
 
-#EXTINF:-1 tvg-logo=""group-title="CINE PREMIER", HBO XTREME
+#EXTINF:-1 tvg-logo="https://vivo.com.br/content/dam/vivo-sites/vivo-com-br/homepage/imagens/logos/canal-hbo-xtreme-252x252.png"group-title="CINE PREMIER", HBO XTREME
 http://liketv.pro/live/diegos2024/Coly2413/126474.ts
 
-#EXTINF:-1 tvg-logo=""group-title="CINE PREMIER",HBO+
-http://liketv.pro/live/diegos2024/Coly2413/126472.ts
+
 
 
 
