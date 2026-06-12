@@ -565,6 +565,9 @@ https://xumo-drct-ch835-ekq0p.fast.nbcuni.com/live/master_5.m3u8
 http://179.60.51.134:8888/SPACE/tracks-v1a1/mono.m3u8
 
 
+#EXTINF:-1 tvg-logo="https://i.ibb.co/q3gS3KkN/1776260489472.png"group-title="CINE PREMIER",BBC SERIES 
+https://amg00793-amg00793c40-rakuten-es-5444.playouts.now.amagi.tv/1080p/index.m3u8
+
 
 #EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/1/11/Cinemax_%28Yellow%29.svg"group-title="CINE PREMIER",CINEMAX
 http://liketv.pro/live/diegos2024/Coly2413/17435.ts
@@ -585,7 +588,8 @@ http://148.222.230.197:8000/play/a0o5/202616870_da8c.ts
 #EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/8/8a/Tnt_tv_romania.png"group-title="CINE PREMIER",TNT
 http://179.60.51.134:8888/TNT/tracks-v1a1/mono.m3u8
 
-
+#EXTINF:-1 tvg-logo="https://i.ibb.co/F4BRB4fM/Screenshot-20260415-095829.png"group-title="CINE PREMIER",STAR TVE
+https://rtvelivestream-rtveplayplus.rtve.es/rtvesec/int/star_main_1080.m3u8
 
 
 #EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/4/42/Universal_TV_logo.svg/1280px-Universal_TV_logo.svg.png"group-title="CINE PREMIER", UNIVERSAL 
@@ -596,7 +600,7 @@ http://179.60.51.134:8888/UNIVERSAL/tracks-v1a1/mono.m3u8
 http://179.60.51.134:8888/SYFY/tracks-v1a1/mono.m3u8
 
 
-#EXTINF:-1 tvg-logo="https://television.com.ar/wp-content/uploads/2024/05/LOGOS-EE-azul-con-europa-sobre-blanco.png"group-title="PREMIER", EUROPA EUROPA
+#EXTINF:-1 tvg-logo="https://television.com.ar/wp-content/uploads/2024/05/LOGOS-EE-azul-con-europa-sobre-blanco.png"group-title="CINE PREMIER", EUROPA EUROPA
 http://181.119.93.83:8000/play/a1sr/index.m3u8
 
 #EXTINF:-1 tvg-logo="https://www.runtime.tv/themes/custom/run/runtime/logo.png"group-title="CINE PREMIER",Rumtime
@@ -611,7 +615,7 @@ http://179.60.51.134:8888/PARAMOUNT/tracks-v1a1/mono.m3u8
 
 
 #EXTINF:-1v tvg-logo="https://upload.wikimedia.org/wikipedia/commons/6/67/HBO_New_Logo.png"group-title="CINE PREMIER",HBO
-http://liketv.pro/live/diegos2024/Coly2413/17408.ts
+
 
 
 
@@ -619,11 +623,11 @@ http://liketv.pro/live/diegos2024/Coly2413/17408.ts
 http://liketv.pro/live/diegos2024/Coly2413/17409.ts
 
 #EXTINF:-1 tvg-logo=""group-title="CINE PREMIER",HBO MMUNDI
-http://190.11.225.124:5000/live/paramount_hd/playlist.m3u8
+
 
 
 #EXTINF:-1 tvg-logo=""group-title="CINE PREMIER",HBO SIGNATURE
-http://190.11.225.124:5000/live/hbo_signature_hd/playlist.m3u8
+
 
 
 
@@ -636,7 +640,7 @@ http://liketv.pro/live/diegos2024/Coly2413/126472.ts
 
 
 #EXTINF:-1 tvg-logo=""group-title="CINE PREMIER",AMC
-http://liketv.pro/live/diegos2024/Coly2413/126453.ts
+
 
  
 
@@ -657,17 +661,15 @@ https://de9yx47crxs6l.cloudfront.net/playlist.m3u8
 
 
 #EXTINF:-1 tvg-logo="https://i.ibb.co/rRKQJNpp/28-s.png"group-title="CINE PREMIER",SONY THILLER
-https://d1wuti7vf6eqt9.cloudfront.net/playlist_7.m3u8
 
-#EXTINF:-1 tvg-logo="https://i.ibb.co/q3gS3KkN/1776260489472.png"group-title="CINE PREMIER",BBC SERIES 
-https://amg00793-amg00793c40-rakuten-es-5444.playouts.now.amagi.tv/1080p/index.m3u8
+
+
 
 
 #EXTINF:-1 tvg-logo="https://i.ibb.co/XZ4LBFKH/images-21-1.png"group-title="CINE PREMIER",SONY COMEDIA
 https://d3m8rnla2v9m5d.cloudfront.net/playlist.m3u8
 
-#EXTINF:-1 tvg-logo="https://i.ibb.co/F4BRB4fM/Screenshot-20260415-095829.png"group-title="CINE PREMIER",STAR TVE
-https://rtvelivestream-rtveplayplus.rtve.es/rtvesec/int/star_main_1080.m3u8
+
 
 
 
