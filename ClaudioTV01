@@ -495,6 +495,8 @@ https://cdn.global.elektamedia.com/live/c7eds/ENT_Channel/SA_LIVE_hls_enc/tracks
 https://cdn.global.elektamedia.com/live/c7eds/ENT_Fhamily/SA_LIVE_hls_enc/tracks-v1a1/mono.m3u8
 
 
+#EXTINF:-1 tvg-logo="https://tinyurl.com/Rtrteeve"group-title="CINE PREMIUM",RTR
+https://tv3ecuador.site/hls/stream/index.m3u8
 
 
 #EXTINF:-1 tvg-logo="https://cdn.phototourl.com/free/2026-04-19-5fe2ce6c-9242-4b39-b719-547e682cd68c.png"group-title="CINE PREMIUM",+CINE
