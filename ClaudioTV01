@@ -14,13 +14,6 @@ https://lbgo.bozztv.com/ssh101/ssh101/max16/playlist.m3u8
 
 
 
-#EXTINF:-1 tvg-logo="https://tinyurl.com/Tiigooo"group-title="BUENOS AIRES",Tigo
-http://190.60.40.34:8001/play/a02r
-
-
-http://162.19.255.233:8080/play/UNbAl57p9hXZClOu56FCTf_5weWAERKDgrt9JpvlAiI/m3u8
-
-
 #EXTINF:-1 tvg-logo="https://tinyurl.com/Genteve"group-title="BUENOS AIRES",GENTV
 https://srv3.zcast.com.br/gentv/gentv/playlist.m3u8
 
