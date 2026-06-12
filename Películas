@@ -7,6 +7,18 @@
 
 
 
+
+
+
+#EXTINF:-1 tvg-logo="https://media.themoviedb.org/t/p/w220_and_h330_face/mB3zisIw3bsQcoDSnvMPAQhjrTM.jpg"group-title="ESTRENOS", MICHAEL 2026
+https://videos.gia.tv/giatv/movies/playlist/208138/M1CH43L_2026_1024x576.mp4
+
+
+#EXTINF:-1 tvg-logo="https://media.themoviedb.org/t/p/w220_and_h330_face/niXSl8jLAZu9fL1ywfNyLGCRXLh.jpg"group-title="ESTRENOS", MORTAL KOMBAT 2 (CAM)
+https://videos.gia.tv/giatv/movies/playlist/208138/M0RT4L_K0MB47_II_1088x612.mp4
+
+
+
 #EXTINF:-1 tvg-logo="https://tinyurl.com/Scarymovieseis"group-title="ESTRENOS",SCARY MOVÍE 6
 https://tinyurl.com/Carymov6
 
@@ -187,8 +199,7 @@ https://videos.gia.tv/giatv/movies/playlist/208817/SI_SOLO_PUDIERA_IMAGINAR_2_86
 
 
 
-#EXTINF:-1 tvg-logo="https://media.themoviedb.org/t/p/w220_and_h330_face/niXSl8jLAZu9fL1ywfNyLGCRXLh.jpg"group-title="ESTRENOS", MORTAL KOMBAT 2 (CAM)
-https://videos.gia.tv/giatv/movies/playlist/208138/W04t_7__0m84t_II.mp4
+
 
 
 
@@ -199,13 +210,12 @@ https://videos.gia.tv/giatv/movies/playlist/208138/The_Punnisher___La_Ultima_Mue
 
 
 
-#EXTINF:-1 tvg-logo="https://media.themoviedb.org/t/p/w220_and_h330_face/mB3zisIw3bsQcoDSnvMPAQhjrTM.jpg"group-title="ESTRENOS", MICHAEL 2026
-https://videos.giymmyya.tv/giatv/movies/playlist/http://ia801303.us.archive.org/24/items/marleyyyo2008/marleyyyo2008.mp4208138/Michael__2026___CAM_HDTS__864x470.mp4
+
 
 
 
 #EXTINF:-1 tvg-logo="https://media.themoviedb.org/t/p/w188_and_h282_face/rdvPsRItlhErfKF8Y0f0wjnxUzz.jpg"group-title="ESTRENOS",EL DIABLO VISTE A LA MODA 2
-https://videos.gia.tv/giatv/movies/playlist/208138/El_diablo_viste_a_la_moda_2__2026___CAM_HDTm ynyyyy nS__1056x524.mp4
+https://videos.gia.tv/giatv/movies/playlist/208138/El_diablo_viste_a_la_moda_2__2026___CAM_HDTS__1056x524.mp4
 
 
 #EXTINF:-1 tvg-logo="https://media.themoviedb.org/t/p/w220_and_h330_face/ckBRproYQsXAJGtyejKjDr5ZcBU.jpg"group-title="ESTRENOS", PARQUE LEZAMA 2026
@@ -833,6 +843,24 @@ http://ia801303.us.archive.org/24/items/00copia_20191122/eg.mp4
 
 
 
+
+#EXTINF:-1 tvg-logo="https://media.themoviedb.org/t/p/w220_and_h330_face/5tNrlxFAmlcMArbMwG9qnOu0C06.jpg"group-title="COMEDIA",TE ATRAPE
+https://videos.gia.tv/giatv/movies/playlist/208730/T3_4TR4P3.mp4
+
+
+
+#EXTINF:-1 tvg-logo="https://media.themoviedb.org/t/p/w220_and_h330_face/tzDJ7QqogUYa5pVAMHdq6HHFLjQ.jpg"group-title="COMEDIA",EL CHICO IDEAL 
+https://videos.gia.tv/giatv/movies/playlist/208730/L4_M3J0R_D3_M1__B0D4_.mp4
+
+
+#EXTINF:-1 tvg-logo="https://media.themoviedb.org/t/p/w220_and_h330_face/2Thn2wpSmiZjmGKHeJdxqDYpuzX.jpg"group-title="COMEDIA", AMOR A PRIMER MENSAJE
+https://videos.gia.tv/giatv/movies/playlist/208730/4M0R_A_PR1M3R_M3N_4J3.mp4
+
+
+#EXTINF:-1 tvg-logo="https://media.themoviedb.org/t/p/w220_and_h330_face/nWprcqzpw41jslTgGrGcf4QhZ7Z.jpg"group-title="COMEDIA",UN DÍA FUERA DE CONTROL
+https://videos.gia.tv/giatv/movies/playlist/208730/Un_d__a_fuera_de_control_2025_Latino.mp4
+
+
 #EXTINF:-1 tvg-logo="https://media.themoviedb.org/t/p/w220_and_h330_face/cSrbnS7SItBFenF6jrKGhgFAiaq.jpg"group-title="COMEDIA", NOCHE DE JUEGOS 
 https://pixeldrain.com/api/file/mprDiory
 
@@ -851,7 +879,7 @@ https://pixeldrain.com/api/file/skaxnW4s
 
 
 
-#EXTINF:-1 tvg-logo=""group-title="COMEDIA",
+
 
 
 
