@@ -480,16 +480,6 @@ https://live20.bozztv.com/akamaissh101/ssh101/montegrandetv/chunks.m3u8
 
 
 
-#EXTINF:-1 tvg-logo="https://cdn.phototourl.com/free/2026-04-19-c98a4dda-105a-438f-9ea2-ec59000de62d.png"group-title="CINE PREMIUM",ENT CHANNEL
-https://cdn.global.elektamedia.com/live/c7eds/ENT_Channel/SA_LIVE_hls_enc/tracks-v1a1/mono.m3u8
-
-
-#EXTINF:-1 tvg-logo="https://cdn.phototourl.com/free/2026-04-19-6f57f921-9009-4f58-a0a5-d3ab6f07b80d.png"group-title="CINE PREMIUM",ENT FAMILY
-https://cdn.global.elektamedia.com/live/c7eds/ENT_Fhamily/SA_LIVE_hls_enc/tracks-v1a1/mono.m3u8
-
-
-#EXTINF:-1 tvg-logo="https://tinyurl.com/Rtrteeve"group-title="CINE PREMIUM",RTR
-https://tv3ecuador.site/hls/stream/index.m3u8
 
 
 #EXTINF:-1 tvg-logo="https://cdn.phototourl.com/free/2026-04-19-5fe2ce6c-9242-4b39-b719-547e682cd68c.png"group-title="CINE PREMIUM",+CINE
@@ -510,105 +500,12 @@ http://190.102.242.130:25461/terrorpower/1234567/99
 
 
 #EXTINF:-1 tvg-logo="https://i.ibb.co/Pv1MqPm0/1776362866128.png"group-title="CINE PREMIUM",+CINE WAR
-http://190.102.242.130:25461/hls/cinrwarpower/1234567/190.m3u
+http://190.102.242.130:25461/live/cinrwarpower/1234567/190.m3u8
 
-#EXTINF:-1 tvg-logo="https://tinyurl.com/Maaxmg"group-title="BUENOS AIRES", MAX
+
+
+#EXTINF:-1 tvg-logo="https://tinyurl.com/Maaxmg"group-title="CINE PREMIUM", MAX
 https://lbgo.bozztv.com/ssh101/ssh101/max16/playlist.m3u8
-
-#EXTINF:-1 tvg-logo="https://tinyurl.com/Ladescarrga"group-title="CINE PREMIUM",LA DESCARGA TV
-https://video.udwn.net:19360/ladescargatv/ladescargatv.m3u8
-
-
-
-#EXTINF:-1 tvg-logo="https://tinyurl.com/Cine35mm"group-title="CINE PREMIUM", CINE35MM
-https://micanal.ovh/livestreams/262.D9DCDM7EXNRT.m3u8
-
-
-
-
-#EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTOspY0DemQf4NaEMxXnKQQKCpDwOfVCdtnZg&usqp=CAU"group-title="CINE PREMIUM",CINESONY
-https://a-cdn.klowdtv.com/live1/cine_720p/chunks.m3u8
-
-#EXTINF:-1 tvg-logo="https://brandemia.org/wp-content/uploads/2013/02/logo_telemundo_principal.jpg"group-title="CINE PREMIUM",TELEMUNDO ACCION
-https://xumo-drct-ch835-ekq0p.fast.nbcuni.com/live/master_5.m3u8
-
-
-
-#EXTINF:-1 tvg-logo="https://logos-world.net/wp-content/uploads/2023/03/Space-Logo.png"group-title="CINE PREMIUM", SPACE
-http://179.60.51.134:8888/SPACE/tracks-v1a1/mono.m3u8
-
-
-
-#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/1/11/Cinemax_%28Yellow%29.svg"group-title="CINE PREMIUM",CINEMAX
-http://liketv.pro/live/diegos2024/Coly2413/126457.ts
-
-
-#EXTINF:-1 tvg-logo=""group-title="CINE PREMIUM", CINECANAL
-
-
-
-#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/8/8a/Tnt_tv_romania.png"group-title="CINE PREMIUM",TNT
-http://179.60.51.134:8888/TNT/tracks-v1a1/mono.m3u8
-
-
-
-
-#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/4/42/Universal_TV_logo.svg/1280px-Universal_TV_logo.svg.png"group-title="CINE PREMIUM", UNIVERSAL 
-http://179.60.51.134:8888/UNIVERSAL/tracks-v1a1/mono.m3u8
-
-
-#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/8/84/USA_Network_2020.svg"group-title="CINE PREMIUM",USA
-http://179.60.51.134:8888/SYFY/tracks-v1a1/mono.m3u8
-
-
-#EXTINF:-1 tvg-logo="https://static.wikia.nocookie.net/logopedia/images/f/f9/DHE2019.png/revision/latest?cb=20210514013226&path-prefix=es"group-title="CINE PREMIUM",DHE
-http://179.60.51.134:8888/PARAMOUNT/tracks-v1a1/mono.m3u8
-
-
-
-
-
-#EXTINF:-1v tvg-logo="https://upload.wikimedia.org/wikipedia/commons/6/67/HBO_New_Logo.png"group-title="CINE PREMIUM",HBO
-http://liketv.pro/live/diegos2024/Coly2413/17408.ts
-
-
-
-#EXTINF:-1 tvg-logo="https://ia800507.us.archive.org/32/items/logo.brootv_hbo/HBO_2.png"group-title="CINE PREMIUM",HBO2
-http://liketv.pro/live/diegos2024/Coly2413/17409.ts
-
-#EXTINF:-1 tvg-logo=""group-title="CINE PREMIUM",HBO MMUNDI
-http://190.11.225.124:5000/live/paramount_hd/playlist.m3u8
-
-
-#EXTINF:-1 tvg-logo=""group-title="CINE PREMIUM",HBO SIGNATURE
-http://190.11.225.124:5000/live/hbo_signature_hd/playlist.m3u8
-
-
-
-#EXTINF:-1 tvg-logo=""group-title="CINE PREMIUM", HBO XTREME
-http://liketv.pro/live/diegos2024/Coly2413/126474.ts
-
-#EXTINF:-1 tvg-logo=""group-title="CINE PREMIUM",HBO+
-http://liketv.pro/live/diegos2024/Coly2413/126472.ts
-
-
-
-#EXTINF:-1 tvg-logo=""group-title="CINE PREMIUM",AMC
-http://liketv.pro/live/diegos2024/Coly2413/126453.ts
-
- 
-
-
-#EXTINF:-1 tvg-logo=""group-title="CINE PREMIUM", AMC
-
-
-
-#EXTINF:-1 tvg-logo=""group-title="CINE PREMIUM",AXN
-
-
-
-#EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTOspY0DemQf4NaEMxXnKQQKCpDwOfVCdtnZg&usqp=CAU"group-title="CINE PREMIUM",CINE SONY
-https://a-cdn.klowdtv.com:443/live1/cine_720p/chunks.m3u8
 
 
 #EXTINF:-1 tvg-logo="https://tinyurl.com/Ipersonicateve"group-title="CINE PREMIUM",IPERSONICATV
@@ -625,168 +522,260 @@ https://canaletaplus.com:3922/live/cosmoslive.m3u8
 https://cnn.hostlagarto.com/orbittv/tracks-v1a1/index.m3u8
 
 
-#EXTINF:-1 tvg-logo="https://www.runtime.tv/themes/custom/run/runtime/logo.png"group-title="CINE PREMIUM",Rumtime
+#EXTINF:-1 tvg-logo="https://tinyurl.com/Ladescarrga"group-title="CINE PREMIUM",LA DESCARGA TV
+https://video.udwn.net:19360/ladescargatv/ladescargatv.m3u8
+
+
+
+#EXTINF:-1 tvg-logo="https://tinyurl.com/Cine35mm"group-title="CINE PREMIUM", CINE35MM
+https://micanal.ovh/livestreams/262.D9DCDM7EXNRT.m3u8
+
+
+
+
+#EXTINF:-1 tvg-logo="https://cdn.phototourl.com/free/2026-04-19-c98a4dda-105a-438f-9ea2-ec59000de62d.png"group-title="CINE PREMIUM",ENT CHANNEL
+https://cdn.global.elektamedia.com/live/c7eds/ENT_Channel/SA_LIVE_hls_enc/tracks-v1a1/mono.m3u8
+
+
+#EXTINF:-1 tvg-logo="https://cdn.phototourl.com/free/2026-04-19-6f57f921-9009-4f58-a0a5-d3ab6f07b80d.png"group-title="CINE PREMIUM",ENT FAMILY
+https://cdn.global.elektamedia.com/live/c7eds/ENT_Fhamily/SA_LIVE_hls_enc/tracks-v1a1/mono.m3u8
+
+
+#EXTINF:-1 tvg-logo="https://tinyurl.com/Rtrteeve"group-title="CINE PREMIUM",RTR
+https://tv3ecuador.site/hls/stream/index.m3u8
+
+
+
+
+
+
+#########(CINE PREMIER)###########
+
+
+
+
+#EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTOspY0DemQf4NaEMxXnKQQKCpDwOfVCdtnZg&usqp=CAU"group-title="CINE PREMIUIER",CINESONY
+https://a-cdn.klowdtv.com/live1/cine_720p/chunks.m3u8
+
+#EXTINF:-1 tvg-logo="https://brandemia.org/wp-content/uploads/2013/02/logo_telemundo_principal.jpg"group-title="CINE PREMIER",TELEMUNDO ACCION
+https://xumo-drct-ch835-ekq0p.fast.nbcuni.com/live/master_5.m3u8
+
+
+
+#EXTINF:-1 tvg-logo="https://logos-world.net/wp-content/uploads/2023/03/Space-Logo.png"group-title="CINE PREMIUER", SPACE
+http://179.60.51.134:8888/SPACE/tracks-v1a1/mono.m3u8
+
+
+
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/1/11/Cinemax_%28Yellow%29.svg"group-title="CINE PREMIER",CINEMAX
+http://liketv.pro/live/diegos2024/Coly2413/126457.ts
+
+
+#EXTINF:-1 tvg-logo=""group-title="CINE PREMIER",DISNEY JR
+https://tr.live.clarovtrcdn.vtrplay.com/disneyjrhdchi/vxfmt=dp/playlist.m3u8?device_profile=STB_HLS_VCAS_LIVE_HD
+
+
+
+#EXTINF:-1 tvg-logo=""group-title="CINE PREMIER", CINECANAL
+http://148.222.230.197:8000/play/a0o5/202616870_da8c.ts
+
+
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/8/8a/Tnt_tv_romania.png"group-title="CINE PREMIER",TNT
+http://179.60.51.134:8888/TNT/tracks-v1a1/mono.m3u8
+
+
+
+
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/4/42/Universal_TV_logo.svg/1280px-Universal_TV_logo.svg.png"group-title="CINE PREMIER", UNIVERSAL 
+http://179.60.51.134:8888/UNIVERSAL/tracks-v1a1/mono.m3u8
+
+
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/8/84/USA_Network_2020.svg"group-title="CINE PREMIER",USA
+http://179.60.51.134:8888/SYFY/tracks-v1a1/mono.m3u8
+
+
+#EXTINF:-1 tvg-logo="https://www.runtime.tv/themes/custom/run/runtime/logo.png"group-title="CINE PREMIER",Rumtime
 https://run-rt-uh-roku.otteravision.com/run/rt_uh/rt_uh_720.m3u8
 
 
-#EXTINF:-1 tvg-logo="https://cdn.phototourl.com/free/2026-04-23-46a57bc9-db26-4e62-93c2-c327b7ffe948.png"group-title="CINE PREMIUM",NEXTV
-https://edge.enhdtv.com/nexthd/tracks-v1a1/mono.m3u8
-
-
-#EXTINF:-1 tvg-logo="https://cdn.phototourl.com/free/2026-04-24-822146fa-0f59-49bd-90bf-5f5be42b2e9f.png"group-title="CINE PREMIUM",OPINIÓNSUR CINE
-https://live20.bozztv.com/giatv/giatv-opinionsurc/opinionsurc/chunks.m3u8
-
-
-
-#EXTINF:-1 tvg-logo="https://cdn.phototourl.com/free/2026-04-19-a10b079b-1f69-4336-9484-318d950b25ac.png"group-title="CINE PREMIUM",WOW MOVIES
-https://live20.bozztv.com/giatv/giatv-wowmovies/wowmovies/chunks.m3u8
-
-
-#EXTINF:-1 tvg-logo="https://tinyurl.com/3buy42kt"group-title="CINE PREMIUM",MONI TV 2
-http://190.102.242.130:25461/monitvpo/monitvpow/1
-
-
-#EXTINF:-1 tvg-logo="https://i.ibb.co/G34c3GqN/1200x630wa.png"group-title="CINE PREMIUM",TUCINE
-https://live20.bozztv.com/akamaissh101/ssh101/xiomoz/chunks.m3u8
+#EXTINF:-1 tvg-logo="https://static.wikia.nocookie.net/logopedia/images/f/f9/DHE2019.png/revision/latest?cb=20210514013226&path-prefix=es"group-title="CINE PREMIER",DHE
+http://179.60.51.134:8888/PARAMOUNT/tracks-v1a1/mono.m3u8
 
 
 
 
-#EXTINF:-1 tvg-logo=""group-title="CINE PREMIUM",MONI TV
-https://live20.bozztv.com:443/akamaissh101/ssh101/monitvhd/chunks.m3u8
+
+#EXTINF:-1v tvg-logo="https://upload.wikimedia.org/wikipedia/commons/6/67/HBO_New_Logo.png"group-title="CINE PREMIER",HBO
+http://liketv.pro/live/diegos2024/Coly2413/17408.ts
 
 
 
-#EXTINF:-1 tvg-logo="https://cdn.phototourl.com/free/2026-04-19-0bd71ec0-9868-49ec-a553-56c8aa113a54.jpg"group-title="CINE PREMIUM", CHINOLATV 
-https://tv.wracanal10.com:3300/live/chinolatvlive.m3u8
+#EXTINF:-1 tvg-logo="https://ia800507.us.archive.org/32/items/logo.brootv_hbo/HBO_2.png"group-title="CINE PREMIER",HBO2
+http://liketv.pro/live/diegos2024/Coly2413/17409.ts
+
+#EXTINF:-1 tvg-logo=""group-title="CINE PREMIER",HBO MMUNDI
+http://190.11.225.124:5000/live/paramount_hd/playlist.m3u8
+
+
+#EXTINF:-1 tvg-logo=""group-title="CINE PREMIER",HBO SIGNATURE
+http://190.11.225.124:5000/live/hbo_signature_hd/playlist.m3u8
 
 
 
-#EXTINF:-1 tvg-logo="https://i.ibb.co/s96DTswF/images-8-1.png"group-title="CINE PREMIUM",ROKUTEN MOVIES
+#EXTINF:-1 tvg-logo=""group-title="CINE PREMIER", HBO XTREME
+http://liketv.pro/live/diegos2024/Coly2413/126474.ts
+
+#EXTINF:-1 tvg-logo=""group-title="CINE PREMIER",HBO+
+http://liketv.pro/live/diegos2024/Coly2413/126472.ts
 
 
-#EXTINF:-1 tvg-logo="https://i.ibb.co/s96DTswF/images-8-1.png"group-title="CINE PREMIUM",ROKUTEN FAMILY
 
+#EXTINF:-1 tvg-logo=""group-title="CINE PREMIER",AMC
+http://liketv.pro/live/diegos2024/Coly2413/126453.ts
+
+ 
+
+
+#EXTINF:-1 tvg-logo=""group-title="CINE PREMIER", AMC
+
+
+
+#EXTINF:-1 tvg-logo=""group-title="CINE PREMIER",AXN
+
+
+
+#EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTOspY0DemQf4NaEMxXnKQQKCpDwOfVCdtnZg&usqp=CAU"group-title="CINE PREMIER",CINE SONY
+https://a-cdn.klowdtv.com:443/live1/cine_720p/chunks.m3u8
 
 #EXTINF:-1 tvg-logo="https://i.ibb.co/gb1X2r6W/37-s.png"group-title="CINE PREMIUM",SONY ACTION
 https://de9yx47crxs6l.cloudfront.net/playlist.m3u8
 
 
-#EXTINF:-1 tvg-logo="https://i.ibb.co/rRKQJNpp/28-s.png"group-title="CINE PREMIUM",SONY THILLER
+#EXTINF:-1 tvg-logo="https://i.ibb.co/rRKQJNpp/28-s.png"group-title="CINE PREMIER",SONY THILLER
 https://d1wuti7vf6eqt9.cloudfront.net/playlist_7.m3u8
 
-#EXTINF:-1 tvg-logo="https://i.ibb.co/q3gS3KkN/1776260489472.png"group-title="CINE PREMIUM",BBC SERIES 
+#EXTINF:-1 tvg-logo="https://i.ibb.co/q3gS3KkN/1776260489472.png"group-title="CINE PREMIER",BBC SERIES 
 https://amg00793-amg00793c40-rakuten-es-5444.playouts.now.amagi.tv/1080p/index.m3u8
 
 
-#EXTINF:-1 tvg-logo="https://i.ibb.co/XZ4LBFKH/images-21-1.png"group-title="CINE PREMIUM",SONY COMEDIA
+#EXTINF:-1 tvg-logo="https://i.ibb.co/XZ4LBFKH/images-21-1.png"group-title="CINE PREMIER",SONY COMEDIA
 https://d3m8rnla2v9m5d.cloudfront.net/playlist.m3u8
 
-#EXTINF:-1 tvg-logo="https://i.ibb.co/F4BRB4fM/Screenshot-20260415-095829.png"group-title="CINE PREMIUM",STAR TVE
+#EXTINF:-1 tvg-logo="https://i.ibb.co/F4BRB4fM/Screenshot-20260415-095829.png"group-title="CINE PREMIER",STAR TVE
 https://rtvelivestream-rtveplayplus.rtve.es/rtvesec/int/star_main_1080.m3u8
 
 
-#EXTINF:-1 tvg-logo="https://i.ibb.co/svsxwKjH/maxresdefault-1.png"group-title="CINE PREMIUM",A3CINE
-http://181.114.57.246:4000/play/KgkA9tT2SpLYm86J/index.m3u8 
+
+
+
+
+#########(CINE PREMIHUM 2)########
+
+
+
+#EXTINF:-1 tvg-logo="https://cdn.phototourl.com/free/2026-04-19-a10b079b-1f69-4336-9484-318d950b25ac.png"group-title="CINE PREMIUM 2",WOW MOVIES
+https://live20.bozztv.com/giatv/giatv-wowmovies/wowmovies/chunks.m3u8
+
+
+#EXTINF:-1 tvg-logo="https://cdn.phototourl.com/free/2026-04-23-46a57bc9-db26-4e62-93c2-c327b7ffe948.png"group-title="CINE PREMIUM 2",NEXTV
+https://edge.enhdtv.com/nexthd/tracks-v1a1/mono.m3u8
+
+
+#EXTINF:-1 tvg-logo="https://cdn.phototourl.com/free/2026-04-24-822146fa-0f59-49bd-90bf-5f5be42b2e9f.png"group-title="CINE PREMIUM 2",OPINIÓNSUR CINE
+https://live20.bozztv.com/giatv/giatv-opinionsurc/opinionsurc/chunks.m3u8
 
 
 
 
 
 
-#EXTINF:-1 tvg-logo="https://cdn.phototourl.com/free/2026-04-19-552d6958-7eac-44ed-bc99-d5606def7df4.png"group-title="CINE PREMIUM",MEGAHITS HD
-https://video20.klm99.com:3395/live/meganethitslive.m3u8
+#EXTINF:-1 tvg-logo="https://tinyurl.com/3buy42kt"group-title="CINE PREMIUM 2",MONI TV 2
+http://190.102.242.130:25461/monitvpo/monitvpow/1
+
+
+#EXTINF:-1 tvg-logo="https://i.ibb.co/G34c3GqN/1200x630wa.png"group-title="CINE PREMIUM 2",TUCINE
+https://live20.bozztv.com/akamaissh101/ssh101/xiomoz/chunks.m3u8
 
 
 
 
-#EXTINF:-1 tvg-logo="https://cdn.phototourl.com/free/2026-04-19-dd000166-b7af-4b50-a8e8-54b43af42f9a.png"group-title="CINE PREMIUM",TVM+
+#EXTINF:-1 tvg-logo=""group-title="CINE PREMIUM 2",MONI TV
+https://live20.bozztv.com:443/akamaissh101/ssh101/monitvhd/chunks.m3u8
+
+
+
+#EXTINF:-1 tvg-logo="https://cdn.phototourl.com/free/2026-04-19-0bd71ec0-9868-49ec-a553-56c8aa113a54.jpg"group-title="CINE PREMIUM 2", CHINOLATV 
+https://tv.wracanal10.com:3300/live/chinolatvlive.m3u8
+
+
+
+
+
+#EXTINF:-1 tvg-logo="https://cdn.phototourl.com/free/2026-04-19-dd000166-b7af-4b50-a8e8-54b43af42f9a.png"group-title="CINE PREMIUM 2",TVM+
 https://streamtv.intervenhosting.net:3529/live/tvmparatilive.m3u8
 
 
 
 
-#EXTINF:-1 tvg-logo="https://mbanetworks.tv/wp-content/uploads/2025/09/FAST_CHANNELS_FreeTVAccion_logo_2000x2000.webp"group-title="CINE PREMIUM",FREE TV ACCIÓN 
+#EXTINF:-1 tvg-logo="https://mbanetworks.tv/wp-content/uploads/2025/09/FAST_CHANNELS_FreeTVAccion_logo_2000x2000.webp"group-title="CINE PREMIUM 2",FREE TV ACCIÓN 
 https://amg01024-olympusat-topcinelatam-ono-ad-99.amagi.tv/ts-us-w2-n1/playlist/amg01024-olympusat-topcinelatam-ono/cb543d167d6c678c84c83a65cef047a9f93b3dda0f74907570ae4a9677df1f4b91bbf397be43ee3d0a821c8f320e70505c31ca04d72e53c7c373f954667511229ccde62f8ffb823888fc3791ed684b34638f6c07e9541175dce70e018b3cc7016f71db281e98b610df7390150d80c4529b0e74deef84326857726776c5c5d0827fd0aea3011a9b7cc2f1491fc4650fbedc1bdbf224086b356abc72f45ccd66d8c7aed49000f3dfd336ea4d845e6d097a2ccbd22dfba32cd9b14faf208b50883f55c3111e60d1639ccc396251fdedc2bc64b032dc8e208f743eb501d76d91358464b93686e85ca5be81ac282c36afcc4f7537efb1eedba97b63cf0681c2e3bf212b7997b8afac660b48621c414d0137e9ed680d9326084252/27/1920x1080_6046040/index.m3u8
 
 
 
 
-#EXTINF:-1 tvg-logo="https://i.ibb.co/2YFPyYR8/cb20a7cb94abfe34e8aec64a16664d6ea8330cec1c1bddcfe23f139e5b274d4f.png"group-title="CINE PREMIUM",TELEBRUNCA
+#EXTINF:-1 tvg-logo="https://i.ibb.co/2YFPyYR8/cb20a7cb94abfe34e8aec64a16664d6ea8330cec1c1bddcfe23f139e5b274d4f.png"group-title="CINE PREMIUM 2",TELEBRUNCA
 https://59ef525c24caa.streamlock.net/telebrunca/telebrunca/chunklist_w413125513.m3u8
 
 
-#EXTINF:-1 tvg-logo="https://i.ibb.co/ch1kPKYT/images-15-2.png"group-title="CINE PREMIUM", BENDICIÓN CHANNEL 
+#EXTINF:-1 tvg-logo="https://i.ibb.co/ch1kPKYT/images-15-2.png"group-title="CINE PREMIUM 2", BENDICIÓN CHANNEL 
 https://s.emisoras.tv:8081/bendicionchannel/tracks-v1a1/mono.ts.m3u8
 
 
 
-#EXTINF:-1 tvg-logo=""group-title="CINE PREMIUM",MAXIVISION
+#EXTINF:-1 tvg-logo=""group-title="CINE PREMIUM 2",MAXIVISION
 https://video03.logicahost.com.br/maxivisiontv/maxivisiontv/chunklist_w1433315337.m3u8
 
-#EXTINF:-1 tvg-logo=""group-title="CINE PREMIUM",CANAL 13
+#EXTINF:-1 tvg-logo=""group-title="CINE PREMIUM 2",CANAL 13
 https://tv91.hostingnuclear.com:19360/intercable/intercable.m3u8
 
-#EXTINF:-1 tvg-logo=""group-title="CINE PREMIUM",CINEACCION
+#EXTINF:-1 tvg-logo=""group-title="CINE PREMIUM 2",CINEACCION
 https://stmv6.voxtvhd.com.br/cineaccion/cineaccion/playlist.m3u8
 
 
-#EXTINF:-1 tvg-logo="https://i.ibb.co/DDTQr8c4/LOGO-BOMBI-TV-HORIZONTAL-V2-1-scaled.png"group-title="CINE PREMIUM",BOMBI TV
+#EXTINF:-1 tvg-logo="https://i.ibb.co/DDTQr8c4/LOGO-BOMBI-TV-HORIZONTAL-V2-1-scaled.png"group-title="CINE PREMIUM 2",BOMBI TV
 https://tv.arkeo.cl:1936/bombitv/bombitv/chunklist_w1423969722.m3u8
 
-#EXTINF:-1 tvg-logo=""group-title="CINE PREMIUM",XTREMA ACCION
+#EXTINF:-1 tvg-logo=""group-title="CINE PREMIUM 2",XTREMA ACCION
 https://stmv6.voxtvhd.com.br/cineaccion/cineaccion/playlist.m3u8
 
 
-#EXTINF:-1 tvg-logo=""group-title="CINE PREMIUM",XTREMA DIBUJOS ANIMADOS
+#EXTINF:-1 tvg-logo=""group-title="CINE PREMIUM 2",XTREMA DIBUJOS ANIMADOS
 https://stmv6.voxtvhd.com.br/xtremacartoons/xtremacartoons/playlist.m3u8
 
 
 
 
 
-#EXTINF:-1 tvg-logo="https://www.larivision.com/web/wp-content/uploads/2025/07/cropped-Logo-5.png"group-title="CINE PREMIUM",LARIVISION
+#EXTINF:-1 tvg-logo="https://www.larivision.com/web/wp-content/uploads/2025/07/cropped-Logo-5.png"group-title="CINE PREMIUM 2",LARIVISION
 https://live.larimartv.net/livelan/stream.m3u8
 
 
 
 
 
-#EXTINF:-1 tvg-logo="https://i.ibb.co/Ldfbk6rC/Photoroom-20250629-132738.png"group-title="CINE PREMIUM",TVS
+#EXTINF:-1 tvg-logo="https://i.ibb.co/Ldfbk6rC/Photoroom-20250629-132738.png"group-title="CINE PREMIUM 2",TVS
 https://vcp10.myplaytv.com/tvs/tvs/chunklist_w989702023.m3u8
 
 
-#EXTINF:-1 tvg-logo=""group-title="CINE PREMIUM",COMEDY CENTRAL 
-http://201.217.246.42:44310/Live/3fcb6e26785fd8d415571b26dc3cf5d3/local-60_720.m3u8
-
-
-#EXTINF:-1 tvg-logo=""group-title="CINE PREMIUM", STUDIO UNIVERSAL 
-http://201.217.246.42:44310/Live/3fcb6e26785fd8d415571b26dc3cf5d3/local-67_720.m3u8
-
-
-#EXTINF:-1 tvg-logo=""group-title="CINE PREMIUM",DISNEY JR
-http://201.217.246.42:44310/Live/3fcb6e26785fd8d415571b26dc3cf5d3/local-35.playlist.m3u8
-
-
-#EXTINF:-1 tvg-logo=""group-title="CINE PREMIUM", DISNEY CHANNEL 
-http://201.217.246.42:44310/Live/3fcb6e26785fd8d415571b26dc3cf5d3/local-32_720.m3u8
-
-
-#EXTINF:-1 tvg-logo=""group-title="CINE PREMIUM",E!
-http://201.217.246.42:44310/Live/3fcb6e26785fd8d415571b26dc3cf5d3/local-14_720.m3u8
-
-
-#EXTINF:-1 tvg-logo=""group-title="CINE PREMIUM",EL GOURMET
-http://201.217.246.42:44310/Live/3fcb6e26785fd8d415571b26dc3cf5d3/local-25_720.m3u8
-
-
-#EXTINF:-1 tvg-logo=""group-title="CINE PREMIUM",HISTORY
-http://201.217.246.42:44310/Live/3fcb6e26785fd8d415571b26dc3cf5d3/local-40_480.m3u8
 
 
 
-#EXTINF:-1 tvg-logo=""group-title="CINE PREMIUM",NATIONAL GEOGRAPHIC
-http://201.217.246.42:44310/Live/3fcb6e26785fd8d415571b26dc3cf5d3/local-46_720.m3u8
+
+
+
+
+
+
 
 
 
@@ -2053,6 +2042,27 @@ https://5ca3e84a76d30.streamlock.net/gpacifico4/smil:mazatlan.smil/chunklist_w36
 ################( ESPAÑA )##################################################
 
 
+
+
+
+
+
+#EXTINF:-1 tvg-logo="https://i.ibb.co/gb1X2r6W/37-s.png"group-title="ESPAÑA",SONY ACTION
+https://de9yx47crxs6l.cloudfront.net/playlist.m3u8
+
+
+#EXTINF:-1 tvg-logo="https://i.ibb.co/rRKQJNpp/28-s.png"group-title="ESPAÑA",SONY THILLER
+https://d1wuti7vf6eqt9.cloudfront.net/playlist_7.m3u8
+
+#EXTINF:-1 tvg-logo="https://i.ibb.co/q3gS3KkN/1776260489472.png"group-title="ESPAÑA",BBC SERIES 
+https://amg00793-amg00793c40-rakuten-es-5444.playouts.now.amagi.tv/1080p/index.m3u8
+
+
+#EXTINF:-1 tvg-logo="https://i.ibb.co/XZ4LBFKH/images-21-1.png"group-title="ESPAÑA",SONY COMEDIA
+https://d3m8rnla2v9m5d.cloudfront.net/playlist.m3u8
+
+#EXTINF:-1 tvg-logo="https://i.ibb.co/F4BRB4fM/Screenshot-20260415-095829.png"group-title="ESPAÑA",STAR TVE
+https://rtvelivestream-rtveplayplus.rtve.es/rtvesec/int/star_main_1080.m3u8
 
 
 #EXTINF:-1 tvg-logo="https://e7.pngegg.com/pngimages/442/22/png-clipart-logo-24-horas-television-la-1-spain-television-text.png"group-title="ESPAÑA",24 hs
