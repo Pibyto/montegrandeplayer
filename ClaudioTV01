@@ -12,8 +12,7 @@ https://lbgo.bozztv.com/ssh101/ssh101/max16/playlist.m3u8
 
 
 
-#EXTINF:-1 tvg-logo="https://tinyurl.com/5c4k5rx9"group-title="BUENOS AIRES",rtr
-https://tv3ecuador.site/hls/stream/index.m3u8
+
 
 
 #EXTINF:-1 tvg-logo="https://tinyurl.com/Genteve"group-title="BUENOS AIRES",GENTV
@@ -2360,6 +2359,9 @@ https://edge.essastream.com/telemax/tracks-v1a1/mono.m3u8
 #EXTINF:-1 tvg-logo="https://www.coolstreaming.us/img/ch/image84741368099.jpg"group-title="R.DOMINICANA",ORBIT TV HD
 https://cnn.hostlagarto.com/orbittv/tracks-v1a1/mono.m3u8
 
+
+#EXTINF:-1 tvg-logo="https://i.ibb.co/5xRHwKmf/images-18-2.png"group-title="R.DOMINICANA",AME TV
+https://ss2.tvrdomi.com:1936/ame47/ame47/playlist.m3u8
 
 
 
