@@ -1701,7 +1701,8 @@ https://live.obslivestream.com/selvatv/tracks-v1a1/mono.m3u8
 
 
 
-
+#EXTINF:-1 tvg-logo="https://tinyurl.com/Rtrteeve"group-title="CINE PREMIUM",RTR
+https://tv3ecuador.site/hls/stream/index.m3u8
 
 
 #EXTINF:-1 tvg-logo="https://tinyurl.com/Allyteve"group-title="ECUADOR",ALLY TV
