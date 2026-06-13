@@ -1975,7 +1975,8 @@ https://dvrfl03.bozztv.com/hondu-alientovision/tracks-v1a1/mono.ts.m3u8
 
 
 
-
+#EXTINF:-1 tvg-logo=""group-title="MEXICO",L AS ESTRELLAS
+https://channel01-onlymex.akamaized.net/hls/live/2022749/event01/index_6.m3u8
 
 
 #EXTINF:-1 tvg-logo=""group-title="MEXICO",LMS
@@ -2027,7 +2028,7 @@ https://mvs-live.daioncdn.net/mvstv/mvstv_1080p.m3u8
 https://s5.mexside.net:1936/canal14/canal14/chunklist.m3u8
 
 
-#EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTuXNZDeHf1-uYVaNI0es2GTfC66rMLHGcO8g&usqp=CAU"group-title="MEXICO",CANAL MAS TELEVISIÓN 
+#EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/imagces?q=tbn:ANd9GcTuXNZDeHf1-uYVaNI0es2GTfC66rMLHGcO8g&usqp=CAU"group-title="MEXICO",CANAL MAS TELEVISIÓN 
 https://movil.ejeserver.com/live/teledoradahd.m3u8
 
 #EXTINF:-1 tvg-logo="https://tele10.nayarit.gob.mx/wp-content/uploads/2024/05/LOGO-WEB.png"group-title="MEXICO",TELE10
@@ -2380,6 +2381,10 @@ https://live20.bozztv.com:443/akamaissh101/ssh101/codificador7/chunks.m3u8
 https://edge.essastream.com/telemax/tracks-v1a1/mono.m3u8
 
 
+#EXTINF:-1 tvg-logo="https://www.vivalivetv.com/public/files/shows/0/1/2893-800x450-FFFFFF.jpg"group-title="R.DOMINICANA",MEGACINE
+https://cnn.hostlagarto.com/megacinetv/tracks-v1a1/mono.m3u8
+
+
 #EXTINF:-1 tvg-logo="https://www.coolstreaming.us/img/ch/image84741368099.jpg"group-title="R.DOMINICANA",ORBIT TV HD
 https://cnn.hostlagarto.com/orbittv/tracks-v1a1/mono.m3u8
 
@@ -2400,8 +2405,8 @@ https://ss2.tvrdomi.com:1936/cascaratv/cascaratv/chunklist_w961062293.m3u8?Monte
 https://tv.wracanal10.com:3300/live/chinolatvlive.m3u8?MonteGrandePlay
 
 
-#EXTINF:-1 tvg-logo=""group-title="R.DOMINICANA",CODIGO TV
-
+#EXTINF:-1 tvg-logo="https://costaricachannel.org/wp-content/uploads/2022/08/cropped-LOGO-CR-2022-2022.pngn"group-title="R.DOMINICANA", COSTARICA CHANNEL 
+https://video0.rogohosting.com:19360/8006/8006.m3u8
 
 
 #EXTINF:-1 tvg-logo="https://i0.wp.com/imagenuniversaltv.com/wp-content/uploads/2022/03/cropped-Logo-imagen-Universal-TV-512-x-512.png"group-title="R.DOMINICANA",IU TV HD
@@ -2431,7 +2436,6 @@ https://videoserver.tmcreativos.com:19360/cvmhbyrcat/cvmhbyrcat.m3u8
 
 
 
-#EXTINF:-1 tvg-logo="https://www.vivalivetv.com/public/files/shows/0/1/2893-800x450-FFFFFF.jpg"group-title="R.DOMINICANA",MEGACINE
 
 
 
@@ -2485,7 +2489,7 @@ https://streamtvs.tvcanalsur.com.do/hls/stream/index.m3u8?MonteGrandePlay
 
 
 
-#############( ELSALVADOR )#################################################
+#############( ELSALVADOR )########################yv#########################
 
 
 
