@@ -19,6 +19,12 @@ https://lbgo.bozztv.com/ssh101/ssh101/ipersonica/playlist.m3u8
 https://vd01.streaminghd.net.ar:3349/live/bzuctkgnlive.m3u8
 
 
+#EXTINF:-1 tvg-logo="https://tinyurl.com/Trespilar"group-title="BUENOS AIRES",CANAL 3 PINAMAR 
+https://intelincloud01.com.ar/hls/cn3/index.m3u8
+
+#EXTINF:-1 tvg-logo="https://tinyurl.com/Magicateve"group-title="BUENOS AIRES", CIUDAD MAGICA TV
+https://live20.bozztv.com/akamaissh101/ssh101/verycoolfgr/chunks.m3u8
+
 
 #EXTINF:-1 tvg-logo="https://tinyurl.com/Genteve"group-title="BUENOS AIRES",GENTV
 https://srv3.zcast.com.br/gentv/gentv/playlist.m3u8
@@ -52,11 +58,7 @@ https://vidartv2.todostreaming.es/live/radiovida-altar724.m3u8
 https://videostream.shockmedia.com.ar:19360/neotvdigital/neotvdigital.m3u8
 
 
-#EXTINF:-1 tvg-logo="https://tinyurl.com/Trespilar"group-title="BUENOS AIRES",CANAL 3 PINAMAR 
-https://intelincloud01.com.ar/hls/cn3/index.m3u8
 
-#EXTINF:-1 tvg-logo="https://tinyurl.com/Magicateve"group-title="BUENOS AIRES", CIUDAD MAGICA TV
-https://live20.bozztv.com/akamaissh101/ssh101/verycoolfgr/chunks.m3u8
 
 
 #EXTINF:-1 tvg-logo="https://nnssmadrid.files.wordpress.com/2015/09/a4-solidaria-tv.png?w=276"group-title="BUENOS AIRES",SOLIDARIA TV HD
