@@ -11,7 +11,8 @@ https://live20.bozztv.com/akamaissh101/ssh101/plaaytv/playlist.m3u8
 https://lbgo.bozztv.com/ssh101/ssh101/max16/playlist.m3u8
 
 
-
+#EXTINF:-1 tvg-logo="https://tinyurl.com/Tvgen"group-title="BUENOS AIRES",GENTV
+https://gentvpeer.desdeparaguay.net/gentvpeer/gentv_py_alta/master.m3u8
 
 
 
