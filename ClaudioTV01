@@ -176,12 +176,18 @@ https://cdn.mycloudstream.io/hls/live/broadcast/pgv5kerk/mono.m3u8
 
 
 
+############( MUNDIAL )##№########
 
 
 
 
+#EXTINF:-1 tvg-logo="https://tinyurl.com/Tvgen"group-title="MUNDIAL",GENTV
+https://gentvpeer.desdeparaguay.net/gentvpeer/gentv_py_alta/master.m3u8
 
 
+
+#EXTINF:-1 tvg-logo="https://tinyurl.com/5c4k5rx9"group-title="MUNDIAL",RTR
+https://tv3ecuador.site/hls/stream/index.m3u8
 
 
 
