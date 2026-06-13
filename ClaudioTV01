@@ -1598,6 +1598,10 @@ https://play.agenciastreaming.com:8081/uniteltv/tracks-v1a1/mono.m3u8
 #EXTINF:-1 tvg-logo="https://telecolortv.pe/wp-content/uploads/2022/01/inicio_app.png"group-title="PERÚ",TELECOLOR
 https://live.obslivestream.com:443/telecolormux/tracks-v1a1/mono.m3u8
 
+#EXTINF:-1 tvg-logo="https://tinyurl.com/Tevecusco"group-title="PERÚ",TV EN LINEA
+https://s4.tvdatta.com:3450/live/tvenlinealive.m3u8
+
+
 
 #EXTINF:-1 tvg-logo="https://uraniotv.pe/wp-content/uploads/2021/11/logo.png"group-title="PERÚ",URANIO TV
 https://live.obslivestream.com:443/uraniotv/tracks-v1a1/mono.m3u8
@@ -1611,8 +1615,7 @@ https://live.obslivestream.com:443/viaaltomayomux/tracks-v1a1/mono.m3u8
 https://7.innovatestream.pe:19360/megatvjaen/megatvjaen.m3u8
 
 
-#EXTINF:-1 tvg-logo="https://cdn.m3u.cl/logo/1590_TV_en_linea_Cusco.png"group-title="PERÚ",TV EN LINEA
-https://s4.tvdatta.com:3450/live/tvenlinealive.m3u8
+
 
 
 #EXTINF:-1 tvg-logo="https://cdn.m3u.cl/logo/1546_Tele_Selva.png"group-title="PERÚ",TELE SELVA
