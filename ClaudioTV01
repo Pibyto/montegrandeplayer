@@ -15,21 +15,20 @@ https://lbgo.bozztv.com/ssh101/ssh101/max16/playlist.m3u8
 
 
 
-#EXTINF:-1 tvg-logo="https://tinyurl.com/Genteve"group-title="BUENOS AIRES",GENTV
-https://srv3.zcast.com.br/gentv/gentv/playlist.m3u8
-
-
-
-
-
-#EXTINF:-1 tvg-logo="https://tinyurl.com/Elmagoteve"group-title="BUENOS AIRES",EL MAGO TV
-https://live20.bozztv.com/akamaissh101/ssh101/elmagotv2/chunks.m3u8
-
-
 #EXTINF:-1 tvg-logo="https://tinyurl.com/Ipersonicateve"group-title="BUENOS AIRES", IPERSONICA TV 
 https://lbgo.bozztv.com/ssh101/ssh101/ipersonica/playlist.m3u8
 
 
+#EXTINF:-1 tvg-logo="https://tinyurl.com/Lamilteve"group-title="BUENOS AIRES",LA MIL35
+https://vd01.streaminghd.net.ar:3349/live/bzuctkgnlive.m3u8
+
+
+
+#EXTINF:-1 tvg-logo="https://tinyurl.com/Genteve"group-title="BUENOS AIRES",GENTV
+https://srv3.zcast.com.br/gentv/gentv/playlist.m3u8
+
+#EXTINF:-1 tvg-logo="https://tinyurl.com/Elmagoteve"group-title="BUENOS AIRES",EL MAGO TV
+https://live20.bozztv.com/akamaissh101/ssh101/elmagotv2/chunks.m3u8
 
 
 #EXTINF:-1 tvg-logo="https://tinyurl.com/Telecreativa"group-title="BUENOS AIRES",TELECREATIVA HD
@@ -50,8 +49,6 @@ https://183.bozztv.com/giatv/giatv-telemixenvivo/telemixenvivo/playlist.m3u8
 https://vidartv2.todostreaming.es/live/radiovida-altar724.m3u8
 
 
-#EXTINF:-1 tvg-logo="https://tinyurl.com/Lamilteve"group-title="BUENOS AIRES",LA MIL35
-https://vd01.streaminghd.net.ar:3349/live/bzuctkgnlive.m3u8
 
 
 
