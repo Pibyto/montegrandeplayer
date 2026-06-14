@@ -224,6 +224,10 @@ https://unlimited1-saopaulo.dps.live/televidaar/televidaar.smil/televidaar/lives
 https://videostream.shockmedia.com.ar:19360/multivisionfederal/multivisionfederal.m3u8
 
 
+#EXTINF:-1 tvg-logo="https://tinyurl.com/Tivteve"group-title="ARGENTINA",TIV
+https://videohd.live:19360/8008/8008.m3u8
+
+
 #EXTINF:-1 tvg-logo="https://tinyurl.com/Treintaycuatro"group-title="ARGENTINA", CANAL 34 HD
 http://streamyes.alsolnet.com/canal34hd/live/chunklist_w638979893.m3u8
 
