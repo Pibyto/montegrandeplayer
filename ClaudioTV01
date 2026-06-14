@@ -245,8 +245,41 @@ https://vivo.solumedia.com:19360/telemedia/telemedia.m3u8
 
 
 
-#EXTINF:-1 tvg-logo="https://tinyurl.com/3amrdykz"group-title="ARGENTINA", CANAL 4 HD  POSADAS
+#EXTINF:-1 tvg-logo="https://tinyurl.com/Cuatropos"group-title="ARGENTINA", CANAL 4 HD  POSADAS
 http://iptv.ixfo.com.ar:8081/live/C4POS/playlist.m3u8
+
+
+
+
+
+
+#EXTINF:-1 tvg-logo="https://tinyurl.com/Tdcros"group-title="ARGENTINA",TDC
+https://tdcserver.com:19360/tdconlione-2/tdconlione-2.m3u8
+
+
+#EXTINF:-1 tvg-logo="https://tinyurl.com/Sietesalt"group-title="ARGENTINA",CANAL 7 SALTA
+https://vivo.solumedia.com:19360/cooperativa/cooperativa.m3u8
+
+
+#EXTINF:-1 tvg-logo="https://tinyurl.com/Sieteju"group-title="ARGENTINA",7JUJUY
+https://stream.arcast.live:443/canal7jujuy/ngrp:canal7jujuy_all/chunklist_w906685609_b1146880.m3u8
+
+
+#EXTINF:-1 tvg-logo="https://tinyurl.com/Cuatrosan"group-title="ARGENTINA",EL 4 SAN JUAN 
+https://streamlov.alsolnet.com/canal4sanjuan/live/chunklist_w318490892.m3u8
+
+
+#EXTINF:-1 tvg-logo="https://tinyurl.com/Pueblocinco"group-title="ARGENTINA",5 EL PUEBLO 
+https://stmv4.voxtvhd.com.br/canal5pueblo/canal5pueblo/playlist.m3u8
+
+#EXTINF:-1 tvg-logo="https://tinyurl.com/Sicarditeve"group-title="ARGENTINA",SICARDITV HD  18.2
+https://vivo.solumedia.com:19360/sicarditv/sicarditv.m3u8
+
+
+#EXTINF:-1 tvg-logo="https://tinyurl.com/3b5a5c2f"group-title="ARGENTINA", CANAL 9 HD LITORAL
+https://stream.arcast.live:443/ahora/ahora/chunklist_w1967933953.m3u8
+
+
 
 #EXTINF:-1 tvg-logo="https://tinyurl.com/7ama65js"group-title="ARGENTINA", CANAL 9 HD MISIONES
 https://panel.host-live.com:19360/8076/8076.m3u8
@@ -262,29 +295,6 @@ https://stream.arcast.com.ar/c3lapampa/ngrp:c3lapampa_all/playlist.m3u8
 
 
 
-
-#EXTINF:-1 tvg-logo="https://tinyurl.com/5fz65n24"group-title="ARGENTINA",TDC
-https://tdcserver.com:19360/tdconlione-2/tdconlione-2.m3u8
-
-
-
-
-
-
-
-
-
-
-#EXTINF:-1 tvg-logo="https://tinyurl.com/3b5a5c2f"group-title="ARGENTINA", CANAL 9 HD LITORAL
-https://stream.arcast.live:443/ahora/ahora/chunklist_w1967933953.m3u8
-
-
-#EXTINF:-1 tvg-logo="https://tinyurl.com/4vbrdzhn"group-title="ARGENTINA",5 EL PUEBLO 
-https://stmv4.voxtvhd.com.br/canal5pueblo/canal5pueblo/playlist.m3u8
-
-
-
-
 #EXTINF:-1 tvg-logo="https://tinyurl.com/2ev34nje"group-title="ARGENTINA",COSMOS TV HD
 https://canaletaplus.com:3922/live/cosmoslive.m3u8
 
@@ -294,8 +304,7 @@ https://canaletaplus.com:3922/live/cosmoslive.m3u8
 http://coninfo.net:1935/9linklivert/smil:9linkmultibr.smil/chunklist_w1546314826_b2044100_sleng.m3u8
 
 
-#EXTINF:-1 tvg-logo="https://tinyurl.com/3scrjhyx"group-title="ARGENTINA",SICARDITV HD  18.2
-https://vivo.solumedia.com:19360/sicarditv/sicarditv.m3u8
+
 
 
 #EXTINF:-1 tvg-logo="https://tvmas.com.ar/wp-content/uploads/2019/02/logo-tvmas-1.png"group-title="ARGENTINA",TV+
@@ -345,18 +354,9 @@ https://iptv.ixfo.com.ar:30443/c21tv/hd/c21tv/chunks.m3u8
 
 
 
-#EXTINF:-1 tvg-logo=""group-title="ARGENTINA",A3CINE
-http://181.114.57.246:4000/play/KgkA9tT2SpLYm86J/index.m3u8
 
 
 
-#EXTINF:-1 tvg-logo=""group-title="ARGENTINA",STAR TVE
-https://rtvelivestream-rtveplayplus.rtve.es/rtvesec/int/star_main_1080.m3u8
-
-
-
-#EXTINF:-1 tvg-logo="https://tinyurl.com/ykpzu6fs"group-title="ARGENTINA",EL 4 SAN JUAN 
-https://streamlov.alsolnet.com/canal4sanjuan/live/chunklist_w318490892.m3u8
 
 
 #EXTINF:-1 tvg-logo=""group-title="ARGENTINA",MONTEGRANDE RADIOTV
@@ -367,8 +367,7 @@ https://live20.bozztv.com/akamaissh101/ssh101/mgradiotv/playlist.m3u8
 https://5cd577a3dd8ec.streamlock.net/CANAL4/smil:CANAL4.smil/chunklist_w1929733198_b4128000.m3u8
 
 
-#EXTINF:-1 tvg-logo="https://tinyurl.com/54ybehp4"group-title="ARGENTINA",7JUJUY
-https://stream.arcast.live:443/canal7jujuy/ngrp:canal7jujuy_all/chunklist_w906685609_b1146880.m3u8
+
 
 
 #EXTINF:-1 tvg-logo="https://i.ibb.co/pjV1gdBS/Photoroom-20250616-002323.png"group-title="ARGENTINA",CANAL 12 HD
@@ -376,8 +375,7 @@ https://nd106.republicaservers.com:443/hls/diegologonitv/0_1/index.m3u8?sessId=3
 
 
 
-#EXTINF:-1 tvg-logo="https://i.ibb.co/qMPnsdYs/1771806869677.png"group-title="ARGENTINA",BIG TV
-https://live20.bozztv.com/giatv/giatv-bigtv/bigtv/chunks.m3u8
+
 
 
 #EXTINF:-1 tvg-logo="https://i.ibb.co/f0YPh6h/images-removebg-preview-2.png"group-title="ARGENTINA",TELE CINCO
@@ -390,8 +388,6 @@ https://videohd.live:19360/8016/8016.m3u8
 https://s.emisoras.tv:8081/penielbibliaabierta/index.m3u8
 
 
-#EXTINF:-1 tvg-logo=""group-title="ARGENTINA",BA TV
-https://live20.bozztv.com/akamaissh101/ssh101/buenostv25/playlist.m3u8
 
 
 
@@ -399,8 +395,7 @@ https://live20.bozztv.com/akamaissh101/ssh101/buenostv25/playlist.m3u8
 https://canal.mediaserver.com.co/live/cinedios.m3u8
 
 
-#EXTINF:-1 tvg-logo="https://tinyurl.com/4hzz7tsn"group-title="ARGENTINA",CANAL 7 SALTA
-https://vivo.solumedia.com:19360/cooperativa/cooperativa.m3u8
+
 
 
 #EXTINF:-1 tvg-logo="https://static.wikia.nocookie.net/logopedia/images/e/e9/Lapachocanal11.jpg/revision/latest?cb=20160815012802&path-prefix=es"group-title="ARGENTINA",LAPACHO TV
