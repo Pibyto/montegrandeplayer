@@ -220,6 +220,10 @@ https://unlimited1-saopaulo.dps.live/televidaar/televidaar.smil/televidaar/lives
 https://videostream.shockmedia.com.ar:19360/multivisionfederal/multivisionfederal.m3u8
 
 
+#EXTINF:-1 tvg-logo="https://tinyurl.com/Treintaycuatro"group-title="ARGENTINA", CANAL 34 HD
+http://streamyes.alsolnet.com/canal34hd/live/chunklist_w638979893.m3u8
+
+
 #EXTINF:-1 tvg-logo="https://i.ibb.co/Nn1bb92f/1777059764544-2.png"group-title="ARGENTINA", TELE POSADAS
 https://live20.bozztv.com/giatv/giatv-teleposadaso01/teleposadaso01/playlist.m3u8
 
@@ -261,8 +265,7 @@ https://tdcserver.com:19360/tdconlione-2/tdconlione-2.m3u8
 
 
 
-#EXTINF:-1 tvg-logo="https://tinyurl.com/4j9nba94"group-title="ARGENTINA", CANAL 34 HD
-http://streamyes.alsolnet.com/canal34hd/live/chunklist_w638979893.m3u8
+
 
 
 
