@@ -211,12 +211,12 @@ https://tv3ecuador.site/hls/stream/index.m3u8
 
 
 
-#EXTINF:-1 tvg-logo="https://tinyurl.com/4zexfb74"group-title="ARGENTINA",TELEVIDA
+#EXTINF:-1 tvg-logo="https://tinyurl.com/Mzatelevida"group-title="ARGENTINA",TELEVIDA
 https://unlimited1-saopaulo.dps.live/televidaar/televidaar.smil/televidaar/livestream1/chunks.m3u8
 
 
 
-#EXTINF:-1 tvg-logo="https://tinyurl.com/3xxchupk"group-title="ARGENTINA",MULTIVISION HD
+#EXTINF:-1 tvg-logo="https://multivision.tv/wp-content/uploads/2025/08/cropped-icono.png"group-title="ARGENTINA",MULTIVISION HD
 https://videostream.shockmedia.com.ar:19360/multivisionfederal/multivisionfederal.m3u8
 
 
