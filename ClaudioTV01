@@ -1178,6 +1178,7 @@ https://video.hostingcaaguazu.com:19360/delreytv/delreytv.m3u8
 https://gentvpeer.desdeparaguay.net/gentvpeer/gentv_py_alta/master.m3u8
 
 #EXTINF:-1 tvg-logo=""group-title="PARAGUAY",LA TELE
+https://copacotf.desdeparaguay.net/latele/latele_py_alta/playlist.m3u8?admin=tvaccion
 
 
 #EXTINF:-1 tvg-logo=""group-title="PARAGUAY",RCC
@@ -1193,18 +1194,33 @@ https://edge.enhdtv.com/8060/tracks-v1a1/mono.m3u8
 
 
 
-#EXTINF:-1 tvg-logo=""group-title="PARAGUAY",
+#EXTINF:-1 tvg-logo=""group-title="PARAGUAY",POPU TV
+https://copacogen.desdeparaguay.net/universotv/universotv_py_alta/playlist.m3u8?admin=nacion
+
+#EXTINF:-1 tvg-logo=""group-title="PARAGUAY",CANAL 8
+https://video.hostingcaaguazu.com:19360/canal8cvs/canal8cvs.m3u8
+
+
+
 
 #EXTINF:-1 tvg-logo=""group-title="PARAGUAY",
+OVIEDO TV
+https://video.wilohosting.com:19360/oviedotv/oviedotv.m3u8
 
 
-
-#EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTDdcNNZLYq5iXNBDx7tyDMC0kJeZZjyVeHlg&s"group-title="PARAGUAY",RTV REPUBLICA
-https://rds3.desdeparaguay.net/republicatv/republicatv/chunklist_w1489871788.m3u8
-
-
-#EXTINF:-1 tvg-logo="https://blogger.googleusercontent.com/img/a/AVvXsEg7zrIkar6b9ZRlhqCsmyk8FTM_0btWRdYLnk1HvIkYP5gNc48D1JpHUyQeBeZJv7BO2T4bXI0Nki2iAk6fMNWRRE1fhraPfARYtpOBsGnE7oNHxLqSO1RMf-4WEDwej9Hk1xhbhyEnM8AuIpSm8UXwFB1nArjVA_oBBrEzVObfEcOuVEoSLoZVe5GSrI7w=s850"group-title="PARAGUAY",NPY TV
+#EXTINF:-1 tvg-logo=""group-title="PARAGUAY",NPY
 https://copacogen.desdeparaguay.net/npy/npy_py_alta/chunklist_w665042620.m3u8?admin=tvaccion
+
+
+
+
+
+#EXTINF:-1 tvg-logo=""group-title="PARAGUAY",PARAGUAY TV
+https://stream.paraguaytv.gov.py/memfs/bbe36fed-9b49-4d1d-adaa-4bd6d1b2e386.m3u8
+
+
+#EXTINF:-1 tvg-logo="https://blogger.googleusercontent.com/img/a/AVvXsEg7zrIkar6b9ZRlhqCsmyk8FTM_0btWRdYLnk1HvIkYP5gNc48D1JpHUyQeBeZJv7BO2T4bXI0Nki2iAk6fMNWRRE1fhraPfARYtpOBsGnE7oNHxLqSO1RMf-4WEDwej9Hk1xhbhyEnM8AuIpSm8UXwFB1nArjVA_oBBrEzVObfEcOuVEoSLoZVe5GSrI7w=s850"group-title="PARAGUAY",NEX TV
+https://live.enhdtv.com:19360/nexthd/nexthd.m3u8
 
 
 
@@ -1236,7 +1252,7 @@ https://copacotf.desdeparaguay.net/latele/latele_py_alta/chunklist_w721683875.m3
 
 
 #EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/4/46/LogoTFFlat.png"group-title="PARAGUAY",TELEFUTURO
-https://copacogen.desdeparaguay.net/telefuturo/telefuturo_py_alta/chunklist_w98992505.m3u8?admin=tvaccion
+
 
 
 
@@ -1426,10 +1442,99 @@ https://play.agenciastreaming.com:19360/8160/8160.m3u8
 
 
 
+############( BRASIL )############
 
 
 
 
+#EXTINF:-1 tvg-logo=""group-title="BRASIL",TV CLUBE
+https://5c483b9d1019c.streamlock.net/8186/8186/chunklist_w1225913674.m3u8
+
+
+
+
+#EXTINF:-1 tvg-logo=""group-title="BRASIL",TV BRASIL 
+https://tvbrasil-stream.ebc.com.br/index.m3u8
+
+
+
+#EXTINF:-1 tvg-logo=""group-title="BRASIL", TV FUTURO 
+https://tv02.zas.media:1936/tvfuturo/tvfuturo/chunklist_w583425599.m3u8
+
+
+
+#EXTINF:-1 tvg-logo=""group-title="BRASIL",CAZE TV
+https://dfr80qz435crc.cloudfront.net/MNOP/Amagi/Caze/Caze_TV_BR/1080p-vtt/index.m3u8
+
+
+
+
+#EXTINF:-1 tvg-logo=""group-title="BRASIL",CHROMA TV
+https://5c483b9d1019c.streamlock.net/8054/8054/playlist.m3u8
+
+
+
+#EXTINF:-1 tvg-logo=""group-title="BRASIL", CINDIETV
+https://cc-hqw8u5r1nshjc.akamaized.net/scheduler/scheduleMaster/352/variant/22099961.m3u8
+
+
+
+
+#EXTINF:-1 tvg-logo=""group-title="BRASIL", CLASSIQUE TV 
+https://stmv1.srvif.com/classique/classique/playlist.m3u8
+
+
+
+
+#EXTINF:-1 tvg-logo=""group-title="BRASIL",CONC TV
+https://stream01.msolutionbrasil.com.br/hls/conectv/live.m3u8
+
+
+
+
+#EXTINF:-1 tvg-logo=""group-title="BRASIL", DEMAISTV 
+https://stmv1.samcast.com.br/demaistv6503/demaistv6503/playlist.m3u8
+
+
+
+
+#EXTINF:-1 tvg-logo=""group-title="BRASIL", GOSPEL MOVIE 
+https://stmv1.srvif.com/gospelf/gospelf/playlist.m3u8
+
+
+
+
+#EXTINF:-1 tvg-logo=""group-title="BRASIL", GOSPEL CARTOON
+https://stmv1.srvif.com/gospelcartoon/gospelcartoon/playlist.m3u8
+
+
+
+
+#EXTINF:-1 tvg-logo=""group-title="BRASIL",NICK
+https://x1co.com.br/hls/0/stream.m3u8
+
+
+
+
+
+
+#EXTINF:-1 tvg-logo=""group-title="BRASIL",NICK TOONS
+https://stmv2.srvif.com/nicktoons/nicktoons/playlist.m3u8
+
+
+
+
+#EXTINF:-1 tvg-logo=""group-title="BRASIL",NOVO TIEMPO 
+https://stream.live.novotempo.com/tv/smil:tvnuevotiempo.smil/chunklist_b3628000_slspa.m3u8
+
+
+#EXTINF:-1 tvg-logo=""group-title="BRASIL",TV GUARA
+https://video02.logicahost.com.br/tvguara23/tvguara23/chunklist_w109140955.m3u8
+
+
+
+#EXTINF:-1 tvg-logo=""group-title="BRASIL",REDBULL 
+https://d03ae6b5c6724c24867e97a3dc04934a.mediatailor.us-west-2.amazonaws.com/v1/manifest/ba62fe743df0fe93366eba3a257d792884136c7f/LINEAR-1026-WORBBRPTFAST-WHALETVPLUS/32cbe3df-a164-4e08-9655-53796e09d3b4/0.m3u8
 
 
 
@@ -1705,7 +1810,7 @@ https://live.obslivestream.com/selvatv/tracks-v1a1/mono.m3u8
 
 
 
-#EXTINF:-1 tvg-logo="https://tinyurl.com/Rtrteeve"group-title="CINE PREMIUM",RTR
+#EXTINF:-1 tvg-logo="https://tinyurl.com/Rtrteeve"group-title="ECUADOR",RTR
 https://tv3ecuador.site/hls/stream/index.m3u8
 
 
@@ -1715,6 +1820,10 @@ https://micanal.ovh/livestreams/142.RZYR3NWFIHKH.m3u8
 
 #EXTINF:-1 tvg-logo="https://tinyurl.com/Zurquiteve"group-title="ECUADOR",ZURQUI TV
 https://videoserver.tmcreativos.com:19360/gesfnvpamn/gesfnvpamn.m3u8
+
+
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/f/f2/Ecuavisa_Logo_2019.png"group-title="ECUADOR",ECUAVISA PLAY
+https://dai.google.com/linear/hls/event/GyPkTVDZSXGhpOvxPK7m2g/master.m3u8
 
 
 
@@ -1731,23 +1840,52 @@ https://samson.streamerr.co:8081/shogun/index.m3u8
 
 
 #EXTINF:-1 tvg-logo="https://static.wikia.nocookie.net/logopedia/images/1/17/Rts_2005.png/revision/latest?cb=20201015015958&path-prefix=es"group-title="ECUADOR",RTS 
-https://alba-ec-rts-rts.stream.mediatiquestream.com/original.m3u8 
+ 
 
 
 
 
 #EXTINF:-1 tvg-logo="https://static.wikia.nocookie.net/logopedia/images/b/bb/TVCEcuador2023.png/revision/latest?cb=20230215230242&path-prefix=es"group-title="ECUADOR",TVC 
-https://alba-ec-tvc-tvc.stream.mediatiquestream.com/live_0.m3u8 
+ 
+
+#EXTINF:-1 tvg-logo=""group-title="ECUADOR", EL SOL TV
+https://tv.wracanal10.com:3025/live/elsoltvlive.m3u8
+
+
+
+#EXTINF:-1 tvg-logo=""group-title="ECUADOR",LATV
+https://stmv1.voxtvhd.com.br/latacungatv/latacungatv/playlist.m3u8
+
+
 
 
 #EXTINF:-1 tvg-logo=""group-title="ECUADOR",
-https://live20.bozztv.com:443/akamaissh101/ssh101/mixboliviatvhd/chunks.m3u8
 
+
+
+#EXTINF:-1 tvg-logo=""group-title="ECUADOR", LORETO TV
+https://loretotv.moxapps.shop/live/QFM7KYOlxWd47ybXB3Z1u2P13Py1/index.m3u8
+
+
+#EXTINF:-1 tvg-logo=""group-title="ECUADOR",RED TV
+https://s2.tvdatta.com:3825/live/redtvelive.m3u8
+
+
+#EXTINF:-1 tvg-logo=""group-title="ECUADOR",TELEMAR
+https://cloudpro.servidoresdestream.com:8081/8020/tracks-v1a1/mono.m3u8
+
+
+#EXTINF:-1 tvg-logo=""group-title="ECUADOR",TV COLOR
+https://video.compuwebecuador.com:3067/live/tvcolorlive.m3u8
+
+
+
+#EXTINF:-1 tvg-logo=""group-title="ECUADOR", PANTALLA CLÁSICA 
 https://live20.bozztv.com:443/akamaissh101/ssh101/pantallaclasics/chunks.m3u8
 
 
 #EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/9/94/Gamavisi%C3%B3n2018new.png"group-title="ECUADOR",GAMAVISION 
-https://stream.esradioecuador.com/hls/stream.m3u8 
+ 
 
 
 
@@ -1758,8 +1896,10 @@ https://stream.oromar.tv/hls/oromartv_hi/index.m3u8
 https://viewhn.com/telemas/live/chunks.m3u8
 
 
-#EXTINF:-1 tvg-logo=""group-title="ECUADOR",VOZ Y TV
-https://cloud37.ecuatel.com/vostv/live/chunklist_w1330789036.m3u8
+#EXTINF:-1 tvg-logo=""group-title="ECUADOR",VOSY TV
+https://cloud37.ecuatel.com/vostv/live/chunklist_w2080822301.m3u8
+
+
 
 
 #EXTINF:-1 tvg-logo=""group-title="ECUADOR",UNIANDES
@@ -2285,6 +2425,11 @@ https://stream.meteorito.cloud:1947/canal6/smil:canal6.smil/chunklist_w201553397
 https://micanal.ovh/livestreams/262.D9DCDM7EXNRT.m3u8
 
 
+
+#EXTINF:-1 tvg-logo=""group-title="COLOMBIA",WOW MOVIES
+https://live20.bozztv.com/giatv/giatv-wowmovies/wowmovies/chunks.m3u8
+
+
 #EXTINF:-1 tvg-logo="https://canaltelefamilia.com/wp-content/uploads/2021/02/Logo-Blanco.png"group-title="COLOMBIA",TELEFAMILIA HD
 https://stmv2.voxtvhd.com.br/telefamilia/telefamilia/playlist.m3u8
 
@@ -2696,13 +2841,22 @@ https://5fc584f3f19c9.streamlock.net/genteopa/videogenteopa/chunklist_w123989251
 
 
 
+#EXTINF:-1 tvg-logo=""group-title="HONDURAS", AZTECA 
+https://mdstrm.com/live-stream-playlist/65a1d2fd7e7f14355550d570.m3u8
+
+
+
+#EXTINF:-1 tvg-logo=""group-title="HONDURAS",CANAL 11
+https://redirector.rudo.video/hls-video/c54ac2799874375c81c1672abb700870537c5223/canal11hn/canal11hn.smil/playlist.m3u8
+
+
 #EXTINF:-1 tvg-logo="https://comunicacionesmetropolis.com/assets/images/logo-19.2-v2-1076x605.png"group-title="HONDURAS",METROPOLIS 19.2 HD
 https://5e85d90130e77.streamlock.net:443/6014/6014/chunklist_w1091679071.m3u8
 
 
 
-#EXTINF:-1 tvg-logo="https://comunicacionesmetropolis.com/assets/images/logo-canal-colores-1076x605.png"group-title="HONDURAS",METROPOLIS 19.1 HD
-https://5e85d90130e77.streamlock.net:443/6028/6028/chunklist_w1901575909.m3u8
+#EXTINF:-1 tvg-logo=""group-title="HONDURAS",RSV
+https://stmv2.srvif.com/rsvhonduras/rsvhonduras/playlist.m3u8
 
 
 #EXTINF:-1 tvg-logo=""group-title="HONDURAS",TV CENTRO
@@ -2714,25 +2868,30 @@ https://s.emisoras.tv:8081/diostevetv/tracks-v1a1/mono.m3u8
 
 
 
-#EXTINF:-1 tvg-logo=""group-title="HONDURAS",WOW MOVIES
-https://live20.bozztv.com/giatv/giatv-wowmovies/wowmovies/chunks.m3u8
 
-
-#EXTINF:-1 tvg-logo=""group-title="HONDURAS",C. JIMENEZ
-https://live20.bozztv.com:443/akamaissh101/ssh101/comunicaciones/chunks.m3u8
+#EXTINF:-1 tvg-logo=""group-title="HONDURAS",UNE TV
+https://amixtv.com:8081/unetvhn/tracks-v1a1/mono.m3u8
 
 
 
-#EXTIENF:-1 tvg-logo="https://cdn.storage.foromedios.com/monthly_2022_08/small.Logo-nuevo-canal-13.png.5536c5bee3021af048acb8cbc8993cb6.png"group-title="HONDURAS",CANAL 13
-https://live.eu-north-1b.cf.dmcdn.net/sec2(dJ4WsB9sxD7RWCLPwh3tH0AX9D6raofV44rRZzYsFf4T0DS79-eUDFbKbyrSI8UGysVHnj6_mH6ME-bX-6funuFnwpcWZ2FShCsKBskc_x8sjL5VqB8RHVorNQ71DpNG)/dm/3/x7vh8g3/d/live-720.m3u8
+#EXTIENF:-1 tvg-logo=""group-title="HONDURAS",STEVE
+https://streamingcws30.com/suyapa/videosuyapa/chunks.m3u8
+
+
+
+#EXTINF:-1 tvg-logo=""group-title="HONDURAS",DIOS TV
+https://tv.webmedialive.com/unciontv/live/chunks.m3u8
 
 
 #EXTINF:-1 tvg-logo=""group-title="HONDURAS",CANAL 9
 https://s.emisoras.tv:8081/tvcopan/tracks-v1a1/mono.m3u8
 
 
-#EXTINF:-1 tvg-logo=""group-title="HONDURAS",CANAL 31
-https://live20.bozztv.com:443/akamaissh101/ssh101/tvcotui/chunks.m3u8
+
+
+#EXTINF:-1 tvg-logo=""group-title="HONDURAS",SULA TV
+https://viewhn.com/sulatv/live/chunks.m3u8
+
 
 
 #EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTJGmybk2tZ9j68-o4O0itPHaWJAczyMI74Cg&s"group-title="HONDURAS",CANAL 22
@@ -2743,16 +2902,26 @@ https://redirector.rudo.video/hls-video/c54ac2799874375c81c1672abb700870537c5223
 
 
 #EXTINF:-1 tvg-logo=""group-title="HONDURAS",JEHOVA TV
-https://video.misistemareseller.com/jehovatelevision/jehovatelevision/chunklist_w1768847750.m3u8?MonteGrandePlay
+https://mp.panelchs.com:1936/8038/8038/chunklist_w932882415.m3u8
+
+
+#EXTINF:-1 tvg-logo=""group-title="HONDURAS",GUAYAPE TV
+https://tv.bitstreaming.net:8443/live/guayapetv.m3u8
+
+
+#EXTINF:-1 tvg-logo=""group-title="HONDURAS", DIOS TV KIDS 
+https://s.emisoras.tv:8081/diostevekids/tracks-v1a1/mono.m3u8
 
 
 
 
+#EXTINF:-1 tvg-logo=""group-title="HONDURAS", CHOLUTECA 
+https://s.emisoras.tv:8081/cholutecatv/tracks-v1a1/mono.ts.m3u8
 
 
 
-
-
+#EXTINF:-1 tvg-logo=""group-title="HONDURAS",TALANGA
+https://amixtv.com:8081/talangavision/tracks-v1a1/mono.ts.m3u8
 
 
 
