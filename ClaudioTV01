@@ -181,8 +181,12 @@ https://cdn.mycloudstream.io/hls/live/broadcast/pgv5kerk/mono.m3u8
 
 
 
+#EXTINF:-1 tvg-logo="https://tinyurl.com/Mzatelevida"group-title="MUNDIAL",TELEVIDA
+https://unlimited1-saopaulo.dps.live/televidaar/televidaar.smil/televidaar/livestream1/chunks.m3u8
+
+
 #EXTINF:-1 tvg-logo="https://tinyurl.com/Tvgen"group-title="MUNDIAL",GENTV
-https://gentvpeer.desdeparaguay.net/gentvpeer/gentv_py_alta/master.m3u8
+
 
 
 
