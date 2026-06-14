@@ -181,18 +181,22 @@ https://cdn.mycloudstream.io/hls/live/broadcast/pgv5kerk/mono.m3u8
 
 
 
+#EXTINF:-1 tvg-logo="https://tinyurl.com/Bairesteve"group-title="MUNDIAL",BAYRES TV HD
+https://streaming01.mikrolive.tv/bayrestv/live/chunklist_w963757112.m3u8
+
+
+
 #EXTINF:-1 tvg-logo="https://tinyurl.com/Mzatelevida"group-title="MUNDIAL",TELEVIDA
 https://unlimited1-saopaulo.dps.live/televidaar/televidaar.smil/televidaar/livestream1/chunks.m3u8
 
 
 #EXTINF:-1 tvg-logo="https://tinyurl.com/Tvgen"group-title="MUNDIAL",GENTV
-https://deportes.ksdjugfsddeports.com:9092/MTg2LjIyLjI1My4xNzk=/1_.m3u8?token=EAjE7wEc_1uYj5uQBPOHZg&expires=1781492235
+https://deportes.ksdjugfsddeports.com:9092/MTg2LjIyLjI1My4xNzk=/1_.m3u8
 
 
 
 #EXTINF:-1 tvg-logo"https://tinyurl.com/5c4k5rx9"group-title="MUNDIAL", DSPORTS
-https://deportes.ksdjugfsddeports.com:9092/MTg2LjIyLjI1My4xNzk=/3_.m3u8?token=3KtJE2kYY3g5GQKxzUxIVw&expires=1781492706
-
+https://deportes.ksdjugfsddeports.com:9092/MTg2LjIyLjI1My4xNzk=/3_.m3u8
 
 #EXTINF:-1 tvg-logo"https://tinyurl.com/5c4k5rx9"group-title="MUNDIAL", DSPORTS 2
 http://liketv.pro/live/diegos2024/Coly2413/149.ts
