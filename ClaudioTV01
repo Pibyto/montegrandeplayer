@@ -1467,93 +1467,79 @@ https://play.agenciastreaming.com:19360/8160/8160.m3u8
 
 
 
-#EXTINF:-1 tvg-logo=""group-title="BRASIL",TV CLUBE
+
+
+#EXTINF:-1 tvg-logo="https://i.ibb.co/8gmR5k1Y/Cindie-TV-Horizontal-3840x2160-Hollow-for-Dark-1024x576.png"group-title="BRASIL", CINDIETV
+https://cc-hqw8u5r1nshjc.akamaized.net/scheduler/scheduleMaster/352/variant/22099961.m3u8
+
+
+#EXTINF:-1 tvg-logo="https://i.ibb.co/yFm2XVnb/unnamed-2.png"group-title="BRASIL",TV CLUBE
 https://5c483b9d1019c.streamlock.net/8186/8186/chunklist_w1225913674.m3u8
 
 
+#EXTINF:-1 tvg-logo="https://i.ibb.co/d4X7gHp0/GOSPEL-MOVIES-TELEVISION.png"group-title="BRASIL", GOSPEL MOVIE 
+https://stmv1.srvif.com/gospelf/gospelf/playlist.m3u8
 
 
-#EXTINF:-1 tvg-logo=""group-title="BRASIL",TV BRASIL 
+#EXTINF:-1 tvg-logo="https://images.seeklogo.com/logo-png/49/2/tv-brasil-logo-png_seeklogo-494146.png"group-title="BRASIL",TV BRASIL 
 https://tvbrasil-stream.ebc.com.br/index.m3u8
 
 
 
-#EXTINF:-1 tvg-logo=""group-title="BRASIL", TV FUTURO 
+#EXTINF:-1 tvg-logo="https://www.tvfuturo.com.br/wp-content/uploads/sites/60/2023/07/logo-portal-7.png"group-title="BRASIL", TV FUTURO 
 https://tv02.zas.media:1936/tvfuturo/tvfuturo/chunklist_w583425599.m3u8
 
 
 
-#EXTINF:-1 tvg-logo=""group-title="BRASIL",CAZE TV
+#EXTINF:-1 tvg-logo="https://i.ibb.co/k2YSyHpF/Logotipo-da-Caz-TV.png"group-title="BRASIL",CAZE TV
 https://dfr80qz435crc.cloudfront.net/MNOP/Amagi/Caze/Caze_TV_BR/1080p-vtt/index.m3u8
 
 
+#EXTINF:-1 tvg-logo="https://i.ibb.co/1Ym8MKsN/f0a3c3c7b9a651e847d86dd71bbb5551.png"group-title="BRASIL", GOSPEL CARTOON
+https://stmv1.srvif.com/gospelcartoon/gospelcartoon/playlist.m3u8
 
-
-#EXTINF:-1 tvg-logo=""group-title="BRASIL",CHROMA TV
+#EXTINF:-1 tvg-logo="https://str.paineladm.com/arquivos/7197/logo_face-7197-20240825173349.png"group-title="BRASIL",CHROMA TV
 https://5c483b9d1019c.streamlock.net/8054/8054/playlist.m3u8
 
 
 
-#EXTINF:-1 tvg-logo=""group-title="BRASIL", CINDIETV
-https://cc-hqw8u5r1nshjc.akamaized.net/scheduler/scheduleMaster/352/variant/22099961.m3u8
-
-
-
-
-#EXTINF:-1 tvg-logo=""group-title="BRASIL", CLASSIQUE TV 
+#EXTINF:-1 tvg-logo="https://i.ibb.co/6G4jkJs/file-000000005d2c720eb0c57aa8046d217d.png"group-title="BRASIL", CLASSIQUE TV 
 https://stmv1.srvif.com/classique/classique/playlist.m3u8
 
 
 
 
-#EXTINF:-1 tvg-logo=""group-title="BRASIL",CONC TV
+#EXTINF:-1 tvg-logo="https://i.ibb.co/d0kb2TYQ/maxresdefault-2.png"group-title="BRASIL",CONEC TV
 https://stream01.msolutionbrasil.com.br/hls/conectv/live.m3u8
 
 
 
 
-#EXTINF:-1 tvg-logo=""group-title="BRASIL", DEMAISTV 
+#EXTINF:-1 tvg-logo="https://pbr-str.srvsite.com/arquivos/9046/cabecalho-9046-20230725105112.png"group-title="BRASIL", DEMAISTV 
 https://stmv1.samcast.com.br/demaistv6503/demaistv6503/playlist.m3u8
 
 
 
-
-#EXTINF:-1 tvg-logo=""group-title="BRASIL", GOSPEL MOVIE 
-https://stmv1.srvif.com/gospelf/gospelf/playlist.m3u8
-
-
-
-
-#EXTINF:-1 tvg-logo=""group-title="BRASIL", GOSPEL CARTOON
-https://stmv1.srvif.com/gospelcartoon/gospelcartoon/playlist.m3u8
-
-
-
-
-#EXTINF:-1 tvg-logo=""group-title="BRASIL",NICK
+#EXTINF:-1 tvg-logo="https://i.ibb.co/VYh0Xt33/images-33.png"group-title="BRASIL",NICK
 https://x1co.com.br/hls/0/stream.m3u8
 
 
-
-
-
-
-#EXTINF:-1 tvg-logo=""group-title="BRASIL",NICK TOONS
+#EXTINF:-1 tvg-logo="https://i.ibb.co/VY2FdcYC/Nicktoons-US-2023.png"group-title="BRASIL",NICK TOONS
 https://stmv2.srvif.com/nicktoons/nicktoons/playlist.m3u8
 
 
 
 
-#EXTINF:-1 tvg-logo=""group-title="BRASIL",NOVO TIEMPO 
+#EXTINF:-1 tvg-logo="https://i.ibb.co/qFnZKdjn/unnamed-2-1.png"group-title="BRASIL",NOVO TIEMPO 
 https://stream.live.novotempo.com/tv/smil:tvnuevotiempo.smil/chunklist_b3628000_slspa.m3u8
 
 
-#EXTINF:-1 tvg-logo=""group-title="BRASIL",TV GUARA
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/pt/f/ff/Logotipo_TV_Guar%C3%A1.png"group-title="BRASIL",TV GUARA
 https://video02.logicahost.com.br/tvguara23/tvguara23/chunklist_w109140955.m3u8
 
 
 
-#EXTINF:-1 tvg-logo=""group-title="BRASIL",REDBULL 
+#EXTINF:-1 tvg-logo="https://logodownload.org/wp-content/uploads/2014/10/red-bull-logo-3-1.png"group-title="BRASIL",REDBULL 
 https://d03ae6b5c6724c24867e97a3dc04934a.mediatailor.us-west-2.amazonaws.com/v1/manifest/ba62fe743df0fe93366eba3a257d792884136c7f/LINEAR-1026-WORBBRPTFAST-WHALETVPLUS/32cbe3df-a164-4e08-9655-53796e09d3b4/0.m3u8
 
 
