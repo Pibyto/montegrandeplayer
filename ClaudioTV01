@@ -1912,8 +1912,7 @@ https://live20.bozztv.com:443/akamaissh101/ssh101/pantallaclasics/chunks.m3u8
 #EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcROILt62_HGSt0wpL2AzASaR1Yy31RcfbcSdg&s"group-title="ECUADOR",OROMAR TV 
 https://stream.oromar.tv/hls/oromartv_hi/index.m3u8
 
-#EXTINF:-1 tvg-logo=""group-title="HONDURAS",TELEMAS
-https://viewhn.com/telemas/live/chunks.m3u8
+
 
 
 #EXTINF:-1 tvg-logo=""group-title="ECUADOR",VOSY TV
@@ -2445,6 +2444,9 @@ https://stream.meteorito.cloud:1947/canal6/smil:canal6.smil/chunklist_w201553397
 https://micanal.ovh/livestreams/262.D9DCDM7EXNRT.m3u8
 
 
+#EXTINF:-1 tvg-logo="https://i.ibb.co/rfMfQ9Jx/Screenshot-20250310-221554-XPlayer-Video-Player-removebg-preview-1.png"group-title="COLOMBIA",BUM TV
+https://movil.ejeserver.com/live/visiondorada.m3u8
+
 
 #EXTINF:-1 tvg-logo=""group-title="COLOMBIA",WOW MOVIES
 https://live20.bozztv.com/giatv/giatv-wowmovies/wowmovies/chunks.m3u8
@@ -2454,16 +2456,18 @@ https://live20.bozztv.com/giatv/giatv-wowmovies/wowmovies/chunks.m3u8
 https://stmv2.voxtvhd.com.br/telefamilia/telefamilia/playlist.m3u8
 
 
-#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3f/Canal_2_logo.svg/800px-Canal_2_logo.svg.png"group-title="COLOMBIA"CANAL 2
-https://usmia00-edge.teveo.com.co:443/live/AeAAAgBJAA5AA1IAyADIUDAAAAGAAAAAAmhhp4O1LkS_AAAA/chunklist_w497069970.m3u8
+#EXTINF:-1 tvg-logo=""group-title="COLOMBIA"CALIMA TV
+https://movil.ejeserver.com/live/calimatv.m3u8
 
 
-#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/6/65/Logotipo_de_Caracol_Televisi%C3%B3n_Corporativo.png"group-title="COLOMBIA",CARACOL
-http://tvpremiund.ddns.me:2082/Diegoarias/Octu7102023/38211
+#EXTINF:-1 tvg-logo=""group-title="COLOMBIA",CALI TV
+https://5ab772334c39c.streamlock.net/live-calitv/calitv1/chunklist_w2140467569.m3u8
 
 
-#EXTINF:-1 tvg-logo="https://cdn.storage.foromedios.com/monthly_2023_05/large.LogoTeleCaribe2023.png.0a3903dfcaf09767e5d7ef131b444d6f.png"group-title="COLOMBIA",TELECARIBE
-https://liveingesta118.cdnmedia.tv:443/telecaribetvlive/rtmp02-1500/chunklist.m3u8?DVR
+
+#EXTINF:-1 tvg-logo=""group-title="COLOMBIA",MUNDOVISION
+https://movil.ejeserver.com/live/mundovisiontv.m3u8
+
 
 
 #EXTINF:-1 tvg-logo="https://1.bp.blogspot.com/-PZrt2yCvcv0/XxPmtUSxXkI/AAAAAAAAKTs/9u2sLm1WEZAPXonJ2UvH91MnRYLfwC2cwCLcBGAsYHQ/s1600/avivamiento.png"group-title="COLOMBIA", AVIVAMIENTO TV
@@ -2471,20 +2475,22 @@ https://s1.abntelevision.com:443/avivamientoabr/stream/avivamientohd/avivamiento
 
 
 
-#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6c/Canal_Trece_logo.svg/2560px-Canal_Trece_logo.svg.png"group-title="COLOMBIA",TRECE
-https://liveingesta118.cdnmedia.tv:443/trecetvlive/rtmp01-1500/chunklist.m3u8?DVR
+#EXTINF:-1 tvg-logo=""group-title="COLOMBIA", BENDICION TV
+https://s.emisoras.tv:8081/bendicionchannel/index.m3u8
 
 
-#EXTINF:-1 tvg-logo="https://i.ibb.co/rfMfQ9Jx/Screenshot-20250310-221554-XPlayer-Video-Player-removebg-preview-1.png"group-title="COLOMBIA",BUM TV
-https://movil.ejeserver.com/live/visiondorada.m3u8
+
+#EXTINF:-1 tvg-logo=""group-title="COLOMBIA",CMB
+https://cdn1.cmbcolombia.tv/bethesda/tracks-v1a1/mono.m3u8
 
 
-#EXTINF:-1 tvg-logo=""group-title="COLOMBIA",WTV
-https://cootv.cootel.com.ni:8095/Canal40_WTV/playlist.m3u8?MonteGrandePlay
+#EXTINF:-1 tvg-logo=""group-title="COLOMBIA",UMC
+https://streaming5.globalhostla.com/rtplive/unamirad/chunklist_w121291995.m3u8
 
 
-#EXTINF:-1 tvg-logo=""group-title="COLOMBIA",TELECOSTA
+#EXTINF:-1 tvg-logo=""group-title="COLOMBIA",PYC
 https://live20.bozztv.com:443/akamaissh101/ssh101/costa800122/chunks.m3u8
+
 
 
 #EXTINF:-1 tvg-logo=""group-title="COLOMBIA",INTER CONECTV
@@ -2495,12 +2501,14 @@ https://video.ejeserver.com/live/mcitelevision.m3u8?MonteGrandePlay
 
 
 
-#EXTINF:-1 tvg-logo=""group-title="COLOMBIA",NSTV
-https://stmv4.voxtvhd.com.br/nstv/nstv/chunklist_w1373775433.m3u8?MonteGrandePlay
+#EXTINF:-1 tvg-logo=""group-title="COLOMBIA",CNC
+https://live.amelbatv.co:81/cnclaunion/index.fmp4.m3u8
 
 
-#EXTINF:-1 tvg-logo=""group-title="COLOMBIA",ONDAMBIENTAL TV
-https://stmv4.voxtvhd.com.br/ondastereo/ondastereo/chunklist_w2005783514.m3u8?MonteGrandePlay
+
+#EXTINF:-1 tvg-logo=""group-title="COLOMBIA",KALU TV
+https://tv.kaludecolombia.com/memfs/d71c0104-4752-4690-bdbf-19aa849da6c4_output_0.m3u8
+
 
 
 
@@ -2700,41 +2708,43 @@ https://tvhd.picta.cu/cubavisionhd/cubavisionhd_0.m3u8
 
 
 
-
-
-
-#EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcREp_G3rtv8l2bCV1l1G_yxFTRQYSSJETTQ6A&s"group-title="ELSALVADOR",CANAL 6
-https://telecorporacion.cdn.vustreams.com/live/b164ebe7-decf-4a5a-8aea-5bb56fb92dfc/live.isml/live-video=144960.m3u8
-
-
-https://telecorporacion.cdn.vustreams.com/live/b164ebe7-decf-4a5a-8aea-5bb56fb92dfc/live.isml/.m3u8
-
-
-#EXTINF:-1 tvg-logo="https://w7.pngwing.com/pngs/286/897/png-transparent-splatoon-2-television-tcs-canal-2-youtube-organization-5-miscellaneous-television-blue-thumbnail.png"group-title="ELSALVADOR",CANAL 2
-https://telecorporacion.cdn.vustreams.com/live/d3e259fa-736d-46b0-b1c9-71caf946ace9/live.isml/.m3u8
-
-
-#EXTINF:-1 tvg-logo="https://canal3impresionante.com/wp-content/uploads/2024/04/LOGO-CANAL-3-sin-fondo-ni-contorno.png"group-title="ELSALVADOR",CANAL 3
-https://cloud2.streaminglivehd.com:1936/8048/8048/chunklist_w1035386536.m3u8
-
-
-
-#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/6/62/TCS_35_2017.png/1200px-TCS_35_2017.png"group-title="ELSALVADOR",TCS+
-https://telecorporacion.cdn.vustreams.com/live/19b307cf-3f2d-44cb-bce6-0fd65365c56a/live.isml/live-video=364992.m3u8
-
-
-
 #EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/f/fc/Tutvcanal11.png"group-title="ELSALVADOR",TUTV
-https://stream.giostreaming.net:19360/canal11/canal11.m3u8
+https://stream.giostreaming.app/canal11/canal11.m3u8
+
+
+#EXTINF:-1 tvg-logo=""group-title="ELSALVADOR",CANAL 26
+https://vdo.tecnoservix.stream:3899/live/canal26tvlive.m3u8
 
 
 
-#EXTINF:-1 tvg-logo=""group-title="ELSALVADOR",GSG TV
-https://schurch1.bozztv.com/livecdn69/live/chunklist.m3u8
 
 
-#EXTINF:-1 tvg-logo=""group-title="ELSALVADOR",WOW TV
-https://schurch1.bozztv.com/livecdn69/live/chunklist.m3u8
+#EXTINF:-1 tvg-logo=""group-title="ELSALVADOR",CANAL 65
+https://panel.streamingtv-mediacp.online:1936/tv65/tv65/chunklist_w532530269.m3u8
+
+
+
+#EXTINF:-1 tvg-logo=""group-title="ELSALVADOR",CANAL 3
+https://cloud2.streaminglivehd.com:2020/hls/8036/8036.m3u8
+
+
+
+
+#EXTINF:-1 tvg-logo=""group-title="ELSALVADOR",WOW
+https://cdn-edge1.cef-technology.com/wow/wow_tv/chunks.m3u8?nimblesessionid=7510439
+
+
+
+
+
+
+
+
+#EXTINF:-1 tvg-logo=""group-title="ELSALVADOR",
+
+
+
+#EXTINF:-1 tvg-logo=""group-title="ELSALVADOR",
 
 
 
@@ -2943,6 +2953,50 @@ https://s.emisoras.tv:8081/cholutecatv/tracks-v1a1/mono.ts.m3u8
 #EXTINF:-1 tvg-logo=""group-title="HONDURAS",TALANGA
 https://amixtv.com:8081/talangavision/tracks-v1a1/mono.ts.m3u8
 
+
+#EXTINF:-1 tvg-logo=""group-title="HONDURAS",ICN DIGITAL 
+https://streaming.icndigital.com/live_output/icn_live_stream_1.m3u8
+
+#EXTINF:-1 tvg-logo=""group-title="HONDURAS",TELE+
+https://s.emisoras.tv:8081/telemas/tracks-v1a1/mono.m3u8
+
+
+#EXTINF:-1 tvg-logo=""group-title="HONDURAS",TV ESTRELLA
+https://s.emisoras.tv:8081/tve/tracks-v1a1/mono.ts.m3u8
+
+
+
+
+#EXTINF:-1 tvg-logo=""group-title="HONDURAS",CANAL 30
+https://viewhn.com/canal30/live/chunks.m3u8
+
+
+
+
+
+##########( NICARAGUA )###########
+
+
+
+
+
+#EXTINF:-1 tvg-logo=""group-title="NICARAGUA",TV 45
+https://hdbox.chunklistv.com/live?stream=3abn-nicaragua
+
+
+
+#EXTINF:-1 tvg-logo=""group-title="NICARAGUA",ESCUCHAME RADIO TV
+https://stmv1.transmissaodigital.com/pedro9800/pedro9800/chunklist_w2103260558.m3u8
+
+
+
+#EXTINF:-1 tvg-logo=""group-title="NICARAGUA", METRO 
+https://netzerstreaming.com:4433/hls/olammetro/0_1/index.m3u8?sessId=22007
+
+
+
+#EXTINF:-1 tvg-logo=""group-title="NICARAGUA",TN8
+https://streamingcws30.com/tn8/videotn8/chunks.m3u8
 
 
 
