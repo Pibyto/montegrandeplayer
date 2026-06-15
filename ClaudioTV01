@@ -2449,8 +2449,11 @@ https://micanal.ovh/livestreams/262.D9DCDM7EXNRT.m3u8
 #EXTINF:-1 tvg-logo="https://i.ibb.co/rfMfQ9Jx/Screenshot-20250310-221554-XPlayer-Video-Player-removebg-preview-1.png"group-title="COLOMBIA",BUM TV
 https://movil.ejeserver.com/live/visiondorada.m3u8
 
+#EXTINF:-1 tvg-logo="https://i.ibb.co/YFk2HQL0/file-00000000cc14720eb60e96afcf776fdd.png"group-title="COLOMBIA",TU UNIVERSO TV
+https://5bf8041cb3fed.streamlock.net/TUUNIVERSOTV/TUUNIVERSOTV/chunklist_w815871441.m3u8?MonteGrandePlay
 
-#EXTINF:-1 tvg-logo=""group-title="COLOMBIA",WOW MOVIES
+
+#EXTINF:-1 tvg-logo="https://i.ibb.co/j9B3Dm4j/1768077488179.png"group-title="COLOMBIA",WOW MOVIES
 https://live20.bozztv.com/giatv/giatv-wowmovies/wowmovies/chunks.m3u8
 
 
@@ -2458,72 +2461,66 @@ https://live20.bozztv.com/giatv/giatv-wowmovies/wowmovies/chunks.m3u8
 https://stmv2.voxtvhd.com.br/telefamilia/telefamilia/playlist.m3u8
 
 
-#EXTINF:-1 tvg-logo=""group-title="COLOMBIA"CALIMA TV
-https://movil.ejeserver.com/live/calimatv.m3u8
 
 
-#EXTINF:-1 tvg-logo=""group-title="COLOMBIA",CALI TV
+#EXTINF:-1 tvg-logo="https://i.ibb.co/JW1QG4Ln/images-29-2.png"group-title="COLOMBIA",CALI TV
 https://5ab772334c39c.streamlock.net/live-calitv/calitv1/chunklist_w2140467569.m3u8
 
 
 
-#EXTINF:-1 tvg-logo=""group-title="COLOMBIA",MUNDOVISION
+#EXTINF:-1 tvg-logo="https://i.ibb.co/LDFF5Rtn/images-30.png"group-title="COLOMBIA",MUNDOVISION
 https://movil.ejeserver.com/live/mundovisiontv.m3u8
 
 
 
-#EXTINF:-1 tvg-logo="https://1.bp.blogspot.com/-PZrt2yCvcv0/XxPmtUSxXkI/AAAAAAAAKTs/9u2sLm1WEZAPXonJ2UvH91MnRYLfwC2cwCLcBGAsYHQ/s1600/avivamiento.png"group-title="COLOMBIA", AVIVAMIENTO TV
+#EXTINF:-1 tvg-logo="https://static.wikia.nocookie.net/logopedia/images/5/5e/ABN_Colombia_2011-0.png/revision/latest?cb=20210422012056&path-prefix=es"group-title="COLOMBIA", AVIVAMIENTO TV
 https://s1.abntelevision.com:443/avivamientoabr/stream/avivamientohd/avivamientohd/chunks.m3u8
 
 
 
-#EXTINF:-1 tvg-logo=""group-title="COLOMBIA", BENDICION TV
+#EXTINF:-1 tvg-logo="https://i.ibb.co/MxxKNtH2/unnamed-1-1.png"group-title="COLOMBIA", BENDICION TV
 https://s.emisoras.tv:8081/bendicionchannel/index.m3u8
 
 
 
-#EXTINF:-1 tvg-logo=""group-title="COLOMBIA",CMB
+#EXTINF:-1 tvg-logo="https://www.cmbcolombia.tv/images/logo-2.png"group-title="COLOMBIA",CMB
 https://cdn1.cmbcolombia.tv/bethesda/tracks-v1a1/mono.m3u8
 
 
-#EXTINF:-1 tvg-logo=""group-title="COLOMBIA",UMC
+#EXTINF:-1 tvg-logo="https://unamiradaalcampo.com/wp-content/uploads/2021/10/cropped-LOGO-CANAL-UMC-BLANCO-6-226x122.png"group-title="COLOMBIA",UMC
 https://streaming5.globalhostla.com/rtplive/unamirad/chunklist_w121291995.m3u8
 
 
-#EXTINF:-1 tvg-logo=""group-title="COLOMBIA",PYC
-https://live20.bozztv.com:443/akamaissh101/ssh101/costa800122/chunks.m3u8
 
 
 
-#EXTINF:-1 tvg-logo=""group-title="COLOMBIA",INTER CONECTV
+
+#EXTINF:-1 tvg-logo="https://i.ibb.co/0j03VgYG/images-31.png"group-title="COLOMBIA",INTER CONECTV
 https://live20.bozztv.com:443/akamaissh101/ssh101/conecttv/chunks.m3u8
 
-#EXTINF:-1 tvg-logo=""group-title="COLOMBIA",MCI
-https://video.ejeserver.com/live/mcitelevision.m3u8?MonteGrandePlay
 
 
 
-#EXTINF:-1 tvg-logo=""group-title="COLOMBIA",CNC
+#EXTINF:-1 tvg-logo="https://i.ibb.co/XxNFb5Jq/images-26.png"group-title="COLOMBIA",CNC
 https://live.amelbatv.co:81/cnclaunion/index.fmp4.m3u8
 
 
 
-#EXTINF:-1 tvg-logo=""group-title="COLOMBIA",KALU TV
+#EXTINF:-1 tvg-logo="https://i.ibb.co/4Z0xVVKw/images-32.png"group-title="COLOMBIA",KALU TV
 https://tv.kaludecolombia.com/memfs/d71c0104-4752-4690-bdbf-19aa849da6c4_output_0.m3u8
 
 
 
 
-#EXTINF:-1 tvg-logo=""group-title="COLOMBIA",RED+
+#EXTINF:-1 tvg-logo="https://directostv.teleame.com/wp-content/uploads/2018/02/Red-M%C3%A1s-TV-Colombia-en-vivo-Online.png"group-title="COLOMBIA",RED+
 https://inforedvos.lcdn.claro.net.co/Content/HLS_HLS_DIR/Live/channel(REDMASHDWEB)/06.m3u8?MonteGrandePlay
 
 
-#EXTINF:-1 tvg-logo=""group-title="COLOMBIA",TU UNIVERSO TV
-https://5bf8041cb3fed.streamlock.net/TUUNIVERSOTV/TUUNIVERSOTV/chunklist_w815871441.m3u8?MonteGrandePlay
+#EXTINF:-1 tvg-logo=""group-title="COLOMBIA"CALIMA TV
+https://movil.ejeserver.com/live/calimatv.m3u8
 
 
-#EXTINF:-1 tvg-logo=""group-title="COLOMBIA",TELEALTURA
-https://live20.bozztv.com:443/akamaissh101/ssh101/codificador7/chunks.m3u8
+
 
 
 
