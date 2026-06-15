@@ -1876,7 +1876,7 @@ https://tv.wracanal10.com:3025/live/elsoltvlive.m3u8
 
 
 
-#EXTINF:-1 tvg-logo=""group-title="ECUADOR",LATV
+#EXTINF:-1 tvg-logo="https://i.ibb.co/XrmgkZX4/file-0000000001f8720eb375fc22eaa3f385.png"group-title="ECUADOR",LATV
 https://stmv1.voxtvhd.com.br/latacungatv/latacungatv/playlist.m3u8
 
 
@@ -1894,11 +1894,11 @@ https://loretotv.moxapps.shop/live/QFM7KYOlxWd47ybXB3Z1u2P13Py1/index.m3u8
 https://s2.tvdatta.com:3825/live/redtvelive.m3u8
 
 
-#EXTINF:-1 tvg-logo=""group-title="ECUADOR",TELEMAR
+#EXTINF:-1 tvg-logo="https://telemartv.com/wp-content/uploads/2025/09/Logo-Telemar.webp"group-title="ECUADOR",TELEMAR
 https://cloudpro.servidoresdestream.com:8081/8020/tracks-v1a1/mono.m3u8
 
 
-#EXTINF:-1 tvg-logo=""group-title="ECUADOR",TV COLOR
+#EXTINF:-1 tvg-logo="https://i.ibb.co/GfmkRDWM/unnamed.png"group-title="ECUADOR",TV COLOR
 https://video.compuwebecuador.com:3067/live/tvcolorlive.m3u8
 
 
@@ -1923,12 +1923,12 @@ https://cloud37.ecuatel.com/vostv/live/chunklist_w2080822301.m3u8
 
 
 
-#EXTINF:-1 tvg-logo=""group-title="ECUADOR",UNIANDES
+#EXTINF:-1 tvg-logo="https://i.ibb.co/d0p6B6z7/file-000000000b74720ebd8e963f3da07d9a.png"group-title="ECUADOR",UNIANDES TV
 https://video.compuwebecuador.com:3323/live/uniandeslive.m3u8
 
 
 #EXTINF:-1 tvg-logo=""group-title="ECUADOR",ECUADOR TV
-https://samson.streamerr.co:8081/shogun/tracks-v1a1/mono.m3u8
+
 
 
 
