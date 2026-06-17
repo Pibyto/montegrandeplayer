@@ -18,40 +18,13 @@ https://lbgo.bozztv.com/ssh101/ssh101/ipersonica/playlist.m3u8
 #EXTINF:-1 tvg-logo="https://tinyurl.com/Lamilteve"group-title="BUENOS AIRES",LA MIL35
 https://vd01.streaminghd.net.ar:3349/live/bzuctkgnlive.m3u8
 
-
-#EXTINF:-1 tvg-logo="https://tinyurl.com/Trespilar"group-title="BUENOS AIRES",CANAL 3 PINAMAR 
-https://intelincloud01.com.ar/hls/cn3/index.m3u8
-
-#EXTINF:-1 tvg-logo="https://tinyurl.com/Magicateve"group-title="BUENOS AIRES", CIUDAD MAGICA TV
-https://live20.bozztv.com/akamaissh101/ssh101/verycoolfgr/chunks.m3u8
-
-
-#EXTINF:-1 tvg-logo="https://tinyurl.com/Genteve"group-title="BUENOS AIRES",GENTV
-https://srv3.zcast.com.br/gentv/gentv/playlist.m3u8
-
-#EXTINF:-1 tvg-logo="https://tinyurl.com/Elmagoteve"group-title="BUENOS AIRES",EL MAGO TV
-https://live20.bozztv.com/akamaissh101/ssh101/elmagotv2/chunks.m3u8
-
-
-#EXTINF:-1 tvg-logo="https://tinyurl.com/Telecreativa"group-title="BUENOS AIRES",TELECREATIVA HD
-https://panel.host-live.com:19360/8012/8012.m3u8
-
-
 #EXTINF:-1 tvg-logo="https://tinyurl.com/Bairesteve"group-title="BUENOS AIRES",BAYRES TV HD
 https://streaming01.mikrolive.tv/bayrestv/live/chunklist_w963757112.m3u8
 
 
 
-
-#EXTINF:-1 tvg-logo="https://tinyurl.com/Telemixteve"group-title="BUENOS AIRES",TELEMIX HD
-https://183.bozztv.com/giatv/giatv-telemixenvivo/telemixenvivo/playlist.m3u8
-
-
-#EXTINF:-1 tvg-logo="https://tinyurl.com/Altarteve"group-title="BUENOS AIRES",ALTAR TV HD
-https://vidartv2.todostreaming.es/live/radiovida-altar724.m3u8
-
-
-
+#EXTINF:-1 tvg-logo="https://tinyurl.com/Genteve"group-title="BUENOS AIRES",GENTV
+https://srv3.zcast.com.br/gentv/gentv/playlist.m3u8
 
 
 #EXTINF:-1 tvg-logo="https://tinyurl.com/Neoteve"group-title="BUENOS AIRES",NEO TV DIGITAL HD. 16.1 
@@ -59,41 +32,39 @@ https://videostream.shockmedia.com.ar:19360/neotvdigital/neotvdigital.m3u8
 
 
 
-
-
-#EXTINF:-1 tvg-logo="https://nnssmadrid.files.wordpress.com/2015/09/a4-solidaria-tv.png?w=276"group-title="BUENOS AIRES",SOLIDARIA TV HD
-https://canadaremar2.todostreaming.es/live/solidariatv-webhd.m3u8
-
-
-#EXTINF:-1 tvg-logo="https://static.wikia.nocookie.net/doblaje/images/a/a8/Ciudadmagazine-logonuevo.png/revision/latest?cb=20200203001356&path-prefix=es"group-title="BUENOS AIRES",MAGAZINE
-https://livetrx01.vodgc.net/live-01-07-ciudad.vodgc.net/tracks-v3a1/mono.m3u8
-
-#EXTINF:-1 tvg-logo="https://tinyurl.com/canalLuz"group-title="BUENOS AIRES",CANAL LUZ HD
-https://g2.vxral-slo.transport.edge-access.net:443/a11/ngrp:canal_luz01-100009_all/canal_luz01-100009_1080p/index.m3u8
-
-
-
-
-
-
-#EXTINF:-1 tvg-logo="https://tinyurl.com/3vzrwff3"group-title="BUENOS AIRES",CINCO TV HD  TIGRE
-
-
-
-
-
 #EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/5/5e/Bravotv.png"group-title="BUENOS AIRES",BRAVO TV
 https://redirector.rudo.video/hls-video/c54ac2799874375c81c1672abb700870537c5223/bravo/bravo.smil/playlist.m3u8
 
-
-
-
+#EXTINF:-1 tvg-logo="https://tinyurl.com/canalLuz"group-title="BUENOS AIRES",CANAL LUZ HD
+https://g2.vxral-slo.transport.edge-access.net:443/a11/ngrp:canal_luz01-100009_all/canal_luz01-100009_1080p/index.m3u8
 
 #EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/Canal_26_logo_%282022%29.svg/330px-Canal_26_logo_%282022%29.svg.png"group-title="BUENOS AIRES",CANAL 26
 https://stream-gtlc.telecentro.net.ar/hls/canal26hls/0/playlist.m3u8?uid=d1ab8e18c3a4e4fdc5b8b00e287498d9
 
 #EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/a/a5/Net_TV_logo.png"group-title="BUENOS AIRES", NET TV HD  27.2
 https://unlimited1-us.dps.live/nettv/nettv.smil/playlist.m3u8
+
+#EXTINF:-1 tvg-logo="https://nnssmadrid.files.wordpress.com/2015/09/a4-solidaria-tv.png?w=276"group-title="BUENOS AIRES",SOLIDARIA TV HD
+https://canadaremar2.todostreaming.es/live/solidariatv-webhd.m3u8
+
+
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/c/c8/Am%C3%A9rica_TV_%28Nuevo_logo_Junio_2020%29.png"group-title="BUENOS AIRES",AMERICA
+http://liketv.pro/live/diegos2024/Coly2413/53.ts
+
+
+#EXTINF:-1 tvg-logo="https://logos-world.net/wp-content/uploads/2025/04/A24-Logo-New.png"group-title="BUENOS AIRES",A24
+http://liketv.pro/live/diegos2024/Coly2413/52.ts
+
+#EXTINF:-1 tvg-logo="https://tinyurl.com/yuyatxzt"group-title="BUENOS AIRES",TELEMAX HD  26.3
+https://stream-gtlc.telecentro.net.ar/hls/telemaxhls/main.m3u8
+
+#EXTINF:-1 tvg-logo="https://tinyurl.com/yc2k7s8n"group-title="BUENOS AIRES", TIERRAMIA
+https://stream-gtlc.telecentro.net.ar/hls/tierramiahls/0/playlist.m3u8?uid=3602db85b7b057add1eaede96802d569
+
+
+#EXTINF:-1 tvg-logo="https://tinyurl.com/4tkac7dz"group-title="BUENOS AIRES",UNIFE TV
+https://cdn.mycloudstream.io/hls/live/broadcast/pgv5kerk/mono.m3u8
+
 
 
 #EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/Russia-today-logo.svg/330px-Russia-today-logo.svg.png"group-title="BUENOS AIRES",RT HD   25.5
@@ -107,6 +78,50 @@ https://live.presstv.ir/hls/hispantv.m3u8
 
 #EXTINF:-1 tvg-logo="https://assets-global.website-files.com/605a3cacba514a77ca2e6ab5/6065f6834c6c7c875c2c1c16_dwe.png"group-title="BUENOS AIRES",DW ESPAÑOL HD
 https://dwamdstream104.akamaized.net/hls/live/2015530/dwstream104/stream04/streamPlaylist.m3u8
+
+
+#EXTINF:-1 tvg-logo="https://tinyurl.com/Trespilar"group-title="BUENOS AIRES",CANAL 3 PINAMAR 
+https://intelincloud01.com.ar/hls/cn3/index.m3u8
+
+#EXTINF:-1 tvg-logo="https://tinyurl.com/Magicateve"group-title="BUENOS AIRES", CIUDAD MAGICA TV
+https://live20.bozztv.com/akamaissh101/ssh101/verycoolfgr/chunks.m3u8
+
+#EXTINF:-1 tvg-logo="https://tinyurl.com/Elmagoteve"group-title="BUENOS AIRES",EL MAGO TV
+https://live20.bozztv.com/akamaissh101/ssh101/elmagotv2/chunks.m3u8
+
+
+#EXTINF:-1 tvg-logo="https://tinyurl.com/Telecreativa"group-title="BUENOS AIRES",TELECREATIVA HD
+https://panel.host-live.com:19360/8012/8012.m3u8
+
+
+#EXTINF:-1 tvg-logo="https://tinyurl.com/Telemixteve"group-title="BUENOS AIRES",TELEMIX HD
+https://183.bozztv.com/giatv/giatv-telemixenvivo/telemixenvivo/playlist.m3u8
+
+
+#EXTINF:-1 tvg-logo="https://tinyurl.com/Altarteve"group-title="BUENOS AIRES",ALTAR TV HD
+https://vidartv2.todostreaming.es/live/radiovida-altar724.m3u8
+
+
+
+#EXTINF:-1 tvg-logo="https://static.wikia.nocookie.net/doblaje/images/a/a8/Ciudadmagazine-logonuevo.png/revision/latest?cb=20200203001356&path-prefix=es"group-title="BUENOS AIRES",MAGAZINE
+https://livetrx01.vodgc.net/live-01-07-ciudad.vodgc.net/tracks-v3a1/mono.m3u8
+
+
+
+
+
+
+
+
+#EXTINF:-1 tvg-logo="https://tinyurl.com/3vzrwff3"group-title="BUENOS AIRES",CINCO TV HD  TIGRE
+
+
+
+
+
+
+
+
 
 
 #EXTINF:-1 tvg-logo="https://static.wikia.nocookie.net/logopedia/images/a/a5/Eltreceinternacional-logo-2016.png/revision/latest?cb=20161019052654"group-title="BUENOS AIRES",EL TRECE INTERNACIONAL
@@ -130,12 +145,7 @@ https://dwamdstream104.akamaized.net/hls/live/2015530/dwstream104/stream04/strea
 
 
 
-#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/c/c8/Am%C3%A9rica_TV_%28Nuevo_logo_Junio_2020%29.png"group-title="BUENOS AIRES",AMERICA
-http://liketv.pro/live/diegos2024/Coly2413/53.ts
 
-
-#EXTINF:-1 tvg-logo="https://logos-world.net/wp-content/uploads/2025/04/A24-Logo-New.png"group-title="BUENOS AIRES",A24
-http://liketv.pro/live/diegos2024/Coly2413/52.ts
 
 
 
@@ -149,7 +159,7 @@ http://liketv.pro/live/diegos2024/Coly2413/52.ts
 
 
 #EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/8/81/LN%2B.png"group-title="BUENOS AIRES",LN+
-http://liketv.pro/live/diegos2024/Coly2413/91.ts
+
 
 
 #EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/TVP_-_Televisi%C3%B3n_P%C3%BAblica_%282021%29.svg/1280px-TVP_-_Televisi%C3%B3n_P%C3%BAblica_%282021%29.svg.png"group-title="BUENOS AIRES",TV PUBLICA
@@ -157,19 +167,10 @@ http://liketv.pro/live/diegos2024/Coly2413/91.ts
 
 
 #EXTINF:-1 tvg-logo="https://cdn2.storage.foromedios.com/original/3X/a/7/a7a69b52617e4f5d0d927062b28dfb95532029c2.png"group-title="BUENOS AIRES",AR|12
-http://liketv.pro/live/diegos2024/Coly2413/63.ts
 
 
 
-#EXTINF:-1 tvg-logo="https://tinyurl.com/yuyatxzt"group-title="BUENOS AIRES",TELEMAX HD  26.3
-https://stream-gtlc.telecentro.net.ar/hls/telemaxhls/main.m3u8
 
-#EXTINF:-1 tvg-logo="https://tinyurl.com/yc2k7s8n"group-title="BUENOS AIRES", TIERRAMIA
-https://stream-gtlc.telecentro.net.ar/hls/tierramiahls/0/playlist.m3u8?uid=3602db85b7b057add1eaede96802d569
-
-
-#EXTINF:-1 tvg-logo="https://tinyurl.com/4tkac7dz"group-title="BUENOS AIRES",UNIFE TV
-https://cdn.mycloudstream.io/hls/live/broadcast/pgv5kerk/mono.m3u8
 
 
 
