@@ -180,6 +180,10 @@ https://cdn.mycloudstream.io/hls/live/broadcast/pgv5kerk/mono.m3u8
 
 
 
+#EXTINF:-1 tvg-logo="https://tinyurl.com/5c4k5rx9"group-title="MUNDIAL",CANAL21
+https://iptv.ixfo.com.ar:30443/c21tv/hd/c21tv/chunks.m3u8
+
+
 
 #EXTINF:-1 tvg-logo="https://tinyurl.com/Bairesteve"group-title="MUNDIAL",BAYRES TV HD
 https://streaming01.mikrolive.tv/bayrestv/live/chunklist_w963757112.m3u8
