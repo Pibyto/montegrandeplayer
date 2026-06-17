@@ -390,8 +390,8 @@ https://nd106.republicaservers.com:443/hls/diegologonitv/0_1/index.m3u8?sessId=3
 #EXTINF:-1 tvg-logo="https://i.ibb.co/f0YPh6h/images-removebg-preview-2.png"group-title="ARGENTINA",TELE CINCO
 https://videohd.live:19360/8016/8016.m3u8
 
-#EXTINF:-1 tvg-logo="https://tinyurl.com/496yepmu"group-title="ARGENTINA",PANC TV HD 15.1
-
+#EXTINF:-1 tvg-logo="https://tinyurl.com/Chamatve"group-title="ARGENTINA",XAMA
+https://srs.unsj.edu.ar/live/xama/xama.flv
 
 #EXTINF:-1 tvg-logo=""group-title="ARGENTINA", BIBLIA ABIERTA 
 https://s.emisoras.tv:8081/penielbibliaabierta/index.m3u8
