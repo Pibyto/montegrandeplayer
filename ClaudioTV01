@@ -650,12 +650,12 @@ http://liketv.pro/live/diegos2024/Coly2413/17409.ts
 http://liketv.pro/live/diegos2024/Coly2413/126472.ts
 
 
-#EXTINF:-1 tvg-logo=""group-title="CINE PREMIER",HBO MMUNDI
+#EXTINF:-1 tvg-logo="https://i.ibb.co/r2fBxGFY/images-37.png"group-title="CINE PREMIER",HBO MMUNDI
+http://190.11.225.124:5000/live/paramount_hd/playlist.m3u8
 
 
-
-#EXTINF:-1 tvg-logo=""group-title="CINE PREMIER",HBO SIGNATURE
-
+#EXTINF:-1 tvg-logo="https://i.ibb.co/BKKSXBTV/hbo-signature.png"group-title="CINE PREMIER",HBO SIGNATURE
+http://190.11.225.124:5000/live/hbo_signature_hd/playlist.m3u8
 
 
 
