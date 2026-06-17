@@ -234,6 +234,9 @@ https://videohd.live:19360/8008/8008.m3u8
 #EXTINF:-1 tvg-logo="https://tinyurl.com/34Sanjuan"group-title="ARGENTINA", CANAL 34 HD
 http://streamyes.alsolnet.com/canal34hd/live/chunklist_w638979893.m3u8
 
+#EXTINF:-1 tvg-logo="ahttps://i.ibb.co/1GZTFphx/1781723238308.png"group-title="ARGENTINA",JTV HD. 
+https://streaming.jtamendoza.com/hls/test.m3u
+
 
 #EXTINF:-1 tvg-logo="https://i.ibb.co/Nn1bb92f/1777059764544-2.png"group-title="ARGENTINA", TELE POSADAS
 https://live20.bozztv.com/giatv/giatv-teleposadaso01/teleposadaso01/playlist.m3u8
@@ -3025,11 +3028,20 @@ https://livecdn.enlace.plus/enlace/smil:enlace-fhd.smil/playlist.m3u8
 #EXTINF:-1 tvg-logo="https://lifestreammedia.net/wp-content/uploads/2020/06/alcancetv_logo-3d.png"group-title="CRISTIANO",ALCANCE TV HD
 https://5bf8041cb3fed.streamlock.net:443/AlcanceTV/AlcanceTV/chunklist_w1412319419.m3u8
 
-#EXTINF:-1 tvg-logo="https://directostv.teleame.com/wp-content/uploads/2016/06/Enlace-TV-en-vivo-Online.png"group-title="CRISTIANO",ENLACE BPB HD CHILE
+
+#EXTINF:-1 tvg-logo="https://i.ibb.co/dJ1nJNfg/1781721817853.png"group-title="CRISTIANO",RHEMA TV
+https://5e85d90130e77.streamlock.net:443/6006/6006/chunklist_w1986643984.m3u8
+
+
+#EXTINF:-1 tvg-logo="https://directostv.teleame.com/wp-content/uploads/2016/06/Enlace-TV-en-vivo-Online.png"group-title="CRISTIANO",ENLACE BPB
 https://v1.tustreaming.cl:443/enlacebpbtv/tracks-v1a1/mono.m3u8
 
-#EXTINF:-1 tvg-logo=""group-title="CRISTIANO",JTA TV HD. MENDOZA
-https://streaming.jtamendoza.com/hls/test.m3u8
+
+#EXTINF:-1 tvg-logo="ahttps://i.ibb.co/1GZTFphx/1781723238308.png"group-title="CRISTIANO",JTV HD. 
+https://streaming.jtamendoza.com/hls/test.m3u
+
+
+
 
 #EXTINF:-1 tvg-logo="https://i.ibb.co/qM99BcKs/10371335-10152101434245684-8695359112115431131-o.png"group-title="CRISTIANO",MUJERES EN ACCION
 https://livecdn.enlace.plus/mujeresdefe/smil:mujeresdefe-hd.smil/chunklist_b2752000_sleng.m3u8
@@ -3087,16 +3099,6 @@ https://livecdn.enlace.plus/ejtv/smil:ejtv-hd.smil/playlist.m3u8
 
 #EXTINF:-1 tvg-logo="https://www.portalvoxhd.com.br/estacoes/webtv-303.png"group-title="CRISTIANO", PRESENCIA KIDS
 https://ssh101stream.ssh101.com/akamaissh101/ssh101/kidsenvivo/playlist.m3u8
-
-
-
-
-
-
-
-#EXTINF:-1 tvg-logo=""group-title="CRISTIANO",RHEMA TV
-https://5e85d90130e77.streamlock.net:443/6006/6006/chunklist_w1986643984.m3u8
-
 
 
 
