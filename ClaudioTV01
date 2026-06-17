@@ -2991,6 +2991,9 @@ https://streamingcws30.com/tn8/videotn8/chunks.m3u8
 
 
 
+#EXTINF:-1 tvg-logo="https://i.ibb.co/YFk2HQL0/file-00000000cc14720eb60e96afcf776fdd.png"group-title="CRISTIANO",TU UNIVERSO TV
+https://5bf8041cb3fed.streamlock.net:443/TUUNIVERSOTV/TUUNIVERSOTV/chunklist_w545620712.m3u8
+
 #EXTINF:-1 tvg-logo="https://www.vivalivetv.com/public/files/shows/0/1/2943-960x540-000000.jpg"group-title="CRISTIANO",RESTAURANDO VIDAS TV HD
 https://v4.tustreaming.cl:443/restaurandovida/tracks-v1a1/mono.m3u8?PlaylistM3UCL
 
@@ -2998,8 +3001,17 @@ https://v4.tustreaming.cl:443/restaurandovida/tracks-v1a1/mono.m3u8?PlaylistM3UC
 https://627bb251f23c7.streamlock.net:444/ExtremaTV/ExtremaTV/chunklist_w309182400.m3u8
 
 
-#EXTINF:-1 tvg-logo="https://tinyurl.com/K1ngd0mtv"group-title="CRISTIANO", KINGDOM TV HD  19.1  MENDOZA 
+#EXTINF:-1 tvg-logo="https://tinyurl.com/K1ngd0mtv"group-title="CRISTIANO", KINGDOMTV 
 https://play.nexolife.com:443/mendozaTV/7b7a53e239400a13bd6be6c91c4f6c4e.sdp/chunks.m3u8
+
+
+#EXTINF:-1 tvg-logo="https://www.vivalivetv.com/public/files/shows/0/1/3027-294x165-FFFFFF.jpg"group-title="CRISTIANO",EXTREMA KIDS
+https://627bb251f23c7.streamlock.net:444/ExtremaKids/ExtremaKids/chunklist_w439127752.m3u8
+
+
+#EXTINF:-1 tvg-logo="https://www.diosteve.org/wp-content/uploads/2022/04/235403078_2666022853698120_5407670730821234601_n-PhotoRoom-150x150.png"group-title="CRISTIANO",DIOS TV KIDS HD
+
+
 
 #EXTINF:-1 tvg-logo="https://www.tevevida.com/images/logo_01.png"group-title="CRISTIANO",TEVE VIDA HD
 https://5bf8041cb3fed.streamlock.net/Tevevida/Tevevida/playlist.m3u8
@@ -3009,8 +3021,14 @@ https://5bf8041cb3fed.streamlock.net/Tevevida/Tevevida/playlist.m3u8
 https://livecdn.enlace.plus/enlace/smil:enlace-fhd.smil/playlist.m3u8
 
 
+#EXTINF:-1 tvg-logo="https://lifestreammedia.net/wp-content/uploads/2020/06/alcancetv_logo-3d.png"group-title="CRISTIANO",ALCANCE TV HD
+https://5bf8041cb3fed.streamlock.net:443/AlcanceTV/AlcanceTV/chunklist_w1412319419.m3u8
+
 #EXTINF:-1 tvg-logo="https://directostv.teleame.com/wp-content/uploads/2016/06/Enlace-TV-en-vivo-Online.png"group-title="CRISTIANO",ENLACE BPB HD CHILE
 https://v1.tustreaming.cl:443/enlacebpbtv/tracks-v1a1/mono.m3u8
+
+#EXTINF:-1 tvg-logo=""group-title="CRISTIANO",JTA TV HD. MENDOZA
+https://streaming.jtamendoza.com/hls/test.m3u8
 
 #EXTINF:-1 tvg-logo="https://i.ibb.co/qM99BcKs/10371335-10152101434245684-8695359112115431131-o.png"group-title="CRISTIANO",MUJERES EN ACCION
 https://livecdn.enlace.plus/mujeresdefe/smil:mujeresdefe-hd.smil/chunklist_b2752000_sleng.m3u8
@@ -3027,36 +3045,24 @@ https://vidartv2.todostreaming.es/live/radiovida-altar724.m3u8
 #EXTINF:-1 tvg-logo="https://1.bp.blogspot.com/--L7dK4JYWxE/Xum1XU0_cKI/AAAAAAAAJy8/Z8_QEFef4JUZAiOLOPHKBR7pA4e-avJfwCLcBGAsYHQ/s1600/canal-luz.png"group-title="CRISTIANO",CANAL LUZ HD
 https://g2.vxral-slo.transport.edge-access.net:443/a11/ngrp:canal_luz01-100009_all/canal_luz01-100009_1080p/index.m3u8
 
-#EXTINF:-1 tvg-logo="https://zoe.com.uy/wp-content/uploads/2020/09/mvtv-banner.png"group-title="CRISTIANO",MISION VIDA TV HD
-https://59825a54e4454.streamlock.net:8443/jorge854/jorge854/chunklist_w1221649132.m3u8
-
 
 #EXTINF:-1 tvg-logo="https://vidartvplus.com/images/logo.png"group-title="CRISTIANO",V+
 https://vidartv2.todostreaming.es/live/radiovida-emisiontvhd.m3u8
 
-#EXTINF:-1 tvg-logo="https://tinyurl.com/Avivami"group-title="CRISTIANO", AVIVAMIENTO TV
-https://s1.abntelevision.com:443/avivamientoabr/stream/avivamientohd/avivamientohd/chunks.m3u8
-
-#EXTINF:-1 tvg-logo="https://hosannavision.com/site/templates/theme/img/logo/f_logo.png"group-title="CRISTIANO",HOSANNAVISION
-https://1206618505.rsc.cdn77.org:443/LS-ATL-59020-1/tracks-v1a1/mono.m3u8
+#EXTINF:-1 tvg-logo="https://33e1600b34.cbaul-cdnwnd.com/d7495a2b4d8a7ea80be22f304f0282e4/200000108-dc6f6dc6f9/logo-color-ok-3.png?ph=33e1600b34"group-title="CRISTIANO", TELEVIDA HD
+https://tls-cl.cdnz.cl/televida/live/chunklist_w108038511.m3u8
 
 
 
+#EXTINF:-1 tvg-logo="https://i0.wp.com/directostv.teleame.com/wp-content/uploads/2020/09/Canal-13-Jujuy-en-vivo-Online.png?fit=1920%2C1080&ssl=1"group-title="CRISTIANO",13 TRECE HD
+https://genexservicios.com:19360/canal13jujuy/canal13jujuy.m3u8
 
+#EXTINF:-1 tvg-logo="https://www.ministeriotv.com/uploads/channels/49/logo_thumb.jpg"group-title="CRISTIANO", PALABRA DE DIOS SIN LEVADURA
+https://583ed2f226ac2.streamlock.net/49/stream/chunklist_w1954002463.m3u8
 
-#EXTINF:-1 tvg-logo="https://i.ibb.co/9wvLNrg/2r-Bs-Skv-IGMpj-DKk-H5-O1y-Nv-AIaf-F-2r-Bsbz-Rpn2a-KGv-I32-Dot-O10-Lsv-V-2r-Bscftp-AXm-It-HOVGJa-MG1.png"group-title="CRISTIANO",MONTE GRANDE TV HD CANAL 12
+#EXTINF:-1 tvg-logo="https://nnssmadrid.files.wordpress.com/2015/09/a4-solidaria-tv.png?w=276"group-title="CRISTIANO",SOLIDARIA TV HD
+https://canadaremar2.todostreaming.es/live/solidariatv-webhd.m3u8
 
-
-#EXTINF:-1 tvg&-logo="https://i.ibb.co/6RsXQZZD/Photoroom-20250503-193657.png"group-title="CRISTIANO",MONTE GRANDE TV SSH
-
-
-
-
-
-
-
-
-#EXTINF:-1 tvg-logo="https://i.ibb.co/g5rR3pm/In-Shot-20250201-183741695-removebg-preview.png"group-title="CRISTIANO",MONTE GRANDE TV WORSHIP PRAISE
 
 
 #EXTINF:-1 tvg-logo="https://i.ibb.co/SvF8DQC/3dgifmaker23584.gif"group-title="CRISTIANO",PLENITUD TV HD 24/7
@@ -3064,9 +3070,7 @@ https://stream.gia.tv/giatvplayout7/giatv-208727/tracks-v1a1/mono.m3u8
 
 
 #EXTINF:-1 tvg-logo="https://i.ibb.co/0RW7vLm8/IMG-20250330-WA0067.jpg"group-title="CRISTIANO",PLENITUD TV JUVENIL 
-https://stream.gia.tv/giatvplayout7/giatv-209259/tracks-v1a1/mon.m3u8
-
-
+https://stream.gia.tv/giatvplayout7/giatv-209259/tracks-v1a1/mono.m3u8
 
 
 #EXTINF:-1 tvg-logo="https://i.ibb.co/5htMqD4t/IMG-20250330-WA0069.jpg"group-title="CRISTIANO",ENLÁCE JUVENIL
@@ -3077,23 +3081,7 @@ https://livecdn.enlace.plus/ejtv/smil:ejtv-hd.smil/playlist.m3u8
 #EXTINF:-1 tvg-logo="https://i.ibb.co/SvF8DQC/3dgifmaker23584.gif"group-title="CRISTIANO",PLENITUD TV HD SSH
 
 
-
-
-
-
-
-
 #EXTINF:-1 tvg-logo="https://i.ibb.co/XbT1Mb1/images-removebg-preview-1.png"group-title="CRISTIANO",EL VIVIENTE TV HD
-
-
-
-
-
-
-
-
-
-
 
 
 #EXTINF:-1 tvg-logo="https://www.portalvoxhd.com.br/estacoes/webtv-303.png"group-title="CRISTIANO", PRESENCIA KIDS
@@ -3104,72 +3092,18 @@ https://ssh101stream.ssh101.com/akamaissh101/ssh101/kidsenvivo/playlist.m3u8
 
 
 
-#EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQo9Pg3L4wCaIKlufa4vfGF5FLSrwMiBXUduQ&usqp=CAU"group-title="CRISTIANO",CRISTIANA TV HD
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-#EXTINF:-1 tvg-logo="https://www.familichannel.com/wp-content/uploads/2020/12/FAMILI-CHANNEL-1-1024x385.png"group-title="CRISTIANO",FAMILI CHANNEL
-
-
-#EXTINF:-1 tvg-logo="https://www.manadelcielo.tv/wp-content/uploads/2023/04/ManaLogo.png"group-title="CRISTIANO", MANÁ DEL CIELO TV
-
-
-
-
-
-#EXTINF:-1 tvg-logo="https://www.vivalivetv.com/public/files/shows/0/1/3027-294x165-FFFFFF.jpg"group-title="CRISTIANO",EXTREMA KIDS
-https://627bb251f23c7.streamlock.net:444/ExtremaKids/ExtremaKids/chunklist_w439127752.m3u8
-
-
-#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/2/27/Claro_TV_wordmark.svg/1200px-Claro_TV_wordmark.svg.png"group-title="CRISTIANO",CLAROVISION TV
-https://vsrv2.az-streamingserver.com:3057/live/clarovisiontvlive.m3u8?ads.content_page_url=https%253A%252F%252Fwww.vivalivetv.com%252Fwatch%252Flive
-
-#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/2/27/Claro_TV_wordmark.svg/1200px-Claro_TV_wordmark.svg.png"group-title="CRISTIANO",CRISTO TV
-https://vsrv2.az-streamingserver.com:3352/live/clarovisiontvradiolive.m3u8?ads.content_page_url=https%253A%252F%252Fwww.vivalivetv.com%252Fwatch%252Flive
-
-
-#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/2/27/Claro_TV_wordmark.svg/1200px-Claro_TV_wordmark.svg.png"group-title="CRISTIANO",JTV TV HD GUATEMALA
-
-
-
-
-#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/2/27/Claro_TV_wordmark.svg/1200px-Claro_TV_wordmark.svg.png"group-title="CRISTIANO",JTA TV HD. MENDOZA
-https://streaming.jtamendoza.com/hls/test.m3u8
-
-
-
-
-
-
-#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/2/27/Claro_TV_wordmark.svg/1200px-Claro_TV_wordmark.svg.png"group-title="CRISTIANO",RHEMA TV
+#EXTINF:-1 tvg-logo=""group-title="CRISTIANO",RHEMA TV
 https://5e85d90130e77.streamlock.net:443/6006/6006/chunklist_w1986643984.m3u8
 
 
 
 
-#EXTINF:-1 tvg-logo="https://lh5.googleusercontent.com/proxy/bb9utrX7n-84cGPpYIzcXqwcGGoNJYsRLlwVBCiR9XQ3GHg1n9yv9i62_sV4yFojVvntpWRJM7bE6BgmCU8sVtdRhSYl3O9Q8MuW9g6OMw"group-title="CRISTIANO",OASIS CHANNEL
+#EXTINF:-1 tvg-logo=""group-title="CRISTIANO",OASIS CHANNEL
 https://5e85d90130e77.streamlock.net:443/6020/6020/chunklist_w1538041154.m3u8
 
 #EXTINF:-1 tvg-logo="https://media.tenor.com/B4gWc0D8Lo8AAAAi/tv.gif"group-title="CRISTIANO",PRESENCIA TV HD
 
-
-#EXTINF:-1 tvg-logo="https://static.wixstatic.com/media/7acae1_f4b7cdcc0ece45da99aa840acc865730~mv2.png/v1/fill/w_464,h_464,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/presenciatv.png"group-title="CRISTIANO",PRESENCIA TV
-https://cdn.streamhispanatv.net:3473/live/presenciatvlive.m3u8
 
 
 
@@ -3190,20 +3124,18 @@ https://cdn.streamhispanatv.net:3473/live/presenciatvlive.m3u8
 #EXTINF:-1 tvg-logo="https://www.coolstreaming.us/img/ch/image70119570242.jpg"group-title="CRISTIANO",MOVIE FE
 
 
-#EXTINF:-1 tvg-logo="https://i.ibb.co/YFk2HQL0/file-00000000cc14720eb60e96afcf776fdd.png"group-title="CRISTIANO",TU UNIVERSO TV
-https://5bf8041cb3fed.streamlock.net:443/TUUNIVERSOTV/TUUNIVERSOTV/chunklist_w545620712.m3u8?ads.content_page_url=https%253A%252F%252Fwww.vivalivetv.com%252Fwatch%252Flive
+
 
 #EXTINF:-1 tvg-logo="https://www.diosteve.org/wp-content/uploads/2022/04/LOGO-200x200.png"group-title="CRISTIANO", DIOS TE VE HD
 https://stream.oursnetworktv.com/latin/dD10sT3V3/chunklist_w797484384.m3u8
 
 #EXTINF:-1 tvg-logo="https://www.vivalivetv.com/public/files/shows/0/1/2876-960x540-000000.jpg"group-title="CRISTIANO", LA FE MUEVE MONTAÑAS HD
-https://inliveserver.com:1936/10020/10020/playlist.m3u8?PlaylistM3UCL
+
 
 #EXTINF:-1 tvg-logo="https://www.cxtv.com.br/img/Tvs/Logo/webp-l/9ec2c361a5ce07ba0f7987bcd36dbb1d.webp"group-title="CRISTIANO", GOSPEL MOVIE TELEVISIÓN 
 
 
-#EXTINF:-1 tvg-logo="https://s3.us-east-1.amazonaws.com/forofms.na/monthly_2017_02/large.589689416f983_TaberTV.png.659679f0fcafc8a181d41dcad1ebaaaf.png"group-title="CRISTIANO",TABER TV
-https://5ca9af4645e15.streamlock.net/tabertv/smil:tabertv.smil/playlist.m3u8
+
 
 #EXTINF:-1 tvg-logo="https://www.vivalivetv.com/public/files/shows/0/1/2867-294x165-FFFFFF.jpg"group-title="CRISTIANO",CRISTOVISION
 https://3a310f6ec721e6b362fcd22772b57f36a2fe6bb2.tabeelcr.com:8080/cristovision31/iptv.m3u8
@@ -3211,12 +3143,11 @@ https://3a310f6ec721e6b362fcd22772b57f36a2fe6bb2.tabeelcr.com:8080/cristovision3
 #EXTINF:-1 tvg-logo="https://canaltelefamilia.com/wp-content/uploads/2021/02/Logo-Blanco.png"group-title="CRISTIANO",TELEFAMILIA HD
 https://stmv2.voxtvhd.com.br/telefamilia/telefamilia/playlist.m3u8
 
-#EXTINF:-1 tvg-logo="https://telebendicion.com.do/static/media/logo512.0e95deb7482e649c6465.png"group-title="CRISTIANO",TELEBENDICION HD
-https://ss5.domint.net:3180/tbt_str/telebendicion/playlist.m3u8
+
 
 
 #EXTINF:-1 tvg-logo="https://jehovatelevision.com/wp-content/uploads/2023/02/cropped-cropped-Nueva-composicion-65px.png"group-title="CRISTIANO", JEHOVÁ TV
-https://video.misistemareseller.com:443/jehovatelevision/jehovatelevision/chunklist_w322392269.m3u8
+
 
 #EXTINF:-1 tvg-logo="https://www.vivalivetv.com/public/files/shows/0/1/2680-960x540-000000.jpg"group-title="CRISTIANO",LUZ NACIENTE TV
 https://streeming.protoscr.com:3858/live/streeminglive.m3u8
@@ -3225,20 +3156,17 @@ https://streeming.protoscr.com:3858/live/streeminglive.m3u8
 
 
 #EXTINF:-1 tvg-logo="https://sublimegraciatv.com/archivos/c49b986afb751882bcbee57f9c9b20d7_350x246.75.png"group-title="CRISTIANO", SUBLIME GRACIA TV HD
-https://5f700d5b2c46f.streamlock.net:443/sublime/sublime/playlist.m3u8?PlaylistM3UCL
-
-
-#EXTINF:-1 tvg-logo="https://3.bp.blogspot.com/-4VEwQWMsFTU/X6WUazGQV8I/AAAAAAAAAwU/3tkNlT-QTZUMQpo8Ex0j6C5nsPfcd-04wCK4BGAYYCw/s1600/Urbancrist2-logo.png"group-title="CRISTIANO", URBANCRIST 2 WORSHIP HD
+https://5f700d5b2c46f.streamlock.net:443/sublime/sublime/playlist.m3u8
 
 
 
 
 #EXTINF:-1 tvg-logo="https://cdn.m3u.cl/logo/1485_Primicia_Vida_Television.png"group-title="CRISTIANO",PRIMICIA VIDA
-https://stmv5.voxtvhd.com.br:443/primiciavida/primiciavida/chunklist_w1226243709.m3u8?PlaylistM3UCL
+https://stmv5.voxtvhd.com.br:443/primiciavida/primiciavida/chunklist_w1226243709.m3u8
 
 
 #EXTINF:-1 tvg-logo="https://thumbs.dreamstime.com/b/design-do-logotipo-da-letra-ctv-em-fundo-preto-conceito-de-das-iniciais-criativas-241232840.jpg"group-title="CRISTIANO",CIUDADELA TV
-https://cp.panelchs.com:1936/8096/8096/chunklist_w580095957.m3u8
+
 
 
 #EXTINF:-1 tvg-logo="https://images.subsplash.com/image.jpg?id=f8670ea1-d50d-4b70-b0bf-9a58dace7184&w=1280&h=720"group-title="CRISTIANO", JOSUÉ TV
@@ -3249,9 +3177,6 @@ https://videoserver.tmcreativos.com:19360/abbftuhxxs/abbftuhxxs.m3u8
 https://6110f70ea8d0e.streamlock.net:443/1838/1838/chunklist_w2044460643.m3u8
 
 
-#EXTINF:-1 tvg-logo="https://play-lh.googleusercontent.com/g5S6oGGCsAAjqLLWnZuPvfT4Aw-fnqDyfd8gN07RFeG5lSxRcpoa_KD_Nz4P-YSK-wkW"group-title="CRISTIANO",R VIDA TV
-https://live.appclicksgt.com:3522/hybrid/play.m3u8
-
 
 #EXTINF:-1 tvg-logo="https://minfav.tv/wp-content/uploads/2019/12/FAV-TV-LOGO-BLANCO.png"group-title="CRISTIANO",MINFAV TV
 https://video.misistemareseller.com:443/minfavtv/minfavtv/chunklist_w766271645.m3u8
@@ -3261,87 +3186,47 @@ https://video.misistemareseller.com:443/minfavtv/minfavtv/chunklist_w766271645.m
 https://tv.frecuenciaf.com:443/live/envivo_1080p4000kbs/index.m3u8
 
 
-#EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRvivyBlLS34yPkeGc2CmroC74aB2xvHQCH7Q&usqp=CAU"group-title="CRISTIANO",I. LUZ Y VERDAD 
-https://stream.oursnetworktv.com/latin/IglesialuzyVerdad/chunklist_w1996758262.m3u8
-
-
-#EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRGlb-HsUbWwZ2gwYuoBKvrCeMb7omrjy5R_A&usqp=CAU"group-title="CRISTIANO",JUBILO TV
-https://stream.oursnetworktv.com:443/latin/jubilotv/chunklist_w110204067.m3u8
-
-
-#EXTINF:-1 tvg-logo="https://play-lh.googleusercontent.com/NOmsvvqxh5b09aCIEGn2htWS2jvtbeD6B1UIpBXFEyitA-dUOCTgcQaolaqq84qlcw=w240-h480-rw"group-title="CRISTIANO",AZA TV
-
-
-
-#EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSBUQ8Gp1pfXolhoXZqiE244s1npaA26HCtVA&usqp=CAU"group-title="CRISTIANO",COSECHA Y VICTORIA TV
-https://cdn.mycloudstream.io:443/hls/live/broadcast/sozistf0/mono.m3u8
-
-
-
-#EXTINF:-1 tvg-logo="https://nnssmadrid.files.wordpress.com/2015/09/a4-solidaria-tv.png?w=276"group-title="CRISTIANO",SOLIDARIA TV HD
-https://canadaremar2.todostreaming.es/live/solidariatv-webhd.m3u8
-
-#EXTINF:-1 tvg-logo="https://adoramtv.org/wp-content/uploads/2023/10/logo-adoram-tv-video_Mesa-de-trabajo-1.png"group-title="CRISTIANO",ADORAM TV HD
-
-
-
-
-#EXTINF:-1 tvg-logo="https://www.diosteve.org/wp-content/uploads/2022/04/235403078_2666022853698120_5407670730821234601_n-PhotoRoom-150x150.png"group-title="CRISTIANO",DIOS TV KIDS HD
-https://stream.oursnetworktv.com:443/latin/dD10sT3V3K1dS/chunklist_w1201067700.m3u8
 
 #EXTINF:-1 tvg-logo="https://www.graciatv.com/wp-content/uploads/2024/01/LOGO-FINAL.png"group-title="CRISTIANO", GRACIA TV
 https://v4.tustreaming.cl/graciatv/index.m3u8?PlaylistM3UCL
 
-#EXTINF:-1 tvg-logo="https://cdn.m3u.cl/logo/1390_TV_Emanuel.png"group-title="CRISTIANO",TV EMANUEL 
-https://Stmv5.voxtvhd.com.br/ministerioemanuel/ministerioemanuel/playlist.m3u8?PlaylistM3UCL
 
-#EXTINF:-1 tvg-logo="https://rhemapresenciausa.com/images/Logo%202.png"group-title="CRISTIANO",PRESENCIA TV
-http://iptv.streamhispanatv.net:8080/playgt/playgt2023/177
-
-#EXTINF:-1 tvg-logo="https://static.wixstatic.com/media/90a441_f6e425ffe0f441fa9414e0740e32c2fd~mv2.jpg/v1/fill/w_560,h_316,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/90a441_f6e425ffe0f441fa9414e0740e32c2fd~mv2.jpg"group-title="CRISTIANO",OMEGA TV
-https://5caf24a595d94.streamlock.net:1937/8142/8142/chunklist_w1977294333.m3u8
 
 #EXTINF:-1 tvg-logo="https://www.vivalivetv.com/public/files/shows/0/1/2849-294x165-FFFFFF.jpg"group-title="CRISTIANO", ALELUYA TV HD
 https://vsrv2.az-streamingserver.com:3408/live/aleluyatvlive.m3u8
 
-#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/2/23/Canal27GT_Logo.png"group-title="CRISTIANO",CANAL 27
-https://live.canal27.tv:3633/live/canal27live.m3u8
+
 
 #EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRPApV33HfzWjWXyXMJFHvztXWUIBW0ii009g&usqp=CAU"group-title="CRISTIANO", ESPÍRITU SANTO Y FUEGO TV
 https://inliveserver.com:1936/8392/8392/chunklist_w12896407.m3u8
 
-#EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSPq6PMg3n8fcqp_Rqt3hJws53StatQH5NlrE-1_1gZww&s"group-title="CRISTIANO",EXPRESION TV
-https://ssh101.bozztv.com:443/ssh101/expresiongrany/chunks.m3u8
+
 
 #EXTINF:-1 tvg-logo="https://www.salvaciontv.org/images/logo.png"group-title="CRISTIANO",SALVACION TV
 https://stream.eleden.com:443/livesalvatv/ngrp:livesalvatv_all/chunklist_w117830734_b778000.m3u8
 
-#EXTINF:-1 tvg-logo="https://lifestreammedia.net/wp-content/uploads/2020/06/alcancetv_logo-3d.png"group-title="CRISTIANO",ALCANCE TV HD
-https://5bf8041cb3fed.streamlock.net:443/AlcanceTV/AlcanceTV/chunklist_w1412319419.m3u8?WebM3UCL
+
 
 #EXTINF:-1 tvg-logo="https://dominicanchannels.com/wp-content/uploads/tvluz.png"group-title="CRISTIANO",TV LUZ
-https://rdn.essastream.com:3307/live/tvluzlive.m3u8
 
-#EXTINF:-1 tvg-logo="https://luztv.org/sitepad-data/uploads/2023/03/MARCA-AGUA.png"group-title="CRISTIANO",LUZ TV
+
+#EXTINF:-1 tvg-logo=""group-title="CRISTIANO",LUZ TV
 https://live.tvcontrolcp.com:1936/luztv/luztv/chunklist_w1678699032.m3u8
 
-#EXTINF:-1 tvg-logo="https://inminente.com.ar/wp-content/uploads/2023/08/cropped-inminente-logo.png"group-title="CRISTIANO", INMINENTE TV
-https://stmvideo2.livecastv.com/zonagospel/zonagospel/playlist.m3u8
+#EXTINF:-1 tvg-logo=""group-title="CRISTIANO", INMINENTE TV
+
 
 #EXTINF:-1 tvg-logo="https://cdn.m3u.cl/logo/1186_Casa_Sobre_La_Roca_TV.png"group-title="CRISTIANO",CASA SOBRE LA ROCA TV
-https://cp.panelchs.com:1936/8118/8118/chunklist_w259629028.m3u8
 
-#EXTINF:-1 tvg-logo="https://photos.live-tv-channels.org/tv-logo/tv-cristo-vive-9291-w360.webp"group-title="CRISTIANO",TV CRISTO VIVE
-https://cdn.live.br1.jmvstream.com:443/w/LVW-10893/ngrp:LVW10893_gYHYD18Dqy_all/chunklist_b4259840.m3u8
+
+
 
 #EXTINF:-1 tvg-logo="https://cdn.m3u.cl/logo/995_Vida_Nueva_TV.png"group-title="CRISTIANO",VIDA NUEVA TV
-https://stmv5.voxtvhd.com.br/vidanuevatv/vidanuevatv/playlist.m3u8
+
 
 #EXTINF:-1 tvg-logo="https://play-lh.googleusercontent.com/nmgF3-7zPnYYkfnH1ocKBcAxjJ6Rtgyt8WoM8eVqSv6IdrFMVTdQExvPgE2MranDfbA7"group-title="CRISTIANO",CCI CHANNEL
-https://cdn.playcloud.us:443/cci/srtin3.stream/chunklist_w1277698180.m3u8
 
-#EXTINF:-1 tvg-logo="https://ipnamedios.online/img/logo-radio.png"group-title="CRISTIANO",IPNA MEDIOS TV
-https://paneltv.online:1936/8184/8184/playlist.m3u8
+
 
 #EXTINF:-1 tvg-logo="https://1.bp.blogspot.com/-A__wybOMKGQ/YRH-P5ffrmI/AAAAAAAAAEQ/hC3g9NrXy1QFmJ5F33yTyQXVz3k-sZiqwCLcBGAsYHQ/w1200-h630-p-k-no-nu/LOGO-CANAL-30--A-COLOR.png"group-title="CRISTIANO",BETHEL CANAL 30
 https://s.emisoras.tv:8081/canal30tvbethel/index.m3u8
@@ -3351,7 +3236,7 @@ https://s.emisoras.tv:8081/canal30tvbethel/index.m3u8
 
 #EXTINF:-1 tvg-logo="https://static.wikia.nocookie.net/logopedia/images/6/63/BethelTV1998.png/revision/latest?cb=20210326224941&path-prefix=es"
 group-title="CRISTIANO",BETHEL TV
-https://alfa.betheltv.tv/srt/3_abr/srt/3_source/chunks.m3u8?nimblesessionid=11251787
+https://alfa.betheltv.tv/srt/3_abr/srt/3_source/chunks.m3u8
 
 
 
@@ -3359,122 +3244,57 @@ https://alfa.betheltv.tv/srt/3_abr/srt/3_source/chunks.m3u8?nimblesessionid=1125
 #EXTINF:-1 tvg-logo="https://i.ibb.co/j3gGwYk/D64575438be2a3a54fdf64d4035ade48.png"group-title="CRISTIANO",PENIEL TV BIBLIA ABIERTA 
 https://s.emisoras.tv:8081/penielbibliaabierta/tracks-v1a1/mono.m3u8
 
-#EXTINF:-1 tvg-logo="https://i.imgur.com/2BkL4wq.png"group-title="CRISTIANO", JEHOVÁ NISSI
-https://stream.oursnetworktv.com/latin/nissiGtmH/playlist.m3u8
 
-#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/b/bb/Bethel_tv.png"group-title="CRISTIANO",BETHEL TV
-http://187.102.208.108:50001/play/a02m/index.m3u8
-
-#EXTINF:-1 tvg-logo="https://i0.wp.com/www.asomavision.com/wp-content/uploads/2021/08/logo-1.png?fit=350%2C100&ssl=1"group-title="CRISTIANO",ASOMAVISION
-https://asomatv.duckdns.org/livestream/stream.m3u8
-
-#EXTINF:-1 tvg-logo="https://pbs.twimg.com/profile_images/1321966723214487552/RCnlywqt_400x400.png"group-title="CRISTIANO",LA GRAN CARPA CATEDRAL TV
-https://ythls.armelin.one/channel/UCjtogA7_a6F4bdaO3tnK69Q.m3u8
 
 
 #EXTINF:-1 tvg-logo="https://cdn.rcc.com.py/2017/12/logo-retina-544x180.png"group-title="CRISTIANO",RCC TV
-https://59ce1298bfb98.streamlock.net:443/rcctv02/rcctv02/chunklist_w484833918.m3u8?PlaylistM3UCL
 
 
-#EXTINF:-1 tvg-logo="https://www.vivalivetv.com/public/files/shows/0/1/2911-960x540-000000.jpg"group-title="CRISTIANO",VIDA NUEVA TV
-https://eu1.servers10.com:8081/vidanuevatv/index.m3u8?ads.content_page_url=https%253A%252F%252Fwww.vivalivetv.com%252Fwatch%252Flive
 
 
-#EXTINF:-1 tvg-logo="https://www.vivalivetv.com/public/files/shows/0/1/2889-960x540-000000.jpg"group-title="CRISTIANO",MISION EL TV
-https://paz.sytes.net:5443/live/streams/misioneltv.m3u8?ads.content_page_url=https%253A%252F%252Fwww.vivalivetv.com%252Fwatch%252Flive
 
 
 #EXTINF:-1 tvg-logo="https://www.vivalivetv.com/public/files/shows/0/1/2966-960x540-000000.jpg"group-title="CRISTIANO", CELESTIAL TV
-https://grupocibermedios.com:3870/hybrid/play.m3u8?ads.content_page_url=https%253A%252F%252Fwww.vivalivetv.com%252Fwatch%252Flive
 
 
-#EXTINF:-1 tvg-logo="https://www.vivalivetv.com/public/files/shows/0/1/3028-960x540-000000.jpg"group-title="CRISTIANO",LA ESENCIA DE TU PALABRA
-https://5bf8041cb3fed.streamlock.net/LaEsenciadetuPalabraTV/LaEsenciadetuPalabraTV/playlist.m3u8?ads.content_page_url=https%253A%252F%252Fwww.vivalivetv.com%252Fwatch%252Flive
+
 
 
 #EXTINF:-1 tvg-logo="https://www.vivalivetv.com/public/files/shows/0/1/2511-960x540-000000.jpg"group-title="CRISTIANO",VC MEDIOS 
-https://panel.tvstream.cl:1936/8024/8024/playlist.m3u8?ads.content_page_url=https%253A%252F%252Fwww.vivalivetv.com%252Fwatch%252Flive
+https://panel.tvstream.cl:1936/8024/8024/playlist.m3u8
 
 
 #EXTINF:-1 tvg-logo="https://www.vivalivetv.com/public/files/shows/0/1/2946-960x540-000000.jpg"group-title="CRISTIANO", APOCALIPSIS NETWORK
-https://livetv.305streamhd.com:3394/live/tvapocalipsisnetworklive.m3u8?ads.content_page_url=https%253A%252F%252Fwww.vivalivetv.com%252Fwatch%252Flive
+https://livetv.305streamhd.com:3394/live/tvapocalipsisnetworklive.m3u8
 
 
-#EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSWJDxVEnkC_VnzWeez780WFKuoRwi8JIjbMQ&usqp=CAU"group-title="CRISTIANO",FE TV
-https://stream.oursnetworktv.com:443/latin/feVivienteGtm/chunklist_w1971394806.m3u8
-
-
-#EXTINF:-1 tvg-logo="https://s3.us-east-1.amazonaws.com/forofms.na/gallery/category_2/large.gallery_5610_2_2559.png.aaa2685ee7b7ab0b250518988a62f57b.png"group-title="CRISTIANO",ENLACE JUVENIL
-
-
-#EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQFitKk2sCnlcd5dvgqh8e9hPv8kYN7JiVaJw&usqp=CAU"group-title="CRISTIANO",PRESENCIA TELEVISION
-https://stream.oursnetworktv.com:443/latin/remaPresencia/chunklist_w1234426987.m3u8
-
-
-#EXTINF:-1 tvg-logo="https://seeklogo.com/images/M/ministerios-ebenezer-logo-8022110751-seeklogo.com.png"group-title="CRISTIANO",EBENEZER TV
-https://5e85d90130e77.streamlock.net:443/6010/ngrp:6010_all/chunklist_w561828516_b3128000.m3u8
-
-
-#EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRZrOX_f0-Cvb_WRQbBVmSJLD82gLv6Ak8GZA&usqp=CAU"group-title="CRISTIANO",ADORA A DIOS TV
-https://cp.cast-live.net:1936/adoraadios/adoraadios/chunklist_w596149658.m3u8
-
-
-#EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQtAeAJAhI95rscGbB9iL5Gms1p-p6-t_eSrAWidrZbiw&s"group-title="CRISTIANO",ELIM TV
-https://dacastmmd.mmdlive.lldns.net/dacastmmd/7e84ed301b194b7b81e86f85bb2c3a33/manifest.m3u8?p=79&h=973bf97fb3d1a1543819421ef2849f09
 
 
 #EXTINF:-1 tvg-logo="https://www.vivalivetv.com/public/files/shows/0/1/2909-960x540-000000.jpg"group-title="CRISTIANO",AMOR i VIDA TV
 https://5bf8041cb3fed.streamlock.net:443/MiAmoriVidaTV/MiAmoriVidaTV/chunklist_w1066328190.m3u8
 
 
-#EXTINF:-1 tvg-logo="https://lh6.googleusercontent.com/proxy/aTKQODhpkACqERQaa8g0ZiNUvohJD0EKeNKXgAKnYftRSZr8ZhsUCioLhhbLOrnVg8DG3OC0EOue4r3jZ_UVPwFnSLrqWL8puvqf4_Woo3Y"group-title="CRISTIANO",LA LUZ TV
-http://ott.streann.com:8080/loadbalancer/services/public/channels/59ce7f292cdc7ba015a93b82/playlist.m3u8
+
 
 #EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS0OEvk0VqOovkB1XptvOjyc6CRR7xJ5lXHSg&usqp=CAU"group-title="CRISTIANO", VIDA TELEVISIÓN
-https://2-fss-2.streamhoster.com/pl_120/amlst:200226-1449024/playlist.m3u8?WebM3UCL
-
-#EXTINF:-1 tvg-logo="https://play-lh.googleusercontent.com/eOO3MUeLFardGwPjKGXjyNKubITdcdRM-ZPBHI1w8J3FGuG1_oD5Y8NjLaSRJG-vsNs"group-title="CRISTIANO",TVR DIGITAL
-https://video-weaver.bue01.hls.ttvnw.net/v1/playlist/CpcFJpA3RZu4sFYrITl0tPHWVbhjNN3KOq3CfqIGbpX91pZrHqRL3pP7ru3Q2h82PhkbveHqchNnysLnPMolIS8JQYoQg_AKDCW4b3qWALbOiMLxArEN8vSXAzfM3RWsT7eaIVoWW2rH8SJdYDxgnbc1VkjLUhjIuHos7yTf2mQImL_ipolCYTURMDN8xr_fT7zjuxOnDY-Z7sEOL8d6uG3XJRp_uVZsUn5mexUoPrO9xd1Vzl0uoHhuRbUjRBoa9Z0kiy97hHo-hvOcf98oSH0JNYKDGGagcZSheq-0Awf3jtVcp5X29xmIHrkXqIXlj-D-xHPl9B4XGHVNB4YNYiWwLIYmplUJLm-veCm8kzOBbdYBF5RNWyMOcfH2irTkpOyw8jFMz7wF2Nm1dop1Rcg3unarnOl--pSSacdyoYZk9YsrQVaZ-FKrJ__44m9zem51CeaNuFQ5naIeZUKnfy82aPgpmGjHoH_L-JjqTh_J_K2GclHAXG--PxrZj1eMf6zJAZ2N6tQ183O71_REEGZdo2ELE1UsN2irg1-FCNSqw_NKjIqyhGrhvzLvnL7_MCsWxkr09tdQrt1MEHKrtuQsuqZ4PCL-DHUzOBlXTh7aJXzSmtIHQ_w8YPWhDxi4Qqy-LtJw-T3OClI7vkzuPrBsdI6eki6qkt5a6vWB7xAVAPmeVnztZz-bUwlNOYi3Apbz29HTO1wXtQD4kmi-TSi1v9ktLHfuwbTOKytyv-KNjb6KvNAVAcwPHs9a5fl01lem1-9j81GjNthk9b6y05lC_SK1eGT-7YSA9k9VtQcX7d3ONPuPHD2C1jOhx_ltmrHOSD_ATIGuYpVXi28cqkWx7mMo1TQfx35bfbw1o8COrlMU33er4glJGgwUt8nlhRxb6onQtGUgASoJdXMtd2VzdC0yMMsI.m3u8
+https://2-fss-2.streamhoster.com/pl_120/amlst:200226-1449024/playlist.m3u8
 
 
-#EXTINF:-1 tvg-logo="https://image.roku.com/developer_channels/prod/f1589be8f15b2dbbb4673d6d053099ce60224c396311dd99c982f9fce47d8693.png"group-title="CRISTIANO",PENIEL TV HD
-https://cdn.streamhispanatv.net:3840/live/penielfamlive.m3u8
-
-
-#EXTINF:-1 tvg-logo="https://www.fortalezatv.cl/assets/img/fortalezatv/FTV%20blanco%20largo%202.png"group-title="CRISTIANO",FORTALEZA TV
-https://multimedia.fortalezatv.cl:443/video/tracks-v1a1/mono.m3u8?PlaylistM3UCL
-
-
-#EXTINF:-1 tvg-logo="http://ccpeniel.com.mx/site/images/US/MPK_LOGO.png"group-title="CRISTIANO",PENIEL KIDS
-https://cdn.streamhispanatv.net:3155/live/penielkidslive.m3u8
-
-
-#EXTINF:-1 tvg-logo="https://33e1600b34.cbaul-cdnwnd.com/d7495a2b4d8a7ea80be22f304f0282e4/200000108-dc6f6dc6f9/logo-color-ok-3.png?ph=33e1600b34"group-title="CRISTIANO", TELEVIDA HD
-https://tls-cl.cdnz.cl/televida/live/chunklist_w108038511.m3u8
+#EXTINF:-1 tvg-logo="https://www.fortalezatv.cl/assets/img/fortalezatv/FTV%20blanco%20largo%202.png"group-title="CRISTIANO", FTV
+https://multimedia.fortalezatv.cl:443/video/tracks-v1a1/mono.m3u8
 
 
 
-#EXTINF:-1 tvg-logo="https://i0.wp.com/directostv.teleame.com/wp-content/uploads/2020/09/Canal-13-Jujuy-en-vivo-Online.png?fit=1920%2C1080&ssl=1"group-title="CRISTIANO",13 TRECE HD
-https://genexservicios.com:19360/canal13jujuy/canal13jujuy.m3u8
 
-#EXTINF:-1 tvg-logo="https://www.ministeriotv.com/uploads/channels/49/logo_thumb.jpg"group-title="CRISTIANO", PALABRA DE DIOS SIN LEVADURA
-https://583ed2f226ac2.streamlock.net/49/stream/chunklist_w1954002463.m3u8
-
-#EXTINF:-1 tvg-logo="https://www.vivalivetv.com/public/files/shows/0/1/3307-960x540-000000.jpg"group-title="CRISTIANO",NEW LIFE TV HD
-https://5f11b4ed6a412.streamlock.net:443/newliferadiotv/newliferadiotv/chunklist_w834495680.m3u8?ads.content_page_url=https%253A%252F%252Fwww.vivalivetv.com%252Fwatch%252Flive
 
 #EXTINF:-1 tvg-logo="https://lh5.googleusercontent.com/proxy/pHnPb6gm5A-JMQdBzL-pkbUngq9lBI4TtUmrDEwEjBQBXrJWqz94Ww6zEKO9FCyaqFI1MHPX0Nqq8awrmyeFCCdkgQEakFyZ3y2mQSKAeg"group-title="CRISTIANO",TBN ESPAÑOL
 https://edge.xn--tbnespaa-j3a.es/LiveApp/streams/tbnlive.m3u8
 
 
-#EXTINF:-1 tvg-logo="https://images.zeno.fm/jGumRebLUbgRf14ROQWDt0nnEhOUIuDjsFDcnwcObNA/rs:fit:440:440/g:ce:0:0/aHR0cHM6Ly9zdHJlYW0tdG9vbHMuemVub21lZGlhLmNvbS9jb250ZW50L3N0YXRpb25zL2FneHpmbnBsYm04dGMzUmhkSE55TWdzU0NrRjFkR2hEYkdsbGJuUVlnSUNBMThEYXRRZ01DeElPVTNSaGRHbHZibEJ5YjJacGJHVVlnSUNBZ0pENG1nb01vZ0VFZW1WdWJ3L2ltYWdlLz9yZXNpemU9NDQweDQ0MCZ1cGRhdGVkPTE2NjE3NTMzNDAwMDA.webp"group-title="CRISTIANO",URBANCRISTV HD
-https://rpn3.bozztv.com:443/ssh101/ssh101/urbancrist/chunks.m3u8
 
 #EXTINF:-1 tvg-logo="https://smotret.tv/images/logo-spirit-tv.png"group-title="CRISTIANO",SPIRIT TV HD
 https://cdnlive.myspirit.tv:443/LS-ATL-43240-2/tracks-v1a1/mono.m3u8
 
-#EXTINF:-1 tvg-logo="https://www.hispanatv.com/img/tv/ENTV-HN.png"group-title="CRISTIANO",ENTV
-https://cp.cast-live.net:1936/exodotv/exodotv/chunklist_w109029077.m3u8
 
 
 
