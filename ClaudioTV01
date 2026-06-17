@@ -48,8 +48,7 @@ https://unlimited1-us.dps.live/nettv/nettv.smil/playlist.m3u8
 https://canadaremar2.todostreaming.es/live/solidariatv-webhd.m3u8
 
 
-#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/c/c8/Am%C3%A9rica_TV_%28Nuevo_logo_Junio_2020%29.png"group-title="BUENOS AIRES",AMERICA
-http://liketv.pro/live/diegos2024/Coly2413/53.ts
+
 
 
 #EXTINF:-1 tvg-logo="https://logos-world.net/wp-content/uploads/2025/04/A24-Logo-New.png"group-title="BUENOS AIRES",A24
@@ -1275,7 +1274,8 @@ https://copacotf.desdeparaguay.net/latele/latele_py_alta/chunklist_w721683875.m3
 http://liketv.pro:80/diegos2024/Coly2413/187906.ts
 
 
-
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/c/c8/Am%C3%A9rica_TV_%28Nuevo_logo_Junio_2020%29.png"group-title="PARAGUAY",AMERICA
+http://liketv.pro/live/diegos2024/Coly2413/53.ts
 
 #EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/d/d9/Sur_TV_Itap%C3%BAa_logo_2022.png"group-title="PARAGUAY",SUR TV
 
