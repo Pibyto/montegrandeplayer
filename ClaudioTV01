@@ -1827,6 +1827,15 @@ https://tv3ecuador.site/hls/stream/index.m3u8
 https://micanal.ovh/livestreams/142.RZYR3NWFIHKH.m3u8
 
 
+#EXTINF:-1 tvg-logo="https://i.ibb.co/N6z5zdsH/file-00000000f46c720e9b19bc9f0b2dd33a.png"group-title="ECUADOR",PJTV
+https://eu1.servers10.com:8081/8020/index.m3u8
+
+
+
+#EXTINF:-1 tvg-logo="https://i.ibb.co/ks6d80Pf/file-00000000b248720ea6dee41be1f207fd.png"group-title="ECUADOR",PJ MUSICAL
+https://server5.cloundmediacp.in/patricio4162/patricio4162/playlist.m3u8
+
+
 #EXTINF:-1 tvg-logo="https://tinyurl.com/Zurquiteve"group-title="ECUADOR",ZURQUI TV
 https://videoserver.tmcreativos.com:19360/gesfnvpamn/gesfnvpamn.m3u8
 
