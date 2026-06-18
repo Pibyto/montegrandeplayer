@@ -31,6 +31,9 @@ https://srv3.zcast.com.br/gentv/gentv/playlist.m3u8
 https://videostream.shockmedia.com.ar:19360/neotvdigital/neotvdigital.m3u8
 
 
+#EXTINF:-1 tvg-logo="https://tinyurl.com/2hyy9jxz"group-title="BUENOS AIRES",CHAVO
+https://live20.bozztv.com/giatvplayout7/giatv-211465/tracks-v1a1/mono.m3u8
+
 
 #EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/5/5e/Bravotv.png"group-title="BUENOS AIRES",BRAVO TV
 https://redirector.rudo.video/hls-video/c54ac2799874375c81c1672abb700870537c5223/bravo/bravo.smil/playlist.m3u8
@@ -294,8 +297,7 @@ https://panel.host-live.com:19360/8076/8076.m3u8
 
 
 
-#EXTINF:-1 tvg-logo="https://tinyurl.com/myr3uy8b"group-title="ARGENTINA", ,CHAVO
-https://live20.bozztv.com/giatvplayout7/giatv-211465/tracks-v1a1/mono.m3u8
+
 
 
 #EXTINF:-1 tvg-logo="https://tinyurl.com/yccuefd4"group-title="ARGENTINA", TELEVISIÓN PÚBLICA 
