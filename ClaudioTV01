@@ -2953,6 +2953,11 @@ https://viewhn.com/canal30/live/chunks.m3u8
 
 
 
+#EXTINF:-1 tvg-logo="https://i.ibb.co/3YYq3QGk/1771870911133.png"group-title="NICARAGUA",WTV 40
+https://cootv.cootel.com.ni:8095/Canal40_WTV/playlist.m3u8
+
+
+
 #EXTINF:-1 tvg-logo=""group-title="NICARAGUA",TV 45
 https://hdbox.chunklistv.com/live?stream=3abn-nicaragua
 
