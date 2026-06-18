@@ -3377,17 +3377,17 @@ https://stream-172.zeno.fm/m90ke6k3d4kuv?zt=eyJhbGciOiJIUzI1NiJ9.eyJzdHJlYW0iOiJ
 https://streaming3.locucionar.com/proxy/fmelpuente?mp=/stream
 
 #EXTINF:-1 tvg-logo="https://www.maranatharadioministries.com/wp-content/uploads/2019/09/Maranatha-Radio-Final-500px.png"group-title="RADIO",MARANATHA
-https://vip.livecastnet.com:3930/live/maranatharadiolive
+https://vip.livecastnet.com:3930/live/maranatharadiolive.m3u8
 
 
 #EXTINF:-1 tvg-logo="https://radiofortalezafm.cl/img/about-1.jpg"group-title="RADIO", FORTALEZA 
-https://live.tvcontrolcp.com:1936/fortalezatv/fortalezatv/playlist
+https://live.tvcontrolcp.com:1936/fortalezatv/fortalezatv/playlist.m3u8
 
 #EXTINF:-1 tvg-logo="https://vidartv.info/api/station/3/streamer/2%7C1688659242/art"group-title="RADIO",ALTAR RADIO 7/24
 https://vidartv.info:8020/stream
 
 #EXTINF:-1 tvg-logo="https://cdn.onlineradiobox.com/img/l/1/101981.v7.png"group-title="RADIO",JTA (JESÚS TE AMA) MENDOZA 
-https://vps230094.vps.ovh.ca/stream
+
 
 
 
