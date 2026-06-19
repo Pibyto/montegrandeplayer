@@ -184,7 +184,7 @@ http://liketv.pro:80/diegos2024/Coly2413/107.ts
 
 
 #EXTINF:-1 tvg-logo="https://tinyurl.com/5c4k5rx9"group-title="MUNDIAL",Col
-http://liketv.pro:80/diegos2024/Coly2413/12.ts
+
 
 
 
@@ -197,7 +197,7 @@ https://streaming01.mikrolive.tv/bayrestv/live/chunklist_w963757112.m3u8
 
 
 #EXTINF:-1 tvg-logo"https://i.ibb.co/Xk5BYGMJ/1781715714505.png"group-title="MUNDIAL",
-http://liketv.pro/live/diegos2024/Coly2413/149.ts
+
 
 
 #EXTINF:-1 tvg-logo="https://tinyurl.com/5c4k5rx9"group-title="MUNDIAL",RTR
@@ -3304,17 +3304,24 @@ https://cdnlive.myspirit.tv:443/LS-ATL-43240-2/tracks-v1a1/mono.m3u8
 
 
 
+
+
+#EXTINF:-1 tvg-logo="https://i.ibb.co/HfnF448T/Radio-rockpop.png"group-title="RADIO SECULAR",ROCK Y POP
+https://17993.live.streamtheworld.com:443/ROCKANDPOP_SC
+
+
+
 #EXTINF:-1 tvg-logo="https://i.ibb.co/9f3Hnrw/IMG-20260618-WA0034.png"group-title="RADIO SECULAR",LAMIL35 RADIO
 https://az03.streaminghd.net.ar/8078/stream
 
 
 
+#EXTINF:-1 tvg-logo="https://i.ibb.co/spRwcYT4/descarga-2.png"group-title="RADIO SECULAR",KL80
+https://a10.asurahosting.com:8980/radio.mp3?t=1781827033219
 
 
 
-
-
-
+#EXTINF:-1 tvg-logo=""group-title="RADIO SECULAR",
 
 
 
