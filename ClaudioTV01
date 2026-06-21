@@ -3,11 +3,11 @@
 
 
 
-#EXTINF:-1 tvg-logo="https://tinyurl.com/FucsiaPlay"group-title="BUENOS AIRES", PLAY TV 
+#EXTINF:-1 tvg-logo="https://tinyurl.com/Maxchan"group-title="BUENOS AIRES",MAX CHANNEL 
 https://live20.bozztv.com/akamaissh101/ssh101/plaaytv/playlist.m3u8
 
 
-#EXTINF:-1 tvg-logo="https://tinyurl.com/Maaxmg"group-title="BUENOS AIRES",MAX
+#EXTINF:-1 tvg-logo="https://tinyurl.com/Maxdoos"group-title="BUENOS AIRES",MAX2
 https://lbgo.bozztv.com/ssh101/ssh101/max16/playlist.m3u8
 
 
@@ -481,7 +481,7 @@ https://live20.bozztv.com/giatvplayout7/giatv-208730/playlist.m3u8
 
 
 
-#EXTINF:-1 tvg-logo="https://tinyurl.com/YelowPlay"group-title="CINE PREMIUM",PLAY TV CINE 
+#EXTINF:-1 tvg-logo="https://tinyurl.com/Maxchan"group-title="CINE PREMIUM",MAX CHANNEL 
 https://live20.bozztv.com/akamaissh101/ssh101/plaaytv/chunks.m3u8
 
 #EXTINF:-1 tvg-logo="https://tinyurl.com/2hy6uu5x"group-title="CINE PREMIUM",MONTEGRANDETV
@@ -514,7 +514,7 @@ http://190.102.242.130:25461/live/cinrwarpower/12345678/190.m3u8
 
 
 
-#EXTINF:-1 tvg-logo="https://tinyurl.com/Maaxmg"group-title="CINE PREMIUM", MAX
+#EXTINF:-1 tvg-logo="https://tinyurl.com/Maxdoos"group-title="CINE PREMIUM", MAX2
 https://lbgo.bozztv.com/ssh101/ssh101/max16/playlist.m3u8
 
 
