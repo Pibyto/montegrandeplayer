@@ -18,6 +18,11 @@ https://lbgo.bozztv.com/ssh101/ssh101/ipersonica/playlist.m3u8
 #EXTINF:-1 tvg-logo="https://tinyurl.com/Lamilteve"group-title="BUENOS AIRES",LA MIL35
 https://vd01.streaminghd.net.ar:3349/live/bzuctkgnlive.m3u8
 
+
+#EXTINF:-1 tvg-logo="https://tinyurl.com/Altarteve"group-title="BUENOS AIRES",ALTAR TV HD
+https://vidartv2.todostreaming.es/live/radiovida-altar724.m3u8
+
+
 #EXTINF:-1 tvg-logo="https://tinyurl.com/Bairesteve"group-title="BUENOS AIRES",BAYRES TV HD
 https://streaming01.mikrolive.tv/bayrestv/live/chunklist_w963757112.m3u8
 
@@ -100,8 +105,7 @@ https://panel.host-live.com:19360/8012/8012.m3u8
 https://183.bozztv.com/giatv/giatv-telemixenvivo/telemixenvivo/playlist.m3u8
 
 
-#EXTINF:-1 tvg-logo="https://tinyurl.com/Altarteve"group-title="BUENOS AIRES",ALTAR TV HD
-https://vidartv2.todostreaming.es/live/radiovida-altar724.m3u8
+
 
 
 
