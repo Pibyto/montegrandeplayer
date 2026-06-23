@@ -10,7 +10,7 @@ https://lbgo.bozztv.com/ssh101/ssh101/max1channel/chunks.m3u8
 
 
 
-#EXTINF:-1 tvg-logo="https://tinyurl.com/Maxteve2"group-title="BUENOS AIRES",MAX2
+#EXTINF:-1 tvg-logo="https://tinyurl.com/Maxteve3"group-title="BUENOS AIRES",MAX2
 https://lbgo.bozztv.com/ssh101/ssh101/max16/playlist.m3u8
 
 
@@ -524,7 +524,7 @@ http://190.102.242.130:25461/live/cinrwarpower/12345678/190.m3u8
 
 
 
-#EXTINF:-1 tvg-logo="https://tinyurl.com/Maxdoos"group-title="CINE PREMIUM", MAX2
+#EXTINF:-1 tvg-logo="https://tinyurl.com/Maxteve3"group-title="CINE PREMIUM", MAX2
 https://lbgo.bozztv.com/ssh101/ssh101/max16/playlist.m3u8
 
 
@@ -593,7 +593,7 @@ https://amg00793-amg00793c40-rakuten-es-5444.playouts.now.amagi.tv/1080p/index.m
 #EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/1/11/Cinemax_%28Yellow%29.svg"group-title="CINE PREMIER",CINEMAX
 http://liketv.pro/live/diegos2024/Coly2413/17435.ts
 
-#EXTINF:-1 tvg-logo="https://tinyurl.com/Maxdoos"group-title="CINE PREMIER",MAX2
+#EXTINF:-1 tvg-logo="https://tinyurl.com/Maxteve3"group-title="CINE PREMIER",MAX2
 https://lbgo.bozztv.com/ssh101/ssh101/max16/playlist.m3u8
 
 
