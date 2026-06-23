@@ -4,6 +4,8 @@
 
 
 #EXTINF:-1 tvg-logo="https://tinyurl.com/Maxtevee1"group-title="BUENOS AIRES",MAX CHANNEL
+
+
 https://lbgo.bozztv.com/ssh101/ssh101/max1channel/chunks.m3u8
 
 
@@ -1349,15 +1351,18 @@ http://liketv.pro/live/diegos2024/Coly2413/53.ts
 
 
 
-#EXTINF:-1 tvg-logo="https://tinyurl.com/Fabivision"group-title="BOLIVIA, FABIÁN VISIÓN 
-https://lbgo.bozztv.com/ssh101/ssh101/fabiantv182/chunks.m3u8
 
-#EXTINF:-1 tvg-logo="https:/vv y vugvyby/tinyurl.com/2n5xj7x3"group-title="BOLIVIA", INTERACTIVO TV 1
+
+#EXTINF:-1 tvg-logo="https://tinyurl.com/2n5xj7x3"group-title="BOLIVIA", INTERACTIVO TV 1
 https://mist01.homestream.fun/hls/interactivotv/0_1/index.m3u8
 
  
 #EXTINF:-1 tvg-logo="https://tinyurl.com/2n5xj7x3"group-title="BOLIVIA",INTERACTIVO TV 2
 https://mist01.homestream.fun/hls/interactivotv2/0_1/index.m3u8
+
+
+#EXTINF:-1 tvg-logo="https://tinyurl.com/Fabivision"group-title="BOLIVIA, FABIÁN VISIÓN 
+https://lbgo.bozztv.com/ssh101/ssh101/fabiantv182/chunks.m3u8
 
 
 #EXTINF:-1 tvg-logo="https://i0.wp.com/univalletelevision.com/wp-content/uploads/2022/05/LOGO_UNIVALLE_TV_sinfondo-1-e1654152218733.png?fit=200%2C200&ssl=1"group-title="BOLIVIA",UNIVALLE
