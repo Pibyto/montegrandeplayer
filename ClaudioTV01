@@ -3,12 +3,12 @@
 
 
 
-#EXTINF:-1 tvg-logo="https://tinyurl.com/Maxtevee1"group-title="BUENOS AIRES",MAX CHANNEL
+#EXTINF:-1 tvg-logo="https://tinyurl.com/Maxlogo001"group-title="BUENOS AIRES",MAX CHANNEL
 https://lbgo.bozztv.com/ssh101/ssh101/max1channel/chunks.m3u8
 
 
 
-#EXTINF:-1 tvg-logo="https://tinyurl.com/Maxlogo02"group-title="BUENOS AIRES",MAX2
+#EXTINF:-1 tvg-logo="https://tinyurl.com/Maxlogo002"group-title="BUENOS AIRES",MAX2
 https://lbgo.bozztv.com/ssh101/ssh101/max16/playlist.m3u8
 
 
