@@ -512,13 +512,15 @@ http://190.102.242.130:25461/cineclasiipowe/12345/143
 #EXTINF:-1 tvg-logo="https://cdn.phototourl.com/free/2026-04-19-1558b1a7-6e3f-40b1-ada0-f106ff98c48b.png"group-title="CINE PREMIUM",+CINE FAMILY
 http://190.102.242.130:25461/familypower/12345/149
 
-#EXTINF:-1 tvg-logo="https://cdn.phototourl.com/free/2026-04-19-0eef69e3-dbe1-4cca-aadb-764825c01ed9.png"group-title="CINE PREMIUM",+CINE TERROR
+#EXTINF:-1 tvg-logo=" "group-title="CINE PREMIUM",+CINE TERROR
 http://190.102.242.130:25461/terrorpower/12345678/99
 
 
 
-#EXTINF:-1 tvg-logo="https://i.ibb.co/Pv1MqPm0/1776362866128.png"group-title="CINE PREMIUM",+CINE WAR
+#EXTINF:-1 tvg-logo="https://tinyurl.com/Cinewar1"group-title="CINE PREMIUM",+CINE WAR
 http://190.102.242.130:25461/live/cinrwarpower/12345678/190.m3u8
+
+
 
 
 
