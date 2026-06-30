@@ -3359,14 +3359,21 @@ https://a10.asurahosting.com:8980/radio.mp3?t=1781827033219
 
 
 
+#EXTINF:-1 tvg-logo="https://i.ibb.co/0yP3hh5f/IMG-20260630-WA0048.jpg"group-title="RADIO SECULAR", SOMOS RADIO LATINA 
+https://emisorasdigitales2.com:8114/stream
+
+
+#EXTINF:-1 tvg-logo="https://i.ibb.co/d07GxF3G/IMG-20260630-WA0046.jpg"group-title="RADIO SECULAR", RADIO GLOGAL MUSIC
+https://emisorasdigitales2.com:7062/stream
+
+
+
+#EXTINF:-1 tvg-logo="https://i.ibb.co/Qv8DM19w/IMG-20260630-WA0047.jpg"group-title="RADIO SECULAR",LA SABROSONA FM
+https://streaming.hostpannel.lat/stream8700
+
+
+
 #EXTINF:-1 tvg-logo=""group-title="RADIO SECULAR",
-
-
-
-
-
-
-
 
 
 
