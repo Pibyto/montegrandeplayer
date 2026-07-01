@@ -18,7 +18,6 @@
       \"type\": \"image/png\"
     }]
   }">
-  <!-- === SDK DE CHROMECAST ORIGINAL === -->
   <script src="https://www.gstatic.com/cv/js/sender/v1/cast_sender.js?loadCastFramework=1"></script>
   <script src="https://cdn.jsdelivr.net/npm/hls.js@latest"></script>
   <script src="https://cdn.jsdelivr.net/npm/mpegts.js@latest"></script>
@@ -266,8 +265,22 @@
   window.addEventListener('beforeinstallprompt', (e) => {
     e.preventDefault();
     pwaInstallPrompt = e;
-    document.getElementById('pwaInstallButton').style.display = 'block';
+    // Mostrar el botón solo en modo web
+    if (window.isWebMode) {
+      document.getElementById('pwaInstallButton').style.display = 'block';
+    }
   });
+
+  // Forzar que el botón aparezca en modo web después de 3 segundos (por si el evento no se dispara)
+  if (window.location.hostname.includes('github.io') ||
+      window.location.hostname.includes('shehub') ||
+      window.location.hostname.includes('localhost')) {
+    setTimeout(function() {
+      if (!pwaInstallPrompt) {
+        document.getElementById('pwaInstallButton').style.display = 'block';
+      }
+    }, 3000);
+  }
 
   document.getElementById('pwaInstallButton').addEventListener('click', () => {
     if (pwaInstallPrompt) {
@@ -278,6 +291,21 @@
         }
         pwaInstallPrompt = null;
       });
+    } else {
+      alert('Tu navegador no soporta la instalación de PWA. Usa Chrome o Edge en Android.');
+    }
+  });
+
+  // === MANEJAR BOTÓN ATRÁS DEL NAVEGADOR EN MODO WEB ===
+  window.history.pushState(null, null, window.location.href);
+  window.addEventListener('popstate', function(e) {
+    // Solo en modo web (GitHub Pages)
+    if (window.location.hostname.includes('github.io') ||
+        window.location.hostname.includes('shehub')) {
+      e.preventDefault();
+      showUi();
+      renderHome();
+      window.history.pushState(null, null, window.location.href);
     }
   });
 
@@ -705,7 +733,15 @@
           break;
         case 'Enter': e.preventDefault(); active.click(); break;
         case 'Escape': case 'Back': case 'GoBack':
-          e.preventDefault(); if (window.currentMode !== 'home') renderHome(); else hideUi(); break;
+          e.preventDefault();
+          if (window.currentMode !== 'home') renderHome();
+          else if (window.isWebMode) { // En web: volver al menú en lugar de ocultar UI
+            showUi();
+            renderHome();
+          } else {
+            hideUi();
+          }
+          break;
       }
     }
 
@@ -722,9 +758,26 @@
       else if (elBounds.top < containerBounds.top) { window.contentArea.scrollTop -= (containerBounds.top - elBounds.top) + 30; }
     }
 
-    video.addEventListener('click', function() { if (window.isUiHidden) { showUi(); focusFirstAvailable(); } else hideUi(); });
-    window.audioVisualLayer.addEventListener('click', function() { if (window.isUiHidden) { showUi(); focusFirstAvailable(); } else hideUi(); });
-    document.addEventListener('keydown', handleKeydown); document.addEventListener('click', presionoBotonMando);
+    video.addEventListener('click', function() {
+      if (window.isUiHidden) {
+        showUi();
+        focusFirstAvailable();
+      } else {
+        hideUi();
+      }
+    });
+
+    window.audioVisualLayer.addEventListener('click', function() {
+      if (window.isUiHidden) {
+        showUi();
+        focusFirstAvailable();
+      } else {
+        hideUi();
+      }
+    });
+
+    document.addEventListener('keydown', handleKeydown);
+    document.addEventListener('click', presionoBotonMando);
 
     function init() {
       var icons = window.sideMenu.querySelectorAll('.menu-icon');
