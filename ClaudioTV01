@@ -3,12 +3,12 @@
 
 
 
-#EXTINF:-1 tvg-logo="https://tinyurl.com/Maxlogo0001"group-title="BUENOS AIRES",MAX
+#EXTINF:-1 tvg-logo="https://tinyurl.com/Maxcinefucsia"group-title="BUENOS AIRES",MAX CINE
 https://lbgo.bozztv.com/ssh101/ssh101/max1channel/chunks.m3u8
 
 
 
-#EXTINF:-1 tvg-logo="https://tinyurl.com/Maxtevepng"group-title="BUENOS AIRES",MAX2
+#EXTINF:-1 tvg-logo="https://tinyurl.com/Max2fucsia"group-title="BUENOS AIRES",MAX 2
 https://lbgo.bozztv.com/ssh101/ssh101/max16/playlist.m3u8
 
 
@@ -510,7 +510,7 @@ https://live20.bozztv.com/giatvplayout7/giatv-208730/playlist.m3u8
 
 
 
-#EXTINF:-1 tvg-logo="https://tinyurl.com/Maxtevee1"group-title="CINE PREMIUM",MAX CHANNEL
+#EXTINF:-1 tvg-logo="https://tinyurl.com/Maxcinefucsia"group-title="CINE PREMIUM",MAX CINE
 https://lbgo.bozztv.com/ssh101/ssh101/max1channel/chunks.m3u8
 
 
@@ -548,7 +548,7 @@ http://190.102.242.130:25461/live/cinrwarpower/12345678/190.m3u8
 
 
 
-#EXTINF:-1 tvg-logo="https://tinyurl.com/Maxtevepng"group-title="CINE PREMIUM", MAX2
+#EXTINF:-1 tvg-logo="https://tinyurl.com/Max2fucsia"group-title="CINE PREMIUM", MAX 2
 https://lbgo.bozztv.com/ssh101/ssh101/max16/playlist.m3u8
 
 
@@ -617,11 +617,10 @@ https://amg00793-amg00793c40-rakuten-es-5444.playouts.now.amagi.tv/1080p/index.m
 #EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/1/11/Cinemax_%28Yellow%29.svg"group-title="CINE PREMIER",CINEMAX
 http://liketv.pro/live/diegos2024/Coly2413/17435.ts
 
-#EXTINF:-1 tvg-logo="https://tinyurl.com/Maxtevepng"group-title="CINE PREMIER",MAX2
+#EXTINF:-1 tvg-logo="https://tinyurl.com/Max2fucsia"group-title="CINE PREMIER",MAX 2
 https://lbgo.bozztv.com/ssh101/ssh101/max16/playlist.m3u8
 
 
-http://liketv.pro/live/diegos2024/Coly2413/126457.ts
 
 
 #EXTINF:-1 tvg-logo="https://logos-marcas.com/wp-content/uploads/2022/01/Disney-Junior-Logo.png"group-title="CINE PREMIER",DISNEY JR
