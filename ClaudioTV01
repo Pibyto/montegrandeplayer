@@ -4,16 +4,13 @@
 
 
 
+#EXTINF:-1 tvg-logo="https://tinyurl.com/Maxcinefucsia"group-title="BUENOS AIRES",MAX CINE
+https://lbgo.bozztv.com/ssh101/ssh101/max1channel/chunks.m3u8
 
 
 #EXTINF:-1 tvg-logo="https://tinyurl.com/Max2fucsia"group-title="BUENOS AIRES",MAX 2
 https://lbgo.bozztv.com/ssh101/ssh101/max16/playlist.m3u8
 
-
-
-
-#EXTINF:-1 tvg-logo="https://tinyurl.com/Maxcinefucsia"group-title="BUENOS AIRES",MAX CINE
-https://lbgo.bozztv.com/ssh101/ssh101/max1channel/chunks.m3u8
 
 
 
