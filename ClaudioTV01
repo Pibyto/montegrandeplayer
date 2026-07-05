@@ -2572,6 +2572,10 @@ https://cnn.hostlagarto.com/megacinetv/tracks-v1a1/mono.m3u8
 https://cnn.hostlagarto.com/orbittv/tracks-v1a1/mono.m3u8
 
 
+#EXTINF:-1 tvg-logo="https://i.ibb.co/4ZYkGDQ0/IMG-20260705-WA0032.png"group-title="R.DOMINICANA",ARRETAO TV
+https://vdo.ssl-stream.com:3066/hybrid/play.m3u8
+
+
 #EXTINF:-1 tvg-logo="https://i.ibb.co/5xRHwKmf/images-18-2.png"group-title="R.DOMINICANA",AME TV
 https://ss2.tvrdomi.com:1936/ame47/ame47/playlist.m3u8
 
