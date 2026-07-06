@@ -2581,22 +2581,26 @@ https://ss2.tvrdomi.com:1936/ame47/ame47/playlist.m3u8
 
 
 
-#EXTINF:-1 tvg-logo=""group-title="R.DOMINICANA",CANAL DEL SOL
+#EXTINF:-1 tvg-logo="https://i.ibb.co/Xx8fzHPb/images-23.png"group-title="R.DOMINICANA",CANAL DEL SOL
 https://stream.canaldelsol.com/sol26/live_1080.m3u8
 
-#EXTINF:-1 tvg-logo=""group-title="R.DOMINICANA",CASCARA TV
+#EXTINF:-1 tvg-logo="https://i.ibb.co/KjCFfCNr/images-47.png"group-title="R.DOMINICANA",CASCARA TV
 https://ss2.tvrdomi.com:1936/cascaratv/cascaratv/chunklist_w961062293.m3u8?MonteGrandePlay
 
 
-#EXTINF:-1 tvg-logo=""group-title="R.DOMINICANA",CHINOLA TV
+#EXTINF:-1 tvg-logo="https://i.ibb.co/JwBhRWqZ/IMG-20260705-WA0054.png"group-title="R.DOMINICANA",BEBETO TV
+https://edge.essastream.com/bebetotelevision/index.m3u8
+
+
+
+#EXTINF:-1 tvg-logo="https://i.ibb.co/fY9cMn3b/images-48.png"group-title="R.DOMINICANA",CHINOLA TV
 https://tv.wracanal10.com:3300/live/chinolatvlive.m3u8?MonteGrandePlay
 
 
-#EXTINF:-1 tvg-logo="https://costaricachannel.org/wp-content/uploads/2022/08/cropped-LOGO-CR-2022-2022.pngn"group-title="R.DOMINICANA", COSTARICA CHANNEL 
-https://video0.rogohosting.com:19360/8006/8006.m3u8
 
 
-#EXTINF:-1 tvg-logo="https://i0.wp.com/imagenuniversaltv.com/wp-content/uploads/2022/03/cropped-Logo-imagen-Universal-TV-512-x-512.png"group-title="R.DOMINICANA",IU TV HD
+
+#EXTINF:-1 tvg-logo="https://i.ibb.co/GmBTQ3F/unnamed-2-2.png"group-title="R.DOMINICANA",IU TV HD
 https://imagenuniversaltv.net:3771/hybrid/play.m3u8?DVR0
 
 
@@ -2626,7 +2630,7 @@ https://videoserver.tmcreativos.com:19360/cvmhbyrcat/cvmhbyrcat.m3u8
 
 
 
-#EXTINF:-1 tvg-logo="https://multicablemedios.hn/images/logofaviconvallevision1.png"group-title="R.DOMINICANA",VALLEVISION
+#EXTINF:-1 tvg-logo="https://i.ibb.co/xSB2380b/images-49.png"group-title="R.DOMINICANA",VALLEVISION
 https://streaming.telecablecentral.com.do/Vallevision/ValleHD/chunklist_w605220916.m3u8
 
 
@@ -2793,6 +2797,9 @@ https://59ef525c24caa.streamlock.net:443/telebrunca/telebrunca/chunklist_w117769
 #EXTINF:-1 tvg-logo="https://image.roku.com/developer_channels/prod/a4ed367c69c23110d458a332af95be0be64566f288ccb5f261689344e6ba5e0d.png"group-title="COSTA RICA",CB TV
 https://cloudvideo.servers10.com:8081/8030/tracks-v1a1/mono.m3u8
 
+
+#EXTINF:-1 tvg-logo="https://i.ibb.co/sd2Vs3cG/cropped-LOGO-CR-2022-2022.png"group-title="COSTA RICA", COSTARICA CHANNEL 
+https://video0.rogohosting.com:19360/8006/8006.m3u8
 
 
 #EXTINF:-1 tvg-logo="https://static.wikia.nocookie.net/logopedia/images/7/7c/Canal1logo.png/revision/latest?cb=20240828025119&path-prefix=es"group-title="COSTA RICA",CANAL 1
