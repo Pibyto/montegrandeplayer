@@ -2886,6 +2886,9 @@ https://5fc584f3f19c9.streamlock.net/genteopa/videogenteopa/chunklist_w123989251
 https://mdstrm.com/live-stream-playlist/65a1d2fd7e7f14355550d570.m3u8
 
 
+#EXTINF:-1 tvg-logo="https://i.ibb.co/nNJYqx8m/IMG-20260630-WA0077.png"group-title="HONDURAS", PALABRA VIVA
+https://lbgo.bozztv.com/ssh101/ssh101/palabravivahn/playlist.m3u8
+
 
 #EXTINF:-1 tvg-logo=""group-title="HONDURAS",CANAL 11
 https://redirector.rudo.video/hls-video/c54ac2799874375c81c1672abb700870537c5223/canal11hn/canal11hn.smil/playlist.m3u8
