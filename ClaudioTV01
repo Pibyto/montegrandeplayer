@@ -12,8 +12,10 @@ https://lbgo.bozztv.com/ssh101/ssh101/max1channel/chunks.m3u8
 https://lbgo.bozztv.com/ssh101/ssh101/max16/playlist.m3u8
 
 
-#EXTINF:-1 tvg-logo="https://tinyurl.com/Mgtvworship"group-title="BUENOS AIRES", MGTV WORSHIP 
-https://live20.bozztv.com/giatvplayout7/giatv-212009/tracks-v1a1/mono.m3u8
+#EXTINF:-1 tvg-logo="https://tinyurl.com/Mgtvworship"group-title="BUENOS AIRES", MGTV WORSHIP
+https://live20.bozztv.com/giatvplayout7/giatv-212009/playlist.m3u8
+
+
 
 
 #EXTINF:-1 tvg-logo="https://tinyurl.com/Ipersonicateve"group-title="BUENOS AIRES", IPERSONICA TV 
