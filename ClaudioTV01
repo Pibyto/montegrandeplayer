@@ -613,11 +613,15 @@ https://amg00793-amg00793c40-rakuten-es-5444.playouts.now.amagi.tv/1080p/index.m
 #EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/1/11/Cinemax_%28Yellow%29.svg"group-title="CINE PREMIER",CINEMAX
 http://liketv.pro/live/diegos2024/Coly2413/17435.ts
 
-#EXTINF:-1 tvg-logo="https://tinyurl.com/Max2fucsia"group-title="CINE PREMIER",MAX 2
-https://lbgo.bozztv.com/ssh101/ssh101/max16/playlist.m3u8
 
 
 
+#EXTINF:-1 tvg-logo="https://i.ibb.co/ZRktdLRr/sony-one-action-hits-sender-logo-409962.png"group-title="CINE PREMIER",SONY ACTION
+https://de9yx47crxs6l.cloudfront.net/playlist.m3u8
+
+
+#EXTINF:-1 tvg-logo="https://i.ibb.co/vxPc9Hh1/sony-one-comedy-hits-sender-logo-409963.png"group-title="CINE PREMIER",SONY COMEDIA
+https://d3m8rnla2v9m5d.cloudfront.net/playlist.m3u8
 
 #EXTINF:-1 tvg-logo="https://logos-marcas.com/wp-content/uploads/2022/01/Disney-Junior-Logo.png"group-title="CINE PREMIER",DISNEY JR
 https://tr.live.clarovtrcdn.vtrplay.com/disneyjrhdchi/vxfmt=dp/playlist.m3u8?device_profile=STB_HLS_VCAS_LIVE_HD
@@ -704,8 +708,8 @@ http://sdmx.vip/live/AngelicaAntonietaTellez/A4Pnrrfhw4FJ/2092602.ts
 #EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTOspY0DemQf4NaEMxXnKQQKCpDwOfVCdtnZg&usqp=CAU"group-title="CINE PREMIER",CINE SONY
 https://a-cdn.klowdtv.com:443/live1/cine_720p/chunks.m3u8
 
-#EXTINF:-1 tvg-logo="https://i.ibb.co/gb1X2r6W/37-s.png"group-title="CINE PREMIER",SONY ACTION
-https://de9yx47crxs6l.cloudfront.net/playlist.m3u8
+
+
 
 
 #EXTINF:-1 tvg-logo="https://i.ibb.co/rRKQJNpp/28-s.png"group-title="CINE PREMIER",SONY THILLER
@@ -714,8 +718,6 @@ https://de9yx47crxs6l.cloudfront.net/playlist.m3u8
 
 
 
-#EXTINF:-1 tvg-logo="https://i.ibb.co/XZ4LBFKH/images-21-1.png"group-title="CINE PREMIER",SONY COMEDIA
-https://d3m8rnla2v9m5d.cloudfront.net/playlist.m3u8
 
 
 
