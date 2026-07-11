@@ -25,22 +25,25 @@ https://lbgo.bozztv.com/ssh101/ssh101/ipersonica/playlist.m3u8
 #EXTINF:-1 tvg-logo="https://tinyurl.com/Lamilteve"group-title="BUENOS AIRES",LA MIL35
 https://vd01.streaminghd.net.ar:3349/live/bzuctkgnlive.m3u8
 
+#EXTINF:-1 tvg-logo="https://tinyurl.com/Neoteve"group-title="BUENOS AIRES",NEO TV DIGITAL HD. 16.1 
+https://videostream.shockmedia.com.ar:19360/neotvdigital/neotvdigital.m3u8
 
-#EXTINF:-1 tvg-logo="https://tinyurl.com/Altarteve"group-title="BUENOS AIRES",ALTAR TV HD
-https://vidartv2.todostreaming.es/live/radiovida-altar724.m3u8
+#EXTINF:-1 tvg-logo="https://tinyurl.com/Genteve"group-title="BUENOS AIRES",GENTV
+https://srv3.zcast.com.br/gentv/gentv/playlist.m3u8
+
+
 
 
 #EXTINF:-1 tvg-logo="https://tinyurl.com/Bairesteve"group-title="BUENOS AIRES",BAYRES TV HD
 https://streaming01.mikrolive.tv/bayrestv/live/chunklist_w963757112.m3u8
 
 
+#EXTINF:-1 tvg-logo="https://tinyurl.com/Altarteve"group-title="BUENOS AIRES",ALTAR TV HD
+https://vidartv2.todostreaming.es/live/radiovida-altar724.m3u8
 
-#EXTINF:-1 tvg-logo="https://tinyurl.com/Genteve"group-title="BUENOS AIRES",GENTV
-https://srv3.zcast.com.br/gentv/gentv/playlist.m3u8
 
 
-#EXTINF:-1 tvg-logo="https://tinyurl.com/Neoteve"group-title="BUENOS AIRES",NEO TV DIGITAL HD. 16.1 
-https://videostream.shockmedia.com.ar:19360/neotvdigital/neotvdigital.m3u8
+
 
 
 #EXTINF:-1 tvg-logo="https://tinyurl.com/2hyy9jxz"group-title="BUENOS AIRES",CHAVO
