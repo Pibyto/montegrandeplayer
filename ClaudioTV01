@@ -210,7 +210,7 @@ http://liketv.pro:80/diegos2024/Coly2413/244
 #EXTINF:-1 tvg-logo="https://tinyurl.com/Laaatinatve"group-title="MUNDIAL",LATINA TV
 https://streaming.hostpannel.lat/hls/d13eefbcd1cfe70feb0d829daceeac0f/index.m3u8
 
-#EXTINF:-1 tvg-logo="https://i.ibb.co/Nn1bb92f/1777059764544v-2.png"group-title="MUNDIAL", TELE POSADAS
+#EXTINF:-1 tvg-logo="https://i.ibb.co/PZZQrFnf/Screenshot-20260711-161403.png"group-title="MUNDIAL", TELE FEDERAL 
 https://live20.bozztv.com/giatv/giatv-teleposadaso01/teleposadaso01/playlist.m3u8
 
 #EXTINF:-1 tvg-logo="https://tinyurl.com/5c4k5rx9"group-title="MUNDIAL",RTR
@@ -265,11 +265,11 @@ https://streaming.jtamendoza.com/hls/test.m3u8
 http://iptv.ixfo.com.ar:8081/live/C4POS/playlist.m3u8
 
 
-#EXTINF:-1 tvg-logo="https://i.ibb.co/Nn1bb92f/1777059764544v-2.png"group-title="ARGENTINA", TELE POSADAS
+#EXTINF:-1 tvg-logo="https://i.ibb.co/PZZQrFnf/Screenshot-20260711-161403.png"group-title="ARGENTINA", TELE FEDERAL 
 https://live20.bozztv.com/giatv/giatv-teleposadaso01/teleposadaso01/playlist.m3u8
 
 
-#EXTINF:-1 tvg-logo="https://i.ibb.co/Nn1bb92f/1777059764544-2.png"group-title="ARGENTINA", TELE POSADAS 2
+#EXTINF:-1 tvg-logo="https://i.ibb.co/PZZQrFnf/Screenshot-20260711-161403.png"group-title="ARGENTINA", TELE FEDERAL 2
 https://183.bozztv.com/giatv/giatv-teleposadas02/teleposadas02/playlist.m3u8
 
 
