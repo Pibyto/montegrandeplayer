@@ -141,23 +141,23 @@ https://livetrx01.vodgc.net/live-01-07-ciudad.vodgc.net/tracks-v3a1/mono.m3u8
 
 
 #EXTINF:-1 tvg-logo="https://static.wikia.nocookie.net/logopedia/images/a/a5/Eltreceinternacional-logo-2016.png/revision/latest?cb=20161019052654"group-title="BUENOS AIRES",EL TRECE
-http://liketv.pro:80/diegos2024/Coly2413/85.ts
+http://liketv.pro:80/diegos2024/Coly2413/85.m3u8
 
 
 #EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/c/cc/Telefe_%28nuevo_logo%29.png"group-title="BUENOS AIRES",TELEFE
-http://liketv.pro:80/diegos2024/Coly2413/100.ts
+http://liketv.pro:80/diegos2024/Coly2413/100.m3u8
 
 
 
 #EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/3/3a/Canal_9_2015.png"group-title="BUENOS AIRES",EL NUEVE
-http://liketv.pro:80/diegos2024/Coly2413/81.ts
+http://liketv.pro:80/diegos2024/Coly2413/81.m3u8
 
 #EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/f/fb/Cr%C3%B3nica_TV_logotipo_%282016%29.png"group-title="BUENOS AIRES", CRÓNICA TV
-http://liketv.pro:80/diegos2024/Coly2413/74.ts
+http://liketv.pro:80/diegos2024/Coly2413/74.m3u8
 
 
 #EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4f/TN_todo_noticias_logo.svg/1280px-TN_todo_noticias_logo.svg.png"group-title="BUENOS AIRES",TN
-http://liketv.pro:80/diegos2024/Coly2413/102.ts
+http://liketv.pro:80/diegos2024/Coly2413/102.m3u8
 
 
 
@@ -175,11 +175,11 @@ http://liketv.pro:80/diegos2024/Coly2413/102.ts
 
 
 #EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/8/81/LN%2B.png"group-title="BUENOS AIRES",LN+
-http://liketv.pro:80/diegos2024/Coly2413/92.ts
+http://liketv.pro:80/diegos2024/Coly2413/92.m3u8
 
 
 #EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/TVP_-_Televisi%C3%B3n_P%C3%BAblica_%282021%29.svg/1280px-TVP_-_Televisi%C3%B3n_P%C3%BAblica_%282021%29.svg.png"group-title="BUENOS AIRES",TV PUBLICA
-http://liketv.pro:80/diegos2024/Coly2413/107.ts
+http://liketv.pro:80/diegos2024/Coly2413/107.m3u8
 
 
 #EXTINF:-1 tvg-logo="https://cdn2.storage.foromedios.com/original/3X/a/7/a7a69b52617e4f5d0d927062b28dfb95532029c2.png"group-title="BUENOS AIRES",AR|12
@@ -204,7 +204,7 @@ http://liketv.pro:80/diegos2024/Coly2413/107.ts
 
 
 #EXTINF:-1 tvg-logo="https://i.ibb.co/CKjmBnrC/images-39.png"group-title="MUNDIAL",TyC
-http://liketv.pro:80/diegos2024/Coly2413/244
+http://liketv.pro:80/diegos2024/Coly2413/244.m3u8
 
 
 #EXTINF:-1 tvg-logo="https://tinyurl.com/Laaatinatve"group-title="MUNDIAL",LATINA TV
