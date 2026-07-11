@@ -210,7 +210,8 @@ http://liketv.pro:80/diegos2024/Coly2413/244
 #EXTINF:-1 tvg-logo="https://tinyurl.com/Laaatinatve"group-title="MUNDIAL",LATINA TV
 https://streaming.hostpannel.lat/hls/d13eefbcd1cfe70feb0d829daceeac0f/index.m3u8
 
-
+#EXTINF:-1 tvg-logo="https://i.ibb.co/Nn1bb92f/1777059764544v-2.png"group-title="MUNDIAL", TELE POSADAS
+https://live20.bozztv.com/giatv/giatv-teleposadaso01/teleposadaso01/playlist.m3u8
 
 #EXTINF:-1 tvg-logo="https://tinyurl.com/5c4k5rx9"group-title="MUNDIAL",RTR
 https://tv3ecuador.site/hls/stream/index.m3u8
