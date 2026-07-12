@@ -216,6 +216,9 @@ http://liketv.pro:80/diegos2024/Coly2413/244.m3u8
 https://streaming.hostpannel.lat/hls/d13eefbcd1cfe70feb0d829daceeac0f/index.m3u8
 
 
+#EXTINF:-1 tvg-logo="https://tinyurl.com/5c4k5rx9"group-title="MUNDIAL", DSPORTS 1
+http://liketv.pro:80/diegos2024/Coly2413/553603.m3u8
+
 
 #EXTINF:-1 tvg-logo="https://tinyurl.com/5c4k5rx9"group-title="MUNDIAL", DSPORTS 
 http://liketv.pro:80/diegos2024/Coly2413/553603.m3u8
