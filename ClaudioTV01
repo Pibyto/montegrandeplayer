@@ -147,7 +147,7 @@ http://liketv.pro:80/diegos2024/Coly2413/85.m3u8
 #EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/c/cc/Telefe_%28nuevo_logo%29.png"group-title="BUENOS AIRES",TELEFE
 http://liketv.pro:80/diegos2024/Coly2413/101.m3u8
 
-
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/c/cc/Telefe_%28nuevo_logo%29.png"group-title="BUENOS AIRES",TELEFE II
 http://liketv.pro:80/diegos2024/Coly2413/100.m3u8
 
 
@@ -620,7 +620,7 @@ http://liketv.pro/live/diegos2024/Coly2413/17435.ts
 
 
 
-#EXTINF:-1 tvg-logo="https://i.ibb.co/ZRktdLRr/sony-one-action-hits-sender-logo-409962.png"group-title="CINE PREMIER",SONY ACTION
+#EXTINF:-1 tvg-logo="https://i.ibb.co/DDcCKS73/Screenshot-20260711-210646.png"group-title="CINE PREMIER",SONY ACTION
 https://de9yx47crxs6l.cloudfront.net/playlist.m3u8
 
 
