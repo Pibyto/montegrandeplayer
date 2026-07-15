@@ -7,13 +7,15 @@
 
 
 
-#EXTINF:-1 tvg-logo="https://tinyurl.com/2hy6uu5x"group-title="BUENOS AIRES",MONTEGRANDETV
-https://live20.bozztv.com/akamaissh101/ssh101/montegrandetv/chunks.m3u8
+
 
 
 #EXTINF:-1 tvg-logo="https://tinyurl.com/Mgtvworship"group-title="BUENOS AIRES", MGTV WORSHIP
 https://live20.bozztv.com/giatvplayout7/giatv-212009/playlist.m3u8
 
+
+#EXTINF:-1 tvg-logo="https://tinyurl.com/2hy6uu5x"group-title="BUENOS AIRES",MONTEGRANDETV
+https://live20.bozztv.com/akamaissh101/ssh101/montegrandetv/chunks.m3u8
 
 #EXTINF:-1 tvg-logo="https://tinyurl.com/Mgradiotv"group-title="BUENOS AIRES", MG RAD10
 https://lbgo.bozztv.com/ssh101/ssh101/mgradiotv/chunks.m3u8
