@@ -397,9 +397,6 @@ https://iptv.ixfo.com.ar:30443/c21tv/hd/c21tv/chunks.m3u8
 
 
 
-#EXTINF:-1 tvg-logo=""group-title="ARGENTINA",MONTEGRANDE RADIOTV
-https://live20.bozztv.com/akamaissh101/ssh101/mgradiotv/playlist.m3u8
-
 
 #EXTINF:-1 tvg-logo="https://www.elcuatro.com/public/img/marcas/marcas_canal4_297.png"group-title="ARGENTINA",CANAL 4 HD
 https://5cd577a3dd8ec.streamlock.net/CANAL4/smil:CANAL4.smil/chunklist_w1929733198_b4128000.m3u8
@@ -3438,8 +3435,7 @@ https://streaming.hostpannel.lat/stream8700
 
 
 
-#EXTINF:-1 tvg-logo="https://i.ibb.co/59MN1LZ/Polish-20250113-000951438.jpg"group-title=RADIO",MONTE GRANDE RADIO
-https://radios.yanapak.org/montegranderadio
+
 
 
 
@@ -3657,8 +3653,7 @@ https://cdn1.suno.ai/d1673472-c4cc-4d39-a93d-3b943a2428c3.mp3
 https://cdn1.suno.ai/e2d36d38-3a13-4012-bf54-455e5f2b5a74.mp3
 
 
-#EXTINF:-1 tvg-logo="https://i.ibb.co/vWhTs1F/file-00000000609871f59c81bb8c5df7ac67.png"group-title="MP3-CLAUDIO", DESDE NIÑO
-https://cdn1.suno.ai/c728d0be-adb6-4a1a-ada8-ecad852e7f0a.mp3
+
 
 
 
