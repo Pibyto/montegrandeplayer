@@ -336,7 +336,7 @@ https://panel.host-live.com:19360/8076/8076.m3u8
 #EXTINF:-1 tvg-logo="https://tinyurl.com/yccuefd4"group-title="ARGENTINA", TELEVISIÓN PÚBLICA 
 https://stream.arcast.com.ar/c3lapampa/ngrp:c3lapampa_all/playlist.m3u8
 
-#EXTINF:-1 tvg-logo="https://tinyurl.com/Chamatve"group-title="ARGENTINA",XAMA
+#EXTINF:-1 tvg-logo=""group-title="ARGENTINA",XAMA
 https://srs.unsj.edu.ar/live/xama/xama.flv
 
 #EXTINF:-1 tvg-logo="https://tinyurl.com/2ev34nje"group-title="ARGENTINA",COSMOS TV HD
@@ -374,7 +374,7 @@ http://liketv.pro/live/diegos2024/Coly2413/291.ts
 http://liketv.pro/live/diegos2024/Coly2413/149.ts
 
 
-#EXTINF:-1 tvg-logo=""group-title="ARGENTINA"ESPN3
+#EXTINF:-1 tvg-logo=""group-title="ARGENTINA",ESPN3
 http://181.118.153.15:8000/play/lt41/index.m3u8
 
 
@@ -586,7 +586,7 @@ https://cdn.global.elektamedia.com/live/c7eds/ENT_Channel/SA_LIVE_hls_enc/tracks
 
 
 #EXTINF:-1 tvg-logo="https://cdn.phototourl.com/free/2026-04-19-6f57f921-9009-4f58-a0a5-d3ab6f07b80d.png"group-title="CINE PREMIUM",ENT FAMILY
-https://cdn.global.elektamedia.com/live/c7eds/ENT_Fhamily/SA_LIVE_hls_enc/tracks-v1a1/mono.m3u8
+
 
 
 #EXTINF:-1 tvg-logo="https://tinyurl.com/Rtrteeve"group-title="CINE PREMIUM",RTR
