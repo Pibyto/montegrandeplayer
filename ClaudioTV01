@@ -6,7 +6,13 @@
 
 
 
+#EXTINF:-1 tvg-logo="https://tinyurl.com/Maxcinefucsia"group-title="BUENOS AIRES", MAX CINE
+https://live20.bozztv.com/giatvplayout7/giatv-208138/tracks-v1a1/mono.m3u8
 
+
+
+#EXTINF:-1 tvg-logo="https://tinyurl.com/Max2fucsia"group-title="BUENOS AIRES",MAX2
+https://live20.bozztv.com/giatvplayout7/giatv-209163/playlist.m3u8
 
 
 
@@ -493,13 +499,7 @@ https://videostream.shockmedia.com.ar:19360/telejunin/telejunin.m3u8
 https://live20.bozztv.com/giatvplayout7/giatv-208744/tracks-v1a1/mono.m3u8
 
 
-#EXTINF:-1 tvg-logo="https://tinyurl.com/33yu4yzs"group-title="CINE PREMIUM", MGTV MOVIES
-https://live20.bozztv.com/giatvplayout7/giatv-208138/tracks-v1a1/mono.m3u8
 
-
-
-#EXTINF:-1 tvg-logo="https://tinyurl.com/48xkysmd"group-title="CINE PREMIUM",MGTV ACCIÓN
-https://live20.bozztv.com/giatvplayout7/giatv-209163/playlist.m3u8
 
 
 
