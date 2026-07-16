@@ -7,7 +7,7 @@
 
 
 
-#EXTINF:-1 tvg-logo="https://tinyurl.com/Maxcinefamily"group-title="CINE PREMIUM",MAXCINE FAMILY
+#EXTINF:-1 tvg-logo="https://tinyurl.com/Maxcinefamily"group-title="BUENOS AIRES",MAXCINE FAMILY
 https://live20.bozztv.com/giatvplayout7/giatv-208817/playlist.m3u8
 
 
@@ -33,7 +33,7 @@ https://live20.bozztv.com/giatvplayout7/giatv-209909/playlist.m3u8
 #EXTINF:-1 tvg-logo="https://tinyurl.com/2hy6uu5x"group-title="BUENOS AIRES",MONTEGRANDETV
 https://live20.bozztv.com/akamaissh101/ssh101/montegrandetv/chunks.m3u8
 
-#EXTINF:-1 tvg-logo="https://tinyurl.com/Maxcinecomedy"group-title="CINE PREMIUM", MAXCINE COMEDY
+#EXTINF:-1 tvg-logo="https://tinyurl.com/Maxcinecomedy"group-title="BUENOS AIRES", MAXCINE COMEDY
 https://live20.bozztv.com/giatvplayout7/giatv-208730/playlist.m3u8
 
 
