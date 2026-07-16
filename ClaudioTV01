@@ -4,15 +4,15 @@
 
 
 
+
+
+
+#EXTINF:-1 tvg-logo="https://tinyurl.com/Maxcinefamily"group-title="CINE PREMIUM",MAXCINE FAMILY
+https://live20.bozztv.com/giatvplayout7/giatv-208817/playlist.m3u8
+
+
 #EXTINF:-1 tvg-logo="https://tinyurl.com/Mgtvworship"group-title="BUENOS AIRES", MGTV WORSHIP
 https://live20.bozztv.com/giatvplayout7/giatv-212009/playlist.m3u8
-
-
-
-#EXTINF:-1 tvg-logo="https://tinyurl.com/Maxcinekids"group-title="BUENOS AIRES", MAXCINE KIDS
-https://live20.bozztv.com/giatvplayout7/giatv-209909/playlist.m3u8
-
-
 
 
 
@@ -26,21 +26,29 @@ https://live20.bozztv.com/giatvplayout7/giatv-209163/playlist.m3u8
 
 
 
-
+#EXTINF:-1 tvg-logo="https://tinyurl.com/Maxcinekids"group-title="BUENOS AIRES", MAXCINE KIDS
+https://live20.bozztv.com/giatvplayout7/giatv-209909/playlist.m3u8
 
 
 #EXTINF:-1 tvg-logo="https://tinyurl.com/2hy6uu5x"group-title="BUENOS AIRES",MONTEGRANDETV
 https://live20.bozztv.com/akamaissh101/ssh101/montegrandetv/chunks.m3u8
 
+#EXTINF:-1 tvg-logo="https://tinyurl.com/Maxcinecomedy"group-title="CINE PREMIUM", MAXCINE COMEDY
+https://live20.bozztv.com/giatvplayout7/giatv-208730/playlist.m3u8
+
+
 #EXTINF:-1 tvg-logo="https://tinyurl.com/Mgradiotv"group-title="BUENOS AIRES", MG RAD10
 https://lbgo.bozztv.com/ssh101/ssh101/mgradiotv/chunks.m3u8
+
+#EXTINF:-1 tvg-logo="https://tinyurl.com/Lamilteve"group-title="BUENOS AIRES",LA MIL35
+https://vd01.streaminghd.net.ar:3349/live/bzuctkgnlive.m3u8
+
 
 #EXTINF:-1 tvg-logo="https://tinyurl.com/Ipersonicateve"group-title="BUENOS AIRES", IPERSONICA TV 
 https://lbgo.bozztv.com/ssh101/ssh101/ipersonica/playlist.m3u8
 
 
-#EXTINF:-1 tvg-logo="https://tinyurl.com/Lamilteve"group-title="BUENOS AIRES",LA MIL35
-https://vd01.streaminghd.net.ar:3349/live/bzuctkgnlive.m3u8
+
 
 #EXTINF:-1 tvg-logo="https://tinyurl.com/Neoteve"group-title="BUENOS AIRES",NEO TV DIGITAL HD. 16.1 
 https://videostream.shockmedia.com.ar:19360/neotvdigital/neotvdigital.m3u8
@@ -509,27 +517,6 @@ https://live20.bozztv.com/giatvplayout7/giatv-208744/tracks-v1a1/mono.m3u8
 
 
 
-#EXTINF:-1 tvg-logo="https://tinyurl.com/Maxcinecomedy"group-title="CINE PREMIUM", MAXCINE COMEDY
-https://live20.bozztv.com/giatvplayout7/giatv-208730/playlist.m3u8
-
-
-#EXTINF:-1 tvg-logo="https://tinyurl.com/Maxcinefamily"group-title="CINE PREMIUM",MAXCINE FAMILY
-https://live20.bozztv.com/giatvplayout7/giatv-208817/playlist.m3u8
-
-
- 
-
-
-
-
-
-
-#EXTINF:-1 tvg-logo="https://tinyurl.com/Maxcinefucsia"group-title="CINE PREMIUM",MAX CINE
-https://lbgo.bozztv.com/ssh101/ssh101/max1channel/chunks.m3u8
-
-
-
-
 #EXTINF:-1 tvg-logo="https://tinyurl.com/2hy6uu5x"group-title="CINE PREMIUM",MONTEGRANDETV
 https://live20.bozztv.com/akamaissh101/ssh101/montegrandetv/chunks.m3u8
 
@@ -550,8 +537,7 @@ http://190.102.242.130:25461/cineclasiipowe/12345/143
 #EXTINF:-1 tvg-logo="https://cdn.phototourl.com/free/2026-04-19-1558b1a7-6e3f-40b1-ada0-f106ff98c48b.png"group-title="CINE PREMIUM",+CINE FAMILY
 http://190.102.242.130:25461/familypower/12345/149
 
-#EXTINF:-1 tvg-logo=" "group-title="CINE PREMIUM",+CINE TERROR
-http://190.102.242.130:25461/terrorpower/12345678/99
+
 
 
 
