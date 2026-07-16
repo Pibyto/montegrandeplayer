@@ -3,6 +3,11 @@
 
 
 
+
+#EXTINF:-1 tvg-logo="https://tinyurl.com/Maxcinekids"group-title="BUENOS AIRES", MAXCINE KIDS
+https://live20.bozztv.com/giatvplayout7/giatv-209909/playlist.m3u8
+
+
 #EXTINF:-1 tvg-logo="https://tinyurl.com/Mgtvworship"group-title="BUENOS AIRES", MGTV WORSHIP
 https://live20.bozztv.com/giatvplayout7/giatv-212009/playlist.m3u8
 
@@ -500,19 +505,18 @@ https://live20.bozztv.com/giatvplayout7/giatv-208744/tracks-v1a1/mono.m3u8
 
 
 
+#EXTINF:-1 tvg-logo="https://tinyurl.com/Maxcinecomedy"group-title="CINE PREMIUM", MAXCINE COMEDY
+https://live20.bozztv.com/giatvplayout7/giatv-208730/playlist.m3u8
 
 
-
-#EXTINF:-1 tvg-logo="https://tinyurl.com/4m768mja"group-title="CINE PREMIUM",MGTV FAMILY
+#EXTINF:-1 tvg-logo="https://tinyurl.com/Maxcinefamily"group-title="CINE PREMIUM",MAXCINE FAMILY
 https://live20.bozztv.com/giatvplayout7/giatv-208817/playlist.m3u8
 
 
-#EXTINF:-1 tvg-logo="https://tinyurl.com/89bw22fh"group-title="CINE PREMIUM",MGTV KIDS
-https://live20.bozztv.com/giatvplayout7/giatv-209909/playlist.m3u8 
+ 
 
 
-#EXTINF:-1 tvg-logo="https://tinyurl.com/mgtvcomedy"group-title="CINE PREMIUM",MGTV COMEDY
-https://live20.bozztv.com/giatvplayout7/giatv-208730/playlist.m3u8
+
 
 
 
