@@ -27,10 +27,10 @@ https://live20.bozztv.com/giatvplayout7/giatv-209163/playlist.m3u8
 
 
 #EXTINF:-1 tvg-logo="https://tinyurl.com/Maxcinekids"group-title="BUENOS AIRES", MAXCINE KIDS
-https://live20.bozztv.com/giatvplayout7/giatv-209909/playlist.m3u8
+https://live20.bozztm/giatvplayout7/giatv-209909/playlist.m3u8
 
-#EXTINF:-1 tvg-logo="https://tinyurl.com/2hyy9jxz"group-title="BUENOS AIRES",CHAVO
-https://live20.bozztv.com/giatvplayout7/giatv-211465/tracks-v1a1/mono.m3u8
+#EXTINF:-1 tvg-logo="https://tinyurl.com/Chavitoo"group-title="BUENOS AIRES",CHAVO
+https://live20.bozztv.com/giatvplayout7/giatv-211465/tracks-v1a1/mono.m3u 8
 
 
 #EXTINF:-1 tvg-logo="https://tinyurl.com/2hy6uu5x"group-title="BUENOS AIRES",MONTEGRANDETV
