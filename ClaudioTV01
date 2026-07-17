@@ -29,6 +29,9 @@ https://live20.bozztv.com/giatvplayout7/giatv-209163/playlist.m3u8
 #EXTINF:-1 tvg-logo="https://tinyurl.com/Maxcinekids"group-title="BUENOS AIRES", MAXCINE KIDS
 https://live20.bozztv.com/giatvplayout7/giatv-209909/playlist.m3u8
 
+#EXTINF:-1 tvg-logo="https://tinyurl.com/2hyy9jxz"group-title="BUENOS AIRES",CHAVO
+https://live20.bozztv.com/giatvplayout7/giatv-211465/tracks-v1a1/mono.m3u8
+
 
 #EXTINF:-1 tvg-logo="https://tinyurl.com/2hy6uu5x"group-title="BUENOS AIRES",MONTEGRANDETV
 https://live20.bozztv.com/akamaissh101/ssh101/montegrandetv/chunks.m3u8
@@ -76,8 +79,7 @@ https://vidartv2.todostreaming.es/live/radiovida-altar724.m3u8
 
 
 
-#EXTINF:-1 tvg-logo="https://tinyurl.com/2hyy9jxz"group-title="BUENOS AIRES",CHAVO
-https://live20.bozztv.com/giatvplayout7/giatv-211465/tracks-v1a1/mono.m3u8
+
 
 
 #EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/5/5e/Bravotv.png"group-title="BUENOS AIRES",BRAVO TV
@@ -306,12 +308,7 @@ https://streaming.jtamendoza.com/hls/test.m3u8
 http://iptv.ixfo.com.ar:8081/live/C4POS/playlist.m3u8
 
 
-#EXTINF:-1 tvg-logo="https://i.ibb.co/PZZQrFnf/Screenshot-20260711-161403.png"group-title="ARGENTINA", TELE FEDERAL 
-https://live20.bozztv.com/giatv/giatv-teleposadaso01/teleposadaso01/playlist.m3u8
 
-
-#EXTINF:-1 tvg-logo="https://i.ibb.co/PZZQrFnf/Screenshot-20260711-161403.png"group-title="ARGENTINA", TELE FEDERAL 2
-https://183.bozztv.com/giatv/giatv-teleposadas02/teleposadas02/playlist.m3u8
 
 
 #EXTINF:-1 tvg-logo="https://i.ibb.co/twNq72rC/1776360821019-1.png"group-title="ARGENTINA",11 DIGITAL 
