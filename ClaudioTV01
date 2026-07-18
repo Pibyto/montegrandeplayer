@@ -516,8 +516,8 @@ https://videostream.shockmedia.com.ar:19360/telejunin/telejunin.m3u8
 
 
 
-
-
+#EXTINF:-1 tvg-logo="https://static-cdn.jtvnw.net/jtv_user_pictures/8c3237ce-0a3c-47f0-be0c-c4916e291807-profile_image-150x150.png"group-title="CINE PREMIUM",PELÍCULAS_MANIA HD
+https://stream-cdn-iad3.vaughnsoft.net/play/live_peliculas_mania.flv
 
 
 
