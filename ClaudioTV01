@@ -67,7 +67,8 @@ https://videostream.shockmedia.com.ar:19360/neotvdigital/neotvdigital.m3u8
 https://srv3.zcast.com.br/gentv/gentv/playlist.m3u8
 
 
-
+#EXTINF:-1 tvg-logo="https://tinyurl.com/Restellitv"group-title="BUENOS AIRES", RESTELLI TV 
+https://live20.bozztv.com/giatvplayout7/giatv-208744/tracks-v1a1/mono.m3u8
 
 #EXTINF:-1 tvg-logo="https://tinyurl.com/Bairesteve"group-title="BUENOS AIRES",BAYRES TV HD
 https://streaming01.mikrolive.tv/bayrestv/live/chunklist_w963757112.m3u8
@@ -516,8 +517,7 @@ https://videostream.shockmedia.com.ar:19360/telejunin/telejunin.m3u8
 
 
 
-#EXTINF:-1 tvg-logo="https://tinyurl.com/2uysrbe7"group-title="BUENOS AIRES",MALVINAS TV 
-https://live20.bozztv.com/giatvplayout7/giatv-208744/tracks-v1a1/mono.m3u8
+
 
 
 
