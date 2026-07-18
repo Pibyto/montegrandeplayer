@@ -2612,6 +2612,10 @@ https://ss2.tvrdomi.com:1936/cascaratv/cascaratv/chunklist_w961062293.m3u8?Monte
 https://edge.essastream.com/bebetotelevision/index.m3u8
 
 
+#EXTINF:-1 tvg-logo="https://i.ibb.co/Mk7QLp6q/IMG-20260717-WA0033.png"group-title="R.DOMINICANA", FUEGO TV
+https://streamunoapp.com:3553/live/cromtvlive.m3u8
+
+
 
 #EXTINF:-1 tvg-logo="https://i.ibb.co/fY9cMn3b/images-48.png"group-title="R.DOMINICANA",CHINOLA TV
 https://tv.wracanal10.com:3300/live/chinolatvlive.m3u8?MonteGrandePlay
