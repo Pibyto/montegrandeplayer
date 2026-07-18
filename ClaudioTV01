@@ -938,6 +938,11 @@ https://live20.bozztv.com/giatvplayout7/giatv-208729/tracks-v1a1/mono.m3u8
 #EXTINF:-1 tvg-logo="https://tinyurl.com/ytawb6ju"group-title="CHILE",PLENITUD TV HD 24/7
 https://live20.bozztv.com/giatvplayout7/giatv-208727/tracks-v1a1/mono.m3u8
 
+
+#EXTINF:-1 tvg-logo="https://i.ibb.co/1YYrnKzs/IMG-20260718-WA0049.png"group-title="CHILE",PLENITUD TV 2
+https://live20.bozztv.com/giatvplayout7/giatv-212033/playlist.m3u8
+
+
 #EXTINF:-1 tvg-logo="https://www.satvcordoba.org.ar/portal/wp-content/uploads/2020/05/WhatsApp-Image-2020-05-26-at-20.21.25-640x239.jpeg"group-title="CHILE",TV SALUD
 https://stmv4.voxtvhd.com.br/rodrigo9120/rodrigo9120/playlist.m3u8
 
