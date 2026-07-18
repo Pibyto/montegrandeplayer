@@ -943,6 +943,10 @@ https://live20.bozztv.com/giatvplayout7/giatv-208727/tracks-v1a1/mono.m3u8
 https://live20.bozztv.com/giatvplayout7/giatv-212033/playlist.m3u8
 
 
+#EXTINF:-1  tvg-logo="https://i.ibb.co/0RW7vLm8/IMG-20250330-WA0067.jpg"group-title="CHILE",PLENITUD TV JUVENIL HD
+https://live20.bozztv.com/giatvplayout7/giatv-209259/tracks-v1a1/mono.m3u8
+
+
 #EXTINF:-1 tvg-logo="https://www.satvcordoba.org.ar/portal/wp-content/uploads/2020/05/WhatsApp-Image-2020-05-26-at-20.21.25-640x239.jpeg"group-title="CHILE",TV SALUD
 https://stmv4.voxtvhd.com.br/rodrigo9120/rodrigo9120/playlist.m3u8
 
@@ -955,8 +959,7 @@ https://live20.bozztv.com:443/akamaissh101/ssh101/monitvhd/chunks.m3u8
 #EXTINF:-1 tvg-logo="https://www.vivalivetv.com/public/files/shows/0/1/2943-960x540-000000.jpg"group-title="CHILE",RESTAURANDO VIDAS TV HD
 https://v4.tustreaming.cl:443/restaurandovida/tracks-v1a1/mono.m3u8?PlaylistM3UCL
 
-#EXTINF:-1  tvg-logo="https://i.ibb.co/0RW7vLm8/IMG-20250330-WA0067.jpg"group-title="CHILE",PLENITUD TV JUVENIL HD
-https://live20.bozztv.com/giatvplayout7/giatv-209259/tracks-v1a1/mono.m3u8
+
 
 
 #EXTINF:-1 tvg-logo="https://www.tevevida.com/images/logo_01.png"group-title="CHILE",TEVE VIDA HD
