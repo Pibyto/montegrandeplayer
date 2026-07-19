@@ -517,21 +517,21 @@ https://videostream.shockmedia.com.ar:19360/telejunin/telejunin.m3u8
 
 
 #EXTINF:-1 tvg-logo="https://static-cdn.jtvnw.net/jtv_user_pictures/8c3237ce-0a3c-47f0-be0c-c4916e291807-profile_image-150x150.png"group-title="CINE PREMIUM",PELÍCULAS_MANIA HD
-https://stream-cdn-iad3.vaughnsoft.net/play/live_peliculas_mania.flv.m3u
+https://stream-cdn-iad3.vaughnsoft.net/play/live_peliculas_mania.mp4
 
 
 
 #EXTINF:-1 tvg-logo="https://tinyurl.com/2hy6uu5x"group-title="CINE PREMIUM",MONTEGRANDETV
-https://stream-cdn-iad3.vaughnsoft.net/play/live_mgtv77.flv.m3u8
+https://stream-cdn-iad3.vaughnsoft.net/play/live_mgtv77.flv.mp4
 
 
 #EXTINF:-1 tvg-logo="https://tinyurl.com/Postermax"group-title="CINE PREMIUM",MARLON TV
-https://stream-cdn-iad3.vaughnsoft.net/play/live_marlon_hd.flv
+https://stream-cdn-iad3.vaughnsoft.net/play/live_marlon_hd.flv.mp4
 
 
 
 #EXTINF:-1 tvg-logo="https://tinyurl.com/Postermax"group-title="CINE PREMIUM",BETO
-https://stream-cdn-iad3.vaughnsoft.net/play/live_beto_7hd.flv
+https://stream-cdn-iad3.vaughnsoft.net/play/live_beto_7hd.flv.mp4
 
 
 
