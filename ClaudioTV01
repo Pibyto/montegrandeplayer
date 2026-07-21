@@ -1415,8 +1415,8 @@ http://liketv.pro/live/diegos2024/Coly2413/53.ts
 https://streaming.hostpannel.lat/hls/fc517baca1d452f22f56a2563f93f500/index.m3u8
 
 
-
-
+#EXTINF:-1 tvg-logo="https://i.ibb.co/twwhpNg7/1768151365360.png"group-title="BOLIVIA",MIX TV BOLIVIA
+https://183.bozztv.com/giatv/giatv-neogogoplaymix/neogogoplaymix/playlist.m3u8
 
 #EXTINF:-1 tvg-logo="https://tinyurl.com/2n5xj7x3"group-title="BOLIVIA", INTERACTIVO TV 1
 https://mist01.homestream.fun/hls/interactivotv/0_1/index.m3u8
