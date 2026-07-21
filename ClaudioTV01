@@ -535,20 +535,23 @@ https://tvstreaming.albpo.com/memfs/8d987761-7923-4532-a95d-20723ae95374_output_
 
 
 
-#EXTINF:-1 tvg-logo="https://tinyurl.com/Postermax"group-title="CINE PREMIUM", TERRORMANIA
+#EXTINF:-1 tvg-logo="https://tinyurl.com/Postermax"group-title="CINE PREMIUM",MANACLAR
+https://5790d294af2dc.streamlock.net/manaclar/manaclar/chunklist_w1737561051.m3u8
 
 
 
-
-#EXTINF:-1 tvg-logo="https://tinyurl.com/Postermax"group-title="CINE PREMIUM", CIENCIA FICCIÓN 
-
-
-
-#EXTINF:-1 tvg-logo="https://tinyurl.com/Postermax"group-title="CINE PREMIUM",MITVMX
+#EXTINF:-1 tvg-logo="https://tinyurl.com/Postermax"group-title="CINE PREMIUM",ENT FAMILY 
+https://cdn.40mediagroup.com/live/c7eds/ENT_Family/SA_LIVE_hls_enc/tracks-v1a1/mono.ts.m3u8
 
 
 
-#EXTINF:-1 tvg-logo="https://tinyurl.com/Postermax"group-title="CINE PREMIUM",JCINE
+#EXTINF:-1 tvg-logo="https://tinyurl.com/Postermax"group-title="CINE PREMIUM",LA REINA TV
+https://cloud2.streaminglivehd.com:1936/lareinatv/lareinatv/chunklist_w1024365707.m3u8
+
+
+
+#EXTINF:-1 tvg-logo="https://tinyurl.com/Postermax"group-title="CINE PREMIUM",XTREMO
+https://ss2.tvrdomi.com:1936/xtremochannel/xtremochannel/chunklist_w147277300.m3u8
 
 
 
