@@ -511,6 +511,10 @@ https://videostream.shockmedia.com.ar:19360/telejunin/telejunin.m3u8
 
 
 
+#EXTINF:-1 tvg-logo="https://tinyurl.com/Postermax" group-title="CINE PREMIUM", PELÍCULAS MANIA
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64)
+#EXTVLCOPT:http-referrer=https://vaughn.live
+https://vaughnsoft.net|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64)&Referer=https://vaughn.live
 
 
 
