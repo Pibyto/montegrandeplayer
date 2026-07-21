@@ -243,28 +243,24 @@ http://liketv.pro:80/diegos2024/Coly2413/107.m3u8
 
 
 
-#EXTINF:-1 tvg-logo="https://i.ibb.co/CKjmBnrC/images-39.png"group-title="MUNDIAL",TyC
+#EXTINF:-1 tvg-logo="https://tinyurl.com/Postermax"group-title="DEPORTES",TyC
 http://liketv.pro:80/diegos2024/Coly2413/244.m3u8
 
 
-#EXTINF:-1 tvg-logo="https://tinyurl.com/Laaatinatve"group-title="MUNDIAL",LATINA TV
-https://streaming.hostpannel.lat/hls/d13eefbcd1cfe70feb0d829daceeac0f/index.m3u8
 
 
-#EXTINF:-1 tvg-logo="https://tinyurl.com/5c4k5rx9"group-title="MUNDIAL", DSPORTS1
+
+#EXTINF:-1 tvg-logo="https://tinyurl.com/Postermax"group-title="DEPORTES", DSPORTS1
 http://liketv.pro:80/diegos2024/Coly2413/553603.m3u8
 
 
-#EXTINF:-1 tvg-logo="https://tinyurl.com/5c4k5rx9"group-title="MUNDIAL", DSPORTS 
+#EXTINF:-1 tvg-logo="https://tinyurl.com/Postermax"group-title="DEPORTES", DSPORTS 
 http://liketv.pro:80/diegos2024/Coly2413/553603.m3u8
 
 
-#EXTINF:-1 tvg-logo="https://tinyurl.com/5c4k5rx9"group-title="MUNDIAL",CLV
-http://liketv.pro:80/diegos2024/Coly2413/553854.m3u8
 
 
-#EXTINF:-1 tvg-logo="https://tinyurl.com/Bairesteve"group-title="MUNDIAL",BAYRES TV HD
-https://streaming01.mikrolive.tv/bayrestv/live/chunklist_w963757112.m3u8
+
 
 
 
@@ -512,9 +508,7 @@ https://videostream.shockmedia.com.ar:19360/telejunin/telejunin.m3u8
 
 
 #EXTINF:-1 tvg-logo="https://tinyurl.com/Postermax" group-title="CINE PREMIUM", PELÍCULAS MANIA
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64)
-#EXTVLCOPT:http-referrer=https://vaughn.live
-https://vaughnsoft.net|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64)&Referer=https://vaughn.live
+
 
 
 
