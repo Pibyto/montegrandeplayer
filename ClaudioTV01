@@ -1447,7 +1447,8 @@ http://liketv.pro/live/diegos2024/Coly2413/53.ts
 
 
 
-
+#EXTINF:-1 tvg-logo="https://i.ibb.co/WvH9qhg6/facebook-1784772812417-7485879746212642203.jpg"group-title="BOLIVIA",CANAL 24
+https://vs20.live.opencaster.com/canal24_35651ede/index.m3u8
 
 
 #EXTINF:-1 tvg-logo="https://i.ibb.co/VYdGj5Dx/Screenshot-20260629-215048.png"group-title="BOLIVIA", PUNTO TV
