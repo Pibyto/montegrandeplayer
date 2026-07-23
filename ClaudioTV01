@@ -663,13 +663,20 @@ https://cdn.global.elektamedia.com/live/c7eds/ENT_Channel/SA_LIVE_hls_enc/tracks
 https://cdn.40mediagroup.com/live/c7eds/ENT_Family/SA_LIVE_hls_enc/tracks-v1a1/mono.ts.m3u8
 
 
+#EXTINF:-1 tvg-logo="https://energeek.cl/wp-content/themes/EnerGeek-Theme-pop/assets/img/logo.png"group-title="KIDS",ENERGEEK
+https://backend.energeek.cl/webtv/egretroweb/tracks-v1a1/mono.m3u8?token=W3bEnerG33k2026
+
+
+
+
+
+#EXTINF:-1 tvg-logo="https://i.ibb.co/6JmLnryp/images-57.png"group-title="KIDS",GOGOPLAY
+https://giatv.bozztv.com/giatv/giatv-NEOGOGOPLAY/NEOGOGOPLAY/chunks.m3u8
+
+
+
+
 #EXTINF:-1 tvg-logo=""group-title="KIDS",
-
-
-
-
-
-
 
 
 
@@ -1020,6 +1027,24 @@ https://live20.bozztv.com/giatvplayout7/giatv-209259/tracks-v1a1/mono.m3u8
 
 #EXTINF:-1 tvg-logo="https://www.satvcordoba.org.ar/portal/wp-content/uploads/2020/05/WhatsApp-Image-2020-05-26-at-20.21.25-640x239.jpeg"group-title="CHILE",TV SALUD
 https://stmv4.voxtvhd.com.br/rodrigo9120/rodrigo9120/playlist.m3u8
+
+
+#EXTINF:-1 tvg-logo="https://cygtv.cl/assets/img/logo-cyg-tv.png"group-title="CHILE",CYGTV
+https://tv.arkeo.cl:19360/8158/8158.m3u8
+
+
+
+
+#EXTINF:-1 tvg-logo="https://bombitv.online/wp-content/uploads/2026/05/width_1600-768x307.webp"group-title="CHILE",BOMBITV
+https://tv.arkeo.cl:1936/bombitv/bombitv/chunklist_w413736586.m3u8
+
+
+
+
+
+#EXTINF:-1 tvg-logo="https://energeek.cl/wp-content/themes/EnerGeek-Theme-pop/assets/img/logo.png"group-title="CHILE",ENERGEEK RETRO
+https://backend.energeek.cl/webtv/egretroweb/tracks-v1a1/mono.m3u8?token=W3bEnerG33k2026
+
 
 
 
@@ -1460,15 +1485,24 @@ https://vs20.live.opencaster.com/canal24_35651ede/index.m3u8
 https://streaming.hostpannel.lat/hls/fc517baca1d452f22f56a2563f93f500/index.m3u8
 
 
+
+#EXTINF:-1 tvg-logo="https://tinyurl.com/2n5xj7x3"group-title="BOLIVIA",INTERACTIVO TV 2
+https://mist01.homestream.fun/hls/interactivotv2/0_1/index.m3u8
+
+
 #EXTINF:-1 tvg-logo="https://i.ibb.co/twwhpNg7/1768151365360.png"group-title="BOLIVIA",MIX TV BOLIVIA
 https://183.bozztv.com/giatv/giatv-neogogoplaymix/neogogoplaymix/playlist.m3u8
 
 #EXTINF:-1 tvg-logo="https://tinyurl.com/2n5xj7x3"group-title="BOLIVIA", INTERACTIVO TV 1
 https://mist01.homestream.fun/hls/interactivotv/0_1/index.m3u8
 
+
+
+#EXTINF:-1 tvg-logo="https://i.ibb.co/6JmLnryp/images-57.png"group-title="BOLIVIA", GOGOPLAY
+https://giatv.bozztv.com/giatv/giatv-NEOGOGOPLAY/NEOGOGOPLAY/chunks.m3u8
+
  
-#EXTINF:-1 tvg-logo="https://tinyurl.com/2n5xj7x3"group-title="BOLIVIA",INTERACTIVO TV 2
-https://mist01.homestream.fun/hls/interactivotv2/0_1/index.m3u8
+
 
 
 #EXTINF:-1 tvg-logo="https://tinyurl.com/Fabivision"group-title="BOLIVIA", FABIÁN VISIÓN 
