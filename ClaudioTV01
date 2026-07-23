@@ -671,20 +671,57 @@ https://cdn.global.elektamedia.com/live/c7eds/ENT_Channel/SA_LIVE_hls_enc/tracks
 https://cdn.40mediagroup.com/live/c7eds/ENT_Family/SA_LIVE_hls_enc/tracks-v1a1/mono.ts.m3u8
 
 
-#EXTINF:-1 tvg-logo="https://energeek.cl/wp-content/themes/EnerGeek-Theme-pop/assets/img/logo.png"group-title="KIDS",ENERGEEK
-https://backend.energeek.cl/webtv/egretroweb/tracks-v1a1/mono.m3u8?token=W3bEnerG33k2026
-
-
-
-
-
 #EXTINF:-1 tvg-logo="https://i.ibb.co/6JmLnryp/images-57.png"group-title="KIDS",GOGOPLAY
 https://giatv.bozztv.com/giatv/giatv-NEOGOGOPLAY/NEOGOGOPLAY/chunks.m3u8
 
 
-
-
 #EXTINF:-1 tvg-logo=""group-title="KIDS",
+
+
+
+
+
+
+
+
+#############( ANIME )############
+
+
+
+
+
+#EXTINF:-1 tvg-logo="https://tinyurl.com/Postermax"group-title="ANIME",ENERGEEK
+https://backend.energeek.cl/webtv/egretroweb/tracks-v1a1/mono.m3u8?token=W3bEnerG33k2026
+
+
+#EXTINF:-1 tvg-logo="https://tinyurl.com/Postermax"group-title="ANIME", SPIDERMAN 
+https://live20.bozztv.com/giatvplayout7/giatv-210702/playlist.m3u8
+
+
+
+#EXTINF:-1 tvg-logo="https://tinyurl.com/Postermax"group-title="ANIME",XMEN
+https://live20.bozztv.com/giatvplayout7/giatv-210703/playlist.m3u8
+
+
+
+
+#EXTINF:-1 tvg-logo="https://tinyurl.com/Postermax"group-title="ANIME",EL CINDRELA BOY 
+https://live20.bozztv.com/giatvplayout7/giatv-210932/playlist.m3u8
+
+
+#EXTINF:-1 tvg-logo="https://tinyurl.com/Postermax"group-title="ANIME",
+
+
+
+
+
+#EXTINF:-1 tvg-logo="https://tinyurl.com/Postermax"group-title="ANIME",
+
+
+
+
+
+
 
 
 
