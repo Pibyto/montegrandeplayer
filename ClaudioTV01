@@ -1570,8 +1570,10 @@ https://tvstream.upea.bo/hls/oSs0jSWumTFIIVY97559.m3u8
 
 
 
-#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/b/b2/Bolivision.png"group-title="BOLIVIA",BOLIVISION 
-https://alba-bo-bolivision-bolivision.stream.mediatiquestream.com/original.m3u8 
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/b/b2/Bolivision.png"group-title="BOLIVIA",BOLIVISION
+https://d135ohnuotzzyo.cloudfront.net/index.m3u8
+
+ 
 
 
 #EXTINF:-1 tvg-logo="https://i.ibb.co/1YbQnGdd/Screenshot-20250622-235903-XPlayer-Video-Player.jpg"group-title="BOLIVIA",
