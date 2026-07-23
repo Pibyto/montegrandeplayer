@@ -613,11 +613,16 @@ https://micanal.ovh/livestreams/262.D9DCDM7EXNRT.m3u8
 https://tv3ecuador.site/hls/stream/index.m3u8
 
 
+
+
+
+
+
 ##############( KIDS )############
 
 
 
-#EXTINF:-1 tvg-logo="https://tinyurl.com/Maxcinekids"group-title="KIDS",  MAXCINE KIIDS https://live20.bozztv.com/giatvplayout7/giatv-209909/playlist.m3u8
+#EXTINF:-1 tvg-logo="https://tinyurl.com/Maxcinekids"group-title="KIDS",  MAXCINE NIÑOS https://live20.bozztv.com/giatvplayout7/giatv-209909/playlist.m3u8
 
 
 #EXTINF:-1 tvg-logo="https://tinyurl.com/Chavitoo"group-title="KIDS",CHAVO
@@ -1466,11 +1471,11 @@ https://mist01.homestream.fun/hls/interactivotv/0_1/index.m3u8
 https://mist01.homestream.fun/hls/interactivotv2/0_1/index.m3u8
 
 
-#EXTINF:-1 tvg-logo="https://tinyurl.com/Fabivision"group-title="BOLIVIA, FABIÁN VISIÓN 
+#EXTINF:-1 tvg-logo="https://tinyurl.com/Fabivision"group-title="BOLIVIA", FABIÁN VISIÓN 
 https://lbgo.bozztv.com/ssh101/ssh101/fabiantv182/chunks.m3u8
 
 
-#EXTINF:-1 tvg-logo="https://i0.wp.com/univalletelevision.com/wp-content/uploads/2022/05/LOGO_UNIVALLE_TV_sinfondo-1-e1654152218733.png?fit=200%2C200&ssl=1"group-title="BOLIVIA",UNIVALLE
+#EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQbN84uXcYu_FWjXgl2k_CTLQnwoGLMDBc81vIuOy5-sc1LiDjHzClWLf_9&s=10"group-title="BOLIVIA",UNIVALLE
 https://master.tucableip.com/univalletv/tracks-v1a1/mono.ts.m3u8
 
 #EXTINF:-1 tvg-logo="https://cd1.eju.tv/wp-content/uploads/2021/07/img_60dde7e8d5c6c.png"group-title="BOLIVIA",F10
