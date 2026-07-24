@@ -3661,15 +3661,17 @@ https://ssl.radiosnethosting.com/index.php?port=9850
 
 
 
-#EXTINF:-1 tvg-logo="https://lh3.googleusercontent.com/JqtPgtKdk5MI2xq6N3jYLqk_F26guidJH77HD6ApGdV318MXUBfY9H0DbxrM3A4K3nAw=s150-rw"group-title="RADIO CRISTIANA", FM MI ROCA 103.5
-
+#EXTINF:-1 tvg-logo="https://i.ibb.co/TqJjPyKk/file-0000000025c0820e8b758aad2c59f078.png"group-title="RADIO CRISTIANA", FM MI ROCA 103.5
+https://server.streamcasthd.com/8306/stream
 
 
 #EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRCdjk6iGSpo4etDU90YoBrF0sqFVjRTjla8Q&usqp=CAU"group-title="RADIO CRISTIANA", FM VISÍON 2000  90.9
 
 
 
-#EXTINF:-1 tvg-logo="https://cvclavoz.com/wp-content/uploads/2019/11/LogoLion4-1.png"group-title="RADIO CRISTIANA", CVCLAVOZ
+#EXTINF:-1 tvg-logo="https://i.ibb.co/Z6Hd8YwZ/file-000000009f50820eb047b69e1650639d.png"group-title="RADIO CRISTIANA", TABERNÁCULO DE DIOS A LAS NACIONES
+https://server.laradio.online:18214/stream.mp3
+
 
 
 
