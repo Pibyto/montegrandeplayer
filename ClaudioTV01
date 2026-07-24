@@ -3618,17 +3618,17 @@ https://stream.conexionpositivaradio.com/listen/conexiones_del_ayer/radio.mp3
 
 
 
-#EXTINF:-1 tvg-logo="https://streaminglocucionar.com/portal/images/logos/fmelpuente.png"group-title="RADIO CRISTIANA",FM EL PUENTE 102.1
+#EXTINF:-1 tvg-logo="https://i.ibb.co/rKQvmJzn/file-000000005958820e9494f4816c7edf86.png"group-title="RADIO CRISTIANA",FM EL PUENTE 102.1
 https://streaming3.locucionar.com/proxy/fmelpuente?mp=/stream
 
 #EXTINF:-1 tvg-logo="https://www.maranatharadioministries.com/wp-content/uploads/2019/09/Maranatha-Radio-Final-500px.png"group-title="RADIO CRISTIANA",MARANATHA
 https://vip.livecastnet.com:3930/live/maranatharadiolive.m3u8
 
 
-#EXTINF:-1 tvg-logo="https://radiofortalezafm.cl/img/about-1.jpg"group-title="RADIO CRISTIANA", FORTALEZA 
+#EXTINF:-1 tvg-logo="https://i.ibb.co/xqfm0PJY/file-0000000061ec820e848e593c751cd6a6.png"group-title="RADIO CRISTIANA", FORTALEZA 
 https://live.tvcontrolcp.com:1936/fortalezatv/fortalezatv/playlist.m3u8
 
-#EXTINF:-1 tvg-logo="https://vidartv.info/api/station/3/streamer/2%7C1688659242/art"group-title="RADIO CRISTIANA",ALTAR RADIO 7/24
+#EXTINF:-1 tvg-logo="https://i.ibb.co/xqfm0PJY/file-0000000061ec820e848e593c751cd6a6.png"group-title="RADIO CRISTIANA",ALTAR RADIO 7/24
 https://vidartv.info:8020/stream
 
 #EXTINF:-1 tvg-logo="https://cdn.onlineradiobox.com/img/l/1/101981.v7.png"group-title="RADIO CRISTIANA",JTA (JESÚS TE AMA) MENDOZA 
@@ -3637,7 +3637,7 @@ https://vidartv.info:8020/stream
 
 
 
-#EXTINF:-1 tvg-logo="https://i.ytimg.com/vi/tYy0RR3RtjA/hqdefault.jpg"group-title="RADIO CRISTIANA", MÚSICA CRISTIANA 24/7
+#EXTINF:-1 tvg-logo="https://i.ibb.co/xqfm0PJY/file-0000000061ec820e848e593c751cd6a6.png"group-title="RADIO CRISTIANA", MÚSICA CRISTIANA 24/7
 https://play.wrhradios.com/8024/stream
 
 
@@ -3650,7 +3650,7 @@ https://play.wrhradios.com/8024/stream
 #EXTINF:-1 tvg-logo="https://reydereyes.com.ar/wp-content/uploads/2020/10/rdr_512.png"group-title="RADIO CRISTIANA",FM GOSPEL  88.1
 
 
-#EXTINF:-1 tvg-logo="https://play-lh.googleusercontent.com/DKBmV_Il7KnMbCalyCInYP_PLcd7_Cj2EkM6EfUaSLE02ZyzXKZqdmPXYDiwYe2wSkc"group-title="RADIO CRISTIANA", FM VISION 92.1
+#EXTINF:-1 tvg-logo="https://i.ibb.co/xqfm0PJY/file-0000000061ec820e848e593c751cd6a6.png"group-title="RADIO CRISTIANA", FM VISION 92.1
 https://ssl.radiosnethosting.com/index.php?port=9850
 
 
@@ -3676,7 +3676,7 @@ https://server.laradio.online:18214/stream.mp3
 
 
 
-#EXTINF:-1 tvg-logo="https://supresencia.com/sites/default/themes/sp_iglesia_2015/images/logo-spradio.png"group-title="RADIO CRISTIANA", FM SU PRESENCIA
+#EXTINF:-1 tvg-logo="https://i.ibb.co/xqfm0PJY/file-0000000061ec820e848e593c751cd6a6.png"group-title="RADIO CRISTIANA", FM SU PRESENCIA
 https://supresenciaradio.out.airtime.pro/supresenciaradio_a
 
 
@@ -3701,7 +3701,7 @@ https://supresenciaradio.out.airtime.pro/supresenciaradio_a
 
 
 #EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS6ea_7GV-QDlTqwU05AgVlu2-TCnqKG889Zw&usqp=CAU"group-title="RADIO CRISTIANA", FM VIDA 105.1 MENDOZA
-http://genexservicios.com:8006/;stream/1
+
 
 
 
