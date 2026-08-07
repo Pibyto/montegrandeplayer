@@ -2284,8 +2284,10 @@ https://estrella-news-oando.amagi.tv/playlistR1080p.m3u8
 https://estrellatv-oando.amagi.tv/playlistR1080p.m3u8
 
 
-#EXTINF:-1 tvg-logo=""group-title="PR.EE.UU",CH 283
+#EXTINF:-1 tvg-logo=""group-title="PR.EE.UU",C
 
+#EXTINF:-1 tvg-logo="https://www.maranatharadioministries.com/wp-content/uploads/2019/09/Maranatha-Radio-Final-500px.png"group-title="PR.EE.UU",CH 283
+https://vip.livecastnet.com:3930/live/maranatharadiolive.m3u8
 
 
 
@@ -3596,7 +3598,7 @@ https://streaming.hostpannel.lat/stream8700
 
 
 
-#EXTINF:-1 tvg-logo="https://tinyurl.com/Mgrad104"group-title="RADIO CRISTIANA",MONTE GRANDE RADIO
+#EXTINF:-1 tvg-logo="https://tinyurl.com/Mgrad107"group-title="RADIO CRISTIANA",MONTE GRANDE RADIO
 https://micanal.ovh/radio/montegrandetv/live.mp3
 
 
