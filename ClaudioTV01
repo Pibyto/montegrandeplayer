@@ -23,6 +23,11 @@ https://lbgo.bozztv.com/ssh101/ssh101/mgradiotv/chunks.m3u8
 https://lbgo.bozztv.com/ssh101/ssh101/imcu/playlist.m3u8
 
 
+#EXTINF:-1 tvg-logo="https://cdn.phototourl.com/free/2026-08-16-ceee00a2-9c90-42e6-a338-9e12f693d4a4.png"group-title="BUENOS AIRES",LA PODEROSA TV
+https://lbgo.bozztv.com/ssh101/ssh101/lapoderosadigit/playlist.m3u8
+
+
+
 #EXTINF:-1 tvg-logo="https://tinyurl.com/Maxcinefamily"group-title="BUENOS AIRES",MAXCINE FAMILY
 https://live20.bozztv.com/giatvplayout7/giatv-208817/playlist.m3u8
 
@@ -3546,6 +3551,11 @@ https://cdnlive.myspirit.tv:443/LS-ATL-43240-2/tracks-v1a1/mono.m3u8
 ###########################################(RADIOS SECULAR)#########
 
 
+
+
+
+#EXTINF:-1 tvg-logo="https://cdn.phototourl.com/free/2026-08-16-4caebd64-797f-4726-9f16-6a58b23082c4.jpg"group-title="RADIO SECULAR",LA PODEROSA DIGITAL 99.3 MHZ
+https://s2.netradiofm.com:9720/stream/?type=http&nocache=1
 
 
 
