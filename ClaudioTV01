@@ -11,8 +11,6 @@ https://live20.bozztv.com/giatvplayout7/giatv-209909/playlist.m3u8
 https://live20.bozztv.com/giatvplayout7/giatv-212009/playlist.m3u8
 
 
-#EXTINF:-1 tvg-logo="https://tinyurl.com/2hy6uu5x"group-title="BUENOS AIRES",MONTEGRANDETV
-https://live20.bozztv.com/akamaissh101/ssh101/montegrandetv/chunks.m3u8
 
 
 #EXTINF:-1 tvg-logo="https://tinyurl.com/Mgrad108"group-title="BUENOS AIRES", MG RAD10
@@ -21,6 +19,11 @@ https://lbgo.bozztv.com/ssh101/ssh101/mgradiotv/chunks.m3u8
 
 #EXTINF:-1 tvg-logo="https://cdn.phototourl.com/free/2026-07-21-cc1d4e4d-57e2-4680-ace6-057ce5927cb5.png"group-title="BUENOS AIRES",MARVEL
 https://lbgo.bozztv.com/ssh101/ssh101/imcu/playlist.m3u8
+
+
+#EXTINF:-1 tvg-logo="https://tinyurl.com/2hy6uu5x"group-title="BUENOS AIRES",MONTEGRANDETV
+https://live20.bozztv.com/akamaissh101/ssh101/montegrandetv/chunks.m3u8
+
 
 
 #EXTINF:-1 tvg-logo="https://cdn.phototourl.com/free/2026-08-16-ceee00a2-9c90-42e6-a338-9e12f693d4a4.png"group-title="BUENOS AIRES",LA PODEROSA TV
