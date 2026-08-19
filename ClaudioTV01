@@ -3595,7 +3595,8 @@ https://streaming.hostpannel.lat/stream8700
 
 
 
-#EXTINF:-1 tvg-logo=""group-title="RADIO SECULAR",
+#EXTINF:-1 tvg-logo="https://cdn.phototourl.com/free/2026-08-19-8eb893ab-7279-4eaf-8b1b-3ffdf711deb5.jpg"group-title="RADIO SECULAR", ESTACIÓN TROPICAL
+https://s2.netradiofm.com:9594/
 
 
 
@@ -3635,6 +3636,33 @@ https://micanal.ovh/radio/montegrandetv/live.mp3
 
 https://uk3freenew.listen2myradio.com/live.mp3?typeportmount=s1_30885_stream_1&nocache=1
 
+
+
+#EXTINF:-1 tvg-logo=""group-title="RADIO CRISTIANA", GOSPEL FM 88.1
+https://ohradio.cc/8092/stream
+
+
+#EXTINF:-1 tvg-logo=""group-title="RADIO CRISTIANA",AMA FM 92.3
+https://nexoradio.xyz/stream/laradio923
+
+#EXTINF:-1 tvg-logo="https://i.ibb.co/TqJjPyKk/file-0000000025c0820e8b758aad2c59f078.png"group-title="RADIO CRISTIANA", FM MI ROCA 103.5
+https://server.streamcasthd.com/8306/stream
+
+
+#EXTINF:-1 tvg-logo=""group-title="RADIO CRISTIANA",V2000 FM 90.9
+https://genexservicios.com:8282/;?1787152304280
+
+
+#EXTINF:-1 tvg-logo=""group-title="RADIO CRISTIANA",VIDA 105.1
+https://genexservicios.com:8006/stream/1/
+
+
+#EXTINF:-1 tvg-logo=""group-title="RADIO CRISTIANA", RADIO CRISTIANA 88.3
+https://rr5100.globalhost1.com/8540/stream
+
+
+#EXTINF:-1 tvg-logo=""group-title="RADIO CRISTIANA", SHALOM FM 107.1
+https://nexoradio.xyz:8154/stream
 
 
 
@@ -3703,8 +3731,7 @@ https://ssl.radiosnethosting.com/index.php?port=9850
 
 
 
-#EXTINF:-1 tvg-logo="https://i.ibb.co/TqJjPyKk/file-0000000025c0820e8b758aad2c59f078.png"group-title="RADIO CRISTIANA", FM MI ROCA 103.5
-https://server.streamcasthd.com/8306/stream
+
 
 
 #EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRCdjk6iGSpo4etDU90YoBrF0sqFVjRTjla8Q&usqp=CAU"group-title="RADIO CRISTIANA", FM VISÍON 2000  90.9
