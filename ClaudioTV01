@@ -3562,7 +3562,10 @@ https://s2.netradiofm.com:9720/stream/?type=http&nocache=1
 
 
 #EXTINF:-1 tvg-logo="https://cdn.phototourl.com/free/2026-08-19-8eb893ab-7279-4eaf-8b1b-3ffdf711deb5.jpg"group-title="RADIO SECULAR", ESTACIÓN TROPICAL
-https://s2.netradiofm.com:9594/stream.mp3
+https://s2.netradiofm.com:9594/stream/1/;
+
+
+
 
 
 
@@ -3690,6 +3693,9 @@ https://stream.conexionpositivaradio.com/listen/conexion_positiva/radio.mp3
 #EXTINF:-1 tvg-logo="https://i.ibb.co/1GKcdvf7/file-00000000df68820e9f0a4c74e2a5fb9f.png"group-title="RADIO CRISTIANA", CONEXIÓN DEL AYER
 https://stream.conexionpositivaradio.com/listen/conexiones_del_ayer/radio.mp3
 
+
+#EXTINF:-1 tvg-logo="https://tinyurl.com/Mgrad109"group-title="RADIO CRISTIANA",MGRADIO 24
+https://radios.yanapak.org/montegranderadio
 
 
 #EXTINF:-1 tvg-logo="https://i.ibb.co/rKQvmJzn/file-000000005958820e9494f4816c7edf86.png"group-title="RADIO CRISTIANA",FM EL PUENTE 102.1
