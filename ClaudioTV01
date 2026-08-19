@@ -3561,6 +3561,9 @@ https://cdnlive.myspirit.tv:443/LS-ATL-43240-2/tracks-v1a1/mono.m3u8
 https://s2.netradiofm.com:9720/stream/?type=http&nocache=1
 
 
+#EXTINF:-1 tvg-logo="https://cdn.phototourl.com/free/2026-08-19-8eb893ab-7279-4eaf-8b1b-3ffdf711deb5.jpg"group-title="RADIO SECULAR", ESTACIÓN TROPICAL
+https://s2.netradiofm.com:9594/
+
 
 #EXTINF:-1 tvg-logo="https://i.ibb.co/HfnF448T/Radio-rockpop.png"group-title="RADIO SECULAR",ROCK Y POP
 https://17993.live.streamtheworld.com:443/ROCKANDPOP_SC
@@ -3595,8 +3598,7 @@ https://streaming.hostpannel.lat/stream8700
 
 
 
-#EXTINF:-1 tvg-logo="https://cdn.phototourl.com/free/2026-08-19-8eb893ab-7279-4eaf-8b1b-3ffdf711deb5.jpg"group-title="RADIO SECULAR", ESTACIÓN TROPICAL
-https://s2.netradiofm.com:9594/
+
 
 
 
