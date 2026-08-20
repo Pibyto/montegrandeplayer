@@ -707,11 +707,20 @@ https://stmv6.voxtvhd.com.br/xtremacartoons/xtremacartoons/playlist.m3u8
 
 
 
-
-
+#EXTINF:-1 tvg-logo="https://tinyurl.com/Postermax"group-title="ANIME",MAX ANIME 
+https://cdnlive.klicgo.net/maxanime/live/chunklist_w665322840_DVR.m3u8
 
 #EXTINF:-1 tvg-logo="https://tinyurl.com/Postermax"group-title="ANIME",ENERGEEK
 https://backend.energeek.cl/webtv/egretroweb/tracks-v1a1/mono.m3u8?token=W3bEnerG33k2026
+
+#EXTINF:-1 tvg-logo="https://tinyurl.com/Postermax"group-title="ANIME",BIT ME
+http://190.61.114.186:8000/play/a01h/index.m3u8
+
+
+
+#EXTINF:-1 tvg-logo="https://tinyurl.com/Postermax"group-title="ANIME", NARUTO 
+https://live20.bozztv.com/giatvplayout7/giatv-211970/playlist.m3u8
+
 
 
 #EXTINF:-1 tvg-logo="https://tinyurl.com/Postermax"group-title="ANIME", SPIDERMAN 
@@ -753,6 +762,9 @@ https://live20.bozztv.com/giatvplayout7/giatv-210703/playlist.m3u8
 
 #EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTOspY0DemQf4NaEMxXnKQQKCpDwOfVCdtnZg&usqp=CAU"group-title="CINE PREMIER",CINESONY
 https://a-cdn.klowdtv.com/live1/cine_720p/chunks.m3u8
+
+#EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTOspY0DemQf4NaEMxXnKQQKCpDwOfVCdtnZg&usqp=CAU"group-title="CINE PREMIER"SONY CHANNEL 
+http://181.224.255.210:8001/play/a0oc/index.m3u8?hls
 
 #EXTINF:-1 tvg-logo="https://brandemia.org/wp-content/uploads/2013/02/logo_telemundo_principal.jpg"group-title="CINE PREMIER",TELEMUNDO ACCION
 https://xumo-drct-ch835-ekq0p.fast.nbcuni.com/live/master_5.m3u8
@@ -855,13 +867,15 @@ http://181.225.190.242:8000/play/a00y
 
 
  
-#EXTINF:-1 tvg-logo=""group-title="CINE PREMIER",
+#EXTINF:-1 tvg-logo=""group-title="CINE PREMIER",ZEEMUNDO
+https://amg17931-amg17931c3-ondemandkorea-amesia-4897.playouts.now.amagi.tv/playlist/amg17931-asiatvusaltdfast-zeemundo-ondemandkoreaamesia/playlist.m3u8
 
 #EXTINF:-1 tvg-logo=""group-title="CINE PREMIER", AMC
-http://sdmx.vip/live/AngelicaAntonietaTellez/A4Pnrrfhw4FJ/2092602.ts
+https://streamer.metronethn.com/AMC/tracks-v1a1/mono.m3u8
 
 
-#EXTINF:-1 tvg-logo=""group-title="CINE PREMIER",AXN
+#EXTINF:-1 tvg-logo=""group-title="CINE PREMIER",FX
+https://streamer.metronethn.com/FX/tracks-v1a1/mono.m3u8
 
 
 
