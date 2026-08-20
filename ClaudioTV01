@@ -3,6 +3,19 @@
 
 
 
+#EXTINF:-1 tvg-logo="https://tinyurl.com/Neoteve"group-title="BUENOS AIRES",NEO TV DIGITAL HD. 16.1 
+https://videostream.shockmedia.com.ar:19360/neotvdigital/neotvdigital.m3u8
+
+
+#EXTINF:-1 tvg-logo="https://cdn.phototourl.com/free/2026-07-21-cc1d4e4d-57e2-4680-ace6-057ce5927cb5.png"group-title="BUENOS AIRES",MARVEL
+https://lbgo.bozztv.com/ssh101/ssh101/imcu/playlist.m3u8
+
+
+
+#EXTINF:-1 tvg-logo="https://tinyurl.com/Bairesteve"group-title="BUENOS AIRES",BAYRES TV HD
+https://streaming01.mikrolive.tv/bayrestv/live/chunklist_w963757112.m3u8
+
+
 #EXTINF:-1 tvg-logo="https://tinyurl.com/Maxcinekids"group-title="BUENOS AIRES", MAXCINE KIDS
 https://live20.bozztv.com/giatvplayout7/giatv-209909/playlist.m3u8
 
@@ -13,30 +26,30 @@ https://live20.bozztv.com/giatvplayout7/giatv-212009/playlist.m3u8
 
 
 
-#EXTINF:-1 tvg-logo="https://tinyurl.com/Mgrad108"group-title="BUENOS AIRES", MG RAD10
-https://lbgo.bozztv.com/ssh101/ssh101/mgradiotv/chunks.m3u8
 
 
-#EXTINF:-1 tvg-logo="https://cdn.phototourl.com/free/2026-07-21-cc1d4e4d-57e2-4680-ace6-057ce5927cb5.png"group-title="BUENOS AIRES",MARVEL
-https://lbgo.bozztv.com/ssh101/ssh101/imcu/playlist.m3u8
+
+
 
 
 #EXTINF:-1 tvg-logo="https://tinyurl.com/2hy6uu5x"group-title="BUENOS AIRES",MONTEGRANDETV
 https://live20.bozztv.com/akamaissh101/ssh101/montegrandetv/chunks.m3u8
 
-
+#EXTINF:-1 tvg-logo="https://tinyurl.com/Lamilteve"group-title="BUENOS AIRES",LA MIL35
+https://vd01.streaminghd.net.ar:3349/live/bzuctkgnlive.m3u8
 
 #EXTINF:-1 tvg-logo="https://cdn.phototourl.com/free/2026-08-16-ceee00a2-9c90-42e6-a338-9e12f693d4a4.png"group-title="BUENOS AIRES",LA PODEROSA TV
 https://lbgo.bozztv.com/ssh101/ssh101/lapoderosadigit/playlist.m3u8
 
+#EXTINF:-1 tvg-logo="https://tinyurl.com/Telecreativa"group-title="BUENOS AIRES",TELECREATIVA HD
+https://panel.host-live.com:19360/8012/8012.m3u8
 
+
+#EXTINF:-1 tvg-logo="https://tinyurl.com/Telemixteve"group-title="BUENOS AIRES",TELEMIX HD
+https://183.bozztv.com/giatv/giatv-telemixenvivo/telemixenvivo/playlist.m3u8
 
 #EXTINF:-1 tvg-logo="https://tinyurl.com/Maxcinefamily"group-title="BUENOS AIRES",MAXCINE FAMILY
 https://live20.bozztv.com/giatvplayout7/giatv-208817/playlist.m3u8
-
-
-
-
 
 
 #EXTINF:-1 tvg-logo="https://tinyurl.com/Maxcinefucsia"group-title="BUENOS AIRES", MAX CINE
@@ -48,25 +61,13 @@ https://live20.bozztv.com/giatvplayout7/giatv-208138/tracks-v1a1/mono.m3u8
 https://live20.bozztv.com/giatvplayout7/giatv-209163/playlist.m3u8
 
 
-
-
-
-
-
-
-
-
-
-
-
 #EXTINF:-1 tvg-logo="https://tinyurl.com/Maxcinecomedy"group-title="BUENOS AIRES", MAXCINE COMEDY
 https://live20.bozztv.com/giatvplayout7/giatv-208730/playlist.m3u8
 
 
 
 
-#EXTINF:-1 tvg-logo="https://tinyurl.com/Lamilteve"group-title="BUENOS AIRES",LA MIL35
-https://vd01.streaminghd.net.ar:3349/live/bzuctkgnlive.m3u8
+
 
 
 #EXTINF:-1 tvg-logo="https://tinyurl.com/Ipersonicateve"group-title="BUENOS AIRES", IPERSONICA TV 
@@ -75,8 +76,7 @@ https://lbgo.bozztv.com/ssh101/ssh101/ipersonica/playlist.m3u8
 
 
 
-#EXTINF:-1 tvg-logo="https://tinyurl.com/Neoteve"group-title="BUENOS AIRES",NEO TV DIGITAL HD. 16.1 
-https://videostream.shockmedia.com.ar:19360/neotvdigital/neotvdigital.m3u8
+
 
 #EXTINF:-1 tvg-logo="https://tinyurl.com/Genteve"group-title="BUENOS AIRES",GENTV
 https://srv3.zcast.com.br/gentv/gentv/playlist.m3u8
@@ -85,8 +85,7 @@ https://srv3.zcast.com.br/gentv/gentv/playlist.m3u8
 #EXTINF:-1 tvg-logo="https://tinyurl.com/Restellitv"group-title="BUENOS AIRES", RESTELLI TV 
 https://live20.bozztv.com/giatvplayout7/giatv-208744/tracks-v1a1/mono.m3u8
 
-#EXTINF:-1 tvg-logo="https://tinyurl.com/Bairesteve"group-title="BUENOS AIRES",BAYRES TV HD
-https://streaming01.mikrolive.tv/bayrestv/live/chunklist_w963757112.m3u8
+
 
 
 #EXTINF:-1 tvg-logo="https://tinyurl.com/Altarteve"group-title="BUENOS AIRES",ALTAR TV HD
@@ -94,7 +93,8 @@ https://vidartv2.todostreaming.es/live/radiovida-altar724.m3u8
 
 
 
-
+#EXTINF:-1 tvg-logo="https://tinyurl.com/Mgrad108"group-title="BUENOS AIRES", MG RAD10
+https://lbgo.bozztv.com/ssh101/ssh101/mgradiotv/chunks.m3u8
 
 
 
@@ -159,12 +159,7 @@ https://live20.bozztv.com/akamaissh101/ssh101/verycoolfgr/chunks.m3u8
 https://live20.bozztv.com/akamaissh101/ssh101/elmagotv2/chunks.m3u8
 
 
-#EXTINF:-1 tvg-logo="https://tinyurl.com/Telecreativa"group-title="BUENOS AIRES",TELECREATIVA HD
-https://panel.host-live.com:19360/8012/8012.m3u8
 
-
-#EXTINF:-1 tvg-logo="https://tinyurl.com/Telemixteve"group-title="BUENOS AIRES",TELEMIX HD
-https://183.bozztv.com/giatv/giatv-telemixenvivo/telemixenvivo/playlist.m3u8
 
 
 
@@ -182,7 +177,7 @@ https://livetrx01.vodgc.net/live-01-07-ciudad.vodgc.net/tracks-v3a1/mono.m3u8
 
 
 #EXTINF:-1 tvg-logo="https://tinyurl.com/3vzrwff3"group-title="BUENOS AIRES",CINCO TV HD  TIGRE
-https://stream-cdn-iad3.vaughnsoft.net/play/live_peliculas_mania.flv.m3u
+
 
 
 
