@@ -3,16 +3,18 @@
 
 
 
-#EXTINF:-1 tvg-logo="https://cdn.phototourl.com/free/2026-08-20-915c867d-c967-4e53-aaff-7be608c19bcb.png"group-title="BUENOS AIRES",MAX TV MOVIES
-https://tvstreaming.albpo.com/memfs/8d987761-7923-4532-a95d-20723ae95374_output_0.m3u8
+#EXTINF:-1 tvg-logo="https://cdn.phototourl.com/free/2026-07-21-cc1d4e4d-57e2-4680-ace6-057ce5927cb5.png"group-title="BUENOS AIRES",MARVEL
+https://lbgo.bozztv.com/ssh101/ssh101/imcu/playlist.m3u8
 
 
 #EXTINF:-1 tvg-logo="https://tinyurl.com/Neoteve"group-title="BUENOS AIRES",NEO TV DIGITAL HD. 16.1 
 https://videostream.shockmedia.com.ar:19360/neotvdigital/neotvdigital.m3u8
 
 
-#EXTINF:-1 tvg-logo="https://cdn.phototourl.com/free/2026-07-21-cc1d4e4d-57e2-4680-ace6-057ce5927cb5.png"group-title="BUENOS AIRES",MARVEL
-https://lbgo.bozztv.com/ssh101/ssh101/imcu/playlist.m3u8
+
+
+#EXTINF:-1 tvg-logo="https://cdn.phototourl.com/free/2026-08-20-915c867d-c967-4e53-aaff-7be608c19bcb.png"group-title="BUENOS AIRES",MAX TV MOVIES
+https://tvstreaming.albpo.com/memfs/8d987761-7923-4532-a95d-20723ae95374_output_0.m3u8
 
 
 #EXTINF:-1 tvg-logo="https://i.ibb.co/dLWwdLK/3dgifmaker66066.gif"group-title="BUENOS AIRES",COSMOS TV HD
