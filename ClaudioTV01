@@ -285,6 +285,29 @@ http://liketv.pro:80/diegos2024/Coly2413/553603.m3u8
 #EXTINF:-1 tvg-logo="https://tinyurl.com/Mzatelevida"group-title="ARGENTINA",TELEVIDA
 https://unlimited1-saopaulo.dps.live/televidaar/televidaar.smil/televidaar/livestream1/chunks.m3u8
 
+#EXTINF:-1 tvg-logo="https://i.ibb.co/wrMwMmDD/Corrientes-TV-2.png"group-title="ARGENTINA",CORRIENTES TV HD
+https://vivo.solumedia.com:19360/telemedia/telemedia.m3u8
+
+
+#EXTINF:-1 tvg-logo="https://i.ibb.co/cK8XkD3q/1772569532364.png"group-title="ARGENTINA",METRO TV HD  18.1 TUCUMÁN
+https://streamtv12.ddns.net:5443/LiveApp/streams/193945633734205616732920.m3u8
+
+
+#EXTINF:-1 tvg-logo="https://tinyurl.com/Sicarditeve"group-title="ARGENTINA",SICARDITV HD  18.2
+https://vivo.solumedia.com:19360/sicarditv/sicarditv.m3u8
+
+
+
+
+
+
+#EXTINF:-1 tvg-logo="https://tinyurl.com/Tdcros"group-title="ARGENTINA",TDC
+https://tdcserver.com:19360/tdconlione-2/tdconlione-2.m3u8
+
+
+#EXTINF:-1 tvg-logo="https://i.ibb.co/PZZQrFnf/Screenshot-20260711-161403.png"group-title="ARGENTINA", TELE FEDERAL 
+https://live20.bozztv.com/giatv/giatv-teleposadaso01/teleposadaso01/playlist.m3u8
+
 #EXTINF:-1 tvg-logo="https://tinyurl.com/K1ngd0mtv"group-title="ARGENTINA", KINGDOM TV HD  19.1 TDA MZA
 https://play.nexolife.com:443/mendozaTV/7b7a53e239400a13bd6be6c91c4f6c4e.sdp/chunks.m3u8
 
@@ -316,19 +339,6 @@ http://iptv.ixfo.com.ar:8081/live/C4POS/playlist.m3u8
 #EXTINF:-1 tvg-logo="https://i.ibb.co/twNq72rC/1776360821019-1.png"group-title="ARGENTINA",11 DIGITAL 
 https://live20.bozztv.com/giatv/giatv-ojodigital/ojodigital/playlist.m3u8
 
-#EXTINF:-1 tvg-logo="https://i.ibb.co/cK8XkD3q/1772569532364.png"group-title="ARGENTINA",METRO TV HD  18.1 TUCUMÁN
-https://streamtv12.ddns.net:5443/LiveApp/streams/193945633734205616732920.m3u8
-
-
-
-
-#EXTINF:-1 tvg-logo="https://i.ibb.co/wrMwMmDD/Corrientes-TV-2.png"group-title="ARGENTINA",CORRIENTES TV HD
-https://vivo.solumedia.com:19360/telemedia/telemedia.m3u8
-
-
-#EXTINF:-1 tvg-logo="https://tinyurl.com/Tdcros"group-title="ARGENTINA",TDC
-https://tdcserver.com:19360/tdconlione-2/tdconlione-2.m3u8
-
 
 #EXTINF:-1 tvg-logo="https://tinyurl.com/Sietesalt"group-title="ARGENTINA",CANAL 7 SALTA
 https://vivo.solumedia.com:19360/cooperativa/cooperativa.m3u8
@@ -345,8 +355,7 @@ https://streamlov.alsolnet.com/canal4sanjuan/live/chunklist_w318490892.m3u8
 #EXTINF:-1 tvg-logo="https://tinyurl.com/Pueblocinco"group-title="ARGENTINA",5 EL PUEBLO 
 https://stmv4.voxtvhd.com.br/canal5pueblo/canal5pueblo/playlist.m3u8
 
-#EXTINF:-1 tvg-logo="https://tinyurl.com/Sicarditeve"group-title="ARGENTINA",SICARDITV HD  18.2
-https://vivo.solumedia.com:19360/sicarditv/sicarditv.m3u8
+
 
 
 #EXTINF:-1 tvg-logo="https://tinyurl.com/3b5a5c2f"group-title="ARGENTINA", CANAL 9 HD LITORAL
