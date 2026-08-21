@@ -531,14 +531,28 @@ https://live20.bozztv.com/giatvplayout7/giatv-208730/playlist.m3u8
 https://live20.bozztv.com/giatvplayout7/giatv-211979/playlist.m3u8
 
 
+#EXTINF:-1 tvg-logo="https://tinyurl.com/Postermax"group-title="CINE PREMIUM", EURO CHANNEL 
+http://45.5.118.188:8000/play/a034/index.m3u8
+
+
 #EXTINF:-1 tvg-logo="https://tinyurl.com/Postermax"group-title="CINE PREMIUM",FMH MOVIE 
 http://45.186.254.75:8000/play/a07j/index.m3u8
 
 
-#EXTINF:-1 tvg-logo="https://tinyurl.com/Postermax"group-title="CINE PREMIUM",FMH FAMILY 
-http://186.148.196.100:8000/play/a01z
+#EXTINF:-1 tvg-logo="https://tinyurl.com/Postermax"group-title="CINE PREMIUM",FMH FAMILY
+http://45.186.254.75:8000/play/a07l/index.m3u8
 
 
+#EXTINF:-1 tvg-logo="https://tinyurl.com/Postermax"group-title="CINE PREMIUM",RCN MAS
+https://rcntv-rcnmas-1-us.plex.wurl.tv/playlist.m3u8
+
+
+#EXTINF:-1 tvg-logo="https://tinyurl.com/Postermax"group-title="CINE PREMIUM",CINE FAMILIAR
+http://181.78.8.199:8000/play/a09p/index.m3u8
+
+
+#EXTINF:-1 tvg-logo="https://tinyurl.com/Postermax"group-title="CINE PREMIUM",AMC ESPAÑOL
+https://amc-amcespanol-1-us.lg.wurl.tv/3000.m3u8
 
 
 #EXTINF:-1 tvg-logo="https://tinyurl.com/2hy6uu5x"group-title="CINE PREMIUM",MONTEGRANDETV
