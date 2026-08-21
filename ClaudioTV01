@@ -573,8 +573,20 @@ https://tvstreaming.albpo.com/memfs/8d987761-7923-4532-a95d-20723ae95374_output_
 
 
 
-#EXTINF:-1 tvg-logo="https://tinyurl.com/Postermax"group-title="CINE PREMIUM",MANACLAR
-https://5790d294af2dc.streamlock.net/manaclar/manaclar/chunklist_w1737561051.m3u8
+#EXTINF:-1 tvg-logo="https://tinyurl.com/Postermax"group-title="CINE PREMIUM",MULTIBOX ACCIÓN 
+https://stmv6.voxtvhd.com.br/cineaccion/cineaccion/playlist.m3u8
+
+
+#EXTINF:-1 tvg-logo="https://tinyurl.com/Postermax"group-title="CINE PREMIUM",NITRO
+http://205.235.6.29:8000/play/a0xw/index.m3u8?hls
+
+
+
+
+
+
+#EXTINF:-1 tvg-logo="https://tinyurl.com/Postermax"group-title="CINE PREMIUM",POPCORN CENTRAL 
+https://stream.ads.ottera.tv/cl/260821da3qes1kep0s73adb8u0/1920x1080_4787200_1_f.m3u8?i=475_16640
 
 
 
@@ -582,17 +594,17 @@ https://5790d294af2dc.streamlock.net/manaclar/manaclar/chunklist_w1737561051.m3u
 
 
 
-#EXTINF:-1 tvg-logo="https://tinyurl.com/Postermax"group-title="CINE PREMIUM",LA REINA TV
-https://cloud2.streaminglivehd.com:1936/lareinatv/lareinatv/chunklist_w1024365707.m3u8
+
+#EXTINF:-1 tvg-logo="https://tinyurl.com/Postermax"group-title="CINE PREMIUM", CINE ESTRELLAS
+https://aegis-cloudfront-1.tubi.video/e1921b21-6cd6-4b21-bb46-832cbb74485c/playlistR1080P.m3u8
 
 
 
-#EXTINF:-1 tvg-logo="https://tinyurl.com/Postermax"group-title="CINE PREMIUM",XTREMO
-https://ss2.tvrdomi.com:1936/xtremochannel/xtremochannel/chunklist_w147277300.m3u8
 
 
 
-#EXTINF:-1 tvg-logo="https://tinyurl.com/Postermax"group-title="CINE PREMIUM",13 TV
+#EXTINF:-1 tvg-logo="https://tinyurl.com/Postermax"group-title="CINE PREMIUM",CINE WESTERN
+https://d2nq34q0i1r3la.cloudfront.net/v1/manifest/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-awohw8g217ho8/b5c39601-9994-4bf7-8402-879dc682097f/3.m3u8
 
 
 
