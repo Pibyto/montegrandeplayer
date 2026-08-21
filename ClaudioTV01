@@ -11,8 +11,11 @@ https://lbgo.bozztv.com/ssh101/ssh101/imcu/playlist.m3u8
 https://videostream.shockmedia.com.ar:19360/neotvdigital/neotvdigital.m3u8
 
 
-#EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQDRpHl2X5Un1qCIH8eykujvTO9eMyjA_pLrDOs2_ym0g&s=10"group-title="BUENOS AIRES",BOX CINEMA
-https://distrib.noisypeak.com/d/K9U16RORPWBMXX3B09JH/hls3/now,-1m/0000000000030100/0000000000010200/m.m3u8
+#EXTINF:-1 tvg-logo="https://cdn.phototourl.com/free/2026-08-21-7812e908-d80e-4fee-8b1a-b206d858457b.png"group-title="BUENOS AIRES",BOX CINEMA
+https://distrib.noisypeak.com/d/K9U16RORPWBMXX3B09JH/hls3/now,-1m/1.m3u8
+
+
+
 
 #EXTINF:-1 tvg-logo="https://cdn.phototourl.com/free/2026-08-20-915c867d-c967-4e53-aaff-7be608c19bcb.png"group-title="BUENOS AIRES",MAX TV MOVIES
 https://tvstreaming.albpo.com/memfs/8d987761-7923-4532-a95d-20723ae95374_output_0.m3u8
