@@ -309,8 +309,10 @@ https://vivo.solumedia.com:19360/sicarditv/sicarditv.m3u8
 https://tdcserver.com:19360/tdconlione-2/tdconlione-2.m3u8
 
 
-#EXTINF:-1 tvg-logo="https://i.ibb.co/PZZQrFnf/Screenshot-20260711-161403.png"group-title="ARGENTINA", TELE FEDERAL 
-https://live20.bozztv.com/giatv/giatv-teleposadaso01/teleposadaso01/playlist.m3u8
+#EXTINF:-1 tvg-logo="https://i.ibb.co/PZZQrFnf/Screenshot-20260711-161403.png"group-title="ARGENTINA", TELE FEDERAL
+https://lbgo.bozztv.com/giatv/giatv-teleposadastv/teleposadastv/playlist.m3u8
+
+
 
 #EXTINF:-1 tvg-logo="https://tinyurl.com/K1ngd0mtv"group-title="ARGENTINA", KINGDOM TV HD  19.1 TDA MZA
 https://play.nexolife.com:443/mendozaTV/7b7a53e239400a13bd6be6c91c4f6c4e.sdp/chunks.m3u8
