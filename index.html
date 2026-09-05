@@ -1,57 +1,99 @@
 <!DOCTYPE html>
-<html lang="es">
-<head>
+<html lang="es" class="trae-edit-mode-dragging"><head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
-  <title>MGTV MAX - WEB</title>
+  <title>MGTV MAX - Android TV</title>
   <script src="https://www.gstatic.com/cv/js/sender/v1/cast_sender.js?loadCastFramework=1"></script>
   <script src="https://cdn.jsdelivr.net/npm/hls.js@latest"></script>
   <script src="https://cdn.jsdelivr.net/npm/mpegts.js@latest"></script>
   <style>
-    * { margin: 0; padding: 0; box-sizing: border-box; outline: none !important; user-select: none; }
+    * { margin: 0; padding: 0; box-sizing: border-box; outline: none !important; }
+    
+    html, body { 
+      height: 100%;
+      width: 100%;
+      background-color: #000;
+    }
 
-    body {
-      background-image: url('https://tinyurl.com/Maximag') !important;
+    body { 
+      background-image: url('https://tinyurl.com/Maximagenn') !important;
       background-size: cover !important;
       background-position: center !important;
       background-repeat: no-repeat !important;
-      background-color: #000;
-      overflow: hidden;
-      height: 100vh;
-      width: 100vw;
-      font-family: sans-serif;
+      background-attachment: fixed !important;
+      overflow: hidden; 
+      font-family: sans-serif; 
     }
 
-    .player-container {
-      position: fixed; top: 0; left: 0; width: 100%; height: 100%; background: transparent; z-index: 1;
+    .player-container { 
+      position: fixed; top: 0; left: 0; width: 100%; height: 100%; background: transparent; z-index: 1; pointer-events: none;
     }
-
-    video {
+    
+    video { 
       width: 100%; height: 100%; object-fit: contain; background: transparent; opacity: 0;
       transition: opacity 0.3s ease-in-out; -webkit-transition: opacity 0.3s ease-in-out;
+      pointer-events: auto;
     }
-
+    
     video.video-activo { opacity: 1; background: #000; }
 
     .audio-visual-layer {
-      position: fixed; top: 0; left: 0; width: 100%; height: 100%; z-index: 2;
+      position: fixed; top: 0; left: 0; width: 100%; height: 100%; z-index: 2; 
       background-color: #000; display: none; justify-content: center; align-items: center; overflow: hidden;
     }
     .audio-visual-layer img { width: 100%; height: 100%; object-fit: cover !important; }
 
+    .radio-neon-border {
+      position: absolute; 
+      top: 0; left: 0; right: 0; bottom: 0;
+      border: 8px solid transparent;
+      border-image: linear-gradient(90deg, #00ccff, #ff00cc, #ff0055, #00ffcc, #00ccff) 1;
+      box-shadow: inset 0 0 15px rgba(0, 204, 255, 0.5), inset 0 0 15px rgba(255, 0, 204, 0.5);
+      pointer-events: none;
+      z-index: 3;
+      animation: animatedBorder 3s linear infinite;
+    }
+
+    @keyframes animatedBorder {
+      0% { border-image: linear-gradient(0deg, #00ccff, #ff00cc, #ff0055, #00ffcc) 1; }
+      25% { border-image: linear-gradient(90deg, #00ccff, #ff00cc, #ff0055, #00ffcc) 1; }
+      50% { border-image: linear-gradient(180deg, #00ccff, #ff00cc, #ff0055, #00ffcc) 1; }
+      75% { border-image: linear-gradient(270deg, #00ccff, #ff00cc, #ff0055, #00ffcc) 1; }
+      100% { border-image: linear-gradient(360deg, #00ccff, #ff00cc, #ff0055, #00ffcc) 1; }
+    }
+
+    .waves-container {
+      position: absolute; bottom: 15%; left: 50%; transform: translateX(-50%);
+      width: 60%; height: 60px; display: flex; align-items: flex-end; justify-content: center; gap: 6px;
+      z-index: 4; pointer-events: none;
+    }
+    .wave-bar {
+      width: 6px; height: 15px; background: linear-gradient(to top, #00ccff, #ff00cc);
+      border-radius: 3px; animation: waveAnim 1.2s ease-in-out infinite alternate;
+    }
+    .wave-bar:nth-child(2n) { animation-delay: 0.2s; }
+    .wave-bar:nth-child(3n) { animation-delay: 0.4s; }
+    .wave-bar:nth-child(4n) { animation-delay: 0.6s; }
+    .wave-bar:nth-child(5n) { animation-delay: 0.8s; }
+
+    @keyframes waveAnim {
+      0% { height: 10px; opacity: 0.4; }
+      100% { height: 50px; opacity: 1; }
+    }
+
     .barra-alias-tv {
-      position: fixed; top: 8px; left: 50%; transform: translateX(-50%); width: max-content;
-      display: flex; flex-direction: row; justify-content: center; align-items: center; gap: 25px;
-      background: transparent !important; border: 3px solid #00ccff; box-shadow: 0 0 15px #ff00cc;
-      border-radius: 40px; padding: 10px 30px; z-index: 99999; opacity: 0; visibility: hidden;
+      position: fixed; top: 15px; left: 50%; transform: translateX(-50%); width: auto;
+      max-width: 90%; display: flex; flex-direction: row; justify-content: center; align-items: center; gap: 15px;
+      background: rgba(15, 5, 25, 0.92) !important; border: 2px solid #00ccff; box-shadow: 0 0 15px rgba(255, 0, 204, 0.6);
+      border-radius: 30px; padding: 6px 20px; z-index: 99999; opacity: 0; visibility: hidden;
       transition: opacity 0.4s ease, transform 0.4s ease; white-space: nowrap;
     }
     .barra-alias-tv.visible { opacity: 1; visibility: visible; transform: translateX(-50%); }
-
-    .titulo-alias { color: #ffffff; font-size: 1.2rem; font-weight: bold; text-transform: uppercase; }
-    .texto-alias { color: #ffffff; font-size: 1.2rem; font-weight: bold; }
-    .contenedor-banco { display: flex; align-items: center; gap: 10px; }
-    .contenedor-banco img { height: 40px; width: auto; object-fit: contain; }
+    
+    .titulo-alias { color: #ffffff; font-size: 0.95rem; font-weight: bold; text-transform: uppercase; letter-spacing: 0.5px; }
+    .texto-alias { color: #ffffff; font-size: 0.95rem; font-weight: bold; }
+    .contenedor-banco { display: flex; align-items: center; gap: 6px; }
+    .contenedor-banco img { height: 26px; width: auto; object-fit: contain; }
 
     .cast-container { display: none; }
 
@@ -61,29 +103,32 @@
       transition: opacity 0.4s ease, transform 0.4s ease; opacity: 1;
     }
     .side-menu.hidden-ui { opacity: 0; transform: translateY(-50%) translateX(-100px); pointer-events: none; }
-
+    
     .menu-icon {
-      width: 40px; height: 40px; display: flex; align-items: center; justify-content: center;
+      width: 44px; height: 44px; display: flex; align-items: center; justify-content: center;
       cursor: pointer; border: 2px solid transparent !important; border-radius: 50%; transition: all 0.2s;
     }
-    .menu-icon img { width: 24px; height: 24px; filter: brightness(0) saturate(100%) invert(100%); }
+    .menu-icon img { width: 26px; height: 26px; object-fit: contain; filter: brightness(0) saturate(100%) invert(100%); }
     .menu-icon:focus, .menu-icon.focused { border-color: #ffcc00 !important; background: rgba(255,255,255,0.2) !important; transform: scale(1.1); }
     .menu-icon:focus img, .menu-icon.focused img { filter: brightness(0) saturate(100%) invert(100%) !important; }
 
     .content-area {
-      position: fixed; bottom: 20px; left: 90px; right: 20px; background: transparent;
-      z-index: 10; max-height: 50%; overflow-y: auto; overflow-x: hidden; padding-bottom: 30px;
-      transition: opacity 0.4s ease, transform 0.4s ease; opacity: 1;
-      scroll-behavior: smooth;
+      position: fixed; left: 90px; right: 20px; top: 45vh; bottom: 22px; 
+      overflow-y: auto; overflow-x: hidden; 
+      padding-right: 0px; padding-bottom: 0px; padding-left: 10px; padding-top: 10px;
+      transition: opacity 0.4s ease, transform 0.4s ease; opacity: 1; z-index: 10;
+      scrollbar-width: none;
     }
-    .content-area::-webkit-scrollbar { width: 0px; background: transparent; }
+    .content-area::-webkit-scrollbar { display: none; }
 
     .content-area.hidden-ui { opacity: 0; transform: translateY(100px); pointer-events: none; }
-    .section-title { color: white; font-size: 1.1rem; font-weight: bold; margin: 15px 0 5px 0; text-shadow: 1px 1px 3px black; text-transform: uppercase; }
-    .scroll-row { display: flex; overflow-x: hidden; gap: 15px; padding: 10px 0; scroll-behavior: smooth; width: 100%; }
+    .section-title { color: white; font-size: 1.1rem; font-weight: bold; margin: 25px 0 10px 0; text-shadow: 1px 1px 3px black; text-transform: uppercase; }
+    
+    .scroll-row { display: flex; overflow-x: auto; gap: 15px; padding: 10px 5px; scrollbar-width: none; width: 100%; align-items: center; }
+    .scroll-row::-webkit-scrollbar { display: none; }
 
     .channel-card {
-      flex-shrink: 0; width: 160px; height: 100px; background: rgba(17, 17, 17, 0.85); border-radius: 12px;
+      position: relative; flex-shrink: 0; width: 160px; height: 100px; background: rgba(17, 17, 17, 0.85); border-radius: 12px;
       border: 2px solid #00ccff; box-shadow: 0 0 0 2px #ff00cc; padding: 10px;
       text-align: center; cursor: pointer; transition: all 0.2s ease;
       display: flex; flex-direction: column; align-items: center; justify-content: center;
@@ -91,6 +136,35 @@
     .channel-card img { height: 50px; max-width: 100%; object-fit: contain; margin-bottom: 5px; filter: none !important; }
     .channel-card span { display: block; font-size: 12px; color: white; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; width: 100%; }
     .channel-card:focus, .channel-card.focused { border: 2px solid #ffcc00; box-shadow: 0 0 10px #ffcc00; transform: scale(1.05); }
+
+    .category-item {
+      position: relative; display: flex; align-items: center; justify-content: center;
+      width: 100px; height: 100px; border-radius: 50%; cursor: grab;
+      border: 2px solid #00ccff; box-shadow: 0 0 0 2px #ff00cc; flex-shrink: 0; transition: all 0.2s ease;
+      background-size: cover; background-position: center; background-repeat: no-repeat;
+      overflow: hidden; text-align: center; padding: 8px; user-select: none;
+    }
+    .category-overlay {
+      position: absolute; top: 0; left: 0; width: 100%; height: 100%;
+      background: rgba(0, 0, 0, 0.6); z-index: 1; transition: background 0.2s;
+    }
+    .category-text {
+      position: relative; z-index: 2; color: #ffffff; font-size: 0.8rem; font-weight: bold;
+      text-transform: uppercase; text-shadow: 2px 2px 3px rgba(0,0,0,1);
+      display: -webkit-box; -webkit-line-clamp: 3; -webkit-box-orient: vertical; overflow: hidden;
+      line-height: 1.2; word-break: break-word;
+    }
+    .category-item:focus, .category-item.focused { 
+      border: 2px solid #ffcc00; box-shadow: 0 0 12px #ffcc00; transform: scale(1.05); 
+    }
+
+    .badge-live {
+      position: absolute; top: 6px; left: 6px; background: rgba(255, 0, 104, 1); color: white;
+      font-size: 8px; font-weight: bold; padding: 1px 4px; border-radius: 4px;
+      letter-spacing: 0.5px; z-index: 5;
+      animation: parpadeo 1.5s infinite;
+    }
+    @keyframes parpadeo { 0% { opacity: 1; } 50% { opacity: 0.3; } 100% { opacity: 1; } }
 
     .poster-card {
       flex-shrink: 0; width: 110px; cursor: pointer; border-radius: 12px;
@@ -109,47 +183,31 @@
     .ver-todo-card span { color: #38bdf8; font-weight: bold; font-size: 12px; }
     .ver-todo-card:focus, .ver-todo-card.focused { border: 2px solid #ffcc00; box-shadow: 0 0 10px #ffcc00; transform: scale(1.05); }
 
-    .category-item {
-      display: inline-block; background: rgba(17, 17, 17, 0.85); color: white; font-size: 1rem;
-      padding: 8px 18px; margin-right: 15px; border-radius: 30px; cursor: pointer;
-      border: 2px solid #00ccff; box-shadow: 0 0 0 2px #ff00cc; flex-shrink: 0; transition: all 0.2s ease;
-    }
-    .category-item:focus, .category-item.focused {
-      border: 2px solid #ffcc00; box-shadow: 0 0 10px #ffcc00; background: rgba(255, 255, 255, 0.2) !important; transform: scale(1.05);
-    }
-
-    .loading { position: fixed; top: 50%; left: 50%; transform: translate(-50%, -50%); background: rgba(0,0,0,0.8); color: #ff00cc; padding: 12px 20px; border-radius: 40px; z-index: 9999; display: none; }
     .channel-logo { position: fixed; top: 20px; right: 40px; max-width: 130px; max-height: 70px; z-index: 9998; pointer-events: none; }
+
+    .toast-favoritos {
+      position: fixed; bottom: 30px; left: 50%; transform: translateX(-50%);
+      background: rgba(0, 0, 0, 0.85); color: #ffffff; border: 2px solid #00ccff;
+      box-shadow: 0 0 10px #ff00cc; padding: 10px 25px; border-radius: 20px;
+      font-weight: bold; font-size: 14px; z-index: 99999; pointer-events: none;
+      opacity: 0; transition: opacity 0.3s ease;
+    }
 
     @media screen and (max-width: 768px) {
       .barra-alias-tv {
-        width: 92%; max-width: 440px; flex-direction: row; flex-wrap: wrap; gap: 10px; padding: 6px 15px;
-        border-radius: 20px; background: rgba(0, 0, 0, 0.9) !important; border-width: 2px; box-shadow: 0 0 10px #ff00cc; top: 5px;
+        width: 92%; max-width: 440px; flex-direction: row; flex-wrap: wrap; gap: 6px; padding: 5px 12px;
+        border-radius: 20px; background: rgba(15, 5, 25, 0.95) !important; border-width: 2px; top: 5px;
       }
-      .titulo-alias { font-size: 0.75rem; width: 100%; text-align: center; margin-bottom: -2px; letter-spacing: 0.5px; }
-      .contenedor-banco { flex: 1; justify-content: center; gap: 6px; background: rgba(255,255,255,0.05); padding: 4px 8px; border-radius: 10px; }
-      .texto-alias { font-size: 0.95rem; font-weight: bold; }
-      .contenedor-banco img { height: 20px; }
+      .titulo-alias { font-size: 0.7rem; width: 100%; text-align: center; margin-bottom: -2px; }
+      .contenedor-banco { flex: 1; justify-content: center; gap: 4px; background: rgba(255,255,255,0.05); padding: 3px 6px; border-radius: 8px; }
+      .texto-alias { font-size: 0.8rem; font-weight: bold; }
+      .contenedor-banco img { height: 18px; }
 
       .cast-container {
-        display: block !important;
-        position: fixed;
-        top: 62px;
-        right: 22px;
-        z-index: 9999;
-        background: rgba(0, 0, 0, 0.7);
-        padding: 2px;
-        border-radius: 50%;
-        transition: opacity 0.4s ease;
+        display: block !important; position: fixed; top: 62px; right: 22px; z-index: 9999;
+        background: rgba(0, 0, 0, 0.7); padding: 2px; border-radius: 50%; transition: opacity 0.4s ease;
       }
-      google-cast-launcher {
-        display: block;
-        width: 35px;
-        height: 35px;
-        cursor: pointer;
-        --connected-color: #00ccff;
-        --disconnected-color: #ffffff;
-      }
+      google-cast-launcher { display: block; width: 35px; height: 35px; cursor: pointer; --connected-color: #00ccff; --disconnected-color: #ffffff; }
 
       .side-menu {
         left: 0; top: 0; transform: none; width: 100%; height: auto; flex-direction: row;
@@ -158,7 +216,12 @@
       }
       .side-menu.hidden-ui { transform: translateY(-100%); opacity: 0; }
 
-      .content-area { left: 8px; right: 8px; bottom: 8px; max-height: 52%; padding-bottom: 10px; overflow-y: auto; }
+      .content-area { 
+        left: 8px !important; right: 8px !important; top: 450px !important; 
+        bottom: 8px !important; max-height: calc(100vh - 460px) !important; 
+        overflow-y: auto !important; background: transparent !important; 
+        padding-right: 0px !important; padding-left: 8px !important; z-index: 10 !important;
+      }
       .content-area.hidden-ui { transform: translateY(100%); opacity: 0; }
       .section-title { font-size: 0.9rem; margin: 10px 0 3px 0; }
 
@@ -167,34 +230,42 @@
       .channel-card { width: 115px; height: 75px; padding: 6px; border-radius: 8px; }
       .channel-card img { height: 60%; max-width: 95%; object-fit: contain !important; margin-bottom: 2px; filter: none !important; }
       .channel-card span { font-size: 9px; display: block !important; }
+      
+      .category-item { width: 70px; height: 70px; padding: 4px; }
+      .category-text { font-size: 0.65rem; -webkit-line-clamp: 3; text-shadow: 1px 1px 2px rgba(0,0,0,1); }
 
+      .badge-live { font-size: 7px; padding: 1px 4px; top: 4px; left: 4px; }
       .poster-card { width: 75px; border-radius: 8px; }
       .poster-card img { border-radius: 6px; filter: none !important; }
       .poster-card span { font-size: 8px; padding: 2px; display: block !important; }
-
       .ver-todo-card { width: 75px; border-radius: 8px; }
       .ver-todo-card span { font-size: 9px; }
-
-      .category-item { font-size: 0.8rem; padding: 5px 12px; margin-right: 6px; border-width: 2px; }
-      .channel-logo { top: 65px; right: 15px; max-width: 75px; max-height: 40px; }
+      .channel-logo { top: 80px !important; right: 15px !important; max-width: 75px; max-height: 40px; }
+      .waves-container { width: 80%; height: 40px; bottom: 12%; }
     }
   </style>
 </head>
 <body>
 
-<div class="player-container"><video id="videoPlayer" autoplay playsinline crossorigin="anonymous"></video></div>
+<div class="player-container"><video id="videoPlayer" autoplay="" playsinline=""></video></div>
 
-<div id="audioVisualLayer" class="audio-visual-layer">
+<div id="audioVisualLayer" class="audio-visual-layer" style="display: none;">
+  <div id="radioNeonBorder" class="radio-neon-border"></div>
   <img id="audioBackgroundImg" src="" alt="Audio Player Cover">
+  <div class="waves-container">
+    <div class="wave-bar"></div><div class="wave-bar"></div><div class="wave-bar"></div>
+    <div class="wave-bar"></div><div class="wave-bar"></div><div class="wave-bar"></div>
+    <div class="wave-bar"></div><div class="wave-bar"></div><div class="wave-bar"></div>
+    <div class="wave-bar"></div><div class="wave-bar"></div><div class="wave-bar"></div>
+  </div>
 </div>
 
-<!-- === CONTENEDOR DE CHROMECAST (VISIBLE EN TODOS LADOS) === -->
-<div class="cast-container" id="castContainer" style="display: block !important;">
-  <google-cast-launcher id="castButton"></google-cast-launcher>
+<div class="cast-container" id="castContainer" style="opacity: 0;">
+  <google-cast-launcher id="castButton" style="display: none;"></google-cast-launcher>
 </div>
 
 <div class="barra-alias-tv" id="barraAlias">
-  <div class="titulo-alias">APOYA A MAX CON TU DONACIÓN</div>
+  <div class="titulo-alias">LA APP ES GRATUITA,APOYANOS CON TU DONACIÓN</div>
   <div class="contenedor-banco">
     <img src="https://tinyurl.com/Mrcaado" alt="MP">
     <p class="texto-alias">claudio.2661</p>
@@ -210,519 +281,766 @@
   <div class="menu-icon" data-type="movies" tabindex="0"><img src="https://cdn.phototourl.com/free/2026-05-23-5203ab51-2efc-4fd1-997e-d8780cde8cf6.png" alt="PELICULAS"></div>
   <div class="menu-icon" data-type="series" tabindex="0"><img src="https://cdn.phototourl.com/free/2026-05-23-c4871927-60d8-4b85-9cfc-fa3738c41675.png" alt="SERIES"></div>
   <div class="menu-icon" data-type="kids" tabindex="0"><img src="https://cdn.phototourl.com/free/2026-05-23-8aa8534b-4de3-45fc-8dfd-f6edc4b249f3.png" alt="KIDS"></div>
+  <div class="menu-icon" data-type="favorites" tabindex="0"><img src="https://tinyurl.com/Favorit0os" alt="FAVORITOS"></div>
 </div>
 
 <div id="contentArea" class="content-area"></div>
-<div class="loading" id="loadingMsg">Cargando...</div>
+<div id="toastFavoritos" class="toast-favoritos"></div>
 
 <script>
-  // === MANEJAR BOTÓN ATRÁS DEL NAVEGADOR EN MODO WEB (GitHub Pages) ===
-  window.history.pushState(null, null, window.location.href);
-  window.addEventListener('popstate', function(e) {
-    // Solo en modo web (GitHub Pages)
-    if (window.location.hostname.includes('github.io') ||
-        window.location.hostname.includes('shehub')) {
-      e.preventDefault();
-      showUi();
-      renderHome();
-      window.history.pushState(null, null, window.location.href);
-    }
-  });
+  const MOSTRAR_PANEL_DONACIONES = "SI";
 
   document.addEventListener('DOMContentLoaded', function() {
     window.TV_URL = "https://tinyurl.com/2n2etx65";
     window.MOVIES_URL = "https://tinyurl.com/2vz6vphp";
     window.SERIES_URL = "https://tinyurl.com/seriesmgtv";
     window.KIDS_URL = "https://tinyurl.com/peliskids";
-    window.logosCanales = { "giatv-208744": "https://tinyurl.com/2uysrbe7", "giatv-208138": "https://tinyurl.com/6tptw4t2", "giatv-209163": "https://tinyurl.com/48xkysmd", "giatv-208817": "https://tinyurl.com/4m768mja", "giatv-209909": "https://tinyurl.com/89bw22fh", "giatv-208730": "https://tinyurl.com/mgtvcomedy" };
-    window.tvGroups = {}; window.moviesGroups = {}; window.seriesGroups = {}; window.kidsGroups = {}; window.currentHls = null; window.currentMpegts = null; window.currentMode = "home"; window.uiTimeout = null; window.isUiHidden = false; window.lastPlayedTvUrl = "";
-
+    window.logosCanales = { "giatv-212009": "https://tinyurl.com/Mgworshipp", "giatv-208138": "https://tinyurl.com/Maxcinefucsia", "giatv-209163": "https://tinyurl.com/Max2fucsia", "giatv-208817": "https://tinyurl.com/Maxcinefamily", "giatv-209909": "https://tinyurl.com/Maxcinekids", "giatv-208730": "https://tinyurl.com/Maxcinecomedy", "giatv-208538": "https://tinyurl.com/Mgtvkidss", "giatv-211465": "https://tinyurl.com/Chavitooo", "giatv-208744": "https://tinyurl.com/Restellitv", "giatv-211979": "https://tinyurl.com/Housedoooc", "giatv-208770": "https://tinyurl.com/Fevivamusic", "https://lbgo.bozztv.com/ssh101/ssh101/imcu/playlist.m3u8": "https://tinyurl.com/LogoM4rv3L", "https://live20.bozztv.com/akamaissh101/ssh101/montegrandetv/chunks.m3u8": "https://tinyurl.com/Mgtevev" };
+    window.tvGroups = {}; window.moviesGroups = {}; window.seriesGroups = {}; window.kidsGroups = {}; window.currentHls = null; window.currentMpegts = null; 
+    
+    window.currentMode = "home"; 
+    window.isSubView = false; 
+    window.uiTimeout = null; window.isUiHidden = false; window.lastPlayedTvUrl = ""; 
     window.channelCache = {};
     window.currentStreamingUrl = "";
+    window.playDebounceTimeout = null;
+    
+    window.CINCO_MINUTOS_MS = 5 * 60 * 1000; 
+    window.UN_MINUTO_MS = 60 * 1000; 
+    window.DOS_HORAS_MS = 2 * 60 * 60 * 1000;
+    window.temporizadorDonaciones = null;
+    window.temporizadorOcultarDonaciones = null;
 
-    // === DETECTAR SI ESTAMOS EN PÁGINA WEB (GitHub Pages) ===
-    window.isWebMode = window.location.hostname.includes('github.io') ||
-                     window.location.hostname.includes('shehub') ||
-                     window.location.hostname.includes('localhost') ||
-                     window.location.hostname === '' ||
-                     window.location.href.includes('file://');
+    window.FONDOS_CATEGORIAS = {
+      "buenos aires": "https://images.unsplash.com/photo-1549693578-d683be217e58?q=80&width=200",
+      "deportes": "https://images.unsplash.com/photo-1508098682722-e99c43a406b2?q=80&width=200",
+      "argentina": "https://flagcdn.com/w320/ar.png",
+      "cine premium": "https://images.unsplash.com/photo-1489599849927-2ee91cede3ba?q=80&width=200",
+      "kids": "https://images.unsplash.com/photo-1566577739112-5180d4bf9390?q=80&width=200",
+      "anime": "https://images.unsplash.com/photo-1578632767115-351597cf2477?q=80&width=200",
+      "cine premier": "https://images.unsplash.com/photo-1517604931442-7e0c8ed2963c?q=80&width=200",
+      "cine premium 2": "https://images.unsplash.com/photo-1485846234645-a62644f84728?q=80&width=200",
+      "chile": "https://flagcdn.com/w320/cl.png",
+      "paraguay": "https://flagcdn.com/w320/py.png",
+      "bolivia": "https://flagcdn.com/w320/bo.png",
+      "brasil": "https://flagcdn.com/w320/br.png",
+      "venezuela": "https://flagcdn.com/w320/ve.png",
+      "general": "https://images.unsplash.com/photo-1594909122845-11baa439b7bf?q=80&width=200",
+      "perú": "https://flagcdn.com/w320/pe.png",
+      "ecuador": "https://flagcdn.com/w320/ec.png",
+      "pr.ee.uu": "https://flagcdn.com/w320/us.png",
+      "puerto rico/eeuu": "https://flagcdn.com/w320/us.png",
+      "puerto rico": "https://flagcdn.com/w320/pr.png",
+      "estados unidos": "https://flagcdn.com/w320/us.png",
+      "eeuu": "https://flagcdn.com/w320/us.png",
+      "mexico": "https://flagcdn.com/w320/mx.png",
+      "méxico": "https://flagcdn.com/w320/mx.png",
+      "españa": "https://flagcdn.com/w320/es.png",
+      "guatemala": "https://flagcdn.com/w320/gt.png",
+      "colombia": "https://flagcdn.com/w320/co.png",
+      "r.dominicana": "https://flagcdn.com/w320/do.png",
+      "cuba": "https://flagcdn.com/w320/cu.png",
+      "elsalvador": "https://flagcdn.com/w320/sv.png",
+      "el salvador": "https://flagcdn.com/w320/sv.png",
+      "costa rica": "https://flagcdn.com/w320/cr.png",
+      "costarica": "https://flagcdn.com/w320/cr.png",
+      "honduras": "https://flagcdn.com/w320/hn.png",
+      "nicaragua": "https://flagcdn.com/w320/ni.png",
+      "cristiano": "https://images.unsplash.com/photo-1544427928-c49cd12bce34?q=80&width=200",
+      "radio secular": "https://images.unsplash.com/photo-1478737270239-2f02b77fc618?q=80&width=200",
+      "radio cristiana": "https://images.unsplash.com/photo-1512445253579-2415b3a7266a?q=80&width=200",
+      "radio cristianas": "https://images.unsplash.com/photo-1512445253579-2415b3a7266a?q=80&width=200",
+      "mp3-claudio": "https://images.unsplash.com/photo-1511671782779-c97d3d27a1d4?q=80&width=200",
+      "mp3 music": "https://images.unsplash.com/photo-1506157786151-b8491531f063?q=80&width=200",
+      "mp3 música": "https://images.unsplash.com/photo-1506157786151-b8491531f063?q=80&width=200"
+    };
 
-    // === OCULTAR BOTONES DE PELÍCULAS/SERIES/KIDS EN MODO WEB ===
-    if (window.isWebMode) {
-      var iconsToHide = document.querySelectorAll('.menu-icon[data-type="movies"], .menu-icon[data-type="series"], .menu-icon[data-type="kids"]');
-      iconsToHide.forEach(function(icon) {
-        icon.style.display = 'none';
+    window.video = document.getElementById('videoPlayer'); window.contentArea = document.getElementById('contentArea'); window.sideMenu = document.getElementById('sideMenu'); window.barraAlias = document.getElementById('barraAlias');
+    window.audioVisualLayer = document.getElementById('audioVisualLayer'); window.audioBackgroundImg = document.getElementById('audioBackgroundImg');
+
+    function iniciarCicloDonaciones() {
+      if (MOSTRAR_PANEL_DONACIONES.toUpperCase() !== "SI") {
+        window.barraAlias.style.display = 'none';
+        return;
+      }
+      clearTimeout(window.temporizadorDonaciones);
+      clearTimeout(window.temporizadorOcultarDonaciones);
+      
+      window.temporizadorDonaciones = setTimeout(function() {
+        mostrarBannerDonaciones();
+        setInterval(function() {
+          mostrarBannerDonaciones();
+        }, window.DOS_HORAS_MS);
+      }, window.CINCO_MINUTOS_MS);
+    }
+
+    function mostrarBannerDonaciones() {
+      if (MOSTRAR_PANEL_DONACIONES.toUpperCase() !== "SI") return;
+      window.barraAlias.classList.add('visible');
+      clearTimeout(window.temporizadorOcultarDonaciones);
+      window.temporizadorOcultarDonaciones = setTimeout(function() {
+        window.barraAlias.classList.remove('visible');
+      }, window.UN_MINUTO_MS);
+    }
+
+    function showToast(text) {
+      var toast = document.getElementById('toastFavoritos');
+      if (!toast) return;
+      toast.textContent = text;
+      toast.style.opacity = "1";
+      clearTimeout(window.toastTimeout);
+      window.toastTimeout = setTimeout(function() { toast.style.opacity = "0"; }, 2000);
+    }
+
+    function getFavoritos() {
+      try { return JSON.parse(localStorage.getItem('mgtv_favoritos')) || []; } catch(e) { return []; }
+    }
+
+    function toggleFavorito(ch) {
+      var favs = getFavoritos();
+      var index = -1;
+      for (var i = 0; i < favs.length; i++) {
+        if (favs[i].url === ch.url) { index = i; break; }
+      }
+      if (index > -1) {
+        favs.splice(index, 1);
+        showToast("Quitado de Favoritos");
+      } else {
+        favs.push(ch);
+        showToast("Añadido a Favoritos");
+      }
+      localStorage.setItem('mgtv_favoritos', JSON.stringify(favs));
+      if (window.currentMode === "home" && !window.isSubView) { renderHome(); }
+      else if (window.currentMode === "favorites") { renderFavorites(); }
+    }
+
+    // REGISTRO DE CANALES MÁS VISTOS REALES (CON LÍMITE DE 10)
+    function registrarCanalVisto(ch) {
+      try {
+        var historial = JSON.parse(localStorage.getItem('mgtv_historial_vistos')) || [];
+        var idx = -1;
+        for (var i = 0; i < historial.length; i++) {
+          if (historial[i].url === ch.url) { idx = i; break; }
+        }
+        if (idx > -1) {
+          historial[idx].contador = (historial[idx].contador || 1) + 1;
+        } else {
+          historial.push({ name: ch.name, url: ch.url, logo: ch.logo, group: ch.group, contador: 1 });
+        }
+        // Ordenar de mayor a menor
+        historial.sort(function(a, b) { return b.contador - a.contador; });
+        // Limitar a los 10 primeros
+        localStorage.setItem('mgtv_historial_vistos', JSON.stringify(historial.slice(0, 10)));
+      } catch(e){}
+    }
+
+    function getMasVistosReales() {
+      try {
+        var historial = JSON.parse(localStorage.getItem('mgtv_historial_vistos')) || [];
+        return historial;
+      } catch(e) { return []; }
+    }
+
+    function bindLongClick(element, channelObj) {
+      var pressTimer;
+      var isLongPress = false;
+      var keyStartTime = 0;
+      element.addEventListener('touchstart', function(e) {
+        isLongPress = false;
+        clearTimeout(pressTimer);
+        pressTimer = setTimeout(function() {
+          isLongPress = true;
+          toggleFavorito(channelObj);
+        }, 1200);
+      }, {passive: true});
+      element.addEventListener('touchend', function(e) { clearTimeout(pressTimer); }, {passive: true});
+      element.addEventListener('touchmove', function(e) { clearTimeout(pressTimer); }, {passive: true});
+      element.addEventListener('keydown', function(e) {
+        if (e.key === "Enter" || e.keyCode === 13) {
+          if (!keyStartTime) {
+            keyStartTime = Date.now();
+            isLongPress = false;
+            clearTimeout(pressTimer);
+            pressTimer = setTimeout(function() {
+              isLongPress = true;
+              toggleFavorito(channelObj);
+            }, 1200);
+          }
+        }
+      });
+      element.addEventListener('keyup', function(e) {
+        if (e.key === "Enter" || e.keyCode === 13) {
+          clearTimeout(pressTimer);
+          var duration = Date.now() - keyStartTime;
+          keyStartTime = 0;
+          if (isLongPress || duration >= 1200) {
+            e.preventDefault();
+            e.stopPropagation();
+            isLongPress = false;
+          }
+        }
       });
     }
 
-    window.SEIS_HORAS_MS = 6 * 60 * 60 * 1000; window.TIEMPO_INACTIVIDAD = 5 * 60 * 1000; window.VISIBLE_CORTO = 60 * 1000; window.VISIBLE_LARGO = 2 * 60 * 1000; window.ESPERA_CORTO = 30 * 60 * 1000; window.ESPERA_LARGO = 60 * 60 * 1000;
-    window.tiempoInicioApp = Date.now(); window.temporizadorAlias = null; window.temporizadorVisibilidad = null; window.reproduciendoVideo = false;
-    window.video = document.getElementById('videoPlayer'); window.contentArea = document.getElementById('contentArea'); window.sideMenu = document.getElementById('sideMenu'); window.loadingMsg = document.getElementById('loadingMsg'); window.barraAlias = document.getElementById('barraAlias');
-    window.audioVisualLayer = document.getElementById('audioVisualLayer'); window.audioVisualLayer = document.getElementById('audioVisualLayer'); window.audioBackgroundImg = document.getElementById('audioBackgroundImg');
+    video.addEventListener('playing', function() { 
+      video.classList.add('video-activo'); 
+      window.reproduciendoVideo = true; 
+    });
 
-    window.__onGCastApiAvailable = function(isAvailable) {
-      if (isAvailable && window.cast) {
-        try {
-          var context = cast.framework.CastContext.getInstance();
-          context.setOptions({
-            receiverApplicationId: chrome.cast.media.DEFAULT_MEDIA_RECEIVER_APP_ID,
-            autoJoinPolicy: chrome.cast.AutoJoinPolicy.ORIGIN_SCOPED
-          });
+    function presionoBotonMando() { if (window.barraAlias.classList.contains('visible')) window.barraAlias.classList.remove('visible'); }
+    
+    function destroyPlayers() { 
+      if (window.audioVisualLayer) window.audioVisualLayer.style.display = 'none';
+      video.classList.remove('video-activo'); 
+      window.reproduciendoVideo = false; 
+      
+      if (window.currentHls) { 
+        try { window.currentHls.detachMedia(); window.currentHls.destroy(); } catch(e){}
+        window.currentHls = null; 
+      } 
+      if (window.currentMpegts) { 
+        try { window.currentMpegts.unload(); window.currentMpegts.detachMediaElement(); window.currentMpegts.destroy(); } catch(e){}
+        window.currentMpegts = null; 
+      } 
+      video.pause(); 
+      video.removeAttribute('src'); 
+      video.load(); 
+    }
 
-          context.addEventListener(cast.framework.CastContextEventType.SESSION_STATE_CHANGED, function(event) {
-            if (event.sessionState === cast.framework.SessionState.SESSION_STARTED || event.sessionState === cast.framework.SessionState.SESSION_RESUMED) {
-              if (window.currentStreamingUrl) {
-                enviarUrlAChromecast(window.currentStreamingUrl);
-              }
-            }
-          });
-        } catch(e) { console.log("Error CastContext:", e); }
-      }
-    };
+    function playUrl(url, channelObj) { 
+      if (!url) return; 
+      
+      window.lastPlayedTvUrl = url; 
+      try { localStorage.setItem('mgtv_last_channel', url); } catch(e){}
+      if (channelObj) { registrarCanalVisto(channelObj); }
 
-    // === SOLO MODIFIQUÉ ESTA FUNCIÓN PARA ARREGLAR LOS CANALES CON NÚMEROS Y "GIA" ===
-    function enviarUrlAChromecast(url) {
-      if (window.cast && cast.framework) {
-        var context = cast.framework.CastContext.getInstance();
-        var currentSession = context.getCurrentSession();
-        if (currentSession) {
-          var urlDecodificada = decodeURIComponent(url).toLowerCase();
+      clearTimeout(window.playDebounceTimeout);
+      window.playDebounceTimeout = setTimeout(function() {
+        ejecutarCargaUrl(url);
+      }, 200);
+    }
 
-          // Detección inteligente de tipo de contenido
-          var contentType;
-          if (urlDecodificada.includes('.m3u') ||
-              urlDecodificada.includes('gia') ||
-              urlDecodificada.includes(':8080/') ||
-              urlDecodificada.includes(':25461/') ||
-              urlDecodificada.includes('/stream/')) {
-            contentType = 'application/x-mpegURL'; // Fuerza M3U8 para streams de TV
-          } else if (urlDecodificada.includes('.ts')) {
-            contentType = 'video/mp2t';
-          } else if (urlDecodificada.includes('.mp3')) {
-            contentType = 'audio/mp3';
-          } else {
-            var ext = urlDecodificada.split('?')[0].split('.').pop();
-            if (ext === 'm3u8' || ext === 'm3u') {
-              contentType = 'application/x-mpegURL';
-            } else if (ext === 'ts') {
-              contentType = 'video/mp2t';
-            } else if (ext === 'mp3') {
-              contentType = 'audio/mp3';
-            } else {
-              contentType = 'video/mp4';
-            }
-          }
+    function ejecutarCargaUrl(url) {
+      mostrarLogo(url);
+      window.currentStreamingUrl = url;
+      
+      destroyPlayers(); 
 
-          var mediaInfo = new chrome.cast.media.MediaInfo(url, contentType);
-          mediaInfo.streamType = chrome.cast.media.StreamType.BUFFERED;
-
-          var metadata = new chrome.cast.media.GenericMediaMetadata();
-          metadata.title = "MGTV MAX";
-
-          var cached = window.channelCache[url] || window.channelCache[decodeURIComponent(url)];
-          if (cached && cached.logo) {
-            metadata.images = [new chrome.cast.Image(cached.logo)];
-          } else {
-            for (var id in window.logosCanales) {
-              if (url.includes(id)) {
-                metadata.images = [new chrome.cast.Image(window.logosCanales[id])];
-                break;
-              }
-            }
-          }
-
-          mediaInfo.metadata = metadata;
-          var request = new chrome.cast.media.LoadRequest(mediaInfo);
-
-          currentSession.loadMedia(request).then(function() {
-            console.log('Carga Cast exitosa');
-          }).catch(function(err) {
-            console.log('Error Cast:', err);
-          });
-          destroyPlayers();
+      var urlDecodificada = decodeURIComponent(url);
+      var ext = urlDecodificada.split('?')[0].split('.').pop().toLowerCase();
+      
+      var isMpegTs = (ext === 'ts' || url.indexOf(':25461/') !== -1);
+      var cachedChannel = window.channelCache[url] || window.channelCache[urlDecodificada];
+      
+      var esContenidoAudio = false;
+      if (cachedChannel) {
+        var nombreLower = cachedChannel.name.toLowerCase();
+        var groupLower = cachedChannel.group.toLowerCase();
+        if (ext === 'mp3' || groupLower.includes('radio') || groupLower.includes('mp3') || nombreLower.includes('radio') || nombreLower.includes('mp3')) { 
+          esContenidoAudio = true; 
         }
       }
+      
+      if (esContenidoAudio) {
+        window.audioBackgroundImg.src = (cachedChannel && cachedChannel.logo && cachedChannel.logo.trim() !== "" && cachedChannel.logo.indexOf('127.0.0.1') === -1 && cachedChannel.logo.indexOf('placehold.co') === -1) ? cachedChannel.logo : "https://tinyurl.com/Maximagenn";
+        window.audioVisualLayer.style.display = 'flex';
+        video.src = url; 
+        video.play().catch(function() { video.load(); video.play(); });
+      } else {
+        window.audioVisualLayer.style.display = 'none';
+        video.style.display = 'block';
+
+        if (isMpegTs && window.mpegts && mpegts.isSupported()) { 
+          try { 
+            window.currentMpegts = mpegts.createPlayer({ type: 'mpegts', url: url, isLive: true }, { enableStashBuffer: true, liveBufferLatencyChasing: false, stashInitialSize: 128 }); 
+            window.currentMpegts.attachMediaElement(video); 
+            window.currentMpegts.load(); 
+            window.currentMpegts.play().catch(function(){}); 
+          } catch(e) { video.src = url; video.play().catch(function(){}); } 
+        } else if (window.Hls && Hls.isSupported()) { 
+          window.currentHls = new Hls({ enableWorker: true, lowLatencyMode: false, manifestLoadingTimeOut: 5000, levelLoadingTimeOut: 5000 }); 
+          window.currentHls.attachMedia(video); 
+          window.currentHls.loadSource(url); 
+          window.currentHls.on(Hls.Events.MANIFEST_PARSED, function() { video.play().catch(function(){}); }); 
+          window.currentHls.on(Hls.Events.ERROR, function (event, data) { if (data.fatal) { destroyPlayers(); video.src = url; video.play().catch(function(){}); } }); 
+        } else { 
+          video.src = url; 
+          video.play().catch(function() { video.load(); video.play().catch(function(){}); }); 
+        }
+      }
+      ocultarInterfazDespuesDeJugar(); 
     }
 
-    video.addEventListener('playing', function() { video.classList.add('video-activo'); window.reproduciendoVideo = true; reprogramarTemporizadorAlias(); });
-    video.addEventListener('error', desarmarTemporizadorAlias); video.addEventListener('ended', desarmarTemporizadorAlias);
-
-    function dispararMuestraAlias() {
-      var transcurrido = Date.now() - window.tiempoInicioApp;
-      var esFaseDos = transcurrido > window.SEIS_HORAS_MS;
-      window.barraAlias.classList.add('visible');
-      window.temporizadorVisibilidad = setTimeout(function() {
-        window.barraAlias.classList.remove('visible');
-        if (window.reproduciendoVideo) window.temporizadorAlias = setTimeout(dispararMuestraAlias, esFaseDos ? window.ESPERA_LARGO : window.ESPERA_CORTO);
-      }, esFaseDos ? window.VISIBLE_LARGO : window.VISIBLE_CORTO);
+    function ocultarInterfazDespuesDeJugar() { clearTimeout(window.uiTimeout); window.uiTimeout = setTimeout(hideUi, 4000); }
+    function playUrlExternaNatividad(url) { if (!url) return; destroyPlayers(); hideUi(); window.currentStreamingUrl = url; var urlCod = encodeURI(url.trim()); window.location.href = "intent://" + urlCod.replace(/^https?:\/\//, '') + "#Intent;action=android.intent.action.VIEW;type=" + (urlCod.indexOf('.m3u8') !== -1 ? "application/x-mpegURL" : "video/*") + ";scheme=http;end;"; }
+    function mostrarLogo(url) { var old = document.querySelector('.channel-logo'); if (old) old.remove(); for (var id in window.logosCanales) { if (url.includes(id)) { var img = document.createElement('img'); img.className = 'channel-logo'; img.src = window.logosCanales[id]; document.body.appendChild(img); break; } } }
+    
+    function fetchM3UGroups(url, isTv, callback) { 
+      try { 
+        var xhr = new XMLHttpRequest(); xhr.open("GET", url, true); xhr.onreadystatechange = function () { 
+          if (xhr.readyState === 4) { 
+            var groups = {}; 
+            if (xhr.status === 200) { 
+              var lines = xhr.responseText.split("\n"); var name = "", group = "General", logo = ""; 
+              for (var i = 0; i < lines.length; i++) { 
+                var line = lines[i].trim(); 
+                if (line.indexOf("#EXTINF") === 0) { 
+                  var n = line.match(/,([^,]+)$/); name = n ? n[1] : "Sin título"; 
+                  var g = line.match(/group-title="([^"]*)"/); group = g ? g[1] : "General"; 
+                  var l = line.match(/tvg-logo="([^"]*)"/); logo = l ? l[1] : ""; 
+                } else if (line.indexOf("http") === 0) { 
+                  if (name) { 
+                    var channelObj = { name: name, url: line, logo: (logo && logo !== "http://127.0.0.1/") ? logo : null, group: group };
+                    if (!groups[group]) groups[group] = []; 
+                    groups[group].push(channelObj); 
+                    if (isTv) { window.channelCache[line] = channelObj; }
+                  } name = ""; 
+                } 
+              } 
+            } callback(groups); 
+          } 
+        }; xhr.send(); 
+      } catch(e) { callback({}); } 
     }
-    function reprogramarTemporizadorAlias() { clearTimeout(window.temporizadorAlias); clearTimeout(window.temporizadorVisibilidad); window.barraAlias.classList.remove('visible'); if (!window.reproduciendoVideo) return; window.temporizadorAlias = setTimeout(dispararMuestraAlias, window.TIEMPO_INACTIVIDAD); }
-    function desarmarTemporizadorAlias() { clearTimeout(window.temporizadorAlias); clearTimeout(window.temporizadorVisibilidad); window.barraAlias.classList.remove('visible'); }
-    function presionoBotonMando() { if (window.barraAlias.classList.contains('visible')) window.barraAlias.classList.remove('visible'); if (window.reproduciendoVideo) reprogramarTemporizadorAlias(); }
-    function showLoading(show) { window.loadingMsg.style.display = show ? 'flex' : 'none'; }
 
-    function destroyPlayers() {
-      if (window.audioVisualLayer) window.audioVisualLayer.style.display = 'none';
-      video.classList.remove('video-activo'); desarmarTemporizadorAlias(); window.reproduciendoVideo = false;
-      if (window.currentHls) { window.currentHls.destroy(); window.currentHls = null; }
-      if (window.currentMpegts) { window.currentMpegts.destroy(); window.currentMpegts = null; }
-      video.removeAttribute('crossorigin'); video.pause(); video.removeAttribute('src'); video.load();
+    function loadAllData(finalCallback) { window.channelCache = {}; fetchM3UGroups(window.TV_URL, true, function(g1) { window.tvGroups = g1; fetchM3UGroups(window.MOVIES_URL, false, function(g2) { window.moviesGroups = g2; fetchM3UGroups(window.SERIES_URL, false, function(g3) { window.seriesGroups = g3; fetchM3UGroups(window.KIDS_URL, false, function(g4) { window.kidsGroups = g4; finalCallback(); }); }); }); }); }
+    
+    function renderHome() { 
+      window.currentMode = "home"; window.isSubView = false; window.contentArea.innerHTML = '';
+      
+      var m3uKeysOriginal = Object.keys(window.tvGroups);
+      
+      var masVistosReales = getMasVistosReales();
+      if (masVistosReales.length === 0) {
+        var firstKey = m3uKeysOriginal[0];
+        var firstCatChannels = firstKey ? (window.tvGroups[firstKey] || []) : [];
+        masVistosReales = firstCatChannels.slice(0, 6);
+      }
+
+      if (masVistosReales.length) { 
+        var title = document.createElement('div'); title.className = 'section-title'; title.textContent = 'LO MÁS VISTO AHORA'; window.contentArea.appendChild(title); 
+        var row = document.createElement('div'); row.className = 'scroll-row'; 
+        masVistosReales.forEach(function(ch) { 
+          var card = document.createElement('div'); card.className = 'channel-card'; card.setAttribute('tabindex', '0'); card.setAttribute('data-url', ch.url); 
+          var badge = document.createElement('div'); badge.className = 'badge-live'; badge.textContent = 'LIVE'; card.appendChild(badge);
+          var img = document.createElement('img'); var logoUrl = null; for (var id in window.logosCanales) if (ch.url && ch.url.includes(id)) logoUrl = window.logosCanales[id]; 
+          img.src = logoUrl || ch.logo || 'https://placehold.co/200x300/1a1a1a/888?text=No+logo'; card.appendChild(img); 
+          var span = document.createElement('span'); span.textContent = ch.name; card.appendChild(span); 
+          card.onclick = function() { playUrl(ch.url, ch); }; bindLongClick(card, ch); row.appendChild(card); 
+        }); window.contentArea.appendChild(row); 
+      } 
+      
+      var catTitle = document.createElement('div'); catTitle.className = 'section-title'; catTitle.textContent = 'CATEGORÍAS'; window.contentArea.appendChild(catTitle); 
+      var catRow = document.createElement('div'); catRow.className = 'scroll-row'; catRow.id = 'categoryRow';
+      
+      m3uKeysOriginal.forEach(function(realKey) {
+        var cleanKey = realKey.toLowerCase().trim();
+        var catDiv = document.createElement('div'); 
+        catDiv.className = 'category-item'; 
+        catDiv.setAttribute('tabindex', '0'); 
+        catDiv.dataset.name = realKey;
+        
+        var fondoUrl = "";
+        if (window.FONDOS_CATEGORIAS[cleanKey]) fondoUrl = window.FONDOS_CATEGORIAS[cleanKey];
+        else {
+          for (var keyword in window.FONDOS_CATEGORIAS) {
+            if (cleanKey.includes(keyword)) { fondoUrl = window.FONDOS_CATEGORIAS[keyword]; break; }
+          }
+          if (!fondoUrl) fondoUrl = "https://images.unsplash.com/photo-1579546929518-9e396f3cc809?q=80&width=200";
+        }
+        catDiv.style.backgroundImage = "url('" + fondoUrl + "')";
+        
+        var overlay = document.createElement('div'); overlay.className = 'category-overlay'; catDiv.appendChild(overlay);
+        var textSpan = document.createElement('span'); textSpan.className = 'category-text'; textSpan.textContent = realKey; catDiv.appendChild(textSpan);
+        catDiv.onclick = function() { showCategoryChannels(realKey); }; 
+        catRow.appendChild(catDiv);
+      }); 
+      
+      window.contentArea.appendChild(catRow); 
+      
+      if (masVistosReales.length && !window.lastPlayedTvUrl) {
+        setTimeout(function() { playUrl(masVistosReales[0].url, masVistosReales[0]); }, 100);
+      } 
+      setTimeout(focusFirstAvailable, 50); resetUiTimeout(); 
     }
 
-    function playUrl(url) {
-      if (!url) return;
-      window.lastPlayedTvUrl = url;
-      window.currentStreamingUrl = url;
-      mostrarLogo(url);
+    function renderFavorites() {
+      window.currentMode = "favorites"; window.isSubView = false; window.contentArea.innerHTML = '';
+      var favoritosLista = getFavoritos();
+      var title = document.createElement('div'); title.className = 'section-title'; title.textContent = 'MIS CANALES FAVORITOS'; window.contentArea.appendChild(title);
+      if (favoritosLista.length === 0) {
+        var emptyRow = document.createElement('div'); emptyRow.className = 'scroll-row';
+        var noFavs = document.createElement('span'); noFavs.style.color = "#888"; noFavs.style.fontSize = "14px"; noFavs.textContent = "No tienes canales en favoritos.";
+        emptyRow.appendChild(noFavs); window.contentArea.appendChild(emptyRow);
+      } else {
+        var row = document.createElement('div'); row.className = 'scroll-row';
+        favoritosLista.forEach(function(ch) {
+          var card = document.createElement('div'); card.className = 'channel-card'; card.setAttribute('tabindex', '0'); card.setAttribute('data-url', ch.url);
+          var badge = document.createElement('div'); badge.className = 'badge-live'; badge.textContent = 'LIVE'; card.appendChild(badge);
+          var img = document.createElement('img'); var logoUrl = null; for (var id in window.logosCanales) if (ch.url && ch.url.includes(id)) logoUrl = window.logosCanales[id];
+          img.src = logoUrl || ch.logo || 'https://placehold.co/200x300/1a1a1a/888?text=No+logo'; card.appendChild(img);
+          var span = document.createElement('span'); span.textContent = ch.name; card.appendChild(span);
+          card.onclick = function() { playUrl(ch.url, ch); }; bindLongClick(card, ch); row.appendChild(card);
+        }); window.contentArea.appendChild(row);
+      }
+      setTimeout(focusFirstAvailable, 50); resetUiTimeout();
+    }
+    
+    function showCategoryChannels(categoryName) { 
+      var channels = window.tvGroups[categoryName] || []; if (!channels.length) return; 
+      window.isSubView = true; window.contentArea.innerHTML = ''; 
+      var title = document.createElement('div'); title.className = 'section-title'; title.textContent = categoryName; window.contentArea.appendChild(title); 
+      var row = document.createElement('div'); row.className = 'scroll-row'; 
+      channels.forEach(function(ch) { 
+        var card = document.createElement('div'); card.className = 'channel-card'; card.setAttribute('tabindex', '0'); card.setAttribute('data-url', ch.url); 
+        var badge = document.createElement('div'); badge.className = 'badge-live'; badge.textContent = 'LIVE'; card.appendChild(badge);
+        var img = document.createElement('img'); var logoUrl = null; for (var id in window.logosCanales) if (ch.url && ch.url.includes(id)) logoUrl = window.logosCanales[id]; 
+        img.src = logoUrl || ch.logo || 'https://placehold.co/200x300/1a1a1a/888?text=No+logo'; card.appendChild(img); 
+        var span = document.createElement('span'); span.textContent = ch.name; card.appendChild(span); 
+        card.onclick = function() { playUrl(ch.url, ch); }; bindLongClick(card, ch); row.appendChild(card); 
+      }); window.contentArea.appendChild(row); 
+      
+      setTimeout(function() {
+        var ultimoCanal = window.lastPlayedTvUrl;
+        try { if (!ultimoCanal) ultimoCanal = localStorage.getItem('mgtv_last_channel'); } catch(e){}
 
-      if (window.cast && cast.framework) {
-        var currentSession = cast.framework.CastContext.getInstance().getCurrentSession();
-        if (currentSession) {
-          enviarUrlAChromecast(url);
-          ocultarInterfazDespuesDeJugar();
+        if (ultimoCanal) {
+          var targetCard = window.contentArea.querySelector('[data-url="' + ultimoCanal + '"]');
+          if (targetCard) {
+            targetCard.focus();
+            var parentRow = targetCard.closest('.scroll-row');
+            if (parentRow) ensureScrollVisible(parentRow, targetCard);
+            return;
+          }
+        }
+        focusFirstAvailable();
+      }, 50);
+      resetUiTimeout(); 
+    }
+    
+    function renderMoviesOrKids(data, mode) { 
+      window.currentMode = mode; window.isSubView = false; window.contentArea.innerHTML = ''; 
+      for (var groupName in data) { 
+        if (!data.hasOwnProperty(groupName)) continue; var items = data[groupName]; if (!items.length) continue; 
+        var title = document.createElement('div'); title.className = 'section-title'; title.textContent = groupName; window.contentArea.appendChild(title); 
+        var row = document.createElement('div'); row.className = 'scroll-row'; 
+        items.slice(0, 8).forEach(function(item) { 
+          var card = document.createElement('div'); card.className = 'poster-card'; card.setAttribute('tabindex', '0'); 
+          var img = document.createElement('img'); img.src = item.logo || 'https://placehold.co/200x300/1a1a1a/888?text=Sin+imagen'; card.appendChild(img); 
+          card.onclick = function() { playUrlExternaNatividad(item.url); }; row.appendChild(card); 
+        }); 
+        (function(gName) { 
+          var verTodo = document.createElement('div'); verTodo.className = 'ver-todo-card'; verTodo.setAttribute('tabindex', '0'); verTodo.innerHTML = '<span>VER TODO</span>'; 
+          verTodo.onclick = function() { showAllItems(data, gName); }; row.appendChild(verTodo); 
+        })(groupName); 
+        window.contentArea.appendChild(row); 
+      } 
+      window.contentArea.scrollTop = 0; setTimeout(focusFirstAvailable, 50); resetUiTimeout(); 
+    }
+    
+    function renderSeries(data) { 
+      window.currentMode = "series"; window.isSubView = false; window.contentArea.innerHTML = ''; 
+      for (var groupName in data) { 
+        if (!data.hasOwnProperty(groupName)) continue; var items = data[groupName]; if (!items.length) continue; 
+        var title = document.createElement('div'); title.className = 'section-title'; title.textContent = groupName; window.contentArea.appendChild(title); 
+        var row = document.createElement('div'); row.className = 'scroll-row'; 
+        items.slice(0, 8).forEach(function(item) { 
+          var card = document.createElement('div'); card.className = 'poster-card'; card.setAttribute('tabindex', '0'); 
+          var img = document.createElement('img'); img.src = item.logo || 'https://placehold.co/200x300/1a1a1a/888?text=Sin+imagen'; card.appendChild(img); 
+          var span = document.createElement('span'); span.textContent = item.name; card.appendChild(span); 
+          card.onclick = function() { playUrlExternaNatividad(item.url); }; card.appendChild(span); 
+          row.appendChild(card); 
+        }); 
+        (function(gName) { 
+          var verTodo = document.createElement('div'); verTodo.className = 'ver-todo-card'; verTodo.setAttribute('tabindex', '0'); verTodo.innerHTML = '<span>VER TODO</span>'; 
+          verTodo.onclick = function() { showAllItems(data, gName); }; row.appendChild(verTodo); 
+        })(groupName); 
+        window.contentArea.appendChild(row); 
+      } 
+      window.contentArea.scrollTop = 0; setTimeout(focusFirstAvailable, 50); resetUiTimeout(); 
+    } 
+    
+    function showAllItems(data, groupName) { 
+      var items = data[groupName] || []; if (!items.length) return; 
+      window.isSubView = true; window.contentArea.innerHTML = ''; 
+      var title = document.createElement('div'); title.className = 'section-title'; title.textContent = groupName + " (Todas)"; window.contentArea.appendChild(title); 
+      var row = document.createElement('div'); row.className = 'scroll-row'; 
+      items.forEach(function(item) { 
+        var card = document.createElement('div'); card.className = 'poster-card'; card.setAttribute('tabindex', '0'); 
+        var img = document.createElement('img'); img.src = item.logo || 'https://placehold.co/200x300/1a1a1a/888?text=Sin+imagen'; card.appendChild(img); 
+        if (window.currentMode === 'series') { var span = document.createElement('span'); span.textContent = item.name; card.appendChild(span); } 
+        card.onclick = function() { playUrlExternaNatividad(item.url); }; row.appendChild(card); 
+      }); window.contentArea.appendChild(row); window.contentArea.scrollTop = 0; setTimeout(focusFirstAvailable, 50); resetUiTimeout(); 
+    }
+    
+    function focusFirstAvailable() { 
+      var ultimoCanal = window.lastPlayedTvUrl;
+      try { if (!ultimoCanal) ultimoCanal = localStorage.getItem('mgtv_last_channel'); } catch(e){}
+
+      if (ultimoCanal) { 
+        var targetCard = window.contentArea.querySelector('[data-url="' + ultimoCanal + '"]'); 
+        if (targetCard) { targetCard.focus(); var parentRow = targetCard.closest('.scroll-row'); if (parentRow) ensureScrollVisible(parentRow, targetCard); return; } 
+      } 
+      var mainItems = window.contentArea.querySelectorAll('[tabindex="0"]'); 
+      if (mainItems.length > 0) mainItems[0].focus(); 
+      else { var firstMenu = document.querySelector('.menu-icon'); if(firstMenu) firstMenu.focus(); } 
+    }
+
+    function focusSelectedMenuIcon() {
+      var icon = document.querySelector('.menu-icon[data-type="' + window.currentMode + '"]');
+      if (icon) icon.focus();
+      else { var firstMenu = document.querySelector('.menu-icon'); if(firstMenu) firstMenu.focus(); }
+    }
+    
+    function showUi() { 
+      window.isUiHidden = false; 
+      window.sideMenu.classList.remove('hidden-ui'); 
+      window.contentArea.classList.remove('hidden-ui'); 
+      var castCont = document.getElementById('castContainer'); 
+      if (castCont && window.innerWidth <= 768) { castCont.style.opacity = "1"; } 
+      
+      setTimeout(function() {
+        var ultimoCanal = window.lastPlayedTvUrl;
+        try { if (!ultimoCanal) ultimoCanal = localStorage.getItem('mgtv_last_channel'); } catch(e){}
+
+        if (ultimoCanal) {
+          var targetCard = window.contentArea.querySelector('[data-url="' + ultimoCanal + '"]');
+          if (targetCard) {
+            targetCard.focus();
+            var parentRow = targetCard.closest('.scroll-row');
+            if (parentRow) ensureScrollVisible(parentRow, targetCard);
+            return;
+          }
+        }
+        focusFirstAvailable();
+      }, 50);
+
+      resetUiTimeout(); 
+    }
+
+    function hideUi() { 
+      window.isUiHidden = true; 
+      window.sideMenu.classList.add('hidden-ui'); 
+      window.contentArea.classList.add('hidden-ui'); 
+      var castCont = document.getElementById('castContainer'); 
+      if (castCont) { castCont.style.opacity = "0"; }
+      
+      var activeEl = document.activeElement;
+      if (activeEl && activeEl.hasAttribute('data-url')) {
+        window.lastPlayedTvUrl = activeEl.getAttribute('data-url');
+        try { localStorage.setItem('mgtv_last_channel', window.lastPlayedTvUrl); } catch(e){}
+      }
+
+      if (activeEl && window.innerWidth > 768) activeEl.blur(); 
+    }
+
+    function resetUiTimeout() { clearTimeout(window.uiTimeout); window.uiTimeout = setTimeout(hideUi, 5000); }
+
+    function lockAppHistory() {
+      try {
+        history.pushState({ page: "mgtv_app" }, "", location.href);
+      } catch(e){}
+    }
+    lockAppHistory();
+    window.addEventListener('popstate', function (e) {
+      lockAppHistory();
+      manejarBotonAtras();
+    });
+
+    function manejarBotonAtras() {
+      if (window.audioVisualLayer && window.audioVisualLayer.style.display !== 'none') {
+        destroyPlayers();
+        showUi();
+        focusFirstAvailable();
+        return;
+      }
+
+      if (window.isUiHidden) {
+        showUi();
+        return;
+      }
+
+      var active = document.activeElement;
+      var inSideMenu = active && active.classList.contains('menu-icon');
+
+      if (window.isSubView) {
+        if (window.currentMode === 'movies') renderMoviesOrKids(window.moviesGroups, 'movies');
+        else if (window.currentMode === 'series') renderSeries(window.seriesGroups);
+        else if (window.currentMode === 'kids') renderMoviesOrKids(window.kidsGroups, 'kids');
+        else renderHome();
+        return;
+      }
+
+      if (!inSideMenu) {
+        var mainItems = window.contentArea.querySelectorAll('[tabindex="0"]');
+        if (mainItems.length > 0 && active !== mainItems[0]) {
+          mainItems[0].focus();
+          window.contentArea.scrollTop = 0;
+          return;
+        } else {
+          focusSelectedMenuIcon();
           return;
         }
       }
 
-      destroyPlayers();
-      var urlDecodificada = decodeURIComponent(url);
-      var ext = urlDecodificada.split('?')[0].split('.').pop().toLowerCase();
-      var isMpegTs = (ext === 'ts' || url.indexOf(':25461/') !== -1);
-      var esContenidoAudio = false;
-
-      var cachedChannel = window.channelCache[url] || window.channelCache[urlDecodificada];
-      if (cachedChannel) {
-        var nombreLower = cachedChannel.name.toLowerCase();
-        var groupLower = cachedChannel.group.toLowerCase();
-        if (ext === 'mp3' || groupLower.includes('radio') || groupLower.includes('mp3') || nombreLower.includes('radio') || nombreLower.includes('mp3')) {
-          esContenidoAudio = true;
+      if (inSideMenu) {
+        if (window.currentMode !== 'home') {
+          var homeIcon = document.querySelector('.menu-icon[data-type="home"]');
+          if (homeIcon && active !== homeIcon) {
+            homeIcon.focus();
+            return;
+          }
         }
+        hideUi();
+      }
+    }
+    
+    function handleKeydown(e) { 
+      if (typeof presionoBotonMando === 'function') { presionoBotonMando(); }
+
+      var keyCode = e.keyCode || e.which;
+      var isBackKey = (
+        e.key === 'Escape' || e.key === 'Back' || e.key === 'GoBack' || e.key === 'BrowserBack' || 
+        e.key === 'Backspace' || keyCode === 27 || keyCode === 8 || keyCode === 461 || keyCode === 10009 || keyCode === 4
+      );
+
+      if (isBackKey) {
+        e.preventDefault();
+        e.stopPropagation();
+        e.stopImmediatePropagation();
+        manejarBotonAtras();
+        return false;
       }
 
-      if (esContenidoAudio) {
-        window.audioBackgroundImg.src = (cachedChannel && cachedChannel.logo && cachedChannel.logo.trim() !== "" && cachedChannel.logo.indexOf('127.0.0.1') === -1 && cachedChannel.logo.indexOf('placehold.co') === -1) ? cachedChannel.logo : "https://tinyurl.com/Maximagen";
-        window.audioVisualLayer.style.display = 'flex';
-        video.removeAttribute('crossorigin'); video.src = url; video.load();
-        var playPromise = video.play();
-        if (playPromise !== undefined) { playPromise.catch(function() { video.load(); video.play(); }); }
-      } else {
-        window.audioVisualLayer.style.display = 'none';
-        video.setAttribute('crossorigin', 'anonymous');
-        if (isMpegTs && window.mpegts && mpegts.isSupported()) {
-          try {
-            window.currentMpegts = mpegts.createPlayer({ type: 'mpegts', url: url, isLive: true }, { lazyLoad: false, enableStashBuffer: false, liveBufferLatencyChaser: true, stashInitialSize: 32 * 1024 });
-            window.currentMpegts.attachMediaElement(video); window.currentMpegts.load(); window.currentMpegts.play();
-          } catch(e) { video.src = url; video.play(); }
-        } else if (window.Hls && Hls.isSupported()) {
-          window.currentHls = new Hls({ enableWorker: true, lowLatencyMode: true, maxBufferLength: 10 });
-          window.currentHls.attachMedia(video); window.currentHls.loadSource(url);
-          window.currentHls.on(Hls.Events.MANIFEST_PARSED, function() { video.play(); });
-          window.currentHls.on(Hls.Events.ERROR, function (event, data) { if (data.fatal) { switch (data.type) { case Hls.ErrorTypes.NETWORK_ERROR: window.currentHls.startLoad(); break; case Hls.ErrorTypes.MEDIA_ERROR: window.currentHls.recoverMediaError(); break; default: destroyPlayers(); video.src = url; video.play(); break; } } });
-        } else if (video.canPlayType('application/vnd.apple.mpegurl')) {
-          video.src = url; video.play();
+      if (window.isUiHidden) { 
+        if (e.key === 'ArrowLeft' || e.key === 'ArrowRight' || e.key === 'ArrowUp' || e.key === 'ArrowDown' || e.key === 'Enter') {
+          e.preventDefault(); showUi(); focusFirstAvailable(); return; 
         }
-      }
-      ocultarInterfazDespuesDeJugar();
-    }
+      } 
+      resetUiTimeout(); 
 
-    function ocultarInterfazDespuesDeJugar() { clearTimeout(window.uiTimeout); window.uiTimeout = setTimeout(hideUi, 3000); }
-    function playUrlExternaNatividad(url) { if (!url) return; destroyPlayers(); hideUi(); window.currentStreamingUrl = url; var urlCod = encodeURI(url.trim()); window.location.href = "intent://" + urlCod.replace(/^https?:\/\//, '') + "#Intent;action=android.intent.action.VIEW;type=" + (urlCod.indexOf('.m3u8') !== -1 ? "application/x-mpegURL" : "video/*") + ";scheme=http;end;"; }
-    function mostrarLogo(url) { var old = document.querySelector('.channel-logo'); if (old) old.remove(); for (var id in window.logosCanales) { if (url.includes(id)) { var img = document.createElement('img'); img.className = 'channel-logo'; img.src = window.logosCanales[id] + "?t=" + Date.now(); document.body.appendChild(img); break; } } }
+      var active = document.activeElement; 
+      if (!active) return; 
 
-    function fetchM3UGroups(url, isTv, callback) {
-      try {
-        var xhr = new XMLHttpRequest(); xhr.open("GET", url + "?t=" + Date.now(), true); xhr.onreadystatechange = function () {
-          if (xhr.readyState === 4) {
-            var groups = {};
-            if (xhr.status === 200) {
-              var lines = xhr.responseText.split("\n"); var name = "", group = "General", logo = "";
-              for (var i = 0; i < lines.length; i++) {
-                var line = lines[i].trim();
-                if (line.indexOf("#EXTINF") === 0) {
-                  var n = line.match(/,([^,]+)$/); name = n ? n[1] : "Sin título";
-                  var g = line.match(/group-title="([^"]*)"/); group = g ? g[1] : "General";
-                  var l = line.match(/tvg-logo="([^"]*)"/); logo = l ? l[1] : "";
-                } else if (line.indexOf("http") === 0) {
-                  if (name) {
-                    var channelObj = { name: name, url: line, logo: (logo && logo !== "http://127.0.0.1/") ? logo : null, group: group };
-                    if (!groups[group]) groups[group] = [];
-                    groups[group].push(channelObj);
-                    if (isTv) { window.channelCache[line] = channelObj; }
-                  } name = "";
-                }
-              }
-            } callback(groups);
+      var inSideMenu = active.classList.contains('menu-icon'); 
+      var menuItems = Array.prototype.slice.call(window.sideMenu.querySelectorAll('.menu-icon')); 
+      var rows = Array.prototype.slice.call(window.contentArea.querySelectorAll('.scroll-row')); 
+      
+      var currentCtxItems = [], currentRowIdx = -1, currentItemIdx = -1; 
+      if (!inSideMenu) { 
+        rows.forEach(function(row, rIdx) { 
+          var items = Array.prototype.slice.call(row.querySelectorAll('[tabindex="0"]')); 
+          var iIdx = items.indexOf(active); 
+          if (iIdx !== -1) { currentRowIdx = rIdx; currentItemIdx = iIdx; currentCtxItems = items; } 
+        }); 
+      } 
+
+      switch (e.key) { 
+        case 'ArrowLeft': 
+          if (!inSideMenu) { 
+            e.preventDefault();
+            if (currentItemIdx > 0) { 
+              currentCtxItems[currentItemIdx - 1].focus(); 
+              ensureScrollVisible(rows[currentRowIdx], currentCtxItems[currentItemIdx - 1]); 
+            } else { 
+              focusSelectedMenuIcon(); 
+            } 
+          } 
+          break; 
+          
+        case 'ArrowRight': 
+          if (inSideMenu) { 
+            e.preventDefault(); 
+            focusFirstAvailable(); 
+          } else if (currentItemIdx < currentCtxItems.length - 1) { 
+            e.preventDefault(); 
+            currentCtxItems[currentItemIdx + 1].focus(); 
+            ensureScrollVisible(rows[currentRowIdx], currentCtxItems[currentItemIdx + 1]); 
+          } 
+          break; 
+          
+        case 'ArrowUp': 
+          if (inSideMenu) { 
+            e.preventDefault(); 
+            var mIdx = menuItems.indexOf(active); 
+            if (mIdx > 0) menuItems[mIdx - 1].focus(); 
+          } else if (currentRowIdx > 0) { 
+            e.preventDefault();
+            var targetRowItems = Array.prototype.slice.call(rows[currentRowIdx - 1].querySelectorAll('[tabindex="0"]')); 
+            var targetIdx = Math.min(currentItemIdx, targetRowItems.length - 1); 
+            if (targetRowItems[targetIdx]) { 
+              targetRowItems[targetIdx].focus(); 
+              ensureVerticalScrollVisible(targetRowItems[targetIdx]); 
+              ensureScrollVisible(rows[currentRowIdx - 1], targetRowItems[targetIdx]); 
+            } 
+          } 
+          break; 
+          
+        case 'ArrowDown': 
+          if (inSideMenu) { 
+            e.preventDefault(); 
+            var mIdx = menuItems.indexOf(active); 
+            if (mIdx < menuItems.length - 1) menuItems[mIdx + 1].focus(); 
+          } else if (currentRowIdx < rows.length - 1) { 
+            e.preventDefault();
+            var targetRowItems = Array.prototype.slice.call(rows[currentRowIdx + 1].querySelectorAll('[tabindex="0"]')); 
+            var targetIdx = Math.min(currentItemIdx, targetRowItems.length - 1); 
+            if (targetRowItems[targetIdx]) { 
+              targetRowItems[targetIdx].focus(); 
+              ensureVerticalScrollVisible(targetRowItems[targetIdx]); 
+              ensureScrollVisible(rows[currentRowIdx + 1], targetRowItems[targetIdx]); 
+            } 
+          } 
+          break; 
+
+        case 'Enter': 
+          if (!active.hasAttribute('data-url') || window.currentMode !== 'home') { 
+            e.preventDefault(); 
+            active.click(); 
           }
-        }; xhr.send();
-      } catch(e) { callback({}); }
+          break; 
+      } 
     }
 
-    function loadAllData(finalCallback) {
-      showLoading(true);
-      window.channelCache = {};
-      fetchM3UGroups(window.TV_URL, true, function(g1) {
-        window.tvGroups = g1;
-        fetchM3UGroups(window.MOVIES_URL, false, function(g2) {
-          window.moviesGroups = g2;
-          fetchM3UGroups(window.SERIES_URL, false, function(g3) {
-            window.seriesGroups = g3;
-            fetchM3UGroups(window.KIDS_URL, false, function(g4) {
-              window.kidsGroups = g4;
-              showLoading(false);
-              finalCallback();
-            });
-          });
-        });
-      });
-    }
-
-    function renderHome() {
-      window.currentMode = "home"; window.contentArea.innerHTML = ''; var categories = []; for (var k in window.tvGroups) if (window.tvGroups.hasOwnProperty(k)) categories.push(k); if (categories.length === 0) return;
-      var featured = window.tvGroups[categories[0]].slice(0, 6);
-      if (featured.length) {
-        var title = document.createElement('div'); title.className = 'section-title'; title.textContent = 'LO MÁS VISTO AHORA'; window.contentArea.appendChild(title);
-        var row = document.createElement('div'); row.className = 'scroll-row';
-        featured.forEach(function(ch) {
-          var card = document.createElement('div'); card.className = 'channel-card'; card.setAttribute('tabindex', '0'); card.setAttribute('data-url', ch.url);
-          var img = document.createElement('img'); var logoUrl = null; for (var id in window.logosCanales) if (ch.url && ch.url.includes(id)) logoUrl = window.logosCanales[id];
-          img.src = logoUrl || ch.logo || 'https://placehold.co/200x300/1a1a1a/888?text=No+logo'; card.appendChild(img);
-          var span = document.createElement('span'); span.textContent = ch.name; card.appendChild(span);
-          card.onclick = function() { playUrl(ch.url); }; row.appendChild(card);
-        }); window.contentArea.appendChild(row);
-      }
-      var catTitle = document.createElement('div'); catTitle.className = 'section-title'; catTitle.textContent = 'CATEGORÍAS'; window.contentArea.appendChild(catTitle);
-      var catRow = document.createElement('div'); catRow.className = 'scroll-row';
-      categories.forEach(function(cat) {
-        var catSpan = document.createElement('span'); catSpan.className = 'category-item'; catSpan.setAttribute('tabindex', '0'); catSpan.textContent = cat;
-        catSpan.onclick = function() { showCategoryChannels(cat); }; catRow.appendChild(catSpan);
-      }); window.contentArea.appendChild(catRow);
-      if (featured.length && !window.lastPlayedTvUrl) playUrl(featured[0].url);
-      setTimeout(focusFirstAvailable, 100); resetUiTimeout();
-    }
-
-    function showCategoryChannels(categoryName) {
-      var channels = window.tvGroups[categoryName] || []; if (!channels.length) return; window.contentArea.innerHTML = '';
-      var title = document.createElement('div'); title.className = 'section-title'; title.textContent = categoryName; window.contentArea.appendChild(title);
-      var row = document.createElement('div'); row.className = 'scroll-row';
-      channels.forEach(function(ch) {
-        var card = document.createElement('div'); card.className = 'channel-card'; card.setAttribute('tabindex', '0'); card.setAttribute('data-url', ch.url);
-        var img = document.createElement('img'); var logoUrl = null; for (var id in window.logosCanales) if (ch.url && ch.url.includes(id)) logoUrl = window.logosCanales[id];
-        img.src = logoUrl || ch.logo || 'https://placehold.co/200x300/1a1a1a/888?text=No+logo'; card.appendChild(img);
-        var span = document.createElement('span'); span.textContent = ch.name; card.appendChild(span);
-        card.onclick = function() { playUrl(ch.url); }; row.appendChild(card);
-      }); window.contentArea.appendChild(row); setTimeout(focusFirstAvailable, 100); resetUiTimeout();
-    }
-
-    function renderMoviesOrKids(data, mode) {
-      window.currentMode = mode; window.contentArea.innerHTML = '';
-      for (var groupName in data) {
-        if (!data.hasOwnProperty(groupName)) continue; var items = data[groupName]; if (!items.length) continue;
-        var title = document.createElement('div'); title.className = 'section-title'; title.textContent = groupName; window.contentArea.appendChild(title);
-        var row = document.createElement('div'); row.className = 'scroll-row';
-        items.slice(0, 8).forEach(function(item) {
-          var card = document.createElement('div'); card.className = 'poster-card'; card.setAttribute('tabindex', '0');
-          var img = document.createElement('img'); img.src = item.logo || 'https://placehold.co/200x300/1a1a1a/888?text=Sin+imagen'; card.appendChild(img);
-          card.onclick = function() { playUrlExternaNatividad(item.url); }; row.appendChild(card);
-        });
-        (function(gName) {
-          var verTodo = document.createElement('div'); verTodo.className = 'ver-todo-card'; verTodo.setAttribute('tabindex', '0'); verTodo.innerHTML = '<span>VER TODO</span>';
-          verTodo.onclick = function() { showAllItems(data, gName); }; row.appendChild(verTodo);
-        })(groupName);
-        window.contentArea.appendChild(row);
-      }
-      window.contentArea.scrollTop = 0; setTimeout(focusFirstAvailable, 100); resetUiTimeout();
-    }
-
-    function renderSeries(data) {
-      window.currentMode = "series"; window.contentArea.innerHTML = '';
-      for (var groupName in data) {
-        if (!data.hasOwnProperty(groupName)) continue; var items = data[groupName]; if (!items.length) continue;
-        var title = document.createElement('div'); title.className = 'section-title'; title.textContent = groupName; window.contentArea.appendChild(title);
-        var row = document.createElement('div'); row.className = 'scroll-row';
-        items.slice(0, 8).forEach(function(item) {
-          var card = document.createElement('div'); card.className = 'poster-card'; card.setAttribute('tabindex', '0');
-          var img = document.createElement('img'); img.src = item.logo || 'https://placehold.co/200x300/1a1a1a/888?text=Sin+imagen'; card.appendChild(img);
-          var span = document.createElement('span'); span.textContent = item.name; card.appendChild(span);
-          card.onclick = function() { playUrlExternaNatividad(item.url); }; row.appendChild(card);
-        });
-        (function(gName) {
-          var verTodo = document.createElement('div'); verTodo.className = 'ver-todo-card'; verTodo.setAttribute('tabindex', '0'); verTodo.innerHTML = '<span>VER TODO</span>';
-          verTodo.onclick = function() { showAllItems(data, gName); }; row.appendChild(verTodo);
-        })(groupName);
-        window.contentArea.appendChild(row);
-      }
-      window.contentArea.scrollTop = 0; setTimeout(focusFirstAvailable, 100); resetUiTimeout();
-    }
-
-    function showAllItems(data, groupName) {
-      var items = data[groupName] || []; if (!items.length) return; window.contentArea.innerHTML = '';
-      var title = document.createElement('div'); title.className = 'section-title'; title.textContent = groupName + " (Todas)"; window.contentArea.appendChild(title);
-      var row = document.createElement('div'); row.className = 'scroll-row';
-      items.forEach(function(item) {
-        var card = document.createElement('div'); card.className = 'poster-card'; card.setAttribute('tabindex', '0');
-        var img = document.createElement('img'); img.src = item.logo || 'https://placehold.co/200x300/1a1a1a/888?text=Sin+imagen'; card.appendChild(img);
-        if (window.currentMode === 'series') { var span = document.createElement('span'); span.textContent = item.name; card.appendChild(span); }
-        card.onclick = function() { playUrlExternaNatividad(item.url); }; row.appendChild(card);
-      }); window.contentArea.appendChild(row); window.contentArea.scrollTop = 0; setTimeout(focusFirstAvailable, 100); resetUiTimeout();
-    }
-
-    function focusFirstAvailable() {
-      if (window.currentMode === 'home' && window.lastPlayedTvUrl) {
-        var targetCard = window.contentArea.querySelector('[data-url="' + window.lastPlayedTvUrl + '"]');
-        if (targetCard) { targetCard.focus(); var parentRow = targetCard.closest('.scroll-row'); if (parentRow) ensureScrollVisible(parentRow, targetCard); return; }
-      }
-      var mainItems = window.contentArea.querySelectorAll('[tabindex="0"]');
-      if (mainItems.length > 0) mainItems[0].focus();
-      else { var firstMenu = document.querySelector('.menu-icon'); if(firstMenu) firstMenu.focus(); }
-    }
-
-    function showUi() {
-      window.isUiHidden = false;
-      window.sideMenu.classList.remove('hidden-ui');
-      window.contentArea.classList.remove('hidden-ui');
-      var castCont = document.getElementById('castContainer');
-      if (castCont && window.innerWidth <= 768) { castCont.style.opacity = "1"; }
-      resetUiTimeout();
-    }
-    function hideUi() {
-      window.isUiHidden = true;
-      window.sideMenu.classList.add('hidden-ui');
-      window.contentArea.classList.add('hidden-ui');
-      var castCont = document.getElementById('castContainer');
-      if (castCont) { castCont.style.opacity = "0"; }
-      if (document.activeElement) document.activeElement.blur();
-    }
-    function resetUiTimeout() { clearTimeout(window.uiTimeout); window.uiTimeout = setTimeout(hideUi, 5000); }
-
-    function handleKeydown(e) {
-      presionoBotonMando();
-      if (window.isUiHidden) { e.preventDefault(); showUi(); focusFirstAvailable(); return; }
-      resetUiTimeout();
-      var active = document.activeElement; if (!active) return;
-      var inSideMenu = active.classList.contains('menu-icon');
-      var menuItems = Array.prototype.slice.call(window.sideMenu.querySelectorAll('.menu-icon'));
-      var rows = Array.prototype.slice.call(window.contentArea.querySelectorAll('.scroll-row'));
-      var currentCtxItems = [], currentRowIdx = -1, currentItemIdx = -1;
-
-      if (!inSideMenu) {
-        rows.forEach(function(row, rIdx) {
-          var items = Array.prototype.slice.call(row.querySelectorAll('[tabindex="0"]'));
-          var iIdx = items.indexOf(active); if (iIdx !== -1) { currentRowIdx = rIdx; currentItemIdx = iIdx; currentCtxItems = items; }
-        });
-      }
-
-      switch (e.key) {
-        case 'ArrowLeft':
-          e.preventDefault();
-          if (!inSideMenu) {
-            if (currentItemIdx > 0) {
-              currentCtxItems[currentItemIdx - 1].focus(); ensureScrollVisible(rows[currentRowIdx], currentCtxItems[currentItemIdx - 1]);
-            } else { menuItems[0].focus(); }
-          }
-          break;
-        case 'ArrowRight':
-          e.preventDefault();
-          if (inSideMenu) { focusFirstAvailable(); }
-          else if (currentItemIdx < currentCtxItems.length - 1) {
-            currentCtxItems[currentItemIdx + 1].focus(); ensureScrollVisible(rows[currentRowIdx], currentCtxItems[currentItemIdx + 1]);
-          }
-          break;
-        case 'ArrowUp':
-          e.preventDefault();
-          if (inSideMenu) {
-            var mIdx = menuItems.indexOf(active); if (mIdx > 0) menuItems[mIdx - 1].focus();
-          } else if (currentRowIdx > 0) {
-            var targetRowItems = Array.prototype.slice.call(rows[currentRowIdx - 1].querySelectorAll('[tabindex="0"]'));
-            var targetIdx = Math.min(currentItemIdx, targetRowItems.length - 1);
-            if (targetRowItems[targetIdx]) {
-              targetRowItems[targetIdx].focus(); ensureVerticalScrollVisible(targetRowItems[targetIdx]); ensureScrollVisible(rows[currentRowIdx - 1], targetRowItems[targetIdx]);
-            }
-          }
-          break;
-        case 'ArrowDown':
-          e.preventDefault();
-          if (inSideMenu) {
-            var mIdx = menuItems.indexOf(active); if (mIdx < menuItems.length - 1) menuItems[mIdx + 1].focus();
-          } else if (currentRowIdx < rows.length - 1) {
-            var targetRowItems = Array.prototype.slice.call(rows[currentRowIdx + 1].querySelectorAll('[tabindex="0"]'));
-            var targetIdx = Math.min(currentItemIdx, targetRowItems.length - 1);
-            if (targetRowItems[targetIdx]) {
-              targetRowItems[targetIdx].focus(); ensureVerticalScrollVisible(targetRowItems[targetIdx]); ensureScrollVisible(rows[currentRowIdx + 1], targetRowItems[targetIdx]);
-            }
-          }
-          break;
-        case 'Enter': e.preventDefault(); active.click(); break;
-        case 'Escape': case 'Back': case 'GoBack':
-          e.preventDefault();
-          if (window.currentMode !== 'home') renderHome();
-          else if (window.isWebMode) { // En web: volver al menú en lugar de ocultar UI
-            showUi();
-            renderHome();
-          } else {
-            hideUi();
-          }
-          break;
-      }
-    }
-
-    function ensureScrollVisible(row, element) {
-      var rowBounds = row.getBoundingClientRect(); var elBounds = element.getBoundingClientRect();
-      if (elBounds.right > rowBounds.right) row.scrollLeft += (elBounds.right - rowBounds.right) + 40;
-      else if (elBounds.left < rowBounds.left) row.scrollLeft -= (rowBounds.left - elBounds.left) + 40;
+    function ensureScrollVisible(row, element) { 
+      var rowBounds = row.getBoundingClientRect(); var elBounds = element.getBoundingClientRect(); 
+      if (elBounds.right > rowBounds.right) row.scrollLeft += (elBounds.right - rowBounds.right) + 40; 
+      else if (elBounds.left < rowBounds.left) row.scrollLeft -= (rowBounds.left - elBounds.left) + 40; 
     }
 
     function ensureVerticalScrollVisible(element) {
-      var containerBounds = window.contentArea.getBoundingClientRect();
-      var elBounds = element.getBoundingClientRect();
+      var containerBounds = window.contentArea.getBoundingClientRect(); var elBounds = element.getBoundingClientRect();
       if (elBounds.bottom > containerBounds.bottom) { window.contentArea.scrollTop += (elBounds.bottom - containerBounds.bottom) + 30; }
       else if (elBounds.top < containerBounds.top) { window.contentArea.scrollTop -= (containerBounds.top - elBounds.top) + 30; }
     }
 
-    video.addEventListener('click', function() {
-      if (window.isUiHidden) {
-        showUi();
-        focusFirstAvailable();
-      } else {
-        hideUi();
+    video.addEventListener('click', function() { if (window.isUiHidden) { showUi(); focusFirstAvailable(); } else hideUi(); }); 
+    window.audioVisualLayer.addEventListener('click', function() { if (window.isUiHidden) { showUi(); focusFirstAvailable(); } else hideUi(); });
+    
+    window.addEventListener('keydown', handleKeydown, true); 
+    window.addEventListener('keyup', function(e) {
+      var keyCode = e.keyCode || e.which;
+      if (e.key === 'Escape' || e.key === 'Back' || keyCode === 27 || keyCode === 8 || keyCode === 4) {
+        e.preventDefault(); e.stopPropagation(); e.stopImmediatePropagation();
       }
-    });
+    }, true);
 
-    window.audioVisualLayer.addEventListener('click', function() {
-      if (window.isUiHidden) {
-        showUi();
-        focusFirstAvailable();
-      } else {
-        hideUi();
-      }
-    });
-
-    document.addEventListener('keydown', handleKeydown);
     document.addEventListener('click', presionoBotonMando);
-
-    function init() {
-      var icons = window.sideMenu.querySelectorAll('.menu-icon');
+    
+    function init() { 
+      var icons = window.sideMenu.querySelectorAll('.menu-icon'); 
       for (var i = 0; i < icons.length; i++) {
-        icons[i].addEventListener('click', function() {
-          var type = this.getAttribute('data-type');
-          window.contentArea.innerHTML = '';
-          if (type === 'home') {
-            renderHome();
-          }
-          else if (type === 'movies') {
-            window.lastPlayedTvUrl = "";
-            renderMoviesOrKids(window.moviesGroups, "movies");
-          }
-          else if (type === 'series') {
-            window.lastPlayedTvUrl = "";
-            renderSeries(window.seriesGroups);
-          }
-          else if (type === 'kids') {
-            window.lastPlayedTvUrl = "";
-            renderMoviesOrKids(window.kidsGroups, "kids");
-          }
-        });
+        icons[i].addEventListener('click', function() { 
+          var type = this.getAttribute('data-type'); window.contentArea.innerHTML = '';
+          if (type === 'home') { renderHome(); } 
+          else if (type === 'movies') { window.lastPlayedTvUrl = ""; renderMoviesOrKids(window.moviesGroups, "movies"); } 
+          else if (type === 'series') { window.lastPlayedTvUrl = ""; renderSeries(window.seriesGroups); } 
+          else if (type === 'kids') { window.lastPlayedTvUrl = ""; renderMoviesOrKids(window.kidsGroups, "kids"); } 
+          else if (type === 'favorites') { window.lastPlayedTvUrl = ""; renderFavorites(); }
+        }); 
       }
-      renderHome();
+      iniciarCicloDonaciones();
+      renderHome(); 
     }
     loadAllData(init);
   });
