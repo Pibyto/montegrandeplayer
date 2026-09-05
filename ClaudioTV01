@@ -7,6 +7,10 @@
 https://lbgo.bozztv.com/ssh101/ssh101/imcu/playlist.m3u8
 
 
+#EXTINF:-1 tvg-logo="https://tinyurl.com/Fevivamusic16"group-title="BUENOS AIRES",FE VIVA MUSIC
+https://live20.bozztv.com/giatvplayout7/giatv-208770/tracks-v1a1/mono.ts.m3u8
+
+
 #EXTINF:-1 tvg-logo="https://tinyurl.com/Neoteve"group-title="BUENOS AIRES",NEO TV DIGITAL HD. 16.1 
 https://videostream.shockmedia.com.ar:19360/neotvdigital/neotvdigital.m3u8
 
