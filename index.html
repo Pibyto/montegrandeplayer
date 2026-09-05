@@ -3,6 +3,13 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
   <title>MGTV MAX - Android TV</title>
+  
+  <!-- Configuración PWA integrada -->
+  <link rel="manifest" href="data:application/manifest+json;charset=utf-8,%7B%22name%22%3A%22MGTV%20MAX%22%2C%22short_name%22%3A%22MGTV%22%2C%22start_url%22%3A%22.%2F%22%2C%22display%22%3A%22standalone%22%2C%22background_color%22%3A%22%23000000%22%2C%22theme_color%22%3A%22%2300ccff%22%2C%22icons%22%3A%5B%7B%22src%22%3A%22https%3A%2F%2Ftinyurl.com%2FMaximagenn916%22%2C%22sizes%22%3A%22192x192%22%2C%22type%22%3A%22image%2Fpng%22%7D%5D%7D">
+  <meta name="theme-color" content="#00ccff">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+
   <script src="https://www.gstatic.com/cv/js/sender/v1/cast_sender.js?loadCastFramework=1"></script>
   <script src="https://cdn.jsdelivr.net/npm/hls.js@latest"></script>
   <script src="https://cdn.jsdelivr.net/npm/mpegts.js@latest"></script>
@@ -95,7 +102,15 @@
     .contenedor-banco { display: flex; align-items: center; gap: 6px; }
     .contenedor-banco img { height: 26px; width: auto; object-fit: contain; }
 
-    .cast-container { display: none; }
+    .cast-container {
+      position: fixed; top: 15px; right: 20px; z-index: 99999;
+      background: rgba(0, 0, 0, 0.7); padding: 4px; border-radius: 50%;
+      display: flex; align-items: center; justify-content: center;
+    }
+    google-cast-launcher {
+      display: block; width: 38px; height: 38px; cursor: pointer;
+      --connected-color: #00ccff; --disconnected-color: #ffffff;
+    }
 
     .side-menu {
       position: fixed; left: 20px; top: 50%; transform: translateY(-50%);
@@ -183,7 +198,7 @@
     .ver-todo-card span { color: #38bdf8; font-weight: bold; font-size: 12px; }
     .ver-todo-card:focus, .ver-todo-card.focused { border: 2px solid #ffcc00; box-shadow: 0 0 10px #ffcc00; transform: scale(1.05); }
 
-    .channel-logo { position: fixed; top: 20px; right: 40px; max-width: 130px; max-height: 70px; z-index: 9998; pointer-events: none; }
+    .channel-logo { position: fixed; top: 20px; right: 80px; max-width: 130px; max-height: 70px; z-index: 9998; pointer-events: none; }
 
     .toast-favoritos {
       position: fixed; bottom: 30px; left: 50%; transform: translateX(-50%);
@@ -204,10 +219,8 @@
       .contenedor-banco img { height: 18px; }
 
       .cast-container {
-        display: block !important; position: fixed; top: 62px; right: 22px; z-index: 9999;
-        background: rgba(0, 0, 0, 0.7); padding: 2px; border-radius: 50%; transition: opacity 0.4s ease;
+        top: 75px; right: 15px;
       }
-      google-cast-launcher { display: block; width: 35px; height: 35px; cursor: pointer; --connected-color: #00ccff; --disconnected-color: #ffffff; }
 
       .side-menu {
         left: 0; top: 0; transform: none; width: 100%; height: auto; flex-direction: row;
@@ -260,8 +273,8 @@
   </div>
 </div>
 
-<div class="cast-container" id="castContainer" style="opacity: 0;">
-  <google-cast-launcher id="castButton" style="display: none;"></google-cast-launcher>
+<div class="cast-container" id="castContainer">
+  <google-cast-launcher id="castButton"></google-cast-launcher>
 </div>
 
 <div class="barra-alias-tv" id="barraAlias">
@@ -288,6 +301,30 @@
 <div id="toastFavoritos" class="toast-favoritos"></div>
 
 <script>
+  // Registro automático de Service Worker embebido para soporte PWA instantáneo
+  if ('serviceWorker' in navigator) {
+    const swCode = "self.addEventListener('fetch', function(e) { e.respondWith(fetch(e.request).catch(function() { return caches.match(e.request); })); });";
+    const swBlob = new Blob([swCode], { type: 'text/javascript' });
+    const swUrl = URL.createObjectURL(swBlob);
+    navigator.serviceWorker.register(swUrl).catch(function(err) {
+      console.log('Error al registrar Service Worker PWA:', err);
+    });
+  }
+
+  // Inicialización del Google Cast API para que el botón funcione en navegadores y GitHub Pages
+  window['__onGCastApiAvailable'] = function(isAvailable) {
+    if (isAvailable) {
+      try {
+        cast.framework.CastContext.getInstance().setOptions({
+          receiverApplicationId: chrome.cast.media.DEFAULT_MEDIA_RECEIVER_APP_ID,
+          autoJoinPolicy: chrome.cast.AutoJoinPolicy.TAB_AND_ORIGIN_SCOPED
+        });
+      } catch (e) {
+        console.error("Error al inicializar Cast Context", e);
+      }
+    }
+  };
+
   const MOSTRAR_PANEL_DONACIONES = "SI";
 
   document.addEventListener('DOMContentLoaded', function() {
@@ -427,9 +464,7 @@
         } else {
           historial.push({ name: ch.name, url: ch.url, logo: ch.logo, group: ch.group, contador: 1 });
         }
-        // Ordenar de mayor a menor
         historial.sort(function(a, b) { return b.contador - a.contador; });
-        // Limitar a los 10 primeros
         localStorage.setItem('mgtv_historial_vistos', JSON.stringify(historial.slice(0, 10)));
       } catch(e){}
     }
@@ -797,7 +832,7 @@
       window.sideMenu.classList.remove('hidden-ui'); 
       window.contentArea.classList.remove('hidden-ui'); 
       var castCont = document.getElementById('castContainer'); 
-      if (castCont && window.innerWidth <= 768) { castCont.style.opacity = "1"; } 
+      if (castCont) { castCont.style.opacity = "1"; } 
       
       setTimeout(function() {
         var ultimoCanal = window.lastPlayedTvUrl;
