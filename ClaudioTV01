@@ -293,6 +293,10 @@ https://unlimited1-saopaulo.dps.live/televidaar/televidaar.smil/televidaar/lives
 https://vivo.solumedia.com:19360/telemedia/telemedia.m3u8
 
 
+#EXTINF:-1 tvg-logo="https://cdn.phototourl.com/free/2026-09-05-e5b41cd9-b7cf-41c2-9094-8e856bb3c3c6.jpg"group-title="ARGENTINA", TELEPOSADAS TV
+https://lbgo.bozztv.com/giatv/giatv-teleposadastv/teleposadastv/playlist.m3u8
+
+
 #EXTINF:-1 tvg-logo="https://i.ibb.co/cK8XkD3q/1772569532364.png"group-title="ARGENTINA",METRO TV HD  18.1 TUCUMÁN
 https://streamtv12.ddns.net:5443/LiveApp/streams/193945633734205616732920.m3u8
 
@@ -309,8 +313,7 @@ https://vivo.solumedia.com:19360/sicarditv/sicarditv.m3u8
 https://tdcserver.com:19360/tdconlione-2/tdconlione-2.m3u8
 
 
-#EXTINF:-1 tvg-logo="https://i.ibb.co/PZZQrFnf/Screenshot-20260711-161403.png"group-title="ARGENTINA", TELE FEDERAL
-https://lbgo.bozztv.com/giatv/giatv-teleposadastv/teleposadastv/playlist.m3u8
+
 
 
 
