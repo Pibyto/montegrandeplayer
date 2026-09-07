@@ -1323,8 +1323,9 @@ https://v2.tustreaming.cl:443/chilechannel/tracks-v1a1/mono.m3u8
 
 
 
-#EXTINF:-1 tvg-logo="https://i.ibb.co/Ltxhb9R/3dgifmaker44420.gif"group-title="CHILE",RED TV CHILLAN
-https://micanal.ovh/livestreams/89.0WWM5NZ7JVZQ.m3u8
+#EXTINF:-1 tvg-logo="https://cdn.phototourl.com/free/2026-09-07-cfb8043d-de87-4aed-9687-accceb384811.png"group-title="CHILE",NOSTALGIA TV
+https://live20.bozztv.com/akamaissh101/ssh101/testvideo50/playlist.m3u8
+
 
 
 
