@@ -7,11 +7,11 @@
 
 
 
-#EXTINF:-1 tvg-logo="https://tinyurl.com/Fevivamusic16"group-title="BUENOS AIRES",FE VIVA MUSIC
+#EXTINF:-1 tvg-logo="https://tinyurl.com/Fevivamusic"group-title="BUENOS AIRES",FE VIVA MUSIC
 https://live20.bozztv.com/giatvplayout7/giatv-208770/playlist.m3u8
 
 
-#EXTINF:-1 tvg-logo="https://cdn.phototourl.com/free/2026-07-21-cc1d4e4d-57e2-4680-ace6-057ce5927cb5.png"group-title="BUENOS AIRES",MARVEL
+#EXTINF:-1 tvg-logo="https://tinyurl.com/LogoM4rv3L"group-title="BUENOS AIRES",MARVEL
 https://lbgo.bozztv.com/ssh101/ssh101/imcu/playlist.m3u8
 
 
