@@ -259,7 +259,9 @@ http://liketv.pro:80/diegos2024/Coly2413/107.m3u8
 
 
 #EXTINF:-1 tvg-logo="https://i.ibb.co/CKjmBnrC/images-39.png"group-title="DEPORTES",TyC
-http://181.209.37.74:8001/play/a06x/61363969.m3u8
+https://amg26268-amg26268c14-freelivesports-emea-10267.playouts.now.amagi.tv/ts-us-e2-n2/playlist/amg26268-sportsstudio-tycsports-freelivesportsemea/playlist.m3u8
+
+
 
 
 
@@ -289,7 +291,7 @@ http://181.118.153.15:8000/play/lt41/index.m3u8
 
 
 #EXTINF:-1 tvg-logo="https://tinyurl.com/Postermax"group-title="DEPORTES", DSPORTS1
-
+http://38.187.7.252:8000/play/a03d/index.m3u8
 
 
 #EXTINF:-1 tvg-logo="https://tinyurl.com/Postermax"group-title="DEPORTES", DSPORTS 
@@ -1438,6 +1440,26 @@ https://xui-backend.energeek.cl/live/13/playlist.m3u8
 
 
 
+#EXTINF:-1 tvg-logo="https://tinyurl.com/Postermax"group-title="PARAGUAY",SNT
+https://d3epa8orr2qy3m.cloudfront.net/medialist_15609871089997455276_hls.m3u8
+
+
+#EXTINF:-1 tvg-logo="https://tinyurl.com/Postermax"group-title="PARAGUAY", TELEFUTURO 
+https://rds3tf.desdeparaguay.net/telefuturo/telefuturo_py_alta/chunklist_w1645675809.m3u8?admin=tvaccion
+
+
+
+#EXTINF:-1 tvg-logo="https://tinyurl.com/Postermax"group-title="PARAGUAY",C9N
+http://181.79.87.130:8000/play/a0c1/index.m3u8
+
+
+
+#EXTINF:-1 tvg-logo="https://tinyurl.com/Postermax"group-title="PARAGUAY",NPY
+https://rds3tf.desdeparaguay.net/npy/npy_int_alta/chunklist_w1532246486.m3u8?admin=tvaccion
+
+
+
+
 
 
 
@@ -1445,25 +1467,31 @@ https://xui-backend.energeek.cl/live/13/playlist.m3u8
 https://rds3.desdeparaguay.net/mitv/mitv/chunklist_w757160878.m3u8
 
 
-#EXTINF:-1 tvg-logo=""group-title="PARAGUAY",ALMAYA TV 
-https://video.hostingcaaguazu.com:19360/almayatv/almayatv.m3u8
+#EXTINF:-1 tvg-logo="https://tinyurl.com/Postermax"group-title="PARAGUAY",ÑANDUTY TV 
+https://nanduti.b-cdn.net/Source.m3u8
 
 
 #EXTINF:-1 tvg-logo=""group-title="PARAGUAY",DEL REY TV
 https://video.hostingcaaguazu.com:19360/delreytv/delreytv.m3u8
 
-#EXTINF:-1 tvg-logo=""group-title="PARAGUAY",GENTV
-https://gentvpeer.desdeparaguay.net/gentvpeer/gentv_py_alta/master.m3u8
+#EXTINF:-1 tvg-logo="https://tinyurl.com/Postermax"group-title="PARAGUAY",GENTV
+http://45.170.130.224:8000/play/a04j/index.m3u8
 
-#EXTINF:-1 tvg-logo=""group-title="PARAGUAY",LA TELE
+
+
+
+#EXTINF:-1 tvg-logo="https://tinyurl.com/Postermax"group-title="PARAGUAY",LA TELE
+https://copacotf.desdeparaguay.net/latele/latele_py_alta/chunklist_w1753091497.m3u8?admin=tvaccion
+
+
 https://copacotf.desdeparaguay.net/latele/latele_py_alta/playlist.m3u8?admin=tvaccion
 
 
-#EXTINF:-1 tvg-logo=""group-title="PARAGUAY",RCC
+#EXTINF:-1 tvg-logo="https://tinyurl.com/Postermax"group-title="PARAGUAY",RCC
 https://copacoradios.desdeparaguay.net/rcctv/rcctv/chunklist_w1584412149.m3u8?admin=nacion
 
 
-#EXTINF:-1 tvg-logo=""group-title="PARAGUAY",RED DIGITAL 
+#EXTINF:-1 tvg-logo="https://tinyurl.com/Postermax"group-title="PARAGUAY",RED DIGITAL 
 https://video.hostingcaaguazu.com:19360/reddigitalsanpedro/reddigitalsanpedro.m3u8
 
 
@@ -1472,28 +1500,28 @@ https://edge.enhdtv.com/8060/tracks-v1a1/mono.m3u8
 
 
 
-#EXTINF:-1 tvg-logo=""group-title="PARAGUAY",POPU TV
+#EXTINF:-1 tvg-logo="https://tinyurl.com/Postermax"group-title="PARAGUAY",POPU TV
 https://copacogen.desdeparaguay.net/universotv/universotv_py_alta/playlist.m3u8?admin=nacion
 
-#EXTINF:-1 tvg-logo=""group-title="PARAGUAY",CANAL 8
+#EXTINF:-1 tvg-logo="https://tinyurl.com/Postermax"group-title="PARAGUAY",CANAL 8
 https://video.hostingcaaguazu.com:19360/canal8cvs/canal8cvs.m3u8
 
 
 
 
-#EXTINF:-1 tvg-logo=""group-title="PARAGUAY",
+#EXTINF:-1 tvg-logo="https://tinyurl.com/Postermax"group-title="PARAGUAY",
 OVIEDO TV
 https://video.wilohosting.com:19360/oviedotv/oviedotv.m3u8
 
 
-#EXTINF:-1 tvg-logo=""group-title="PARAGUAY",NPY
+#EXTINF:-1 tvg-logo="https://tinyurl.com/Postermax"group-title="PARAGUAY",NPY
 https://copacogen.desdeparaguay.net/npy/npy_py_alta/chunklist_w665042620.m3u8?admin=tvaccion
 
 
 
 
 
-#EXTINF:-1 tvg-logo=""group-title="PARAGUAY",PARAGUAY TV
+#EXTINF:-1 tvg-logo="https://tinyurl.com/Postermax"group-title="PARAGUAY",PARAGUAY TV
 https://stream.paraguaytv.gov.py/memfs/bbe36fed-9b49-4d1d-adaa-4bd6d1b2e386.m3u8
 
 
@@ -1530,11 +1558,11 @@ https://copacotf.desdeparaguay.net/latele/latele_py_alta/chunklist_w721683875.m3
 
 
 #EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/4/46/LogoTFFlat.png"group-title="PARAGUAY",TELEFUTURO
-http://liketv.pro:80/diegos2024/Coly2413/187906.ts
+
 
 
 #EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/c/c8/Am%C3%A9rica_TV_%28Nuevo_logo_Junio_2020%29.png"group-title="PARAGUAY",AMERICA
-http://liketv.pro/live/diegos2024/Coly2413/53.ts
+
 
 #EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/d/d9/Sur_TV_Itap%C3%BAa_logo_2022.png"group-title="PARAGUAY",SUR TV
 
@@ -1565,6 +1593,7 @@ http://liketv.pro/live/diegos2024/Coly2413/53.ts
 
 
 #EXTINF:-1 tvg-logo="https://serenotv.com/wp-content/uploads/2024/07/IMG_20240626_194907_706-400x267.jpg"group-title="PARAGUAY",INVASIVA TV
+https://video.wilohosting.com:19360/invasivatv/invasivatv.m3u8
 
 
 #EXTINF:-1 tvg-logo="https://media.trece.com.py/sites/2/2022/06/logo-300x136-1.jpg"group-title="PARAGUAY",TRECE
