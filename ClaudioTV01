@@ -258,12 +258,31 @@ http://liketv.pro:80/diegos2024/Coly2413/107.m3u8
 
 
 
+#EXTINF:-1 tvg-logo="https://i.ibb.co/CKjmBnrC/images-39.png"group-title="DEPORTES",TyC
+http://181.209.37.74:8001/play/a06x/61363969.m3u8
 
+
+
+#EXTINF:-1 tvg-logo="https://static.wikia.nocookie.net/logopedia/images/5/55/ESPN_Premium_blanco.png/revision/latest/scale-to-width-down/250?cb=20220501173330&path-prefix=es"group-title="DEPORTES",ESPN PREMIUM
+
+
+
+
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/8/83/TNT_Sports_%282023%29.svg/3840px-TNT_Sports_%282023%29.svg.png"group-title="DEPORTES",TNT SPORTS
+
+
+
+#EXTINF:-1 tvg-logo="https://d18o29lhcg4kda.cloudfront.net/fit-in/360x270/Y2gwMTAwMDAwMDAwMTI4X2xpbmVhcl9jaGFubmVsX3NzbGE_11002_LOGO_360x270.png?timestamp=1771429290957"group-title="DEPORTES", DSPORTS 2
+
+
+
+#EXTINF:-1 tvg-logo="https://i.pinimg.com/736x/a5/48/11/a548112f81098fed9763acde4510e071.jpg"group-title="DEPORTES",ESPN3
+http://181.118.153.15:8000/play/lt41/index.m3u8
 
 
 
 #EXTINF:-1 tvg-logo="https://tinyurl.com/Postermax"group-title="DEPORTES",TyC
-http://181.209.37.74:8001/play/a06x/61363969.m3u8
+
 
 
 
@@ -411,35 +430,7 @@ http://coninfo.net:1935/9linklivert/smil:9linkmultibr.smil/chunklist_w1546314826
 #EXTINF:-1 tvg-logo=""group-title="ARGENTINA",CANAL 8 ROSARIO
 https://stmv4.voxtvhd.com.br/canal8ros/canal8ros/playlist.m3u8
 
-#EXTINF:-1 tvg-logo="https://i.ibb.co/CKjmBnrC/images-39.png"group-title="ARGENTINA",TyC
-http://liketv.pro:80/diegos2024/Coly2413/244
 
-
-
-
-
-
-
-#EXTINF:-1 tvg-logo="https://static.wikia.nocookie.net/logopedia/images/5/55/ESPN_Premium_blanco.png/revision/latest/scale-to-width-down/250?cb=20220501173330&path-prefix=es"group-title="ARGENTINA",ESPN PREMIUM
-http://liketv.pro/live/diegos2024/Coly2413/145.ts
-
-
-
-#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/8/83/TNT_Sports_%282023%29.svg/3840px-TNT_Sports_%282023%29.svg.png"group-title="ARGENTINA",TNT SPORTS
-http://liketv.pro/live/diegos2024/Coly2413/291.ts
-
-
-#EXTINF:-1 tvg-logo"https://d18o29lhcg4kda.cloudfront.net/fit-in/360x270/Y2gwMTAwMDAwMDAwMTI4X2xpbmVhcl9jaGFubmVsX3NzbGE_11002_LOGO_360x270.png?timestamp=1771429290957"group-title="ARGENTINA", DSPORTS 2
-http://liketv.pro/live/diegos2024/Coly2413/149.ts
-
-
-#EXTINF:-1 tvg-logo=""group-title="ARGENTINA",ESPN3
-http://181.118.153.15:8000/play/lt41/index.m3u8
-
-
-
-
- 
 
 
 
