@@ -330,6 +330,16 @@ https://vivo.solumedia.com:19360/telemedia/telemedia.m3u8
 https://lbgo.bozztv.com/giatv/giatv-teleposadastv/teleposadastv/playlist.m3u8
 
 
+#EXTINF:-1 tvg-logo="https://i.ibb.co/PvZyqsqH/3ky-OPh-NW-1200x0-1-1.png"group-title="ARGENTINA",CANAL 11
+https://vivo.solumedia.com:19360/dadaproductora/dadaproductora.m3u8
+
+
+
+#EXTINF:-1 tvg-logo="https://i.ibb.co/d0PhWtxg/c8-sj-18.png"group-title="ARGENTINA",CANAL 8
+https://live20.bozztv.com/akamaissh101/ssh101/canal8sanjuan/playlist.m3u8
+
+
+
 #EXTINF:-1 tvg-logo="https://i.ibb.co/cK8XkD3q/1772569532364.png"group-title="ARGENTINA",METRO TV HD  18.1 TUCUMÁN
 https://streamtv12.ddns.net:5443/LiveApp/streams/193945633734205616732920.m3u8
 
@@ -339,7 +349,17 @@ https://vivo.solumedia.com:19360/sicarditv/sicarditv.m3u8
 
 
 
+#EXTINF:-1 tvg-logo="https://i.ibb.co/b57Q9kcL/images-62.png"group-title="ARGENTINA",FM UNIVERSO
+https://live20.bozztv.com/giatv/giatv-universotv/universotv/chunks.m3u8
 
+
+
+#EXTINF:-1 tvg-logo="https://i.ibb.co/Fb0Yj20k/logo-5ccca1e3a8bcc.png"group-title="ARGENTINA",FMPUCARA
+https://stmvideo1.livecastv.com/fmpucara/fmpucara/playlist.m3u8
+
+
+#EXTINF:-1 tvg-logo="https://bellohorizonte.com.ar/wp-content/uploads/2025/12/487750195_1282079193924940_762925605084316448_n-Edited.png"group-title="ARGENTINA",BELLO HORIZONTE 
+https://live20.bozztv.com/giatv/giatv-horizonte/horizonte/chunks.m3u8
 
 
 #EXTINF:-1 tvg-logo="https://tinyurl.com/Tdcros"group-title="ARGENTINA",TDC
