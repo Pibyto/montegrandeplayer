@@ -35,7 +35,7 @@ https://distrib.noisypeak.com/d/K9U16RORPWBMXX3B09JH/hls3/now,-1m/1.m3u8
 https://tvstreaming.albpo.com/memfs/8d987761-7923-4532-a95d-20723ae95374_output_0.m3u8
 
 
-#EXTINF:-1 tvg-logo="https://i.ibb.co/dLWwdLK/3dgifmaker66066.gif"group-title="BUENOS AIRES",COSMOS TV HD
+#EXTINF:-1 tvg-logo="https://cdn.phototourl.com/free/2026-09-12-8674f5fd-afa0-452a-bef4-55dbe7618dcd.png"group-title="BUENOS AIRES",COSMOS TV HD
 https://canaletaplus.com:3922/live/cosmoslive.m3u8
 
 
@@ -441,7 +441,7 @@ https://stream.arcast.com.ar/c3lapampa/ngrp:c3lapampa_all/playlist.m3u8
 #EXTINF:-1 tvg-logo=""group-title="ARGENTINA",XAMA
 https://srs.unsj.edu.ar/live/xama/xama.flv.m3u
 
-#EXTINF:-1 tvg-logo="https://tinyurl.com/2ev34nje"group-title="ARGENTINA",COSMOS TV HD
+#EXTINF:-1 tvg-logo="https://cdn.phototourl.com/free/2026-09-12-8674f5fd-afa0-452a-bef4-55dbe7618dcd.png"group-title="ARGENTINA",COSMOS TV HD
 https://canaletaplus.com:3922/live/cosmoslive.m3u8
 
 
