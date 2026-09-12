@@ -349,12 +349,12 @@ https://vivo.solumedia.com:19360/sicarditv/sicarditv.m3u8
 
 
 
-#EXTINF:-1 tvg-logo="https://i.ibb.co/b57Q9kcL/images-62.png"group-title="ARGENTINA",FM UNIVERSO
+#EXTINF:-1 tvg-logo="https://i.ibb.co/b57Q9kcL/images-62.png"group-title="ARGENTINA", UNIVERSO
 https://live20.bozztv.com/giatv/giatv-universotv/universotv/chunks.m3u8
 
 
 
-#EXTINF:-1 tvg-logo="https://i.ibb.co/Fb0Yj20k/logo-5ccca1e3a8bcc.png"group-title="ARGENTINA",FMPUCARA
+#EXTINF:-1 tvg-logo="https://i.ibb.co/Fb0Yj20k/logo-5ccca1e3a8bcc.png"group-title="ARGENTINA",PUCARA
 https://stmvideo1.livecastv.com/fmpucara/fmpucara/playlist.m3u8
 
 
