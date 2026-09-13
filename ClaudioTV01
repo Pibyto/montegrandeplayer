@@ -3,7 +3,8 @@
 
 
 
-
+#EXTINF:-1 tvg-logo="https://images.ctfassets.net/y2ske730sjqp/1aONibCke6niZhgPxuiilC/2c401b05a07288746ddf3bd3943fbc76/BrandAssets_Logos_01-Wordmark.jpg?w=940"group-title="BUENOS AIRES", NETFLIX 
+https://stream-cdn-iad3.vaughnsoft.net/play/live_a_neflix01.flv
 
 
 
@@ -14,18 +15,38 @@ https://live20.bozztv.com/giatvplayout7/giatv-208770/playlist.m3u8
 #EXTINF:-1 tvg-logo="https://tinyurl.com/LogoM4rv3L"group-title="BUENOS AIRES",MARVEL
 https://lbgo.bozztv.com/ssh101/ssh101/imcu/playlist.m3u8
 
-#EXTINF:-1 tvg-logo="https://i.ibb.co/xqGGVmzT/1789324661529.png"group-title="BUENOS AIRES", PELÍCULAS_MANIA
+#EXTINF:-1 tvg-logo="https://i.ibb.co/5h21r24Y/1789329732090.png"group-title="BUENOS AIRES", PELÍCULAS_MANIA
 https://stream-cdn-iad3.vaughnsoft.net/play/live_peliculas_mania.flv
+
+
+#EXTINF:-1 tvg-logo="https://i.ibb.co/FkfTYvTF/1789329392377.png"group-title="BUENOS AIRES",TERRORMANIA
+https://stream-cdn-iad3.vaughnsoft.net/play/live_terror_mania.flv
 
 
 #EXTINF:-1 tvg-logo="https://tinyurl.com/Mgtevebanner"group-title="BUENOS AIRES",MONTEGRANDETV
 https://live20.bozztv.com/akamaissh101/ssh101/montegrandetv/chunks.m3u8
 
 
+#EXTINF:-1 tvg-logo="https://images.ctfassets.net/y2ske730sjqp/1aONibCke6niZhgPxuiilC/2c401b05a07288746ddf3bd3943fbc76/BrandAssets_Logos_01-Wordmark.jpg?w=940"group-title="BUENOS AIRES", MEGA MOVIE
+https://stream-cdn-iad3.vaughnsoft.net/play/live_megamovieshd.flv
+
+
+#EXTINF:-1 tvg-logo="https://images.ctfassets.net/y2ske730sjqp/1aONibCke6niZhgPxuiilC/2c401b05a07288746ddf3bd3943fbc76/BrandAssets_Logos_01-Wordmark.jpg?w=940"group-title="BUENOS AIRES",MEGAMUNDO
+https://stream-cdn-iad3.vaughnsoft.net/play/live_megamundohd.flv
+
+
+
+
+#EXTINF:-1 tvg-logo="https://images.ctfassets.net/y2ske730sjqp/1aONibCke6niZhgPxuiilC/2c401b05a07288746ddf3bd3943fbc76/BrandAssets_Logos_01-Wordmark.jpg?w=940"group-title="BUENOS AIRES",MEGA EXTRMO
+https://stream-cdn-iad3.vaughnsoft.net/play/live_mega_extremo.flv
 
 
 #EXTINF:-1 tvg-logo="https://cdn.phototourl.com/free/2026-09-13-d3e3e239-b22e-49ef-b862-0a5abce5c868.png"group-title="BUENOS AIRES",NEO TV DIGITAL HD. 16.1 
 https://videostream.shockmedia.com.ar:19360/neotvdigital/neotvdigital.m3u8
+
+
+
+
 
 #EXTINF:-1 tvg-logo="https://cdn.phototourl.com/free/2026-09-13-d8ef892b-7fec-42f8-878b-989970682e3e.png"group-title="BUENOS AIRES", IPERSONICA TV 
 https://lbgo.bozztv.com/ssh101/ssh101/ipersonica/playlist.m3u8
