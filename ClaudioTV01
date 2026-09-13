@@ -135,7 +135,7 @@ https://canadaremar2.todostreaming.es/live/solidariatv-webhd.m3u8
 
 
 #EXTINF:-1 tvg-logo="https://logos-world.net/wp-content/uploads/2025/04/A24-Logo-New.png"group-title="BUENOS AIRES",A24
-http://liketv.pro/live/diegos2024/Coly2413/52.ts
+
 
 #EXTINF:-1 tvg-logo="https://tinyurl.com/yuyatxzt"group-title="BUENOS AIRES",TELEMAX HD  26.3
 https://stream-gtlc.telecentro.net.ar/hls/telemaxhls/main.m3u8
@@ -194,7 +194,7 @@ https://panctv.ddns.net/hls/ar/live.m3u8
 
 
 #EXTINF:-1 tvg-logo="https://static.wikia.nocookie.net/logopedia/images/a/a5/Eltreceinternacional-logo-2016.png/revision/latest?cb=20161019052654"group-title="BUENOS AIRES",EL TRECE
-http://liketv.pro:80/diegos2024/Coly2413/85.m3u8
+
 
 
 #EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/c/cc/Telefe_%28nuevo_logo%29.png"group-title="BUENOS AIRES",TELEFE
@@ -204,21 +204,21 @@ http://45.134.141.161:2200/ARG/TELEFE_HD/index.m3u8
 
 
 #EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/c/cc/Telefe_%28nuevo_logo%29.png"group-title="BUENOS AIRES",TELEFE II
-http://liketv.pro:80/diegos2024/Coly2413/100.m3u8
+
 
 
 
 
 
 #EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/3/3a/Canal_9_2015.png"group-title="BUENOS AIRES",EL NUEVE
-http://liketv.pro:80/diegos2024/Coly2413/81.m3u8
+
 
 #EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/f/fb/Cr%C3%B3nica_TV_logotipo_%282016%29.png"group-title="BUENOS AIRES", CRÓNICA TV
-http://liketv.pro:80/diegos2024/Coly2413/74.m3u8
+
 
 
 #EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4f/TN_todo_noticias_logo.svg/1280px-TN_todo_noticias_logo.svg.png"group-title="BUENOS AIRES",TN
-http://liketv.pro:80/diegos2024/Coly2413/102.m3u8
+
 
 
 
@@ -236,11 +236,11 @@ http://liketv.pro:80/diegos2024/Coly2413/102.m3u8
 
 
 #EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/8/81/LN%2B.png"group-title="BUENOS AIRES",LN+
-http://liketv.pro:80/diegos2024/Coly2413/92.m3u8
+
 
 
 #EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/TVP_-_Televisi%C3%B3n_P%C3%BAblica_%282021%29.svg/1280px-TVP_-_Televisi%C3%B3n_P%C3%BAblica_%282021%29.svg.png"group-title="BUENOS AIRES",TV PUBLICA
-http://liketv.pro:80/diegos2024/Coly2413/107.m3u8
+
 
 
 #EXTINF:-1 tvg-logo="https://cdn2.storage.foromedios.com/original/3X/a/7/a7a69b52617e4f5d0d927062b28dfb95532029c2.png"group-title="BUENOS AIRES",AR|12
@@ -329,19 +329,27 @@ https://unlimited1-saopaulo.dps.live/televidaar/televidaar.smil/televidaar/lives
 https://lbgo.bozztv.com/giatv/giatv-teleposadastv/teleposadastv/playlist.m3u8
 
 
+#EXTINF:-1 tvg-logo="https://tinyurl.com/Cuatrosan"group-title="ARGENTINA",EL 4 SAN JUAN 
+https://streamlov.alsolnet.com/canal4sanjuan/live/chunklist_w318490892.m3u8
+
 
 #EXTINF:-1 tvg-logo="https://cdn.phototourl.com/free/2026-09-12-a235adcd-6e80-4b09-8246-04f7f01448fd.png"group-title="ARGENTINA", CANAL 34 HD
 http://streamyes.alsolnet.com/canal34hd/live/chunklist_w638979893.m3u8
+
+
+#EXTINF:-1 tvg-logo="https://i.ibb.co/twNq72rC/1776360821019-1.png"group-title="ARGENTINA",11 DIGITAL 
+https://live20.bozztv.com/giatv/giatv-ojodigital/ojodigital/playlist.m3u8
 
 #EXTINF:-1 tvg-logo="https://i.ibb.co/wrMwMmDD/Corrientes-TV-2.png"group-title="ARGENTINA",CORRIENTES TV HD
 https://vivo.solumedia.com:19360/telemedia/telemedia.m3u8
 
 
-
+#EXTINF:-1 tvg-logo="https://tinyurl.com/yccuefd4"group-title="ARGENTINA", TELEVISIÓN PÚBLICA 
+https://stream.arcast.com.ar/c3lapampa/ngrp:c3lapampa_all/playlist.m3u8
 
 
 #EXTINF:-1 tvg-logo="https://i.ibb.co/PvZyqsqH/3ky-OPh-NW-1200x0-1-1.png"group-title="ARGENTINA",CANAL 11
-https://vivo.solumedia.com:19360/dadaproductora/dadaproductora.m3u8
+
 
 
 
@@ -406,8 +414,7 @@ http://iptv.ixfo.com.ar:8081/live/C4POS/playlist.m3u8
 
 
 
-#EXTINF:-1 tvg-logo="https://i.ibb.co/twNq72rC/1776360821019-1.png"group-title="ARGENTINA",11 DIGITAL 
-https://live20.bozztv.com/giatv/giatv-ojodigital/ojodigital/playlist.m3u8
+
 
 
 #EXTINF:-1 tvg-logo="https://tinyurl.com/Sietesalt"group-title="ARGENTINA",CANAL 7 SALTA
@@ -415,15 +422,14 @@ https://vivo.solumedia.com:19360/cooperativa/cooperativa.m3u8
 
 
 #EXTINF:-1 tvg-logo="https://tinyurl.com/Sieteju"group-title="ARGENTINA",7JUJUY
-https://stream.arcast.live:443/canal7jujuy/ngrp:canal7jujuy_all/chunklist_w906685609_b1146880.m3u8
 
 
-#EXTINF:-1 tvg-logo="https://tinyurl.com/Cuatrosan"group-title="ARGENTINA",EL 4 SAN JUAN 
-https://streamlov.alsolnet.com/canal4sanjuan/live/chunklist_w318490892.m3u8
+
+
 
 
 #EXTINF:-1 tvg-logo="https://tinyurl.com/Pueblocinco"group-title="ARGENTINA",5 EL PUEBLO 
-https://stmv4.voxtvhd.com.br/canal5pueblo/canal5pueblo/playlist.m3u8
+
 
 
 
@@ -441,11 +447,9 @@ https://panel.host-live.com:19360/8076/8076.m3u8
 
 
 
-#EXTINF:-1 tvg-logo="https://tinyurl.com/yccuefd4"group-title="ARGENTINA", TELEVISIÓN PÚBLICA 
-https://stream.arcast.com.ar/c3lapampa/ngrp:c3lapampa_all/playlist.m3u8
 
-#EXTINF:-1 tvg-logo=""group-title="ARGENTINA",XAMA
-https://srs.unsj.edu.ar/live/xama/xama.flv.m3u
+
+
 
 #EXTINF:-1 tvg-logo="https://cdn.phototourl.com/free/2026-09-12-8674f5fd-afa0-452a-bef4-55dbe7618dcd.png"group-title="ARGENTINA",COSMOS TV HD
 https://canaletaplus.com:3922/live/cosmoslive.m3u8
@@ -486,7 +490,6 @@ https://5cd577a3dd8ec.streamlock.net/CANAL4/smil:CANAL4.smil/chunklist_w19297331
 
 
 #EXTINF:-1 tvg-logo="https://i.ibb.co/pjV1gdBS/Photoroom-20250616-002323.png"group-title="ARGENTINA",CANAL 12 HD
-https://nd106.republicaservers.com:443/hls/diegologonitv/0_1/index.m3u8?sessId=3190510
 
 
 
@@ -512,8 +515,8 @@ https://canal.mediaserver.com.co/live/cinedios.m3u8
 
 
 
-#EXTINF:-1 tvg-logo="https://static.wikia.nocookie.net/logopedia/images/e/e9/Lapachocanal11.jpg/revision/latest?cb=20160815012802&path-prefix=es"group-title="ARGENTINA",LAPACHO TV
-https://vivo.solumedia.com:19360/lapacho/lapacho.m3u8
+#EXTINF:-1 tvg-logo=""group-title="ARGENTINA",LAPACHO TV
+
 
 
 #EXTINF:-1 tvg-logo="https://www.canal3lasheras.com/wp-content/uploads/2022/10/canal3logo-x1.png"group-title="ARGENTINA",3 LAS HERAS
@@ -532,7 +535,7 @@ https://stream.arcast.net:4443/gualeguay/gualeguay/chunklist_w1039971660.m3u8
 
 
 #EXTINF:-1 tvg-logo="https://tinyurl.com/2etwuj6h"group-title="ARGENTINA", CANAL 2 HD MISIONES
-https://nd106.republicaservers.com:4433/hls/canal2misioness/1_0/index.m3u8
+
 
 
 
@@ -660,23 +663,23 @@ https://d2nq34q0i1r3la.cloudfront.net/v1/manifest/3722c60a815c199d9c0ef36c5b73da
 
 
 #EXTINF:-1 tvg-logo="https://cdn.phototourl.com/free/2026-04-19-5fe2ce6c-9242-4b39-b719-547e682cd68c.png"group-title="CINE PREMIUM",+CINE
-http://190.102.242.130:25461/tpowercine/1234567/31
+
 
 
 #EXTINF:-1 tvg-logo="https://cdn.phototourl.com/free/2026-04-19-220156c8-2e18-4706-a57b-3b8d691d71d4.png"group-title="CINE PREMIUM",+CINE CLASSIC
-http://190.102.242.130:25461/cineclasiipowe/12345/143
+
 
 
 
 #EXTINF:-1 tvg-logo="https://cdn.phototourl.com/free/2026-04-19-1558b1a7-6e3f-40b1-ada0-f106ff98c48b.png"group-title="CINE PREMIUM",+CINE FAMILY
-http://190.102.242.130:25461/familypower/12345/149
+
 
 
 
 
 
 #EXTINF:-1 tvg-logo="https://tinyurl.com/Cinewar1"group-title="CINE PREMIUM",+CINE WAR
-http://190.102.242.130:25461/live/cinrwarpower/12345678/190.m3u8
+
 
 
 
@@ -705,7 +708,6 @@ https://video.udwn.net:19360/ladescargatv/ladescargatv.m3u8
 
 
 #EXTINF:-1 tvg-logo="https://tinyurl.com/Cine35mm"group-title="CINE PREMIUM", CINE35MM
-https://micanal.ovh/livestreams/262.D9DCDM7EXNRT.m3u8
 
 
 
@@ -713,7 +715,8 @@ https://micanal.ovh/livestreams/262.D9DCDM7EXNRT.m3u8
 
 
 
-#EXTINF:-1 tvg-logo="https://cdn.phototourl.com/free/2026-04-19-6f57f921-9009-4f58-a0a5-d3ab6f07b80d.png"group-title="CINE PREMIUM",ENT FAMILY
+
+
 
 
 
@@ -854,8 +857,7 @@ https://live20.bozztv.com/giatvplayout7/giatv-210703/playlist.m3u8
 #EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTOspY0DemQf4NaEMxXnKQQKCpDwOfVCdtnZg&usqp=CAU"group-title="CINE PREMIER",CINESONY
 https://a-cdn.klowdtv.com/live1/cine_720p/chunks.m3u8
 
-#EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTOspY0DemQf4NaEMxXnKQQKCpDwOfVCdtnZg&usqp=CAU"group-title="CINE PREMIER"SONY CHANNEL 
-http://181.224.255.210:8001/play/a0oc/index.m3u8?hls
+
 
 #EXTINF:-1 tvg-logo="https://brandemia.org/wp-content/uploads/2013/02/logo_telemundo_principal.jpg"group-title="CINE PREMIER",TELEMUNDO ACCION
 https://xumo-drct-ch835-ekq0p.fast.nbcuni.com/live/master_5.m3u8
@@ -863,7 +865,7 @@ https://xumo-drct-ch835-ekq0p.fast.nbcuni.com/live/master_5.m3u8
 
 
 #EXTINF:-1 tvg-logo="https://logos-world.net/wp-content/uploads/2023/03/Space-Logo.png"group-title="CINE PREMIER", SPACE
-http://179.60.51.134:8888/SPACE/tracks-v1a1/mono.m3u8
+
 
 
 #EXTINF:-1 tvg-logo="https://i.ibb.co/q3gS3KkN/1776260489472.png"group-title="CINE PREMIER",BBC SERIES 
@@ -871,7 +873,7 @@ https://amg00793-amg00793c40-rakuten-es-5444.playouts.now.amagi.tv/1080p/index.m
 
 
 #EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/1/11/Cinemax_%28Yellow%29.svg"group-title="CINE PREMIER",CINEMAX
-http://liketv.pro/live/diegos2024/Coly2413/17435.ts
+
 
 
 
@@ -888,33 +890,38 @@ https://d3m8rnla2v9m5d.cloudfront.net/playlist.m3u8
 
 
 #EXTINF:-1 tvg-logo=""group-title="CINE PREMIER", CINECANAL
-http://sdmx.vip/live/AngelicaAntonietaTellez/A4Pnrrfhw4FJ/2092595.ts
+
 
 
 #EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/8/8a/Tnt_tv_romania.png"group-title="CINE PREMIER",TNT
-http://179.60.51.134:8888/TNT/tracks-v1a1/mono.m3u8
+
 
 #EXTINF:-1 tvg-logo="https://i.ibb.co/F4BRB4fM/Screenshot-20260415-095829.png"group-title="CINE PREMIER",STAR TVE
 https://rtvelivestream-rtveplayplus.rtve.es/rtvesec/int/star_main_1080.m3u8
 
 
+
+#EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTOspY0DemQf4NaEMxXnKQQKCpDwOfVCdtnZg&usqp=CAU"group-title="CINE PREMIER"SONY CHANNEL 
+http://181.224.255.210:8001/play/a0oc/index.m3u8?hls
+
+
 #EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/4/42/Universal_TV_logo.svg/1280px-Universal_TV_logo.svg.png"group-title="CINE PREMIER", UNIVERSAL 
-http://179.60.51.134:8888/UNIVERSAL/tracks-v1a1/mono.m3u8
+
 
 
 #EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/8/84/USA_Network_2020.svg"group-title="CINE PREMIER",USA
-http://179.60.51.134:8888/SYFY/tracks-v1a1/mono.m3u8
+
 
 
 #EXTINF:-1 tvg-logo="https://television.com.ar/wp-content/uploads/2024/05/LOGOS-EE-azul-con-europa-sobre-blanco.png"group-title="CINE PREMIER", EUROPA EUROPA
-http://181.119.93.83:8000/play/a1sr/index.m3u8
+
 
 #EXTINF:-1 tvg-logo="https://www.runtime.tv/themes/custom/run/runtime/logo.png"group-title="CINE PREMIER",Rumtime
 https://run-rt-uh-roku.otteravision.com/run/rt_uh/rt_uh_720.m3u8
 
 
 #EXTINF:-1 tvg-logo="https://static.wikia.nocookie.net/logopedia/images/f/f9/DHE2019.png/revision/latest?cb=20210514013226&path-prefix=es"group-title="CINE PREMIER",DHE
-http://179.60.51.134:8888/PARAMOUNT/tracks-v1a1/mono.m3u8
+
 
 
 
@@ -926,15 +933,15 @@ http://179.60.51.134:8888/PARAMOUNT/tracks-v1a1/mono.m3u8
 
 
 #EXTINF:-1 tvg-logo="https://ia800507.us.archive.org/32/items/logo.brootv_hbo/HBO_2.png"group-title="CINE PREMIER",HBO2
-http://liketv.pro/live/diegos2024/Coly2413/17409.ts
+
 
 
 #EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f9/Logohboplus2019.svg/250px-Logohboplus2019.svg.png"group-title="CINE PREMIER",HBO+
-http://liketv.pro/live/diegos2024/Coly2413/126472.ts
+
 
 
 #EXTINF:-1 tvg-logo="https://i.ibb.co/r2fBxGFY/images-37.png"group-title="CINE PREMIER",HBO MMUNDI
-http://190.11.225.124:5000/live/paramount_hd/playlist.m3u8
+
 
 
 #EXTINF:-1 tvg-logo="https://i.ibb.co/BKKSXBTV/hbo-signature.png"group-title="CINE PREMIER",HBO SIGNATURE
@@ -943,30 +950,30 @@ http://190.11.225.124:5000/live/hbo_signature_hd/playlist.m3u8
 
 
 #EXTINF:-1 tvg-logo="https://www.codice.tv/wp-content/uploads/2022/04/hbo-xtreme1.png"group-title="CINE PREMIER", HBO XTREME
-http://liketv.pro/live/diegos2024/Coly2413/126474.ts
+
 
 
 
 
 
 #EXTINF:-1 tvg-logo=""group-title="CINE PREMIER",GOLDEN
-http://181.224.255.210:8001/play/a0qg/index.m3u8?hls
+http://181.224.255.210:8001/play/a0qg/index.m3u8
 
 
 #EXTINF:-1 tvg-logo=""group-title="CINE PREMIER",CINE PREMIUM 
-http://181.225.190.242:8000/play/a00y
+
 
 
  
 #EXTINF:-1 tvg-logo=""group-title="CINE PREMIER",ZEEMUNDO
-https://amg17931-amg17931c3-ondemandkorea-amesia-4897.playouts.now.amagi.tv/playlist/amg17931-asiatvusaltdfast-zeemundo-ondemandkoreaamesia/playlist.m3u8
+
 
 #EXTINF:-1 tvg-logo=""group-title="CINE PREMIER", AMC
-https://streamer.metronethn.com/AMC/tracks-v1a1/mono.m3u8
+
 
 
 #EXTINF:-1 tvg-logo=""group-title="CINE PREMIER",FX
-https://streamer.metronethn.com/FX/tracks-v1a1/mono.m3u8
+
 
 
 
@@ -1004,7 +1011,7 @@ https://edge.enhdtv.com/nexthd/tracks-v1a1/mono.m3u8
 
 
 #EXTINF:-1 tvg-logo="https://cdn.phototourl.com/free/2026-04-24-822146fa-0f59-49bd-90bf-5f5be42b2e9f.png"group-title="CINE PREMIUM 2",OPINIÓNSUR CINE
-https://live20.bozztv.com/giatv/giatv-opinionsurc/opinionsurc/chunks.m3u8
+
 
 
 
@@ -1033,7 +1040,7 @@ https://s.emisoras.tv:8081/bendicionchannel/tracks-v1a1/mono.ts.m3u8
 https://video03.logicahost.com.br/maxivisiontv/maxivisiontv/chunklist_w1433315337.m3u8
 
 #EXTINF:-1 tvg-logo=""group-title="CINE PREMIUM 2",CANAL 13
-https://tv91.hostingnuclear.com:19360/intercable/intercable.m3u8
+
 
 #EXTINF:-1 tvg-logo=""group-title="CINE PREMIUM 2",CINEACCION
 https://stmv6.voxtvhd.com.br/cineaccion/cineaccion/playlist.m3u8
@@ -1053,7 +1060,7 @@ https://stmv6.voxtvhd.com.br/cineaccion/cineaccion/playlist.m3u8
 
 
 #EXTINF:-1 tvg-logo="https://www.larivision.com/web/wp-content/uploads/2025/07/cropped-Logo-5.png"group-title="CINE PREMIUM 2",LARIVISION
-https://live.larimartv.net/livelan/stream.m3u8
+
 
 
 
