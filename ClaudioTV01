@@ -341,8 +341,8 @@ http://38.187.7.252:8000/play/a03d/index.m3u8
 
 
 
-
-
+#EXTINF:-1 tvg-logo="https://i.ibb.co/mCzmdZWn/mqdefault-1.png"group-title="ARGENTINA",CanalLUZ
+https://g5.vxral-slo.transport.edge-access.net/a11/ngrp:canal_luz01-100009_all/canal_luz01-100009_1080p/index.m3u8
 
 
 #EXTINF:-1 tvg-logo="https://cdn.phototourl.com/free/2026-09-12-b972f685-a71d-4325-aa09-399987c8cd74.png"group-title="ARGENTINA",MULTIVISION HD
@@ -358,6 +358,14 @@ https://lbgo.bozztv.com/giatv/giatv-teleposadastv/teleposadastv/playlist.m3u8
 
 #EXTINF:-1 tvg-logo="https://i.ibb.co/3Y9xW24K/Canal-13-Jujuy-en-vivo-Online.png"group-title="ARGENTINA",13 TRECE HD
 https://genexservicios.com:19360/canal13jujuy/canal13jujuy.m3u8
+
+
+#EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQrV7hvjSfqEhiY-R7NzkaGX-1xBeh0UExI4w&s"group-title="ARGENTINA",XAMA TV
+https://srs.unsj.edu.ar/live/xama/xama.flv
+
+
+#EXTINF:-1 tvg-logo="https://static.wikia.nocookie.net/logopedia/images/e/e9/13_Max_Televisi%C3%B3n_%2856%C2%BA_aniversario_-_2021%29.jpg/revision/latest/scale-to-width-down/250?cb=20241011232115"group-title="ARGENTINA",13MAX
+https://617c5175c970b.streamlock.net:4444/13max2/live13maxtv2026/chunklist_w873221912.m3u8
 
 #EXTINF:-1 tvg-logo="https://tinyurl.com/Cuatrosan"group-title="ARGENTINA",EL 4 SAN JUAN 
 https://streamlov.alsolnet.com/canal4sanjuan/live/chunklist_w318490892.m3u8
