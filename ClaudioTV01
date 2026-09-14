@@ -493,14 +493,14 @@ http://coninfo.net:1935/9linklivert/smil:9linkmultibr.smil/chunklist_w1546314826
 
 
 
-#EXTINF:-1 tvg-logo=""group-title="ARGENTINA",CANAL 8 ROSARIO
+#EXTINF:-1 tvg-logo="https://cdn.phototourl.com/free/2026-09-14-234a76d7-f32b-4bc2-a662-2c02d9a53ffe.png"group-title="ARGENTINA",CANAL 8 ROSARIO
 https://stmv4.voxtvhd.com.br/canal8ros/canal8ros/playlist.m3u8
 
 
 
 
 
-#EXTINF:-1 tvg-logo=""group-title="ARGENTINA",CANAL21
+#EXTINF:-1 tvg-logo="https://cdn.phototourl.com/free/2026-09-14-f7e7b197-afd0-491e-a55e-3000e4189803.png"group-title="ARGENTINA",CANAL21
 https://iptv.ixfo.com.ar:30443/c21tv/hd/c21tv/chunks.m3u8
 
 
@@ -533,22 +533,22 @@ https://videohd.live:19360/8016/8016.m3u8
 
 
 
-#EXTINF:-1 tvg-logo=""group-title="ARGENTINA", BIBLIA ABIERTA 
+#EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR9adtL9uWb-i3MMJehcAs-G-r-cpzmWRoy8aP29Xf7Bm8GEfp_-Uyh3I5X&s=10"group-title="ARGENTINA", BIBLIA ABIERTA 
 https://s.emisoras.tv:8081/penielbibliaabierta/index.m3u8
 
 
 
 
 
-#EXTINF:-1 tvg-logo="https://i.ibb.co/x7d9FT0/images-removebg-preview.png"group-title="ARGENTINA",CINE DIOS
+#EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTFjhsuTxOFiQoE_XlIjNSMPOrKu0Y5Z_ghNIFeeKVw&s=10"group-title="ARGENTINA",CINE DIOS
 https://canal.mediaserver.com.co/live/cinedios.m3u8
 
 
 
 
 
-#EXTINF:-1 tvg-logo=""group-title="ARGENTINA",LAPACHO TV
-
+#EXTINF:-1 tvg-logo="https://lapachocanal11.com.ar/wp-content/uploads/2024/07/LOGO2-768x275.png"group-title="ARGENTINA",LAPACHO TV
+https://stmvideo6.livecastv.com/oncestream/oncestream/playlist.m3u8
 
 
 #EXTINF:-1 tvg-logo="https://www.canal3lasheras.com/wp-content/uploads/2022/10/canal3logo-x1.png"group-title="ARGENTINA",3 LAS HERAS
