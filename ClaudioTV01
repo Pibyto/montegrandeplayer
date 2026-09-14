@@ -382,7 +382,7 @@ https://live20.bozztv.com/giatv/giatv-ojodigital/ojodigital/playlist.m3u8
 https://vivo.solumedia.com:19360/telemedia/telemedia.m3u8
 
 
-#EXTINF:-1 tvg-logo="https://tinyurl.com/yccuefd4"group-title="ARGENTINA", TELEVISIÓN PÚBLICA 
+#EXTINF:-1 tvg-logo="https://apn.lapampa.gob.ar/images/noticias/62ab393d701fd.jpg"group-title="ARGENTINA", TELEVISIÓN PÚBLICA 
 https://stream.arcast.com.ar/c3lapampa/ngrp:c3lapampa_all/playlist.m3u8
 
 
@@ -472,19 +472,13 @@ https://vivo.solumedia.com:19360/cooperativa/cooperativa.m3u8
 
 
 
-#EXTINF:-1 tvg-logo="https://tinyurl.com/3b5a5c2f"group-title="ARGENTINA", CANAL 9 HD LITORAL
-https://stream.arcast.live:443/ahora/ahora/chunklist_w1967933953.m3u8
+#EXTINF:-1 tvg-logo="https://arcast.com.ar/canal9web/9litoralposter.jpg"group-title="ARGENTINA", CANAL 9 HD LITORAL
+https://stream.arcast.live/canal9litoralhd/ngrp:canal9litoralhd_all/chunklist_w2081867568_b1432576.m3u8
 
 
 
-#EXTINF:-1 tvg-logo="https://tinyurl.com/7ama65js"group-title="ARGENTINA", CANAL 9 HD MISIONES
+#EXTINF:-1 tvg-logo="https://static.misionesonline.news/wp-content/uploads/2014/09/Canal-9.jpg"group-title="ARGENTINA", CANAL 9 HD MISIONES
 https://panel.host-live.com:19360/8076/8076.m3u8
-
-
-
-
-
-
 
 
 
@@ -494,7 +488,7 @@ https://canaletaplus.com:3922/live/cosmoslive.m3u8
 
 
 
-#EXTINF:-1 tvg-logo="https://tinyurl.com/4wr9fnx2"group-title="ARGENTINA",EL 9 
+#EXTINF:-1 tvg-logo="https://static.wikia.nocookie.net/logopedia/images/e/ee/Canal_Nueve_Resistencia_%28Invierno_-_2017%29.jpg/revision/latest/scale-to-width-down/250?cb=20230222151220&path-prefix=es"group-title="ARGENTINA",EL 9 
 http://coninfo.net:1935/9linklivert/smil:9linkmultibr.smil/chunklist_w1546314826_b2044100_sleng.m3u8
 
 
