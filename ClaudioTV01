@@ -48,7 +48,8 @@ https://stream-cdn-iad3.vaughnsoft.net/play/live_mega_extremo.flv
 https://videostream.shockmedia.com.ar:19360/neotvdigital/neotvdigital.m3u8
 
 
-
+#EXTINF:-1 tvg-logo="https://cdn.phototourl.com/free/2026-09-15-3228139e-78d4-4af4-ae35-9e6069991ffe.png"group-title="BUENOS AIRES",BAYRESTV HD
+https://streaming01.mikrolive.tv/bayrestv/live/chunklist_w963757112.m3u8
 
 
 #EXTINF:-1 tvg-logo="https://cdn.phototourl.com/free/2026-09-13-d8ef892b-7fec-42f8-878b-989970682e3e.png"group-title="BUENOS AIRES", IPERSONICA TV 
@@ -76,13 +77,12 @@ https://canaletaplus.com:3922/live/cosmoslive.m3u8
 https://live20.bozztv.com/giatvplayout7/giatv-212009/playlist.m3u8
 
 
-#EXTINF:-1 tvg-logo="https://tinyurl.com/Bairesteve"group-title="BUENOS AIRES",BAYRESTV HD
-https://streaming01.mikrolive.tv/bayrestv/live/chunklist_w963757112.m3u8
+
 
 #EXTINF:-1 tvg-logo="https://cdn.phototourl.com/free/2026-08-16-ceee00a2-9c90-42e6-a338-9e12f693d4a4.png"group-title="BUENOS AIRES",LA PODEROSA TV
 https://lbgo.bozztv.com/ssh101/ssh101/lapoderosadigit/playlist.m3u8
 
-#EXTINF:-1 tvg-logo="https://tinyurl.com/Telecreativa"group-title="BUENOS AIRES",TELECREATIVA
+#EXTINF:-1 tvg-logo="https://cdn.phototourl.com/free/2026-09-15-3d95cd9e-21d9-42fe-87f9-df4e48ff785c.png"group-title="BUENOS AIRES",TELECREATIVA
 https://panel.host-live.com:19360/8012/8012.m3u8
 
 
@@ -592,7 +592,7 @@ https://videostream.shockmedia.com.ar:19360/telejunin/telejunin.m3u8
 https://live20.bozztv.com/giatvplayout7/giatv-208817/playlist.m3u8
 
 
-#EXTINF:-1 tvg-logo="https://tinyurl.com/Maxcinefucsia"group-title="CINE PREMIUM", MAX CINE
+#EXTINF:-1 tvg-logo="https://cdn.phototourl.com/free/2026-09-15-20a7811b-8239-4b13-bd1c-069ee277b13b.png"group-title="CINE PREMIUM", MAX CINE
 https://live20.bozztv.com/giatvplayout7/giatv-208138/tracks-v1a1/mono.m3u8
 
 
