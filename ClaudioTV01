@@ -15,7 +15,7 @@ https://live20.bozztv.com/giatvplayout7/giatv-208770/playlist.m3u8
 #EXTINF:-1 tvg-logo="https://tinyurl.com/LogoM4rv3L"group-title="BUENOS AIRES",MARVEL
 https://lbgo.bozztv.com/ssh101/ssh101/imcu/playlist.m3u8
 
-#EXTINF:-1 tvg-logo="https://tinyurl.com/Pelismani4"group-title="BUENOS AIRES", PELÍCULAS_MANIA
+#EXTINF:-1 tvg-logo="https://tinyurl.com/Pelismani4"group-title="BUENOS AIRES", PELÍCULASMANIA
 https://stream-cdn-iad3.vaughnsoft.net/play/live_peliculas_mania.flv
 
 
@@ -40,11 +40,11 @@ https://stream-cdn-iad3.vaughnsoft.net/play/live_megamundohd.flv
 
 
 
-#EXTINF:-1 tvg-logo="https://images.ctfassets.net/y2ske730sjqp/1aONibCke6niZhgPxuiilC/2c401b05a07288746ddf3bd3943fbc76/BrandAssets_Logos_01-Wordmark.jpg?w=940"group-title="BUENOS AIRES",MEGA EXTRMO
+#EXTINF:-1 tvg-logo="https://images.ctfassets.net/y2ske730sjqp/1aONibCke6niZhgPxuiilC/2c401b05a07288746ddf3bd3943fbc76/BrandAssets_Logos_01-Wordmark.jpg?w=940"group-title="BUENOS AIRES",MEGAEXTRMO
 https://stream-cdn-iad3.vaughnsoft.net/play/live_mega_extremo.flv
 
 
-#EXTINF:-1 tvg-logo="https://cdn.phototourl.com/free/2026-09-13-d3e3e239-b22e-49ef-b862-0a5abce5c868.png"group-title="BUENOS AIRES",NEO TV DIGITAL HD. 16.1 
+#EXTINF:-1 tvg-logo="https://cdn.phototourl.com/free/2026-09-13-d3e3e239-b22e-49ef-b862-0a5abce5c868.png"group-title="BUENOS AIRES",NEOTV HD
 https://videostream.shockmedia.com.ar:19360/neotvdigital/neotvdigital.m3u8
 
 
@@ -68,7 +68,7 @@ https://distrib.noisypeak.com/d/K9U16RORPWBMXX3B09JH/hls3/now,-1m/1.m3u8
 https://tvstreaming.albpo.com/memfs/8d987761-7923-4532-a95d-20723ae95374_output_0.m3u8
 
 
-#EXTINF:-1 tvg-logo="https://cdn.phototourl.com/free/2026-09-12-8674f5fd-afa0-452a-bef4-55dbe7618dcd.png"group-title="BUENOS AIRES",COSMOS TV HD
+#EXTINF:-1 tvg-logo="https://cdn.phototourl.com/free/2026-09-12-8674f5fd-afa0-452a-bef4-55dbe7618dcd.png"group-title="BUENOS AIRES",COSMOS TV
 https://canaletaplus.com:3922/live/cosmoslive.m3u8
 
 
@@ -76,19 +76,13 @@ https://canaletaplus.com:3922/live/cosmoslive.m3u8
 https://live20.bozztv.com/giatvplayout7/giatv-212009/playlist.m3u8
 
 
-
-
-
-
-
-
-#EXTINF:-1 tvg-logo="https://tinyurl.com/Bairesteve"group-title="BUENOS AIRES",BAYRES TV HD
+#EXTINF:-1 tvg-logo="https://tinyurl.com/Bairesteve"group-title="BUENOS AIRES",BAYRESTV HD
 https://streaming01.mikrolive.tv/bayrestv/live/chunklist_w963757112.m3u8
 
 #EXTINF:-1 tvg-logo="https://cdn.phototourl.com/free/2026-08-16-ceee00a2-9c90-42e6-a338-9e12f693d4a4.png"group-title="BUENOS AIRES",LA PODEROSA TV
 https://lbgo.bozztv.com/ssh101/ssh101/lapoderosadigit/playlist.m3u8
 
-#EXTINF:-1 tvg-logo="https://tinyurl.com/Telecreativa"group-title="BUENOS AIRES",TELECREATIVA HD
+#EXTINF:-1 tvg-logo="https://tinyurl.com/Telecreativa"group-title="BUENOS AIRES",TELECREATIVA
 https://panel.host-live.com:19360/8012/8012.m3u8
 
 
@@ -100,19 +94,14 @@ https://183.bozztv.com/giatv/giatv-telemixenvivo/telemixenvivo/playlist.m3u8
 https://live20.bozztv.com/giatvplayout7/giatv-209909/playlist.m3u8
 
 
-#EXTINF:-1 tvg-logo="https://tinyurl.com/Trespilar"group-title="BUENOS AIRES",CANAL 3 PINAMAR 
+#EXTINF:-1 tvg-logo="https://tinyurl.com/Trespilar"group-title="BUENOS AIRES",3 PINAMAR 
 https://intelincloud01.com.ar/hls/cn3/index.m3u8
 
-#EXTINF:-1 tvg-logo="https://tinyurl.com/Magicateve"group-title="BUENOS AIRES", CIUDAD MAGICA TV
+#EXTINF:-1 tvg-logo="https://tinyurl.com/Magicateve"group-title="BUENOS AIRES", CIUDADMAGICATV
 https://live20.bozztv.com/akamaissh101/ssh101/verycoolfgr/chunks.m3u8
 
 #EXTINF:-1 tvg-logo="https://tinyurl.com/Elmagoteve"group-title="BUENOS AIRES",EL MAGO TV
 https://live20.bozztv.com/akamaissh101/ssh101/elmagotv2/chunks.m3u8
-
-
-
-
-
 
 
 
@@ -143,18 +132,18 @@ https://lbgo.bozztv.com/ssh101/ssh101/mgradiotv/chunks.m3u8
 #EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/5/5e/Bravotv.png"group-title="BUENOS AIRES",BRAVO TV
 https://redirector.rudo.video/hls-video/c54ac2799874375c81c1672abb700870537c5223/bravo/bravo.smil/playlist.m3u8
 
-#EXTINF:-1 tvg-logo="https://tinyurl.com/canalLuz"group-title="BUENOS AIRES",CANAL LUZ HD
+#EXTINF:-1 tvg-logo="https://tinyurl.com/canalLuz"group-title="BUENOS AIRES",CANAL LUZ
 https://g2.vxral-slo.transport.edge-access.net:443/a11/ngrp:canal_luz01-100009_all/canal_luz01-100009_1080p/index.m3u8
 
 #EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/Canal_26_logo_%282022%29.svg/330px-Canal_26_logo_%282022%29.svg.png"group-title="BUENOS AIRES",CANAL 26
 https://stream-gtlc.telecentro.net.ar/hls/canal26hls/0/playlist.m3u8?uid=d1ab8e18c3a4e4fdc5b8b00e287498d9
 
-#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/a/a5/Net_TV_logo.png"group-title="BUENOS AIRES", NET TV HD  27.2
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/a/a5/Net_TV_logo.png"group-title="BUENOS AIRES", NET TV
 https://unlimited1-us.dps.live/nettv/nettv.smil/playlist.m3u8
 
 
 
-#EXTINF:-1 tvg-logo="https://nnssmadrid.files.wordpress.com/2015/09/a4-solidaria-tv.png?w=276"group-title="BUENOS AIRES",SOLIDARIA TV HD
+#EXTINF:-1 tvg-logo="https://nnssmadrid.files.wordpress.com/2015/09/a4-solidaria-tv.png?w=276"group-title="BUENOS AIRES",SOLIDARIA TV 
 https://canadaremar2.todostreaming.es/live/solidariatv-webhd.m3u8
 
 
@@ -164,7 +153,7 @@ https://canadaremar2.todostreaming.es/live/solidariatv-webhd.m3u8
 #EXTINF:-1 tvg-logo="https://logos-world.net/wp-content/uploads/2025/04/A24-Logo-New.png"group-title="BUENOS AIRES",A24
 
 
-#EXTINF:-1 tvg-logo="https://tinyurl.com/yuyatxzt"group-title="BUENOS AIRES",TELEMAX HD  26.3
+#EXTINF:-1 tvg-logo="https://tinyurl.com/yuyatxzt"group-title="BUENOS AIRES",TELEMAX
 https://stream-gtlc.telecentro.net.ar/hls/telemaxhls/main.m3u8
 
 #EXTINF:-1 tvg-logo="https://tinyurl.com/yc2k7s8n"group-title="BUENOS AIRES", TIERRAMIA
@@ -176,7 +165,7 @@ https://cdn.mycloudstream.io/hls/live/broadcast/pgv5kerk/mono.m3u8
 
 
 
-#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/Russia-today-logo.svg/330px-Russia-today-logo.svg.png"group-title="BUENOS AIRES",RT HD   25.5
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/Russia-today-logo.svg/330px-Russia-today-logo.svg.png"group-title="BUENOS AIRES",RT HD
 https://rt-esp.rttv.com:443/live/rtesp/playlist_4500Kb.m3u8
 
 
@@ -185,7 +174,7 @@ https://live.presstv.ir/hls/hispantv.m3u8
 
 
 
-#EXTINF:-1 tvg-logo="https://assets-global.website-files.com/605a3cacba514a77ca2e6ab5/6065f6834c6c7c875c2c1c16_dwe.png"group-title="BUENOS AIRES",DW ESPAÑOL HD
+#EXTINF:-1 tvg-logo="https://assets-global.website-files.com/605a3cacba514a77ca2e6ab5/6065f6834c6c7c875c2c1c16_dwe.png"group-title="BUENOS AIRES",DW ESPAÑOL
 https://dwamdstream104.akamaized.net/hls/live/2015530/dwstream104/stream04/streamPlaylist.m3u8
 
 
