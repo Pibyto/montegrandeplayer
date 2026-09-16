@@ -2387,7 +2387,7 @@ https://livetv.305streamhd.com:3667/live/majestadtvlive.m3u8
 
 
 
-#EXTINF:-1 tvg-logo="https://i.ibb.co/KzQTm9Z0/IMG-20260616-101909961-2.png"group-title="PR.EE.UU",CH 268
+#EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRt5EcMMVDldt6jrcTRpVDSyW_CDXiXxPkl0UpnM0AD9ySkmPJYZrP0HTY&s=10"group-title="PR.EE.UU",CH 268
 https://run-rt-uh-roku.otteravision.com/run/rt_uh/rt_uh_720.m3u8
 
 
@@ -2459,18 +2459,18 @@ https://bozztv.com/uni10rtmp/ssstv2-cdn/smil:ssstv2web.smil/chunklist_b2176000.m
 https://cdnlive.myspirit.tv/LS-ATL-43240-2/tracks-v1a1/mono.m3u8
 
 
-#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/en/e/e9/WSPF-CD_Am%C3%A9rica_Tev%C3%A9_Tampa_logo.png"group-title="PR.EE.UU",CH 276  
+#EXTINF:-1 tvg-logo="https://www.thedailytelevision.com/sites/default/files/notas/imagenes/interior/am_americateve_big.jpg"group-title="PR.EE.UU",CH 276  
 https://live.gideo.video/americateve2/HD1080/HD1080.m3u8 
 
 
 
-#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/0/0d/Mega_TV_-_Logo.png"group-title="PR.EE.UU",CH 277 
+#EXTINF:-1 tvg-logo="https://i.ytimg.com/vi/nL9x7wg5xf8/sddefault.jpg?v=66a973f6"group-title="PR.EE.UU",CH 277 
 https://mdstrm.com/live-stream-playlist/67ed74e8af482ba71d47fd7b.m3u8 
 
 
 
 
-#EXTINF:-1 tvg-logo="https://static.wikia.nocookie.net/logopedia/images/d/df/WIPR-TV_2015.svg/revision/latest/scale-to-width-down/200?cb=20201221001542"group-title="PR.EE.UU",CH 278 
+#EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSV_ZuuH2klH91bdT2k2SnjQYDu1Md6PpOFr6FWQobmVpTxKv-ZS1Tutfs&s=10"group-title="PR.EE.UU",CH 278 
 https://streamwipr.pr/hls/stream/index.m3u8?
 
 
@@ -2492,8 +2492,8 @@ https://estrellatv-oando.amagi.tv/playlistR1080p.m3u8
 
 #EXTINF:-1 tvg-logo=""group-title="PR.EE.UU",C
 
-#EXTINF:-1 tvg-logo="https://www.maranatharadioministries.com/wp-content/uploads/2019/09/Maranatha-Radio-Final-500px.png"group-title="PR.EE.UU",CH 283
-https://vip.livecastnet.com:3930/live/maranatharadiolive.m3u8
+#EXTINF:-1 tvg-logo="https://i.vimeocdn.com/video/840581429-6a40a6638e5de00f7843706df5025155208e1f84adf1130115f2147d63745e6e-d_890?region=us"group-title="PR.EE.UU",CH 283
+http://190.60.48.150:8000/play/univision/index.m3u8
 
 
 
