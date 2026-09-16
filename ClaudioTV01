@@ -8,7 +8,7 @@ https://stream-cdn-iad3.vaughnsoft.net/play/live_a_neflix01.flv
 
 
 #EXTINF:-1 tvg-logo="https://images.ctfassets.net/y2ske730sjqp/1aONibCke6niZhgPxuiilC/2c401b05a07288746ddf3bd3943fbc76/BrandAssets_Logos_01-Wordmark.jpg?w=940"group-title="BUENOS AIRES", NETFLIX 2
-https://stream-cdn-iad3.vaughnsoft.net/play/live_juantv_2.flv
+https://stream-cdn-iad3.vaughnsoft.net/play/live_marlon_hd.flv
 
 
 
@@ -44,7 +44,7 @@ https://stream-cdn-iad3.vaughnsoft.net/play/live_megamundohd.flv
 
 
 
-#EXTINF:-1 tvg-logo="https://images.ctfassets.net/y2ske730sjqp/1aONibCke6niZhgPxuiilC/2c401b05a07288746ddf3bd3943fbc76/BrandAssets_Logos_01-Wordmark.jpg?w=940"group-title="BUENOS AIRES",MEGAEXTRMO
+#EXTINF:-1 tvg-logo="https://images.ctfassets.net/y2ske730sjqp/1aONibCke6niZhgPxuiilC/2c401b05a07288746ddf3bd3943fbc76/BrandAssets_Logos_01-Wordmark.jpg?w=940"group-title="BUENOS AIRES",MEGAEXTREMO
 https://stream-cdn-iad3.vaughnsoft.net/play/live_mega_extremo.flv
 
 
@@ -88,8 +88,8 @@ https://stream-cdn-iad3.vaughnsoft.net/play/live_xseries.flv
 
 
 
-#EXTINF:-1 tvg-logo="https://i.ibb.co/Jws2m832/istockphoto-2241417691-612x612.png"group-title="BUENOS AIRES",MEGAPELI
-https://stream-cdn-iad3.vaughnsoft.net/play/live_aa_movies_y_series.flv
+#EXTINF:-1 tvg-logo=""group-title="BUENOS AIRES",MEGAPELI
+
 
 
 
@@ -108,7 +108,7 @@ https://panel.host-live.com:19360/8012/8012.m3u8
 https://183.bozztv.com/giatv/giatv-telemixenvivo/telemixenvivo/playlist.m3u8
 
 
-#EXTINF:-1 tvg-logo="https://tinyurl.com/Maxcinekids"group-title="BUENOS AIRES", MAXCINE KIDS
+#EXTINF:-1 tvg-logo="https://i.ibb.co/LDH9d0CB/Polish-20260713-152652011-6.png"group-title="BUENOS AIRES", MAXCINE KIDS
 https://live20.bozztv.com/giatvplayout7/giatv-209909/playlist.m3u8
 
 
@@ -129,7 +129,7 @@ https://live20.bozztv.com/akamaissh101/ssh101/elmagotv2/chunks.m3u8
 https://srv3.zcast.com.br/gentv/gentv/playlist.m3u8
 
 
-#EXTINF:-1 tvg-logo="https://tinyurl.com/Restellitv"group-title="BUENOS AIRES", RESTELLI TV 
+#EXTINF:-1 tvg-logo="https://i.ibb.co/nMfXKRY7/file-00000000e454820ea6ec23736d49c485.png"group-title="BUENOS AIRES", RESTELLI TV 
 https://live20.bozztv.com/giatvplayout7/giatv-208744/tracks-v1a1/mono.m3u8
 
 
@@ -147,19 +147,16 @@ https://lbgo.bozztv.com/ssh101/ssh101/mgradiotv/chunks.m3u8
 
 
 
-#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/5/5e/Bravotv.png"group-title="BUENOS AIRES",BRAVO TV
-http://186.148.196.100:8000/play/a01p.m3u8
-
-
+#EXTINF:-1 tvg-logo="https://fmrockandpop.com/media/k2/items/cache/6ac2a38db7e43ccc05d2fd2a34214cc8_L.webp?t=20220124_182155"group-title="BUENOS AIRES",ROCK Y POP
 https://redirector.rudo.video/hls-video/c54ac2799874375c81c1672abb700870537c5223/bravo/bravo.smil/playlist.m3u8
 
-#EXTINF:-1 tvg-logo="https://tinyurl.com/canalLuz"group-title="BUENOS AIRES",CANAL LUZ
+#EXTINF:-1 tvg-logo="https://cms.evangelicodigital.com/upload/imagenes/62f4cf1fcb7e5_canal-luz-G.jpg"group-title="BUENOS AIRES",CANAL LUZ
 https://g2.vxral-slo.transport.edge-access.net:443/a11/ngrp:canal_luz01-100009_all/canal_luz01-100009_1080p/index.m3u8
 
-#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/Canal_26_logo_%282022%29.svg/330px-Canal_26_logo_%282022%29.svg.png"group-title="BUENOS AIRES",CANAL 26
+#EXTINF:-1 tvg-logo="https://i.ytimg.com/vi/C_RnFD6xiX8/sddefault.jpg"group-title="BUENOS AIRES",CANAL 26
 https://stream-gtlc.telecentro.net.ar/hls/canal26hls/0/playlist.m3u8?uid=d1ab8e18c3a4e4fdc5b8b00e287498d9
 
-#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/a/a5/Net_TV_logo.png"group-title="BUENOS AIRES", NET TV
+#EXTINF:-1 tvg-logo="https://media.licdn.com/dms/image/v2/C4E1BAQHeTbMkwPcJuw/company-background_10000/company-background_10000/0/1584626904726/canal_net_tv_cover?e=2147483647&v=beta&t=UwroqS9ybrgQAFzNUXrxZoqnIhoo0ckyuCNiAbrNkyU"group-title="BUENOS AIRES", NET TV
 https://unlimited1-us.dps.live/nettv/nettv.smil/playlist.m3u8
 
 
@@ -174,14 +171,14 @@ https://canadaremar2.todostreaming.es/live/solidariatv-webhd.m3u8
 #EXTINF:-1 tvg-logo="https://logos-world.net/wp-content/uploads/2025/04/A24-Logo-New.png"group-title="BUENOS AIRES",A24
 
 
-#EXTINF:-1 tvg-logo="https://tinyurl.com/yuyatxzt"group-title="BUENOS AIRES",TELEMAX
+#EXTINF:-1 tvg-logo="https://www.prensario.net/Multimedios/imgs/65038_750.jpg"group-title="BUENOS AIRES",TELEMAX
 https://stream-gtlc.telecentro.net.ar/hls/telemaxhls/main.m3u8
 
-#EXTINF:-1 tvg-logo="https://tinyurl.com/yc2k7s8n"group-title="BUENOS AIRES", TIERRAMIA
+#EXTINF:-1 tvg-logo="https://www.5900.tv/storage/thumbnails/RJqZv1cxmng1hrA9lfPhSlnXKTMTZ40TdQmBdW64.jpg"group-title="BUENOS AIRES", TIERRAMIA
 https://stream-gtlc.telecentro.net.ar/hls/tierramiahls/0/playlist.m3u8?uid=3602db85b7b057add1eaede96802d569
 
 
-#EXTINF:-1 tvg-logo="https://tinyurl.com/4tkac7dz"group-title="BUENOS AIRES",UNIFE TV
+#EXTINF:-1 tvg-logo="https://unife.mx/wp-content/uploads/2025/11/Mdiakit-partes-ventas.jpg"group-title="BUENOS AIRES",UNIFE TV
 https://cdn.mycloudstream.io/hls/live/broadcast/pgv5kerk/mono.m3u8
 
 
@@ -231,7 +228,7 @@ https://panctv.ddns.net/hls/ar/live.m3u8
 
 
 #EXTINF:-1 tvg-logo="https://static.wikia.nocookie.net/logopedia/images/a/a5/Eltreceinternacional-logo-2016.png/revision/latest?cb=20161019052654"group-title="BUENOS AIRES",EL TRECE
-
+https://stream-cdn-iad3.vaughnsoft.net/play/live_juan_13tv.flv
 
 
 #EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/c/cc/Telefe_%28nuevo_logo%29.png"group-title="BUENOS AIRES",TELEFE
