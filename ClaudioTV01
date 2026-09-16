@@ -7,6 +7,10 @@
 https://stream-cdn-iad3.vaughnsoft.net/play/live_a_neflix01.flv
 
 
+#EXTINF:-1 tvg-logo="https://images.ctfassets.net/y2ske730sjqp/1aONibCke6niZhgPxuiilC/2c401b05a07288746ddf3bd3943fbc76/BrandAssets_Logos_01-Wordmark.jpg?w=940"group-title="BUENOS AIRES", NETFLIX 2
+https://stream-cdn-iad3.vaughnsoft.net/play/live_juantv_2.flv
+
+
 
 #EXTINF:-1 tvg-logo="https://tinyurl.com/Fevivamusic"group-title="BUENOS AIRES",FE VIVA MUSIC
 https://live20.bozztv.com/giatvplayout7/giatv-208770/playlist.m3u8
@@ -77,6 +81,20 @@ https://canaletaplus.com:3922/live/cosmoslive.m3u8
 https://live20.bozztv.com/giatvplayout7/giatv-212009/playlist.m3u8
 
 
+
+#EXTINF:-1 tvg-logo="https://i.ibb.co/m5Pd88LM/file-00000000da7082439c19864e0c53a9eb-5.png"group-title="BUENOS AIRES",X SERIES
+https://stream-cdn-iad3.vaughnsoft.net/play/live_xseries.flv 
+
+
+
+
+#EXTINF:-1 tvg-logo="https://i.ibb.co/Jws2m832/istockphoto-2241417691-612x612.png"group-title="BUENOS AIRES",MEGAPELI
+https://stream-cdn-iad3.vaughnsoft.net/play/live_aa_movies_y_series.flv
+
+
+
+
+#EXTINF:-1 tvg-logo=""group-title="BUENOS AIRES",
 
 
 #EXTINF:-1 tvg-logo="https://cdn.phototourl.com/free/2026-08-16-ceee00a2-9c90-42e6-a338-9e12f693d4a4.png"group-title="BUENOS AIRES",LA PODEROSA TV
