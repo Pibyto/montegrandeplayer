@@ -2825,6 +2825,30 @@ https://stream.meteorito.cloud:1947/canal6/smil:canal6.smil/chunklist_w201553397
 
 
 
+#EXTINF:-1 tvg-logo=""group-title="COLOMBIA",RCN
+http://181.78.8.199:8000/play/a09l/index.m3u8
+
+
+
+#EXTINF:-1 tvg-logo=""group-title="COLOMBIA",RCN2
+http://152.231.29.139:8000/play/a0jw/index.m3u8
+
+
+
+#EXTINF:-1 tvg-logo=""group-title="COLOMBIA", CARACOL 
+http://181.79.87.130:8000/play/a0es/index.m3u8
+
+
+#EXTINF:-1 tvg-logo=""group-title="COLOMBIA",CARACOL2
+http://181.78.8.199:8000/play/a0hw/index.m3u8
+
+
+#EXTINF:-1 tvg-logo=""group-title="COLOMBIA",TEVECOLOMBIA
+https://cloud6.livescast.com:3900/live/tevecolombialive.m3u8
+
+
+
+
 
 
 #EXTINF:-1 tvg-logo="https://tinyurl.com/Cine35mm"group-title="COLOMBIA", CINE35MM
@@ -3115,26 +3139,32 @@ https://tvhd.picta.cu/cubavisionhd/cubavisionhd_0.m3u8
 https://stream.giostreaming.app/canal11/canal11.m3u8
 
 
-#EXTINF:-1 tvg-logo=""group-title="ELSALVADOR",CANAL 26
-https://vdo.tecnoservix.stream:3899/live/canal26tvlive.m3u8
+#EXTINF:-1 tvg-logo="https://i.pinimg.com/736x/5c/9b/6e/5c9b6e1b2af92c10667bcca91d359d98.jpg"group-title="ELSALVADOR",CANAL 26
+https://mgvchannel19-ioriver-cdn.encoders.immergo.tv/0/streamPlaylist.m3u8
 
 
 
 
 
-#EXTINF:-1 tvg-logo=""group-title="ELSALVADOR",CANAL 65
-https://panel.streamingtv-mediacp.online:1936/tv65/tv65/chunklist_w532530269.m3u8
+
+
+#EXTINF:-1 tvg-logo="https://i.pinimg.com/736x/5c/9b/6e/5c9b6e1b2af92c10667bcca91d359d98.jpg"group-title="ELSALVADOR",CANAL 65
 
 
 
-#EXTINF:-1 tvg-logo=""group-title="ELSALVADOR",CANAL 3
+
+#EXTINF:-1 tvg-logo="https://i.pinimg.com/736x/5c/9b/6e/5c9b6e1b2af92c10667bcca91d359d98.jpg"group-title="ELSALVADOR",CANAL 3
 https://cloud2.streaminglivehd.com:2020/hls/8036/8036.m3u8
 
 
 
 
-#EXTINF:-1 tvg-logo=""group-title="ELSALVADOR",WOW
-https://cdn-edge1.cef-technology.com/wow/wow_tv/chunks.m3u8?nimblesessionid=7510439
+#EXTINF:-1 tvg-logo="https://i.pinimg.com/736x/5c/9b/6e/5c9b6e1b2af92c10667bcca91d359d98.jpg"group-title="ELSALVADOR",TRV
+http://45.167.2.101:8000/play/a0re/index.m3u8
+
+
+#EXTINF:-1 tvg-logo="https://i.pinimg.com/736x/5c/9b/6e/5c9b6e1b2af92c10667bcca91d359d98.jpg"group-title="ELSALVADOR",WOW TV
+https://service.cdn-stream.com/wow/wow_tv/playlist.m3u8
 
 
 
@@ -3142,17 +3172,18 @@ https://cdn-edge1.cef-technology.com/wow/wow_tv/chunks.m3u8?nimblesessionid=7510
 
 
 
-
-#EXTINF:-1 tvg-logo=""group-title="ELSALVADOR",
-
-
-
-#EXTINF:-1 tvg-logo=""group-title="ELSALVADOR",
+#EXTINF:-1 tvg-logo="https://i.pinimg.com/736x/5c/9b/6e/5c9b6e1b2af92c10667bcca91d359d98.jpg"group-title="ELSALVADOR", CANAL 57
+https://stream.giostreaming.app/rtvcanal57/rtvcanal57.m3u8
 
 
 
+#EXTINF:-1 tvg-logo="https://i.pinimg.com/736x/5c/9b/6e/5c9b6e1b2af92c10667bcca91d359d98.jpg"group-title="ELSALVADOR",CANAL 58
+https://183.bozztv.com/giatv/giatv-canal58elsalvador/canal58elsalvador/chunks.m3u8
 
 
+
+#EXTINF:-1 tvg-logo="https://i.pinimg.com/736x/5c/9b/6e/5c9b6e1b2af92c10667bcca91d359d98.jpg"group-title="ELSALVADOR",TL+
+https://cdn.40mediagroup.com/live/c7eds/TLMasSV_SantaAna/SA_LIVE_hls_enc/master.m3u8
 
 
 
