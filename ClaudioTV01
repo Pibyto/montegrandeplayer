@@ -356,7 +356,7 @@ https://g5.vxral-slo.transport.edge-access.net/a11/ngrp:canal_luz01-100009_all/c
 https://videostream.shockmedia.com.ar:19360/multivisionfederal/multivisionfederal.m3u8
 
 
-#EXTINF:-1 tvg-logo="https://i.ibb.co/TB508rLL/hqdefault-1-1.png"group-title="ARGENTINA",TELEVIDA
+#EXTINF:-1 tvg-logo="https://cdn.phototourl.com/free/2026-09-18-8ec21880-2d04-42c3-8afe-cbfe81678f3b.png"group-title="ARGENTINA",TELEVIDA
 https://unlimited1-saopaulo.dps.live/televidaar/televidaar.smil/televidaar/livestream1/chunks.m3u8
 
 #EXTINF:-1 tvg-logo="https://i.ibb.co/tM3MFYbd/IMG-20260913-WA0006.jpg"group-title="ARGENTINA", TELEPOSADAS TV
@@ -376,7 +376,7 @@ https://edge.enhdtv.com/canal9sanluis/index.m3u8
 
 
 
-#EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQrV7hvjSfqEhiY-R7NzkaGX-1xBeh0UExI4w&s"group-title="ARGENTINA",XAMA TV
+#EXTINF:-1 tvg-logo="https://xama.tv/images/logo-xama-01.png"group-title="ARGENTINA",XAMA TV
 https://srs.unsj.edu.ar/live/xama/xama.flv
 
 
@@ -411,7 +411,7 @@ https://stream.arcast.com.ar/c3lapampa/ngrp:c3lapampa_all/playlist.m3u8
 
 
 
-#EXTINF:-1 tvg-logo="https://i.ibb.co/d0PhWtxg/c8-sj-18.png"group-title="ARGENTINA",CANAL 8
+#EXTINF:-1 tvg-logo="https://i.ytimg.com/vi/vNU5j_QaI7U/maxresdefault.jpg"group-title="ARGENTINA",CANAL 8
 https://live20.bozztv.com/akamaissh101/ssh101/canal8sanjuan/playlist.m3u8
 
 
