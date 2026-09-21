@@ -14,6 +14,7 @@
   <script src="https://www.gstatic.com/cv/js/sender/v1/cast_sender.js?loadCastFramework=1"></script>
   <script src="https://cdn.jsdelivr.net/npm/hls.js@latest"></script>
   <script src="https://cdn.jsdelivr.net/npm/mpegts.js@latest"></script>
+  <script src="https://cdn.dashjs.org/latest/dash.all.min.js"></script>
   <style>
     * { margin: 0; padding: 0; box-sizing: border-box; outline: none !important; }
     
@@ -199,6 +200,20 @@
     .ver-todo-card span { color: #38bdf8; font-weight: bold; font-size: 12px; }
     .ver-todo-card:focus, .ver-todo-card.focused { border: 2px solid #ffcc00; box-shadow: 0 0 10px #ffcc00; transform: scale(1.05); }
 
+    /* Estado de Max: ocupa la misma columna vertical que el menú, sin tapar ningún icono. */
+    .max-status {
+      position: fixed; top: 12px; left: 20px; width: 44px; z-index: 10000;
+      display: flex; flex-direction: column; align-items: center; justify-content: flex-start; gap: 2px;
+      padding: 0; margin: 0;
+      background: transparent; border: 0; box-shadow: none;
+      pointer-events: none;
+    }
+    .max-status-logo { width: 44px; height: 28px; max-height: 28px; object-fit: contain; display: block; opacity: 1; filter: none; }
+    .max-status-info { display: flex; flex-direction: column; align-items: center; justify-content: flex-start; line-height: 1; white-space: nowrap; }
+    .max-status-time { color: #fff; font-size: 11px; font-weight: 700; letter-spacing: 0.2px; text-shadow: none; }
+    .max-status-date { color: #fff; font-size: 7px; margin-top: 2px; text-transform: uppercase; text-shadow: none; }
+    .max-status.hidden-ui { opacity: 0; visibility: hidden; pointer-events: none; }
+
     .channel-logo { position: fixed; top: 20px; right: 80px; max-width: 130px; max-height: 70px; z-index: 9998; pointer-events: none; }
 
     .toast-favoritos {
@@ -225,7 +240,8 @@
 
       .side-menu {
         left: 0; top: 0; transform: none; width: 100%; height: auto; flex-direction: row;
-        justify-content: space-around; background: rgba(0, 0, 0, 0.85); padding: 8px 0;
+        justify-content: space-between; gap: 4px;
+        background: rgba(0, 0, 0, 0.85); padding: 8px 6px 8px 72px;
         border-bottom: 1px solid rgba(0, 204, 255, 0.3);
       }
       .side-menu.hidden-ui { transform: translateY(-100%); opacity: 0; }
@@ -254,12 +270,97 @@
       .poster-card span { font-size: 8px; padding: 2px; display: block !important; }
       .ver-todo-card { width: 75px; border-radius: 8px; }
       .ver-todo-card span { font-size: 9px; }
+      .max-status { top: 9px; left: 8px; width: 52px; gap: 1px; }
+      .max-status-logo { width: 52px; height: 29px; max-height: 29px; }
+      .max-status-time { font-size: 11px; }
+      .max-status-date { font-size: 7px; margin-top: 2px; }
       .channel-logo { top: 80px !important; right: 15px !important; max-width: 75px; max-height: 40px; }
       .waves-container { width: 80%; height: 40px; bottom: 12%; }
     }
-  </style>
+  
+/* Barra informativa Downloader: subtítulo inferior, limpia y sin fondo */
+.max-downloader-bar {
+  position: fixed;
+  left: 0;
+  right: 0;
+  bottom: 7px;
+  z-index: 9998;
+  height: 30px;
+  overflow: hidden;
+  pointer-events: none;
+  background: transparent;
+  display: flex;
+  align-items: center;
+  white-space: nowrap;
+}
+.max-downloader-track {
+  display: flex;
+  align-items: center;
+  width: max-content;
+  min-width: max-content;
+  animation: maxDownloaderTicker 60s linear infinite;
+  will-change: transform;
+}
+.max-downloader-segment {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding-right: 110px;
+  color: #fff;
+  font-size: 13px;
+  line-height: 1;
+  text-shadow: 1px 1px 3px #000, -1px -1px 3px #000, 0 0 5px #000;
+}
+.max-downloader-icon {
+  width: 22px;
+  height: 22px;
+  object-fit: contain;
+  flex: 0 0 auto;
+  filter: none;
+}
+.max-downloader-code {
+  font-size: 16px;
+  font-weight: 800;
+  letter-spacing: 1px;
+  text-shadow: 1px 1px 3px #000, -1px -1px 3px #000, 0 0 5px #000;
+}
+@keyframes maxDownloaderTicker {
+  from { transform: translateX(0); }
+  to { transform: translateX(-50%); }
+}
+@media (max-width: 700px) {
+  .max-downloader-bar { bottom: 5px; height: 28px; }
+  .max-downloader-segment { font-size: 12px; gap: 7px; padding-right: 85px; }
+  .max-downloader-track { animation-duration: 55s; }
+  .max-downloader-icon { width: 21px; height: 21px; }
+  .max-downloader-code { font-size: 15px; }
+}
+</style>
 </head>
 <body>
+<div class="max-downloader-bar" id="maxDownloaderBar" aria-label="Información sobre la nueva interfaz Max">
+  <div class="max-downloader-track">
+    <div class="max-downloader-segment">
+      <span>Por compatibilidad con algunos dispositivos, volvimos a la versión original de Max. Si querés seguir disfrutando de la nueva interfaz, usá Downloader con el código:</span>
+      <img class="max-downloader-icon" src="https://tinyurl.com/Download3r" alt="Downloader">
+      <span class="max-downloader-code">5096262</span>
+    </div>
+    <div class="max-downloader-segment" aria-hidden="true">
+      <span>Por compatibilidad con algunos dispositivos, volvimos a la versión original de Max. Si querés seguir disfrutando de la nueva interfaz, usá Downloader con el código:</span>
+      <img class="max-downloader-icon" src="https://tinyurl.com/Download3r" alt="">
+      <span class="max-downloader-code">5096262</span>
+    </div>
+  </div>
+</div>
+
+
+<div class="max-status" id="maxStatus">
+  <img class="max-status-logo" src="https://tinyurl.com/Maxlogomaass" alt="Monte Grande TV Max">
+  <div class="max-status-info">
+    <div class="max-status-time" id="maxClock">--:--</div>
+    <div class="max-status-date" id="maxDate">--/--/----</div>
+  </div>
+</div>
 
 <div class="player-container"><video id="videoPlayer" autoplay="" playsinline=""></video></div>
 
@@ -326,22 +427,47 @@
     }
   };
 
+  // CONFIGURACIÓN: cambiar solo "SI" por "NO" para ocultar el subtítulo Downloader.
+  const MOSTRAR_SUBTITULO_DOWNLOADER = "SI";
+
   const MOSTRAR_PANEL_DONACIONES = "SI";
 
   document.addEventListener('DOMContentLoaded', function() {
+    (function iniciarRelojMax() {
+      var clock = document.getElementById('maxClock');
+      var dateEl = document.getElementById('maxDate');
+      function actualizar() {
+        var now = new Date();
+        var hh = String(now.getHours()).padStart(2, '0');
+        var mm = String(now.getMinutes()).padStart(2, '0');
+        var dd = String(now.getDate()).padStart(2, '0');
+        var mo = String(now.getMonth() + 1).padStart(2, '0');
+        var yyyy = now.getFullYear();
+        if (clock) clock.textContent = hh + ':' + mm;
+        if (dateEl) dateEl.textContent = dd + '/' + mo + '/' + yyyy;
+      }
+      actualizar();
+      setInterval(actualizar, 1000);
+    })();
+
+    // Subtítulo Downloader: se activa/desactiva arriba con "SI" o "NO".
+    var downloaderBar = document.getElementById('maxDownloaderBar');
+    if (downloaderBar) downloaderBar.style.display = (MOSTRAR_SUBTITULO_DOWNLOADER === "SI") ? "flex" : "none";
+
     window.TV_URL = "https://tinyurl.com/2n2etx65";
     window.MOVIES_URL = "https://tinyurl.com/2vz6vphp";
     window.SERIES_URL = "https://tinyurl.com/seriesmgtv";
     window.KIDS_URL = "https://tinyurl.com/peliskids";
     window.logosCanales = { "giatv-212009": "https://tinyurl.com/Mgworshipp", "giatv-208138": "https://tinyurl.com/Maxcinefucsia", "giatv-209163": "https://tinyurl.com/Max2fucsia", "giatv-208817": "https://tinyurl.com/Maxcinefamily", "giatv-209909": "https://tinyurl.com/Maxcinekids", "giatv-208730": "https://tinyurl.com/Maxcinecomedy", "giatv-208538": "https://tinyurl.com/Mgtvkidss", "giatv-211465": "https://tinyurl.com/Chavitooo", "giatv-208744": "https://tinyurl.com/Restellitv", "giatv-211979": "https://tinyurl.com/Housedoooc", "giatv-208770": "https://tinyurl.com/Fevivamusic", "https://lbgo.bozztv.com/ssh101/ssh101/imcu/playlist.m3u8": "https://tinyurl.com/LogoM4rv3L", "https://live20.bozztv.com/akamaissh101/ssh101/montegrandetv/chunks.m3u8": "https://tinyurl.com/Mgtevev" };
-    window.tvGroups = {}; window.moviesGroups = {}; window.seriesGroups = {}; window.kidsGroups = {}; window.currentHls = null; window.currentMpegts = null; 
+    window.tvGroups = {}; window.moviesGroups = {}; window.seriesGroups = {}; window.kidsGroups = {}; window.currentHls = null; window.currentMpegts = null;
+      window.currentDash = null; 
     
     window.currentMode = "home"; 
     window.isSubView = false; 
     window.uiTimeout = null; window.isUiHidden = false; window.lastPlayedTvUrl = ""; 
     window.channelCache = {};
     window.currentStreamingUrl = "";
-    window.playDebounceTimeout = null;
+    window.playDebounceTimeout = null; window.externalFallbackOnError = false;
     
     window.CINCO_MINUTOS_MS = 5 * 60 * 1000; 
     window.UN_MINUTO_MS = 60 * 1000; 
@@ -538,6 +664,10 @@
         try { window.currentMpegts.unload(); window.currentMpegts.detachMediaElement(); window.currentMpegts.destroy(); } catch(e){}
         window.currentMpegts = null; 
       } 
+      if (window.currentDash) {
+        try { window.currentDash.reset(); } catch(e){}
+        window.currentDash = null;
+      }
       video.pause(); 
       video.removeAttribute('src'); 
       video.load(); 
@@ -549,62 +679,131 @@
       window.lastPlayedTvUrl = url; 
       try { localStorage.setItem('mgtv_last_channel', url); } catch(e){}
       if (channelObj) { registrarCanalVisto(channelObj); }
+      window.externalFallbackOnError = (window.currentMode === "movies" || window.currentMode === "series" || window.currentMode === "kids");
 
+      clearTimeout(window.playDebounceTimeout);
+      window.playDebounceTimeout = setTimeout(function() {
+        ejecutarCargaUrl(url, channelObj);
+      }, 200);
+    }
+
+    function playContenidoInterno(url) {
+      if (!url) return;
+      window.externalFallbackOnError = true;
       clearTimeout(window.playDebounceTimeout);
       window.playDebounceTimeout = setTimeout(function() {
         ejecutarCargaUrl(url);
       }, 200);
     }
 
-    function ejecutarCargaUrl(url) {
+    function ejecutarCargaUrl(url, channelObj) {
       mostrarLogo(url);
       window.currentStreamingUrl = url;
-      
-      destroyPlayers(); 
+
+      /* Banner del canal seleccionado: usa EXCLUSIVAMENTE el tvg-logo
+         de la lista M3U maestra. Los logos especiales de logosCanales
+         pertenecen solo al overlay de los 12 canales y no deben heredarse
+         como banner. */
+      if (channelObj) {
+        var bannerUrl = null;
+        if (channelObj.logo && channelObj.logo.trim() !== "" &&
+            channelObj.logo.indexOf('127.0.0.1') === -1 &&
+            channelObj.logo.indexOf('placehold.co') === -1) {
+          bannerUrl = channelObj.logo;
+        }
+        if (bannerUrl) {
+          document.body.style.setProperty('background-image', "url('" + bannerUrl.replace(/'/g, "\\'") + "')", 'important');
+          document.body.style.setProperty('background-size', 'cover', 'important');
+          document.body.style.setProperty('background-position', 'center', 'important');
+          document.body.style.setProperty('background-repeat', 'no-repeat', 'important');
+        }
+      }
+
+      destroyPlayers();
 
       var urlDecodificada = decodeURIComponent(url);
-      var ext = urlDecodificada.split('?')[0].split('.').pop().toLowerCase();
+      var cleanUrl = urlDecodificada.split('?')[0].toLowerCase();
+      var ext = cleanUrl.split('.').pop();
       
-      var isMpegTs = (ext === 'ts' || url.indexOf(':25461/') !== -1);
+      var isMpegTs = (ext === 'ts' || ext === 'mts' || ext === 'm2ts' || ext === 'm2t' || ext === 'flv' || url.indexOf(':25461/') !== -1);
+      var isHls = (ext === 'm3u8');
+      var isDash = (ext === 'mpd');
       var cachedChannel = window.channelCache[url] || window.channelCache[urlDecodificada];
       
       var esContenidoAudio = false;
       if (cachedChannel) {
-        var nombreLower = cachedChannel.name.toLowerCase();
-        var groupLower = cachedChannel.group.toLowerCase();
+        var nombreLower = (cachedChannel.name || '').toLowerCase();
+        var groupLower = (cachedChannel.group || '').toLowerCase();
         if (ext === 'mp3' || groupLower.includes('radio') || groupLower.includes('mp3') || nombreLower.includes('radio') || nombreLower.includes('mp3')) { 
           esContenidoAudio = true; 
         }
       }
       
+      /* RADIO/MP3: se conserva íntegramente el sistema visual existente. */
       if (esContenidoAudio) {
         window.audioBackgroundImg.src = (cachedChannel && cachedChannel.logo && cachedChannel.logo.trim() !== "" && cachedChannel.logo.indexOf('127.0.0.1') === -1 && cachedChannel.logo.indexOf('placehold.co') === -1) ? cachedChannel.logo : "https://tinyurl.com/Maximagenn";
         window.audioVisualLayer.style.display = 'flex';
         video.src = url; 
         video.play().catch(function() { video.load(); video.play(); });
-      } else {
+        return;
+      }
+
+      window.audioVisualLayer.style.display = 'none';
+      video.style.display = 'block';
+
+      var permitirFallbackExterno = !!window.externalFallbackOnError;
+      var fallbackHecho = false;
+
+      function abrirExternoSiFalla() {
+        if (!permitirFallbackExterno || fallbackHecho) return;
+        fallbackHecho = true;
+        playUrlExternaNatividad(url);
+      }
+
+      function cargarNativo() {
+        destroyPlayers();
         window.audioVisualLayer.style.display = 'none';
         video.style.display = 'block';
+        video.onerror = function() { abrirExternoSiFalla(); };
+        video.src = url;
+        var promesa = video.play();
+        if (promesa && promesa.catch) promesa.catch(function(){});
+      }
 
-        if (isMpegTs && window.mpegts && mpegts.isSupported()) { 
-          try { 
-            window.currentMpegts = mpegts.createPlayer({ type: 'mpegts', url: url, isLive: true }, { enableStashBuffer: true, liveBufferLatencyChasing: false, stashInitialSize: 128 }); 
-            window.currentMpegts.attachMediaElement(video); 
-            window.currentMpegts.load(); 
-            window.currentMpegts.play().catch(function(){}); 
-          } catch(e) { video.src = url; video.play().catch(function(){}); } 
-        } else if (window.Hls && Hls.isSupported()) { 
+      video.onerror = null;
+
+      if (isMpegTs && window.mpegts && mpegts.isSupported()) { 
+        try { 
+          window.currentMpegts = mpegts.createPlayer({ type: 'mpegts', url: url, isLive: true }, { enableStashBuffer: true, liveBufferLatencyChasing: false, stashInitialSize: 128 }); 
+          window.currentMpegts.attachMediaElement(video); 
+          window.currentMpegts.on(mpegts.Events.ERROR, function() { abrirExternoSiFalla(); });
+          window.currentMpegts.load(); 
+          var pTs = window.currentMpegts.play();
+          if (pTs && pTs.catch) pTs.catch(function(){}); 
+        } catch(e) { cargarNativo(); } 
+      } else if (isDash && window.dashjs && typeof dashjs.MediaPlayer === 'function') {
+        try {
+          window.currentDash = dashjs.MediaPlayer().create();
+          window.currentDash.on(dashjs.MediaPlayer.events.ERROR, function() { abrirExternoSiFalla(); });
+          window.currentDash.initialize(video, url, true);
+        } catch(e) { cargarNativo(); }
+      } else if (isHls && window.Hls && Hls.isSupported()) { 
+        try {
           window.currentHls = new Hls({ enableWorker: true, lowLatencyMode: false, manifestLoadingTimeOut: 5000, levelLoadingTimeOut: 5000 }); 
           window.currentHls.attachMedia(video); 
           window.currentHls.loadSource(url); 
           window.currentHls.on(Hls.Events.MANIFEST_PARSED, function() { video.play().catch(function(){}); }); 
-          window.currentHls.on(Hls.Events.ERROR, function (event, data) { if (data.fatal) { destroyPlayers(); video.src = url; video.play().catch(function(){}); } }); 
-        } else { 
-          video.src = url; 
-          video.play().catch(function() { video.load(); video.play().catch(function(){}); }); 
-        }
+          window.currentHls.on(Hls.Events.ERROR, function(event, data) { 
+            if (data.fatal) {
+              if (permitirFallbackExterno) { abrirExternoSiFalla(); }
+              else { cargarNativo(); }
+            }
+          });
+        } catch(e) { cargarNativo(); }
+      } else {
+        cargarNativo();
       }
-      ocultarInterfazDespuesDeJugar(); 
+      ocultarInterfazDespuesDeJugar();
     }
 
     function ocultarInterfazDespuesDeJugar() { clearTimeout(window.uiTimeout); window.uiTimeout = setTimeout(hideUi, 4000); }
@@ -642,6 +841,10 @@
     function loadAllData(finalCallback) { window.channelCache = {}; fetchM3UGroups(window.TV_URL, true, function(g1) { window.tvGroups = g1; fetchM3UGroups(window.MOVIES_URL, false, function(g2) { window.moviesGroups = g2; fetchM3UGroups(window.SERIES_URL, false, function(g3) { window.seriesGroups = g3; fetchM3UGroups(window.KIDS_URL, false, function(g4) { window.kidsGroups = g4; finalCallback(); }); }); }); }); }
     
     function renderHome() { 
+      document.body.style.setProperty('background-image', "url('https://tinyurl.com/Maximagenn916')", 'important');
+      document.body.style.setProperty('background-size', 'cover', 'important');
+      document.body.style.setProperty('background-position', 'center', 'important');
+      document.body.style.setProperty('background-repeat', 'no-repeat', 'important');
       window.currentMode = "home"; window.isSubView = false; window.contentArea.innerHTML = '';
       
       var m3uKeysOriginal = Object.keys(window.tvGroups);
@@ -659,8 +862,8 @@
         masVistosReales.forEach(function(ch) { 
           var card = document.createElement('div'); card.className = 'channel-card'; card.setAttribute('tabindex', '0'); card.setAttribute('data-url', ch.url); 
           var badge = document.createElement('div'); badge.className = 'badge-live'; badge.textContent = 'LIVE'; card.appendChild(badge);
-          var img = document.createElement('img'); var logoUrl = null; for (var id in window.logosCanales) if (ch.url && ch.url.includes(id)) logoUrl = window.logosCanales[id]; 
-          img.src = logoUrl || ch.logo || 'https://placehold.co/200x300/1a1a1a/888?text=No+logo'; card.appendChild(img); 
+          var img = document.createElement('img'); var logoUrl = ch.logo || null;
+          img.src = logoUrl || 'https://placehold.co/200x300/1a1a1a/888?text=No+logo'; card.appendChild(img); 
           var span = document.createElement('span'); span.textContent = ch.name; card.appendChild(span); 
           card.onclick = function() { playUrl(ch.url, ch); }; bindLongClick(card, ch); row.appendChild(card); 
         }); window.contentArea.appendChild(row); 
@@ -713,8 +916,8 @@
         favoritosLista.forEach(function(ch) {
           var card = document.createElement('div'); card.className = 'channel-card'; card.setAttribute('tabindex', '0'); card.setAttribute('data-url', ch.url);
           var badge = document.createElement('div'); badge.className = 'badge-live'; badge.textContent = 'LIVE'; card.appendChild(badge);
-          var img = document.createElement('img'); var logoUrl = null; for (var id in window.logosCanales) if (ch.url && ch.url.includes(id)) logoUrl = window.logosCanales[id];
-          img.src = logoUrl || ch.logo || 'https://placehold.co/200x300/1a1a1a/888?text=No+logo'; card.appendChild(img);
+          var img = document.createElement('img'); var logoUrl = ch.logo || null;
+          img.src = logoUrl || 'https://placehold.co/200x300/1a1a1a/888?text=No+logo'; card.appendChild(img);
           var span = document.createElement('span'); span.textContent = ch.name; card.appendChild(span);
           card.onclick = function() { playUrl(ch.url, ch); }; bindLongClick(card, ch); row.appendChild(card);
         }); window.contentArea.appendChild(row);
@@ -730,7 +933,7 @@
       channels.forEach(function(ch) { 
         var card = document.createElement('div'); card.className = 'channel-card'; card.setAttribute('tabindex', '0'); card.setAttribute('data-url', ch.url); 
         var badge = document.createElement('div'); badge.className = 'badge-live'; badge.textContent = 'LIVE'; card.appendChild(badge);
-        var img = document.createElement('img'); var logoUrl = null; for (var id in window.logosCanales) if (ch.url && ch.url.includes(id)) logoUrl = window.logosCanales[id]; 
+        var img = document.createElement('img'); var logoUrl = ch.logo || null; 
         img.src = logoUrl || ch.logo || 'https://placehold.co/200x300/1a1a1a/888?text=No+logo'; card.appendChild(img); 
         var span = document.createElement('span'); span.textContent = ch.name; card.appendChild(span); 
         card.onclick = function() { playUrl(ch.url, ch); }; bindLongClick(card, ch); row.appendChild(card); 
@@ -763,7 +966,7 @@
         items.slice(0, 8).forEach(function(item) { 
           var card = document.createElement('div'); card.className = 'poster-card'; card.setAttribute('tabindex', '0'); 
           var img = document.createElement('img'); img.src = item.logo || 'https://placehold.co/200x300/1a1a1a/888?text=Sin+imagen'; card.appendChild(img); 
-          card.onclick = function() { playUrlExternaNatividad(item.url); }; row.appendChild(card); 
+          card.onclick = function() { playContenidoInterno(item.url); }; row.appendChild(card); 
         }); 
         (function(gName) { 
           var verTodo = document.createElement('div'); verTodo.className = 'ver-todo-card'; verTodo.setAttribute('tabindex', '0'); verTodo.innerHTML = '<span>VER TODO</span>'; 
@@ -784,7 +987,7 @@
           var card = document.createElement('div'); card.className = 'poster-card'; card.setAttribute('tabindex', '0'); 
           var img = document.createElement('img'); img.src = item.logo || 'https://placehold.co/200x300/1a1a1a/888?text=Sin+imagen'; card.appendChild(img); 
           var span = document.createElement('span'); span.textContent = item.name; card.appendChild(span); 
-          card.onclick = function() { playUrlExternaNatividad(item.url); }; card.appendChild(span); 
+          card.onclick = function() { playContenidoInterno(item.url); }; card.appendChild(span); 
           row.appendChild(card); 
         }); 
         (function(gName) { 
@@ -805,7 +1008,7 @@
         var card = document.createElement('div'); card.className = 'poster-card'; card.setAttribute('tabindex', '0'); 
         var img = document.createElement('img'); img.src = item.logo || 'https://placehold.co/200x300/1a1a1a/888?text=Sin+imagen'; card.appendChild(img); 
         if (window.currentMode === 'series') { var span = document.createElement('span'); span.textContent = item.name; card.appendChild(span); } 
-        card.onclick = function() { playUrlExternaNatividad(item.url); }; row.appendChild(card); 
+        card.onclick = function() { playContenidoInterno(item.url); }; row.appendChild(card); 
       }); window.contentArea.appendChild(row); window.contentArea.scrollTop = 0; setTimeout(focusFirstAvailable, 50); resetUiTimeout(); 
     }
     
@@ -831,7 +1034,9 @@
     function showUi() { 
       window.isUiHidden = false; 
       window.sideMenu.classList.remove('hidden-ui'); 
-      window.contentArea.classList.remove('hidden-ui'); 
+      window.contentArea.classList.remove('hidden-ui');
+      var maxStatus = document.getElementById('maxStatus');
+      if (maxStatus) maxStatus.classList.remove('hidden-ui'); 
       var castCont = document.getElementById('castContainer'); 
       if (castCont) { castCont.style.opacity = "1"; } 
       
@@ -857,7 +1062,9 @@
     function hideUi() { 
       window.isUiHidden = true; 
       window.sideMenu.classList.add('hidden-ui'); 
-      window.contentArea.classList.add('hidden-ui'); 
+      window.contentArea.classList.add('hidden-ui');
+      var maxStatus = document.getElementById('maxStatus');
+      if (maxStatus) maxStatus.classList.add('hidden-ui'); 
       var castCont = document.getElementById('castContainer'); 
       if (castCont) { castCont.style.opacity = "0"; }
       
@@ -1083,3 +1290,4 @@
 </script>
 </body>
 </html>
+
