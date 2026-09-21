@@ -963,6 +963,7 @@ https://run-rt-uh-roku.otteravision.com/run/rt_uh/rt_uh_720.m3u8
 
 
 #EXTINF:-1v tvg-logo="https://upload.wikimedia.org/wikipedia/commons/6/67/HBO_New_Logo.png"group-title="CINE PREMIER",HBO
+http://186.148.196.100:8000/play/a002
 
 
 
