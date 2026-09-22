@@ -17,6 +17,10 @@ https://live20.bozztv.com/giatvplayout7/giatv-209181/tracks-v1a1/mono.ts.m3u8
 https://live20.bozztv.com/akamaissh101/ssh101/montegrandetv/chunks.m3u8
 
 
+#EXTINF:-1 tvg-logo="https://cdn.phototourl.com/free/2026-09-22-62b5cfef-27d6-4139-85bd-5d1c1baf8571.png"group-title="BUENOS AIRES", MGTV WORSHIP
+https://live20.bozztv.com/giatvplayout7/giatv-212009/playlist.m3u8
+
+
 #EXTINF:-1 tvg-logo="https://cdn.phototourl.com/free/2026-09-15-3228139e-78d4-4af4-ae35-9e6069991ffe.png"group-title="BUENOS AIRES",BAYRESTV HD
 https://streaming01.mikrolive.tv/bayrestv/live/chunklist_w963757112.m3u8
 
@@ -38,8 +42,7 @@ https://lbgo.bozztv.com/ssh101/ssh101/lapoderosadigit/playlist.m3u8
 
 
 
-#EXTINF:-1 tvg-logo="https://tinyurl.com/Mgtvworship"group-title="BUENOS AIRES", MGTV WORSHIP
-https://live20.bozztv.com/giatvplayout7/giatv-212009/playlist.m3u8
+
 
 
 #EXTINF:-1 tvg-logo="https://cdn.phototourl.com/free/2026-09-16-0c3c00f0-fad5-4a82-8ccb-f7b6d18cd996.png"group-title="BUENOS AIRES",MARVEL 2
