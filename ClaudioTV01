@@ -629,8 +629,11 @@ https://live20.bozztv.com/giatvplayout7/giatv-208730/playlist.m3u8
 #EXTINF:-1 tvg-logo="https://tinyurl.com/Housedoooc"group-title="CINE PREMIUM",Dr. HOUSE 24°7
 https://live20.bozztv.com/giatvplayout7/giatv-211979/playlist.m3u8
 
+
 #EXTINF:-1 tvg-logo="https://cdn.phototourl.com/free/2026-09-22-717d27da-6627-4a26-8ee5-481087aa20ae.jpg"group-title="CINE PREMIUM",RETRO TV ONLINE
-https://micanal.ovh/livestreams/631.D04GIWSNAZKB.m3u8
+https://stream.enlineatv.net/hls/retrotv/index.m3u8
+
+
 
 
 #EXTINF:-1 tvg-logo="https://tinyurl.com/Ipersonicateve"group-title="CINE PREMIUM",IPERSONICATV
@@ -3093,7 +3096,11 @@ https://cdn.40mediagroup.com/live/c7eds/TLMasSV_SantaAna/SA_LIVE_hls_enc/master.
 
 
 #EXTINF:-1 tvg-logo="https://cdn.phototourl.com/free/2026-09-22-717d27da-6627-4a26-8ee5-481087aa20ae.jpg"group-title="COSTA RICA", RETRO TV
-https://micanal.ovh/livestreams/631.D04GIWSNAZKB.m3u8
+https://stream.enlineatv.net/hls/retrotv/index.m3u8
+
+
+
+
 
 
 
