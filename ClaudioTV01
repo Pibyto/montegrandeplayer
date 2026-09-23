@@ -79,6 +79,14 @@ https://stream-gtlc.telecentro.net.ar/hls/canal26hls/0/playlist.m3u8?uid=d1ab8e1
 #EXTINF:-1 tvg-logo="https://media.licdn.com/dms/image/v2/C4E1BAQHeTbMkwPcJuw/company-background_10000/company-background_10000/0/1584626904726/canal_net_tv_cover?e=2147483647&v=beta&t=UwroqS9ybrgQAFzNUXrxZoqnIhoo0ckyuCNiAbrNkyU"group-title="BUENOS AIRES", NET TV
 https://unlimited1-us.dps.live/nettv/nettv.smil/playlist.m3u8
 
+
+#EXTINF:-1 tvg-logo="https://codigoprovincia.gba.gob.ar/sites/default/files/styles/slidelg/public/profesionales/fotos/LOGO%20GRANDE.png.webp?itok=NKNL5hPb"group-title="BUENOS AIRES",ARGENTINISIMA
+https://stream1.sersat.com/hls/argentinisima.m3u8
+
+
+
+
+
 #EXTINF:-1 tvg-logo="https://unife.mx/wp-content/uploads/2025/11/Mdiakit-partes-ventas.jpg"group-title="BUENOS AIRES",UNIFE TV
 https://cdn.mycloudstream.io/hls/live/broadcast/pgv5kerk/mono.m3u8
 
