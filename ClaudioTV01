@@ -11,7 +11,7 @@ https://live20.bozztv.com/giatvplayout7/giatv-208770/playlist.m3u8
 https://videostream.shockmedia.com.ar:19360/neotvdigital/neotvdigital.m3u8
 
 
-#EXTINF:-1 tvg-logo="https://cdn.phototourl.com/free/2026-09-23-42f3929a-adc8-4243-882c-15f0f19edf67.png"group-title="BUENOS AIRES",GENTV
+#EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR7DC2xoKvAO0pvLyEQeBOjHTh-JNPatrVEKxDtoBtsKSlED_1wMMLNams&s=10"group-title="BUENOS AIRES",GENTV
 https://srv3.zcast.com.br/gentv/gentv/playlist.m3u8
 
 
@@ -21,19 +21,19 @@ https://live20.bozztv.com/giatvplayout7/giatv-209181/tracks-v1a1/mono.ts.m3u8
 
 https://live20.bozztv.com/akamaissh101/ssh101/montegrandetv/chunks.m3u8
 
+#EXTINF:-1 tvg-logo="https://cdn.phototourl.com/free/2026-09-15-3228139e-78d4-4af4-ae35-9e6069991ffe.png"group-title="BUENOS AIRES",BAYRESTV HD
+https://streaming01.mikrolive.tv/bayrestv/live/chunklist_w963757112.m3u8
+
+
 
 #EXTINF:-1 tvg-logo="https://cdn.phototourl.com/free/2026-09-22-62b5cfef-27d6-4139-85bd-5d1c1baf8571.png"group-title="BUENOS AIRES", MGTV WORSHIP
 https://live20.bozztv.com/giatvplayout7/giatv-212009/playlist.m3u8
 
-
-#EXTINF:-1 tvg-logo="https://cdn.phototourl.com/free/2026-09-15-3228139e-78d4-4af4-ae35-9e6069991ffe.png"group-title="BUENOS AIRES",BAYRESTV HD
-https://streaming01.mikrolive.tv/bayrestv/live/chunklist_w963757112.m3u8
+#EXTINF:-1 tvg-logo="https://cdn.phototourl.com/free/2026-09-18-d6c23014-3c40-40ed-92e3-3c44cd645fb7.png"group-title="BUENOS AIRES",COSMOS TV
+https://canaletaplus.com:3922/live/cosmoslive.m3u8
 
 #EXTINF:-1 tvg-logo="https://i.ibb.co/LDH9d0CB/Polish-20260713-152652011-6.png"group-title="BUENOS AIRES", MAXCINE KIDS
 https://live20.bozztv.com/giatvplayout7/giatv-209909/playlist.m3u8
-
-#EXTINF:-1 tvg-logo="https://cdn.phototourl.com/free/2026-09-18-d6c23014-3c40-40ed-92e3-3c44cd645fb7.png"group-title="BUENOS AIRES",COSMOS TV
-https://canaletaplus.com:3922/live/cosmoslive.m3u8
 
 
 #EXTINF:-1 tvg-logo="https://cdn.phototourl.com/free/2026-09-20-097fde4a-a4ca-4c1c-953e-0f97db2cedc1.png"group-title="BUENOS AIRES", IPERSONICA TV 
@@ -45,6 +45,80 @@ https://vd01.streaminghd.net.ar:3349/live/bzuctkgnlive.m3u8
 #EXTINF:-1 tvg-logo="https://cdn.phototourl.com/free/2026-09-18-31eb191a-0ee0-44e2-bfff-b7668257b1b5.png"group-title="BUENOS AIRES",LA PODEROSA TV
 https://lbgo.bozztv.com/ssh101/ssh101/lapoderosadigit/playlist.m3u8
 
+#EXTINF:-1 tvg-logo="https://cdn.phototourl.com/free/2026-09-15-3d95cd9e-21d9-42fe-87f9-df4e48ff785c.png"group-title="BUENOS AIRES",TELECREATIVA
+https://panel.host-live.com:19360/8012/8012.m3u8
+
+
+#EXTINF:-1 tvg-logo="https://tinyurl.com/Telemixteve"group-title="BUENOS AIRES",TELEMIX HD
+https://183.bozztv.com/giatv/giatv-telemixenvivo/telemixenvivo/playlist.m3u8
+
+
+#EXTINF:-1 tvg-logo="https://i.ytimg.com/vi/YsG6Z7N7gjw/maxresdefault.jpg"group-title="BUENOS AIRES",3 PINAMAR 
+https://intelincloud01.com.ar/hls/cn3/index.m3u8
+
+#EXTINF:-1 tvg-logo="https://tinyurl.com/Magicateve"group-title="BUENOS AIRES", CIUDADMAGICATV
+https://live20.bozztv.com/akamaissh101/ssh101/verycoolfgr/chunks.m3u8
+
+
+#EXTINF:-1 tvg-logo="https://static.wikia.nocookie.net/logopedia/images/a/a5/Eltreceinternacional-logo-2016.png/revision/latest?cb=20161019052654"group-title="BUENOS AIRES",EL TRECE
+https://stream-cdn-iad3.vaughnsoft.net/play/live_juan_13tv.flv
+
+
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/c/cc/Telefe_%28nuevo_logo%29.png"group-title="BUENOS AIRES",TELEFE
+http://45.134.141.161:2200/ARG/TELEFE_HD/index.m3u8
+
+#EXTINF:-1  tvg-logo="https://i.ytimg.com/vi/C_RnFD6xiX8/sddefault.jpg"group-title="BUENOS AIRES",CANAL 26
+https://stream-gtlc.telecentro.net.ar/hls/canal26hls/0/playlist.m3u8?uid=d1ab8e18c3a4e4fdc5b8b00e287498d9
+
+#EXTINF:-1 tvg-logo="https://media.licdn.com/dms/image/v2/C4E1BAQHeTbMkwPcJuw/company-background_10000/company-background_10000/0/1584626904726/canal_net_tv_cover?e=2147483647&v=beta&t=UwroqS9ybrgQAFzNUXrxZoqnIhoo0ckyuCNiAbrNkyU"group-title="BUENOS AIRES", NET TV
+https://unlimited1-us.dps.live/nettv/nettv.smil/playlist.m3u8
+
+#EXTINF:-1 tvg-logo="https://unife.mx/wp-content/uploads/2025/11/Mdiakit-partes-ventas.jpg"group-title="BUENOS AIRES",UNIFE TV
+https://cdn.mycloudstream.io/hls/live/broadcast/pgv5kerk/mono.m3u8
+
+
+#EXTINF:-1 tvg-logo="https://chisme.com.ar/wp-content/uploads/2026/09/alpha-TV.jpg"group-title="BUENOS AIRES",ALPHA TV
+https://redirector.rudo.video/hls-video/c54ac2799874375c81c1672abb700870537c5223/bravo/bravo.smil/playlist.m3u8
+
+#EXTINF:-1 tvg-logo="https://cms.evangelicodigital.com/upload/imagenes/62f4cf1fcb7e5_canal-luz-G.jpg"group-title="BUENOS AIRES",CANAL LUZ
+https://g2.vxral-slo.transport.edge-access.net:443/a11/ngrp:canal_luz01-100009_all/canal_luz01-100009_1080p/index.m3u8
+
+
+#EXTINF:-1 tvg-logo="https://i.ibb.co/jKSRhQz/fondo-papel-tapiz-artistico-borroso-colorido-58702-8553.png"group-title="BUENOS AIRES",ALTAR TV HD
+https://vidartv2.todostreaming.es/live/radiovida-altar724.m3u8
+
+
+
+#EXTINF:-1 tvg-logo="https://tinyurl.com/Mgrad108"group-title="BUENOS AIRES", MG RAD10
+https://lbgo.bozztv.com/ssh101/ssh101/mgradiotv/chunks.m3u8
+
+
+#EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTOMQTOf8HyisbF9Ac7LM_2BmU4jQvG7yUHBv-P_ycEZursOH3djNKGv8Y&s=10"group-title="BUENOS AIRES",SOLIDARIA TV 
+https://canadaremar2.todostreaming.es/live/solidariatv-webhd.m3u8
+
+
+#EXTINF:-1 tvg-logo="https://cdn.phototourl.com/free/2026-09-16-024c1645-15bd-42ef-9e01-832a0b97c98f.png"group-title="BUENOS AIRES",PANC TV
+https://panctv.ddns.net/hls/ar/live.m3u8
+
+
+#EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQQZuh_eg0dht96a5qaerndZiJfHlqkDOi_TLPFNxsaivmthS5aZRcsfaGM&s=10"group-title="BUENOS AIRES",TELEMAX
+https://stream-gtlc.telecentro.net.ar/hls/telemaxhls/main.m3u8
+
+#EXTINF:-1 tvg-logo="https://www.5900.tv/storage/thumbnails/RJqZv1cxmng1hrA9lfPhSlnXKTMTZ40TdQmBdW64.jpg"group-title="BUENOS AIRES", TIERRAMIA
+https://stream-gtlc.telecentro.net.ar/hls/tierramiahls/0/playlist.m3u8?uid=3602db85b7b057add1eaede96802d569
+
+
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/Russia-today-logo.svg/330px-Russia-today-logo.svg.png"group-title="BUENOS AIRES",RT HD
+https://rt-esp.rttv.com:443/live/rtesp/playlist_4500Kb.m3u8
+
+
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/a/ad/HispanTv_logo.svg/3840px-HispanTv_logo.svg.png"group-title="BUENOS AIRES",HISPANTV
+https://live.presstv.ir/hls/hispantv.m3u8
+
+
+
+#EXTINF:-1 tvg-logo="https://assets-global.website-files.com/605a3cacba514a77ca2e6ab5/6065f6834c6c7c875c2c1c16_dwe.png"group-title="BUENOS AIRES",DW ESPAÑOL
+https://dwamdstream104.akamaized.net/hls/live/2015530/dwstream104/stream04/streamPlaylist.m3u8
 
 
 
@@ -58,12 +132,7 @@ https://lbgo.bozztv.com/ssh101/ssh101/imcu/playlist.m3u8
 https://live20.bozztv.com/giatvplayout7/giatv-208744/tracks-v1a1/mono.m3u8
 
 
-#EXTINF:-1 tvg-logo="https://static.wikia.nocookie.net/logopedia/images/a/a5/Eltreceinternacional-logo-2016.png/revision/latest?cb=20161019052654"group-title="BUENOS AIRES",EL TRECE
-https://stream-cdn-iad3.vaughnsoft.net/play/live_juan_13tv.flv
 
-
-#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/c/cc/Telefe_%28nuevo_logo%29.png"group-title="BUENOS AIRES",TELEFE
-http://45.134.141.161:2200/ARG/TELEFE_HD/index.m3u8
 
 
 #EXTINF:-1 tvg-logo="https://images.ctfassets.net/y2ske730sjqp/1aONibCke6niZhgPxuiilC/2c401b05a07288746ddf3bd3943fbc76/BrandAssets_Logos_01-Wordmark.jpg?w=940"group-title="BUENOS AIRES", NETFLIX 
@@ -124,25 +193,9 @@ https://stream-cdn-iad3.vaughnsoft.net/play/live_xseries.flv
 
 
 
-#EXTINF:-1 tvg-logo="https://cdn.phototourl.com/free/2026-09-15-3d95cd9e-21d9-42fe-87f9-df4e48ff785c.png"group-title="BUENOS AIRES",TELECREATIVA
-https://panel.host-live.com:19360/8012/8012.m3u8
 
-
-#EXTINF:-1 tvg-logo="https://tinyurl.com/Telemixteve"group-title="BUENOS AIRES",TELEMIX HD
-https://183.bozztv.com/giatv/giatv-telemixenvivo/telemixenvivo/playlist.m3u8
-
-
-
-
-
-#EXTINF:-1 tvg-logo="https://i.ytimg.com/vi/YsG6Z7N7gjw/maxresdefault.jpg"group-title="BUENOS AIRES",3 PINAMAR 
-https://intelincloud01.com.ar/hls/cn3/index.m3u8
-
-#EXTINF:-1 tvg-logo="https://tinyurl.com/Magicateve"group-title="BUENOS AIRES", CIUDADMAGICATV
-https://live20.bozztv.com/akamaissh101/ssh101/verycoolfgr/chunks.m3u8
 
 #EXTINF:-1 tvg-logo="https://cdn.phototourl.com/free/2026-09-16-10457427-7539-4086-83a6-03d6b7e2f5de.png"group-title="BUENOS AIRES",EL MAGO TV
-https://live20.bozztv.com/akamaissh101/ssh101/elmagotv2/chunks.m3u8
 
 
 
@@ -156,34 +209,6 @@ https://live20.bozztv.com/akamaissh101/ssh101/elmagotv2/chunks.m3u8
 
 
 
-#EXTINF:-1 tvg-logo="https://i.ibb.co/jKSRhQz/fondo-papel-tapiz-artistico-borroso-colorido-58702-8553.png"group-title="BUENOS AIRES",ALTAR TV HD
-https://vidartv2.todostreaming.es/live/radiovida-altar724.m3u8
-
-
-
-#EXTINF:-1 tvg-logo="https://tinyurl.com/Mgrad108"group-title="BUENOS AIRES", MG RAD10
-https://lbgo.bozztv.com/ssh101/ssh101/mgradiotv/chunks.m3u8
-
-
-
-
-
-#EXTINF:-1 tvg-logo="https://chisme.com.ar/wp-content/uploads/2026/09/alpha-TV.jpg"group-title="BUENOS AIRES",ALPHA TV
-https://redirector.rudo.video/hls-video/c54ac2799874375c81c1672abb700870537c5223/bravo/bravo.smil/playlist.m3u8
-
-#EXTINF:-1 tvg-logo="https://cms.evangelicodigital.com/upload/imagenes/62f4cf1fcb7e5_canal-luz-G.jpg"group-title="BUENOS AIRES",CANAL LUZ
-https://g2.vxral-slo.transport.edge-access.net:443/a11/ngrp:canal_luz01-100009_all/canal_luz01-100009_1080p/index.m3u8
-
-#EXTINF:-1 tvg-logo="https://i.ytimg.com/vi/C_RnFD6xiX8/sddefault.jpg"group-title="BUENOS AIRES",CANAL 26
-https://stream-gtlc.telecentro.net.ar/hls/canal26hls/0/playlist.m3u8?uid=d1ab8e18c3a4e4fdc5b8b00e287498d9
-
-#EXTINF:-1 tvg-logo="https://media.licdn.com/dms/image/v2/C4E1BAQHeTbMkwPcJuw/company-background_10000/company-background_10000/0/1584626904726/canal_net_tv_cover?e=2147483647&v=beta&t=UwroqS9ybrgQAFzNUXrxZoqnIhoo0ckyuCNiAbrNkyU"group-title="BUENOS AIRES", NET TV
-https://unlimited1-us.dps.live/nettv/nettv.smil/playlist.m3u8
-
-
-
-#EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTOMQTOf8HyisbF9Ac7LM_2BmU4jQvG7yUHBv-P_ycEZursOH3djNKGv8Y&s=10"group-title="BUENOS AIRES",SOLIDARIA TV 
-https://canadaremar2.todostreaming.es/live/solidariatv-webhd.m3u8
 
 
 
@@ -192,37 +217,13 @@ https://canadaremar2.todostreaming.es/live/solidariatv-webhd.m3u8
 #EXTINF:-1 tvg-logo="https://logos-world.net/wp-content/uploads/2025/04/A24-Logo-New.png"group-title="BUENOS AIRES",A24
 
 
-#EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQQZuh_eg0dht96a5qaerndZiJfHlqkDOi_TLPFNxsaivmthS5aZRcsfaGM&s=10"group-title="BUENOS AIRES",TELEMAX
-https://stream-gtlc.telecentro.net.ar/hls/telemaxhls/main.m3u8
-
-#EXTINF:-1 tvg-logo="https://www.5900.tv/storage/thumbnails/RJqZv1cxmng1hrA9lfPhSlnXKTMTZ40TdQmBdW64.jpg"group-title="BUENOS AIRES", TIERRAMIA
-https://stream-gtlc.telecentro.net.ar/hls/tierramiahls/0/playlist.m3u8?uid=3602db85b7b057add1eaede96802d569
-
-
-#EXTINF:-1 tvg-logo="https://unife.mx/wp-content/uploads/2025/11/Mdiakit-partes-ventas.jpg"group-title="BUENOS AIRES",UNIFE TV
-https://cdn.mycloudstream.io/hls/live/broadcast/pgv5kerk/mono.m3u8
-
-
-
-#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/Russia-today-logo.svg/330px-Russia-today-logo.svg.png"group-title="BUENOS AIRES",RT HD
-https://rt-esp.rttv.com:443/live/rtesp/playlist_4500Kb.m3u8
-
-
-#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/a/ad/HispanTv_logo.svg/3840px-HispanTv_logo.svg.png"group-title="BUENOS AIRES",HISPANTV
-https://live.presstv.ir/hls/hispantv.m3u8
-
-
-
-#EXTINF:-1 tvg-logo="https://assets-global.website-files.com/605a3cacba514a77ca2e6ab5/6065f6834c6c7c875c2c1c16_dwe.png"group-title="BUENOS AIRES",DW ESPAÑOL
-https://dwamdstream104.akamaized.net/hls/live/2015530/dwstream104/stream04/streamPlaylist.m3u8
 
 
 #EXTINF:-1 tvg-logo="https://static.wikia.nocookie.net/doblaje/images/a/a8/Ciudadmagazine-logonuevo.png/revision/latest?cb=20200203001356&path-prefix=es"group-title="BUENOS AIRES",MAGAZINE
 https://livetrx01.vodgc.net/live-01-07-ciudad.vodgc.net/tracks-v3a1/mono.m3u8
 
 
-#EXTINF:-1 tvg-logo="https://cdn.phototourl.com/free/2026-09-16-024c1645-15bd-42ef-9e01-832a0b97c98f.png"group-title="BUENOS AIRES",PANC TV
-https://panctv.ddns.net/hls/ar/live.m3u8
+
 
 
 
@@ -341,6 +342,15 @@ http://38.187.7.252:8000/play/a03d/index.m3u8
 
 
 
+
+#EXTINF:-1 tvg-logo="https://cdn.phototourl.com/free/2026-09-12-a235adcd-6e80-4b09-8246-04f7f01448fd.png"group-title="ARGENTINA", CANAL 34 HD
+http://streamyes.alsolnet.com/canal34hd/live/chunklist_w638979893.m3u8
+
+
+#EXTINF:-1 tvg-logo="https://i.ibb.co/twNq72rC/1776360821019-1.png"group-title="ARGENTINA",11 DIGITAL 
+https://live20.bozztv.com/giatv/giatv-ojodigital/ojodigital/playlist.m3u8
+
+
 #EXTINF:-1 tvg-logo="https://i.ibb.co/mCzmdZWn/mqdefault-1.png"group-title="ARGENTINA",CanalLUZ
 https://g5.vxral-slo.transport.edge-access.net/a11/ngrp:canal_luz01-100009_all/canal_luz01-100009_1080p/index.m3u8
 
@@ -355,6 +365,9 @@ https://unlimited1-saopaulo.dps.live/televidaar/televidaar.smil/televidaar/lives
 #EXTINF:-1 tvg-logo="https://i.ibb.co/tM3MFYbd/IMG-20260913-WA0006.jpg"group-title="ARGENTINA", TELEPOSADAS TV
 https://lbgo.bozztv.com/giatv/giatv-teleposadastv/teleposadastv/playlist.m3u8
 
+
+#EXTINF:-1 tvg-logo="https://cdn.phototourl.com/free/2026-09-14-f7e7b197-afd0-491e-a55e-3000e4189803.png"group-title="ARGENTINA",CANAL21
+https://iptv.ixfo.com.ar:30443/c21tv/hd/c21tv/chunks.m3u8
 
 #EXTINF:-1 tvg-logo="https://i.ibb.co/3Y9xW24K/Canal-13-Jujuy-en-vivo-Online.png"group-title="ARGENTINA",13 TRECE HD
 https://genexservicios.com:19360/canal13jujuy/canal13jujuy.m3u8
@@ -384,12 +397,7 @@ https://617c5175c970b.streamlock.net:4444/13max2/live13maxtv2026/chunklist_w8732
 https://streamlov.alsolnet.com/canal4sanjuan/live/chunklist_w318490892.m3u8
 
 
-#EXTINF:-1 tvg-logo="https://cdn.phototourl.com/free/2026-09-12-a235adcd-6e80-4b09-8246-04f7f01448fd.png"group-title="ARGENTINA", CANAL 34 HD
-http://streamyes.alsolnet.com/canal34hd/live/chunklist_w638979893.m3u8
 
-
-#EXTINF:-1 tvg-logo="https://i.ibb.co/twNq72rC/1776360821019-1.png"group-title="ARGENTINA",11 DIGITAL 
-https://live20.bozztv.com/giatv/giatv-ojodigital/ojodigital/playlist.m3u8
 
 #EXTINF:-1 tvg-logo="https://i.ibb.co/wrMwMmDD/Corrientes-TV-2.png"group-title="ARGENTINA",CORRIENTES TV HD
 https://vivo.solumedia.com:19360/telemedia/telemedia.m3u8
@@ -508,23 +516,6 @@ http://coninfo.net:1935/9linklivert/smil:9linkmultibr.smil/chunklist_w1546314826
 
 #EXTINF:-1 tvg-logo="https://cdn.phototourl.com/free/2026-09-14-234a76d7-f32b-4bc2-a662-2c02d9a53ffe.png"group-title="ARGENTINA",CANAL 8 ROSARIO
 https://stmv4.voxtvhd.com.br/canal8ros/canal8ros/playlist.m3u8
-
-
-
-
-
-#EXTINF:-1 tvg-logo="https://cdn.phototourl.com/free/2026-09-14-f7e7b197-afd0-491e-a55e-3000e4189803.png"group-title="ARGENTINA",CANAL21
-https://iptv.ixfo.com.ar:30443/c21tv/hd/c21tv/chunks.m3u8
-
-
-
-
-
-
-
-
-
-
 
 
 #EXTINF:-1 tvg-logo="https://www.elcuatro.com/public/img/marcas/marcas_canal4_297.png"group-title="ARGENTINA",CANAL 4 HD
