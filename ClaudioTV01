@@ -39,6 +39,10 @@ https://live20.bozztv.com/giatvplayout7/giatv-209909/playlist.m3u8
 #EXTINF:-1 tvg-logo="https://cdn.phototourl.com/free/2026-09-20-097fde4a-a4ca-4c1c-953e-0f97db2cedc1.png"group-title="BUENOS AIRES", IPERSONICA TV 
 https://lbgo.bozztv.com/ssh101/ssh101/ipersonica/playlist.m3u8
 
+#EXTINF:-1 tvg-logo="https://tinyurl.com/Mgrad108"group-title="BUENOS AIRES", MG RAD10
+https://lbgo.bozztv.com/ssh101/ssh101/mgradiotv/chunks.m3u8
+
+
 #EXTINF:-1 tvg-logo="https://tinyurl.com/Lamil35ban"group-title="BUENOS AIRES",LA MIL35
 https://vd01.streaminghd.net.ar:3349/live/bzuctkgnlive.m3u8
 
@@ -89,8 +93,7 @@ https://vidartv2.todostreaming.es/live/radiovida-altar724.m3u8
 
 
 
-#EXTINF:-1 tvg-logo="https://tinyurl.com/Mgrad108"group-title="BUENOS AIRES", MG RAD10
-https://lbgo.bozztv.com/ssh101/ssh101/mgradiotv/chunks.m3u8
+
 
 
 #EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTOMQTOf8HyisbF9Ac7LM_2BmU4jQvG7yUHBv-P_ycEZursOH3djNKGv8Y&s=10"group-title="BUENOS AIRES",SOLIDARIA TV 
