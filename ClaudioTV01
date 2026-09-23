@@ -340,9 +340,14 @@ http://38.187.7.252:8000/play/a03d/index.m3u8
 
 
 #############( ARGENTINA )##################################################
-######################################
+#####################################
 
 
+
+
+
+#EXTINF:-1 tvg-logo="https://i.ytimg.com/vi/wAjzxzTenYM/maxresdefault.jpg"group-title="ARGENTINA",EL ONCE
+https://canal11saltatv.unpocodeawita.workers.dev/
 
 
 
