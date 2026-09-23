@@ -380,6 +380,10 @@ https://unlimited1-saopaulo.dps.live/televidaar/televidaar.smil/televidaar/lives
 https://lbgo.bozztv.com/giatv/giatv-teleposadastv/teleposadastv/playlist.m3u8
 
 
+#EXTINF:-1 tvg-logo="https://i.ytimg.com/vi/k_AcIFPMoG8/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLBs2_YuGSZvDKrEhVa7QpqDSnkf_A"group-title="ARGENTINA",247 NOTICIAS
+https://panel.host-live.com:19360/cn247tv/cn247tv.m3u8
+
+
 #EXTINF:-1 tvg-logo="https://cdn.phototourl.com/free/2026-09-14-f7e7b197-afd0-491e-a55e-3000e4189803.png"group-title="ARGENTINA",CANAL21
 https://iptv.ixfo.com.ar:30443/c21tv/hd/c21tv/chunks.m3u8
 
