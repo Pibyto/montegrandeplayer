@@ -395,12 +395,16 @@ https://panel.host-live.com:19360/cn247tv/cn247tv.m3u8
 #EXTINF:-1 tvg-logo="https://cdn.phototourl.com/free/2026-09-14-f7e7b197-afd0-491e-a55e-3000e4189803.png"group-title="ARGENTINA",CANAL21
 https://iptv.ixfo.com.ar:30443/c21tv/hd/c21tv/chunks.m3u8
 
+#EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTLvbkm4v9zUeHcr1GzN1ke09t5x-_70MsMG5bbstfhsihDhLhJblnNdWVY&s=10"group-title="ARGENTINA",7 JUJUY 
+https://stream.arcast.live/canal7jujuy/ngrp:canal7jujuy_all/playlist.m3u8
+
+
 #EXTINF:-1 tvg-logo="https://i.ibb.co/3Y9xW24K/Canal-13-Jujuy-en-vivo-Online.png"group-title="ARGENTINA",13 TRECE HD
 https://genexservicios.com:19360/canal13jujuy/canal13jujuy.m3u8
 
 
-#EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRzpPBhPVM7OGlPYsbFs6BHzA8W1fql1buHeIFeIPNovo3AAUC_Lam2S3g&s=10"group-title="ARGENTINA",TLS
-https://cdn1.tvlin.net/open/telesol/chunks.m3u8?nimblesessionid=60124504
+#EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRzpPBhPVM7OGlPYsbFs6BHzA8W1fql1buHeIFeIPNovo3AAUC_Lam2S3g&s=10"group-title="ARGENTINA",TLS 
+https://cdn1.tvlin.net/open/telesol/chunks.m3u8
 
 
 #EXTINF:-1 tvg-logo="https://cdn.imgpile.com/f/pg9qTIq_lg.webp"group-title="ARGENTINA",CANAL 9 SAN LUIS
@@ -492,7 +496,7 @@ https://tv.streamcasthd.com:3450/live/tvmaslive.m3u8
 #EXTINF:-1 tvg-logo=""group-title="ARGENTINA",JTV
 https://streaming.jtamendoza.com/hls/test.m3u8
 
-#EXTINF:-1 tvg-logo="https://tinyurl.com/Cuatropos"group-title="ARGENTINA", CANAL 4 HD  POSADAS
+#EXTINF:-1 tvg-logo="https://canalcuatroposadas.com.ar/wp-content/uploads/2026/04/Logo-chico-2.png"group-title="ARGENTINA", CANAL 4 HD  POSADAS
 http://iptv.ixfo.com.ar:8081/live/C4POS/playlist.m3u8
 
 
@@ -544,7 +548,7 @@ http://coninfo.net:1935/9linklivert/smil:9linkmultibr.smil/chunklist_w1546314826
 https://stmv4.voxtvhd.com.br/canal8ros/canal8ros/playlist.m3u8
 
 
-#EXTINF:-1 tvg-logo="https://www.elcuatro.com/public/img/marcas/marcas_canal4_297.png"group-title="ARGENTINA",CANAL 4 HD
+#EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTMdaXO9LomKLCZlwzbF7gWOE3hQPFAmtQ9RwPoMehzw2-UoU3QutWqGPk&s=10"group-title="ARGENTINA",CANAL 4 HD
 https://5cd577a3dd8ec.streamlock.net/CANAL4/smil:CANAL4.smil/chunklist_w1929733198_b4128000.m3u8
 
 
