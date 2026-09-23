@@ -45,7 +45,7 @@ https://vd01.streaminghd.net.ar:3349/live/bzuctkgnlive.m3u8
 #EXTINF:-1 tvg-logo="https://cdn.phototourl.com/free/2026-09-18-31eb191a-0ee0-44e2-bfff-b7668257b1b5.png"group-title="BUENOS AIRES",LA PODEROSA TV
 https://lbgo.bozztv.com/ssh101/ssh101/lapoderosadigit/playlist.m3u8
 
-#EXTINF:-1 tvg-logo="https://cdn.phototourl.com/free/2026-09-15-3d95cd9e-21d9-42fe-87f9-df4e48ff785c.png"group-title="BUENOS AIRES",TELECREATIVA
+#EXTINF:-1 tvg-logo="https://cdn.phototourl.com/free/2026-09-23-208bb8e2-3c43-47cb-8106-7700b0601655.png"group-title="BUENOS AIRES",TELECREATIVA
 https://panel.host-live.com:19360/8012/8012.m3u8
 
 
@@ -53,18 +53,18 @@ https://panel.host-live.com:19360/8012/8012.m3u8
 https://183.bozztv.com/giatv/giatv-telemixenvivo/telemixenvivo/playlist.m3u8
 
 
-#EXTINF:-1 tvg-logo="https://i.ytimg.com/vi/YsG6Z7N7gjw/maxresdefault.jpg"group-title="BUENOS AIRES",3 PINAMAR 
+#EXTINF:-1 tvg-logo="https://cdn.phototourl.com/free/2026-09-23-86246490-1e5c-4dbc-b76b-72fd0243f4da.png"group-title="BUENOS AIRES",3 PINAMAR 
 https://intelincloud01.com.ar/hls/cn3/index.m3u8
 
 #EXTINF:-1 tvg-logo="https://tinyurl.com/Magicateve"group-title="BUENOS AIRES", CIUDADMAGICATV
 https://live20.bozztv.com/akamaissh101/ssh101/verycoolfgr/chunks.m3u8
 
 
-#EXTINF:-1 tvg-logo="https://static.wikia.nocookie.net/logopedia/images/a/a5/Eltreceinternacional-logo-2016.png/revision/latest?cb=20161019052654"group-title="BUENOS AIRES",EL TRECE
+#EXTINF:-1 tvg-logo="https://i.ytimg.com/vi/6yrATHydh3w/sddefault.jpg"group-title="BUENOS AIRES",EL TRECE
 https://stream-cdn-iad3.vaughnsoft.net/play/live_juan_13tv.flv
 
 
-#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/c/cc/Telefe_%28nuevo_logo%29.png"group-title="BUENOS AIRES",TELEFE
+#EXTINF:-1 tvg-logo="https://images.produ.com/wp-content/uploads/2026/01/14154237/bigwp-TelefeStudios-948x594.jpg"group-title="BUENOS AIRES",TELEFE
 http://45.134.141.161:2200/ARG/TELEFE_HD/index.m3u8
 
 #EXTINF:-1  tvg-logo="https://i.ytimg.com/vi/C_RnFD6xiX8/sddefault.jpg"group-title="BUENOS AIRES",CANAL 26
