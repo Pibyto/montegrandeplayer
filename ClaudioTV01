@@ -2150,37 +2150,43 @@ https://live.obslivestream.com:443/uraniotv/tracks-v1a1/mono.m3u8
 https://live.obslivestream.com:443/viaaltomayomux/tracks-v1a1/mono.m3u8
 
 
-#EXTINF:-1 tvg-logo="https://i.ibb.co/r2h8wpXP/Photoroom-20250626-013837.png"group-title="PERÚ",MeGaTV
+#EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRpTLgDSmwSeCrEf-by35xFU23wxAH-G8ykDiQkovNSxr_nNVGCDhwYdWB1&s=10"group-title="PERÚ",MeGaTV
 https://7.innovatestream.pe:19360/megatvjaen/megatvjaen.m3u8
 
 
 
 
 
-#EXTINF:-1 tvg-logo="https://cdn.m3u.cl/logo/1546_Tele_Selva.png"group-title="PERÚ",TELE SELVA
+#EXTINF:-1 tvg-logo="https://www.google.com/search?q=logo+tls+selva+peru&client=ms-android-motorola-rev2&hs=WV1V&sca_esv=e8f60a2b8c710094&udm=2&biw=347&bih=602&sxsrf=APpeQnt8FPs3lxvlHJzBioX1z9hTL9xaCw%3A1790229461476&ei=1bu0auzMHKr65OUP6I_JoAs&oq=logo+tls+selva+peru&gs_lp=EhJtb2JpbGUtZ3dzLXdpei1pbWciE2xvZ28gdGxzIHNlbHZhIHBlcnUyCBAAGIAEGKIEMggQABiABBiiBEicbFCKK1iJX3ABeACQAQCYAaYDoAHLCKoBBzIuNC40LTG4AQPIAQD4AQGYAgigApIJwgIIEAAYiQUYogSYAwCIBgGSBwcyLjUuNC0xoAfSDLIHBzEuNS40LTG4B4QJwgcHMi02LjEuMcgHQoAIAQ&sclient=mobile-gws-wiz-img#sv=CAMSZBoyKhBlLVFCRmp1SGl5YTJVeGZNMg5RQkZqdUhpeWEyVXhmTToOQVFwSjBDdS1UMUF0Tk0gBCokCg5VcE9KaDlhaGJqMWlpTRIQZS1RQkZqdUhpeWEyVXhmTRgAMAFKBAgBEAIYByCI5NLqCkoIEAIYASACKAE"group-title="PERÚ",TELE SELVA
 https://7.innovatestream.pe:19360/tvnoticiassatipo/tvnoticiassatipo.m3u8
 
-#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/6/6d/Latina_Television_-_Logotipo.png"group-title="PERÚ",LATINA
+#EXTINF:-1 tvg-logo="https://i.pinimg.com/736x/eb/83/36/eb8336b625d9f889f443b88954851863.jpg"group-title="PERÚ",LATINA
 https://redirector.rudo.video/hls-video/567ffde3fa319fadf3419efda25619456231dfea/latina/latina/.m3u8
+ 
+
+#EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSEG75uj2Q_q6s2As3fnfqibl-dNqlQMR0HcB8FJpxLqQ&s=10"group-title="PERÚ", AMERICA
+http://205.235.6.29:8000/play/a0ut/index.m3u8?hls
+
+
+#EXTINF:-1 tvg-logo="https://alba-pe-atv.cdn.mediatiquepress.com/wp-content/uploads/2025/01/ATVatrevamonos-2025_notaweb.jpg"group-title="PERÚ", ATV HD 
+http://181.224.255.210:8001/play/a0s6/index.m3u8?hls 
+
+
+#EXTINF:-1 tvg-logo="https://static.wikia.nocookie.net/logopedia/images/4/48/%281_de_febrero_de_2017%29.png/revision/latest/scale-to-width-down/1200?cb=20250510220215&path-prefix=es"group-title="PERÚ",ATV+
+http://186.148.196.100:8000/play/a028
+ 
  
 
 
 
-#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/0/0e/ATV_logo_2020.png"group-title="PERÚ", ATV HD 
-https://d1bva7j5xkfa6y.cloudfront.net/62261ec43964f31a19bec77f/live/live_0.m3u8 
-
-
-#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/5/56/ATV%2B_logo_2020.png/1200px-ATV%2B_logo_2020.png"group-title="PERÚ",ATV+ 
-https://alba-pe-atv-atvmas.stream.mediatiquestream.com/original.m3u8 
-
-
-
 #EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTiNL9bx0XnBAVw3a70E7Q6iO3QP4JOmw1dLA&s"group-title="PERÚ",TVPERÚ
-https://cdnhd.iblups.com/hls/777b4d4cc0984575a7d14f6ee57dbcaf.m3u8
 
 
-#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2e/ATV_Sur_-_2018_logo_%28final%29.png/1200px-ATV_Sur_-_2018_logo_%28final%29.png"group-title="PERÚ",ATV SUR
-https://alba-pe-atv-atvsur.stream.mediatiquestream.com/original.m3u8 
+
+#EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRbh8HesL54Rg_WCadUb6BbB55m6xC-jrvKP0QoPmuMV0PzyepITt3rAtU&s=10"group-title="PERÚ",ATV SUR
+http://181.224.255.210:8001/play/a0sn/index.m3u8?hls
+
+ 
   
 
 
