@@ -61,7 +61,7 @@ https://183.bozztv.com/giatv/giatv-telemixenvivo/telemixenvivo/playlist.m3u8
 https://intelincloud01.com.ar/hls/cn3/index.m3u8
 
 #EXTINF:-1 tvg-logo="https://tinyurl.com/Magicateve"group-title="BUENOS AIRES", CIUDADMAGICATV
-http://186.148.175.138:8000/play/a056
+http://186.148.175.138:8000/play/a056/index.m3u8
 
 
 https://live20.bozztv.com/akamaissh101/ssh101/verycoolfgr/chunks.m3u8
