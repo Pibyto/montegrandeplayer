@@ -526,8 +526,10 @@ https://videohd.live:19360/8008/8008.m3u8
 https://tv.streamcasthd.com:3450/live/tvmaslive.m3u8
 
 
-#EXTINF:-1 tvg-logo="https://liveonlineradio.net/wp-content/uploads/2022/11/JTA-Mendoza-fb.png"group-title="ARGENTINA",JTV
-https://streaming.jtamendoza.com/hls/test.m3u8
+#EXTINF:-1 tvg-logo="https://cdn.phototourl.com/member/2026-09-24-5534ff9d-3b0a-44bd-b4d4-56a74e170831.png"group-title="ARGENTINA",JTV
+https://streaming.jtamendoza.com/hls/0/stream.m3u8
+
+
 
 #EXTINF:-1 tvg-logo="https://canalcuatroposadas.com.ar/wp-content/uploads/2026/04/Logo-chico-2.png"group-title="ARGENTINA", CANAL 4 HD  POSADAS
 http://iptv.ixfo.com.ar:8081/live/C4POS/playlist.m3u8
