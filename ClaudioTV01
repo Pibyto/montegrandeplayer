@@ -983,7 +983,7 @@ https://run-rt-uh-roku.otteravision.com/run/rt_uh/rt_uh_720.m3u8
 
 
 #EXTINF:-1 tvg-logo="https://logos-world.net/wp-content/uploads/2023/03/Space-Logo.png"group-title="CINE PREMIER", SPACE
-
+http://186.33.26.18:8000/play/a0sz/index.m3u8
 
 
 #EXTINF:-1 tvg-logo="https://www.neeo.es/wp-content/uploads/2026/02/BBC-SERIES.jpg"group-title="CINE PREMIER",BBC SERIES 
@@ -991,7 +991,7 @@ https://amg00793-amg00793c40-rakuten-es-5444.playouts.now.amagi.tv/1080p/index.m
 
 
 #EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/1/11/Cinemax_%28Yellow%29.svg"group-title="CINE PREMIER",CINEMAX
-
+http://200.59.191.177:8000/play/a0pk/index.m3u8?hls
 
 
 
@@ -1008,11 +1008,11 @@ https://d3m8rnla2v9m5d.cloudfront.net/playlist.m3u8
 
 
 #EXTINF:-1 tvg-logo=""group-title="CINE PREMIER", CINECANAL
-
+http://186.148.196.100:8000/play/a02o/index.m3u8
 
 
 #EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/8/8a/Tnt_tv_romania.png"group-title="CINE PREMIER",TNT
-
+http://186.33.26.18:8000/play/a0rn/index.m3u8
 
 #EXTINF:-1 tvg-logo="https://img.rtve.es/v/15972954/square/?h=400"group-title="CINE PREMIER",STAR TVE
 https://rtvelivestream-rtveplayplus.rtve.es/rtvesec/int/star_main_1080.m3u8
@@ -1045,30 +1045,33 @@ https://rtvelivestream-rtveplayplus.rtve.es/rtvesec/int/star_main_1080.m3u8
 
 
 #EXTINF:-1v tvg-logo="https://upload.wikimedia.org/wikipedia/commons/6/67/HBO_New_Logo.png"group-title="CINE PREMIER",HBO
-
+http://186.33.61.182:8000/play/a00x/index.m3u8
 
 
 
 
 #EXTINF:-1 tvg-logo="https://ia800507.us.archive.org/32/items/logo.brootv_hbo/HBO_2.png"group-title="CINE PREMIER",HBO2
-
+http://38.52.208.106:8000/play/a00l/index.m3u8
 
 
 #EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f9/Logohboplus2019.svg/250px-Logohboplus2019.svg.png"group-title="CINE PREMIER",HBO+
-
+http://200.59.191.177:8000/play/a00m/index.m3u8?hls
 
 
 #EXTINF:-1 tvg-logo="https://i.ibb.co/r2fBxGFY/images-37.png"group-title="CINE PREMIER",HBO MMUNDI
-
+http://38.224.231.47:8000/play/a01h/index.m3u8
 
 
 #EXTINF:-1 tvg-logo="https://i.ibb.co/BKKSXBTV/hbo-signature.png"group-title="CINE PREMIER",HBO SIGNATURE
 http://190.11.225.124:5000/live/hbo_signature_hd/playlist.m3u8
 
+#EXTINF:-1 tvg-logo="https://i.ibb.co/BKKSXBTV/hbo-signature.png"group-title="CINE PREMIER",HBO SIGNATURE II
+http://38.65.175.87:8000/play/a0ji/index.m3u8?hls
+
 
 
 #EXTINF:-1 tvg-logo="https://www.codice.tv/wp-content/uploads/2022/04/hbo-xtreme1.png"group-title="CINE PREMIER", HBO XTREME
-
+http://186.33.61.182:8000/play/a011/index.m3u8
 
 
 
