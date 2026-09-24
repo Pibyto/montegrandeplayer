@@ -1786,6 +1786,110 @@ https://play.agenciastreaming.com:19360/8160/8160.m3u8
 
 
 
+
+
+
+
+
+
+
+##########( Sound View )##########
+
+
+
+
+#EXTINF:-1 tvg-logo="https://qello.com/static/images/metadata/metadata.jpg"group-title="SOUND VIEW ",QELLO
+https://lotus.stingray.com/manifest/qello-qello001-montreal/samsungtvplus/master.m3u8
+
+
+#EXTINF:-1 tvg-logo="https://music.stingray.com/themes/custom/music/images/Stingray-Music-MetaImage-en.png"group-title="SOUND VIEW ",STINGRAY MUSIC
+https://lotus.stingray.com/manifest/ose-144ads-montreal/samsungtvplus/master.m3u8
+
+
+#EXTINF:-1 tvg-logo="https://image.xumo.com/v1/channels/channel/99991119/600x337.webp?type=channelTile"group-title="SOUND VIEW ",Stingray Clasic Rock
+https://lotus.stingray.com/manifest/ose-101ads-montreal/samsungtvplus/master.m3u8
+
+
+
+#EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTF2OBTNp0Tzp3_avxTwAXKEBTDOzUTCyqQ6O34wlFvyw&s=10"group-title="SOUND VIEW ",Flashback 70'
+https://lotus.stingray.com/manifest/ose-115ads-montreal/samsungtvplus/master.m3u8
+
+
+
+#EXTINF:-1 tvg-logo="https://image.xumo.com/v1/channels/channel/99991118/600x337.webp?type=channelTile"group-title="SOUND VIEW ",COUNTRY
+https://lotus.stingray.com/manifest/ose-010ads-montreal/samsungtvplus/master.m3u8
+
+
+
+#EXTINF:-1 tvg-logo="https://images.plex.tv/photo?size=large-1920&scale=1&url=https%3A%2F%2Fprovider-static.plex.tv%2Fepg%2Fcms%2Fproduction%2F050c6ca4-f732-4d97-aa14-0ed9fe3d2d36%2Fpop_adult.png"group-title="SOUND VIEW ",POP
+https://lotus.stingray.com/manifest/ose-013ads-montreal/samsungtvplus/master.m3u8
+
+
+
+
+#EXTINF:-1 tvg-logo="https://thumb.wikimedia.org/wikipedia/commons/thumb/f/ff/Stingray_RETRO.svg/1280px-Stingray_RETRO.svg.png?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=thumbnail"group-title="SOUND VIEW ",RETRO
+https://lotus.stingray.com/manifest/ose-043ads-montreal/samsungtvplus/master.m3u8
+
+
+
+#EXTINF:-1 tvg-logo="https://ayozat-prod.ams3.digitaloceanspaces.com/tvchannels/TXsAKgUTJaLyNTMr.png"group-title="SOUND VIEW ",Greatest hits
+https://lotus.stingray.com/manifest/ose-455ads-montreal/samsungtvplus/master.m3u8
+
+
+
+#EXTINF:-1 tvg-logo="https://images.plex.tv/photo?size=large-1920&scale=1&url=https%3A%2F%2Fprovider-static.plex.tv%2Fepg%2Fcms%2Fproduction%2F2693c8ce-05be-463b-894e-62e3a1f3b834%2Fhip_hop_r_n_b_rdx.png"group-title="SOUND VIEW ",Hip hop R&B
+https://lotus.stingray.com/manifest/ose-133ads-montreal/samsungtvplus/master.m3u8
+
+
+
+#EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRIr34tyz7L9Os0oA1_UtLi_E5MaYJQFcodbft6-iBhIw&s=10"group-title="SOUND VIEW ",Italo disco
+https://lotus.stingray.com/manifest/ose-311ads-montreal/samsungtvplus/master.m3u8
+
+
+
+
+#EXTINF:-1 tvg-logo="https://ml.globenewswire.com/Resource/Download/8ad9591f-673c-49b8-82da-ceee5bc05c10?size=3"group-title="SOUND VIEW ", KARAOKE 🎤 
+https://lotus.stingray.com/manifest/karaoke-kar000-montreal/samsungtvplus/master.m3u8
+
+
+#EXTINF:-1 tvg-logo="https://cdn.broadbandtvnews.com/wp-content/uploads/2025/03/11112136/waipu-Stingray.jpg"group-title="SOUND VIEW ", MOVIE MUSIC
+https://lotus.stingray.com/manifest/cmusic-cme004-montreal/samsungtvplus/master.m3u8
+
+
+#EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSTy7MlN57nfcVoVqRrLxrchjzH08UeeaqGtYy1LhNfZg&s=10"group-title="SOUND VIEW ",MPB
+https://lotus.stingray.com/manifest/ose-204ads-montreal/samsungtvplus/master.m3u8
+
+
+
+
+#EXTINF:-1 tvg-logo="https://www.stingray.com/wp-content/uploads/2026/01/naturescape_thumbnail_546x298.png"group-title="SOUND VIEW ",Naturescape
+https://lotus.stingray.com/manifest/naturescape-a003-montreal/samsungtvplus/master.m3u8
+
+
+#EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRiKs3b0oHlVcgoyMi4Og8TNyuC3wv2bQWmYyy1LJoaQA&s=10"group-title="SOUND VIEW ",Latin Pop
+https://lotus.stingray.com/manifest/ose-190ads-montreal/samsungtvplus/master.m3u8
+
+
+#EXTINF:-1 tvg-logo=""group-title="SOUND VIEW ",
+
+
+
+#EXTINF:-1 tvg-logo=""group-title="SOUND VIEW ",
+
+
+
+#EXTINF:-1 tvg-logo=""group-title="SOUND VIEW ",
+
+
+
+
+
+
+
+
+
+
+
 ############( BRASIL )############
 
 
@@ -2160,7 +2264,7 @@ https://micanal.ovh/livestreams/142.RZYR3NWFIHKH.m3u8
 https://eu1.servers10.com:8081/8020/index.m3u8
 
 
-#EXTINF:-1 tvg-logo="https://liveonlineradio.net/wp-content/uploads/2025/05/Eventos-La-Chevere-Del-Austro.jpg"group-title="ECUADOR",CHEVERE
+#EXTINF:-1 tvg-logo="https://cdn.phototourl.com/member/2026-09-24-4d1812dc-973d-49a0-8924-ffe58e412ed5.png"group-title="ECUADOR",CHEVERE
 https://lbgo.bozztv.com/ssh101/ssh101/mioevento/playlist.m3u8
 
 
