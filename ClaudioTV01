@@ -2248,7 +2248,7 @@ https://live.obslivestream.com/selvatv/tracks-v1a1/mono.m3u8
 https://jireh-1-hls-video-br-isp.dps.live/hls-video/c54ac2799874375c81c1672abb700870537c5223/ecuavisa/ecuavisa.smil/ecuavisa/livestream0/chunks_dvr.m3u8?dpssid=b2671425022685aa2a33a501&sid=ba5t1l1xb21745332173685aa2ccd5b49&ndvc=0
 
 
-#EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcROILt62_HGSt0wpL2AzASaR1Yy31RcfbcSdg&s"group-title="ECUADOR",OROMAR TV 
+#EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTTE_VvbFWHtiUeGZXOeuE6rYyf55OgJXeUXyIYZhwwqfl5kcpWVpNJ7yXT&s=10"group-title="ECUADOR",OROMAR TV 
 https://stream.oromar.tv/hls/oromartv_hi/index.m3u8
 
 
@@ -2284,10 +2284,21 @@ https://dai.google.com/linear/hls/event/GyPkTVDZSXGhpOvxPK7m2g/master.m3u8
 
 
 
-#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/8/83/EcuadorTV_logo.png"group-title="ECUADOR",ECUADOR TV
-https://samson.streamerr.co:8081/shogun/index.m3u8
+#EXTINF:-1 tvg-logo="https://www.ecured.cu/images/thumb/f/ff/Ecuador_TV.png/1200px-Ecuador_TV.png"group-title="ECUADOR",ECUADOR TV
+https://video-eu1.streamerr.co/hls/s64029a8fdf/live.m3u8
 
 
+#EXTINF:-1 tvg-logo="https://i.ytimg.com/vi/My04_IqiDMY/sddefault.jpg"group-title="ECUADOR",TELEAMAZONAS
+http://205.235.6.29:8000/play/a0yd/index.m3u8?hls
+
+
+#EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRY7qYVbq4tZslAO7Wr2a4RICw2wcYsup09l-Q2C_AMQ8pn-8VU_9CsP6Q&s=10"group-title="ECUADOR",RTS
+http://205.235.6.29:8000/play/a0yi/index.m3u8?hls
+
+
+
+#EXTINF:-1 tvg-logo="https://i.ytimg.com/vi/QI_vcJ-Wm1c/hqdefault.jpg"group-title="ECUADOR",TC
+http://186.33.47.113:8000/play/a04p/index.m3u8
 
 
 #EXTINF:-1 tvg-logo="https://static.wikia.nocookie.net/logopedia/images/1/17/Rts_2005.png/revision/latest?cb=20201015015958&path-prefix=es"group-title="ECUADOR",RTS 
