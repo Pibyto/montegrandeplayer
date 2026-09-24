@@ -388,6 +388,10 @@ https://unlimited1-saopaulo.dps.live/televidaar/televidaar.smil/televidaar/lives
 https://lbgo.bozztv.com/giatv/giatv-teleposadastv/teleposadastv/playlist.m3u8
 
 
+#EXTINF:-1 tvg-logo="https://static.wikia.nocookie.net/logopedia/images/b/b0/13rioja.png/revision/latest?cb=20210526011004&path-prefix=es"group-title="ARGENTINA",CANAL 13 HD LA RIOJA
+http://arcast.net:1935/mp/mp/playlist.m3u8
+
+
 #EXTINF:-1 tvg-logo="https://i.ytimg.com/vi/k_AcIFPMoG8/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLBs2_YuGSZvDKrEhVa7QpqDSnkf_A"group-title="ARGENTINA",247 NOTICIAS
 https://panel.host-live.com:19360/cn247tv/cn247tv.m3u8
 
@@ -399,7 +403,7 @@ https://iptv.ixfo.com.ar:30443/c21tv/hd/c21tv/chunks.m3u8
 https://stream.arcast.live/canal7jujuy/ngrp:canal7jujuy_all/playlist.m3u8
 
 
-#EXTINF:-1 tvg-logo="https://i.ibb.co/3Y9xW24K/Canal-13-Jujuy-en-vivo-Online.png"group-title="ARGENTINA",13 TRECE HD
+#EXTINF:-1 tvg-logo="https://i.ibb.co/3Y9xW24K/Canal-13-Jujuy-en-vivo-Online.png"group-title="ARGENTINA",TRECE HD
 https://genexservicios.com:19360/canal13jujuy/canal13jujuy.m3u8
 
 
@@ -416,20 +420,20 @@ https://edge.enhdtv.com/canal9sanluis/index.m3u8
 https://srs.unsj.edu.ar/live/xama/xama.flv
 
 
-#EXTINF:-1 tvg-logo="https://static.wikia.nocookie.net/logopedia/images/e/e9/13_Max_Televisi%C3%B3n_%2856%C2%BA_aniversario_-_2021%29.jpg/revision/latest/scale-to-width-down/250?cb=20241011232115"group-title="ARGENTINA",13MAX
+#EXTINF:-1 tvg-logo="https://www.teleonline.tv/wp-content/uploads/2024/07/13-max-tv-corrientes-800x450.jpg"group-title="ARGENTINA",13MAX
 https://617c5175c970b.streamlock.net:4444/13max2/live13maxtv2026/chunklist_w873221912.m3u8
 
 
 
 
 
-#EXTINF:-1 tvg-logo="https://tinyurl.com/Cuatrosan"group-title="ARGENTINA",EL 4 SAN JUAN 
+#EXTINF:-1 tvg-logo="https://www.teleonline.tv/wp-content/uploads/2024/07/canal-4-san-juan-800x450.jpg"group-title="ARGENTINA",EL 4 SAN JUAN 
 https://streamlov.alsolnet.com/canal4sanjuan/live/chunklist_w318490892.m3u8
 
 
 
 
-#EXTINF:-1 tvg-logo="https://i.ibb.co/wrMwMmDD/Corrientes-TV-2.png"group-title="ARGENTINA",CORRIENTES TV HD
+#EXTINF:-1 tvg-logo="https://www.teleonline.tv/wp-content/uploads/2024/07/corrientes-tv-800x450.jpg"group-title="ARGENTINA",CORRIENTES TV HD
 https://vivo.solumedia.com:19360/telemedia/telemedia.m3u8
 
 
@@ -451,7 +455,7 @@ https://live20.bozztv.com/akamaissh101/ssh101/canal8sanjuan/playlist.m3u8
 https://streamtv12.ddns.net:5443/LiveApp/streams/193945633734205616732920.m3u8
 
 
-#EXTINF:-1 tvg-logo="https://tinyurl.com/Sicarditeve"group-title="ARGENTINA",SICARDITV HD  18.2
+#EXTINF:-1 tvg-logo="https://i.ytimg.com/vi/gAQKCzSWql0/maxresdefault.jpg"group-title="ARGENTINA",SICARDITV HD  18.2
 https://vivo.solumedia.com:19360/sicarditv/sicarditv.m3u8
 
 
@@ -469,7 +473,7 @@ https://stmvideo1.livecastv.com/fmpucara/fmpucara/playlist.m3u8
 https://live20.bozztv.com/giatv/giatv-horizonte/horizonte/chunks.m3u8
 
 
-#EXTINF:-1 tvg-logo="https://tinyurl.com/Tdcros"group-title="ARGENTINA",TDC
+#EXTINF:-1 tvg-logo="https://tdconline.com.ar/wp-content/uploads/2022/05/online.png"group-title="ARGENTINA",TDC
 https://tdcserver.com:19360/tdconlione-2/tdconlione-2.m3u8
 
 
@@ -483,7 +487,7 @@ https://play.nexolife.com:443/mendozaTV/7b7a53e239400a13bd6be6c91c4f6c4e.sdp/chu
 
 
 
-#EXTINF:-1 tvg-logo="https://tinyurl.com/Tivteve"group-title="ARGENTINA",TIV
+#EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQV0Iew_uLEajKMHOVVUNDQlCLqgHVG5uXugbZlmtdyaEy-xP5nPJOD-Sk&s=10"group-title="ARGENTINA",TIV
 https://videohd.live:19360/8008/8008.m3u8
 
 
@@ -539,7 +543,7 @@ https://canaletaplus.com:3922/live/cosmoslive.m3u8
 
 
 
-#EXTINF:-1 tvg-logo="https://static.wikia.nocookie.net/logopedia/images/e/ee/Canal_Nueve_Resistencia_%28Invierno_-_2017%29.jpg/revision/latest/scale-to-width-down/250?cb=20230222151220&path-prefix=es"group-title="ARGENTINA",EL 9 
+#EXTINF:-1 tvg-logo="https://i.ytimg.com/vi/_36SNgV5D-0/maxresdefault.jpg"group-title="ARGENTINA",EL 9 
 http://coninfo.net:1935/9linklivert/smil:9linkmultibr.smil/chunklist_w1546314826_b2044100_sleng.m3u8
 
 
@@ -585,7 +589,7 @@ https://canal.mediaserver.com.co/live/cinedios.m3u8
 https://stmvideo6.livecastv.com/oncestream/oncestream/playlist.m3u8
 
 
-#EXTINF:-1 tvg-logo="https://www.canal3lasheras.com/wp-content/uploads/2022/10/canal3logo-x1.png"group-title="ARGENTINA",3 LAS HERAS
+#EXTINF:-1 tvg-logo="https://cdn.phototourl.com/member/2026-09-24-fee728f8-ee76-4a4f-ad23-a24dd3ff51e6.png"group-title="ARGENTINA",3 LAS HERAS
 https://stream.arcast.com.ar/canal3/canal3/playlist.m3u8?PlaylistM3UCL
 
 
@@ -605,8 +609,7 @@ https://stream.arcast.net:4443/gualeguay/gualeguay/chunklist_w1039971660.m3u8
 
 
 
-#EXTINF:-1 tvg-logo="https://1.bp.blogspot.com/-QLn_jBSxI4E/WDyHzgW7Y6I/AAAAAAAABOc/BWV3OWHz-rEQTz7Issy8_ftOVG7Wf3qjACLcB/s1600/canal13-larioja.png"group-title="ARGENTINA",CANAL 13 HD LA RIOJA
-http://arcast.net:1935/mp/mp/playlist.m3u8
+
 
 
 #EXTINF:-1 tvg-logo="https://telejunin.com/static/images/logo/teleJunin.png"group-title="ARGENTINA",TELEJUNIN
