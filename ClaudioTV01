@@ -480,7 +480,7 @@ https://live20.bozztv.com/akamaissh101/ssh101/canal8sanjuan/playlist.m3u8
 
 
 
-#EXTINF:-1 tvg-logo="https://i.ibb.co/cK8XkD3q/1772569532364.png"group-title="ARGENTINA",METRO TV HD  18.1 TUCUMÁN
+#EXTINF:-1 tvg-logo="https://cadenametro.com.ar/storage/multimedios/April2025/wLfqZReeQRImBGe1wfBJ.jpeg"group-title="ARGENTINA",METRO TV 18.1
 https://streamtv12.ddns.net:5443/LiveApp/streams/193945633734205616732920.m3u8
 
 
@@ -494,15 +494,15 @@ https://live20.bozztv.com/giatv/giatv-universotv/universotv/chunks.m3u8
 
 
 
-#EXTINF:-1 tvg-logo="https://i.ibb.co/Fb0Yj20k/logo-5ccca1e3a8bcc.png"group-title="ARGENTINA",PUCARA
+#EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRmQZMlJv7SKiHpiujOnH5tjN1s6YolS6G3HX2TeM1dOCiwG0DuoMLNNyam&s=10"group-title="ARGENTINA",PUCARA
 https://stmvideo1.livecastv.com/fmpucara/fmpucara/playlist.m3u8
 
 
-#EXTINF:-1 tvg-logo="https://i.ibb.co/sJ3YCFf6/487750195-1282079193924940-762925605084316448-n-Edited.png"group-title="ARGENTINA",BELLO HORIZONTE 
+#EXTINF:-1 tvg-logo="https://bellohorizonte.com.ar/wp-content/uploads/2025/12/487750195_1282079193924940_762925605084316448_n-Edited.png"group-title="ARGENTINA",BELLO HORIZONTE 
 https://live20.bozztv.com/giatv/giatv-horizonte/horizonte/chunks.m3u8
 
 
-#EXTINF:-1 tvg-logo="https://tdconline.com.ar/wp-content/uploads/2022/05/online.png"group-title="ARGENTINA",TDC
+#EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRAMQ4ZP9xWqvkChMTSIF5SV-DkqpvWaflPaMFGAOPwy4Qw5841hmBPABo&s=10"group-title="ARGENTINA",TDC
 https://tdcserver.com:19360/tdconlione-2/tdconlione-2.m3u8
 
 
@@ -526,7 +526,7 @@ https://videohd.live:19360/8008/8008.m3u8
 https://tv.streamcasthd.com:3450/live/tvmaslive.m3u8
 
 
-#EXTINF:-1 tvg-logo=""group-title="ARGENTINA",JTV
+#EXTINF:-1 tvg-logo="https://liveonlineradio.net/wp-content/uploads/2022/11/JTA-Mendoza-fb.png"group-title="ARGENTINA",JTV
 https://streaming.jtamendoza.com/hls/test.m3u8
 
 #EXTINF:-1 tvg-logo="https://canalcuatroposadas.com.ar/wp-content/uploads/2026/04/Logo-chico-2.png"group-title="ARGENTINA", CANAL 4 HD  POSADAS
@@ -539,7 +539,7 @@ http://iptv.ixfo.com.ar:8081/live/C4POS/playlist.m3u8
 
 
 
-#EXTINF:-1 tvg-logo="https://play-lh.googleusercontent.com/wqC28g5axDfQhkUhcALzgqvyF8bCwyCr06knFxa0FS0d0zy5lQG_9uC_ZQu-HJ-f9oXdFr4QJjGPZAUscuEwSQ=w600-h300-pc0xffffff-pd"group-title="ARGENTINA",CANAL 7 SALTA
+#EXTINF:-1 tvg-logo="https://pbs.twimg.com/profile_images/462168942698446848/aD89IHFa_400x400.png"group-title="ARGENTINA",CANAL 7 SALTA
 https://vivo.solumedia.com:19360/cooperativa/cooperativa.m3u8
 
 
