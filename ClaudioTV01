@@ -3185,6 +3185,27 @@ https://tvhd.picta.cu/cubavisionhd/cubavisionhd_0.m3u8
 
 
 
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/f/fc/Tutvcanal11.png"group-title="ELSALVADOR",2
+http://45.167.2.101:8000/play/a0qp/index.m3u8
+
+
+
+
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/f/fc/Tutvcanal11.png"group-title="ELSALVADOR",4
+http://186.33.26.18:8000/play/a0qq/index.m3u8
+
+
+
+
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/f/fc/Tutvcanal11.png"group-title="ELSALVADOR",6
+http://186.33.26.18:8000/play/a0qs/index.m3u8
+
+
+
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/f/fc/Tutvcanal11.png"group-title="ELSALVADOR",SV+
+http://186.33.26.18:8000/play/a0qx/index.m3u8
+
+
 
 
 #EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/f/fc/Tutvcanal11.png"group-title="ELSALVADOR",TUTV
