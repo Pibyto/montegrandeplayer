@@ -390,6 +390,30 @@ https://unlimited1-saopaulo.dps.live/televidaar/televidaar.smil/televidaar/lives
 https://lbgo.bozztv.com/giatv/giatv-teleposadastv/teleposadastv/playlist.m3u8
 
 
+#EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSpGJDQp52d5l3whdtrx9Rt4W8r1cDliWP_okbRMNY6vw&s=10"group-title="ARGENTINA",CUATRO 
+https://iptv.ixfo.com.ar:30443/live-HD/MISIONES4/chunks.m3u8
+
+
+#EXTINF:-1 tvg-logo="https://mir-s3-cdn-cf.behance.net/projects/404/7f112d143737957.Y3JvcCw4MDgsNjMyLDAsMA.jpg"group-title="ARGENTINA",
+
+
+#EXTINF:-1 tvg-logo="https://mir-s3-cdn-cf.behance.net/projects/404/7f112d143737957.Y3JvcCw4MDgsNjMyLDAsMA.jpg"group-title="ARGENTINA",C2
+https://nd106.republicaservers.com:4433/hls/canal2misioness/2_1/index.m3u8
+
+
+
+#EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTN82miUBGR0XVzbFL19ZgafF9Dav0yyrETs8dWLW0p7qeb-74ZYc5tLE1O&s=10"group-title="ARGENTINA",CANAL 7
+https://stream.arcast.com.ar/envivo/castv/playlist.m3u8
+
+
+#EXTINF:-1 tvg-logo="https://i.ytimg.com/vi/3WW-Vj1UMXI/hqdefault.jpg"group-title="ARGENTINA ",7 NEUQUÉN 
+https://stream.arcast.com.ar/c7nq/ngrp:c7nq_all/chunklist_w1959345832_b2628000.m3u8
+
+#EXTINF:-1 tvg-logo="https://canal12web.com/wp-content/uploads/canal12/og/og-12252-facebook-649639-wm1768603849.jpg"group-title="ARGENTINA ",12 NEUQUÉN 
+https://nd106.republicaservers.com:4433/hls/c7827/index.m3u8
+
+
+
 #EXTINF:-1 tvg-logo="https://static.wikia.nocookie.net/logopedia/images/b/b0/13rioja.png/revision/latest?cb=20210526011004&path-prefix=es"group-title="ARGENTINA",CANAL 13 HD LA RIOJA
 http://arcast.net:1935/mp/mp/playlist.m3u8
 
