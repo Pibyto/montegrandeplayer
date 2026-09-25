@@ -25,12 +25,17 @@ https://live20.bozztv.com/akamaissh101/ssh101/montegrandetv/chunks.m3u8
 https://streaming01.mikrolive.tv/bayrestv/live/chunklist_w963757112.m3u8
 
 
+#EXTINF:-1 tvg-logo="https://cdn.phototourl.com/member/2026-09-25-d7f9d73b-3966-4a4a-a792-587aafb3025b.png"group-title="BUENOS AIRES", SIEMPRE MAS
+https://lbgo.bozztv.com/ssh101/ssh101/mgradiotv/chunks.m3u8
+
 
 #EXTINF:-1 tvg-logo="https://cdn.phototourl.com/free/2026-09-22-62b5cfef-27d6-4139-85bd-5d1c1baf8571.png"group-title="BUENOS AIRES", MGTV WORSHIP
 https://live20.bozztv.com/giatvplayout7/giatv-212009/playlist.m3u8
 
 #EXTINF:-1 tvg-logo="https://cdn.phototourl.com/free/2026-09-18-d6c23014-3c40-40ed-92e3-3c44cd645fb7.png"group-title="BUENOS AIRES",COSMOS TV
 https://canaletaplus.com:3922/live/cosmoslive.m3u8
+
+
 
 #EXTINF:-1 tvg-logo="https://i.ibb.co/LDH9d0CB/Polish-20260713-152652011-6.png"group-title="BUENOS AIRES", MAXCINE KIDS
 https://live20.bozztv.com/giatvplayout7/giatv-209909/playlist.m3u8
@@ -39,8 +44,7 @@ https://live20.bozztv.com/giatvplayout7/giatv-209909/playlist.m3u8
 #EXTINF:-1 tvg-logo="https://cdn.phototourl.com/free/2026-09-20-097fde4a-a4ca-4c1c-953e-0f97db2cedc1.png"group-title="BUENOS AIRES", IPERSONICA TV 
 https://lbgo.bozztv.com/ssh101/ssh101/ipersonica/playlist.m3u8
 
-#EXTINF:-1 tvg-logo="https://tinyurl.com/Mgrad108"group-title="BUENOS AIRES", MG RAD10
-https://lbgo.bozztv.com/ssh101/ssh101/mgradiotv/chunks.m3u8
+
 
 
 #EXTINF:-1 tvg-logo="https://tinyurl.com/Lamil35ban"group-title="BUENOS AIRES",LA MIL35
