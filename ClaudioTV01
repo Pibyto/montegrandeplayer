@@ -962,7 +962,7 @@ https://live20.bozztv.com/giatvplayout7/giatv-210703/playlist.m3u8
 
 
 
-#EXTINF:-1 tvg-logo="https://i.ytimg.com/vi/i6apdlhBzHg/maxresdefault.jpg"group-title="CINE PREMIER",CINESONY
+#EXTINF:-1 tvg-logo="https://i.ytimg.com/vi/bNYoAEREWks/maxresdefault.jpg"group-title="CINE PREMIER",CINESONY
 https://a-cdn.klowdtv.com/live1/cine_720p/chunks.m3u8
 
 
@@ -1020,11 +1020,11 @@ https://aegis-cloudfront-1.tubi.video/e1921b21-6cd6-4b21-bb46-832cbb74485c/playl
 https://d2nq34q0i1r3la.cloudfront.net/v1/manifest/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-awohw8g217ho8/b5c39601-9994-4bf7-8402-879dc682097f/3.m3u8
 
 
-#EXTINF:-1 tvg-logo=""group-title="CINE PREMIER", CINECANAL
+#EXTINF:-1 tvg-logo="https://mir-s3-cdn-cf.behance.net/project_modules/1400_webp/592020149428735.63284a1ac8cc2.jpg"group-title="CINE PREMIER", CINECANAL
 http://186.148.196.100:8000/play/a02o/index.m3u8
 
 
-#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/8/8a/Tnt_tv_romania.png"group-title="CINE PREMIER",TNT
+#EXTINF:-1 tvg-logo="https://www.thedailytelevision.com/sites/default/files/notas/imagenes/tnt_reface_1_002_vsta.jpg"group-title="CINE PREMIER",TNT
 http://186.33.26.18:8000/play/a0rn/index.m3u8
 
 #EXTINF:-1 tvg-logo="https://img.rtve.es/v/15972954/square/?h=400"group-title="CINE PREMIER",STAR TVE
@@ -1057,17 +1057,17 @@ https://rtvelivestream-rtveplayplus.rtve.es/rtvesec/int/star_main_1080.m3u8
 
 
 
-#EXTINF:-1v tvg-logo="https://upload.wikimedia.org/wikipedia/commons/6/67/HBO_New_Logo.png"group-title="CINE PREMIER",HBO
+#EXTINF:-1v tvg-logo="https://mir-s3-cdn-cf.behance.net/project_modules/max_632_webp/3513fd11341609.560f6229cd49c.jpg"group-title="CINE PREMIER",HBO
 http://186.33.61.182:8000/play/a00x/index.m3u8
 
 
 
 
-#EXTINF:-1 tvg-logo="https://ia800507.us.archive.org/32/items/logo.brootv_hbo/HBO_2.png"group-title="CINE PREMIER",HBO2
+#EXTINF:-1 tvg-logo="https://i.pinimg.com/736x/bc/a8/b8/bca8b8433dcc03c7ae0717938f022304.jpg"group-title="CINE PREMIER",HBO2
 http://38.52.208.106:8000/play/a00l/index.m3u8
 
 
-#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f9/Logohboplus2019.svg/250px-Logohboplus2019.svg.png"group-title="CINE PREMIER",HBO+
+#EXTINF:-1 tvg-logo="https://www.superestudio.tv/case-studies/hbo+/hbo+-06.jpg"group-title="CINE PREMIER",HBO+
 http://200.59.191.177:8000/play/a00m/index.m3u8?hls
 
 
@@ -1075,22 +1075,22 @@ http://200.59.191.177:8000/play/a00m/index.m3u8?hls
 http://38.224.231.47:8000/play/a01h/index.m3u8
 
 
-#EXTINF:-1 tvg-logo="https://i.ibb.co/BKKSXBTV/hbo-signature.png"group-title="CINE PREMIER",HBO SIGNATURE
+#EXTINF:-1 tvg-logo="https://i.ytimg.com/vi/7gszBL6J0wg/maxresdefault.jpg"group-title="CINE PREMIER",HBO SIGNATURE
 http://190.11.225.124:5000/live/hbo_signature_hd/playlist.m3u8
 
-#EXTINF:-1 tvg-logo="https://i.ibb.co/BKKSXBTV/hbo-signature.png"group-title="CINE PREMIER",HBO SIGNATURE II
+#EXTINF:-1 tvg-logo="https://i.ytimg.com/vi/7gszBL6J0wg/maxresdefault.jpg"group-title="CINE PREMIER",HBO SIGNATURE II
 http://38.65.175.87:8000/play/a0ji/index.m3u8?hls
 
 
 
-#EXTINF:-1 tvg-logo="https://www.codice.tv/wp-content/uploads/2022/04/hbo-xtreme1.png"group-title="CINE PREMIER", HBO XTREME
+#EXTINF:-1 tvg-logo="https://nihontv2026.github.io/nihontv/hbo%20extreme.webp"group-title="CINE PREMIER", HBO XTREME
 http://186.33.61.182:8000/play/a011/index.m3u8
 
 
 
 
 
-#EXTINF:-1 tvg-logo=""group-title="CINE PREMIER",GOLDEN
+#EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRm4faGUs8V3prdCfZ-cAIsoztbSD42beSnDrjNVy1XIMUpTNp-WzSDGNM&s=10"group-title="CINE PREMIER",GOLDEN
 http://181.224.255.210:8001/play/a0qg/index.m3u8?hls
 
 
@@ -1111,7 +1111,7 @@ http://181.224.255.210:8001/play/a0qg/index.m3u8?hls
 
 
 
-#EXTINF:-1 tvg-logo="https://i.ytimg.com/vi/i6apdlhBzHg/maxresdefault.jpg"group-title="CINE PREMIER",CINE SONY
+#EXTINF:-1 tvg-logo="https://i.ytimg.com/vi/bNYoAEREWks/maxresdefault.jpg"group-title="CINE PREMIER",CINE SONY
 https://a-cdn.klowdtv.com:443/live1/cine_720p/chunks.m3u8
 
 
