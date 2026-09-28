@@ -705,8 +705,7 @@ https://stream-cdn-iad3.vaughnsoft.net/play/live_criticando_pelis3.flv
 https://stream-cdn-iad3.vaughnsoft.net/play/live_a_neflix01.flv
 
 
-#EXTINF:-1 tvg-logo="https://images.ctfassets.net/y2ske730sjqp/1aONibCke6niZhgPxuiilC/2c401b05a07288746ddf3bd3943fbc76/BrandAssets_Logos_01-Wordmark.jpg?w=940"group-title="CINE PREMIUM", MEGAMOVIE
-https://stream-cdn-iad3.vaughnsoft.net/play/live_megamovieshd.flv
+
 
 
 #EXTINF:-1 tvg-logo="https://images.ctfassets.net/y2ske730sjqp/1aONibCke6niZhgPxuiilC/2c401b05a07288746ddf3bd3943fbc76/BrandAssets_Logos_01-Wordmark.jpg?w=940"group-title="CINE PREMIUM", MEGAKIDS
@@ -718,6 +717,20 @@ https://stream-cdn-iad3.vaughnsoft.net/play/live_megamundohd.flv
 
 #EXTINF:-1 tvg-logo="https://images.ctfassets.net/y2ske730sjqp/1aONibCke6niZhgPxuiilC/2c401b05a07288746ddf3bd3943fbc76/BrandAssets_Logos_01-Wordmark.jpg?w=940"group-title="CINE PREMIUM",MEGAEXTREMO
 https://stream-cdn-iad3.vaughnsoft.net/play/live_mega_extremo.flv
+
+
+
+#EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS4VNckWlv1xsa57RF_QlbIPprebWPApnXMCb6oGCLAEhVh1ZGyjB_2Gw&s=10"group-title="CINE PREMIUM",MOVIES
+https://stream-cdn-iad3.vaughnsoft.net/play/live_melonmovies.flv
+
+
+#EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS4VNckWlv1xsa57RF_QlbIPprebWPApnXMCb6oGCLAEhVh1ZGyjB_2Gw&s=10"group-title="CINE PREMIUM",PELÍCULAS MOE
+https://stream-cdn-iad3.vaughnsoft.net/play/live_peliculas_moe.flv
+
+
+#EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS4VNckWlv1xsa57RF_QlbIPprebWPApnXMCb6oGCLAEhVh1ZGyjB_2Gw&s=10"group-title="CINE PREMIUM", MEGAMOVIES
+https://stream-cdn-iad3.vaughnsoft.net/play/live_megamovieshd.flv
+
 
 
 #EXTINF:-1 tvg-logo="https://cdn.phototourl.com/free/2026-08-21-7812e908-d80e-4fee-8b1a-b206d858457b.png"group-title="CINE PREMIUM",BOX CINEMA
