@@ -682,12 +682,21 @@ https://stream-cdn-iad3.vaughnsoft.net/play/live_marlon_hd.flv
 
 
 
+#EXTINF:-1 tvg-logo="https://cdn.phototourl.com/free/2026-09-15-6f2b9c56-db73-47f3-b791-8ca7368fe864.png"group-title="CINE PREMIUM",JCINE
+https://stream-cdn-iad3.vaughnsoft.net/play/live_juancine_tv.flv
+
+
+
 #EXTINF:-1 tvg-logo="https://cdn.phototourl.com/free/2026-09-15-6f2b9c56-db73-47f3-b791-8ca7368fe864.png"group-title="CINE PREMIUM", PELÍCULASMANIA
 https://stream-cdn-iad3.vaughnsoft.net/play/live_peliculas_mania.flv
 
 
 #EXTINF:-1 tvg-logo="https://cdn.phototourl.com/free/2026-09-15-6f2b9c56-db73-47f3-b791-8ca7368fe864.png"group-title="CINE PREMIUM",TERRORMANIA
 https://stream-cdn-iad3.vaughnsoft.net/play/live_terror_mania.flv
+
+
+#EXTINF:-1 tvg-logo="https://cdn.phototourl.com/free/2026-09-15-6f2b9c56-db73-47f3-b791-8ca7368fe864.png"group-title="CINE PREMIUM",PELIS3
+https://stream-cdn-iad3.vaughnsoft.net/play/live_criticando_pelis3.flv
 
 
 #EXTINF:-1 tvg-logo="https://images.ctfassets.net/y2ske730sjqp/1aONibCke6niZhgPxuiilC/2c401b05a07288746ddf3bd3943fbc76/BrandAssets_Logos_01-Wordmark.jpg?w=940"group-title="CINE PREMIUM", MEGAMOVIE
