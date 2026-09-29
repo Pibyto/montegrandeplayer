@@ -1515,12 +1515,23 @@ https://xui-backend.energeek.cl/live/13/playlist.m3u8
 
 
 
-#EXTINF:-1 tvg-logo="https://tinyurl.com/Postermax"group-title="PARAGUAY",SNT
+#EXTINF:-1 tvg-logo="https://television.com.py/wp-content/uploads/2016/09/SNT-logo.jpg"group-title="PARAGUAY",SNT
 https://d3epa8orr2qy3m.cloudfront.net/medialist_15609871089997455276_hls.m3u8
 
 
-#EXTINF:-1 tvg-logo="https://tinyurl.com/Postermax"group-title="PARAGUAY", TELEFUTURO 
+#EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT5JENtykTU3KdjhKdStofGiRKe6dN4YOeRif5zK0MeWXyL3ok1zmMJy17L&s=10"group-title="PARAGUAY", TELEFUTURO 
 https://rds3tf.desdeparaguay.net/telefuturo/telefuturo_py_alta/chunklist_w1645675809.m3u8?admin=tvaccion
+
+
+#EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSPjkqJbhmb8TQdSpmxpoqakDaK59aKpH0sZTEEJALD7Q&s=10"group-title="PARAGUAY", PARAVISION 
+http://45.170.130.224:8000/play/a032/index.m3u8?hls
+
+
+#EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTI317IGmWK33Jzuo_P_85Ye8aYmz4lbet57YObelloIVy0tgYOAyBBWVw&s=10"group-title="PARAGUAY", AMERICA
+http://45.170.130.224:8000/play/a02o/index.m3u8?hls
+
+#EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTUmI76Me1rICemLAH_uAJEl0oi-fRLMke10nHCC8litA&s"group-title="PARAGUAY", TIGO 
+http://45.170.130.224:8000/play/a04k/index.m3u8?hls
 
 
 
