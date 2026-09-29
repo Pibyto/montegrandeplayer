@@ -162,10 +162,7 @@ https://live20.bozztv.com/giatvplayout7/giatv-208744/tracks-v1a1/mono.m3u8
 
 
 
-#EXTINF:-1 tvg-logo=""group-title="BUENOS AIRES",MEGAPELI
-
-
-
+#EXTINF:-1 tvg-logo=""group-title="BUENOS AIRES",
 
 
 #EXTINF:-1 tvg-logo=""group-title="BUENOS AIRES",
@@ -3089,27 +3086,111 @@ https://movil.ejeserver.com/live/calimatv.m3u8
 
 
 
-#EXTINF:-1 tvg-logo="https://telemaxrd.com.do/wp-content/uploads/2021/12/04.png"group-title="R.DOMINICANA", TELEMAX RD HD
+
+
+#EXTINF:-1 tvg-logo="https://i.ytimg.com/vi/XuI4m5yKAwE/hq720.jpg?sqp=-oaymwE7CK4FEIIDSFryq4qpAy0IARUAAAAAGAElAADIQj0AgKJD8AEB-AH-CYAC0AWKAgwIABABGHIgOig6MA8=&rs=AOn4CLDQ8LGMt9m_bCCL2rfVThba3rKAhA"group-title="R.DOMINICANA", AHORATV 3
+https://stream.haislin.com/ahoratv/index.m3u8
+
+
+#EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT1KhvGVH32C_sPEDm1RtwyVVcL_6-wUTnsOWCkw64hqe60vZ0hUXbOZvGu&s=10"group-title="R.DOMINICANA",BOCACHICATV
+https://cdnfox.hostlagarto.com/bocachicatv/tracks-v1a1/mono.m3u8
+
+
+
+#EXTINF:-1 tvg-logo="https://www.losmocanos.com/wp-content/uploads/2025/07/Captura-de-pantalla-2025-06-30-a-las-9.16.42%E2%80%AFp.-m.jpg"group-title="R.DOMINICANA",RTVD 4
+https://cdn.protvradiostream.com/canal4rd-1/ngrp:canal4rd-1_all/chunklist_b4464640.m3u8
+
+
+#EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSdqxlMNYCPtbgI3YpSvIwu7EAElM4Cw8TzFFPzOyC0T7FO7-FpVhnpBok&s=10"group-title="R.DOMINICANA", TELEMICRO 5
+https://ds.tvabierta.net/memfs/efab0d97-68d8-414e-8cdc-23d539b09944_output_0.m3u8
+
+
+
+#EXTINF:-1 tvg-logo="https://elseis.do/img/og-elseis.jpg"group-title="R.DOMINICANA",EL SEIS 6
+https://stream.elseis.do/canal6/live_1080.m3u8
+
+
+#EXTINF:-1 tvg-logo="https://i.pinimg.com/736x/1a/eb/f9/1aebf98ae33214cbd920b8df12f88ad4.jpg"group-title="R.DOMINICANA",ANTENA7
+https://hls.tvabierta.net/hls/007.m3u8
+
+
+
+#EXTINF:-1 tvg-logo="https://dominicanchannels.com/wp-content/uploads/telemedio-canal-8.png"group-title="R.DOMINICANA",TELEMEDIOS
+https://hls.tvabierta.net/hls/008.m3u8
+
+
+#EXTINF:-1 tvg-logo="https://cdn.aptoide.com/imgs/6/8/b/68b8916ea2193ec8b75582ec7818cc1d_fgraphic.png"group-title="R.DOMINICANA",9
+https://ds.tvabierta.net/memfs/2493e646-b24d-489b-8603-0879abb93123_output_0.m3u8
+
+
+
+#EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR2r3dIC2QwMGOKnedgLWVFn5jdPEdkDN2yOY_xLOiA7imY_wxzuSCHuFo&s=10"group-title="R.DOMINICANA",T11
+https://hls.tvabierta.net/hls/011.m3u8
+
+
+#EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQcWm_wFlDs0dnS38IyJj35Qu4xyQdOR1RmtcrkuzOPM_v4H-22X6YecX3m&s=10"group-title="R.DOMINICANA",CATORCE
+https://stream.haislin.com/14tv/index.m3u8
+
+
+
+#EXTINF:-1 tvg-logo=""group-title="R.DOMINICANA",
+
+
+#EXTINF:-1 tvg-logo=""group-title="R.DOMINICANA",
+
+
+
+#EXTINF:-1 tvg-logo=""group-title="R.DOMINICANA",
+
+
+#EXTINF:-1 tvg-logo=""group-title="R.DOMINICANA",
+
+
+
+#EXTINF:-1 tvg-logo=""group-title="R.DOMINICANA",
+
+
+#EXTINF:-1 tvg-logo=""group-title="R.DOMINICANA",
+
+
+
+
+#EXTINF:-1 tvg-logo=""group-title="R.DOMINICANA",
+
+
+#EXTINF:-1 tvg-logo=""group-title="R.DOMINICANA",
+
+
+
+#EXTINF:-1 tvg-logo=""group-title="R.DOMINICANA",
+
+
+#EXTINF:-1 tvg-logo=""group-title="R.DOMINICANA",
+
+
+
+
+#EXTINF:-1 tvg-logo="https://www.vivalivetv.com/public/files/shows/0/1/2812-800x450-FFFFFF.jpg"group-title="R.DOMINICANA", TELEMAX RD HD
 https://edge.essastream.com/telemax/tracks-v1a1/mono.m3u8
 
 
-#EXTINF:-1 tvg-logo="https://www.vivalivetv.com/public/files/shows/0/1/2893-800x450-FFFFFF.jpg"group-title="R.DOMINICANA",MEGACINE
+#EXTINF:-1 tvg-logo="https://cigars.roku.com/v1/contain/800x454/https%3A%2F%2Fimage.roku.com%2Fdeveloper_channels%2Fprod%2Ffec8403b690ee3d6bb645b6e8d9e1e85070e865bc1b4ad14e8af28261e6ce1ad.png"group-title="R.DOMINICANA",MEGACINE
 https://cnn.hostlagarto.com/megacinetv/tracks-v1a1/mono.m3u8
 
 
-#EXTINF:-1 tvg-logo="https://www.coolstreaming.us/img/ch/image84741368099.jpg"group-title="R.DOMINICANA",ORBIT TV HD
+#EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQPgSPnqoOiRgraqaKSoGmZdHvNAMUqJb31t2G1yJDMsA&s=10"group-title="R.DOMINICANA",ORBIT TV HD
 https://cnn.hostlagarto.com/orbittv/tracks-v1a1/mono.m3u8
 
 
-#EXTINF:-1 tvg-logo="https://i.ibb.co/4ZYkGDQ0/IMG-20260705-WA0032.png"group-title="R.DOMINICANA",ARRETAO TV
-https://vdo.ssl-stream.com:3066/hybrid/play.m3u8
+#EXTINF:-1 tvg-logo=""group-title="R.DOMINICANA",
+
 
 
 #EXTINF:-1 tvg-logo="https://i.ibb.co/ymFs1w06/IMG-20260802-WA0031.png"group-title="R.DOMINICANA",ARRETAO TV
 https://183.bozztv.com/giatv/giatv-arretaotv/arretaotv/chunks.m3u8
 
 
-#EXTINF:-1 tvg-logo="https://i.ibb.co/5xRHwKmf/images-18-2.png"group-title="R.DOMINICANA",AME TV
+#EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT6te1eJTZebBa6wcKz8vs4h5cw2sWx08vyrxW0E-vbdBEFEQtJJ8hn7T91&s=10"group-title="R.DOMINICANA",AME TV
 https://ss2.tvrdomi.com:1936/ame47/ame47/playlist.m3u8
 
 
