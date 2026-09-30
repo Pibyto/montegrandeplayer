@@ -7,6 +7,11 @@
 https://live20.bozztv.com/giatvplayout7/giatv-208770/playlist.m3u8
 
 
+#EXTINF:-1 tvg-logo="https://cdn.phototourl.com/member/2026-09-30-ebac9f03-f87d-46be-a573-a4ddbcf74024.png"group-title="BUENOS AIRES", MOVIEFLIX 
+https://live20.bozztv.com/akamaissh101/ssh101/montegrandetv/chunks.m3u8
+
+
+
 #EXTINF:-1 tvg-logo="https://cdn.phototourl.com/free/2026-09-13-d3e3e239-b22e-49ef-b862-0a5abce5c868.png"group-title="BUENOS AIRES",NEOTV HD
 https://videostream.shockmedia.com.ar:19360/neotvdigital/neotvdigital.m3u8
 
@@ -19,7 +24,7 @@ https://srv3.zcast.com.br/gentv/gentv/playlist.m3u8
 https://live20.bozztv.com/giatvplayout7/giatv-209181/tracks-v1a1/mono.ts.m3u8
 
 
-https://live20.bozztv.com/akamaissh101/ssh101/montegrandetv/chunks.m3u8
+
 
 #EXTINF:-1 tvg-logo="https://cdn.phototourl.com/free/2026-09-15-3228139e-78d4-4af4-ae35-9e6069991ffe.png"group-title="BUENOS AIRES",BAYRESTV HD
 https://streaming01.mikrolive.tv/bayrestv/live/chunklist_w963757112.m3u8
