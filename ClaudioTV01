@@ -3,7 +3,7 @@
 
 
 
-#EXTINF:-1 tvg-logo=""group-title="BUENOS AIRES",FE VIVA MUSIC
+#EXTINF:-1 tvg-logo="https://i.ibb.co/4Rm2yZbn/file-00000000b3c0820e945ea1d51428a4da.png"group-title="BUENOS AIRES",FE VIVA MUSIC
 https://live20.bozztv.com/giatvplayout7/giatv-208770/playlist.m3u8
 
 
@@ -12,7 +12,7 @@ https://lbgo.bozztv.com/ssh101/ssh101/montegrandetv/playlist.m3u8
  
 
 
-#EXTINF:-1 tvg-logo="https://i.ibb.co/v41nLvLJ/1789262556020.png"group-title="BUENOS AIRES",NEOTV HD
+#EXTINF:-1 tvg-logo="https://i.ibb.co/m50nZYxv/1789262677071.png"group-title="BUENOS AIRES",NEOTV HD
 https://videostream.shockmedia.com.ar:19360/neotvdigital/neotvdigital.m3u8
 
 
@@ -26,7 +26,7 @@ https://live20.bozztv.com/giatvplayout7/giatv-209181/tracks-v1a1/mono.ts.m3u8
 
 
 
-#EXTINF:-1 tvg-logo="https://cdn.phototourl.com/free/2026-09-15-3228139e-78d4-4af4-ae35-9e6069991ffe.png"group-title="BUENOS AIRES",BAYRESTV HD
+#EXTINF:-1 tvg-logo="https://i.ibb.co/SXRqCTGw/file-00000000da7082439c19864e0c53a9eb-4.png"group-title="BUENOS AIRES",BAYRESTV HD
 https://streaming01.mikrolive.tv/bayrestv/live/chunklist_w963757112.m3u8
 
 
@@ -34,10 +34,10 @@ https://streaming01.mikrolive.tv/bayrestv/live/chunklist_w963757112.m3u8
 https://lbgo.bozztv.com/ssh101/ssh101/mgradiotv/chunks.m3u8
 
 
-#EXTINF:-1 tvg-logo="https://cdn.phototourl.com/free/2026-09-22-62b5cfef-27d6-4139-85bd-5d1c1baf8571.png"group-title="BUENOS AIRES", MGTV WORSHIP
+#EXTINF:-1 tvg-logo="https://i.ibb.co/FQLB6ht/file-000000001ee4820eb6e45694b098a80f.png"group-title="BUENOS AIRES", MGTV WORSHIP
 https://live20.bozztv.com/giatvplayout7/giatv-212009/playlist.m3u8
 
-#EXTINF:-1 tvg-logo="https://cdn.phototourl.com/free/2026-09-18-d6c23014-3c40-40ed-92e3-3c44cd645fb7.png"group-title="BUENOS AIRES",COSMOS TV
+#EXTINF:-1 tvg-logo="https://i.ibb.co/F4XBMpJw/sci-fi-futuristic-red-neon-laser-beam-tecnologia-brillo-electrico-ilustracion-renderizacion-3d-74387.png"group-title="BUENOS AIRES",COSMOS TV
 https://canaletaplus.com:3922/live/cosmoslive.m3u8
 
 
@@ -46,7 +46,7 @@ https://canaletaplus.com:3922/live/cosmoslive.m3u8
 https://live20.bozztv.com/giatvplayout7/giatv-209909/playlist.m3u8
 
 
-#EXTINF:-1 tvg-logo="https://cdn.phototourl.com/free/2026-09-20-097fde4a-a4ca-4c1c-953e-0f97db2cedc1.png"group-title="BUENOS AIRES", IPERSONICA TV 
+#EXTINF:-1 tvg-logo="https://i.ibb.co/1fTxvp15/file-00000000b124820e9015d373d7bf9af1.png"group-title="BUENOS AIRES", IPERSONICA TV 
 https://lbgo.bozztv.com/ssh101/ssh101/ipersonica/playlist.m3u8
 
 
@@ -57,24 +57,21 @@ https://streamingvideo.com.ar/hls/eea3c96df781e0a3.m3u8
 
 
 
-#EXTINF:-1 tvg-logo="https://cdn.phototourl.com/free/2026-09-18-31eb191a-0ee0-44e2-bfff-b7668257b1b5.png"group-title="BUENOS AIRES",LA PODEROSA TV
+#EXTINF:-1 tvg-logo="https://i.ibb.co/mr0McHnp/file-000000004608820e916ca49bd1b4bfb9.png"group-title="BUENOS AIRES",LA PODEROSA TV
 https://lbgo.bozztv.com/ssh101/ssh101/lapoderosadigit/playlist.m3u8
 
-#EXTINF:-1 tvg-logo="https://cdn.phototourl.com/free/2026-09-23-208bb8e2-3c43-47cb-8106-7700b0601655.png"group-title="BUENOS AIRES",TELECREATIVA
+#EXTINF:-1 tvg-logo="https://i.ibb.co/hRYzRPX2/file-000000009a54820eb408f49a41462f17.png"group-title="BUENOS AIRES",TELECREATIVA
 https://panel.host-live.com:19360/8012/8012.m3u8
 
 
-#EXTINF:-1 tvg-logo="https://tinyurl.com/Telemixteve"group-title="BUENOS AIRES",TELEMIX HD
+#EXTINF:-1 tvg-logo="https://i.ibb.co/DfZpSWcw/fondo-papel-tapiz-artistico-borroso-colorido-58702-8553-4.png"group-title="BUENOS AIRES",TELEMIX HD
 https://183.bozztv.com/giatv/giatv-telemixenvivo/telemixenvivo/playlist.m3u8
 
 
-#EXTINF:-1 tvg-logo="https://cdn.phototourl.com/free/2026-09-23-86246490-1e5c-4dbc-b76b-72fd0243f4da.png"group-title="BUENOS AIRES",3 PINAMAR 
+#EXTINF:-1 tvg-logo="https://i.ibb.co/PJxCzxZ/file-000000002674820e98b1e9f3556f7edc.png"group-title="BUENOS AIRES",3 PINAMAR 
 https://intelincloud01.com.ar/hls/cn3/index.m3u8
 
 #EXTINF:-1 tvg-logo="https://tinyurl.com/Magicateve"group-title="BUENOS AIRES", CIUDADMAGICATV
-http://186.148.175.138:8000/play/a056/index.m3u8
-
-
 https://live20.bozztv.com/akamaissh101/ssh101/verycoolfgr/chunks.m3u8
 
 
