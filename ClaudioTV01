@@ -24,6 +24,8 @@ https://srv3.zcast.com.br/gentv/gentv/playlist.m3u8
 https://live20.bozztv.com/giatvplayout7/giatv-209181/tracks-v1a1/mono.ts.m3u8
 
 
+#EXTINF:-1 tvg-logo="https://i.ibb.co/PZZgn5cf/marvel-studios-mcu-new-logo.png"group-title="BUENOS AIRES",MARVEL 2
+https://lbgo.bozztv.com/ssh101/ssh101/imcu/playlist.m3u8
 
 
 #EXTINF:-1 tvg-logo="https://i.ibb.co/SXRqCTGw/file-00000000da7082439c19864e0c53a9eb-4.png"group-title="BUENOS AIRES",BAYRESTV HD
@@ -151,8 +153,7 @@ https://dwamdstream104.akamaized.net/hls/live/2015530/dwstream104/stream04/strea
 
 
 
-#EXTINF:-1 tvg-logo="https://cdn.phototourl.com/free/2026-09-16-0c3c00f0-fad5-4a82-8ccb-f7b6d18cd996.png"group-title="BUENOS AIRES",MARVEL 2
-https://lbgo.bozztv.com/ssh101/ssh101/imcu/playlist.m3u8
+
 
 
 #EXTINF:-1 tvg-logo="https://i.ibb.co/nMfXKRY7/file-00000000e454820ea6ec23736d49c485.png"group-title="BUENOS AIRES", RESTELLI TV 
