@@ -7,23 +7,14 @@
 
 
 
+
+#EXTINF:-1 tvg-logo="https://media.themoviedb.org/t/p/w1000_and_h563_face/mJC2Q2agtvxd6RschaQheDpiwwE.jpg"group-title="COLOMBIA",LA HIPÓTESIS DEL AMOR 
+
+
+
+
 #EXTINF:-1 tvg-logo="https://i.ytimg.com/vi/I5y6NcTJmj0/sddefault.jpg"group-title="ESTRENOS", VOLCÁN: FUEGO BAJO TIERRA 
 https://videos.gia.tv/giatv/movies/playlist/209163/V0LC4N_FU3G0_BAJ0_T113RRA.mp4
-
-
-
-#EXTINF:-1 tvg-logo="https://media.themoviedb.org/t/p/w1000_and_h563_face/80TmijpUtDVPqteu37TdvciTXcP.jpg"group-title="ESTRENOS",RED DE MENTIRAS
-https://videos.gia.tv/giatv/movies/playlist/209163/CONECC1ON_PEL1GROSA.mp4
-
-
-
-#EXTINF:-1 tvg-logo="https://media.themoviedb.org/t/p/w1000_and_h563_face/d5YPVwxqENDyR2nzd7lBmFcn548.jpg"group-title="ESTRENOS",MAREA BAJA
-https://videos.gia.tv/giatv/movies/playlist/209163/MARE_A_BA_JA.mp4
-
-
-
-#EXTINF:-1 tvg-logo="https://media.themoviedb.org/t/p/w1000_and_h563_face/z2Uf0yntMjY0XG87YfoqeHjIUGD.jpg"group-title="ESTRENOS", GENERACIÓN 9/11
-https://videos.gia.tv/giatv/movies/playlist/209163/GEN3R911.mp4
 
 
 
@@ -31,7 +22,8 @@ https://videos.gia.tv/giatv/movies/playlist/209163/GEN3R911.mp4
 https://videos.gia.tv/giatv/movies/playlist/209163/3L_M0T1N.mp4
 
 
-
+#EXTINF:-1 tvg-logo="https://media.themoviedb.org/t/p/w1000_and_h563_face/80TmijpUtDVPqteu37TdvciTXcP.jpg"group-title="ESTRENOS",RED DE MENTIRAS
+https://videos.gia.tv/giatv/movies/playlist/209163/CONECC1ON_PEL1GROSA.mp4
 
 #EXTINF:-1 tvg-logo="https://media.themoviedb.org/t/p/w1000_and_h563_face/aFTp0mVxeidI381tP9TgXzStKKB.jpg"group-title="ESTRENOS",LETRAS ROBADAS
 https://videos.gia.tv/giatv/movies/playlist/208138/L3TR4S_R0B4D4S.mp4
@@ -46,18 +38,20 @@ https://videos.gia.tv/giatv/movies/playlist/208138/3l_d14_d3_r3v3l4cion.mp4
 https://videos.gia.tv/giatv/movies/playlist/209163/5t4r_61rl_2026.mp4
 
 
-
-#EXTINF:-1 tvg-logo="https://i.ibb.co/5hj0XnXN/images-59.png"group-title="ESTRENOS", SPIDERMAN UN NUEVO DÍA
-
-
-
-
+#EXTINF:-1 tvg-logo="https://media.themoviedb.org/t/p/w1000_and_h563_face/iwYpdArGgrpFgE2rf6nFAkM1mRG.jpg"group-title="ESTRENOS",NUREMBERG
+https://videos.gia.tv/giatv/movies/playlist/208744/Nuremberg.mp4
 
 
 #EXTINF:-1 tvg-logo="https://media.themoviedb.org/t/p/w1000_and_h563_face/eSvYccJm5ejJXFtJTqM2dIqrhK7.jpg"group-title="ESTRENOS", SPIDERMAN UN NUEVO DÍA 
 https://videos.gia.tv/giatv/movies/playlist/208138/_p1d3rm4n_ultima.mp4
 
 
+#EXTINF:-1 tvg-logo="https://media.themoviedb.org/t/p/w1000_and_h563_face/yNcfMiULkoh1h2yyNKFm4T9FvRM.jpg"group-title="ESTRENOS",ELONA HOLMES 3
+https://videos.gia.tv/giatv/movies/playlist/208744/ELONA_HOLMES_3.mp4
+
+
+#EXTINF:-1 tvg-logo="https://media.themoviedb.org/t/p/w1000_and_h563_face/d5YPVwxqENDyR2nzd7lBmFcn548.jpg"group-title="ESTRENOS",MAREA BAJA
+https://videos.gia.tv/giatv/movies/playlist/209163/MARE_A_BA_JA.mp4
 
 
 
@@ -82,17 +76,18 @@ https://videos.gia.tv/giatv/movies/playlist/208138/SUSANA_Y_ELVIRA_SIN_PLAN_B_.m
 
 
 
-#EXTINF:-1 tvg-logo="https://media.themoviedb.org/t/p/w1000_and_h563_face/yNcfMiULkoh1h2yyNKFm4T9FvRM.jpg"group-title="ESTRENOS",ELONA HOLMES 3
-https://videos.gia.tv/giatv/movies/playlist/208744/ELONA_HOLMES_3.mp4
 
+
+
+#EXTINF:-1 tvg-logo="https://media.themoviedb.org/t/p/w1000_and_h563_face/z2Uf0yntMjY0XG87YfoqeHjIUGD.jpg"group-title="ESTRENOS", GENERACIÓN 9/11
+https://videos.gia.tv/giatv/movies/playlist/209163/GEN3R911.mp4
 
 
 #EXTINF:-1 tvg-logo="https://i.ibb.co/dJzf5kh9/1-I6-QPJ2s6lch1-WYO54-Cv2j2-Y8-Z4.png"group-title="ESTRENOS",TORRENTE PRESIDENTE 
 https://videos.gia.tv/giatv/movies/playlist/208744/TORR3NT3_PR3S1D3NT3.mp4
 
 
-#EXTINF:-1 tvg-logo="https://media.themoviedb.org/t/p/w1000_and_h563_face/iwYpdArGgrpFgE2rf6nFAkM1mRG.jpg"group-title="ESTRENOS",NUREMBERG
-https://videos.gia.tv/giatv/movies/playlist/208744/Nuremberg.mp4
+
 
 
 
