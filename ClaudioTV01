@@ -580,7 +580,7 @@ https://videostream.shockmedia.com.ar:19360/telejunin/telejunin.m3u8
 
 
 
-###############(PREMIUM)####################################################
+##########( PREMIUM )###############################################
 
 
 
@@ -617,7 +617,7 @@ https://stream.enlineatv.net/hls/retrotv/index.m3u8
 
 
 
-#EXTINF:-1 tvg-logo="https://cdn.phototourl.com/free/2026-09-20-097fde4a-a4ca-4c1c-953e-0f97db2cedc1.png"group-title="CINE PREMIUM",IPERSONICATV
+#EXTINF:-1 tvg-logo="https://i.ibb.co/rGHsn9Rh/file-00000000b124820e9015d373d7bf9af1.png"group-title="CINE PREMIUM",IPERSONICATV
 https://lbgo.bozztv.com/ssh101/ssh101/ipersonica/playlist.m3u8
 
 #EXTINF:-1 tvg-logo="https://i.ibb.co/7xWLtr46/tecnologia-fondo-azul-abstracto-e-ilustracion-vector-concepto-alta-tecnologia-542898-707.png"group-title="CINE PREMIUM",MAX TV MOVIES
