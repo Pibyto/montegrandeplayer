@@ -4008,11 +4008,11 @@ https://cdnlive.myspirit.tv:443/LS-ATL-43240-2/tracks-v1a1/mono.m3u8
 
 
 
-#EXTINF:-1 tvg-logo="https://cdn.phototourl.com/free/2026-08-16-4caebd64-797f-4726-9f16-6a58b23082c4.jpg"group-title="RADIO SECULAR",LA PODEROSA DIGITAL 99.3 MHZ
+#EXTINF:-1 tvg-logo="https://i.ibb.co/6kdSFRG/IMG-20260816-WA0086.jpg"group-title="RADIO SECULAR",LA PODEROSA DIGITAL 99.3 MHZ
 https://s2.netradiofm.com:9720/stream/?type=http&nocache=1
 
 
-#EXTINF:-1 tvg-logo="https://cdn.phototourl.com/free/2026-08-19-8eb893ab-7279-4eaf-8b1b-3ffdf711deb5.jpg"group-title="RADIO SECULAR", ESTACIÓN TROPICAL
+#EXTINF:-1 tvg-logo="https://i.ibb.co/mF9ZRR3N/IMG-20260819-WA0035.jpg"group-title="RADIO SECULAR", ESTACIÓN TROPICAL
 https://stream.radioinfo.ar/9594/stream/?type=http&nocache=1
 
 
@@ -4086,7 +4086,7 @@ https://streaming.hostpannel.lat/stream8700
 
 
 
-#EXTINF:-1 tvg-logo="https://tinyurl.com/Mgrad110"group-title="RADIO CRISTIANA",MONTE GRANDE RADIO
+#EXTINF:-1 tvg-logo="https://i.ibb.co/v4vRczqH/file-000000000de4820e95445f771153977e-1.png"group-title="RADIO CRISTIANA",MONTE GRANDE RADIO
 https://radios.yanapak.org/montegranderadio
 
 
@@ -4096,11 +4096,11 @@ https://radios.yanapak.org/montegranderadio
 
 
 
-#EXTINF:-1 tvg-logo="https://cdn.phototourl.com/free/2026-08-19-93a3a51b-543d-4610-b7a4-3dee79331adf.png"group-title="RADIO CRISTIANA", GOSPEL FM 88.1
+#EXTINF:-1 tvg-logo="https://i.ibb.co/8n7TzHzc/file-00000000708c820eaa37fdc47dae5e7f.png"group-title="RADIO CRISTIANA", GOSPEL FM 88.1
 https://ohradio.cc/8092/stream
 
 
-#EXTINF:-1 tvg-logo="https://cdn.phototourl.com/free/2026-08-19-46c35045-3018-4ae9-a332-c06747a89b21.png"group-title="RADIO CRISTIANA",AMA FM 92.3
+#EXTINF:-1 tvg-logo="https://i.ibb.co/mF9ZRR3N/IMG-20260819-WA0035.jpg"group-title="RADIO CRISTIANA",AMA FM 92.3
 https://nexoradio.xyz/stream/laradio923
 
 #EXTINF:-1 tvg-logo="https://i.ibb.co/TqJjPyKk/file-0000000025c0820e8b758aad2c59f078.png"group-title="RADIO CRISTIANA", FM MI ROCA 103.5
