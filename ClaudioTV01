@@ -7,6 +7,12 @@
 https://live20.bozztv.com/giatvplayout7/giatv-208770/playlist.m3u8
 
 
+#EXTINF:-1 tvg-logo="https://cdn.phototourl.com/member/2026-09-25-1af1a900-0d7a-4477-8a1b-2b3a6ff757d3.png"group-title="BUENOS AIRES", SIEMPRE MAS
+https://lbgo.bozztv.com/ssh101/ssh101/mgradiotv/chunks.m3u8
+
+
+
+
 #EXTINF:-1 tvg-logo="https://i.ibb.co/q3mftBF7/HD-wallpaper-ios-14-ipados-dark-red-and-black-stock-abstract-1.png"group-title="BUENOS AIRES", MOVIEFLIX
 https://lbgo.bozztv.com/ssh101/ssh101/montegrandetv/playlist.m3u8
  
@@ -32,8 +38,7 @@ https://lbgo.bozztv.com/ssh101/ssh101/imcu/playlist.m3u8
 https://streaming01.mikrolive.tv/bayrestv/live/chunklist_w963757112.m3u8
 
 
-#EXTINF:-1 tvg-logo="https://cdn.phototourl.com/member/2026-09-25-1af1a900-0d7a-4477-8a1b-2b3a6ff757d3.png"group-title="BUENOS AIRES", SIEMPRE MAS
-https://lbgo.bozztv.com/ssh101/ssh101/mgradiotv/chunks.m3u8
+
 
 
 #EXTINF:-1 tvg-logo="https://i.ibb.co/FQLB6ht/file-000000001ee4820eb6e45694b098a80f.png"group-title="BUENOS AIRES", MGTV WORSHIP
