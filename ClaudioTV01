@@ -45,10 +45,12 @@ https://lbgo.bozztv.com/ssh101/ssh101/ipersonica/playlist.m3u8
 
 
 
-
-
 #EXTINF:-1 tvg-logo="https://i.ibb.co/mr0McHnp/file-000000004608820e916ca49bd1b4bfb9.png"group-title="BUENOS AIRES",LA PODEROSA TV
 https://lbgo.bozztv.com/ssh101/ssh101/lapoderosadigit/playlist.m3u8
+
+
+#EXTINF:-1 tvg-logo="https://cdn.phototourl.com/free/2026-09-16-10457427-7539-4086-83a6-03d6b7e2f5de.png"group-title="BUENOS AIRES",EL MAGO TV
+https://lbgo.bozztv.com/ssh101/ssh101/elmagotv2/chunks.m3u8
 
 
 #EXTINF:-1 tvg-logo="https://i.ibb.co/FQLB6ht/file-000000001ee4820eb6e45694b098a80f.png"group-title="BUENOS AIRES", MGTV WORSHIP
@@ -179,7 +181,7 @@ https://live20.bozztv.com/giatvplayout7/giatv-208744/tracks-v1a1/mono.m3u8
 
 
 
-#EXTINF:-1 tvg-logo="https://cdn.phototourl.com/free/2026-09-16-10457427-7539-4086-83a6-03d6b7e2f5de.png"group-title="BUENOS AIRES",EL MAGO TV
+
 
 
 
