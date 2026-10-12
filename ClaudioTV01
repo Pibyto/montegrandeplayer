@@ -7,8 +7,7 @@
 https://live20.bozztv.com/giatvplayout7/giatv-208770/playlist.m3u8
 
 
-#EXTINF:-1 tvg-logo="https://cdn.phototourl.com/member/2026-09-25-1af1a900-0d7a-4477-8a1b-2b3a6ff757d3.png"group-title="BUENOS AIRES", SIEMPRE MAS
-https://lbgo.bozztv.com/ssh101/ssh101/mgradiotv/chunks.m3u8
+
 
 
 
@@ -267,7 +266,8 @@ https://livetrx01.vodgc.net/live-01-07-ciudad.vodgc.net/tracks-v3a1/mono.m3u8
 
 
 
-
+#EXTINF:-1 tvg-logo="https://cdn.phototourl.com/member/2026-09-25-1af1a900-0d7a-4477-8a1b-2b3a6ff757d3.png"group-title="BUENOS AIRES", SIEMPRE MAS
+https://lbgo.bozztv.com/ssh101/ssh101/mgradiotv/chunks.m3u8
 
 
 
