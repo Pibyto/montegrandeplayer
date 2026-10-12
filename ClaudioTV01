@@ -40,6 +40,9 @@ https://streaming01.mikrolive.tv/bayrestv/live/chunklist_w963757112.m3u8
 #EXTINF:-1 tvg-logo="https://tinyurl.com/Lamil35ban"group-title="BUENOS AIRES",LA MIL35TV
 https://vtm2.msinteractiva.com/lamil35/lamil35/playlist.m3u8
 
+#EXTINF:-1 tvg-logo="https://i.ibb.co/DPshh9Ss/fondo-papel-tapiz-artistico-borroso-colorido-58702-8553-5.png"group-title="BUENOS AIRES",EL MAGO TV
+https://lbgo.bozztv.com/ssh101/ssh101/elmagotv2/chunks.m3u8
+
 
 #EXTINF:-1 tvg-logo="https://i.ibb.co/1fTxvp15/file-00000000b124820e9015d373d7bf9af1.png"group-title="BUENOS AIRES", IPERSONICA TV 
 https://lbgo.bozztv.com/ssh101/ssh101/ipersonica/playlist.m3u8
@@ -50,8 +53,7 @@ https://lbgo.bozztv.com/ssh101/ssh101/ipersonica/playlist.m3u8
 https://lbgo.bozztv.com/ssh101/ssh101/lapoderosadigit/playlist.m3u8
 
 
-#EXTINF:-1 tvg-logo="https://cdn.phototourl.com/free/2026-09-16-10457427-7539-4086-83a6-03d6b7e2f5de.png"group-title="BUENOS AIRES",EL MAGO TV
-https://lbgo.bozztv.com/ssh101/ssh101/elmagotv2/chunks.m3u8
+
 
 
 #EXTINF:-1 tvg-logo="https://i.ibb.co/FQLB6ht/file-000000001ee4820eb6e45694b098a80f.png"group-title="BUENOS AIRES", MGTV WORSHIP
