@@ -87,6 +87,10 @@ https://live20.bozztv.com/akamaissh101/ssh101/verycoolfgr/chunks.m3u8
 https://stream-cdn-iad3.vaughnsoft.net/play/live_juan_13tv.flv
 
 
+#EXTINF:-1 tvg-logo="https://i.ytimg.com/vi/6yrATHydh3w/sddefault.jpg"group-title="BUENOS AIRES",EL TRECE II
+http://dejatedemamadas.neospaxy.top:8080/5621769503504/95d25a121aa7/10077
+
+
 #EXTINF:-1 tvg-logo="https://images.produ.com/wp-content/uploads/2026/01/14154237/bigwp-TelefeStudios-948x594.jpg"group-title="BUENOS AIRES",TELEFE
 http://45.134.141.161:2200/ARG/TELEFE_HD/index.m3u8
 
