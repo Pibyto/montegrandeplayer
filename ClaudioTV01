@@ -321,7 +321,10 @@ https://videostream.shockmedia.com.ar:19360/multivisionfederal/multivisionfedera
 https://unlimited1-saopaulo.dps.live/televidaar/televidaar.smil/televidaar/livestream1/chunks.m3u8
 
 #EXTINF:-1 tvg-logo="https://i.ibb.co/tM3MFYbd/IMG-20260913-WA0006.jpg"group-title="ARGENTINA", TELEPOSADAS TV
-https://lbgo.bozztv.com/giatv/giatv-teleposadastv/teleposadastv/playlist.m3u8
+https://iptv.ixfo.com.ar:30443/live/TelePosadasTv/chunks.m3u8?nimblesessionid=154901104
+
+
+
 
 
 #EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSpGJDQp52d5l3whdtrx9Rt4W8r1cDliWP_okbRMNY6vw&s=10"group-title="ARGENTINA",CUATRO 
