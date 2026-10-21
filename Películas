@@ -51,6 +51,10 @@ https://videos.gia.tv/giatv/movies/playlist/209163/ENFRENTADOS_MARFIL.mp4
 https://videos.gia.tv/giatv/movies/playlist/209163/H1PO_TES1S_DEL_AM_OR.mp4
 
 
+#EXTINF:-1 tvg-logo="https://media.themoviedb.org/t/p/w1000_and_h563_face/9J57bJclxsha2EmTQhv5GigCksU.jpg"group-title="ESTRENOS",EL MOTIN
+https://videos.gia.tv/giatv/movies/playlist/209163/3L_M0T1N.mp4
+
+
 
 #EXTINF:-1 tvg-logo="https://media.themoviedb.org/t/p/w1000_and_h563_face/pUPGOylBQp1QJhAqmdR8ngUUlhN.jpg"group-title="ESTRENOS", VOLCÁN: FUEGO BAJO TIERRA 
 https://videos.gia.tv/giatv/movies/playlist/209163/V0LC4N_FU3G0_BAJ0_T113RRA.mp4
@@ -61,8 +65,7 @@ https://videos.gia.tv/giatv/movies/playlist/209163/V0LC4N_FU3G0_BAJ0_T113RRA.mp4
 https://videos.gia.tv/giatv/movies/playlist/209163/OS_CURA_VER_DAD.mp4
 
 
-#EXTINF:-1 tvg-logo="https://media.themoviedb.org/t/p/w1000_and_h563_face/9J57bJclxsha2EmTQhv5GigCksU.jpg"group-title="ESTRENOS",EL MOTIN
-https://videos.gia.tv/giatv/movies/playlist/209163/3L_M0T1N.mp4
+
 
 
 #EXTINF:-1 tvg-logo="https://media.themoviedb.org/t/p/w1000_and_h563_face/6hkM0zpCBta503rY4tZ8FkRXgty.jpg"group-title="ESTRENOS",RED DE MENTIRAS
