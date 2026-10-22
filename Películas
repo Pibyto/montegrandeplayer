@@ -35,7 +35,8 @@ https://videos.gia.tv/giatv/movies/playlist/209163/ve_r_t1_ga2.mp4
 https://videos.gia.tv/giatv/movies/playlist/209163/3NT_RE_GAAL_L1M1T3.mp4
 
 
-
+#EXTINF:-1 tvg-logo="https://media.themoviedb.org/t/p/w1000_and_h563_face/wMf9uJ8HVHqkjGXMeqseqrmtTeQ.jpg"group-title="ESTRENOS",SUPERGIRL
+https://videos.gia.tv/giatv/movies/playlist/209163/5t4r_61rl_2026.mp4
 
 #EXTINF:-1 tvg-logo="https://media.themoviedb.org/t/p/w1000_and_h563_face/oSdOKZr0otdczVjsCZ485EHNe4P.jpg"group-title="ESTRENOS",MASTERPLAN
 https://videos.gia.tv/giatv/movies/playlist/209163/fe19b94f176757bb0d09fd3a19827393.mp4
@@ -93,8 +94,7 @@ https://videos.gia.tv/giatv/movies/playlist/208138/L3TR4S_R0B4D4S.mp4
 https://videos.gia.tv/giatv/movies/playlist/208138/3l_d14_d3_r3v3l4cion.mp4
 
 
-#EXTINF:-1 tvg-logo="https://www.moviezine.se/wp-content/uploads/2026/07/supergirlcast.jpg"group-title="ESTRENOS",SUPERGIRL
-https://videos.gia.tv/giatv/movies/playlist/209163/5t4r_61rl_2026.mp4
+
 
 
 #EXTINF:-1 tvg-logo="https://media.themoviedb.org/t/p/w1000_and_h563_face/edCnq5TOyPFZz6MpvBdFahKKNBj.jpg"group-title="ESTRENOS",NUREMBERG
@@ -392,15 +392,15 @@ https://videos.gia.tv/giatv/movies/playlist/208744/corazon_delator_mp4.mp4
 
 
 
-#EXTINF:-1 tvg-logo="https://media.themoviedb.org/t/p/w1000_and_h563_face/y6RIuwuxLG3Nsb37KUj5yatnTIp.jpg"group-title="ACCIÓN", MATCHBOX LA PELÍCULA 
+#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/original/b05xe3hxjYvmhKZgUboCf3plweV.jpg"group-title="ACCIÓN", MATCHBOX LA PELÍCULA 
 https://videos.gia.tv/giatv/movies/playlist/209163/MA_TCH_BO_X.mp4
 
 
-#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/original/e2QAGrEmbpmZpMymDRkDisJkvg9.jpg"group-title="ACCIÓN",EL MOTIN
+#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/original/7ijVBuPYzU2TCeCYMauSUg2G8jg.jpg"group-title="ACCIÓN",EL MOTIN
 https://videos.gia.tv/giatv/movies/playlist/209163/3L_M0T1N.mp4
 
 
-#EXTINF:-1 tvg-logo="https://media.themoviedb.org/t/p/w1000_and_h563_face/cz4vLJrmaV1zJlRYbxqtvLzeLWB.jpg"group-title="ACCIÓN", EQUIPO DEMOLICIÓN 
+#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/original/ttEESBvVrO8ngZr19qp6eBMVS9F.jpg"group-title="ACCIÓN",LOS HERMANOS DEMOLICIÓN 
 https://videos.gia.tv/giatv/movies/playlist/209163/3QU_1PO_DE_MO_L1_C1O_N.mp4
 
 
@@ -409,7 +409,7 @@ https://videos.gia.tv/giatv/movies/playlist/209163/3QU_1PO_DE_MO_L1_C1O_N.mp4
 https://videos.gia.tv/giatv/movies/playlist/209163/golden_kamuy.mp4
 
 
-#EXTINF:-1 tvg-logo="https://media.themoviedb.org/t/p/w220_and_h330_face/ybSIUt48PsM08F4UZwHdjL9ZVG2.jpg"group-title="ACCIÓN",TREN BALA
+#EXTINF:-1 tvg-logo="https://media.themoviedb.org/t/p/w220_and_h330_face/ybSIUt48PsM08F4UZwHdjL9ZVG2.jpg"group-title="ACCIÓN",BULLET  TRAIN
 https://pixeldrain.com/api/file/qXJq8ouy
 
 
@@ -418,7 +418,7 @@ https://pixeldrain.com/api/file/qXJq8ouy
 https://pixeldrain.com/api/file/Vo8qRL96
 
 
-#EXTINF:-1 tvg-logo="https://media.themoviedb.org/t/p/w220_and_h330_face/zSw2JeQ03GivcS4VKJmWK5sYi1F.jpg"group-title="ACCIÓN",GOSHTEADO
+#EXTINF:-1 tvg-logo="https://media.themoviedb.org/t/p/w220_and_h330_face/zSw2JeQ03GivcS4VKJmWK5sYi1F.jpg"group-title="ACCIÓN",GOSHTING
 https://pixeldrain.com/api/file/EuJTQgib
 
 
@@ -431,7 +431,7 @@ https://videos.gia.tv/giatv/movies/playlist/209163/J_4CK_RY_4N_OF_T0M_CL4_NCY.mp
 
 
 
-#EXTINF:-1 tvg-logo="https://media.themoviedb.org/t/p/w220_and_h330_face/l9S8MLUyi2diTc2Gf3KDAOQTuVx.jpg"group-title="ACCIÓN",P34KY BL1ND3R$
+#EXTINF:-1 tvg-logo="https://media.themoviedb.org/t/p/w220_and_h330_face/l9S8MLUyi2diTc2Gf3KDAOQTuVx.jpg"group-title="ACCIÓN",PEAKY BLINDERS
 https://videos.gia.tv/giatv/movies/playlist/209163/p34k1_bl1nd3r_2026.mp4
 
 #EXTINF:-1 tvg-logo="https://media.themoviedb.org/t/p/w220_and_h330_face/SPGBZj12OVOCZdYJVPIJcpOYvZ.jpg"group-title="ACCIÓN", MÁQUINA DE GUERRA 
@@ -444,7 +444,7 @@ https://pixeldrain.com/api/file/gyPpytRy
 
 
 
-#EXTINF:-1de tvg-logo="https://media.themoviedb.org/t/p/w220_and_h330_face/ug4XukdNLwD9Ygyw4V0L5DjoNAp.jpg"group-title="ACCIÓN", ESCUADRON 6
+#EXTINF:-1de tvg-logo="https://media.themoviedb.org/t/p/w220_and_h330_face/ug4XukdNLwD9Ygyw4V0L5DjoNAp.jpg"group-title="ACCIÓN",6 EN LA SOMBRA 
 https://pixeldrain.com/api/file/TLJxPYho
 
 
