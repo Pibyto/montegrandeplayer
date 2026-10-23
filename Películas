@@ -1,136 +1,204 @@
 #EXTM3U
 
 
-
-###########( ESTRENOS )###########
-
+##########( DESTACADOS )##########
 
 
-#EXTINF:-1 tvg-logo="https://i.ibb.co/WJZc4xG/w2-Gu916z-S11-X94-CZa-SLpzvfg-Hc-G.png"group-title="ESTRENOS",STREET-FIGHTER 2026
+
+#EXTINF:-1 tvg-logo="https://i.ibb.co/WJZc4xG/w2-Gu916z-S11-X94-CZa-SLpzvfg-Hc-G.png"group-title="DESTACADOS",STREET-FIGHTER 2026
 https://videos.gia.tv/giatv/movies/playlist/209163/f894722b5af134f0e23cbd95929dbdbc.mp4
 
 
-#EXTINF:-1 tvg-logo="https://media.themoviedb.org/t/p/w1000_and_h563_face/ymUnksDzfZmCZCQTQhDshc2p8vH.jpg"group-title="ESTRENOS", ANIMALS 
+#EXTINF:-1 tvg-logo="https://media.themoviedb.org/t/p/w1000_and_h563_face/ymUnksDzfZmCZCQTQhDshc2p8vH.jpg"group-title="DESTACADOS", ANIMALS 
 https://videos.gia.tv/giatv/movies/playlist/209163/904a0f09330868f645fa6c52f4bf9cb0.mp4
 
-#EXTINF:-1 tvg-logo="https://media.themoviedb.org/t/p/w1000_and_h563_face/pwIX6Qn9TG1XrBNGzZ7cjZ52Pa8.jpg"group-title="ESTRENOS",LA CARRERA CONTRA EL TIEMPO 
+#EXTINF:-1 tvg-logo="https://media.themoviedb.org/t/p/w1000_and_h563_face/pwIX6Qn9TG1XrBNGzZ7cjZ52Pa8.jpg"group-title="DESTACADOS",LA CARRERA CONTRA EL TIEMPO 
 https://videos.gia.tv/giatv/movies/pvod/209163/_14_C4_443_R4.mp4
 
  
 
 
-#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/original/i6chvkiRV8NkTJt5B3od5nZ6qH8.jpg"group-title="ESTRENOS",EL HOMBRE QUE DESAFÍO AL REY
+#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/original/i6chvkiRV8NkTJt5B3od5nZ6qH8.jpg"group-title="DESTACADOS",EL HOMBRE QUE DESAFÍO AL REY
 https://videos.gia.tv/giatv/movies/playlist/209163/EL_HO_MBE_QUE_DE_SA_F10_AL_R3Y.mp4
 
 
-#EXTINF:-1 tvg-logo="https://media.themoviedb.org/t/p/w1000_and_h563_face/zir2tq0NyaAk9wK0UoUWV5PV7zo.jpg"group-title="ESTRENOS", MATCHBOX LA PELÍCULA 
+#EXTINF:-1 tvg-logo="https://media.themoviedb.org/t/p/w1000_and_h563_face/zir2tq0NyaAk9wK0UoUWV5PV7zo.jpg"group-title="DESTACADOS", MATCHBOX LA PELÍCULA 
 https://videos.gia.tv/giatv/movies/playlist/209163/MA_TCH_BO_X.mp4
 
 
-#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/original/JzTmH0s7caaS20YyBQd3XFlHHp.jpg"group-title="ESTRENOS",Fall 2: Deadpoint
+
+
+#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/original/JzTmH0s7caaS20YyBQd3XFlHHp.jpg"group-title="DESTACADOS",Fall 2: Deadpoint
 https://videos.gia.tv/giatv/movies/playlist/209163/ve_r_t1_ga2.mp4
 
 
-#EXTINF:-1 tvg-logo="https://media.themoviedb.org/t/p/w1000_and_h563_face/xjdDyajw5Cf5Hu9mMc45lxy6ekf.jpg"group-title="ESTRENOS",ENTREGA AL LIMITE 
+#EXTINF:-1 tvg-logo="https://media.themoviedb.org/t/p/w1000_and_h563_face/xjdDyajw5Cf5Hu9mMc45lxy6ekf.jpg"group-title="DESTACADOS",ENTREGA AL LIMITE 
 https://videos.gia.tv/giatv/movies/playlist/209163/3NT_RE_GAAL_L1M1T3.mp4
 
 
-#EXTINF:-1 tvg-logo="https://media.themoviedb.org/t/p/w1000_and_h563_face/wMf9uJ8HVHqkjGXMeqseqrmtTeQ.jpg"group-title="ESTRENOS",SUPERGIRL
+#EXTINF:-1 tvg-logo="https://media.themoviedb.org/t/p/w1000_and_h563_face/9J57bJclxsha2EmTQhv5GigCksU.jpg"group-title="DESTACADOS",EL MOTIN
+https://videos.gia.tv/giatv/movies/playlist/209163/3L_M0T1N.mp4
+
+
+#EXTINF:-1 tvg-logo="https://media.themoviedb.org/t/p/w1000_and_h563_face/wMf9uJ8HVHqkjGXMeqseqrmtTeQ.jpg"group-title="DESTACADOS",SUPERGIRL
 https://videos.gia.tv/giatv/movies/playlist/209163/5t4r_61rl_2026.mp4
 
-#EXTINF:-1 tvg-logo="https://media.themoviedb.org/t/p/w1000_and_h563_face/oSdOKZr0otdczVjsCZ485EHNe4P.jpg"group-title="ESTRENOS",MASTERPLAN
+#EXTINF:-1 tvg-logo="https://media.themoviedb.org/t/p/w1000_and_h563_face/oSdOKZr0otdczVjsCZ485EHNe4P.jpg"group-title="DESTACADOS",MASTERPLAN
 https://videos.gia.tv/giatv/movies/playlist/209163/fe19b94f176757bb0d09fd3a19827393.mp4
 
 
 
-#EXTINF:-1 tvg-logo="https://media.themoviedb.org/t/p/w1000_and_h563_face/AlOxCE7mDuFlK5EeZWnfJSWSHMM.jpg"group-title="ESTRENOS",MARIDOS EN ACCIÓN 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+###########( ESTRENOS )###########
+
+
+
+#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/original/j9Ukn1hRqSyv5qhHgDHd1s1Dhsg.jpg"group-title="ESTRENOS",STREET-FIGHTER 2026
+https://videos.gia.tv/giatv/movies/playlist/209163/f894722b5af134f0e23cbd95929dbdbc.mp4
+
+
+#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/original/hhycOr6ji35RMGHnstHN4UKAvR4.jpg"group-title="ESTRENOS", ANIMALS 
+https://videos.gia.tv/giatv/movies/playlist/209163/904a0f09330868f645fa6c52f4bf9cb0.mp4
+
+#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/original/oIEJnOPAESRDsGhHChM4nmlFYHP.jpg"group-title="ESTRENOS",A LA CARRERA
+https://videos.gia.tv/giatv/movies/pvod/209163/_14_C4_443_R4.mp4
+
+ 
+
+
+#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/original/gXEBW7JnV5E0Tsan8m6apYnraDI.jpg"group-title="ESTRENOS",EL HOMBRE QUE DESAFÍO AL REY
+https://videos.gia.tv/giatv/movies/playlist/209163/EL_HO_MBE_QUE_DE_SA_F10_AL_R3Y.mp4
+
+
+#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/original/b05xe3hxjYvmhKZgUboCf3plweV.jpg"group-title="ESTRENOS", MATCHBOX LA PELÍCULA 
+https://videos.gia.tv/giatv/movies/playlist/209163/MA_TCH_BO_X.mp4
+
+
+#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/original/xQlESgkDM7rczAWySdB0WBomh39.jpg"group-title="ESTRENOS",Fall 2: Deadpoint
+https://videos.gia.tv/giatv/movies/playlist/209163/ve_r_t1_ga2.mp4
+
+
+#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/original/4KbHl3XIMnvjgQnOEJYl8TU9TD4.jpg"group-title="ESTRENOS",ENTREGA AL LIMITE 
+https://videos.gia.tv/giatv/movies/playlist/209163/3NT_RE_GAAL_L1M1T3.mp4
+
+
+#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/original/xhei2GX9L2H1eQlrHeFw44VNLd1.jpg"group-title="ESTRENOS",SUPERGIRL
+https://videos.gia.tv/giatv/movies/playlist/209163/5t4r_61rl_2026.mp4
+
+#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/original/pLLvKhqTngUispTyDofvoEDKrxa.jpg"group-title="ESTRENOS",MASTERPLAN
+https://videos.gia.tv/giatv/movies/playlist/209163/fe19b94f176757bb0d09fd3a19827393.mp4
+
+
+
+#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/original/12TfQSbwyb3t9PN0KTOTE4NB7lq.jpg"group-title="ESTRENOS",MARIDOS EN ACCIÓN 
 https://videos.gia.tv/giatv/movies/playlist/209163/MA_R1_D05_3N_4CC10_N.mp4
 
 
 
-#EXTINF:-1 tvg-logo="https://media.themoviedb.org/t/p/w1000_and_h563_face/iisV2xQ2bmKiKpqYhAY8Al1XsWM.jpg"group-title="ESTRENOS", LOS HERMANOS DEMOLICIÓN 
+#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/original/ttEESBvVrO8ngZr19qp6eBMVS9F.jpg"group-title="ESTRENOS", LOS HERMANOS DEMOLICIÓN 
 https://videos.gia.tv/giatv/movies/playlist/209163/3QU_1PO_DE_MO_L1_C1O_N.mp4
 
 
 
-#EXTINF:-1 tvg-logo="https://media.themoviedb.org/t/p/w1000_and_h563_face/1p1bI3tdo5KGyNDJM1sRLMHn5o7.jpg"group-title="ESTRENOS", ENFRENTADOS:MARFIL 
-https://videos.gia.tv/giatv/movies/playlist/209163/ENFRENTADOS_MARFIL.mp4
 
-
-#EXTINF:-1 tvg-logo="https://media.themoviedb.org/t/p/w1000_and_h563_face/uuvcuxyQaSEq7PnbIWNVjPvEiWz.jpg"group-title="ESTRENOS",LA HIPÓTESIS DEL AMOR 
+#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/original/ylrSdW6fZYwaInYH6WAqvIEnSiV.jpg"group-title="ESTRENOS",LA HIPÓTESIS DEL AMOR 
 https://videos.gia.tv/giatv/movies/playlist/209163/H1PO_TES1S_DEL_AM_OR.mp4
 
 
-#EXTINF:-1 tvg-logo="https://media.themoviedb.org/t/p/w1000_and_h563_face/9J57bJclxsha2EmTQhv5GigCksU.jpg"group-title="ESTRENOS",EL MOTIN
+#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/original/7ijVBuPYzU2TCeCYMauSUg2G8jg.jpg"group-title="ESTRENOS",EL MOTIN
 https://videos.gia.tv/giatv/movies/playlist/209163/3L_M0T1N.mp4
 
 
-#EXTINF:-1 tvg-logo="https://media.themoviedb.org/t/p/w1000_and_h563_face/fDYzfP2vGIOO1dIdjUTStaxr1e2.jpg"group-title="ESTRENOS",LA SEÑAL DEL APOCALIPSIS 
+#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/original/tlJ90qBSApfEoWLDNN7DBJ0wI8n.jpg"group-title="ESTRENOS",LA SEÑAL DEL APOCALIPSIS 
 https://videos.gia.tv/giatv/movies/pvod/209163/2aeb93l4b9532__AL367e85S3L982b4POCA18L1PSS3399f.mp4
 
 
 
-#EXTINF:-1 tvg-logo="https://media.themoviedb.org/t/p/w1000_and_h563_face/pUPGOylBQp1QJhAqmdR8ngUUlhN.jpg"group-title="ESTRENOS", VOLCÁN: FUEGO BAJO TIERRA 
+#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/original/1Knvd73GFfW50F6wFEqQAQDqyUa.jpg"group-title="ESTRENOS", VOLCÁN: FUEGO BAJO TIERRA 
 https://videos.gia.tv/giatv/movies/playlist/209163/V0LC4N_FU3G0_BAJ0_T113RRA.mp4
 
 
 
-#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/original/fvD49rgltZxygm84sBnKl2T991H.jpg"group-title="ESTRENOS", OSCURA VERDAD 
+#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/original/2RyEtLhbEAWWw1YmKvRFkCNgCvk.jpg"group-title="ESTRENOS", OSCURA VERDAD 
 https://videos.gia.tv/giatv/movies/playlist/209163/OS_CURA_VER_DAD.mp4
 
 
 
 
 
-#EXTINF:-1 tvg-logo="https://media.themoviedb.org/t/p/w1000_and_h563_face/6hkM0zpCBta503rY4tZ8FkRXgty.jpg"group-title="ESTRENOS",RED DE MENTIRAS
+#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/original/dKUXpUryPHGnkFThqhXtad4O8jE.jpg"group-title="ESTRENOS",RED DE MENTIRAS
 https://videos.gia.tv/giatv/movies/playlist/209163/CONECC1ON_PEL1GROSA.mp4
 
-#EXTINF:-1 tvg-logo="https://media.themoviedb.org/t/p/w1000_and_h563_face/o8Idtae4Ri8sDuL2K5AmzGFzKzl.jpg"group-title="ESTRENOS",LETRAS ROBADAS
+#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/original/cQyULAHk45SHoYVJY5XFOL9QSEm.jpg"group-title="ESTRENOS",LETRAS ROBADAS
 https://videos.gia.tv/giatv/movies/playlist/208138/L3TR4S_R0B4D4S.mp4
 
 
 
-#EXTINF:-1 tvg-logo="https://media.themoviedb.org/t/p/w1000_and_h563_face/gQYFHRunmacZKkhUYNHp4QQgsHt.jpg"group-title="ESTRENOS",EL DÍA DE LA REVELACIÓN 
+#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/original/yZUzkGplztDLC1UhxN8pOTrwcsw.jpg"group-title="ESTRENOS",EL DÍA DE LA REVELACIÓN 
 https://videos.gia.tv/giatv/movies/playlist/208138/3l_d14_d3_r3v3l4cion.mp4
 
 
 
 
 
-#EXTINF:-1 tvg-logo="https://media.themoviedb.org/t/p/w1000_and_h563_face/edCnq5TOyPFZz6MpvBdFahKKNBj.jpg"group-title="ESTRENOS",NUREMBERG
+#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/original/ggYGgsXV7jG42t2UhYx5mWA1tao.jpg"group-title="ESTRENOS",NUREMBERG
 https://videos.gia.tv/giatv/movies/playlist/208744/Nuremberg.mp4
 
 
-#EXTINF:-1 tvg-logo="https://media.themoviedb.org/t/p/w1000_and_h563_face/wjwP1XCiJA8DkNEwYe77mXPhDw3.jpg"group-title="ESTRENOS", SPIDERMAN UN NUEVO DÍA 
+#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/original/fBFjaDWfNslvrs6bJjknmG27wOS.jpg"group-title="ESTRENOS", SPIDERMAN UN NUEVO DÍA 
 https://videos.gia.tv/giatv/movies/playlist/208138/_p1d3rm4n_ultima.mp4
 
 
-#EXTINF:-1 tvg-logo="https://media.themoviedb.org/t/p/w1000_and_h563_face/qtYKFgFZNEOtsmgl9Iax0gFJcWN.jpg"group-title="ESTRENOS",ELONA HOLMES 3
+#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/original/yUoiUOZWayJIz5I2LEtGzUnWidu.jpg"group-title="ESTRENOS",ELONA HOLMES 3
 https://videos.gia.tv/giatv/movies/playlist/208744/ELONA_HOLMES_3.mp4
 
 
-#EXTINF:-1 tvg-logo="https://media.themoviedb.org/t/p/w1000_and_h563_face/naVBQ4Mmyelnmz3RhHeLPkU00Qo.jpg"group-title="ESTRENOS",MAREA BAJA
+#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/original/AbrHpL2yOwcpB7dgBNj6xk2MJTL.jpg"group-title="ESTRENOS",MAREA BAJA
 https://videos.gia.tv/giatv/movies/playlist/209163/MARE_A_BA_JA.mp4
 
 
 
-#EXTINF:-1 tvg-logo="https://media.themoviedb.org/t/p/w1000_and_h563_face/wkEZ7YmWdn7GeFBoNz2RAiLlwDB.jpg"group-title="ESTRENOS",LA ODISEA 
+#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/original/sRxbUe5FB25Gde0e2FnwwSckpXb.jpg"group-title="ESTRENOS",LA ODISEA 
 https://videos.gia.tv/giatv/movies/playlist/208744/L40DIS_E4__1_.mp4
 
 
 
-#EXTINF:-1 tvg-logo="https://media.themoviedb.org/t/p/w1000_and_h563_face/eeiZikJBrnx5H5AQOaTD9Lt6DU3.jpg"group-title="ESTRENOS", GOLDEN KAMUY
+#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/original/82GKBbN5ovZJiz5H2dSbDBrHcJ2.jpg"group-title="ESTRENOS", GOLDEN KAMUY
 https://videos.gia.tv/giatv/movies/playlist/209163/golden_kamuy.mp4
 
 
 
-#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/original/3gqLkLB21CFyIFF3yXIhd2CtLsi.jpg"group-title="ESTRENOS",YO ANTES DE SER YO
+#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/original/fSSsjV7hvVS6gBaP9Sua5DEFaEh.jpg"group-title="ESTRENOS",YO ANTES DE SER YO
 https://videos.gia.tv/giatv/movies/playlist/208138/YO__ANTES_DE_SER_YO.mp4
 
 
 
 
-#EXTINF:-1 tvg-logo="https://media.themoviedb.org/t/p/w1000_and_h563_face/sSwxsbLD5jpGadBi0pPMzm7rTNS.jpg"group-title="ESTRENOS", SUSANA Y ELVIRA SIN PLAN B
+#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/original/fwIF80Lf017RyGKUMGgn37eRCg3.jpg"group-title="ESTRENOS", SUSANA Y ELVIRA SIN PLAN B
 https://videos.gia.tv/giatv/movies/playlist/208138/SUSANA_Y_ELVIRA_SIN_PLAN_B_.mp4
 
 
@@ -138,11 +206,11 @@ https://videos.gia.tv/giatv/movies/playlist/208138/SUSANA_Y_ELVIRA_SIN_PLAN_B_.m
 
 
 
-#EXTINF:-1 tvg-logo="https://media.themoviedb.org/t/p/w1000_and_h563_face/z2Uf0yntMjY0XG87YfoqeHjIUGD.jpg"group-title="ESTRENOS", GENERACIÓN 9/11
+#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/original/peEW3aQtOacOqGOB88LkDT6QGvQ.jpg"group-title="ESTRENOS", MOMENTOS DESICIVOS GENERACIÓN 9-S
 https://videos.gia.tv/giatv/movies/playlist/209163/GEN3R911.mp4
 
 
-#EXTINF:-1 tvg-logo="https://i.ibb.co/dJzf5kh9/1-I6-QPJ2s6lch1-WYO54-Cv2j2-Y8-Z4.png"group-title="ESTRENOS",TORRENTE PRESIDENTE 
+#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/original/oD9He3Kpxs1FMm10y82JYAqYDAJ.jpg"group-title="ESTRENOS",TORRENTE PRESIDENTE 
 https://videos.gia.tv/giatv/movies/playlist/208744/TORR3NT3_PR3S1D3NT3.mp4
 
 
@@ -150,30 +218,30 @@ https://videos.gia.tv/giatv/movies/playlist/208744/TORR3NT3_PR3S1D3NT3.mp4
 
 
 
-#EXTINF:-1 tvg-logo="https://media.themoviedb.org/t/p/w220_and_h330_face/rmCkNtzYR2xTOO3ZXmIqB5zgYdE.jpg"group-title="ESTRENOS", OBSESIÓN 2026
+#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/original/rmCkNtzYR2xTOO3ZXmIqB5zgYdE.jpg"group-title="ESTRENOS", OBSESIÓN 2026
 https://videos.gia.tv/giatv/movies/playlist/208138/OBSESION_HD_2026.mp4
 
 
-#EXTINF:-1 tvg-logo="https://media.themoviedb.org/t/p/w220_and_h330_face/kMJ4h39xe1fEzbLSt5FJCtEqb2H.jpg"group-title="ESTRENOS",OVEJAS DETECTIVES
+#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/original/iryjE7zrVxML5UM5vCPJGtKYvWC.jpg"group-title="ESTRENOS",OVEJAS DETECTIVES
 https://videos.gia.tv/giatv/movies/playlist/208730/0V3J4S_D373C71V3S.mp4
 
 
 
 
-#EXTINF:-1 tvg-logo="https://media.themoviedb.org/t/p/w220_and_h330_face/mB3zisIw3bsQcoDSnvMPAQhjrTM.jpg"group-title="ESTRENOS", MICHAEL 2026
+#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/original/zm0KAbOjlt9eR5y7vDiL2dEOwMl.jpg"group-title="ESTRENOS", MICHAEL
 https://videos.gia.tv/giatv/movies/playlist/208138/M1CH43L_2026_1024x576.mp4
 
 
-#EXTINF:-1 tvg-logo="https://media.themoviedb.org/t/p/w220_and_h330_face/niXSl8jLAZu9fL1ywfNyLGCRXLh.jpg"group-title="ESTRENOS", MORTAL KOMBAT 2 (CAM)
+#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/original/niXSl8jLAZu9fL1ywfNyLGCRXLh.jpg"group-title="ESTRENOS", MORTAL KOMBAT 2 (CAM)
 https://videos.gia.tv/giatv/movies/playlist/208138/M0RT4L_K0MB47_II_1088x612.mp4
 
 
 
-#EXTINF:-1 tvg-logo="https://media.themoviedb.org/t/p/w220_and_h330_face/ie0evW3npWrB25prNSKOdlEamSd.jpg"group-title="ESTRENOS", MÉXICO 86
+#EXTINF:-1 tvg-logo="https://media.themoviedb.org/t/p/w440_and_h660_face/ie0evW3npWrB25prNSKOdlEamSd.jpg"group-title="ESTRENOS", MÉXICO 86
 https://videos.gia.tv/giatv/movies/playlist/208138/M3X1C0_86.mp4
 
 
-#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w116_and_h174_face/tTGToWluGxIsQJzRJCkCqhfjVtd.jpg"group-title="ESTRENOS", TURBULENCIA EN LA OFICINA
+#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/original/yf9j5ypgkj5beEXwMM1KcIq2fN6.jpg"group-title="ESTRENOS", TURBULENCIA EN LA OFICINA
 https://videos.gia.tv/giatv/movies/playlist/208138/TUR8UL3NC14_3N_L4_0F1C1N4.mp4
 
 
@@ -183,7 +251,7 @@ https://videos.gia.tv/giatv/movies/playlist/208138/TUR8UL3NC14_3N_L4_0F1C1N4.mp4
 https://videos.gia.tv/giatv/movies/playlist/208138/SCR34M7.mp4
 
 
-#EXTINF:-1 tvg-logo="https://tinyurl.com/Scarymovieseis"group-title="ESTRENOS",SCARY MOVÍE 6
+#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/original/j6e53hPEBNrzwwKjBv38fcHU83j.jpg"group-title="ESTRENOS",SCARY MOVÍE TERRORIFICAMENTE INCORRECTA
 https://videos.gia.tv/giatv/movies/playlist/208138/scary_movie_6.mp4
 
 
@@ -191,7 +259,7 @@ https://videos.gia.tv/giatv/movies/playlist/208138/scary_movie_6.mp4
 
 
 
-#EXTINF:-1 tvg-logo="https://media.themoviedb.org/t/p/w220_and_h330_face/hNLKuennkGtlWvqU6Ko4Z6X8JHg.jpg"group-title="ESTRENOS", HE-MAN 2026
+#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/original/bY9y1kR336h94xBiNvzkhG8FyP.jpg"group-title="ESTRENOS", HE-MAN Y LOS MASTERS DEL UNIVERSO 
 https://videos.gia.tv/giatv/movies/playlist/208138/G1_M4_N.mp4
 
 
@@ -199,72 +267,71 @@ https://videos.gia.tv/giatv/movies/playlist/208138/G1_M4_N.mp4
 
 
 
-#EXTINF:-1 tvg-logo="https://media.themoviedb.org/t/p/w220_and_h330_face/m3On2pUX6KRJwI8Fp7xqJkKQdIv.jpg"group-title="ESTRENOS", ZONA DE RIESGO
+#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/original/c1ghGmHXZ3fnlHlXhnSiAE19MhZ.jpg"group-title="ESTRENOS",CUENTA ATRAS
 https://videos.gia.tv/giatv/movies/playlist/209163/CU3N74_4TR4S.mp4
 
 
-#EXTINF:-1 tvg-logo="https://media.themoviedb.org/t/p/w220_and_h330_face/v56hSpcEnS0joV9lUn9bKpPdktl.jpg"group-title="ESTRENOS",LA CASACA DE DIOS 2026
+#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/original/v56hSpcEnS0joV9lUn9bKpPdktl.jpg"group-title="ESTRENOS",LA CASACA DE DIOS
 https://videos.gia.tv/giatv/movies/playlist/208138/L4_C4S4C4_D3_D10S.mp4
 
 
 
 
 
-#EXTINF:-1 tvg-logo="https://media.themoviedb.org/t/p/w220_and_h330_face/w8nrM9hCTxoeX96HmTQpC0HbkMY.jpg"group-title="ESTRENOS",BACKRROMS 2026
+#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/original/3YTb97zytlWRWZb7HrOiEhk4e6f.jpg"group-title="ESTRENOS",BACKRROMS
 https://videos.gia.tv/giatv/movies/playlist/209163/B44CK660M.mp4
 
 
-#EXTINF:-1 tvg-logo="https://media.themoviedb.org/t/p/w220_and_h330_face/yfgquGqeT6DtdsIzPPzTLRABBy0.jpg"group-title="ESTRENOS",EN LA ZONA GRIS 2026
+#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/original/yfgquGqeT6DtdsIzPPzTLRABBy0.jpg"group-title="ESTRENOS",EN LA ZONA GRIS
 https://videos.gia.tv/giatv/movies/playlist/209163/EN_L4_Z0N4_6R1_.mp4
 
 
-#EXTINF:-1 tvg-logo="https://media.themoviedb.org/t/p/w220_and_h330_face/y8ADH1i7Ti1A0WLWjMCTEN6s4F8.jpg"group-title="ESTRENOS",EL ENGAÑO 2026
+#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/original/y8ADH1i7Ti1A0WLWjMCTEN6s4F8.jpg"group-title="ESTRENOS",EL ENGAÑO
 https://videos.gia.tv/giatv/movies/playlist/208138/EL_3NG4__0.mp4
 
 
 
 
-#EXTINF:-1 tvg-logo="https://media.themoviedb.org/t/p/w220_and_h330_face/oEdNEIO7641g6ZXJEe6zhQC4Jsj.jpg"group-title="ESTRENOS",EL DRAMA
+#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/original/oEdNEIO7641g6ZXJEe6zhQC4Jsj.jpg"group-title="ESTRENOS",EL DRAMA
 https://videos.gia.tv/giatv/movies/playlist/208138/3L_DR4M4.mp4
 
 
 
-#EXTINF:-1 tvg-logo="https://media.themoviedb.org/t/p/w220_and_h330_face/sSRaYCfsxgL8LWeBQOO4Syd5BQJ.jpg"group-title="ESTRENOS",THE MANDALORIAN 2026(CAM)
-https://videos.gia.tv/giatv/movies/playlist/208138/Star_Wars__The_Mandalorian_and_Grogu__2026___CAM__960x420.mp4
 
 
 
-#EXTINF:-1 tvg-logo="https://media.themoviedb.org/t/p/w220_and_h330_face/7wiq6ld0p7AeWFlZsnXZfNKXIB2.jpg"group-title="ESTRENOS",JACK RYAN
+
+#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/original/7wiq6ld0p7AeWFlZsnXZfNKXIB2.jpg"group-title="ESTRENOS",JACK RYAN
 https://videos.gia.tv/giatv/movies/playlist/209163/J_4CK_RY_4N_OF_T0M_CL4_NCY.mp4
 
-#EXTINF:-1 tvg-logo="https://media.themoviedb.org/t/p/w220_and_h330_face/uVybc3pLqHSoMC73kElu93oJBRQ.jpg"group-title="ESTRENOS",BOLAS ARRIBA 
+#EXTINF:-1 tvg-logo="https://media.themoviedb.org/t/p/w220_and_h330_face/uVybc3pLqHSoMC73kElu93oJBRQ.jpg"group-title="ESTRENOS",BALLS UP: CON UN PAR
 https://videos.gia.tv/giatv/movies/playlist/208138/B0L4__4RR1B4_1152x648.mp4
 
 
 
-#EXTINF:-1 tvg-logo="https://media.themoviedb.org/t/p/w220_and_h330_face/yKIG63pXN89EfbTA7yKpwxAU1rf.jpg"group-title="ESTRENOS",F1
+#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/original/yKIG63pXN89EfbTA7yKpwxAU1rf.jpg"group-title="ESTRENOS",F1 LA PELÍCULA 
 https://pixeldrain.com/api/file/pcrdsJo1
 
 
 
 
-#EXTINF:-1 tvg-logo="https://media.themoviedb.org/t/p/w220_and_h330_face/tbsDLmo2Ej8YFM0HKcOGfNMTlyJ.jpg"group-title="ESTRENOS",ESTRAGOS
+#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/original/weCzRfUhHPJpQ0uEYAdeommg0gM.jpg"group-title="ESTRENOS",ESTRAGOS
 https://pixeldrain.com/api/file/Vo8qRL96
 
 
-#EXTINF:-1 tvg-logo="https://media.themoviedb.org/t/p/w220_and_h330_face/2EI8HmeQgbryWw5clWYc4vYj1tU.jpg"group-title="ESTRENOS",CAMINOOS DEL CRIMEN
+#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/original/oUF0tTmbwlfkhiYSU5nXJccr5K0.jpg"group-title="ESTRENOS",RUTA DE ESCAPE 
 https://pixeldrain.com/api/file/cGdD9pgp
 
 
 
 
-#EXTINF:-1 tvg-logo="https://media.themoviedb.org/t/p/w220_and_h330_face/iQH81JxAj5eb2bnJq3tijbHkzau.jpg"group-title="ESTRENOS",AMBULANCIA
+#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/original/iQH81JxAj5eb2bnJq3tijbHkzau.jpg"group-title="ESTRENOS",AMBULANCE PLAN DE HUIDA
 https://pixeldrain.com/api/file/M9VCRyCB
 
 
 
 
-#EXTINF:-1 tvg-logo="https://media.themoviedb.org/t/p/w220_and_h330_face/kiPmIodLT3dGVdRItMBITO2c5a6.jpg"group-title="ESTRENOS",EXTERMINIO 2
+#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/original/maYPu3lydEzcnhDZ9lt9mAuosa6.jpg"group-title="ESTRENOS",28 DIAS DESPUÉS 
 https://pixeldrain.com/api/file/uok4Bm6h
 
 
@@ -274,42 +341,41 @@ https://pixeldrain.com/api/file/uok4Bm6h
 
 
 
-#EXTINF:-1 tvg-logo="https://media.themoviedb.org/t/p/w220_and_h330_face/efSsZJaddeq0LOABZqpCXdMxv9P.jpg"group-title="ESTRENOS",SOLO MIO
+#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/original/3iOvz9wXGvUCb4no5aIvCq2HmlH.jpg"group-title="ESTRENOS",UNA NOVIA PARA MI BODA
 https://videos.gia.tv/giatv/movies/playlist/208730/_0L0_M10.mp4
 
 
 
-#EXTINF:-1 tvg-logo="https://media.themoviedb.org/t/p/w220_and_h330_face/jgJCp2TOtTMGWS766tQhNcuFhjs.jpg"group-title="ESTRENOS",SCREEM 7
 
 
-#EXTINF:-1 tvg-logo="https://media.themoviedb.org/t/p/w220_and_h330_face/yKIG63pXN89EfbTA7yKpwxAU1rf.jpg"group-title="ESTRENOS",F1
-https://pixeldrain.com/api/file/pcrdsJo1
 
 
-#EXTINF:-1 tvg-logo="https://media.themoviedb.org/t/p/w220_and_h330_face/sr1Yoj6XLPTWYcbDoBy67xivW4I.jpg"group-title="ESTRENOS",SOCIAS POR ACCIDENTE 
+
+
+#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/original/4f9uATxSIqKYXW2NEXbew5wFvc2.jpg"group-title="ESTRENOS",SOCIAS POR ACCIDENTE 
 https://videos.gia.tv/giatv/movies/playlist/208730/S0C14AS_P0R_ACCID3NT.mp4
 
 
-#EXTINF:-1 tvg-logo="https://media.themoviedb.org/t/p/w220_and_h330_face/e4P0lkcHgsBJgWSvLV3ezGZYDUU.jpg"group-title="ESTRENOS", DEPREDADOR DOMINANTE
+#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/original/e4P0lkcHgsBJgWSvLV3ezGZYDUU.jpg"group-title="ESTRENOS", DEPREDADOR DOMINANTE
 https://videos.gia.tv/giatv/movies/playlist/208138/d3pr3d4d0r_d0m1n4nt3.mp4
 
 
 
-#EXTINF:-1 tvg-logo="https://media.themoviedb.org/t/p/w220_and_h330_face/ycYv5bhMLJG3wt0I5xFY13Z7PsU.jpg"group-title="ESTRENOS",THE DREADFUL
+#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/original/ycYv5bhMLJG3wt0I5xFY13Z7PsU.jpg"group-title="ESTRENOS",THE DREADFUL
 https://videos.gia.tv/giatv/movies/playlist/208138/th3_dr3dfu11_2026.mp4
 
 
 
 
-#EXTINF:-1 tvg-logo="https://media.themoviedb.org/t/p/w220_and_h330_face/l9S8MLUyi2diTc2Gf3KDAOQTuVx.jpg"group-title="ESTRENOS",P34KY BL1ND3R$
+#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/original/l9S8MLUyi2diTc2Gf3KDAOQTuVx.jpg"group-title="ESTRENOS",PEAKY BLINDERS
 https://videos.gia.tv/giatv/movies/playlist/209163/p34k1_bl1nd3r_2026.mp4
 
 
-#EXTINF:-1 tvg-logo="https://media.themoviedb.org/t/p/w220_and_h330_face/wpAt80FtHAQySEC8SwsDGhFp8MF.jpg"group-title="ESTRENOS",JUGADA MAESTRA 
+#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/original/4GMASNV1kf7cu5myzTaanJpy4jH.jpg"group-title="ESTRENOS",JUGADA MAESTRA 
 https://videos.gia.tv/giatv/movies/playlist/209163/ju64d4_m43_tr4_2026.mp4
 
 
-#EXTINF:-1 tvg-logo="https://media.themoviedb.org/t/p/w220_and_h330_face/k6PSvLUs84QJsWLt0Zlkoa8ih6V.jpg"group-title="ESTRENOS",MIKE Y NICKE Y NICKE Y ALICE
+#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/original/k6PSvLUs84QJsWLt0Zlkoa8ih6V.jpg"group-title="ESTRENOS",MIKE Y NICKE Y NICKE Y ALICE
 https://videos.gia.tv/giatv/movies/playlist/208138/m1k3___n1k3___n1k3___4l1c3_2026.mp4
 
 
@@ -320,19 +386,19 @@ https://videos.gia.tv/giatv/movies/playlist/208138/m1k3___n1k3___n1k3___4l1c3_20
 
 
 
-#EXTINF:-1 tvg-logo="https://media.themoviedb.org/t/p/w220_and_h330_face/cWpvRQcppLnXD0Kno4OZUzkA05R.jpg"group-title="ESTRENOS", PROYECTO HAIL MARY
+#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/original/5OrMnHwTlvndWr5vIWvyZhi4LfU.jpg"group-title="ESTRENOS", PROYECTO SALVACION
 https://videos.gia.tv/giatv/movies/playlist/208138/4r0y3ct0__ail__ary.mp4
 
 
-#EXTINF:-1 tvg-logo="https://media.themoviedb.org/t/p/w220_and_h330_face/SPGBZj12OVOCZdYJVPIJcpOYvZ.jpg"group-title="ESTRENOS", MÁQUINA DE GUERRA 
+#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/original/SPGBZj12OVOCZdYJVPIJcpOYvZ.jpg"group-title="ESTRENOS", MÁQUINA DE GUERRA 
 https://videos.gia.tv/giatv/movies/playlist/209163/M4QU1N4_D3_6U3RR4.mp4
 
 
-#EXTINF:-1 tvg-logo="https://media.themoviedb.org/t/p/w220_and_h330_face/1LKXRXycQAx7slS7AVNPUg2qvpY.jpg"group-title="ESTRENOS", EL AMATEUR
+#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/original/dTO4MPUJseSgLPPMm7EnKVkJhfc.jpg"group-title="ESTRENOS", EL AMATEUR
 https://pixeldrain.com/api/file/M6kQAsDk
 
 
-#EXTINF:-1 tvg-logo="https://media.themoviedb.org/t/p/w220_and_h330_face/25R6U0xHikFbhDN69dUnzI4FIlz.jpg"group-title="ESTRENOS",SI SOLO PUDIERA IMAGINAR 2 
+#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/original/25R6U0xHikFbhDN69dUnzI4FIlz.jpg"group-title="ESTRENOS",LA CANCIÓN DE MI PADRE 2 
 https://videos.gia.tv/giatv/movies/playlist/208817/SI_SOLO_PUDIERA_IMAGINAR_2_864x486.mp4
 
 
@@ -343,7 +409,7 @@ https://videos.gia.tv/giatv/movies/playlist/208817/SI_SOLO_PUDIERA_IMAGINAR_2_86
 
 
 
-#EXTINF:-1 tvg-logo="https://media.themoviedb.org/t/p/w220_and_h330_face/qkyqQqQN8HAkLezR6xWTYzz6Icv.jpg"group-title="ESTRENOS",PUNISHER 2026
+#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/original/ehzOlaPVTyHnGNhcvfzgXPFNY31.jpg"group-title="ESTRENOS",PUNISHER:ONE LAST KILL
 https://videos.gia.tv/giatv/movies/playlist/208138/The_Punnisher___La_Ultima_Muerte.mp4
 
 
