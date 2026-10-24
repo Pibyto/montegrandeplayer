@@ -382,6 +382,9 @@ https://cdn1.tvlin.net/open/telesol/chunks.m3u8
 https://edge.enhdtv.com/canal9sanluis/index.m3u8
 
 
+#EXTINF:-1 tvg-logo="https://i.ibb.co/LdrsZvxF/1792809364673.jpg"group-title="ARGENTINA", DIARIO PLUS
+https://stmv6.voxtvhd.com.br/radioplus881aut/radioplus881aut/playlist.m3u8
+
 
 #EXTINF:-1 tvg-logo="https://xama.tv/images/logo-xama-01.png"group-title="ARGENTINA",XAMA TV
 https://srs.unsj.edu.ar/live/xama/xama.flv
@@ -1913,6 +1916,19 @@ https://play.agenciastreaming.com:19360/8160/8160.m3u8
 
 ##########( Sound View )##########
 
+
+
+
+
+
+
+#EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQweUE7av_VoF2B-ELtNJa9QMMiwB7jS_wDFWgIiCTqb1R3cpn4UBjrf3g&s=10"group-title="SOUND VIEW ",TIKTOK RADIO 
+https://d3f4oii5n0oeqi.cloudfront.net/11701/88814594/hls/master.m3u8?ads.xumo_channelId=88814594
+
+
+
+#EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQweUE7av_VoF2B-ELtNJa9QMMiwB7jS_wDFWgIiCTqb1R3cpn4UBjrf3g&s=10"group-title="SOUND VIEW ", TIKTOK RADIO BR
+https://d1bl6tskrpq9ze.cloudfront.net/hls/master.m3u8?ads.xumo_channelId=99992529
 
 
 
