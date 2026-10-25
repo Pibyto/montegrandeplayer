@@ -99,7 +99,7 @@ https://videos.gia.tv/giatv/movies/playlist/209909/P4ND4_3.mp4
 https://videos.gia.tv/giatv/movies/playlist/209909/M4_C0T4__1.mp4
 
 
-#EXTINF;-1 tvg-logo="https://media.themoviedb.org/t/p/w220_and_h330_face/dqGsG2uNV9JGgrfODbTafPUukci.jpg"group-title="MASCOTAS", MASCOTAS 2
+#EXTINF:-1 tvg-logo="https://media.themoviedb.org/t/p/w220_and_h330_face/dqGsG2uNV9JGgrfODbTafPUukci.jpg"group-title="MASCOTAS", MASCOTAS 2
 https://videos.gia.tv/giatv/movies/playlist/209909/M4SC0T4S_2.mp4
 
 
@@ -194,19 +194,19 @@ https://pixeldrain.com/u/TrEp8bEg
 https://videos.gia.tv/giatv/movies/playlist/209909/r3b3l10n_en_l4_6r4nj4.mp4
 
 
-#EXTINF;-1 tvg-logo="https://image.tmdb.org/t/p/original/ztzr60MYVOYytVM95oREpnZqhvS.jpg"group-title="ESTRENOS",GOAT:COMO CABRAS
+#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/original/ztzr60MYVOYytVM95oREpnZqhvS.jpg"group-title="ESTRENOS",GOAT:COMO CABRAS
 https://videos.gia.tv/giatv/movies/playlist/209909/604T.mp4
 
 
-#EXTINF;-1 tvg-logo="https://image.tmdb.org/t/p/original/9oG8zQbWP8o9iXSShgMXTqGuDZ8.jpg"group-title="ESTRENOS", INTERCAMBIADOS
+#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/original/9oG8zQbWP8o9iXSShgMXTqGuDZ8.jpg"group-title="ESTRENOS", INTERCAMBIADOS
 https://videos.gia.tv/giatv/movies/playlist/209909/Intercambiados_960x518.mp4
 
 
-#EXTINF;-1 tvg-logo=""group-title="ESTRENOS",
+#EXTINF:-1 tvg-logo=""group-title="ESTRENOS",
 
 
 
-#EXTINF;-1 tvg-logo=""group-title="ESTRENOS",
+#EXTINF:-1 tvg-logo=""group-title="ESTRENOS",
 
 
 
@@ -231,8 +231,9 @@ https://videos.gia.tv/giatv/movies/playlist/208138/Super_Mario_Galaxy__La_Pel__c
 
 
 
-#EXTINF;-1 tvg-logo="https://image.tmdb.org/t/p/original/ztzr60MYVOYytVM95oREpnZqhvS.jpg"group-title="KIDS",GOAT : COMO CABRAS
+#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/original/ztzr60MYVOYytVM95oREpnZqhvS.jpg"group-title="KIDS",GOAT : COMO CABRAS
 https://videos.gia.tv/giatv/movies/playlist/209909/604T.mp4
+
 
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/original/vChYiHfTd8gDPP7vANJRxdXbbm4.jpg"group-title="KIDS",SOUL 
 https://videos.gia.tv/giatv/movies/playlist/209909/_0UL.mp4
@@ -252,47 +253,47 @@ https://videos.gia.tv/giatv/movies/playlist/209909/F4M1L14_D3L_FU7UR0.mp4
 #EXTINF:-1 tvg-logo="https://media.themoviedb.org/t/p/w220_and_h330_face/6S5JjRheyl3oyLmJVcxcQ8yqDU3.jpg"group-title="KIDS",AVIONES
 https://videos.gia.tv/giatv/movies/playlist/209909/4V_I0N3S.mp4
 
-#EXTINF;-1 tvg-logo="https://media.themoviedb.org/t/p/w220_and_h330_face/iatTpGghyZFUDnGizetUvRivAqE.jpg"group-title="KIDS", LOCOS POR LAS NUECES 
+#EXTINF:-1 tvg-logo="https://media.themoviedb.org/t/p/w220_and_h330_face/iatTpGghyZFUDnGizetUvRivAqE.jpg"group-title="KIDS", LOCOS POR LAS NUECES 
 https://videos.gia.tv/giatv/movies/playlist/209909/L0C0__P0R_L4__NU3C3_.mp4
 
 
 
 
 
-#EXTINF;-1 tvg-logo="https://media.themoviedb.org/t/p/w220_and_h330_face/meW6r54Ml00Cr8BPVPkKbIDI4ad.jpg"group-title="KIDS",EL HEROE DE TODOS
+#EXTINF:-1 tvg-logo="https://media.themoviedb.org/t/p/w220_and_h330_face/meW6r54Ml00Cr8BPVPkKbIDI4ad.jpg"group-title="KIDS",EL HEROE DE TODOS
 https://videos.gia.tv/giatv/movies/playlist/209909/3L__3R03_D3_70D0_.mp4
 
 
-#EXTINF;-1 tvg-logo="https://media.themoviedb.org/t/p/w220_and_h330_face/lADyT1MVDEBaiikuw3Mbrn3ydTe.jpg"group-title="KIDS", HOME 
+#EXTINF:-1 tvg-logo="https://media.themoviedb.org/t/p/w220_and_h330_face/lADyT1MVDEBaiikuw3Mbrn3ydTe.jpg"group-title="KIDS", HOME 
 https://videos.gia.tv/giatv/movies/playlist/209909/HOM3.mp4
 
 
-#EXTINF;-1 tvg-logo="https://media.themoviedb.org/t/p/w220_and_h330_face/lDARMqluCrWaFgybY9KHLY96L3n.jpg"group-title="KIDS",TURBO
+#EXTINF:-1 tvg-logo="https://media.themoviedb.org/t/p/w220_and_h330_face/lDARMqluCrWaFgybY9KHLY96L3n.jpg"group-title="KIDS",TURBO
 https://videos.gia.tv/giatv/movies/playlist/209909/7UR80.mp4
 
 
 
-#EXTINF;-1 tvg-logo="https://media.themoviedb.org/t/p/w220_and_h330_face/nGUelOVetiRpY2wTBMHTbrTIGYC.jpg"group-title="KIDS",RATAOUILLE
+#EXTINF:-1 tvg-logo="https://media.themoviedb.org/t/p/w220_and_h330_face/nGUelOVetiRpY2wTBMHTbrTIGYC.jpg"group-title="KIDS",RATAOUILLE
 https://videos.gia.tv/giatv/movies/playlist/209909/R4T4T0U1LL3.mp4
 
 
 
-#EXTINF;-1 tvg-logo="https://media.themoviedb.org/t/p/w220_and_h330_face/zsaGcfQcGuRmSHfvQEbjj4gR9jP.jpg"group-title="KIDS",TADEO 2
+#EXTINF:-1 tvg-logo="https://media.themoviedb.org/t/p/w220_and_h330_face/zsaGcfQcGuRmSHfvQEbjj4gR9jP.jpg"group-title="KIDS",TADEO 2
 https://videos.gia.tv/giatv/movies/playlist/209909/T4D30_2.mp4
 
 
 
-#EXTINF;-1 tvg-logo="https://media.themoviedb.org/t/p/w220_and_h330_face/7GuLuIulP76vDDpsIHriQbH3Buf.jpg"group-title="KIDS",BIG FOOT
+#EXTINF:-1 tvg-logo="https://media.themoviedb.org/t/p/w220_and_h330_face/7GuLuIulP76vDDpsIHriQbH3Buf.jpg"group-title="KIDS",BIG FOOT
 https://videos.gia.tv/giatv/movies/playlist/209909/816_F007.mp4
 
 
 
-#EXTINF;-1 tvg-logo="https://media.themoviedb.org/t/p/w220_and_h330_face/JsVAm9FAw1A9qlTw3zNNR8zhLP.jpg"group-title="KIDS", METEGOL
+#EXTINF:-1 tvg-logo="https://media.themoviedb.org/t/p/w220_and_h330_face/JsVAm9FAw1A9qlTw3zNNR8zhLP.jpg"group-title="KIDS", METEGOL
 https://videos.gia.tv/giatv/movies/playlist/209909/M37360L.mp4
 
 
 
-#EXTINF;-1 tvg-logo="https://media.themoviedb.org/t/p/w220_and_h330_face/2eTiPSDSN5CJXZbk99pb07QuN5K.jpg"group-title="KIDS",ENRREDADOS
+#EXTINF:-1 tvg-logo="https://media.themoviedb.org/t/p/w220_and_h330_face/2eTiPSDSN5CJXZbk99pb07QuN5K.jpg"group-title="KIDS",ENRREDADOS
 https://videos.gia.tv/giatv/movies/playlist/209909/3N_3D4D0_.mp4
 
 
@@ -339,27 +340,27 @@ https://videos.gia.tv/giatv/movies/playlist/209909/Las_Aventuras_de_Sammy__2010_
 
 
 
-#EXTINF;-1 tvg-logo="https://media.themoviedb.org/t/p/w220_and_h330_face/vSdpOU6rDK7IpmOD7iAvlZdMUCc.jpg"group-title="KIDS",UP!
+#EXTINF:-1 tvg-logo="https://media.themoviedb.org/t/p/w220_and_h330_face/vSdpOU6rDK7IpmOD7iAvlZdMUCc.jpg"group-title="KIDS",UP!
 https://videos.gia.tv/giatv/movies/playlist/209909/UP_.mp4
 
 
 
-#EXTINF;-1 tvg-logo="https://media.themoviedb.org/t/p/w220_and_h330_face/yIkmA2y50NYJkAYT9nZ5pcle9tP.jpg"group-title="KIDS",ANGRY BIRDS 2
+#EXTINF:-1 tvg-logo="https://media.themoviedb.org/t/p/w220_and_h330_face/yIkmA2y50NYJkAYT9nZ5pcle9tP.jpg"group-title="KIDS",ANGRY BIRDS 2
 http://ia801303.us.archive.org/24/items/ceccvas1/5ub1d0_p4ra_str3am1ng_A85/4.mp4
 
 
 
-#EXTINF;-1 tvg-logo="https://media.themoviedb.org/t/p/w220_and_h330_face/6S5JjRheyl3oyLmJVcxcQ8yqDU3.jpg"group-title="KIDS",AVIONES
+#EXTINF:-1 tvg-logo="https://media.themoviedb.org/t/p/w220_and_h330_face/6S5JjRheyl3oyLmJVcxcQ8yqDU3.jpg"group-title="KIDS",AVIONES
 http://ia802905.us.archive.org/16/items/1_20200419_20200419_2319/sub1d0_p4r4_5t3aming_A85/1.mp4
 
 
 
-#EXTINF;-1 tvg-logo="https://media.themoviedb.org/t/p/w220_and_h330_face/hpunLKNEvjuzCLwLbuWJqzu3OE7.jpg"group-title="KIDS",BOLT
+#EXTINF:-1 tvg-logo="https://media.themoviedb.org/t/p/w220_and_h330_face/hpunLKNEvjuzCLwLbuWJqzu3OE7.jpg"group-title="KIDS",BOLT
 http://ia801401.us.archive.org/32/items/2008_202207/Bolt%202008.mp4
 
 
 
-#EXTINF;-1 tvg-logo="https://media.themoviedb.org/t/p/w220_and_h330_face/jPhak722pNGxQIXSEfeWIUqBrO5.jpg"group-title="KIDS", BUSCANDO A NEMO
+#EXTINF:-1 tvg-logo="https://media.themoviedb.org/t/p/w220_and_h330_face/jPhak722pNGxQIXSEfeWIUqBrO5.jpg"group-title="KIDS", BUSCANDO A NEMO
 http://ia801303.us.archive.org/24/items/ceccvas1/5ub1d0_p4ra_str3am1ng_A85/9.mp4
 
 
@@ -376,7 +377,7 @@ https://videos.gia.tv/giatv/movies/playlist/209909/z0070P14.mp4
 
 
 
-#EXTINF:-1 tvg-logo="https://media.themoviedb.org/t/p/w220_and_h330_face/7NRpCaksHX0FEsXCNITOvhq7cZ3.jpg"group-title="KIDS", OPCIÓN CASTOR 
+#EXTINF:-1 tvg-logo="https://media.themoviedb.org/t/p/w220_and_h330_face/7NRpCaksHX0FEsXCNITOvhq7cZ3.jpg"group-title="KIDS", OPERACIÓN CASTOR 
 https://videos.gia.tv/giatv/movies/playlist/209909/043R___10N_C4570R_996x540.mp4
 
 
@@ -388,7 +389,7 @@ https://videos.gia.tv/giatv/movies/playlist/209909/t4d30_j0n3__1.mp4
 https://videos.gia.tv/giatv/movies/playlist/209909/11uv14_d3_h4m8ur6u3_4.mp4
 
 
-#EXTINF;-1 tvg-logo="https://media.themoviedb.org/t/p/w220_and_h330_face/wHlxud7DzsolgvasBFt6gFHIUwP.jpg"group-title="KIDS",ANGRY BIRDS
+#EXTINF:-1 tvg-logo="https://media.themoviedb.org/t/p/w220_and_h330_face/wHlxud7DzsolgvasBFt6gFHIUwP.jpg"group-title="KIDS",ANGRY BIRDS
 http://ptccloud.lsdwedsfsc.site/vod/BF8482E737F9428F8795092C8A96FDC4_media.mp4
 
 
@@ -405,7 +406,7 @@ https://videos.gia.tv/giatv/movies/playlist/209909/T0__T0___2.mp4
 
 
 
-#EXTINF;-1 tvg-logo="https://image.tmdb.org/t/p/original/3Gsc5NFpeT22l43sEHd7rVZSbXK.jpg"group-title="KIDS",EMOJIS LA PELÍCULA
+#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/original/3Gsc5NFpeT22l43sEHd7rVZSbXK.jpg"group-title="KIDS",EMOJIS LA PELÍCULA
 https://pixeldrain.com/u/LHvYFiWT
 
 
