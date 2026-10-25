@@ -11,7 +11,7 @@
 #EXTINF:-1 tvg-logo="https://media.themoviedb.org/t/p/w1000_and_h563_face/ymUnksDzfZmCZCQTQhDshc2p8vH.jpg"group-title="DESTACADOS", ANIMALS 
 https://videos.gia.tv/giatv/movies/playlist/209163/904a0f09330868f645fa6c52f4bf9cb0.mp4
 
-#EXTINF:-1 tvg-logo="https://media.themoviedb.org/t/p/w1000_and_h563_face/pwIX6Qn9TG1XrBNGzZ7cjZ52Pa8.jpg"group-title="DESTACADOS",LA CARRERA CONTRA EL TIEMPO 
+#EXTINF:-1 tvg-logo="https://media.themoviedb.org/t/p/w1000_and_h563_face/pwIX6Qn9TG1XrBNGzZ7cjZ52Pa8.jpg"group-title="DESTACADOS",A LA CARRERA 
 https://videos.gia.tv/giatv/movies/pvod/209163/_14_C4_443_R4.mp4
 
  
@@ -813,7 +813,7 @@ https://pixeldrain.com/api/file/pbf1UBuK
 https://pixeldrain.com/api/file/q6RsJHL7
 
 
-#EXTINF:-1 tvg-logo="https://media.themoviedb.org/t/p/w220_and_h330_face/9HMxCCWAfCljOWcPMXvhjDtfZeL.jpg"group-title="ARGENTINAS",CHAU BUENOS AIRES
+#EXTINF:-1 tvg-logo="https://media.themoviedb.org/t/p/w220_and_h330_face/9HMxCCWAfCljOWcPMXvhjDtfZeL.jpg"group-title="ARGENTINAS", ADIÓS BUENOS AIRES
 https://videos.gia.tv/giatv/movies/playlist/208817/4D10S_BU3N0S_41R3S__2023_.mp4
 
 
@@ -821,7 +821,7 @@ https://videos.gia.tv/giatv/movies/playlist/208817/4D10S_BU3N0S_41R3S__2023_.mp4
 https://videos.gia.tv/giatv/movies/playlist/208744/corazon_delator_mp4.mp4
 
 
-#EXTINF:-1 tvg-logo="https://media.themoviedb.org/t/p/w220_and_h330_face/j8EORyEJyVk7wSyUoy0bb4lVkuu.jpg"group-title="ARGENTINAS",MEZEL TOV
+#EXTINF:-1 tvg-logo="https://media.themoviedb.org/t/p/w220_and_h330_face/j8EORyEJyVk7wSyUoy0bb4lVkuu.jpg"group-title="ARGENTINAS",MAZEL TOV
 https://videos.gia.tv/giatv/movies/playlist/208730/M3Z3L_TOV.mp4
 
 
@@ -887,12 +887,12 @@ https://pixeldrain.com/api/file/htyXjdwE
 
 
 
-#EXTINF:-1 tvg-logo="https://media.themoviedb.org/t/p/w220_and_h330_face/2Thn2wpSmiZjmGKHeJdxqDYpuzX.jpg"group-title="ROMANCE", AMOR A PRIMER MENSAJE
+#EXTINF:-1 tvg-logo="https://media.themoviedb.org/t/p/w220_and_h330_face/2Thn2wpSmiZjmGKHeJdxqDYpuzX.jpg"group-title="ROMANCE",LOVE AGAIN 
 https://pixeldrain.com/api/file/64BpZv5i 
 
 
 
-#EXTINF:-1 tvg-logo="https://media.themoviedb.org/t/p/w220_and_h330_face/kCb3QJNLi0alrk7i5aCphkkuoFl.jpg"group-title="ROMANCE",CUMBRES BORROSCOSAS
+#EXTINF:-1 tvg-logo="https://media.themoviedb.org/t/p/w220_and_h330_face/kCb3QJNLi0alrk7i5aCphkkuoFl.jpg"group-title="ROMANCE",CUMBRES BORRASCOSAS
 https://pixeldrain.com/api/file/UQVjkAnF
 
 
@@ -919,13 +919,10 @@ https://pixeldrain.com/api/file/UQVjkAnF
 
 
 
-#EXTINF:-1 tvg-logo="https://media.themoviedb.org/t/p/w220_and_h330_face/aodZLzbl7JaKSsdV6EJzl86EjcX.jpg"group-title="AVENTURA", DOCTOR DOLITTLE
-
-
 
 
 #EXTINF:-1 tvg-logo="https://media.themoviedb.org/t/p/w220_and_h330_face/aBNoiJ6YOrUW2xu9dT8OKppiwdo.jpg"group-title="AVENTURA",
-EL LLAMADO SALVAJE
+LA LLAMADA SALVAJE
 https://pixeldrain.com/api/file/fCPL3axr
 
 
@@ -935,28 +932,28 @@ http://ia801303.us.archive.org/24/items/000_20201026/00009.mp4
 
 #EXTINF:-1 tvg-logo="https://media.themoviedb.org/t/p/w220_and_h330_face/hulB3uxIRzerZfjwXdKSKVn2orV.jpg"group-title="AVENTURA",ENOLA HOLMES 2
 
-#EXTINF:-1 tvg-logo="https://media.themoviedb.org/t/p/w220_and_h330_face/2iYS1XVm8vh5vokZhO3N4dtgODn.jpg"group-title="AVENTURA",GIGANTE DE ACERO
+#EXTINF:-1 tvg-logo="https://media.themoviedb.org/t/p/w220_and_h330_face/2iYS1XVm8vh5vokZhO3N4dtgODn.jpg"group-title="AVENTURA",ACERO PURO
 https://pixeldrain.com/api/file/AC4GrMdh
 
 
-#EXTINF:-1 tvg-logo="https://media.themoviedb.org/t/p/w220_and_h330_face/fdfE1EtrGgfjxOMaPZ2FBrgMIgG.jpgs"group-title="AVENTURA",READY PLAYER 
+#EXTINF:-1 tvg-logo="https://media.themoviedb.org/t/p/w220_and_h330_face/fdfE1EtrGgfjxOMaPZ2FBrgMIgG.jpgs"group-title="AVENTURA",READY PLAYER ONE
 https://pixeldrain.com/api/file/1B1crCbn
 
 
-#EXTINF:-1 tvg-logo="https://media.themoviedb.org/t/p/w220_and_h330_face/k5waciRFMN5bwudDrgFLffoAorm.jpg"group-title="AVENTURA", PROYECTO ADAM
+#EXTINF:-1 tvg-logo="https://media.themoviedb.org/t/p/w220_and_h330_face/k5waciRFMN5bwudDrgFLffoAorm.jpg"group-title="AVENTURA",EL PROYECTO ADAM
 https://pixeldrain.com/api/file/ZasVvrbm
 
 
-#EXTINF:-1 tvg-logo="https://media.themoviedb.org/t/p/w220_and_h330_face/9jpQ6BRScQmTULj10mUkjEKelhX.jpg"group-title="AVENTURA",PI
+#EXTINF:-1 tvg-logo="https://media.themoviedb.org/t/p/w220_and_h330_face/9jpQ6BRScQmTULj10mUkjEKelhX.jpg"group-title="AVENTURA",LA VIDA DE PI
 https://pixeldrain.com/api/file/tCKPLfWm
 
 
-#EXTINF:-1 tvg-logo="https://media.themoviedb.org/t/p/w220_and_h330_face/rZYYmjgyF5UP1AVsvhzzDOFLCwG.jpg"group-title="AVENTURA",MINICRAFT
+#EXTINF:-1 tvg-logo="https://media.themoviedb.org/t/p/w220_and_h330_face/rZYYmjgyF5UP1AVsvhzzDOFLCwG.jpg"group-title="AVENTURA",UNA PELÍCULA DE MINECRAFT
 https://pixeldrain.com/api/file/LYREfHRK
 
 
 
-#EXTINF:-1 tvg-logo="https://media.themoviedb.org/t/p/w220_and_h330_face/nXi7ahEIH8gdVGZ6emjWbg3exrF.jpg"group-title="AVENTURA",WACRAFT
+#EXTINF:-1 tvg-logo="https://media.themoviedb.org/t/p/w220_and_h330_face/nXi7ahEIH8gdVGZ6emjWbg3exrF.jpg"group-title="AVENTURA",WARCRAFT EL ORIGEN 
 https://pixeldrain.com/api/file/NCPB7aHZ
 
 
@@ -982,11 +979,11 @@ https://pixeldrain.com/api/file/9ZfvY7wU
 
 
 
-#EXTINF:-1 tvg-logo="https://media.themoviedb.org/t/p/w220_and_h330_face/gk6IErM0acV6HJRwKZy8ecBoddc.jpg"group-title="HECHOS REALES",BOHEMIA
+#EXTINF:-1 tvg-logo="https://media.themoviedb.org/t/p/w220_and_h330_face/gk6IErM0acV6HJRwKZy8ecBoddc.jpg"group-title="HECHOS REALES",BOHEMIAM RHAPSODY 
 https://pixeldrain.com/api/file/XzMPmfp6
 
 
-#EXTINF:-1 tvg-logo="https://media.themoviedb.org/t/p/w220_and_h330_face/2QlWpWXZ7exFSsWm8K0Gu9Yqfib.jpg"group-title="HECHOS REALES",BOB MARLEY
+#EXTINF:-1 tvg-logo="https://media.themoviedb.org/t/p/w220_and_h330_face/2QlWpWXZ7exFSsWm8K0Gu9Yqfib.jpg"group-title="HECHOS REALES",  BOB MARLEY ONE LOVE
 http://ia801303.us.archive.org/24/items/4621UE7C/BMYLLG24V2.mkv
 
 
@@ -1003,7 +1000,7 @@ http://ia801303.us.archive.org/24/items/4621UE7C/BMYLLG24V2.mkv
 
 
 
-#EXTINF:-1 tvg-logo="https://media.themoviedb.org/t/p/w220_and_h330_face/4UWDVI6IleoKl9T6wHbHcqd5zAX.jpg"group-title="HECHOS REALES",TORNADO
+#EXTINF:-1 tvg-logo="https://media.themoviedb.org/t/p/w220_and_h330_face/4UWDVI6IleoKl9T6wHbHcqd5zAX.jpg"group-title="HECHOS REALES",TWISTERS
 https://live20.bozztv.com/giatvplayout/giatvvod/giatv/movies/playlist/208538/Tornados_2024_DVDRip_Lat.mp4/chunk.m3u8
 
 
@@ -1015,21 +1012,21 @@ https://videos.gia.tv/giatv/movies/playlist/208538/Whiplash_2014_1080p_LATiNO_72
 
 
 
-#EXTINF:-1 tvg-logo="https://media.themoviedb.org/t/p/w220_and_h330_face/ajrtVh7xN8HwoFXHkEDRjMjye1d.jpg"group-title="HECHOS REALES", EXTRAORDINARIO 
+#EXTINF:-1 tvg-logo="https://media.themoviedb.org/t/p/w220_and_h330_face/ajrtVh7xN8HwoFXHkEDRjMjye1d.jpg"group-title="HECHOS REALES", WONDER
 https://videos.gia.tv/giatv/movies/playlist/208538/Extraordinario_con_JULIA_ROBERTS_y_OWEN_WILSON___Pel__cula_completa_en_espa__ol___Drama___Filmelier_TV_MP4_720p.mp4
 
 
-#EXTINF:-1 tvg-logo="https://media.themoviedb.org/t/p/w220_and_h330_face/1oi7cGtv4dOkN37IlIgUMvvfT9T.jpg"group-title="HECHOS REALES",SIN ESCAPE 
+#EXTINF:-1 tvg-logo="https://media.themoviedb.org/t/p/w220_and_h330_face/1oi7cGtv4dOkN37IlIgUMvvfT9T.jpg"group-title="HECHOS REALES",SIN SALIDA 
 https://videos.gia.tv/giatv/movies/playlist/208538/Sin_salida_MP4_720p.mp4
 
-#EXTINF:-1 tvg-logo="https://media.themoviedb.org/t/p/w220_and_h330_face/oORNFBmgbAw0JdEBDYBfOYzeki7.jpg"group-title="HECHOS REALES",LUCHA POR LA LIBERTAD
+#EXTINF:-1 tvg-logo="https://media.themoviedb.org/t/p/w220_and_h330_face/oORNFBmgbAw0JdEBDYBfOYzeki7.jpg"group-title="HECHOS REALES",LOS HOMBRES LIBRES DE JONES
 https://videos.gia.tv/giatv/movies/playlist/208744/Lucha_por_la_Libertad___Espa__ol_Latino___HD_720p.mp4
 
 
 
 
 
-#EXTINF:-1 tvg-logo="https://media.themoviedb.org/t/p/w220_and_h330_face/kFkZFPBU7vnDDu4m9eOgk7w9W7O.jpg"group-title="HECHOS REALES",FORD VS FERRARI
+#EXTINF:-1 tvg-logo="https://media.themoviedb.org/t/p/w220_and_h330_face/kFkZFPBU7vnDDu4m9eOgk7w9W7O.jpg"group-title="HECHOS REALES",LE MANS 66
 http://ia801303.us.archive.org/24/items/01_20200304/Sub1do_p4r4_Str34m_AB5/01.mp4
 
 
@@ -1038,7 +1035,7 @@ http://ia801303.us.archive.org/24/items/01_20200304/Sub1do_p4r4_Str34m_AB5/01.mp
 
 
 
-#EXTINF:-1 tvg-logo="https://media.themoviedb.org/t/p/w220_and_h330_face/1ry3FQiDs9X3m2I6lzJnM495qSp.jpg"group-title="HECHOS REALES",STRAIGHT OUTTA COMPTOM
+#EXTINF:-1 tvg-logo="https://media.themoviedb.org/t/p/w220_and_h330_face/1ry3FQiDs9X3m2I6lzJnM495qSp.jpg"group-title="HECHOS REALES",STRAIGHT OUTTA COMPTON
 http://ia801303.us.archive.org/24/items/sst_20200905/sst.mp4
 
 
@@ -1067,7 +1064,7 @@ https://pixeldrain.com/api/file/QUEAzy4V
 
 
 
-#EXTINF:-1 tvg-logo="https://media.themoviedb.org/t/p/w220_and_h330_face/vUNj55xlF0pSU5FU3yDHC6L5wVX.jpg"group-title="MARVEL",CAPITAN AMÉRICA 4
+#EXTINF:-1 tvg-logo="https://media.themoviedb.org/t/p/w220_and_h330_face/vUNj55xlF0pSU5FU3yDHC6L5wVX.jpg"group-title="MARVEL",CAPITAN AMÉRICA BRAVE NEW WORLD
 https://pixeldrain.com/api/file/tmUeJATR
 
 
@@ -1075,22 +1072,22 @@ https://pixeldrain.com/api/file/tmUeJATR
 http://ia801905.us.archive.org/10/items/mcu_f453_5/05%20Thunderbolts%2A%20%28%2ALos%20Nuevos%20Vengadores%29.mp4
 
 
-#EXTINF:-1 tvg-logo="https://media.themoviedb.org/t/p/w220_and_h330_face/ay29o6P7HWTSMoKVVI3xgRHiRkC.jpg"group-title="MARVEL", AVENGERS
+#EXTINF:-1 tvg-logo="https://media.themoviedb.org/t/p/w220_and_h330_face/ay29o6P7HWTSMoKVVI3xgRHiRkC.jpg"group-title="MARVEL", VENGADORES 
 http://ia902804.us.archive.org/32/items/00000_20200926/000002.mp4
 
 
 
-#EXTINF:-1 tvg-logo="https://media.themoviedb.org/t/p/w220_and_h330_face/ggyEm4OkePLo8zEdDm5Pac2fOgz.jpg"group-title="MARVEL", AVENGERS LA ERA DE ULTRON
+#EXTINF:-1 tvg-logo="https://media.themoviedb.org/t/p/w220_and_h330_face/ggyEm4OkePLo8zEdDm5Pac2fOgz.jpg"group-title="MARVEL", VENGADORES LA ERA DE ULTRON
 http://ia902804.us.archive.org/6/items/00_20201006/00015.mp4
 
 
 
-#EXTINF:-1 tvg-logo="https://media.themoviedb.org/t/p/w220_and_h330_face/jPPy7tCfglppQo6J9nGwU6UmJ8X.jpg"group-title="MARVEL", AVENGERS CIVIL WAR
+#EXTINF:-1 tvg-logo="https://media.themoviedb.org/t/p/w220_and_h330_face/jPPy7tCfglppQo6J9nGwU6UmJ8X.jpg"group-title="MARVEL",CAPITAN AMÉRICA CIVIL WAR
 http://ia802807.us.archive.org/18/items/awita/awita.mp4
 
 
 
-#EXTINF:-1 tvg-logo="https://media.themoviedb.org/t/p/w220_and_h330_face/br6krBFpaYmCSglLBWRuhui7tPc.jpg"group-title="MARVEL", AVENGERS ENDGAME
+#EXTINF:-1 tvg-logo="https://media.themoviedb.org/t/p/w220_and_h330_face/br6krBFpaYmCSglLBWRuhui7tPc.jpg"group-title="MARVEL", VENGADORES ENDGAME
 http://ia801303.us.archive.org/24/items/00copia_20191122/eg.mp4
 
 
@@ -1112,7 +1109,7 @@ https://pixeldrain.com/api/file/Yhq5X9f2
 
 
 
-#EXTINF:-1 tvg-logo="https://media.themoviedb.org/t/p/w220_and_h330_face/5tNrlxFAmlcMArbMwG9qnOu0C06.jpg"group-title="COMEDIA",TE ATRAPE
+#EXTINF:-1 tvg-logo="https://media.themoviedb.org/t/p/w220_and_h330_face/5tNrlxFAmlcMArbMwG9qnOu0C06.jpg"group-title="COMEDIA",TU LA LLEVAS
 https://videos.gia.tv/giatv/movies/playlist/208730/T3_4TR4P3.mp4
 
 
@@ -1121,11 +1118,11 @@ https://videos.gia.tv/giatv/movies/playlist/208730/T3_4TR4P3.mp4
 https://videos.gia.tv/giatv/movies/playlist/208730/L4_M3J0R_D3_M1__B0D4_.mp4
 
 
-#EXTINF:-1 tvg-logo="https://media.themoviedb.org/t/p/w220_and_h330_face/2Thn2wpSmiZjmGKHeJdxqDYpuzX.jpg"group-title="COMEDIA", AMOR A PRIMER MENSAJE
+#EXTINF:-1 tvg-logo="https://media.themoviedb.org/t/p/w220_and_h330_face/2Thn2wpSmiZjmGKHeJdxqDYpuzX.jpg"group-title="COMEDIA",AGAIN LOVE
 https://videos.gia.tv/giatv/movies/playlist/208730/4M0R_A_PR1M3R_M3N_4J3.mp4
 
 
-#EXTINF:-1 tvg-logo="https://media.themoviedb.org/t/p/w220_and_h330_face/nWprcqzpw41jslTgGrGcf4QhZ7Z.jpg"group-title="COMEDIA",UN DÍA FUERA DE CONTROL
+#EXTINF:-1 tvg-logo="https://media.themoviedb.org/t/p/w220_and_h330_face/nWprcqzpw41jslTgGrGcf4QhZ7Z.jpg"group-title="COMEDIA", JUEGOS DE NIÑOS 
 https://videos.gia.tv/giatv/movies/playlist/208730/Un_d__a_fuera_de_control_2025_Latino.mp4
 
 
@@ -1161,7 +1158,7 @@ https://pixeldrain.com/api/file/skaxnW4s
 https://pixeldrain.com/api/file/eW8NTQGs
 
 
-#EXTINF:-1 tvg-logo="https://media.themoviedb.org/t/p/w220_and_h330_face/hUuCldGYaNhN6VL2DeoMPKACFFn.jpg"group-title="COMEDIA", GOLPE BAJO
+#EXTINF:-1 tvg-logo="https://media.themoviedb.org/t/p/w220_and_h330_face/hUuCldGYaNhN6VL2DeoMPKACFFn.jpg"group-title="COMEDIA",EL CLAN DE LOS ROMPEHUESOS
 https://pixeldrain.com/api/file/jKATFifa
 
 
@@ -1173,30 +1170,30 @@ https://pixeldrain.com/api/file/iihbUyf4
 
 
 
-#EXTINF:-1 tvg-logo="https://media.themoviedb.org/t/p/w220_and_h330_face/35buC6XTHUMhTNZ1ZygT3T9yKMg.jpg"group-title="COMEDIA", LOCO Y ESTÚPIDO AMOR 
+#EXTINF:-1 tvg-logo="https://media.themoviedb.org/t/p/w220_and_h330_face/35buC6XTHUMhTNZ1ZygT3T9yKMg.jpg"group-title="COMEDIA", CRAZY, STUPID,LOVE 
 https://pixeldrain.com/api/file/MKdv9Yfo
 
 
-#EXTINF:-1 tvg-logo="https://media.themoviedb.org/t/p/w220_and_h330_face/85f1LUrau7eAz3jiK9rI0OkrwhW.jpg"group-title="COMEDIA", UNA ESPOSA DE MENTIRA 
+#EXTINF:-1 tvg-logo="https://media.themoviedb.org/t/p/w220_and_h330_face/85f1LUrau7eAz3jiK9rI0OkrwhW.jpg"group-title="COMEDIA",SIGUE.E EL ROLLO  (UNA ESPOSA DE MENTIRA)
 https://pixeldrain.com/api/file/ibu8c2uo
 
-#EXTINF:-1 tvg-logo="https://media.themoviedb.org/t/p/w220_and_h330_face/7oWhgp3SHexU9Byx97U7Sc8uroW.jpg"group-title="COMEDIA",CHIQUITO PERO PELIGROSO 
+#EXTINF:-1 tvg-logo="https://media.themoviedb.org/t/p/w220_and_h330_face/7oWhgp3SHexU9Byx97U7Sc8uroW.jpg"group-title="COMEDIA", PEQUEÑO PERO MATON
 https://pixeldrain.com/api/file/F5kQ9C6c
 
 
 
-#EXTINF:-1 tvg-logo="https://media.themoviedb.org/t/p/w220_and_h330_face/uVybc3pLqHSoMC73kElu93oJBRQ.jpg"group-title="COMEDIA",BOLAS ARRIBA
+#EXTINF:-1 tvg-logo="https://media.themoviedb.org/t/p/w220_and_h330_face/uVybc3pLqHSoMC73kElu93oJBRQ.jpg"group-title="COMEDIA",BALLS UP CON UN PAR 
 https://videos.gia.tv/giatv/movies/playlist/208138/B0L4__4RR1B4_1152x648.mp4
 
 
-#EXTINF:-1 tvg-logo="https://media.themoviedb.org/t/p/w220_and_h330_face/efSsZJaddeq0LOABZqpCXdMxv9P.jpg"group-title="COMEDIA",SOLO MIO
+#EXTINF:-1 tvg-logo="https://media.themoviedb.org/t/p/w220_and_h330_face/efSsZJaddeq0LOABZqpCXdMxv9P.jpg"group-title="COMEDIA", UNA NOVIA PARA MI BODA 
 https://videos.gia.tv/giatv/movies/playlist/208730/_0L0_M10.mp4
 
 #EXTINF:-1 tvg-logo="https://media.themoviedb.org/t/p/w220_and_h330_face/k6PSvLUs84QJsWLt0Zlkoa8ih6V.jpg"group-title="COMEDIA",MIKE Y NICKE Y NICKE Y ALICE
 https://videos.gia.tv/giatv/movies/playlist/208138/m1k3___n1k3___n1k3___4l1c3_2026.mp4
 
 
-#EXTINF:-1 tvg-logo="https://media.themoviedb.org/t/p/w220_and_h330_face/uKxwN7cNbRlgBR1Rmny58Jd5wut.jpg"group-title="COMEDIA",LUNA DE MIEL EN FAMILIA 
+#EXTINF:-1 tvg-logo="https://media.themoviedb.org/t/p/w220_and_h330_face/uKxwN7cNbRlgBR1Rmny58Jd5wut.jpg"group-title="COMEDIA", JUNTOS Y REVUELTOS (LUNA DE MIEL EN FAMILIA) 
 
 
 
@@ -1209,11 +1206,11 @@ https://videos.gia.tv/giatv/movies/playlist/208730/S0C14AS_P0R_ACCID3NT.mp4
 https://videos.gia.tv/giatv/movies/playlist/208730/C0NT160_3N_3L_FU7UR0.mp4
 
 
-#EXTINF:-1 tvg-logo="https://media.themoviedb.org/t/p/w188_and_h282_face/bwNAjGUsHt35eqT0Aj8NHU02WPl.jpg"group-title="COMEDIA", KARATE KIDS LEGENDS
+#EXTINF:-1 tvg-logo="https://media.themoviedb.org/t/p/w188_and_h282_face/bwNAjGUsHt35eqT0Aj8NHU02WPl.jpg"group-title="COMEDIA", KARATE KID LEGENDS
 https://videos.gia.tv/giatv/movies/playlist/208817/_4R4T3_K1D__L3G3ND_.mp4
 
 
-#EXTINF:-1 tvg-logo="https://media.themovieñdb.org/t/p/w220_and_h330_face/s9EWMx96aWVDQzuCBdSwO63HDfu.jpg"group-title="COMEDIA",NO ESTAS INVITADA
+#EXTINF:-1 tvg-logo="https://media.themovieñdb.org/t/p/w220_and_h330_face/s9EWMx96aWVDQzuCBdSwO63HDfu.jpg"group-title="COMEDIA",NI DE COÑAS ESTAS INVITADA A MI BAT MITSVÁ
 https://videos.gia.tv/giatv/movies/wplaylist/208138/NO_3_T4__1NV1T4D4_4_M1TZV4H.mp4
 
 
@@ -1226,13 +1223,13 @@ https://videos.gia.tv/giatv/movies/wplaylist/208138/NO_3_T4__1NV1T4D4_4_M1TZV4H.
 
 
 
-#EXTINF:-1 tvg-logo="https://media.themoviedb.org/t/p/w220_and_h330_face/iIaxCfXYPeYzWGHDaBZ8oiMtHoJ.jpg"group-title="COMEDIA",5 CITAS A CIEGAS
+#EXTINF:-1 tvg-logo="https://media.themoviedb.org/t/p/w220_and_h330_face/iIaxCfXYPeYzWGHDaBZ8oiMtHoJ.jpg"group-title="COMEDIA",CINCO CITAS A CIEGAS
 https://videos.gia.tv/giatv/movies/playlist/208730/5_C1T4__A_C1364_.mp4
 
 
 
 
-#EXTINF:-1 tvg-logo="https://media.themoviedb.org/t/p/w220_and_h330_face/smIleWSSXhbBunnWkKmyGj9oVaj.jpg"group-title="COMEDIA", CON TODOS MENOS CONTIGO
+#EXTINF:-1 tvg-logo="https://media.themoviedb.org/t/p/w220_and_h330_face/smIleWSSXhbBunnWkKmyGj9oVaj.jpg"group-title="COMEDIA", CUALQUIERA MENOS TU
 https://videos.gia.tv/giatv/movies/playlist/208730/c0n_70d0__m3n0__c0n7160_2023.mp4
 
 
@@ -1253,12 +1250,12 @@ http://ia802808.us.archive.org/4/items/000_20200117_20200117/4.mp4
 
 
 
-#EXTINF:-1 tvg-logo="https://static.wikia.nocookie.net/doblaje/images/3/3d/Y-donde-estan-las-rubias-white-chicks-shawn-wayans-vhs-5439-MLA4389453419_052013-F.jpg/revision/latest/top-crop/width/360/height/450?cb=20161018214826&path-prefix=es"group-title="COMEDIA",Y DONDE ESTAN LAS RUBIAS
+#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/original/7x1AXApZDA92kBNGukJxGGaBej9.jpg"group-title="COMEDIA",DOS RUBIAS DE PELO EN PECHO
 https://dl.dropboxusercontent.com/s/aez9sb22f2vuyve/SalynPM-Y-D.E.L.R.mp4
 
 
 
-#EXTINF:-1 tvg-logo="https://media.themoviedb.org/t/p/w220_and_h330_face/z3AGDMXtXfWextrNR9l6ajJxM4w.jpg"group-title="COMEDIA",PIXEL
+#EXTINF:-1 tvg-logo="https://media.themoviedb.org/t/p/w220_and_h330_face/z3AGDMXtXfWextrNR9l6ajJxM4w.jpg"group-title="COMEDIA",PIXELS
 http://ia801005.us.archive.org/11/items/zqu21148_zoqqa_3/su1id0_p4r4_stre4ming_a85/3.mp4
 
 
@@ -1373,18 +1370,18 @@ https://tinyurl.com/W00dlawn
 
 
 
-#EXTINF:-1 tvg-logo="https://m.media-amazon.com/images/M/MV5BYzY0ZGZhYmMtYjViNi00YzZkLTg4MmQtOWFkNTUyNTEwYzY0XkEyXkFqcGc@._V1_.jpg"group-title="CRISTIANO",LA CANCIÓN COUNTRY DE DIOS
+#EXTINF:-1 tvg-logo="https://m.media-amazon.com/images/M/MV5BYzY0ZGZhYmMtYjViNi00YzZkLTg4MmQtOWFkNTUyNTEwYzY0XkEyXkFqcGc@._V1_.jpg"group-title="CRISTIANO",God's Country Song
 https://tinyurl.com/LccdeDios
 
 
 
-#EXTINF:-1 tvg-logo="https://media.themoviedb.org/t/p/w220_and_h330_face/dgLuOQxwphFRyqn9v5uOjFmn7EA.jpg"group-title="CRISTIANO",INFLUENCIA DIVINA
+#EXTINF:-1 tvg-logo="https://media.themoviedb.org/t/p/w220_and_h330_face/dgLuOQxwphFRyqn9v5uOjFmn7EA.jpg"group-title="CRISTIANO",DIVINE INFLUENCER 
 https://tinyurl.com/Lidivina
 
 
 
 
-#EXTINF:-1 tvg-logo="https://cdn.phototourl.com/free/2026-07-22-ac4e17d7-29ad-49f3-bd11-764d8de68340.jpg"group-title="CRISTIANO", ENCONTRANDO LA FE
+#EXTINF:-1 tvg-logo="https://cdn.phototourl.com/free/2026-07-22-ac4e17d7-29ad-49f3-bd11-764d8de68340.jpg"group-title="CRISTIANO",Finding  (ENCONTRANDO LA FE)
 https://tinyurl.com/Encontrandolafe
 
 
