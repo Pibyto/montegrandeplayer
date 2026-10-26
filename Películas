@@ -463,8 +463,34 @@ https://videos.gia.tv/giatv/movies/playlist/208744/corazon_delator_mp4.mp4
 https://videos.gia.tv/giatv/movies/playlist/209163/MA_TCH_BO_X.mp4
 
 
+#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/original/sdS5LoMq4ELi9oPJdqDkn3nY3Jz.jpg"group-title="ACCIÓN",TENET
+https://pixeldrain.com/api/file/3kSgXutx
+
+
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/original/7ijVBuPYzU2TCeCYMauSUg2G8jg.jpg"group-title="ACCIÓN",EL MOTIN
 https://videos.gia.tv/giatv/movies/playlist/209163/3L_M0T1N.mp4
+
+
+#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/original/nDAyn7IWyeVz0SlejNXKYWDwcd9.jpg"group-title="ACCIÓN",NADIE
+https://pixeldrain.com/api/file/3CDdej2f
+
+
+#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/original/9eDQv0tnsrJWmqKmKLdxGxp10b7.jpg"group-title="ACCIÓN", BEEKEEPER EL PROTECTOR 
+https://pixeldrain.com/api/file/VQeuPE1d
+
+
+
+
+
+
+
+#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/original/bQUDLEVPvXOy4wMgd3Z5D1ikBND.jpg"group-title="ACCIÓN",ALERTA ROJA (Red Notice)
+https://pixeldrain.com/api/file/4mU1W976
+
+
+
+#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/original/l2E4uH0n8tR88stC6bdS1Dj8w7p.jpg"group-title="ACCIÓN", MALDITOS BASTARDOS 
+https://pixeldrain.com/api/file/KJt7ahUk
 
 
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/original/ttEESBvVrO8ngZr19qp6eBMVS9F.jpg"group-title="ACCIÓN",LOS HERMANOS DEMOLICIÓN 
@@ -501,8 +527,13 @@ https://videos.gia.tv/giatv/movies/playlist/209163/J_4CK_RY_4N_OF_T0M_CL4_NCY.mp
 #EXTINF:-1 tvg-logo="https://media.themoviedb.org/t/p/w220_and_h330_face/l9S8MLUyi2diTc2Gf3KDAOQTuVx.jpg"group-title="ACCIÓN",PEAKY BLINDERS EL HOMBRE INMORTAL 
 https://videos.gia.tv/giatv/movies/playlist/209163/p34k1_bl1nd3r_2026.mp4
 
-#EXTINF:-1 tvg-logo="https://media.themoviedb.org/t/p/w220_and_h330_face/SPGBZj12OVOCZdYJVPIJcpOYvZ.jpg"group-title="ACCIÓN", MÁQUINA DE GUERRA 
+#EXTINF:-1 tvg-logo="https://media.themoviedb.org/t/p/w220_and_h330_face/SPGBZj12OVOCZdYJVPIJcpOYvZ.jpg"group-title="ACCIÓN", MÁQUINA DE GUERRA 720p
 https://videos.gia.tv/giatv/movies/playlist/209163/M4QU1N4_D3_6U3RR4.mp4
+
+
+
+#EXTINF:-1 tvg-logo="https://media.themoviedb.org/t/p/w220_and_h330_face/SPGBZj12OVOCZdYJVPIJcpOYvZ.jpg"group-title="ACCIÓN", MÁQUINA DE GUERRA 1080p
+https://pixeldrain.com/api/file/E6zGw13V
 
 
 #EXTINF:-1 tvg-logo="https://media.themoviedb.org/t/p/w220_and_h330_face/xihssRPgRDZ7xwIjx3xuPTnqPfU.jpg"group-title="ACCIÓN",G20
@@ -560,9 +591,25 @@ https://pixeldrain.com/api/file/WLdJwExp
 https://pixeldrain.com/api/file/KnUcdfYy
 
 
+#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/original/nq7NbZtNfIHyL1NXPV1EiG4XQ7u.jpg"group-title="ACCIÓN",EL PACTO
+https://pixeldrain.com/api/file/P1ZHMKsW
 
 
-#EXTINF:-1 tvg-logo="https://media.themoviedb.org/t/p/w220_and_h330_face/l1h0vckonVoVFgUzXS4phDhcXDt.jpg"group-title="ACCIÓN", SOLDADO DE ELITE 
+
+
+
+#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/original/14AUhr2kryo1NZiFQ2HPkT2tKvg.jpg"group-title="ACCIÓN",Jack Reacher 
+https://pixeldrain.com/api/file/PiFofc4h
+
+
+
+#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/original/eLzStFuergouErSQlfABthuQHCJ.jpg"group-title="ACCIÓN",Jack Reacher 2
+https://pixeldrain.com/api/file/NnH1tRxt
+
+
+
+#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/original/uUdLDjJJdl479W55y0FbvZECug5.jpg"group-title="ACCIÓN", DESPIERTA LA FURIA
+https://pixeldrain.com/api/file/ewnXoiXW
 
 
 
@@ -606,7 +653,11 @@ http://ia801303.us.archive.org/24/items/000_20191225/5.mp4
 
 
 
-#EXTINF:-1 tvg-logo="https://media.themoviedb.org/t/p/w220_and_h330_face/llpNGX1H5sQdGRHeteyFXELuoMz.jpg"group-title="ACCIÓN",BALLERINA
+#EXTINF:-1 tvg-logo="https://media.themoviedb.org/t/p/w220_and_h330_face/llpNGX1H5sQdGRHeteyFXELuoMz.jpg"group-title="ACCIÓN",BALLERINA 1080p
+https://pixeldrain.com/api/file/15yt5Bhp
+
+
+#EXTINF:-1 tvg-logo="https://media.themoviedb.org/t/p/w220_and_h330_face/llpNGX1H5sQdGRHeteyFXELuoMz.jpg"group-title="ACCIÓN",BALLERINA 720p
 http://ia803202.us.archive.org/17/items/KGSD5USD/PLBLLN25.mkv
 
 
@@ -623,11 +674,16 @@ https://videos.gia.tv/giatv/movies/playlist/209163/Sentencia_de_muerte__2007____
 
 
 #EXTINF:-1 tvg-logo="https://media.themoviedb.org/t/p/w220_and_h330_face/jcV9YfjBRo6occxqeWtEiyWwMoG.jpg"group-title="ACCIÓN",EL CONTABLE 2
-http://ia801303.us.archive.org/24/items/K9M4ZP3P/ECNTD225.mkv
+https://pixeldrain.com/api/file/Taf8FRW9
+
+
 
 
 #EXTINF:-1 tvg-logo="https://media.themoviedb.org/t/p/w220_and_h330_face/n5af068Xoa2feazpY5MP3xcW5Mj.jpg"group-title="ACCIÓN",Road House (De profesión: duro)
-http://ia801303.us.archive.org/24/items/4621UE7C/PELEDR24V2.mkv
+https://pixeldrain.com/api/file/ZiFnRJMM
+
+
+
 
 
 #EXTINF:-1 tvg-logo="https://media.themoviedb.org/t/p/w440_and_h660_face/6K110gLF5QZHLlzvVWisQ2kHF2X.jpg"group-title="ACCIÓN", EL PILOTO 
