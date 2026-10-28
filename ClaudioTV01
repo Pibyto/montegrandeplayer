@@ -3164,6 +3164,11 @@ https://movil.ejeserver.com/live/calimatv.m3u8
 
 
 
+
+#EXTINF:-1 tvg-logo="https://i.ibb.co/W4dKw05Q/IMG-20261019-WA0155.jpg"group-title="R.DOMINICANA", METROTV
+https://lbgo.bozztv.com/ssh101/ssh101/metrotv/chunks.m3u8
+
+
 #EXTINF:-1 tvg-logo="https://i.ytimg.com/vi/XuI4m5yKAwE/hq720.jpg?sqp=-oaymwE7CK4FEIIDSFryq4qpAy0IARUAAAAAGAElAADIQj0AgKJD8AEB-AH-CYAC0AWKAgwIABABGHIgOig6MA8=&rs=AOn4CLDQ8LGMt9m_bCCL2rfVThba3rKAhA"group-title="R.DOMINICANA", AHORATV 3
 https://stream.haislin.com/ahoratv/index.m3u8
 
