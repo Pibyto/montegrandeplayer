@@ -16,11 +16,13 @@ https://videos.gia.tv/giatv/movies/playlist/209163/904a0f09330868f645fa6c52f4bf9
 https://videos.gia.tv/giatv/movies/playlist/209181/T3_N6_Z1N6.mp4
 
 
-#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/original/eW3AAxDx6q6PCymoLDki3YuYFui.jpg"group-title="DESTACADOS",LOS 4 FANTASTICOS - Primeros Pasos
-https://pixeldrain.com/api/file/T5uVNHe2
+#EXTINF:-1 tvg-logo="https://m.media-amazon.com/images/S/pv-target-images/c90f54517736083fddb6b7f325a6e321dec7735be83423991969d6ea7579c40b.jpg"group-title="DESTACADOS",Faith Like Potatoes (NO PIERDAS LA FE)
+https://videos.gia.tv/giatv/movies/playlist/209181/_N_0_p_13_rd_4_5_l4_f_3.mp4
 
-#EXTINF:-1 tvg-logo="https://media.themoviedb.org/t/p/w1000_and_h563_face/pwIX6Qn9TG1XrBNGzZ7cjZ52Pa8.jpg"group-title="DESTACADOS",A LA CARRERA 
-https://videos.gia.tv/giatv/movies/pvod/209163/_14_C4_443_R4.mp4
+
+
+#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/original/w7H2Jxe8aq9k1mAeVHbsL5nDFio.jpg"group-title="DESTACADOS",LO DEJAMOS ACA
+https://videos.gia.tv/giatv/movies/playlist/209163/LO_D3J4M05_4C4.mp4
 
  
 
@@ -33,8 +35,8 @@ https://videos.gia.tv/giatv/movies/playlist/209163/EL_HO_MBE_QUE_DE_SA_F10_AL_R3
 https://videos.gia.tv/giatv/movies/playlist/209163/MA_TCH_BO_X.mp4
 
 
-#EXTINF:-1 tvg-logo="https://media.themoviedb.org/t/p/w1000_and_h563_face/uuvcuxyQaSEq7PnbIWNVjPvEiWz.jpg"group-title="DESTACADOS",LA HIPÓTESIS DEL AMOR 
-https://videos.gia.tv/giatv/movies/playlist/209163/H1PO_TES1S_DEL_AM_OR.mp4
+#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/original/r22CQDvFWFTcYgamVG0vKMeuyyC.jpg"group-title="DESTACADOS", MIEDO PROFUNDO
+https://videos.gia.tv/giatv/movies/playlist/209181/_13__0_p_r0_u_n_d0.mp4
 
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/original/JzTmH0s7caaS20YyBQd3XFlHHp.jpg"group-title="DESTACADOS",Fall 2: Deadpoint
 https://videos.gia.tv/giatv/movies/playlist/209163/ve_r_t1_ga2.mp4
@@ -47,8 +49,7 @@ https://videos.gia.tv/giatv/movies/playlist/209163/3NT_RE_GAAL_L1M1T3.mp4
 #EXTINF:-1 tvg-logo="https://media.themoviedb.org/t/p/w1000_and_h563_face/9J57bJclxsha2EmTQhv5GigCksU.jpg"group-title="DESTACADOS",EL MOTIN
 https://videos.gia.tv/giatv/movies/playlist/209163/3L_M0T1N.mp4
 
-#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/original/o10hBsrDQ7iCa4C4DLSQwb2akL9.jpg"group-title="DESTACADOS",LA RED SOCIAL 
-https://pixeldrain.com/api/file/p6GBVwy8
+
 
 #EXTINF:-1 tvg-logo="https://media.themoviedb.org/t/p/w1000_and_h563_face/wMf9uJ8HVHqkjGXMeqseqrmtTeQ.jpg"group-title="DESTACADOS",SUPERGIRL
 https://videos.gia.tv/giatv/movies/playlist/209163/5t4r_61rl_2026.mp4
@@ -1077,9 +1078,12 @@ https://live20.bozztv.com/giatvplayout/giatvvod/giatv/movies/playlist/208538/Tor
 
 
 #EXTINF:-1 tvg-logo="https://media.themoviedb.org/t/p/w220_and_h330_face/uy36CPy5ARuC8qrH8Esg2ndFyJ5.jpg"group-title="HECHOS REALES",WHIPLASH
-https://videos.gia.tv/giatv/movies/playlist/208538/Whiplash_2014_1080p_LATiNO_720P_HD_.mp4
+https://videos.gia.tv/giatv/movies/playlist/209181/Whiplash_m__sica_y_obsesi__n_pel__cula_completa_en_espa__ol.mp4
 
 
+
+#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/original/o10hBsrDQ7iCa4C4DLSQwb2akL9.jpg"group-title="HECHOS REALES",LA RED SOCIAL 
+https://pixeldrain.com/api/file/p6GBVwy8
 
 
 #EXTINF:-1 tvg-logo="https://media.themoviedb.org/t/p/w220_and_h330_face/ajrtVh7xN8HwoFXHkEDRjMjye1d.jpg"group-title="HECHOS REALES", WONDER
@@ -1126,6 +1130,12 @@ http://ia801303.us.archive.org/24/items/sst_20200905/sst.mp4
 ############( MARVEL )############
 
 
+
+
+
+
+#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/original/eW3AAxDx6q6PCymoLDki3YuYFui.jpg"group-title="MARVEL",LOS 4 FANTASTICOS - Primeros Pasos
+https://pixeldrain.com/api/file/T5uVNHe2
 
 
 
