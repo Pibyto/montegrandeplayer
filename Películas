@@ -23,14 +23,16 @@ https://videos.gia.tv/giatv/movies/playlist/208138/0P3_R4C_10N_TH3_R4N.mp4
 
 
 
-#EXTINF:-1 tvg-logo="https://media.themoviedb.org/t/p/w1000_and_h563_face/d9FTfDtBtNmgdyCvDG6BjxNti9w.jpg"group-title="DESTACADOS",TENZING
-https://videos.gia.tv/giatv/movies/playlist/209181/T3_N6_Z1N6.mp4
+#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/original/75MLVCmQ4QougShkx3OlUbJbuSK.jpg"group-title="DESTACADOS",EL DESPERTAR
+https://videos.gia.tv/giatv/movies/playlist/208138/TH3_AW4_3N1NG_2.mp4
+
 
 
 #EXTINF:-1 tvg-logo="https://m.media-amazon.com/images/S/pv-target-images/1c8e92c8458486ece29fcee3c0518cdae2fb2fd15d86685de3a5651538b1790c.png"group-title="DESTACADOS",Faith Like Potatoes (NO PIERDAS LA FE)
 https://videos.gia.tv/giatv/movies/playlist/209181/_N_0_p_13_rd_4_5_l4_f_3.mp4
 
-
+#EXTINF:-1 tvg-logo="https://media.themoviedb.org/t/p/w1000_and_h563_face/d9FTfDtBtNmgdyCvDG6BjxNti9w.jpg"group-title="DESTACADOS",TENZING
+https://videos.gia.tv/giatv/movies/playlist/209181/T3_N6_Z1N6.mp4
 
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/original/w7H2Jxe8aq9k1mAeVHbsL5nDFio.jpg"group-title="DESTACADOS",LO DEJAMOS ACA
 https://videos.gia.tv/giatv/movies/playlist/209163/LO_D3J4M05_4C4.mp4
@@ -49,6 +51,9 @@ https://videos.gia.tv/giatv/movies/playlist/209163/EL_HO_MBE_QUE_DE_SA_F10_AL_R3
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/original/JzTmH0s7caaS20YyBQd3XFlHHp.jpg"group-title="DESTACADOS",Fall 2: Deadpoint
 https://videos.gia.tv/giatv/movies/playlist/209163/ve_r_t1_ga2.mp4
 
+#EXTINF:-1 tvg-logo="https://media.themoviedb.org/t/p/w1000_and_h563_face/wMf9uJ8HVHqkjGXMeqseqrmtTeQ.jpg"group-title="DESTACADOS",SUPERGIRL
+https://videos.gia.tv/giatv/movies/playlist/209163/5t4r_61rl_2026.mp4
+
 
 #EXTINF:-1 tvg-logo="https://media.themoviedb.org/t/p/w1000_and_h563_face/xjdDyajw5Cf5Hu9mMc45lxy6ekf.jpg"group-title="DESTACADOS",ENTREGA AL LIMITE 
 https://videos.gia.tv/giatv/movies/playlist/209163/3NT_RE_GAAL_L1M1T3.mp4
@@ -62,8 +67,7 @@ https://videos.gia.tv/giatv/movies/playlist/209163/3L_M0T1N.mp4
 
 
 
-#EXTINF:-1 tvg-logo="https://media.themoviedb.org/t/p/w1000_and_h563_face/wMf9uJ8HVHqkjGXMeqseqrmtTeQ.jpg"group-title="DESTACADOS",SUPERGIRL
-https://videos.gia.tv/giatv/movies/playlist/209163/5t4r_61rl_2026.mp4
+
 
 #EXTINF:-1 tvg-logo="https://media.themoviedb.org/t/p/w1000_and_h563_face/oSdOKZr0otdczVjsCZ485EHNe4P.jpg"group-title="DESTACADOS",MASTERPLAN
 https://videos.gia.tv/giatv/movies/playlist/209163/fe19b94f176757bb0d09fd3a19827393.mp4
