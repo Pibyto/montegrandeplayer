@@ -8,14 +8,19 @@
 
 
 
+#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/original/wjwP1XCiJA8DkNEwYe77mXPhDw3.jpg"group-title="DESTACADOS",SPIDER-MAN NUEVO DÍA
+https://videos.gia.tv/giatv/movies/playlist/208138/SP_1D3R_M4_.mp4
+
+
+
+#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/original/npbrtfJOgb5XGPqrTwnEujXH2Lw.jpg"group-title="DESTACADOS",ZONA CERO (2026)
+https://videos.gia.tv/giatv/movies/playlist/208138/D14_Z3_R0.mp4
+
 
 
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/original/1NmePqMP9DUy3Q8gKt42aA6Ft1.jpg"group-title="DESTACADOS",THE FIX (SUBTITULADA)
 https://videos.gia.tv/giatv/movies/playlist/208138/0P3_R4C_10N_TH3_R4N.mp4
 
-
-#EXTINF:-1 tvg-logo="https://media.themoviedb.org/t/p/w1000_and_h563_face/ymUnksDzfZmCZCQTQhDshc2p8vH.jpg"group-title="DESTACADOS", ANIMALES (Animals 2026)
-https://videos.gia.tv/giatv/movies/playlist/209163/904a0f09330868f645fa6c52f4bf9cb0.mp4
 
 
 #EXTINF:-1 tvg-logo="https://media.themoviedb.org/t/p/w1000_and_h563_face/d9FTfDtBtNmgdyCvDG6BjxNti9w.jpg"group-title="DESTACADOS",TENZING
@@ -41,8 +46,7 @@ https://videos.gia.tv/giatv/movies/playlist/209163/EL_HO_MBE_QUE_DE_SA_F10_AL_R3
 https://videos.gia.tv/giatv/movies/playlist/209163/MA_TCH_BO_X.mp4
 
 
-#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/original/r22CQDvFWFTcYgamVG0vKMeuyyC.jpg"group-title="DESTACADOS", MIEDO PROFUNDO
-https://videos.gia.tv/giatv/movies/playlist/209181/_13__0_p_r0_u_n_d0.mp4
+
 
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/original/JzTmH0s7caaS20YyBQd3XFlHHp.jpg"group-title="DESTACADOS",Fall 2: Deadpoint
 https://videos.gia.tv/giatv/movies/playlist/209163/ve_r_t1_ga2.mp4
@@ -1026,6 +1030,12 @@ https://pixeldrain.com/api/file/UQVjkAnF
 
 
 
+
+#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/original/7RJvtjdFifWBrr5G8PZY5dlykWR.jpg"group-title="AVENTURA", MIEDO PROFUNDO
+https://videos.gia.tv/giatv/movies/playlist/209181/_13__0_p_r0_u_n_d0.mp4
+
+
+
 #EXTINF:-1 tvg-logo="https://media.themoviedb.org/t/p/w220_and_h330_face/aBNoiJ6YOrUW2xu9dT8OKppiwdo.jpg"group-title="AVENTURA",
 LA LLAMADA SALVAJE
 https://pixeldrain.com/api/file/fCPL3axr
@@ -1479,7 +1489,7 @@ http://ia801303.us.archive.org/24/items/202209_20220918_1346/Inteligencia%20arti
 
 
 
-#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/original/aDbCnYtGf850s9EfU3LOh1gejm4.jpg"group-title="CRISTINO",Faith Like Potatoes (NO PIERDAS LA FE)
+#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/original/aDbCnYtGf850s9EfU3LOh1gejm4.jpg"group-title="CRISTIANO",Faith Like Potatoes (NO PIERDAS LA FE)
 https://videos.gia.tv/giatv/movies/playlist/209181/_N_0_p_13_rd_4_5_l4_f_3.mp4
 
 
