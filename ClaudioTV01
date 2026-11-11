@@ -6,33 +6,6 @@
 
 
 
-
-#EXTINF:-1 tvg-logo="https://tinyurl.com/Mgtevebanner"group-title="BUENOS AIRES",MONTEGRANDETV
-https://live20.bozztv.com/giatvplayout7/giatv-209181/tracks-v1a1/mono.ts.m3u8
-
-
-#EXTINF:-1 tvg-logo="https://i.ibb.co/FQLB6ht/file-000000001ee4820eb6e45694b098a80f.png"group-title="BUENOS AIRES", MGTV WORSHIP
-https://live20.bozztv.com/giatvplayout7/giatv-212009/playlist.m3u8
-
-
-#EXTINF:-1 tvg-logo="https://i.ibb.co/v4FM17Lr/file-000000003dd0720eacfc6285ecb80b77.png"group-title="BUENOS AIRES ",MONTEGRANDETV KIDS
-https://live20.bozztv.com/giatvplayout7/giatv-208538/playlist.m3u8
-
-
-#EXTINF:-1 tvg-logo="https://cdn.phototourl.com/member/2026-09-25-1af1a900-0d7a-4477-8a1b-2b3a6ff757d3.png"group-title="BUENOS AIRES",MGTV SIEMPRE+
-https://lbgo.bozztv.com/ssh101/ssh101/mgradiotv/chunks.m3u8
-
-
-#EXTINF:-1 tvg-logo="https://i.ibb.co/tTbt5MzZ/file-00000000b3c0820e945ea1d51428a4da.png"group-title="BUENOS AIRES",FE VIVA
-https://live20.bozztv.com/giatvplayout7/giatv-208770/playlist.m3u8
-
-
-
-#EXTINF:-1 tvg-logo="https://i.ibb.co/tPY671yt/HD-wallpaper-ios-14-ipados-dark-red-and-black-stock-abstract-3.png"group-title="BUENOS AIRES", MOVIEFLIX SERIES
-https://live20.bozztv.com/giatvplayout7/giatv-212443/tracks-v1a1/mono.ts.m3u8
-
-
-
 #EXTINF:-1 tvg-logo="https://i.ibb.co/q3mftBF7/HD-wallpaper-ios-14-ipados-dark-red-and-black-stock-abstract-1.png"group-title="BUENOS AIRES", MOVIEFLIX
 https://vs20.live.opencaster.com/montetv_49c0778f/index.m3u8
 
@@ -41,13 +14,9 @@ https://vs20.live.opencaster.com/montetv_49c0778f/index.m3u8
 
 
 
+#EXTINF:-1 tvg-logo="https://cdn.phototourl.com/member/2026-09-25-1af1a900-0d7a-4477-8a1b-2b3a6ff757d3.png"group-title="BUENOS AIRES",MGTV SIEMPRE+
+https://lbgo.bozztv.com/ssh101/ssh101/mgradiotv/chunks.m3u8
 
-#EXTINF:-1 tvg-logo="https://tinyurl.com/Max2banner"group-title="BUENOS AIRES",MAX2
-https://live20.bozztv.com/giatvplayout7/giatv-209163/playlist.m3u8
-
-
-
- 
 
  
 #EXTINF:-1 tvg-logo="https://i.ibb.co/m50nZYxv/1789262677071.png"group-title="BUENOS AIRES",NEOTV HD
@@ -62,7 +31,7 @@ https://srv3.zcast.com.br/gentv/gentv/playlist.m3u8
 
 
 #EXTINF:-1 tvg-logo="https://i.ibb.co/PZZgn5cf/marvel-studios-mcu-new-logo.png"group-title="BUENOS AIRES",MARVEL 2
-https://lbgo.bozztv.com/ssh101/ssh101/imcu/playlist.m3u8
+https://stream-cdn-iad3.vaughnsoft.net/play/live_marlon_hd.flv
 
 
 #EXTINF:-1 tvg-logo="https://i.ibb.co/SXRqCTGw/file-00000000da7082439c19864e0c53a9eb-4.png"group-title="BUENOS AIRES",BAYRESTV HD
