@@ -3753,6 +3753,27 @@ https://viewhn.com/canal30/live/chunks.m3u8
 https://streamthree.cloudhostservers.com:3821/hybrid/play.m3u8
 
 
+#EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRHAYM7qEpAyBRS6MoUcPSmfxTV_THPGpqKker_C7HD0tH4a_C_oWS65_W3&s=10"group-title="NICARAGUA",VIVA TV
+https://cdn.vivamediosni.com/viva/main_stream.m3u8
+
+
+#EXTINF:-1 tvg-logo="https://www.canal4.com.ni/wp-content/uploads/2022/07/Canal-4-3.jpeg"group-title="NICARAGUA",CANAL 4
+https://live.eu-north-1a.cf.dmcdn.net/sec2(HhwB1QUBIwrdOLgjTNFUhbCk7MS-kvZOq2OiGi48hjOTp_GMCr_lWCjLI-OrHL_zGSsUx4vpAfxFP_HAL9t9CCJHTKC3XC5VZcQ-bd61qBnfVbr3wtdUSf9tVAIrJPj7)/dm/3/x7rwv8c/s/live-480.m3u8
+
+
+#EXTINF:-1 tvg-logo="https://yt3.googleusercontent.com/BnqDOnGtD0HsKwJiTo4uIe7BJAW4jXRJ6ndF2tukuDSLtrpRMVa3XQvN_EgmMENUONNXbXJRvg=s900-c-k-c0x00ffffff-no-rj"group-title="NICARAGUA",CAMPEONES TV
+https://cdn.vivamediosni.com/campeones/main_stream.m3u8
+
+
+
+#EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRGMTs9sLxpcHBYlF-VyglQAShta_3Ke1oMSH1S2L1DwSuH2jbYfuJRwIc&s=10"group-title="NICARAGUA",NICARAO
+https://cdn.vivamediosni.com/nicarao/main_stream.m3u8
+
+
+
+
+
+
 #EXTINF:-1 tvg-logo="https://i.ibb.co/3YYq3QGk/1771870911133.png"group-title="NICARAGUA",WTV 40
 https://cootv.cootel.com.ni:8095/Canal40_WTV/playlist.m3u8
 
