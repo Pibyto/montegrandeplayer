@@ -18,10 +18,6 @@ https://vs20.live.opencaster.com/montetv_49c0778f/index.m3u8
 https://vs20.live.opencaster.com/montegrandetv3_cf48df6a/index.m3u8
 
 
-
-
-
- 
 #EXTINF:-1 tvg-logo="https://i.ibb.co/m50nZYxv/1789262677071.png"group-title="BUENOS AIRES",NEOTV HD
 https://videostream.shockmedia.com.ar:19360/neotvdigital/neotvdigital.m3u8
 
@@ -30,6 +26,8 @@ https://videostream.shockmedia.com.ar:19360/neotvdigital/neotvdigital.m3u8
 https://srv3.zcast.com.br/gentv/gentv/playlist.m3u8
 
 
+#EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRm2UelDOtKcskvOKCmgtY6UBIDbzk0k1p3xgxtWWeF6iWaPWHI3RyPQOc&s=10"group-title="BUENOS AIRES",BLU HD
+https://videostream.shockmedia.com.ar/hls/blumedios/blumedios.m3u8
 
 
 
