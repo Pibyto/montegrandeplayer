@@ -66,6 +66,13 @@ https://vtm2.msinteractiva.com/lamil35/lamil35/playlist.m3u8
 #EXTINF:-1 tvg-logo="https://i.ibb.co/mr0McHnp/file-000000004608820e916ca49bd1b4bfb9.png"group-title="BUENOS AIRES",LA PODEROSA TV
 https://vs20.live.opencaster.com/canalveintyuno_cc6cc953/index.m3u8
 
+#EXTINF:-1 tvg-logo="https://i.ibb.co/DPshh9Ss/fondo-papel-tapiz-artistico-borroso-colorido-58702-8553-5.png"group-title="BUENOS AIRES",EL MAGO TV
+https://183.giatvcdn.com/ssh101/ssh101/elmagotv2/chunks.m3u8
+
+
+#EXTINF:-1 tvg-logo="https://i.ibb.co/1fTxvp15/file-00000000b124820e9015d373d7bf9af1.png"group-title="BUENOS AIRES", IPERSONICA TV 
+https://183.giatvcdn.com/ssh101/ssh101/ipersonica/playlist.m3u8
+
 
 #EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRQYDQpGC9ZjnjPfzQ76ZlFpMYlQycpyct2ll_3U4PVPCM-ix2D6XJm1unc&s=10"group-title="BUENOS AIRES",JAM MDP
 https://master.tucableip.com/OBSRT/tracks-v1a1/mono.ts.m3u8
@@ -82,7 +89,9 @@ https://canaletaplus.com:3922/live/cosmoslive.m3u8
 
 
 #EXTINF:-1 tvg-logo="https://i.ibb.co/LDH9d0CB/Polish-20260713-152652011-6.png"group-title="BUENOS AIRES", MAXCINE KIDS
-https://live20.bozztv.com/giatvplayout7/giatv-209909/playlist.m3u8
+https://183.giatvcdn.com/giatvplayout7/giatv-209909/tracks-v1a1/mono.ts.m3u8
+
+
 
 
 
@@ -91,14 +100,14 @@ https://panel.host-live.com:19360/8012/8012.m3u8
 
 
 #EXTINF:-1 tvg-logo="https://i.ibb.co/DfZpSWcw/fondo-papel-tapiz-artistico-borroso-colorido-58702-8553-4.png"group-title="BUENOS AIRES",TELEMIX HD
-https://183.bozztv.com/giatv/giatv-telemixenvivo/telemixenvivo/playlist.m3u8
+https://183.giatvcdn.com/giatv/giatv-telemixenvivo/telemixenvivo/playlist.m3u8
 
 
 #EXTINF:-1 tvg-logo="https://i.ibb.co/PJxCzxZ/file-000000002674820e98b1e9f3556f7edc.png"group-title="BUENOS AIRES",3 PINAMAR 
 https://intelincloud01.com.ar/hls/cn3/index.m3u8
 
 #EXTINF:-1 tvg-logo="https://tinyurl.com/Magicateve"group-title="BUENOS AIRES", CIUDADMAGICATV
-https://live20.bozztv.com/akamaissh101/ssh101/verycoolfgr/chunks.m3u8
+https://183.giatvcdn.com/akamaissh101/ssh101/verycoolfgr/chunks.m3u8
 
 
 #EXTINF:-1 tvg-logo="https://i.ytimg.com/vi/6yrATHydh3w/sddefault.jpg"group-title="BUENOS AIRES",EL TRECE
@@ -324,7 +333,7 @@ http://streamyes.alsolnet.com/canal34hd/live/chunklist_w638979893.m3u8
 
 
 #EXTINF:-1 tvg-logo="https://i.ibb.co/twNq72rC/1776360821019-1.png"group-title="ARGENTINA",11 DIGITAL 
-https://live20.bozztv.com/giatv/giatv-ojodigital/ojodigital/playlist.m3u8
+https://183.giatvcdn.com/giatv/giatv-ojodigital/ojodigital/playlist.m3u8
 
 
 #EXTINF:-1 tvg-logo="https://cms.evangelicodigital.com/upload/imagenes/62f4cf1fcb7e5_canal-luz-G.jpg"group-title="ARGENTINA",CanalLUZ
@@ -431,7 +440,7 @@ https://stream.arcast.com.ar/c3lapampa/ngrp:c3lapampa_all/playlist.m3u8
 
 
 #EXTINF:-1 tvg-logo="https://i.ytimg.com/vi/vNU5j_QaI7U/maxresdefault.jpg"group-title="ARGENTINA",CANAL 8
-https://live20.bozztv.com/akamaissh101/ssh101/canal8sanjuan/playlist.m3u8
+https://183.giatvcdn.com/akamaissh101/ssh101/canal8sanjuan/playlist.m3u8
 
 
 
@@ -445,7 +454,7 @@ https://vivo.solumedia.com:19360/sicarditv/sicarditv.m3u8
 
 
 #EXTINF:-1 tvg-logo="https://i.ibb.co/b57Q9kcL/images-62.png"group-title="ARGENTINA", UNIVERSO
-https://live20.bozztv.com/giatv/giatv-universotv/universotv/chunks.m3u8
+https://183.giatvcdn.com/giatv/giatv-universotv/universotv/chunks.m3u8
 
 
 
@@ -454,7 +463,7 @@ https://stmvideo1.livecastv.com/fmpucara/fmpucara/playlist.m3u8
 
 
 #EXTINF:-1 tvg-logo="https://bellohorizonte.com.ar/wp-content/uploads/2025/12/487750195_1282079193924940_762925605084316448_n-Edited.png"group-title="ARGENTINA",BELLO HORIZONTE 
-https://live20.bozztv.com/giatv/giatv-horizonte/horizonte/chunks.m3u8
+https://183.giatvcdn.com/giatv/giatv-horizonte/horizonte/chunks.m3u8
 
 
 #EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRAMQ4ZP9xWqvkChMTSIF5SV-DkqpvWaflPaMFGAOPwy4Qw5841hmBPABo&s=10"group-title="ARGENTINA",TDC
@@ -667,7 +676,7 @@ https://cdn.40mediagroup.com/live/c7eds/ENT_Drama/SA_LIVE_hls_enc/tracks-v1a1/mo
 
 
 #EXTINF:-1 tvg-logo="https://static.wikia.nocookie.net/house/images/e/e5/House%2C_M.D._Season_7.jpg/revision/latest?cb=20251009033345"group-title="CINE PREMIUM",Dr. HOUSE 24°7
-https://live20.bozztv.com/giatvplayout7/giatv-211979/playlist.m3u8
+https://183.giatvcdn.com/giatvplayout7/giatv-211979/playlist.m3u8
 
 
 #EXTINF:-1 tvg-logo="https://i.ibb.co/Jj3nn2PN/631-6aaed802073bc.png"group-title="CINE PREMIUM",RETRO TV ONLINE
@@ -677,7 +686,7 @@ https://stream.enlineatv.net/hls/retrotv/index.m3u8
 
 
 #EXTINF:-1 tvg-logo="https://i.ibb.co/rGHsn9Rh/file-00000000b124820e9015d373d7bf9af1.png"group-title="CINE PREMIUM",IPERSONICATV
-https://lbgo.bozztv.com/ssh101/ssh101/ipersonica/playlist.m3u8
+https://183.giatvcdn.com/ssh101/ssh101/ipersonica/playlist.m3u8
 
 #EXTINF:-1 tvg-logo="https://i.ibb.co/7xWLtr46/tecnologia-fondo-azul-abstracto-e-ilustracion-vector-concepto-alta-tecnologia-542898-707.png"group-title="CINE PREMIUM",MAX TV MOVIES
 https://tvstreaming.albpo.com/memfs/8d987761-7923-4532-a95d-20723ae95374_output_0.m3u8
@@ -812,7 +821,7 @@ https://stream.ads.ottera.tv/cl/260821da3qes1kep0s73adb8u0/1920x1080_4787200_1_f
 
 
 #EXTINF:-1 tvg-logo="https://i.ibb.co/9kZQDT3n/istockphoto-1362422378-612x612-1.png"group-title="CINE PREMIUM",WOW MOVIES
-https://live20.bozztv.com/giatv/giatv-wowmovies/wowmovies/chunks.m3u8
+https://183.giatvcdn.com/giatv/giatv-wowmovies/wowmovies/chunks.m3u8
 
 
 #EXTINF:-1 tvg-logo="https://i.ibb.co/JRLwzxw4/istockphoto-1362422378-612x612-2.png"group-title="CINE PREMIUM",NEXTV
@@ -870,7 +879,7 @@ https://vcp10.myplaytv.com/tvs/tvs/chunklist_w989702023.m3u8
 
 
 #EXTINF:-1 tvg-logo="https://tinyurl.com/Max2fucsia"group-title="CINE PREMIUM", MAX 2
-https://lbgo.bozztv.com/ssh101/ssh101/max16/playlist.m3u8
+https://183.giatvcdn.com/ssh101/ssh101/max16/playlist.m3u8
 
 
 
@@ -889,7 +898,7 @@ https://lbgo.bozztv.com/ssh101/ssh101/max16/playlist.m3u8
 
 
 #EXTINF:-1 tvg-logo="https://tinyurl.com/Chavitoo"group-title="KIDS",CHAVO
-https://live20.bozztv.com/giatvplayout7/giatv-211465/playlist.m3u8
+https://183.giatvcdn.com/giatvplayout7/giatv-211465/playlist.m3u8
 
 
 #EXTINF:-1 tvg-logo="https://i.ibb.co/LDH9d0CB/Polish-20260713-152652011-6.png"group-title="KIDS", MAXCINE KIDS
@@ -920,13 +929,13 @@ https://tv.wracanal10.com:3300/live/chinolatvlive.m3u8
 
 
 #EXTINF:-1 tvg-logo="https://tinyurl.com/3buy42kt"group-title="KIDS",MONI TV
-https://live20.bozztv.com:443/akamaissh101/ssh101/monitvhd/chunks.m3u8
+https://183.giatvcdn.com:443/akamaissh101/ssh101/monitvhd/chunks.m3u8
 
 
 
 
 #EXTINF:-1 tvg-logo="https://i.ibb.co/G34c3GqN/1200x630wa.png"group-title="KIDS",TUCINE
-https://live20.bozztv.com/akamaissh101/ssh101/xiomoz/chunks.m3u8
+https://183.giatvcdn.com/akamaissh101/ssh101/xiomoz/chunks.m3u8
 
 #EXTINF:-1 tvg-logo="https://cdn.phototourl.com/free/2026-04-19-c98a4dda-105a-438f-9ea2-ec59000de62d.png"group-title="KIDS",ENT CHANNEL
 https://cdn.global.elektamedia.com/live/c7eds/ENT_Channel/SA_LIVE_hls_enc/tracks-v1a1/mono.m3u8
@@ -970,17 +979,17 @@ http://190.61.114.186:8000/play/a01h/index.m3u8
 
 
 #EXTINF:-1 tvg-logo="https://tinyurl.com/Postermax"group-title="ANIME", NARUTO 
-https://live20.bozztv.com/giatvplayout7/giatv-211970/playlist.m3u8
+https://183.giatvcdn.com/giatvplayout7/giatv-211970/playlist.m3u8
 
 
 
 #EXTINF:-1 tvg-logo="https://tinyurl.com/Postermax"group-title="ANIME", SPIDERMAN 
-https://live20.bozztv.com/giatvplayout7/giatv-210702/playlist.m3u8
+https://183.giatvcdn.com/giatvplayout7/giatv-210702/playlist.m3u8
 
 
 
 #EXTINF:-1 tvg-logo="https://tinyurl.com/Postermax"group-title="ANIME",XMEN
-https://live20.bozztv.com/giatvplayout7/giatv-210703/playlist.m3u8
+https://183.giatvcdn.com/giatvplayout7/giatv-210703/playlist.m3u8
 
 
 
@@ -1258,19 +1267,19 @@ https://pantera1-100gb-cl-movistar.dps.live/tvquellon/tvquellon.smil/playlist.m3
 
 
 #EXTINF:-1 tvg-logo="https://i.ibb.co/3mf5LXbn/file-000000003108820e9bb9cdfe0e26d725.png"group-title="CHILE",DOCEVISION 24/7
-https://live20.bozztv.com/giatvplayout7/giatv-208729/tracks-v1a1/mono.m3u8
+https://183.giatvcdn.com/giatvplayout7/giatv-208729/tracks-v1a1/mono.m3u8
 
 
 #EXTINF:-1 tvg-logo="https://i.ibb.co/7dRLm1zc/IMG-20261025-WA0265.jpg"group-title="CHILE",PLENITUD TV HD 24/7
-https://live20.bozztv.com/giatvplayout7/giatv-208727/tracks-v1a1/mono.m3u8
+https://183.giatvcdn.com/giatvplayout7/giatv-208727/tracks-v1a1/mono.m3u8
 
 
 #EXTINF:-1 tvg-logo="https://i.ibb.co/1YYrnKzs/IMG-20260718-WA0049.png"group-title="CHILE",PLENITUD TV 2
-https://live20.bozztv.com/giatvplayout7/giatv-212033/playlist.m3u8
+https://183.giatvcdn.com/giatvplayout7/giatv-212033/playlist.m3u8
 
 
 #EXTINF:-1  tvg-logo="https://i.ibb.co/0RW7vLm8/IMG-20250330-WA0067.jpg"group-title="CHILE",PLENITUD TV JUVENIL HD
-https://live20.bozztv.com/giatvplayout7/giatv-209259/tracks-v1a1/mono.m3u8
+https://183.giatvcdn.com/giatvplayout7/giatv-209259/tracks-v1a1/mono.m3u8
 
 
 #EXTINF:-1 tvg-logo="https://i.ibb.co/nszz9RHZ/realistic-neon-lights-background-23-2148903052-3.png"group-title="CHILE",ENT MOVIES
@@ -1320,7 +1329,7 @@ https://backend.energeek.cl/webtv/egretroweb/tracks-v1a1/mono.m3u8?token=W3bEner
 
 
 #EXTINF:-1 tvg-logo="https://tinyurl.com/3buy42kt"group-title="CHILE",MONITV
-https://live20.bozztv.com:443/akamaissh101/ssh101/monitvhd/chunks.m3u8
+https://183.giatvcdn.com:443/akamaissh101/ssh101/monitvhd/chunks.m3u8
 
 
 #EXTINF:-1 tvg-logo="https://www.vivalivetv.com/public/files/shows/0/1/2943-960x540-000000.jpg"group-title="CHILE",RESTAURANDO VIDAS TV HD
@@ -1475,7 +1484,7 @@ https://v2.tustreaming.cl:443/chilechannel/tracks-v1a1/mono.m3u8
 
 
 #EXTINF:-1 tvg-logo="https://cdn.phototourl.com/free/2026-09-07-cfb8043d-de87-4aed-9687-accceb384811.png"group-title="CHILE",NOSTALGIA TV
-https://live20.bozztv.com/akamaissh101/ssh101/testvideo50/playlist.m3u8
+https://183.giatvcdn.com/akamaissh101/ssh101/testvideo50/playlist.m3u8
 
 
 
@@ -1497,7 +1506,7 @@ http://51.222.85.85:81/hls/loco/index.m3u8
 
 
 #EXTINF:-1 tvg-logo="https://i.ibb.co/SvF8DQC/3dgifmaker23584.gif"group-title="CHILE",PLENITUD TV HD SSH
-https://live20.bozztv.com/akamaissh101/ssh101/testvideo40/chunks.m3u8
+https://183.giatvcdn.com/akamaissh101/ssh101/testvideo40/chunks.m3u8
 
 
 
@@ -1806,11 +1815,11 @@ https://vs20.live.opencaster.com/canal24_35651ede/index.m3u8
 
 
 #EXTINF:-1 tvg-logo="https://tinyurl.com/Fabivision"group-title="BOLIVIA", FABIÁN VISIÓN 
-https://lbgo.bozztv.com/ssh101/ssh101/fabiantv182/chunks.m3u8
+https://183.giatvcdn.com/ssh101/ssh101/fabiantv182/chunks.m3u8
 
 
 #EXTINF:-1 tvg-logo="https://i.ibb.co/VYdGj5Dx/Screenshot-20260629-215048.png"group-title="BOLIVIA", PUNTO TV
-https://lbgo.bozztv.com/ssh101/ssh101/bolivia2027/playlist.m3u8
+https://183.giatvcdn.com/ssh101/ssh101/bolivia2027/playlist.m3u8
 
 
 
@@ -1821,7 +1830,7 @@ https://mist01.homestream.fun/hls/interactivotv2/0_1/index.m3u8
 
 
 #EXTINF:-1 tvg-logo="https://i.ibb.co/twwhpNg7/1768151365360.png"group-title="BOLIVIA",MIX TV BOLIVIA
-https://183.bozztv.com/giatv/giatv-neogogoplaymix/neogogoplaymix/playlist.m3u8
+https://183.giatvcdn.com/giatv/giatv-neogogoplaymix/neogogoplaymix/playlist.m3u8
 
 #EXTINF:-1 tvg-logo="https://tinyurl.com/2n5xj7x3"group-title="BOLIVIA", INTERACTIVO TV 1
 https://mist01.homestream.fun/hls/interactivotv/0_1/index.m3u8
@@ -1829,7 +1838,7 @@ https://mist01.homestream.fun/hls/interactivotv/0_1/index.m3u8
 
 
 #EXTINF:-1 tvg-logo="https://i.ibb.co/6JmLnryp/images-57.png"group-title="BOLIVIA", GOGOPLAY
-https://giatv.bozztv.com/giatv/giatv-NEOGOGOPLAY/NEOGOGOPLAY/chunks.m3u8
+https://183.giatvcdn.com/giatv/giatv-NEOGOGOPLAY/NEOGOGOPLAY/chunks.m3u8
 
  
 
@@ -2170,7 +2179,7 @@ https://59d39900ebfb8.streamlock.net/islatv/islatv/chunklist_w469325456.m3u8
 
 
 #EXTINF:-1 tvg-logo=""group-title="VENEZUELA",TELEBOLIVAR
-https://live20.bozztv.com/akamaissh101/ssh101/telebolivar/chunks.m3u8
+https://183.giatvcdn.com/akamaissh101/ssh101/telebolivar/chunks.m3u8
 
 #EXTINF:-1 tvg-logo="https://static.wikia.nocookie.net/logopedia/images/0/07/Telesur_HD_%282017%29.png/revision/latest/scale-to-width-down/250?cb=20220719221045"group-title="VENEZUELA",TELESUR HD
 https://mblesmain01.telesur.ultrabase.net/mbliveMain/480p/playlist.m3u8
@@ -2259,7 +2268,7 @@ https://streamtv.intervenhosting.net:3718/live/kandelamedioslive.m3u8
 
 
 #EXTINF:-1 tvg-logo=""group-title="VENEZUELA",CHIVACOA TV
-https://live20.bozztv.com/akamaissh101/ssh101/1234chivacoa/chunks.m3u8
+https://183.giatvcdn.com/akamaissh101/ssh101/1234chivacoa/chunks.m3u8
 
 
 
@@ -2441,7 +2450,7 @@ https://eu1.servers10.com:8081/8020/index.m3u8
 
 
 #EXTINF:-1 tvg-logo="https://cdn.phototourl.com/member/2026-09-24-4d1812dc-973d-49a0-8924-ffe58e412ed5.png"group-title="ECUADOR",CHEVERE
-https://lbgo.bozztv.com/ssh101/ssh101/mioevento/playlist.m3u8
+https://183.giatvcdn.com/ssh101/ssh101/mioevento/playlist.m3u8
 
 
 #EXTINF:-1 tvg-logo="https://i.ibb.co/ks6d80Pf/file-00000000b248720ea6dee41be1f207fd.png"group-title="ECUADOR",PJ MUSICAL
@@ -2519,7 +2528,7 @@ https://video.compuwebecuador.com:3067/live/tvcolorlive.m3u8
 
 
 #EXTINF:-1 tvg-logo="https://i.ibb.co/fYnHSyF6/Screenshot-20260415-125251.png"group-title="ECUADOR", PANTALLA CLÁSICA 
-https://live20.bozztv.com:443/akamaissh101/ssh101/pantallaclasics/chunks.m3u8
+https://183.giatvcdn.com:443/akamaissh101/ssh101/pantallaclasics/chunks.m3u8
 
 
 #EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/9/94/Gamavisi%C3%B3n2018new.png"group-title="ECUADOR",GAMAVISION 
@@ -2773,7 +2782,7 @@ https://5f2c1b0d880e5.streamlock.net/tv42/tv42.smil/chunklist_w1143532473_b34280
 
 
 #EXTINF:-1 tvg-logo=""group-title="MEXICO",CANAL 69
-https://live20.bozztv.com:443/akamaissh101/ssh101/canal69/chunks.m3u8
+https://183.giatvcdn.com:443/akamaissh101/ssh101/canal69/chunks.m3u8
 
 
 
@@ -2791,7 +2800,7 @@ https://vivo.canaloncelive.tv/oncedos/ngrp:pruebachunks_all/chunklist_b2098304.m
 
 
 #EXTINF:-1 tvg-logo=""group-title="MEXICO",CANAL DOCE
-https://live20.bozztv.com:443/akamaissh101/ssh101/ochotv/chunks.m3u8
+https://183.giatvcdn.com:443/akamaissh101/ssh101/ochotv/chunks.m3u8
 
 #EXTINF:-1 tvg-logo="https://static.wikia.nocookie.net/doblaje/images/0/03/MVS_TV_logo.jpg/revision/latest/thumbnail/width/360/height/360?cb=20110905153043&path-prefix=es"group-title="MEXICO",MVS TV  
 https://mvs-live.daioncdn.net/mvstv/mvstv_1080p.m3u8 
@@ -2957,10 +2966,10 @@ https://cdn.streamhispanatv.net:3831/live/conosurlive.m3u8
 
 
 #EXTINF:-1 tvg-logo=""group-title="GUATEMALA", CANAL 12
-https://live20.bozztv.com/akamaissh101/ssh101/ochotv/chunks.m3u8
+https://183.giatvcdn.com/akamaissh101/ssh101/ochotv/chunks.m3u8
 
 #EXTINF:-1 tvg-logo=""group-title="GUATEMALA",MEGA
-https://live20.bozztv.com/akamaissh101/ssh101/928565960/chunks.m3u8
+https://183.giatvcdn.com/akamaissh101/ssh101/928565960/chunks.m3u8
 
 
 #EXTINF:-1 tvg-logo="https://static-cdn.jtvnw.net/jtv_user_pictures/8c3237ce-0a3c-47f0-be0c-c4916e291807-profile_image-150x150.png"group-title="GUATEMALA",PELÍCULAS_MANIA HD
