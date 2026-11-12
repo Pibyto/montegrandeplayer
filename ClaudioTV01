@@ -641,6 +641,8 @@ https://videostream.shockmedia.com.ar:19360/telejunin/telejunin.m3u8
 https://183.giatvcdn.com/giatvplayout7/giatv-208817/tracks-v1a1/mono.ts.m3u8
 
 
+#EXTINF:-1 tvg-logo="https://i.ibb.co/LDH9d0CB/Polish-20260713-152652011-6.png"group-title="CINE PREMIUM", MAXCINE KIDS
+https://183.giatvcdn.com/giatvplayout7/giatv-209909/tracks-v1a1/mono.ts.m3u8
 
 
 #EXTINF:-1 tvg-logo="https://i.ibb.co/t0dGDFR/Polish-20260713-152652011-7.png"group-title="CINE PREMIUM", MAX CINE
