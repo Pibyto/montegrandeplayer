@@ -5,6 +5,29 @@
 
 
 
+
+#EXTINF:-1 tvg-logo="https://tinyurl.com/Mgtevebanner"group-title="BUENOS AIRES",MONTEGRANDETV
+https://183.giatvcdn.com/giatvplayout7/giatv-209181/tracks-v1a1/mono.ts.m3u8
+
+
+#EXTINF:-1 tvg-logo="https://i.ibb.co/FQLB6ht/file-000000001ee4820eb6e45694b098a80f.png"group-title="BUENOS AIRES", MGTV WORSHIP
+https://183.giatvcdn.com/giatvplayout7/giatv-212009/tracks-v1a1/mono.ts.m3u8
+
+
+#EXTINF:-1 tvg-logo="https://i.ibb.co/v4FM17Lr/file-000000003dd0720eacfc6285ecb80b77.png"group-title="BUENOS AIRES ",MONTEGRANDETV INFANTIL 
+https://183.giatvcdn.com/giatvplayout7/giatv-208538/tracks-v1a1/mono.ts.m3u8
+
+
+#EXTINF:-1 tvg-logo="https://i.ibb.co/tTbt5MzZ/file-00000000b3c0820e945ea1d51428a4da.png"group-title="BUENOS AIRES",MGTV FE VIVA
+https://183.giatvcdn.com/giatvplayout7/giatv-208770/tracks-v1a1/mono.ts.m3u8
+
+
+#EXTINF:-1 tvg-logo="https://i.ibb.co/tPY671yt/HD-wallpaper-ios-14-ipados-dark-red-and-black-stock-abstract-3.png"group-title="BUENOS AIRES", MOVIEFLIX SERIES
+https://183.giatvcdn.com/giatvplayout7/giatv-212443/tracks-v1a1/mono.ts.m3u8
+
+
+
+
 #EXTINF:-1 tvg-logo="https://i.ibb.co/q3mftBF7/HD-wallpaper-ios-14-ipados-dark-red-and-black-stock-abstract-1.png"group-title="BUENOS AIRES", MOVIEFLIX
 https://vs20.live.opencaster.com/montetv_49c0778f/index.m3u8
 
@@ -158,8 +181,9 @@ https://dwamdstream104.akamaized.net/hls/live/2015530/dwstream104/stream04/strea
 
 
 
-#EXTINF:-1 tvg-logo="https://i.ibb.co/nMfXKRY7/file-00000000e454820ea6ec23736d49c485.png"group-title="BUENOS AIRES", RESTELLI TV 
-https://live20.bozztv.com/giatvplayout7/giatv-208744/tracks-v1a1/mono.m3u8
+#EXTINF:-1 tvg-logo="https://i.ibb.co/nMfXKRY7/file-00000000e454820ea6ec23736d49c485.png"group-title="BUENOS AIRES", RESTELLI TV
+https://183.giatvcdn.com/giatvplayout7/giatv-208744/tracks-v1a1/mono.ts.m3u8
+
 
 
 
@@ -597,20 +621,26 @@ https://videostream.shockmedia.com.ar:19360/telejunin/telejunin.m3u8
 
 
 #EXTINF:-1 tvg-logo="https://i.ibb.co/kPNwRS2/Polish-20260713-152652011-4.png"group-title="CINE PREMIUM",MAXCINE FAMILY
-https://live20.bozztv.com/giatvplayout7/giatv-208817/playlist.m3u8
+https://183.giatvcdn.com/giatvplayout7/giatv-208817/tracks-v1a1/mono.ts.m3u8
+
+
 
 
 #EXTINF:-1 tvg-logo="https://i.ibb.co/t0dGDFR/Polish-20260713-152652011-7.png"group-title="CINE PREMIUM", MAX CINE
-https://live20.bozztv.com/giatvplayout7/giatv-208138/tracks-v1a1/mono.m3u8
-
+https://183.giatvcdn.com/giatvplayout7/giatv-208138/tracks-v1a1/mono.ts.m3u8
 
 
 #EXTINF:-1 tvg-logo="https://tinyurl.com/Max2banner"group-title="CINE PREMIUM",MAX2
-https://live20.bozztv.com/giatvplayout7/giatv-209163/playlist.m3u8
+https://183.giatvcdn.com/giatvplayout7/giatv-209163/tracks-v1a1/mono.ts.m3u8
+
+
+
 
 
 #EXTINF:-1 tvg-logo="https://i.ibb.co/qFWgHyTq/Polish-20260713-152652011-5.png"group-title="CINE PREMIUM", MAXCINE COMEDY
-https://live20.bozztv.com/giatvplayout7/giatv-208730/playlist.m3u8
+https://183.giatvcdn.com/giatvplayout7/giatv-208730/tracks-v1a1/mono.ts.m3u8
+
+
 
 
 #EXTINF:-1 tvg-logo="https://i.ibb.co/nszz9RHZ/realistic-neon-lights-background-23-2148903052-3.png"group-title="CINE PREMIUM",ENT MOVIES
@@ -861,10 +891,15 @@ https://live20.bozztv.com/giatvplayout7/giatv-211465/playlist.m3u8
 
 
 #EXTINF:-1 tvg-logo="https://i.ibb.co/LDH9d0CB/Polish-20260713-152652011-6.png"group-title="KIDS", MAXCINE KIDS
-https://live20.bozztv.com/giatvplayout7/giatv-209909/playlist.m3u8
+https://183.giatvcdn.com/giatvplayout7/giatv-209909/tracks-v1a1/mono.ts.m3u8
+
+
+
 
 #EXTINF:-1 tvg-logo="https://i.ibb.co/8D10JTkH/file-000000003dd0720eacfc6285ecb80b77-1.png"group-title="KIDS",MONTEGRANDETV KIDS
-https://live20.bozztv.com/giatvplayout7/giatv-208538/playlist.m3u8
+https://183.giatvcdn.com/giatvplayout7/giatv-208538/tracks-v1a1/mono.ts.m3u8
+
+
 
 
 #EXTINF:-1 tvg-logo="https://logos-marcas.com/wp-content/uploads/2022/01/Disney-Junior-Logo.png"group-title="KIDS",DISNEY JR
