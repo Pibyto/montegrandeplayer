@@ -29,12 +29,18 @@ https://183.giatvcdn.com/giatvplayout7/giatv-212443/tracks-v1a1/mono.ts.m3u8
 
 
 #EXTINF:-1 tvg-logo="https://i.ibb.co/q3mftBF7/HD-wallpaper-ios-14-ipados-dark-red-and-black-stock-abstract-1.png"group-title="BUENOS AIRES", MOVIEFLIX
-https://vs20.live.opencaster.com/montetv_49c0778f/index.m3u8
+https://183.giatvcdn.com/ssh101/ssh101/montegrandetv/chunks.m3u8
+
+
 
 
 
 #EXTINF:-1 tvg-logo="https://cdn.phototourl.com/member/2026-09-25-1af1a900-0d7a-4477-8a1b-2b3a6ff757d3.png"group-title="BUENOS AIRES",MGTV SIEMPRE+
-https://vs20.live.opencaster.com/montegrandetv3_cf48df6a/index.m3u8
+https://183.giatvcdn.com/ssh101/ssh101/mgradiotv/playlist.m3u8
+
+
+
+
 
 
 #EXTINF:-1 tvg-logo="https://i.ibb.co/m50nZYxv/1789262677071.png"group-title="BUENOS AIRES",NEOTV HD
