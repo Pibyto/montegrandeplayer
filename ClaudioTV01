@@ -751,7 +751,7 @@ https://tv3ecuador.site/hls/stream/index.m3u8
 
 
 
-#EXTINF:-1 tvg-logo="https://tinyurl.com/Postermax"group-title="CINE PREMIUM",AMC ESPAÑOL
+#EXTINF:-1 tvg-logo="https://i.ibb.co/r2RSKhTR/IMG-20261111-211823587-2.jpg"group-title="CINE PREMIUM",AMC ESPAÑOL
 https://4972c88f2f4c48bf9a9a5f4fd3623cbd.mediatailor.us-east-1.amazonaws.com/v1/manifest/0fb304b2320b25f067414d481a779b77db81760d/Vizio_AMCenEspanol/8b98c72a-ff0c-4f7d-b8d0-23b8393d6ce2/4.m3u8
 
 
@@ -980,6 +980,10 @@ https://live20.bozztv.com/giatvplayout7/giatv-210703/playlist.m3u8
 
 #EXTINF:-1 tvg-logo="https://i.ytimg.com/vi/bNYoAEREWks/maxresdefault.jpg"group-title="CINE PREMIER",CINESONY
 https://a-cdn.klowdtv.com/live1/cine_720p/chunks.m3u8
+
+
+#EXTINF:-1 tvg-logo="https://i.ibb.co/r2RSKhTR/IMG-20261111-211823587-2.jpg"group-title="CINE PREMIER",AMC ESPAÑOL
+https://4972c88f2f4c48bf9a9a5f4fd3623cbd.mediatailor.us-east-1.amazonaws.com/v1/manifest/0fb304b2320b25f067414d481a779b77db81760d/Vizio_AMCenEspanol/8b98c72a-ff0c-4f7d-b8d0-23b8393d6ce2/4.m3u8
 
 
 
