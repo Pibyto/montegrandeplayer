@@ -6,11 +6,11 @@
 
 
 
-#EXTINF:-1 tvg-logo="https://tinyurl.com/Mgtevebanner"group-title="BUENOS AIRES",MONTEGRANDETV
+#EXTINF:-1 tvg-logo="https://tinyurl.com/Mgtevebanner"group-title="BUENOS AIRES",MGTV NETWORK 
 https://183.giatvcdn.com/giatvplayout7/giatv-209181/tracks-v1a1/mono.ts.m3u8
 
 
-#EXTINF:-1 tvg-logo="https://i.ibb.co/FQLB6ht/file-000000001ee4820eb6e45694b098a80f.png"group-title="BUENOS AIRES", MGTV WORSHIP
+#EXTINF:-1 tvg-logo="https://i.ibb.co/1yVzGFk/file-000000001ee4820eb6e45694b098a80f-1.png"group-title="BUENOS AIRES", MGTV WORSHIP
 https://183.giatvcdn.com/giatvplayout7/giatv-212009/tracks-v1a1/mono.ts.m3u8
 
 
@@ -18,7 +18,7 @@ https://183.giatvcdn.com/giatvplayout7/giatv-212009/tracks-v1a1/mono.ts.m3u8
 https://183.giatvcdn.com/giatvplayout7/giatv-208538/tracks-v1a1/mono.ts.m3u8
 
 
-#EXTINF:-1 tvg-logo="https://i.ibb.co/tTbt5MzZ/file-00000000b3c0820e945ea1d51428a4da.png"group-title="BUENOS AIRES",MGTV FE VIVA
+#EXTINF:-1 tvg-logo="https://i.ibb.co/YB59kx9W/istockphoto-1156318617-612x612-1.png"group-title="BUENOS AIRES",MGTV FE VIVA
 https://183.giatvcdn.com/giatvplayout7/giatv-208770/tracks-v1a1/mono.ts.m3u8
 
 
@@ -35,7 +35,7 @@ https://183.giatvcdn.com/ssh101/ssh101/montegrandetv/chunks.m3u8
 
 
 
-#EXTINF:-1 tvg-logo="https://cdn.phototourl.com/member/2026-09-25-1af1a900-0d7a-4477-8a1b-2b3a6ff757d3.png"group-title="BUENOS AIRES",MGTV SIEMPRE+
+#EXTINF:-1 tvg-logo="https://i.ibb.co/YF3TBrcM/istockphoto-1156318617-612x612.png"group-title="BUENOS AIRES",MGTV SIEMPRE+
 https://183.giatvcdn.com/ssh101/ssh101/mgradiotv/playlist.m3u8
 
 
@@ -2305,7 +2305,8 @@ https://183.giatvcdn.com/akamaissh101/ssh101/1234chivacoa/chunks.m3u8
 
 
 
-
+#EXTINF:-1 tvg-logo="https://i.ibb.co/7t1nqqbY/file-00000000594c820eb054e43b36c0540c.png"group-title="PERÚ",CUSCO PLAY 
+https://stmv2.srvif.com/cuscoplay/cuscoplay/playlist.m3u8
 
 
 
