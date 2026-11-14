@@ -2774,7 +2774,7 @@ https://channel01-onlymex.akamaized.net/hls/live/2022749/event01/index_6.m3u8
 
 
 #EXTINF:-1 tvg-logo=""group-title="MEXICO",LMS
-https://live20.bozztv.com:443/akamaissh101/ssh101/canallms/chunks.m3u8
+https://183.giatvcdn.com:443/akamaissh101/ssh101/canallms/chunks.m3u8
 
 
 #EXTINF:-1 tvg-logo=""group-title="MEXICO",AZTEKA 
@@ -3106,7 +3106,7 @@ https://5bf8041cb3fed.streamlock.net/TUUNIVERSOTV/TUUNIVERSOTV/chunklist_w815871
 
 
 #EXTINF:-1 tvg-logo="https://i.ibb.co/j9B3Dm4j/1768077488179.png"group-title="COLOMBIA",WOW MOVIES
-https://live20.bozztv.com/giatv/giatv-wowmovies/wowmovies/chunks.m3u8
+https://183.giatvcdn.com/giatv/giatv-wowmovies/wowmovies/chunks.m3u8
 
 
 #EXTINF:-1 tvg-logo="https://canaltelefamilia.com/wp-content/uploads/2021/02/Logo-Blanco.png"group-title="COLOMBIA",TELEFAMILIA HD
@@ -3151,7 +3151,7 @@ https://streaming5.globalhostla.com/rtplive/unamirad/chunklist_w121291995.m3u8
 
 
 #EXTINF:-1 tvg-logo="https://i.ibb.co/0j03VgYG/images-31.png"group-title="COLOMBIA",INTER CONECTV
-https://live20.bozztv.com:443/akamaissh101/ssh101/conecttv/chunks.m3u8
+https://183.giatvcdn.com:443/akamaissh101/ssh101/conecttv/chunks.m3u8
 
 
 
@@ -3213,7 +3213,7 @@ https://movil.ejeserver.com/live/calimatv.m3u8
 
 
 #EXTINF:-1 tvg-logo="https://i.ibb.co/W4dKw05Q/IMG-20261019-WA0155.jpg"group-title="R.DOMINICANA", METROTV
-https://lbgo.bozztv.com/ssh101/ssh101/metrotv/chunks.m3u8
+https://183.giatvcdn.com/ssh101/ssh101/metrotv/chunks.m3u8
 
 
 #EXTINF:-1 tvg-logo="https://i.ytimg.com/vi/XuI4m5yKAwE/hq720.jpg?sqp=-oaymwE7CK4FEIIDSFryq4qpAy0IARUAAAAAGAElAADIQj0AgKJD8AEB-AH-CYAC0AWKAgwIABABGHIgOig6MA8=&rs=AOn4CLDQ8LGMt9m_bCCL2rfVThba3rKAhA"group-title="R.DOMINICANA", AHORATV 3
@@ -3308,7 +3308,7 @@ https://cdnfox.hostlagarto.com/telenord10/index.m3u8
 
 
 #EXTINF:-1 tvg-logo="https://www.vivalivetv.com/public/files/shows/0/1/3572-800x450-FFFFFF.jpg"group-title="R.DOMINICANA",MULTIVISION
-https://lbgo.bozztv.com/ssh101/ssh101/canalmulti24/chunks.m3u8
+https://183.giatvcdn.com/ssh101/ssh101/canalmulti24/chunks.m3u8
 
 
 
@@ -3344,7 +3344,7 @@ https://cnn.hostlagarto.com/orbittv/tracks-v1a1/mono.m3u8
 
 
 #EXTINF:-1 tvg-logo="https://i.ibb.co/ymFs1w06/IMG-20260802-WA0031.png"group-title="R.DOMINICANA",ARRETAO TV
-https://183.bozztv.com/giatv/giatv-arretaotv/arretaotv/chunks.m3u8
+https://183.giatvcdn.com/giatv/giatv-arretaotv/arretaotv/chunks.m3u8
 
 
 #EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT6te1eJTZebBa6wcKz8vs4h5cw2sWx08vyrxW0E-vbdBEFEQtJJ8hn7T91&s=10"group-title="R.DOMINICANA",AME TV
@@ -3560,7 +3560,7 @@ https://stream.giostreaming.app/rtvcanal57/rtvcanal57.m3u8
 
 
 #EXTINF:-1 tvg-logo="https://i.pinimg.com/736x/5c/9b/6e/5c9b6e1b2af92c10667bcca91d359d98.jpg"group-title="ELSALVADOR",CANAL 58
-https://183.bozztv.com/giatv/giatv-canal58elsalvador/canal58elsalvador/chunks.m3u8
+https://183.giatvcdn.com/giatv/giatv-canal58elsalvador/canal58elsalvador/chunks.m3u8
 
 
 
@@ -3702,10 +3702,10 @@ https://mdstrm.com/live-stream-playlist/65a1d2fd7e7f14355550d570.m3u8
 
 
 #EXTINF:-1 tvg-logo="https://i.ibb.co/3mk07Zcf/212036.png"group-title="HONDURAS",RAD10TV PALABRA VIVA 
-https://live20.bozztv.com/giatvplayout7/giatv-212036/playlist.m3u8
+https://183.giatvcdn.com/giatvplayout7/giatv-212036/playlist.m3u8
 
 #EXTINF:-1 tvg-logo="https://i.ibb.co/nNJYqx8m/IMG-20260630-WA0077.png"group-title="HONDURAS", PALABRA VIVA
-https://lbgo.bozztv.com/ssh101/ssh101/palabravivahn/playlist.m3u8
+https://183.giatvcdn.com/ssh101/ssh101/palabravivahn/playlist.m3u8
 
 
 #EXTINF:-1 tvg-logo=""group-title="HONDURAS",CANAL 11
@@ -3961,12 +3961,12 @@ https://canadaremar2.todostreaming.es/live/solidariatv-webhd.m3u8
 
 
 #EXTINF:-1 tvg-logo="https://i.ibb.co/SvF8DQC/3dgifmaker23584.gif"group-title="CRISTIANO",PLENITUD TV HD 24/7
-https://live20.bozztv.com/giatvplayout7/giatv-208727/tracks-v1a1/mono.m3u8
+https://183.giatvcdn.com/giatvplayout7/giatv-208727/tracks-v1a1/mono.m3u8
 
 
 
 #EXTINF:-1 tvg-logo="https://i.ibb.co/0RW7vLm8/IMG-20250330-WA0067.jpg"group-title="CRISTIANO",PLENITUD TV JUVENIL 
-https://stream.gia.tv/giatvplayout7/giatv-209259/tracks-v1a1/mono.m3u8
+https://183.giatvcdn.com/giatvplayout7/giatv-209259/tracks-v1a1/mono.m3u8
 
 
 #EXTINF:-1 tvg-logo="https://i.ibb.co/5htMqD4t/IMG-20250330-WA0069.jpg"group-title="CRISTIANO",ENLÁCE JUVENIL
@@ -3981,7 +3981,7 @@ https://livecdn.enlace.plus/ejtv/smil:ejtv-hd.smil/playlist.m3u8
 
 
 #EXTINF:-1 tvg-logo="https://www.portalvoxhd.com.br/estacoes/webtv-303.png"group-title="CRISTIANO", PRESENCIA KIDS
-https://ssh101stream.ssh101.com/akamaissh101/ssh101/kidsenvivo/playlist.m3u8
+https://183.giatvcdn.com/akamaissh101/ssh101/kidsenvivo/playlist.m3u8
 
 
 
